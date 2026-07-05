@@ -1,0 +1,78 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_3",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "能耗最少",
+        "strategy": "energy_saving",
+        "score": 51.74,
+        "topsis_score": 31.06,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "city": "wuhan_wuchang",
+        "dataset_key": "wuhan_wuchang"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.299446,
+            30.5279678,
+            15.0
+          ],
+          [
+            114.299446,
+            30.5339033,
+            20.0
+          ],
+          [
+            114.3040406,
+            30.5418173,
+            20.0
+          ],
+          [
+            114.3063379,
+            30.5437958,
+            20.0
+          ],
+          [
+            114.3109325,
+            30.5457743,
+            20.0
+          ],
+          [
+            114.3178244,
+            30.5517099,
+            20.0
+          ],
+          [
+            114.3201217,
+            30.5576454,
+            20.0
+          ],
+          [
+            114.3201217,
+            30.5596239,
+            20.0
+          ],
+          [
+            114.3270136,
+            30.5635809,
+            20.0
+          ],
+          [
+            114.3476893,
+            30.5655594,
+            10.0
+          ]
+        ]
+      }
+    }
+  ]
+}

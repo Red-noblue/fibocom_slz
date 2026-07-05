@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_5",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "最畅通路线",
+        "strategy": "most_accessible",
+        "score": 45.15,
+        "topsis_score": 21.64,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.0400711,
+            22.5294893,
+            120.0
+          ],
+          [
+            114.0379289,
+            22.5492743,
+            160.0
+          ],
+          [
+            114.0700612,
+            22.5512528,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

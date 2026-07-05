@@ -1,0 +1,7 @@
+*
+!.gitignore
+!skills/
+!skills/*/
+!skills/*/**
+skills/.system/
+skills/.system/**

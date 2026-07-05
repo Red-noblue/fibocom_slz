@@ -1,0 +1,13 @@
+name: uav-modules
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - folium
+  - joblib
+  - matplotlib
+  - numpy
+  - pandas
+  - requests
+  - scikit-learn

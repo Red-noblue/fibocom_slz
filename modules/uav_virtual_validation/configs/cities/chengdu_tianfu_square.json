@@ -1,0 +1,20 @@
+{
+  "name": "chengdu_tianfu_square",
+  "display_name": "成都 Tianfu Square",
+  "description": "成都天府广场与中心城区，适合西部城市核心区任务演示和人口密集区约束表达。",
+  "center": {"lat": 30.6570, "lon": 104.0665},
+  "bbox": {"south": 30.6510, "west": 104.0580, "north": 30.6645, "east": 104.0770},
+  "default_route": [
+    {"lat": 30.6450, "lon": 104.0520, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 30.6510, "lon": 104.0580, "altitude_m": 135.0, "label": "中心城区转向点"},
+    {"lat": 30.6570, "lon": 104.0665, "altitude_m": 155.0, "label": "核心避让点"},
+    {"lat": 30.6640, "lon": 104.0750, "altitude_m": 140.0, "label": "巡航点"},
+    {"lat": 30.6700, "lon": 104.0820, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 24.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

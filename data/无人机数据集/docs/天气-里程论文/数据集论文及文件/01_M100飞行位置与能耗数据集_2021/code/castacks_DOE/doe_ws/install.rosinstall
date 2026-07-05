@@ -1,0 +1,21 @@
+- git:
+    local-name: anemometer
+    uri: git@bitbucket.org:castacks/anemometer.git
+- git:
+    local-name: battery
+    uri: git@bitbucket.org:castacks/battery.git
+- git:
+    local-name: environmental_sensor
+    uri: git@bitbucket.org:castacks/environmental_sensor.git
+- git:
+    local-name: filtering
+    uri: git@bitbucket.org:castacks/filtering.git
+- git:
+    local-name: microstrain_mips
+    uri: git@bitbucket.org:castacks/doe_microstrain_mips.git
+- git:
+    local-name: nav_msgs
+    uri: git@bitbucket.org:castacks/doe_pi_nav_msgs.git
+- git:
+    local-name: record
+    uri: git@bitbucket.org:castacks/doe_pi_record.git

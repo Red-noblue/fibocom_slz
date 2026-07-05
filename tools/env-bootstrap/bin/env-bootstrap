@@ -1,0 +1,512 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+SCRIPT_DIR=$(cd -- "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+TOOL_ROOT=$(cd -- "${SCRIPT_DIR}/.." && pwd)
+REPO_ROOT=$(cd -- "${TOOL_ROOT}/../.." && pwd)
+DEFAULT_ROOT_PREFIX="${TOOL_ROOT}/runtime/root-prefix"
+DEFAULT_SHARED_ENVS_ROOT="${REPO_ROOT}/._envs"
+MANIFESTS_DIR="${TOOL_ROOT}/manifests"
+
+usage() {
+  cat <<'EOF'
+Usage:
+  env-bootstrap doctor <manifest>
+  env-bootstrap sync <manifest>
+  env-bootstrap run <manifest> -- <command> [args...]
+  env-bootstrap list
+  env-bootstrap prune [--yes]
+  env-bootstrap freeze-explicit <manifest> <output-file>
+
+Manifest files are bash snippets that define:
+  PROJECT_NAME="..."
+  ENV_FILE="relative/or/absolute/environment.yml"
+  ENV_PREFIX="relative/or/absolute/.conda-env"
+  EDITABLES=("relative/package/path" ...)
+EOF
+}
+
+die() {
+  printf 'env-bootstrap: %s\n' "$*" >&2
+  exit 1
+}
+
+abs_path() {
+  local base_dir="$1"
+  local raw_path="$2"
+  local parent
+  local base_name
+
+  if [[ "${raw_path}" = /* ]]; then
+    parent=$(dirname -- "${raw_path}")
+    base_name=$(basename -- "${raw_path}")
+    parent=$(cd -- "${parent}" && pwd)
+    printf '%s/%s\n' "${parent}" "${base_name}"
+    return
+  fi
+
+  parent=$(dirname -- "${raw_path}")
+  base_name=$(basename -- "${raw_path}")
+  parent=$(cd -- "${base_dir}/${parent}" && pwd)
+  printf '%s/%s\n' "${parent}" "${base_name}"
+}
+
+shared_envs_root() {
+  if [[ -n "${ENV_BOOTSTRAP_ENVS_ROOT:-}" ]]; then
+    abs_path "${PWD}" "${ENV_BOOTSTRAP_ENVS_ROOT}"
+    return
+  fi
+
+  printf '%s\n' "${DEFAULT_SHARED_ENVS_ROOT}"
+}
+
+detect_platform() {
+  local os arch
+  os=$(uname -s)
+  arch=$(uname -m)
+
+  case "${os}:${arch}" in
+    Linux:x86_64) printf 'linux-64\n' ;;
+    Linux:aarch64) printf 'linux-aarch64\n' ;;
+    Linux:ppc64le) printf 'linux-ppc64le\n' ;;
+    Darwin:x86_64) printf 'osx-64\n' ;;
+    Darwin:arm64) printf 'osx-arm64\n' ;;
+    *)
+      die "unsupported platform ${os}/${arch}"
+      ;;
+  esac
+}
+
+download_file() {
+  local url="$1"
+  local output="$2"
+  local max_time="${3:-60}"
+
+  if command -v curl >/dev/null 2>&1; then
+    curl -LfsS --connect-timeout 10 --max-time "${max_time}" "${url}" -o "${output}"
+    return
+  fi
+
+  if command -v wget >/dev/null 2>&1; then
+    wget -q --timeout="${max_time}" "${url}" -O "${output}"
+    return
+  fi
+
+  die "curl or wget is required to download micromamba"
+}
+
+extract_micromamba() {
+  local archive_path="$1"
+  local target_dir="$2"
+
+  mkdir -p "${target_dir}"
+  tar -xjf "${archive_path}" -C "${target_dir}"
+}
+
+download_micromamba_package() {
+  local platform="$1"
+  local target_dir="$2"
+  local temp_dir archive_path
+
+  temp_dir=$(mktemp -d)
+  archive_path="${temp_dir}/micromamba.tar.bz2"
+
+  if ! download_file "https://micro.mamba.pm/api/micromamba/${platform}/latest" "${archive_path}" 20; then
+    rm -f "${archive_path}"
+    download_file "$(resolve_conda_forge_micromamba_url "${platform}")" "${archive_path}"
+  fi
+
+  extract_micromamba "${archive_path}" "${target_dir}"
+  rm -rf "${temp_dir}"
+}
+
+resolve_conda_forge_micromamba_url() {
+  local platform="$1"
+  local temp_dir repodata_path package_name
+
+  command -v python3 >/dev/null 2>&1 || die "python3 is required for the conda-forge micromamba fallback"
+
+  temp_dir=$(mktemp -d)
+  repodata_path="${temp_dir}/current_repodata.json"
+  download_file "https://conda.anaconda.org/conda-forge/${platform}/current_repodata.json" "${repodata_path}"
+
+  package_name=$(python3 - "${repodata_path}" <<'PY'
+import json
+import sys
+
+with open(sys.argv[1], "r", encoding="utf-8") as fh:
+    data = json.load(fh)
+
+best_name = None
+best_ts = -1
+
+for filename, meta in data.get("packages", {}).items():
+    if meta.get("name") != "micromamba":
+        continue
+    ts = int(meta.get("timestamp", 0))
+    if ts > best_ts:
+        best_ts = ts
+        best_name = filename
+
+if not best_name:
+    raise SystemExit("micromamba package not found in current_repodata.json")
+
+print(best_name)
+PY
+)
+  rm -rf "${temp_dir}"
+
+  printf 'https://conda.anaconda.org/conda-forge/%s/%s\n' "${platform}" "${package_name}"
+}
+
+ensure_micromamba() {
+  local platform="$1"
+  local cached_dir="${TOOL_ROOT}/runtime/micromamba/${platform}"
+  local cached_bin="${cached_dir}/bin/micromamba"
+
+  if [[ -n "${ENV_BOOTSTRAP_MICROMAMBA_BIN:-}" ]]; then
+    [[ -x "${ENV_BOOTSTRAP_MICROMAMBA_BIN}" ]] || die "ENV_BOOTSTRAP_MICROMAMBA_BIN is not executable"
+    printf '%s\n' "${ENV_BOOTSTRAP_MICROMAMBA_BIN}"
+    return
+  fi
+
+  if [[ ! -x "${cached_bin}" ]]; then
+    mkdir -p "${cached_dir}"
+    download_micromamba_package "${platform}" "${cached_dir}"
+    chmod +x "${cached_bin}"
+  fi
+
+  printf '%s\n' "${cached_bin}"
+}
+
+micromamba_with_root() {
+  local micromamba_bin="$1"
+  shift
+  "${micromamba_bin}" --root-prefix "${ROOT_PREFIX_ABS}" "$@"
+}
+
+load_manifest() {
+  local manifest_path="$1"
+  local manifest_dir
+
+  [[ -f "${manifest_path}" ]] || die "manifest not found: ${manifest_path}"
+
+  manifest_path=$(abs_path "${PWD}" "${manifest_path}")
+  manifest_dir=$(dirname -- "${manifest_path}")
+
+  unset PROJECT_NAME ENV_FILE ENV_PREFIX ROOT_PREFIX || true
+  EDITABLES=()
+
+  # shellcheck disable=SC1090
+  source "${manifest_path}"
+
+  : "${PROJECT_NAME:?manifest must define PROJECT_NAME}"
+  : "${ENV_FILE:?manifest must define ENV_FILE}"
+  : "${ENV_PREFIX:?manifest must define ENV_PREFIX}"
+
+  MANIFEST_PATH="${manifest_path}"
+  MANIFEST_DIR="${manifest_dir}"
+  ENV_FILE_ABS=$(abs_path "${manifest_dir}" "${ENV_FILE}")
+  ENV_PREFIX_ABS=$(abs_path "${manifest_dir}" "${ENV_PREFIX}")
+  ROOT_PREFIX_ABS="${DEFAULT_ROOT_PREFIX}"
+
+  if [[ -n "${ROOT_PREFIX:-}" ]]; then
+    ROOT_PREFIX_ABS=$(abs_path "${manifest_dir}" "${ROOT_PREFIX}")
+  fi
+
+  EDITABLES_ABS=()
+  for editable in "${EDITABLES[@]}"; do
+    EDITABLES_ABS+=("$(abs_path "${manifest_dir}" "${editable}")")
+  done
+
+  [[ -f "${ENV_FILE_ABS}" ]] || die "environment file not found: ${ENV_FILE_ABS}"
+}
+
+run_in_env() {
+  local micromamba_bin="$1"
+  shift
+  micromamba_with_root "${micromamba_bin}" run -p "${ENV_PREFIX_ABS}" "$@"
+}
+
+sync_env() {
+  local micromamba_bin="$1"
+  local env_parent
+  local pip_args=()
+
+  mkdir -p "${ROOT_PREFIX_ABS}"
+  env_parent=$(dirname -- "${ENV_PREFIX_ABS}")
+  mkdir -p "${env_parent}"
+
+  if [[ -f "${ENV_PREFIX_ABS}/conda-meta/history" ]]; then
+    micromamba_with_root "${micromamba_bin}" install --yes -p "${ENV_PREFIX_ABS}" -f "${ENV_FILE_ABS}"
+  else
+    micromamba_with_root "${micromamba_bin}" create --yes -p "${ENV_PREFIX_ABS}" -f "${ENV_FILE_ABS}"
+  fi
+
+  run_in_env "${micromamba_bin}" python -m pip install --upgrade pip
+
+  if [[ ${#EDITABLES_ABS[@]} -gt 0 ]]; then
+    for editable in "${EDITABLES_ABS[@]}"; do
+      pip_args+=(-e "${editable}")
+    done
+    run_in_env "${micromamba_bin}" python -m pip install --no-deps "${pip_args[@]}"
+  fi
+}
+
+doctor() {
+  local micromamba_bin="$1"
+
+  printf 'project: %s\n' "${PROJECT_NAME}"
+  printf 'manifest: %s\n' "${MANIFEST_PATH}"
+  printf 'environment file: %s\n' "${ENV_FILE_ABS}"
+  printf 'environment prefix: %s\n' "${ENV_PREFIX_ABS}"
+  printf 'root prefix: %s\n' "${ROOT_PREFIX_ABS}"
+  printf 'micromamba: %s\n' "${micromamba_bin}"
+
+  if [[ -f "${ENV_PREFIX_ABS}/conda-meta/history" ]]; then
+    printf 'environment status: present\n'
+  else
+    printf 'environment status: missing\n'
+  fi
+
+  if [[ ${#EDITABLES_ABS[@]} -gt 0 ]]; then
+    printf 'editable packages:\n'
+    for editable in "${EDITABLES_ABS[@]}"; do
+      printf '  - %s\n' "${editable}"
+    done
+  fi
+}
+
+freeze_explicit() {
+  local micromamba_bin="$1"
+  local output_path="$2"
+  local output_dir
+
+  output_path=$(abs_path "${PWD}" "${output_path}")
+  output_dir=$(dirname -- "${output_path}")
+  mkdir -p "${output_dir}"
+
+  micromamba_with_root "${micromamba_bin}" list --explicit -p "${ENV_PREFIX_ABS}" > "${output_path}"
+  printf 'Wrote explicit lock to %s\n' "${output_path}"
+}
+
+prefix_in_root() {
+  local prefix="$1"
+  local envs_root="$2"
+  case "${prefix}" in
+    "${envs_root}"|"${envs_root}/"*) return 0 ;;
+    *) return 1 ;;
+  esac
+}
+
+prefix_state() {
+  local prefix="$1"
+
+  if [[ -f "${prefix}/conda-meta/history" ]]; then
+    printf 'present\n'
+    return
+  fi
+
+  if [[ -d "${prefix}" ]]; then
+    printf 'partial\n'
+    return
+  fi
+
+  printf 'missing\n'
+}
+
+dir_size_human() {
+  local dir_path="$1"
+
+  if [[ ! -d "${dir_path}" ]]; then
+    printf -- '-\n'
+    return
+  fi
+
+  du -sh "${dir_path}" 2>/dev/null | awk '{print $1}'
+}
+
+collect_manifests() {
+  local manifest_path
+
+  MANIFEST_RECORDS=()
+  MANAGED_PREFIXES=()
+
+  [[ -d "${MANIFESTS_DIR}" ]] || return
+
+  while IFS= read -r manifest_path; do
+    [[ -n "${manifest_path}" ]] || continue
+    load_manifest "${manifest_path}"
+    MANIFEST_RECORDS+=("${PROJECT_NAME}|${MANIFEST_PATH}|${ENV_PREFIX_ABS}")
+    MANAGED_PREFIXES+=("${ENV_PREFIX_ABS}")
+  done < <(find "${MANIFESTS_DIR}" -type f -name '*.env.sh' | sort)
+}
+
+managed_by_for_prefix() {
+  local prefix="$1"
+  local record project manifest_path manifest_base record_prefix
+
+  for record in "${MANIFEST_RECORDS[@]}"; do
+    IFS='|' read -r project manifest_path record_prefix <<< "${record}"
+    if [[ "${record_prefix}" == "${prefix}" ]]; then
+      manifest_base=$(basename -- "${manifest_path}")
+      printf '%s (%s)\n' "${project}" "${manifest_base}"
+      return
+    fi
+  done
+
+  printf -- '-\n'
+}
+
+is_managed_prefix() {
+  local prefix="$1"
+  local managed
+
+  for managed in "${MANAGED_PREFIXES[@]}"; do
+    if [[ "${managed}" == "${prefix}" ]]; then
+      return 0
+    fi
+  done
+
+  return 1
+}
+
+list_envs() {
+  local envs_root
+  local record project manifest_path prefix name state scope managed_by size dir_path
+
+  envs_root=$(shared_envs_root)
+  collect_manifests
+
+  printf 'shared env root: %s\n' "${envs_root}"
+  printf '%-22s  %-8s  %-8s  %-26s  %s\n' "NAME" "STATE" "SCOPE" "MANAGED BY" "PREFIX"
+
+  for record in "${MANIFEST_RECORDS[@]}"; do
+    IFS='|' read -r project manifest_path prefix <<< "${record}"
+    name=$(basename -- "${prefix}")
+    state=$(prefix_state "${prefix}")
+    managed_by=$(managed_by_for_prefix "${prefix}")
+    if prefix_in_root "${prefix}" "${envs_root}"; then
+      scope="shared"
+    else
+      scope="external"
+    fi
+    printf '%-22s  %-8s  %-8s  %-26s  %s\n' "${name}" "${state}" "${scope}" "${managed_by}" "${prefix}"
+  done
+
+  if [[ -d "${envs_root}" ]]; then
+    while IFS= read -r dir_path; do
+      [[ -n "${dir_path}" ]] || continue
+      if is_managed_prefix "${dir_path}"; then
+        continue
+      fi
+      name=$(basename -- "${dir_path}")
+      state=$(prefix_state "${dir_path}")
+      size=$(dir_size_human "${dir_path}")
+      printf '%-22s  %-8s  %-8s  %-26s  %s\n' "${name}" "${state}" "orphan" "size=${size}" "${dir_path}"
+    done < <(find "${envs_root}" -mindepth 1 -maxdepth 1 -type d ! -name '.*' | sort)
+  fi
+}
+
+prune_envs() {
+  local confirm="${1:-}"
+  local envs_root
+  local dir_path
+  local orphans=()
+
+  envs_root=$(shared_envs_root)
+  collect_manifests
+
+  [[ -d "${envs_root}" ]] || {
+    printf 'shared env root does not exist: %s\n' "${envs_root}"
+    return
+  }
+
+  while IFS= read -r dir_path; do
+    [[ -n "${dir_path}" ]] || continue
+    if is_managed_prefix "${dir_path}"; then
+      continue
+    fi
+    orphans+=("${dir_path}")
+  done < <(find "${envs_root}" -mindepth 1 -maxdepth 1 -type d ! -name '.*' | sort)
+
+  if [[ ${#orphans[@]} -eq 0 ]]; then
+    printf 'No orphan shared environments under %s\n' "${envs_root}"
+    return
+  fi
+
+  if [[ "${confirm}" != "--yes" ]]; then
+    printf 'Would remove these orphan shared environments:\n'
+    for dir_path in "${orphans[@]}"; do
+      printf '  - %s (%s)\n' "${dir_path}" "$(dir_size_human "${dir_path}")"
+    done
+    printf 'Re-run with --yes to delete them.\n'
+    return
+  fi
+
+  for dir_path in "${orphans[@]}"; do
+    rm -rf -- "${dir_path}"
+    printf 'Removed %s\n' "${dir_path}"
+  done
+}
+
+main() {
+  local command="${1:-}"
+  local platform micromamba_bin
+
+  [[ -n "${command}" ]] || {
+    usage
+    exit 1
+  }
+  shift
+
+  platform=$(detect_platform)
+
+  case "${command}" in
+    doctor)
+      [[ $# -eq 1 ]] || die "doctor requires a manifest path"
+      load_manifest "$1"
+      micromamba_bin=$(ensure_micromamba "${platform}")
+      doctor "${micromamba_bin}"
+      ;;
+    sync)
+      [[ $# -eq 1 ]] || die "sync requires a manifest path"
+      load_manifest "$1"
+      micromamba_bin=$(ensure_micromamba "${platform}")
+      sync_env "${micromamba_bin}"
+      ;;
+    run)
+      [[ $# -ge 3 ]] || die "run requires a manifest path and a command"
+      load_manifest "$1"
+      shift
+      [[ "$1" == "--" ]] || die "run requires -- before the command"
+      shift
+      micromamba_bin=$(ensure_micromamba "${platform}")
+      run_in_env "${micromamba_bin}" "$@"
+      ;;
+    list)
+      [[ $# -eq 0 ]] || die "list does not accept extra arguments"
+      list_envs
+      ;;
+    prune)
+      [[ $# -le 1 ]] || die "prune accepts at most one argument: --yes"
+      if [[ $# -eq 1 && "$1" != "--yes" ]]; then
+        die "prune only accepts --yes"
+      fi
+      prune_envs "${1:-}"
+      ;;
+    freeze-explicit)
+      [[ $# -eq 2 ]] || die "freeze-explicit requires a manifest path and output path"
+      load_manifest "$1"
+      micromamba_bin=$(ensure_micromamba "${platform}")
+      freeze_explicit "${micromamba_bin}" "$2"
+      ;;
+    *)
+      usage
+      exit 1
+      ;;
+  esac
+}
+
+main "$@"

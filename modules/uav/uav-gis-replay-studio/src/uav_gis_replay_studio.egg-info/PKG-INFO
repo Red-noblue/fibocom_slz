@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: uav-gis-replay-studio
+Version: 0.1.0
+Summary: GIS map and replay dashboard demo extracted from the legacy UAV GIS demo.
+Requires-Python: >=3.10
+Requires-Dist: folium
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas

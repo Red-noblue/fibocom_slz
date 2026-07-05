@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "均衡推荐",
+        "strategy": "balanced",
+        "score": 61.84,
+        "topsis_score": 45.91,
+        "robustness_score": 99.01,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_jianghan",
+        "dataset_key": "wuhan_jianghan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2591492,
+            30.5759678,
+            170.0
+          ],
+          [
+            114.3028184,
+            30.6056454,
+            170.0
+          ]
+        ]
+      }
+    }
+  ]
+}

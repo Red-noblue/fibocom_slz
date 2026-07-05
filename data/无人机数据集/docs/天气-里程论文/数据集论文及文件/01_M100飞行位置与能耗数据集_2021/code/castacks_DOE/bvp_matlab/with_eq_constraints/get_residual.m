@@ -1,0 +1,6 @@
+function [r] = get_residual(q, lambda, X0, Xf, v, vw_x, vw_y)
+    r = [...
+            gradient_lagrangian(q, lambda, X0, vw_x, vw_y, v)'; ...
+            val_eq_constraint(q, X0, Xf, vw_x, vw_y, v) 
+        ];    
+end

@@ -1,0 +1,76 @@
+{
+  "scene": "sionna.rt.scene.floor_wall",
+  "frequency_hz": 3500000000.0,
+  "tx": {
+    "name": "tx_uav_sample",
+    "position_m": [
+      0.0,
+      -4.0,
+      3.0
+    ],
+    "power_dbm": 30
+  },
+  "rx": {
+    "name": "rx_probe",
+    "position_m": [
+      0.0,
+      4.0,
+      1.5
+    ]
+  },
+  "solver": {
+    "max_depth": 1,
+    "samples_per_src": 1000,
+    "los": true,
+    "specular_reflection": true,
+    "diffraction": false,
+    "seed": 1
+  },
+  "num_tx": 1,
+  "num_rx": 1,
+  "valid_path_count": 2,
+  "delay_s": [
+    [
+      [
+        2.7150148795840323e-08,
+        3.0617115953646135e-08
+      ]
+    ]
+  ],
+  "path_gain_db": [
+    -61.541,
+    -83.846
+  ],
+  "theta_t_rad": [
+    [
+      [
+        1.7561442852020264,
+        2.0831871032714844
+      ]
+    ]
+  ],
+  "phi_t_rad": [
+    [
+      [
+        1.5707963705062866,
+        1.5707963705062866
+      ]
+    ]
+  ],
+  "theta_r_rad": [
+    [
+      [
+        1.3854484558105469,
+        2.0831830501556396
+      ]
+    ]
+  ],
+  "phi_r_rad": [
+    [
+      [
+        -1.5707963705062866,
+        -1.5707963705062866
+      ]
+    ]
+  ]
+}

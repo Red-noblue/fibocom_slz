@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_3",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "训练穿行",
+        "strategy": "training",
+        "score": 51.62,
+        "topsis_score": 31.13,
+        "robustness_score": 99.43,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            25.0
+          ],
+          [
+            114.3393355,
+            30.5407381,
+            25.0
+          ],
+          [
+            114.3424682,
+            30.5434361,
+            80.0
+          ],
+          [
+            114.3476893,
+            30.5587246,
+            60.0
+          ],
+          [
+            114.3487336,
+            30.5650198,
+            25.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            25.0
+          ]
+        ]
+      }
+    }
+  ]
+}

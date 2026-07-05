@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BUPT_Haidian_to_Shahe - UAV GIS Replay Studio</title>
+  <style>
+    :root {
+      --bg: #f3f6f8;
+      --panel: #ffffff;
+      --line: #d7e0e6;
+      --text: #0f1720;
+      --muted: #5d6b76;
+      --accent: #0f7b6c;
+      --accent-2: #d96c1f;
+      --danger: #c53d2f;
+      --shadow: 0 18px 48px rgba(15, 23, 32, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(15,123,108,0.14), transparent 26%),
+        radial-gradient(circle at bottom right, rgba(217,108,31,0.10), transparent 24%),
+        var(--bg);
+      color: var(--text);
+    }
+    .page {
+      padding: 20px;
+      display: grid;
+      gap: 16px;
+    }
+    .hero {
+      background: linear-gradient(130deg, #0f1720, #15493f 58%, #1b6d5f);
+      color: #f7fbfc;
+      border-radius: 24px;
+      padding: 22px 24px;
+      box-shadow: var(--shadow);
+    }
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+    }
+    .hero p {
+      margin: 0;
+      color: rgba(247,251,252,0.80);
+      font-size: 14px;
+    }
+    .stats {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .stat {
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 18px;
+      padding: 14px 16px;
+    }
+    .stat .k {
+      display: block;
+      font-size: 12px;
+      color: rgba(247,251,252,0.66);
+      margin-bottom: 8px;
+    }
+    .stat .v {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .notice-row {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .notice {
+      padding: 9px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.10);
+      color: rgba(247,251,252,0.92);
+    }
+    .notice.warn {
+      background: rgba(197,61,47,0.18);
+      color: #ffe0dc;
+      border-color: rgba(255,224,220,0.18);
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 320px minmax(0, 1fr) 360px;
+      gap: 16px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+    .panel h2 {
+      margin: 0 0 12px;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+    }
+    .left, .right {
+      padding: 18px;
+      display: grid;
+      gap: 16px;
+    }
+    .section + .section {
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+    }
+    .kv {
+      display: grid;
+      grid-template-columns: 98px 1fr;
+      row-gap: 10px;
+      column-gap: 10px;
+      font-size: 13px;
+    }
+    .kv .k {
+      color: var(--muted);
+    }
+    .kv .v {
+      font-weight: 600;
+    }
+    .risk-list {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--danger);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .hint-box {
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: #f4f8fa;
+      border: 1px solid #dfe8ed;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .map-shell {
+      overflow: hidden;
+      padding: 0;
+      min-height: 860px;
+    }
+    .map-shell iframe {
+      width: 100%;
+      min-height: 860px;
+      border: 0;
+      display: block;
+      background: #eef3f6;
+    }
+    .controls {
+      display: grid;
+      gap: 12px;
+    }
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    button {
+      border: 0;
+      border-radius: 999px;
+      padding: 10px 16px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button.secondary {
+      background: #dfe8ec;
+      color: var(--text);
+    }
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
+    }
+    .replay-card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+      background: linear-gradient(180deg, #fcfdfd, #f5f8fa);
+    }
+    .battery {
+      margin: 12px 0 8px;
+      height: 14px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #dfe7eb;
+    }
+    .battery > div {
+      height: 100%;
+      width: 0%;
+      background: var(--accent);
+    }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      font-size: 13px;
+    }
+    .metric {
+      padding: 10px 12px;
+      border-radius: 16px;
+      background: #f6fafb;
+      border: 1px solid #e2eaef;
+    }
+    .metric span {
+      display: block;
+    }
+    .metric .mk {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .metric .mv {
+      font-weight: 700;
+    }
+    .charts {
+      display: grid;
+      gap: 12px;
+    }
+    .chart {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 12px;
+      background: #fbfcfd;
+    }
+    .chart-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+    .chart-head strong {
+      font-size: 13px;
+    }
+    svg {
+      width: 100%;
+      height: 92px;
+      display: block;
+    }
+    .chart-vline {
+      stroke: #9fb0bb;
+      stroke-width: 1.3;
+      stroke-dasharray: 4 4;
+      opacity: 0.85;
+    }
+    .chart-dot {
+      fill: #ffffff;
+      stroke-width: 3;
+    }
+    .footer {
+      font-size: 12px;
+      color: var(--muted);
+      text-align: right;
+      padding: 0 4px 6px;
+    }
+    @media (max-width: 1500px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+      .map-shell iframe {
+        min-height: 720px;
+      }
+    }
+    @media (max-width: 900px) {
+      .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .page {
+        padding: 12px;
+      }
+      .hero {
+        border-radius: 18px;
+      }
+      .panel {
+        border-radius: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <h1>BUPT_Haidian_to_Shahe</h1>
+      <p>固定航线天气驱动能耗预测网站展示页。当前页面消费 summary + timeseries 产物，可直接通过内网 HTTP 访问。</p>
+      <div class="stats">
+        <div class="stat"><span class="k">航线长度</span><span class="v">22.59 km</span></div>
+        <div class="stat"><span class="k">预测总能耗</span><span class="v">960.14 Wh</span></div>
+        <div class="stat"><span class="k">预测可达航程</span><span class="v">3.03 km</span></div>
+        <div class="stat"><span class="k">天气来源</span><span class="v" style="font-size:16px">CMA realtime (config-driven)（中国气象局实时数据 - 配置驱动）</span></div>
+      </div>
+      <div class="notice-row">
+        <div class="notice">当前地图航线为固定航线抽象轨迹，按起终点直连插值生成，不是实测 GPS 航迹</div>
+        <div class="notice warn">该样例预计只能完成全程 13.4% ，因此电池会在前段耗尽</div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel left">
+        <div class="section">
+          <h2>任务参数</h2>
+          <div class="kv">
+            <div class="k">起点</div><div class="v">39.95980, 116.35200</div>
+            <div class="k">终点</div><div class="v">40.15608, 116.28333</div>
+            <div class="k">航向角</div><div class="v">345.03°</div>
+            <div class="k">巡航速度</div><div class="v">8.0 m/s</div>
+            <div class="k">巡航高度</div><div class="v">62.5 m</div>
+            <div class="k">载荷重量</div><div class="v">250.0 g</div>
+            <div class="k">电池容量</div><div class="v">130.0 Wh</div>
+            <div class="k">起飞时间</div><div class="v">2026-05-09T22:00:00</div>
+            <div class="k">计划时长</div><div class="v">2824.3 s</div>
+            <div class="k">可完成比例</div><div class="v">13.4%</div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>当前说明</h2>
+          <div class="hint-box">
+            这个网站当前接的是旧 demo 样例产物。地图中的航迹点来自预测脚本按起点和终点做线性插值后的时序点，因此看起来是一条直线。
+            如果后续接入真实航线几何或实测 GPS 轨迹，地图就会变成真实路线形状。
+          </div>
+        </div>
+        <div class="section">
+          <h2>风险提示</h2>
+          <ul class="risk-list" id="risk-list"></ul>
+        </div>
+      </aside>
+
+      <main class="panel map-shell">
+        <iframe src="map.html" title="route-map"></iframe>
+      </main>
+
+      <aside class="panel right">
+        <div class="controls">
+          <div class="btn-row">
+            <button id="play-btn">暂停</button>
+            <button class="secondary" id="reset-btn">回到起点</button>
+            <div id="step-text" style="font-size:12px;color:var(--muted);margin-left:auto">1 / 1</div>
+          </div>
+          <input type="range" min="0" max="0" value="0" id="step-range">
+        </div>
+
+        <div class="replay-card">
+          <h2 style="margin-bottom:6px;">回放状态</h2>
+          <div style="font-size:12px;color:var(--muted);" id="time-text">--</div>
+          <div style="margin-top:10px;font-size:24px;font-weight:800;" id="status-text">可飞</div>
+          <div style="margin-top:8px;font-size:13px;color:var(--muted);" id="progress-text">进度 0%</div>
+          <div class="battery"><div id="battery-bar"></div></div>
+          <div style="display:flex;justify-content:space-between;font-size:13px;">
+            <span>剩余电池</span>
+            <strong id="battery-text">0 Wh</strong>
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric"><span class="mk">分段能耗</span><span class="mv" id="seg-energy">--</span></div>
+          <div class="metric"><span class="mk">累计能耗</span><span class="mv" id="cum-energy">--</span></div>
+          <div class="metric"><span class="mk">风速 / 风向</span><span class="mv" id="wind-text">--</span></div>
+          <div class="metric"><span class="mk">温度 / 湿度</span><span class="mv" id="temp-text">--</span></div>
+          <div class="metric"><span class="mk">降水 / 气压</span><span class="mv" id="atmo-text">--</span></div>
+          <div class="metric"><span class="mk">能见度 / AQI</span><span class="mv" id="vis-aqi-text">--</span></div>
+        </div>
+
+        <div class="charts">
+          <div class="chart">
+            <div class="chart-head"><strong>电池余量</strong><span id="battery-chart-label">--</span></div>
+            <svg viewBox="0 0 300 92">
+              <polyline id="battery-poly" fill="none" stroke="#0f7b6c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
+              <line id="battery-vline" class="chart-vline" x1="0" y1="8" x2="0" y2="84"></line>
+              <circle id="battery-dot" class="chart-dot" stroke="#0f7b6c" cx="0" cy="0" r="5.5"></circle>
+            </svg>
+          </div>
+          <div class="chart">
+            <div class="chart-head"><strong>风速</strong><span id="wind-chart-label">--</span></div>
+            <svg viewBox="0 0 300 92">
+              <polyline id="wind-poly" fill="none" stroke="#d96c1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
+              <line id="wind-vline" class="chart-vline" x1="0" y1="8" x2="0" y2="84"></line>
+              <circle id="wind-dot" class="chart-dot" stroke="#d96c1f" cx="0" cy="0" r="5.5"></circle>
+            </svg>
+          </div>
+          <div class="chart">
+            <div class="chart-head"><strong>温度</strong><span id="temp-chart-label">--</span></div>
+            <svg viewBox="0 0 300 92">
+              <polyline id="temp-poly" fill="none" stroke="#b33c29" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
+              <line id="temp-vline" class="chart-vline" x1="0" y1="8" x2="0" y2="84"></line>
+              <circle id="temp-dot" class="chart-dot" stroke="#b33c29" cx="0" cy="0" r="5.5"></circle>
+            </svg>
+          </div>
+          <div class="chart">
+            <div class="chart-head"><strong>累计能耗</strong><span id="energy-chart-label">--</span></div>
+            <svg viewBox="0 0 300 92">
+              <polyline id="energy-poly" fill="none" stroke="#215a9c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
+              <line id="energy-vline" class="chart-vline" x1="0" y1="8" x2="0" y2="84"></line>
+              <circle id="energy-dot" class="chart-dot" stroke="#215a9c" cx="0" cy="0" r="5.5"></circle>
+            </svg>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="footer">Generated by uav-gis-replay-studio</div>
+  </div>
+
+  <script>
+    const SUMMARY = {"route_name": "BUPT_Haidian_to_Shahe", "route_start": {"lat": 39.9598, "lon": 116.352}, "route_end": {"lat": 40.15608, "lon": 116.28333}, "route_heading_deg": 345.0312011074301, "route_length_km": 22.594289852806554, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_wh": 130.0, "departure_time": "2026-05-09T22:00:00", "planned_flight_time_s": 2824.286231600819, "predicted_total_energy_wh": 960.1364592149215, "predicted_range_km": 3.032862161706373, "predicted_flight_time_s": 386.58630488576205, "weather_source": "CMA realtime (config-driven)（中国气象局实时数据 - 配置驱动）", "risk_alerts": ["预测总能耗高于电池容量，实际飞行可能中途电量不足。", "按当前效率预测的续航里程不足以覆盖全程航线。"]};
+    const ROWS = [{"time": "2026-05-09 22:00:00", "lat": 39.9598, "lon": 116.352, "distance_from_start_km": 0.0, "segment_distance_km": 0.0, "wind_speed_mps": 3.1, "wind_dir_deg": 28.0, "headwind_mps": 0.0, "crosswind_mps": 0.0, "temperature_c": 18.5, "relative_humidity_pct": 65.0, "pressure_hpa": 1006.1, "precipitation_mm": 0.0, "visibility_km": 13.88, "uv_index": 0.0, "air_quality_index": 45.0, "weather_factor": 1.0, "energy_wh_per_km": 0.0, "segment_energy_wh": 0.0, "cumulative_energy_wh": 0.0, "remaining_battery_wh": 130.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 100.0}, {"time": "2026-05-09 22:01:00", "lat": 39.96388916666667, "lon": 116.350569375, "distance_from_start_km": 0.4707143719334699, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 3.1, "wind_dir_deg": 28.0, "headwind_mps": 2.268347449124506, "crosswind_mps": 2.112959973603463, "temperature_c": 18.5, "relative_humidity_pct": 65.0, "pressure_hpa": 1006.1, "precipitation_mm": 0.0, "visibility_km": 13.88, "uv_index": 0.0, "air_quality_index": 45.0, "weather_factor": 1.00858, "energy_wh_per_km": 42.220962703954015, "segment_energy_wh": 20.044532981237253, "cumulative_energy_wh": 20.044532981237253, "remaining_battery_wh": 109.95546701876276, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 84.58112847597134}, {"time": "2026-05-09 22:02:00", "lat": 39.967978333333335, "lon": 116.34913875, "distance_from_start_km": 0.9414287438669398, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 3.0521875, "wind_dir_deg": 27.825940768051396, "headwind_mps": 2.2396715058242984, "crosswind_mps": 2.073576639807406, "temperature_c": 18.451180555555556, "relative_humidity_pct": 65.11111111111111, "pressure_hpa": 1006.0958333333332, "precipitation_mm": 0.0, "visibility_km": 13.894805555555555, "uv_index": 0.0, "air_quality_index": 45.06111111111111, "weather_factor": 1.008585, "energy_wh_per_km": 42.728268194945485, "segment_energy_wh": 20.28547840041354, "cumulative_energy_wh": 40.33001138165079, "remaining_battery_wh": 89.66998861834921, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 68.97691432180709}, {"time": "2026-05-09 22:03:00", "lat": 39.9720675, "lon": 116.347708125, "distance_from_start_km": 1.4121431158004096, "segment_distance_km": 0.4707143719334698, "wind_speed_mps": 3.0045833333333336, "wind_dir_deg": 27.606439479262463, "headwind_mps": 2.212543754258671, "crosswind_mps": 2.03277424777947, "temperature_c": 18.402222222222225, "relative_humidity_pct": 65.21944444444445, "pressure_hpa": 1006.0916666666668, "precipitation_mm": 0.0, "visibility_km": 13.909222222222224, "uv_index": 0.0, "air_quality_index": 45.120694444444446, "weather_factor": 1.00859, "energy_wh_per_km": 42.728268194945485, "segment_energy_wh": 20.285578964463166, "cumulative_energy_wh": 60.61559034611396, "remaining_battery_wh": 69.38440965388604, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 53.37262281068157}, {"time": "2026-05-09 22:04:00", "lat": 39.97615666666667, "lon": 116.3462775, "distance_from_start_km": 1.8828574877338795, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.9571875, "wind_dir_deg": 27.340763833879237, "headwind_mps": 2.186895627688607, "crosswind_mps": 1.990589215220635, "temperature_c": 18.353125, "relative_humidity_pct": 65.325, "pressure_hpa": 1006.0875, "precipitation_mm": 0.0, "visibility_km": 13.92325, "uv_index": 0.0, "air_quality_index": 45.17875, "weather_factor": 1.008595, "energy_wh_per_km": 42.88901503365062, "segment_energy_wh": 20.36199572369106, "cumulative_energy_wh": 80.97758606980503, "remaining_battery_wh": 49.02241393019497, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 37.70954917707306}, {"time": "2026-05-09 22:05:00", "lat": 39.980245833333335, "lon": 116.344846875, "distance_from_start_km": 2.353571859667349, "segment_distance_km": 0.4707143719334697, "wind_speed_mps": 2.91, "wind_dir_deg": 27.02808598718684, "headwind_mps": 2.162657304836294, "crosswind_mps": 1.9470524856403384, "temperature_c": 18.30388888888889, "relative_humidity_pct": 65.42777777777778, "pressure_hpa": 1006.0833333333334, "precipitation_mm": 0.0, "visibility_km": 13.936888888888888, "uv_index": 0.0, "air_quality_index": 45.235277777777775, "weather_factor": 1.0086, "energy_wh_per_km": 42.88901503365062, "segment_energy_wh": 20.36209666606992, "cumulative_energy_wh": 101.33968273587494, "remaining_battery_wh": 28.660317264125055, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 22.046397895480812}, {"time": "2026-05-09 22:06:00", "lat": 39.984335, "lon": 116.34341625, "distance_from_start_km": 2.8242862316008193, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.8630208333333336, "wind_dir_deg": 26.667483074198515, "headwind_mps": 2.139757398980884, "crosswind_mps": 1.9021899394138473, "temperature_c": 18.254513888888887, "relative_humidity_pct": 65.52777777777779, "pressure_hpa": 1006.0791666666668, "precipitation_mm": 0.0, "visibility_km": 13.95013888888889, "uv_index": 0.0, "air_quality_index": 45.29027777777778, "weather_factor": 1.008605, "energy_wh_per_km": 41.79295152925934, "segment_energy_wh": 19.84182516225685, "cumulative_energy_wh": 121.1815078981318, "remaining_battery_wh": 8.818492101868202, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 6.783455462975541}, {"time": "2026-05-09 22:07:00", "lat": 39.98842416666667, "lon": 116.341985625, "distance_from_start_km": 3.295000603534289, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.81625, "wind_dir_deg": 26.257938509490828, "headwind_mps": 2.1181225942072635, "crosswind_mps": 1.856022828094712, "temperature_c": 18.205, "relative_humidity_pct": 65.625, "pressure_hpa": 1006.075, "precipitation_mm": 0.0, "visibility_km": 13.963, "uv_index": 0.0, "air_quality_index": 45.34375, "weather_factor": 1.00861, "energy_wh_per_km": 41.91860984721339, "segment_energy_wh": 19.90158197559266, "cumulative_energy_wh": 141.08308987372445, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:08:00", "lat": 39.992513333333335, "lon": 116.340555, "distance_from_start_km": 3.765714975467759, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.7696875, "wind_dir_deg": 25.798344243344047, "headwind_mps": 2.0976772304375384, "crosswind_mps": 1.8085682416099615, "temperature_c": 18.155347222222225, "relative_humidity_pct": 65.71944444444445, "pressure_hpa": 1006.0708333333332, "precipitation_mm": 0.0, "visibility_km": 13.97547222222222, "uv_index": 0.0, "air_quality_index": 45.395694444444445, "weather_factor": 1.008615, "energy_wh_per_km": 41.91860984721339, "segment_energy_wh": 19.901680634053193, "cumulative_energy_wh": 160.98477050777765, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:09:00", "lat": 39.9966025, "lon": 116.339124375, "distance_from_start_km": 4.236429347401228, "segment_distance_km": 0.4707143719334695, "wind_speed_mps": 2.723333333333333, "wind_dir_deg": 25.28750419104665, "headwind_mps": 2.0783428394316683, "crosswind_mps": 1.7598396194618284, "temperature_c": 18.10555555555555, "relative_humidity_pct": 65.8111111111111, "pressure_hpa": 1006.0666666666666, "precipitation_mm": 0.0, "visibility_km": 13.987555555555554, "uv_index": 0.0, "air_quality_index": 45.44611111111111, "weather_factor": 1.00862, "energy_wh_per_km": 41.91860984721339, "segment_energy_wh": 19.901779292513705, "cumulative_energy_wh": 180.88654980029133, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:10:00", "lat": 40.00069166666667, "lon": 116.33769375, "distance_from_start_km": 4.707143719334698, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.6771875, "wind_dir_deg": 24.724139090945016, "headwind_mps": 2.060037634907245, "crosswind_mps": 1.7098473185995338, "temperature_c": 18.055625, "relative_humidity_pct": 65.9, "pressure_hpa": 1006.0625, "precipitation_mm": 0.0, "visibility_km": 13.99925, "uv_index": 0.0, "air_quality_index": 45.495000000000005, "weather_factor": 1.008625, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.90485970874201, "cumulative_energy_wh": 200.79140950903337, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:11:00", "lat": 40.004780833333335, "lon": 116.336263125, "distance_from_start_km": 5.177858091268169, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.63125, "wind_dir_deg": 24.106893088037452, "headwind_mps": 2.042675961386702, "crosswind_mps": 1.6585992521621713, "temperature_c": 18.005555555555556, "relative_humidity_pct": 65.98611111111111, "pressure_hpa": 1006.0583333333334, "precipitation_mm": 0.0, "visibility_km": 14.010555555555555, "uv_index": 0.0, "air_quality_index": 45.54236111111111, "weather_factor": 1.00863, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.904958381983835, "cumulative_energy_wh": 220.6963678910172, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:12:00", "lat": 40.00887, "lon": 116.3348325, "distance_from_start_km": 5.6485724632016385, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.5855208333333333, "wind_dir_deg": 23.434342382649337, "headwind_mps": 2.026167708431084, "crosswind_mps": 1.6061016147528846, "temperature_c": 17.955347222222223, "relative_humidity_pct": 66.06944444444444, "pressure_hpa": 1006.0541666666668, "precipitation_mm": 0.0, "visibility_km": 14.021472222222222, "uv_index": 0.0, "air_quality_index": 45.58819444444444, "weather_factor": 1.0089029166666663, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.91034429643388, "cumulative_energy_wh": 240.60671218745108, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:13:00", "lat": 40.01295916666667, "lon": 116.333401875, "distance_from_start_km": 6.119286835135108, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.54, "wind_dir_deg": 22.705006326360888, "headwind_mps": 2.010417699668265, "crosswind_mps": 1.552359711168955, "temperature_c": 17.905, "relative_humidity_pct": 66.14999999999999, "pressure_hpa": 1006.05, "precipitation_mm": 0.0, "visibility_km": 14.032, "uv_index": 0.0, "air_quality_index": 45.63249999999999, "weather_factor": 1.00921, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.91640447803645, "cumulative_energy_wh": 260.5231166654875, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:14:00", "lat": 40.017048333333335, "lon": 116.33197125, "distance_from_start_km": 6.590001207068578, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.4946875000000004, "wind_dir_deg": 21.917361387458243, "headwind_mps": 1.9953250695752769, "crosswind_mps": 1.4973789064163647, "temperature_c": 17.854513888888892, "relative_humidity_pct": 66.22777777777779, "pressure_hpa": 1006.0458333333332, "precipitation_mm": 0.0, "visibility_km": 14.04213888888889, "uv_index": 0.0, "air_quality_index": 45.71512152777778, "weather_factor": 1.0095179166666666, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.92248110517933, "cumulative_energy_wh": 280.44559777066684, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:15:00", "lat": 40.0211375, "lon": 116.330540625, "distance_from_start_km": 7.060715579002048, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.449583333333333, "wind_dir_deg": 21.069858442257157, "headwind_mps": 1.9807826454228843, "crosswind_mps": 1.441165715154216, "temperature_c": 17.80388888888889, "relative_humidity_pct": 66.30277777777778, "pressure_hpa": 1006.0416666666664, "precipitation_mm": 0.0, "visibility_km": 14.05188888888889, "uv_index": 0.0, "air_quality_index": 46.09465277777778, "weather_factor": 1.0098266666666669, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.928574177862515, "cumulative_energy_wh": 300.37417194852935, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:16:00", "lat": 40.02522666666667, "lon": 116.32911, "distance_from_start_km": 7.531429950935518, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.4046875, "wind_dir_deg": 20.160943871969497, "headwind_mps": 1.966676357199646, "crosswind_mps": 1.3837290481478597, "temperature_c": 17.753125, "relative_humidity_pct": 66.375, "pressure_hpa": 1006.0375, "precipitation_mm": 0.0, "visibility_km": 14.06125, "uv_index": 0.0, "air_quality_index": 46.47109375, "weather_factor": 1.0101362500000002, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.934683696086005, "cumulative_energy_wh": 320.30885564461533, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:17:00", "lat": 40.029315833333335, "lon": 116.327679375, "distance_from_start_km": 8.002144322868988, "segment_distance_km": 0.4707143719334699, "wind_speed_mps": 2.3600000000000003, "wind_dir_deg": 19.18908495111117, "headwind_mps": 1.9528847047122195, "crosswind_mps": 1.3250816314857996, "temperature_c": 17.702222222222222, "relative_humidity_pct": 66.44444444444446, "pressure_hpa": 1006.0333333333332, "precipitation_mm": 0.0, "visibility_km": 14.070222222222222, "uv_index": 0.0, "air_quality_index": 46.84444444444445, "weather_factor": 1.0104466666666667, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.94080965984979, "cumulative_energy_wh": 340.2496653044651, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:18:00", "lat": 40.033405, "lon": 116.32624875, "distance_from_start_km": 8.472858694802456, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 2.3155208333333333, "wind_dir_deg": 18.152799994945212, "headwind_mps": 1.9392783183289992, "crosswind_mps": 1.2652416107841788, "temperature_c": 17.651180555555555, "relative_humidity_pct": 66.51111111111112, "pressure_hpa": 1006.0291666666666, "precipitation_mm": 0.0, "visibility_km": 14.078805555555554, "uv_index": 0.0, "air_quality_index": 47.21470486111112, "weather_factor": 1.010757916666667, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.946952069153856, "cumulative_energy_wh": 360.19661737361895, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:19:00", "lat": 40.03749416666667, "lon": 116.324818125, "distance_from_start_km": 8.943573066735928, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 2.27125, "wind_dir_deg": 17.05069368061163, "headwind_mps": 1.9257196577836315, "crosswind_mps": 1.204234346846864, "temperature_c": 17.599999999999998, "relative_humidity_pct": 66.575, "pressure_hpa": 1006.025, "precipitation_mm": 0.0, "visibility_km": 14.087, "uv_index": 0.0, "air_quality_index": 47.581875, "weather_factor": 1.01107, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.953110923998327, "cumulative_energy_wh": 380.1497282976173, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:20:00", "lat": 40.041583333333335, "lon": 116.3233875, "distance_from_start_km": 9.414287438669396, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 2.2271875000000003, "wind_dir_deg": 15.88149785846963, "headwind_mps": 1.9120629016884885, "crosswind_mps": 1.142094400714253, "temperature_c": 17.548680555555556, "relative_humidity_pct": 66.63611111111112, "pressure_hpa": 1006.0208333333334, "precipitation_mm": 0.0, "visibility_km": 14.094805555555554, "uv_index": 0.0, "air_quality_index": 47.94595486111111, "weather_factor": 1.0113829166666666, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.959286224382964, "cumulative_energy_wh": 400.1090145220003, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:21:00", "lat": 40.0456725, "lon": 116.321956875, "distance_from_start_km": 9.885001810602867, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 2.1833333333333336, "wind_dir_deg": 14.644118014895184, "headwind_mps": 1.8981540882916768, "crosswind_mps": 1.0788676941803566, "temperature_c": 17.497222222222224, "relative_humidity_pct": 66.69444444444444, "pressure_hpa": 1006.0166666666668, "precipitation_mm": 0.0, "visibility_km": 14.102222222222222, "uv_index": 0.0, "air_quality_index": 48.30694444444445, "weather_factor": 1.011696666666667, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.965477970308054, "cumulative_energy_wh": 420.0744924923083, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:22:00", "lat": 40.04976166666667, "lon": 116.32052625, "distance_from_start_km": 10.355716182536336, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 2.1396875, "wind_dir_deg": 13.337685323564015, "headwind_mps": 1.8838315746206236, "crosswind_mps": 1.01461381624667, "temperature_c": 17.445625, "relative_humidity_pct": 66.75, "pressure_hpa": 1006.0125, "precipitation_mm": 0.0, "visibility_km": 14.10925, "uv_index": 0.0, "air_quality_index": 48.66484375, "weather_factor": 1.01201125, "energy_wh_per_km": 41.92489021637418, "segment_energy_wh": 19.9716861617733, "cumulative_energy_wh": 440.0461786540816, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:23:00", "lat": 40.053850833333335, "lon": 116.319095625, "distance_from_start_km": 10.826430554469807, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 2.0962500000000004, "wind_dir_deg": 11.961613918995797, "headwind_mps": 1.868926885243736, "crosswind_mps": 0.9494084263967476, "temperature_c": 17.393888888888892, "relative_humidity_pct": 66.80277777777779, "pressure_hpa": 1006.0083333333334, "precipitation_mm": 0.0, "visibility_km": 14.115888888888888, "uv_index": 0.0, "air_quality_index": 49.01965277777778, "weather_factor": 1.0123266666666666, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.924029086397468, "cumulative_energy_wh": 459.97020774047905, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:24:00", "lat": 40.05794, "lon": 116.317665, "distance_from_start_km": 11.297144926403275, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 2.0530208333333335, "wind_dir_deg": 10.515662637749472, "headwind_mps": 1.8532660218818289, "crosswind_mps": 0.8833456821873282, "temperature_c": 17.34201388888889, "relative_humidity_pct": 66.85277777777776, "pressure_hpa": 1006.0041666666666, "precipitation_mm": 0.0, "visibility_km": 14.12213888888889, "uv_index": 0.0, "air_quality_index": 49.37137152777776, "weather_factor": 1.0126429166666668, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.930253336341657, "cumulative_energy_wh": 479.9004610768207, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:25:00", "lat": 40.06202916666667, "lon": 116.316234375, "distance_from_start_km": 11.767859298336749, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 2.01, "wind_dir_deg": 9.0, "headwind_mps": 1.8366712991929104, "crosswind_mps": 0.8165405922065524, "temperature_c": 17.29, "relative_humidity_pct": 66.9, "pressure_hpa": 1006.0, "precipitation_mm": 0.0, "visibility_km": 14.128, "uv_index": 0.0, "air_quality_index": 49.720000000000006, "weather_factor": 1.01296, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.936493987471614, "cumulative_energy_wh": 499.83695506429234, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:26:00", "lat": 40.066118333333335, "lon": 116.31480375, "distance_from_start_km": 12.238573670270217, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 1.9671875, "wind_dir_deg": 7.415270658677855, "headwind_mps": 1.818963758319445, "crosswind_mps": 0.7491311674711242, "temperature_c": 17.23784722222222, "relative_humidity_pct": 66.94444444444444, "pressure_hpa": 1005.9958333333332, "precipitation_mm": 0.0, "visibility_km": 14.133472222222222, "uv_index": 0.0, "air_quality_index": 50.06553819444444, "weather_factor": 1.0132779166666666, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.942751039787044, "cumulative_energy_wh": 519.7797061040794, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:27:00", "lat": 40.0702075, "lon": 116.313373125, "distance_from_start_km": 12.709288042203688, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.9245833333333335, "wind_dir_deg": 5.762660950417512, "headwind_mps": 1.799966186481133, "crosswind_mps": 0.6812802172887544, "temperature_c": 17.185555555555553, "relative_humidity_pct": 66.98611111111111, "pressure_hpa": 1005.9916666666668, "precipitation_mm": 0.0, "visibility_km": 14.138555555555556, "uv_index": 0.0, "air_quality_index": 50.40798611111111, "weather_factor": 1.0135966666666667, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.949024493288256, "cumulative_energy_wh": 539.7287305973676, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:28:00", "lat": 40.07429666666667, "lon": 116.3119425, "distance_from_start_km": 13.180002414137157, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 1.8821875, "wind_dir_deg": 4.043960584851106, "headwind_mps": 1.7795067368380193, "crosswind_mps": 0.6131766129789643, "temperature_c": 17.133125, "relative_humidity_pct": 67.02499999999999, "pressure_hpa": 1005.9875, "precipitation_mm": 0.0, "visibility_km": 14.14325, "uv_index": 0.0, "air_quality_index": 50.74734375, "weather_factor": 1.01391625, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.955314347974937, "cumulative_energy_wh": 559.6840449453426, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:29:00", "lat": 40.078385833333336, "lon": 116.310511875, "distance_from_start_km": 13.650716786070626, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.84, "wind_dir_deg": 2.2616169673573836, "headwind_mps": 1.7574230979166792, "crosswind_mps": 0.5450358290139666, "temperature_c": 17.080555555555556, "relative_humidity_pct": 67.0611111111111, "pressure_hpa": 1005.9833333333332, "precipitation_mm": 0.0, "visibility_km": 14.147555555555554, "uv_index": 0.0, "air_quality_index": 51.08361111111111, "weather_factor": 1.014236666666667, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.961620603847393, "cumulative_energy_wh": 579.64566554919, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:30:00", "lat": 40.082475, "lon": 116.30908125, "distance_from_start_km": 14.121431158004096, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 1.7980208333333332, "wind_dir_deg": 0.4187782430221887, "headwind_mps": 1.7335671075561037, "crosswind_mps": 0.4770995710543647, "temperature_c": 17.02784722222222, "relative_humidity_pct": 67.09444444444445, "pressure_hpa": 1005.9791666666666, "precipitation_mm": 0.0, "visibility_km": 14.151472222222225, "uv_index": 0.0, "air_quality_index": 51.41678819444445, "weather_factor": 1.0145579166666667, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.96794326090532, "cumulative_energy_wh": 599.6136088100953, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:31:00", "lat": 40.08656416666667, "lon": 116.307650625, "distance_from_start_km": 14.592145529937566, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.75625, "wind_dir_deg": 358.51932096497677, "headwind_mps": 1.7078096461032355, "crosswind_mps": 0.4096343188463857, "temperature_c": 16.975, "relative_humidity_pct": 67.125, "pressure_hpa": 1005.975, "precipitation_mm": 0.0, "visibility_km": 14.155, "uv_index": 0.0, "air_quality_index": 51.746875, "weather_factor": 1.01488, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.97428231914902, "cumulative_energy_wh": 619.5878911292443, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:32:00", "lat": 40.090653333333336, "lon": 116.30622, "distance_from_start_km": 15.062859901871036, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 1.7146875, "wind_dir_deg": 356.56785841718937, "headwind_mps": 1.6800455832378292, "crosswind_mps": 0.342928652782634, "temperature_c": 16.92201388888889, "relative_humidity_pct": 67.15277777777777, "pressure_hpa": 1005.9708333333332, "precipitation_mm": 0.0, "visibility_km": 14.15813888888889, "uv_index": 0.0, "air_quality_index": 52.07387152777777, "weather_factor": 1.0152029166666665, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.980637778578192, "cumulative_energy_wh": 639.5685289078225, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:33:00", "lat": 40.0947425, "lon": 116.304789375, "distance_from_start_km": 15.533574273804504, "segment_distance_km": 0.470714371933469, "wind_speed_mps": 1.6733333333333331, "wind_dir_deg": 354.56972613344317, "headwind_mps": 1.650198500137305, "crosswind_mps": 0.2772892976460393, "temperature_c": 16.86888888888889, "relative_humidity_pct": 67.17777777777778, "pressure_hpa": 1005.9666666666668, "precipitation_mm": 0.0, "visibility_km": 14.160888888888891, "uv_index": 0.0, "air_quality_index": 52.39777777777778, "weather_factor": 1.015526666666667, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.987009639193072, "cumulative_energy_wh": 659.5555385470155, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:34:00", "lat": 40.09883166666667, "lon": 116.30335875, "distance_from_start_km": 16.004288645737976, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.6321875, "wind_dir_deg": 352.53094208994855, "headwind_mps": 1.6182248727631898, "crosswind_mps": 0.2130359038444196, "temperature_c": 16.815625, "relative_humidity_pct": 67.2, "pressure_hpa": 1005.9625, "precipitation_mm": 0.0, "visibility_km": 14.16325, "uv_index": 0.0, "air_quality_index": 52.71859375, "weather_factor": 1.01585125, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.99339790099365, "cumulative_energy_wh": 679.5489364480092, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:35:00", "lat": 40.102920833333336, "lon": 116.301928125, "distance_from_start_km": 16.475003017671447, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.5912499999999998, "wind_dir_deg": 350.4581403963004, "headwind_mps": 1.5841173917904996, "crosswind_mps": 0.1504946893643231, "temperature_c": 16.76222222222222, "relative_humidity_pct": 67.21944444444443, "pressure_hpa": 1005.9583333333334, "precipitation_mm": 0.0, "visibility_km": 14.165222222222225, "uv_index": 0.0, "air_quality_index": 53.036319444444445, "weather_factor": 1.0161766666666667, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 19.99980256397977, "cumulative_energy_wh": 699.5487390119889, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:36:00", "lat": 40.10701, "lon": 116.3004975, "distance_from_start_km": 16.945717389604912, "segment_distance_km": 0.4707143719334672, "wind_speed_mps": 1.5505208333333331, "wind_dir_deg": 348.35847899149877, "headwind_mps": 1.5479071170758896, "crosswind_mps": 0.0899911746034136, "temperature_c": 16.708680555555556, "relative_humidity_pct": 67.23611111111111, "pressure_hpa": 1005.9541666666668, "precipitation_mm": 0.0, "visibility_km": 14.166805555555555, "uv_index": 0.0, "air_quality_index": 53.35095486111111, "weather_factor": 1.0165029166666668, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.006223628151368, "cumulative_energy_wh": 719.5549626401403, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:37:00", "lat": 40.11109916666667, "lon": 116.299066875, "distance_from_start_km": 17.416431761538384, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.51, "wind_dir_deg": 346.2395237253834, "headwind_mps": 1.509664222647645, "crosswind_mps": 0.0318423437843512, "temperature_c": 16.654999999999998, "relative_humidity_pct": 67.25, "pressure_hpa": 1005.95, "precipitation_mm": 0.0, "visibility_km": 14.168, "uv_index": 0.0, "air_quality_index": 53.662499999999994, "weather_factor": 1.01683, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.012661093508893, "cumulative_energy_wh": 739.5676237336492, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:38:00", "lat": 40.115188333333336, "lon": 116.29763625, "distance_from_start_km": 17.887146133471855, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.4696875, "wind_dir_deg": 344.10911307376955, "headwind_mps": 1.4694971796891048, "crosswind_mps": -0.0236513539150934, "temperature_c": 16.60118055555556, "relative_humidity_pct": 67.26111111111112, "pressure_hpa": 1005.9458333333332, "precipitation_mm": 0.0, "visibility_km": 14.168805555555554, "uv_index": 0.0, "air_quality_index": 53.97095486111111, "weather_factor": 1.0171579166666669, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.01911496005188, "cumulative_energy_wh": 759.586738693701, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:39:00", "lat": 40.1192775, "lon": 116.296205625, "distance_from_start_km": 18.357860505405327, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.4295833333333334, "wind_dir_deg": 341.9752093728405, "headwind_mps": 1.4275503416336068, "crosswind_mps": -0.0762137064196255, "temperature_c": 16.54722222222222, "relative_humidity_pct": 67.26944444444445, "pressure_hpa": 1005.9416666666668, "precipitation_mm": 0.0, "visibility_km": 14.169222222222222, "uv_index": 0.0, "air_quality_index": 54.27631944444444, "weather_factor": 1.0174866666666669, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.0255852277805, "cumulative_energy_wh": 779.6123239214816, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:40:00", "lat": 40.12336666666667, "lon": 116.294775, "distance_from_start_km": 18.82857487733879, "segment_distance_km": 0.4707143719334672, "wind_speed_mps": 1.3896875, "wind_dir_deg": 339.8457436495559, "headwind_mps": 1.3840000238964876, "crosswind_mps": -0.1255996875424917, "temperature_c": 16.493125, "relative_humidity_pct": 67.27499999999999, "pressure_hpa": 1005.9375, "precipitation_mm": 0.0, "visibility_km": 14.16925, "uv_index": 0.0, "air_quality_index": 54.57859375, "weather_factor": 1.01781625, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.032071896694593, "cumulative_energy_wh": 799.6443958181761, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:41:00", "lat": 40.127455833333336, "lon": 116.293344375, "distance_from_start_km": 19.299289249272263, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.35, "wind_dir_deg": 337.7284617042375, "headwind_mps": 1.3390492944961083, "crosswind_mps": -0.171601243904215, "temperature_c": 16.43888888888889, "relative_humidity_pct": 67.27777777777779, "pressure_hpa": 1005.9333333333332, "precipitation_mm": 0.0, "visibility_km": 14.168888888888889, "uv_index": 0.0, "air_quality_index": 54.87777777777778, "weather_factor": 1.0181466666666668, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.03857496679461, "cumulative_energy_wh": 819.6829707849707, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:42:00", "lat": 40.131545, "lon": 116.29191375, "distance_from_start_km": 19.770003621205735, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.3105208333333334, "wind_dir_deg": 335.63077898596725, "headwind_mps": 1.292921794401947, "crosswind_mps": -0.2140516016318117, "temperature_c": 16.38451388888889, "relative_humidity_pct": 67.27777777777779, "pressure_hpa": 1005.9291666666668, "precipitation_mm": 0.0, "visibility_km": 14.16813888888889, "uv_index": 0.0, "air_quality_index": 55.17387152777778, "weather_factor": 1.0184779166666666, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.0450944380801, "cumulative_energy_wh": 839.7280652230509, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:43:00", "lat": 40.13563416666667, "lon": 116.290483125, "distance_from_start_km": 20.240717993139206, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.2712499999999998, "wind_dir_deg": 333.5596510076763, "headwind_mps": 1.245854974614347, "crosswind_mps": -0.2528278954717692, "temperature_c": 16.330000000000002, "relative_humidity_pct": 67.27499999999999, "pressure_hpa": 1005.925, "precipitation_mm": 0.0, "visibility_km": 14.167, "uv_index": 0.0, "air_quality_index": 55.466875, "weather_factor": 1.0188099999999998, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.051630310551207, "cumulative_energy_wh": 859.7796955336021, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:44:00", "lat": 40.139723333333336, "lon": 116.2890525, "distance_from_start_km": 20.711432365072675, "segment_distance_km": 0.4707143719334672, "wind_speed_mps": 1.2321875, "wind_dir_deg": 331.5214646888244, "headwind_mps": 1.1980931631511813, "crosswind_mps": -0.2878520584721374, "temperature_c": 16.275347222222223, "relative_humidity_pct": 67.26944444444445, "pressure_hpa": 1005.9208333333332, "precipitation_mm": 0.0, "visibility_km": 14.165472222222222, "uv_index": 0.0, "air_quality_index": 55.75678819444444, "weather_factor": 1.0191429166666668, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.0581825842078, "cumulative_energy_wh": 879.8378781178099, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:45:00", "lat": 40.1438125, "lon": 116.287621875, "distance_from_start_km": 21.182146737006143, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.1933333333333334, "wind_dir_deg": 329.5219542755942, "headwind_mps": 1.1498808586084277, "crosswind_mps": -0.3190900428568549, "temperature_c": 16.220555555555556, "relative_humidity_pct": 67.26111111111112, "pressure_hpa": 1005.9166666666666, "precipitation_mm": 0.0, "visibility_km": 14.163555555555556, "uv_index": 0.0, "air_quality_index": 56.04361111111112, "weather_factor": 1.0194766666666668, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.064751259050315, "cumulative_energy_wh": 899.9026293768602, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:46:00", "lat": 40.14790166666667, "lon": 116.28619125, "distance_from_start_km": 21.652861108939614, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.1546875, "wind_dir_deg": 327.56614359452595, "headwind_mps": 1.1014565936014264, "crosswind_mps": -0.3465495564391797, "temperature_c": 16.165625, "relative_humidity_pct": 67.25, "pressure_hpa": 1005.9125, "precipitation_mm": 0.0, "visibility_km": 14.16125, "uv_index": 0.0, "air_quality_index": 56.32734375, "weather_factor": 1.01981125, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.0713363350783, "cumulative_energy_wh": 919.9739657119384, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:47:00", "lat": 40.151990833333336, "lon": 116.284760625, "distance_from_start_km": 22.12357548087309, "segment_distance_km": 0.4707143719334708, "wind_speed_mps": 1.11625, "wind_dir_deg": 325.6583145651353, "headwind_mps": 1.0530476317896516, "crosswind_mps": -0.3702765826813877, "temperature_c": 16.110555555555557, "relative_humidity_pct": 67.23611111111111, "pressure_hpa": 1005.9083333333334, "precipitation_mm": 0.0, "visibility_km": 14.158555555555555, "uv_index": 0.0, "air_quality_index": 56.60798611111112, "weather_factor": 1.0201466666666663, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.077937812291903, "cumulative_energy_wh": 940.0519035242304, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}, {"time": "2026-05-09 22:48:00", "lat": 40.15608, "lon": 116.28333, "distance_from_start_km": 22.59428985280655, "segment_distance_km": 0.4707143719334672, "wind_speed_mps": 1.0780208333333334, "wind_dir_deg": 323.8020003120961, "headwind_mps": 1.0048656692384526, "crosswind_mps": -0.3903510008782499, "temperature_c": 16.05534722222222, "relative_humidity_pct": 67.21944444444445, "pressure_hpa": 1005.9041666666666, "precipitation_mm": 0.0, "visibility_km": 14.155472222222222, "uv_index": 0.0, "air_quality_index": 56.88553819444445, "weather_factor": 1.020482916666667, "energy_wh_per_km": 41.81181608670072, "segment_energy_wh": 20.084555690690987, "cumulative_energy_wh": 960.1364592149214, "remaining_battery_wh": 0.0, "cruise_speed_mps": 8.0, "cruise_altitude_m": 62.5, "payload_g": 250.0, "battery_remaining_pct": 0.0}];
+    const state = {
+      idx: 0,
+      playing: true,
+      timer: null,
+    };
+    const chartDefs = {};
+
+    const $ = (id) => document.getElementById(id);
+
+    function fmt(v, digits = 1) {
+      const n = Number(v);
+      return Number.isFinite(n) ? n.toFixed(digits) : "--";
+    }
+
+    function clamp(v, lo, hi) {
+      return Math.max(lo, Math.min(hi, v));
+    }
+
+    function batteryColor(pct) {
+      if (pct < 20) return "#c53d2f";
+      if (pct < 40) return "#d96c1f";
+      return "#0f7b6c";
+    }
+
+    function aqiLevel(v) {
+      const aqi = Number(v);
+      if (!Number.isFinite(aqi)) return "未知";
+      if (aqi <= 50) return "优";
+      if (aqi <= 100) return "良";
+      if (aqi <= 150) return "轻度污染";
+      if (aqi <= 200) return "中度污染";
+      if (aqi <= 300) return "重度污染";
+      return "严重污染";
+    }
+
+    function renderRiskList() {
+      const items = (SUMMARY.risk_alerts || []).map((item) => `<li>${item}</li>`).join("");
+      $("risk-list").innerHTML = items || "<li>暂无</li>";
+    }
+
+    function polyPoints(rows, key, minValue, maxValue) {
+      const width = 300;
+      const height = 92;
+      const pad = 8;
+      const span = Math.max(rows.length - 1, 1);
+      const range = Math.max(maxValue - minValue, 1e-6);
+      return rows.map((row, idx) => {
+        const x = pad + (idx / span) * (width - pad * 2);
+        const raw = Number(row[key]);
+        const val = Number.isFinite(raw) ? raw : minValue;
+        const y = height - pad - ((val - minValue) / range) * (height - pad * 2);
+        return { x, y };
+      });
+    }
+
+    function renderCharts() {
+      const safeRows = ROWS.length ? ROWS : [{}];
+      const batteryVals = safeRows.map((r) => Number(r.battery_remaining_pct) || 0);
+      const windVals = safeRows.map((r) => Number(r.wind_speed_mps) || 0);
+      const tempVals = safeRows.map((r) => Number(r.temperature_c) || 0);
+      const energyVals = safeRows.map((r) => Number(r.cumulative_energy_wh) || 0);
+      chartDefs.battery = polyPoints(safeRows, "battery_remaining_pct", 0, Math.max(...batteryVals, 100));
+      chartDefs.wind = polyPoints(safeRows, "wind_speed_mps", 0, Math.max(...windVals, 8));
+      chartDefs.temp = polyPoints(safeRows, "temperature_c", Math.min(...tempVals, -5), Math.max(...tempVals, 35));
+      chartDefs.energy = polyPoints(safeRows, "cumulative_energy_wh", 0, Math.max(...energyVals, 1));
+
+      $("battery-poly").setAttribute("points", chartDefs.battery.map((p) => `${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(" "));
+      $("wind-poly").setAttribute("points", chartDefs.wind.map((p) => `${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(" "));
+      $("temp-poly").setAttribute("points", chartDefs.temp.map((p) => `${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(" "));
+      $("energy-poly").setAttribute("points", chartDefs.energy.map((p) => `${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(" "));
+    }
+
+    function updateChartMarker(name, idx, label) {
+      const pts = chartDefs[name] || [];
+      if (!pts.length) return;
+      const safeIdx = clamp(idx, 0, pts.length - 1);
+      const p = pts[safeIdx];
+      $(`${name}-dot`).setAttribute("cx", p.x.toFixed(2));
+      $(`${name}-dot`).setAttribute("cy", p.y.toFixed(2));
+      $(`${name}-vline`).setAttribute("x1", p.x.toFixed(2));
+      $(`${name}-vline`).setAttribute("x2", p.x.toFixed(2));
+      $(`${name}-chart-label`).textContent = label;
+    }
+
+    function updateStep(idx) {
+      if (!ROWS.length) return;
+      state.idx = clamp(idx, 0, ROWS.length - 1);
+      const row = ROWS[state.idx];
+
+      const batteryWh = Number(row.remaining_battery_wh) || 0;
+      const batteryPct = clamp(Number(row.battery_remaining_pct) || 0, 0, 100);
+      const routeLen = Number(SUMMARY.route_length_km) || 0;
+      const doneKm = Number(row.distance_from_start_km) || 0;
+      const progressPct = routeLen > 0 ? clamp((doneKm / routeLen) * 100, 0, 100) : 0;
+      const warning = batteryPct < 20 || (Number(row.wind_speed_mps) || 0) > 8;
+
+      $("step-text").textContent = `${state.idx + 1} / ${ROWS.length}`;
+      $("step-range").value = String(state.idx);
+      $("time-text").textContent = String(row.time || "--");
+      $("status-text").textContent = warning ? "预警" : "可飞";
+      $("status-text").style.color = warning ? "#c53d2f" : "#0f7b6c";
+      $("progress-text").textContent = `进度 ${fmt(progressPct, 1)}% · ${fmt(doneKm, 2)} / ${fmt(routeLen, 2)} km`;
+      $("battery-text").textContent = `${fmt(batteryWh, 2)} Wh / ${fmt(SUMMARY.battery_wh, 1)} Wh`;
+      $("battery-bar").style.width = `${fmt(batteryPct, 2)}%`;
+      $("battery-bar").style.background = batteryColor(batteryPct);
+
+      $("seg-energy").textContent = `${fmt(row.segment_energy_wh, 2)} Wh`;
+      $("cum-energy").textContent = `${fmt(row.cumulative_energy_wh, 2)} Wh`;
+      $("wind-text").textContent = `${fmt(row.wind_speed_mps, 1)} m/s / ${fmt(row.wind_dir_deg, 0)}°`;
+      $("temp-text").textContent = `${fmt(row.temperature_c, 1)}°C / ${fmt(row.relative_humidity_pct, 0)}%`;
+      $("atmo-text").textContent = `${fmt(row.precipitation_mm, 2)} mm / ${fmt(row.pressure_hpa, 1)} hPa`;
+      $("vis-aqi-text").textContent = `${fmt(row.visibility_km, 1)} km / ${fmt(row.air_quality_index, 0)} (${aqiLevel(row.air_quality_index)})`;
+
+      updateChartMarker("battery", state.idx, `当前 ${fmt(batteryPct, 1)}%`);
+      updateChartMarker("wind", state.idx, `当前 ${fmt(row.wind_speed_mps, 1)} m/s`);
+      updateChartMarker("temp", state.idx, `当前 ${fmt(row.temperature_c, 1)}°C`);
+      updateChartMarker("energy", state.idx, `当前 ${fmt(row.cumulative_energy_wh, 1)} Wh`);
+    }
+
+    function playLoop() {
+      if (state.timer) window.clearInterval(state.timer);
+      state.timer = window.setInterval(() => {
+        if (!state.playing || !ROWS.length) return;
+        const next = state.idx + 1 < ROWS.length ? state.idx + 1 : 0;
+        updateStep(next);
+      }, 1200);
+    }
+
+    function bindEvents() {
+      $("play-btn").addEventListener("click", () => {
+        state.playing = !state.playing;
+        $("play-btn").textContent = state.playing ? "暂停" : "播放";
+      });
+      $("reset-btn").addEventListener("click", () => updateStep(0));
+      $("step-range").addEventListener("input", (event) => {
+        state.playing = false;
+        $("play-btn").textContent = "播放";
+        updateStep(Number(event.target.value));
+      });
+      $("step-range").max = String(Math.max(ROWS.length - 1, 0));
+    }
+
+    renderRiskList();
+    renderCharts();
+    bindEvents();
+    updateStep(0);
+    playLoop();
+  </script>
+</body>
+</html>

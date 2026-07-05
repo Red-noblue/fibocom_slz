@@ -1,0 +1,56 @@
+# 目标论文复现实验骨架配置
+paper:
+  key: engappai_2025_weather_aware_energy
+  title: Weather-aware energy management for unmanned aerial vehicles
+  source: https://www.sciencedirect.com/science/article/pii/S0952197624017548
+
+data:
+  flights_csv: data/raw/flights.csv
+  m100_root: data/raw/m100
+  route_filter: R1
+  features_csv: outputs/reproduction/features.csv
+  research_features_csv: outputs/reproduction/research_features.csv
+
+weather:
+  adapter_config: configs/weather.yaml
+  source_hint: ERA5_or_public_weather
+
+model:
+  output_model: outputs/reproduction/model.pkl
+  output_metrics: outputs/reproduction/metrics.json
+  output_suite_dir: outputs/reproduction/model_suite
+  output_suite_metrics: outputs/reproduction/model_suite.json
+  target: energy_wh_per_km
+  targets:
+    - energy_wh_per_km
+    - battery_voltage
+    - battery_current
+    - discharge_mah
+  features:
+    - speed_mps
+    - payload_kg
+    - altitude_m
+    - wind_speed_mps
+    - headwind_mps
+    - crosswind_mps
+    - wind_gust_mps
+    - relative_humidity_pct
+    - temperature_c
+    - pressure_hpa
+    - precipitation_mm
+    - air_density_kgm3
+  candidate_methods:
+    - linear_residual_gb
+    - gradient_boosting
+    - random_forest
+    - polynomial
+    - ridge
+
+prediction:
+  output_dir: outputs/reproduction/predict
+  route_name: reproduction_route
+  step_minutes: 1
+
+notes:
+  - 先复现固定路线固定航速预测
+  - 后续再扩展到多高度天气与主动调度

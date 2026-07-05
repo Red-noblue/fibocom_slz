@@ -1,0 +1,6 @@
+{
+  "name": "cmu_m100_package_delivery_dataset",
+  "kind": "link",
+  "url": "https://kilthub.cmu.edu/articles/dataset/Data_Collected_with_Package_Delivery_Quadcopter_Drone/12683453",
+  "note": "DJI Matrice 100 公开飞行数据集入口。"
+}

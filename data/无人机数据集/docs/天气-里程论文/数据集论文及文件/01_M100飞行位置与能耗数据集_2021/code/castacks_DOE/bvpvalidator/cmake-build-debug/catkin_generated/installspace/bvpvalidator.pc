@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: bvpvalidator
+Description: Description of bvpvalidator
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lbvpvalidator
+Requires: planning_common octomap_msgs octomap_ros roscpp

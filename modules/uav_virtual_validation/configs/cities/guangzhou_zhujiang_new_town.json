@@ -1,0 +1,20 @@
+{
+  "name": "guangzhou_zhujiang_new_town",
+  "display_name": "广州 Zhujiang New Town",
+  "description": "广州珠江新城与花城广场周边，高层建筑与城市中轴线明显，适合复杂 CBD 任务演示。",
+  "center": {"lat": 23.1215, "lon": 113.3235},
+  "bbox": {"south": 23.1105, "west": 113.3055, "north": 23.1335, "east": 113.3435},
+  "default_route": [
+    {"lat": 23.1120, "lon": 113.3070, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 23.1165, "lon": 113.3145, "altitude_m": 135.0, "label": "中轴转向点"},
+    {"lat": 23.1215, "lon": 113.3235, "altitude_m": 160.0, "label": "核心高楼避让点"},
+    {"lat": 23.1275, "lon": 113.3340, "altitude_m": 140.0, "label": "巡航点"},
+    {"lat": 23.1320, "lon": 113.3420, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 30.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

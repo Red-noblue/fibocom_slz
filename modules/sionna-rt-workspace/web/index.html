@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- 本页面用于展示 Sionna RT 真实城市 3D Radio Map 点云结果。 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sionna RT 3D Radio Map 可视化</title>
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Sionna RT · UAV City Radio Map</p>
+        <h1>真实城市三维无线电强度点云</h1>
+        <p class="lead">读取 UAV 航线点、真实建筑挤出场景和 Sionna RT 路径结果，展示多高度 Rx 点云、路径增益和估算接收功率。</p>
+      </div>
+      <div class="hero-actions">
+        <button id="reload-btn" type="button">重新加载数据</button>
+      </div>
+    </section>
+
+    <section class="dashboard">
+      <aside class="panel controls">
+        <h2>控制</h2>
+        <label for="height-filter">高度层</label>
+        <select id="height-filter">
+          <option value="all">全部高度</option>
+        </select>
+        <label for="metric-select">着色指标</label>
+        <select id="metric-select">
+          <option value="combined_signal_building">信号强度 + 建筑损耗叠加</option>
+          <option value="excess_loss_db">建筑额外损耗 dB</option>
+          <option value="is_los_blocked_by_building">LOS 建筑遮挡</option>
+          <option value="path_loss_db">总路径损耗 dB</option>
+          <option value="best_path_gain_db">最佳路径增益 dB</option>
+          <option value="estimated_rx_power_dbm">估算接收功率 dBm</option>
+          <option value="valid_path_count">有效路径数</option>
+        </select>
+        <label class="checkbox">
+          <input id="show-labels" type="checkbox">
+          <span>显示点位编号</span>
+        </label>
+        <div class="legend">
+          <span><i class="good"></i>较强</span>
+          <span><i class="mid"></i>中等</span>
+          <span><i class="bad"></i>较弱</span>
+        </div>
+        <p id="status" class="status">等待加载。</p>
+      </aside>
+
+      <section class="panel canvas-panel">
+        <div class="canvas-title">
+          <h2>三维点云视图</h2>
+          <span id="layer-readout">--</span>
+        </div>
+        <canvas id="map-canvas" role="img" aria-label="3D Radio Map 三维点云"></canvas>
+        <p class="canvas-hint">拖拽旋转 · 滚轮缩放 · 点击 Rx 点查看详情</p>
+      </section>
+
+      <aside class="panel summary">
+        <h2>统计摘要</h2>
+        <div class="stat-grid">
+          <div><span>城市</span><strong id="stat-city">--</strong></div>
+          <div><span>Rx 点</span><strong id="stat-rx">--</strong></div>
+          <div><span>导入建筑</span><strong id="stat-buildings">--</strong></div>
+          <div><span>有效路径</span><strong id="stat-paths">--</strong></div>
+          <div><span>增益最小</span><strong id="stat-min">--</strong></div>
+          <div><span>增益最大</span><strong id="stat-max">--</strong></div>
+        </div>
+        <h3>Tx 信息</h3>
+        <pre id="tx-info">--</pre>
+        <h3>选中 Rx</h3>
+        <pre id="rx-info">点击点云查看详情。</pre>
+      </aside>
+    </section>
+  </main>
+  <script src="./static/app.js"></script>
+</body>
+</html>

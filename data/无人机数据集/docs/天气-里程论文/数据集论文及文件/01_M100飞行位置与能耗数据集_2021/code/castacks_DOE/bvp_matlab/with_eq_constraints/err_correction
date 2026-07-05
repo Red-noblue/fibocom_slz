@@ -1,0 +1,96 @@
+clear; clc; close all
+warning off;
+% Create header for csv
+header = {'x' 'y' 'phi' 'kappa_end' 'vw_x' 'vw_y' 'v' 'xtol' ...
+    'ytol' 'phi_tol' 'kappa_tol' 'q1' 'q2' 'q3' 'q4' 'q5' ...
+    'q6' 'q7' 'q8' 'q9' 'q10' 'q11'};
+commaHeader = [header;repmat({','},1,numel(header))]; %insert commaas
+commaHeader = commaHeader(:)';
+textHeader = cell2mat(commaHeader); %cHeader in text with commas
+%write header to file
+fid = fopen('large_data.csv','w');
+fprintf(fid,'%s\n',textHeader);
+fclose(fid);
+
+% define params
+params.num_curv_coeffs = 5;
+params.num_poly_params = params.num_curv_coeffs - 1;
+params.num_constraints = 4;
+params.num_samples = 100;
+params.num_constraint_samples = 50;
+params.max_kappa = 1/20;
+params.max_kappa_rate = params.max_kappa;
+params.bv_tol = [1e-1; 1e-1; 1e-3; 1e-4];
+params.bv_tol_sincos = [1e-3; 1e-3; 1e-3; 1e-3; 1e-4];
+params.curv1_tol = 1e-4;
+
+% define scaling factors
+params.scale_factor = 1;
+params.scales = zeros(params.num_poly_params, 1);
+for i = 1:params.num_poly_params
+    params.scales(i) =  params.scale_factor^i;
+end
+
+% define speeds
+v = 5;
+vw_x = 0;
+vw_y = 0;
+bad_traj = [];
+good_traj = [];
+% define boundary values (x, y, psi, curv)
+X0 = [0, 0, 0, 0];
+% Xf = [20,	20,	2.2689, 0];
+
+% possible_values = [, 100, 0, 0;
+%                     90, 90, 0, 0;
+%                     80, 80, 0, 0;
+%                     70, 70, 0, 0];
+possible_values = readmatrix('err_.csv');
+count = size(possible_values,1);
+% save -ascii -double
+parfor X=1:count
+    tic
+    Xf = possible_values(X,:);
+    
+    % convert groundframe heading into airframe heading
+    Xf_orig = Xf;
+    Xf(3) = get_airframe_heading(v, Xf(3), vw_x, vw_y);
+    
+    % define dynamics constraints
+    dyn_constraints = [];
+    inner_loop_count = 0;
+    % optimize!
+    while inner_loop_count < 3
+
+        if inner_loop_count == 0
+            [q, perf] = solve_bvp_fmincon(X0, Xf, Xf_orig, v, vw_x, vw_y, params);
+        else
+            disp("sqp");
+            [q, perf] = solve_bvp_fmincon(X0, Xf, Xf_orig, v, vw_x, vw_y, params, 1);
+        end
+        tol = constr_violation(q, params.num_poly_params, X0, Xf, v, vw_x, vw_y, params);
+        if all(abs(tol) < [0.5, 0.5, 0.1, 0.1]')
+            break
+        end
+        inner_loop_count = inner_loop_count + 1;
+    end
+    
+ 
+
+    if all(~q)
+        disp(mat2str(Xf(1:3)) + " has a solution full of zeros" );
+        dlmwrite('zero.csv',Xf,'delimiter',',', '-append', 'precision', 15);
+
+    elseif all(abs(tol) < [0.5, 0.5, 0.1, 0.1]')
+        disp("Done with" + mat2str(Xf(1:3)));
+        M = [Xf, vw_x, vw_y, v, tol', q'];
+         dlmwrite('large_data.csv',M,'delimiter',',', '-append', 'precision', 15);
+        
+    else
+        dlmwrite('err.csv',Xf,'delimiter',',', '-append', 'precision', 15);
+        disp("kina done with" + mat2str(Xf(1:3)) + "; tol = " + mat2str(tol));
+    end
+    %     disp("Done " + Xf(1));
+    %     plot_stuff(q, X0, Xf, params, v, vw_x, vw_y, perf, true);
+toc
+end

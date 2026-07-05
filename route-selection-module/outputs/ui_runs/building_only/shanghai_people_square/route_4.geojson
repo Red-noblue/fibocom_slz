@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_4",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "均衡稳定推荐",
+        "strategy": "balanced_stable",
+        "score": 40.53,
+        "topsis_score": 15.05,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4839225,
+            31.2289033,
+            370.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

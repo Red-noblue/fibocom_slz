@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jay/simulation_ws/src/bvpvalidator/cmake-build-debug/devel/setup.sh

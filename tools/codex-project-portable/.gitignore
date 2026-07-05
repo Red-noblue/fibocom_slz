@@ -1,0 +1,43 @@
+# Machine-local relocation metadata
+state/*
+!state/.gitignore
+
+# Generated packaging artifacts
+dist/
+
+# Runtime binaries are part of the toolkit; download/extract temp files are not.
+runtime/tmp/
+
+# Keep toolkit-local Codex state that matters for portability:
+# - mycodex/configs/              source-of-truth profiles
+# - mycodex/sessions/sessions/    raw conversation rollouts
+# - mycodex/sessions/state_5.sqlite  thread/session index
+# - mycodex/sessions/memories/    long-term memory
+# - mycodex/sessions/skills/      installed/system skills snapshot
+# - mycodex/sessions/history.jsonl command / interaction history
+#
+# Ignore machine-local or rebuildable runtime artifacts below.
+mycodex/sessions/*
+!mycodex/sessions/.gitignore
+!mycodex/sessions/sessions/
+!mycodex/sessions/sessions/**
+!mycodex/sessions/state_5.sqlite
+!mycodex/sessions/memories/
+!mycodex/sessions/memories/**
+!mycodex/sessions/skills/
+!mycodex/sessions/skills/**
+!mycodex/sessions/history.jsonl
+
+# Runtime-copied active profile files; source-of-truth is mycodex/configs/
+mycodex/sessions/auth.json
+mycodex/sessions/config.toml
+mycodex/sessions/version.json
+
+# Temp / local-only / diagnostic artifacts
+mycodex/sessions/.tmp/
+mycodex/sessions/tmp/
+mycodex/sessions/log/
+mycodex/sessions/logs_2.sqlite
+mycodex/sessions/installation_id
+mycodex/sessions/.personality_migration
+mycodex/sessions/shell_snapshots/

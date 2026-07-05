@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/uav_weather_energy_predictor/__init__.py
+src/uav_weather_energy_predictor/common.py
+src/uav_weather_energy_predictor/feature_builder.py
+src/uav_weather_energy_predictor/route_prediction.py
+src/uav_weather_energy_predictor/training.py
+src/uav_weather_energy_predictor/weather_client.py
+src/uav_weather_energy_predictor.egg-info/PKG-INFO
+src/uav_weather_energy_predictor.egg-info/SOURCES.txt
+src/uav_weather_energy_predictor.egg-info/dependency_links.txt
+src/uav_weather_energy_predictor.egg-info/requires.txt
+src/uav_weather_energy_predictor.egg-info/top_level.txt

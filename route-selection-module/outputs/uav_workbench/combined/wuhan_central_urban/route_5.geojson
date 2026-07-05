@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_5",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "最快到达",
+        "strategy": "fastest",
+        "score": 89.89,
+        "topsis_score": 86.28,
+        "robustness_score": 98.32,
+        "reliability_ratio": 1.0,
+        "max_precipitation_mm": 2.187,
+        "max_weather_risk_score": 0.736,
+        "high_risk_exposure_ratio": 0.3,
+        "city": "wuhan_central_urban",
+        "dataset_key": "wuhan_central_urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.1987237,
+            30.4995164,
+            145.0
+          ],
+          [
+            114.2125111,
+            30.509409,
+            145.0
+          ],
+          [
+            114.3090227,
+            30.5153445,
+            145.0
+          ],
+          [
+            114.3205122,
+            30.5153445,
+            145.0
+          ],
+          [
+            114.3342995,
+            30.517323,
+            145.0
+          ],
+          [
+            114.3434911,
+            30.513366,
+            145.0
+          ],
+          [
+            114.3641722,
+            30.5113875,
+            145.0
+          ],
+          [
+            114.3848532,
+            30.5153445,
+            145.0
+          ],
+          [
+            114.3871511,
+            30.517323,
+            145.0
+          ],
+          [
+            114.4308112,
+            30.509409,
+            145.0
+          ],
+          [
+            114.4308112,
+            30.5054519,
+            145.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_1",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "快速直达",
+        "strategy": "fastest",
+        "score": 84.99,
+        "topsis_score": 78.89,
+        "robustness_score": 99.21,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_wuchang",
+        "dataset_key": "wuhan_wuchang"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            40.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            40.0
+          ]
+        ]
+      }
+    }
+  ]
+}

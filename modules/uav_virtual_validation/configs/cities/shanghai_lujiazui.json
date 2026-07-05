@@ -1,0 +1,41 @@
+{
+  "name": "shanghai_lujiazui",
+  "display_name": "上海陆家嘴",
+  "description": "国内高楼密集区代表，适合低空经济叙事；OSM 建筑高度完整性需要实际检查。",
+  "center": {
+    "lat": 31.2397,
+    "lon": 121.4998
+  },
+  "bbox": {
+    "south": 31.2310,
+    "west": 121.4880,
+    "north": 31.2485,
+    "east": 121.5105
+  },
+  "default_route": [
+    {"lat": 31.2325, "lon": 121.4890, "altitude_m": 120.0, "label": "起点"},
+    {"lat": 31.2360, "lon": 121.4940, "altitude_m": 145.0, "label": "黄浦江侧转向点"},
+    {"lat": 31.2400, "lon": 121.4995, "altitude_m": 165.0, "label": "核心高楼避让点"},
+    {"lat": 31.2440, "lon": 121.5050, "altitude_m": 140.0, "label": "下降准备点"},
+    {"lat": 31.2475, "lon": 121.5100, "altitude_m": 115.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": [
+      "temperature_2m",
+      "relative_humidity_2m",
+      "pressure_msl",
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "wind_gusts_10m",
+      "precipitation",
+      "cloud_cover"
+    ]
+  },
+  "osm": {
+    "default_building_height_m": 30.0,
+    "level_height_m": 3.2,
+    "max_buildings": 2500
+  }
+}

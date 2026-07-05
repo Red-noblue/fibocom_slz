@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "city": "manhattan_midtown",
+  "output_dir": "/home/fibo/fibocom_slz/modules/sionna-rt-workspace/outputs/uav_city_3d_radio_map/manhattan_midtown",
+  "scene_xml": "/home/fibo/fibocom_slz/modules/sionna-rt-workspace/outputs/uav_city_3d_radio_map/manhattan_midtown/scene/scene.xml",
+  "rx_points": 405,
+  "buildings_imported": 71,
+  "mesh_vertices": 1462,
+  "mesh_faces": 2640,
+  "valid_path_count_total": 680,
+  "global_path_gain_db_count": 680,
+  "global_path_gain_db_min": -135.727,
+  "global_path_gain_db_max": -72.872,
+  "los_blocked_rx_points": 11,
+  "excess_loss_db_min": 0.0,
+  "excess_loss_db_max": 22.217,
+  "path_loss_db_min": 72.872,
+  "path_loss_db_max": 110.274,
+  "free_space_path_loss_db_min": -16.671,
+  "free_space_path_loss_db_max": 89.684
+}

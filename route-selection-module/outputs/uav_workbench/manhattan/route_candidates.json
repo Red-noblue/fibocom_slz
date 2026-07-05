@@ -1,0 +1,308 @@
+{
+  "city": {
+    "name": "manhattan_midtown",
+    "display_name": "纽约 Manhattan Midtown",
+    "center": {
+      "lat": 40.7549,
+      "lon": -73.984
+    },
+    "bbox": {
+      "south": 40.748,
+      "west": -73.9925,
+      "north": 40.7625,
+      "east": -73.973
+    }
+  },
+  "request": {
+    "start": {
+      "lat": 40.7486,
+      "lon": -73.9915,
+      "altitude_m": 120.0
+    },
+    "end": {
+      "lat": 40.762,
+      "lon": -73.974,
+      "altitude_m": 110.0
+    }
+  },
+  "planner": {
+    "min_altitude_m": 0.0,
+    "max_altitude_m": 550.0,
+    "cell_m": 220.0,
+    "safety_clearance_m": 25.0,
+    "cruise_speed_mps": 14.0,
+    "altitude_layers_m": [
+      0.0,
+      20.0,
+      25.0,
+      30.0,
+      40.0,
+      45.0,
+      60.0,
+      80.0,
+      100.0,
+      110.0,
+      120.0,
+      150.0,
+      170.0,
+      180.0,
+      220.0,
+      260.0,
+      300.0,
+      510.0
+    ],
+    "candidate_count": 5,
+    "ranking_method": "entropy_weight_topsis",
+    "monte_carlo_runs": 36,
+    "ranking_weights": {
+      "distance_m": 0.138,
+      "estimated_duration_s": 0.1452,
+      "max_headwind_mps": 0.1043,
+      "max_crosswind_mps": 0.0469,
+      "max_turbulence_index": 0.0877,
+      "average_urban_density": 0.1574,
+      "overflight_exposure_index": 0.045,
+      "average_reachability_index": 0.1009,
+      "corridor_diversity_index": 0.0486,
+      "robustness_score": 0.126
+    }
+  },
+  "routes": [
+    {
+      "route_id": "route_3",
+      "label": "低风险",
+      "strategy": "safest",
+      "score": 66.2,
+      "base_cost": 815.49,
+      "topsis_score": 64.73,
+      "robustness_score": 69.63,
+      "reliability_ratio": 0.528,
+      "duration_p95_s": 356.01,
+      "expected_delay_ratio": 0.056,
+      "distance_m": 2177.89,
+      "estimated_duration_s": 306.98,
+      "max_wind_speed_mps": 13.86,
+      "max_headwind_mps": 8.27,
+      "max_crosswind_mps": 10.97,
+      "max_turbulence_index": 0.371,
+      "average_urban_density": 1.0,
+      "average_connectivity_index": 1.0,
+      "minimum_connectivity_index": 1.0,
+      "average_reachability_index": 0.813,
+      "corridor_diversity_index": 0.191,
+      "overflight_building_count": 73,
+      "overflight_exposure_index": 16.961,
+      "waypoint_count": 2,
+      "recommended_rank": 1,
+      "waypoints": [
+        {
+          "lat": 40.7489893,
+          "lon": -73.9911941,
+          "altitude_m": 220.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 40.7628388,
+          "lon": -73.9729111,
+          "altitude_m": 220.0,
+          "label": "航点2"
+        }
+      ]
+    },
+    {
+      "route_id": "route_2",
+      "label": "均衡推荐",
+      "strategy": "balanced",
+      "score": 66.07,
+      "base_cost": 907.97,
+      "topsis_score": 64.14,
+      "robustness_score": 70.57,
+      "reliability_ratio": 0.556,
+      "duration_p95_s": 364.57,
+      "expected_delay_ratio": 0.049,
+      "distance_m": 2177.89,
+      "estimated_duration_s": 301.95,
+      "max_wind_speed_mps": 13.44,
+      "max_headwind_mps": 8.02,
+      "max_crosswind_mps": 10.64,
+      "max_turbulence_index": 0.371,
+      "average_urban_density": 1.0,
+      "average_connectivity_index": 1.0,
+      "minimum_connectivity_index": 1.0,
+      "average_reachability_index": 0.817,
+      "corridor_diversity_index": 0.11,
+      "overflight_building_count": 73,
+      "overflight_exposure_index": 23.286,
+      "waypoint_count": 2,
+      "recommended_rank": 2,
+      "waypoints": [
+        {
+          "lat": 40.7489893,
+          "lon": -73.9911941,
+          "altitude_m": 170.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 40.7628388,
+          "lon": -73.9729111,
+          "altitude_m": 170.0,
+          "label": "航点2"
+        }
+      ]
+    },
+    {
+      "route_id": "route_5",
+      "label": "训练穿行",
+      "strategy": "training",
+      "score": 39.18,
+      "base_cost": 1132.43,
+      "topsis_score": 36.57,
+      "robustness_score": 45.26,
+      "reliability_ratio": 0.056,
+      "duration_p95_s": 444.06,
+      "expected_delay_ratio": 0.039,
+      "distance_m": 3058.73,
+      "estimated_duration_s": 405.88,
+      "max_wind_speed_mps": 12.91,
+      "max_headwind_mps": 12.4,
+      "max_crosswind_mps": 11.7,
+      "max_turbulence_index": 0.592,
+      "average_urban_density": 0.861,
+      "average_connectivity_index": 0.856,
+      "minimum_connectivity_index": 0.8,
+      "average_reachability_index": 0.678,
+      "corridor_diversity_index": 0.16,
+      "overflight_building_count": 57,
+      "overflight_exposure_index": 26.853,
+      "waypoint_count": 4,
+      "recommended_rank": 3,
+      "waypoints": [
+        {
+          "lat": 40.7489893,
+          "lon": -73.9911941,
+          "altitude_m": 120.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 40.7470107,
+          "lon": -73.9807466,
+          "altitude_m": 110.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 40.7549248,
+          "lon": -73.9702992,
+          "altitude_m": 110.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 40.7628388,
+          "lon": -73.9729111,
+          "altitude_m": 110.0,
+          "label": "航点4"
+        }
+      ]
+    },
+    {
+      "route_id": "route_1",
+      "label": "快速直达",
+      "strategy": "fastest",
+      "score": 38.97,
+      "base_cost": 1089.57,
+      "topsis_score": 36.41,
+      "robustness_score": 44.95,
+      "reliability_ratio": 0.056,
+      "duration_p95_s": 451.29,
+      "expected_delay_ratio": 0.039,
+      "distance_m": 3058.67,
+      "estimated_duration_s": 405.44,
+      "max_wind_speed_mps": 12.91,
+      "max_headwind_mps": 12.53,
+      "max_crosswind_mps": 11.76,
+      "max_turbulence_index": 0.592,
+      "average_urban_density": 0.861,
+      "average_connectivity_index": 0.856,
+      "minimum_connectivity_index": 0.8,
+      "average_reachability_index": 0.677,
+      "corridor_diversity_index": 0.148,
+      "overflight_building_count": 57,
+      "overflight_exposure_index": 24.125,
+      "waypoint_count": 4,
+      "recommended_rank": 4,
+      "waypoints": [
+        {
+          "lat": 40.7489893,
+          "lon": -73.9911941,
+          "altitude_m": 120.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 40.7470107,
+          "lon": -73.9807466,
+          "altitude_m": 120.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 40.7549248,
+          "lon": -73.9702992,
+          "altitude_m": 120.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 40.7628388,
+          "lon": -73.9729111,
+          "altitude_m": 120.0,
+          "label": "航点4"
+        }
+      ]
+    },
+    {
+      "route_id": "route_4",
+      "label": "低空绕障",
+      "strategy": "low_altitude",
+      "score": 28.71,
+      "base_cost": 1262.82,
+      "topsis_score": 22.22,
+      "robustness_score": 43.87,
+      "reliability_ratio": 0.028,
+      "duration_p95_s": 446.02,
+      "expected_delay_ratio": 0.034,
+      "distance_m": 3080.81,
+      "estimated_duration_s": 407.06,
+      "max_wind_speed_mps": 13.27,
+      "max_headwind_mps": 12.96,
+      "max_crosswind_mps": 12.78,
+      "max_turbulence_index": 0.371,
+      "average_urban_density": 1.0,
+      "average_connectivity_index": 0.917,
+      "minimum_connectivity_index": 0.875,
+      "average_reachability_index": 0.723,
+      "corridor_diversity_index": 0.203,
+      "overflight_building_count": 74,
+      "overflight_exposure_index": 35.504,
+      "waypoint_count": 3,
+      "recommended_rank": 5,
+      "waypoints": [
+        {
+          "lat": 40.7489893,
+          "lon": -73.9911941,
+          "altitude_m": 120.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 40.7628388,
+          "lon": -73.9911941,
+          "altitude_m": 150.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 40.7628388,
+          "lon": -73.9729111,
+          "altitude_m": 110.0,
+          "label": "航点3"
+        }
+      ]
+    }
+  ],
+  "dataset_key": "manhattan"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "manhattan_midtown",
+  "display_name": "纽约 Manhattan Midtown",
+  "description": "高楼密集、OSM 建筑覆盖较好，适合作为真实城市背景任务验证默认场景。",
+  "center": {
+    "lat": 40.7549,
+    "lon": -73.9840
+  },
+  "bbox": {
+    "south": 40.7480,
+    "west": -73.9925,
+    "north": 40.7625,
+    "east": -73.9730
+  },
+  "default_route": [
+    {"lat": 40.7486, "lon": -73.9915, "altitude_m": 120.0, "label": "起点"},
+    {"lat": 40.7522, "lon": -73.9875, "altitude_m": 145.0, "label": "避让高楼转向点"},
+    {"lat": 40.7560, "lon": -73.9842, "altitude_m": 155.0, "label": "中段巡航点"},
+    {"lat": 40.7595, "lon": -73.9795, "altitude_m": 135.0, "label": "下降准备点"},
+    {"lat": 40.7620, "lon": -73.9740, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "America/New_York",
+    "history_date": "2025-10-15",
+    "hourly": [
+      "temperature_2m",
+      "relative_humidity_2m",
+      "pressure_msl",
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "wind_gusts_10m",
+      "precipitation",
+      "cloud_cover"
+    ]
+  },
+  "osm": {
+    "default_building_height_m": 28.0,
+    "level_height_m": 3.2,
+    "max_buildings": 2500
+  }
+}

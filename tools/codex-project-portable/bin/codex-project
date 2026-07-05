@@ -1,0 +1,1532 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+TOOLKIT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd -P)"
+PORTABLE_INIT_CONFIG_PATH="${TOOLKIT_ROOT}/portable-init.env"
+STATE_DIR="${TOOLKIT_ROOT}/state"
+PORTABLE_META_PATH="${STATE_DIR}/portable-meta.json"
+RUNTIME_ROOT="${TOOLKIT_ROOT}/runtime"
+RUNTIME_BIN_DIR="${RUNTIME_ROOT}/bin"
+BUNDLED_NODE_BIN="${RUNTIME_BIN_DIR}/node"
+BUNDLED_CODEX_BIN="${RUNTIME_ROOT}/lib/node_modules/@openai/codex/bin/codex.js"
+CONFIGS_ROOT="${CODEX_PORTABLE_CONFIGS_ROOT:-${TOOLKIT_ROOT}/mycodex/configs}"
+LEGACY_LOCAL_CODEX_HOME="${TOOLKIT_ROOT}/state/codex-home"
+DEFAULT_WORKSPACE_ROOT_NAME="Yansongs_Mickey_Mouse_Clubhouse"
+NODE_BIN="${CODEX_NODE_BIN:-${BUNDLED_NODE_BIN}}"
+CODEX_BIN="${CODEX_BIN:-${BUNDLED_CODEX_BIN}}"
+VALID_PROFILES_COUNT=0
+
+if [[ -f "${PORTABLE_INIT_CONFIG_PATH}" ]]; then
+  # shellcheck disable=SC1090
+  source "${PORTABLE_INIT_CONFIG_PATH}"
+fi
+
+resolve_realpath() {
+  python3 - "$1" <<'PY'
+import os
+import sys
+
+print(os.path.realpath(sys.argv[1]))
+PY
+}
+
+list_child_dirs() {
+  python3 - "$1" <<'PY'
+import os
+import sys
+
+root = sys.argv[1]
+try:
+    entries = sorted(entry.name for entry in os.scandir(root) if entry.is_dir())
+except FileNotFoundError:
+    entries = []
+
+for name in entries:
+    print(name)
+PY
+}
+
+usage() {
+  cat <<'EOF'
+Codex Project Portable Help
+
+常用命令:
+  codex-project start [--profile <name>] [-C <workspace-dir>]
+    启动当前项目的交互式 codex。
+
+    其他参数会原样透传给 codex。
+    默认会自动启用:
+      --dangerously-bypass-approvals-and-sandbox
+
+    兼容/控制别名:
+      --yolo -> --dangerously-bypass-approvals-and-sandbox
+      --safe -> 禁用本工具默认自动附加的危险模式参数
+
+  codex-project resume [--profile <name>] [-C <workspace-dir>] <session-id>
+    按 session id 恢复工具包内已有对话。
+
+  codex-project last [--profile <name>] [-C <workspace-dir>]
+    恢复工具包内最近一条对话。
+
+  codex-project pick [--profile <name>] [-C <workspace-dir>]
+    打开 resume picker，挑选工具包内已有对话。
+
+  codex-project sessions [--json]
+    列出当前工具包里的 session。
+
+  codex-project profiles [--json]
+    列出 mycodex/configs 下的 profile 及其有效性。
+
+  codex-project exec [--profile <name>] [-C <workspace-dir>] "<prompt>"
+    非交互执行一轮，适合脚本验证。
+
+  codex-project exec-resume [--profile <name>] [-C <workspace-dir>] <session-id> "<prompt>"
+    在已有 session 上做一次非交互恢复。
+
+  codex-project where [--profile <name>]
+    查看 toolkit/project/profile/CODEX_HOME 等解析结果。
+
+  codex-project doctor [--profile <name>]
+    做环境检查，确认 profile/session/codex 是否可用。
+
+  codex-project status [--profile <name>]
+    打印当前本机兼容状态、最近 session 和关键路径。
+
+  codex-project repair-state
+    修复本地 sqlite 里残留的旧 rollout_path，使历史会话兼容当前目录。
+
+  codex-project selftest [--profile <name>]
+    做一轮本地便携性自检，不调用远端模型。
+
+  codex-project runtime [status|install|update]
+    打开交互式运行时管理器，或直接管理工具内 runtime。
+
+  codex-project init [--project-root <dir>] [--workspace-dir <dir>] [--profile <name>]
+    把当前工具目录初始化为项目内模块，并生成 portable-init.env。
+
+  codex-project pack [clean-offline|clean-online|migrate-full]
+    一键生成适合复制到其他项目中的压缩包。
+
+  codex-project help
+    打印这份帮助。
+
+快捷命令:
+  cdx    -> codex-project start
+  cdxr   -> codex-project resume
+  cdxl   -> codex-project last
+  cdxp   -> codex-project pick
+  cdxs   -> codex-project sessions
+  cdxd   -> codex-project doctor
+  cdxst  -> codex-project status
+  cdxfix -> codex-project repair-state
+  cdxcheck -> codex-project selftest
+  cdxrt -> codex-project runtime
+  cdxinit -> codex-project init
+  cdxpack -> codex-project pack
+  cdxh   -> codex-project help
+
+快速示例:
+  codex-project profiles
+  codex-project start
+  codex-project start --profile zys
+  codex-project start --profile zys -C /tmp
+  codex-project start --profile zys --yolo
+  codex-project sessions
+  codex-project resume --profile zys <session-id>
+  codex-project resume --profile zys -C /tmp <session-id>
+  codex-project exec --profile zys "只回复 OK"
+  codex-project exec --profile zys -C /tmp "只回复 OK"
+  codex-project status --profile zys
+  codex-project repair-state
+  codex-project selftest --profile zys
+  codex-project init --profile zys
+  codex-project pack clean-online
+
+环境变量:
+  CODEX_PORTABLE_PROFILE
+    指定要使用的 profile 名称，等价于 --profile
+
+  CODEX_PORTABLE_CONFIGS_ROOT
+    profile 根目录，默认: <toolkit-root>/mycodex/configs
+
+  CODEX_PORTABLE_HOME
+    本工具包内持久化 Codex home，默认: <toolkit-root>/mycodex/sessions
+
+  CODEX_PORTABLE_PROJECT_ROOT
+    显式指定项目根目录
+
+  CODEX_PORTABLE_WORKSPACE_DIR
+    显式指定本次启动/resume/exec 使用的工作空间目录；
+    默认等于 project_root
+
+  CODEX_PORTABLE_KEEP_SOURCE_FILES=1
+    运行结束后保留本地复制出的 auth.json / config.toml
+
+  CODEX_PORTABLE_NO_PROFILE_PROMPT=1
+    有多个有效 profile 时不弹交互选择，直接用默认 profile
+
+  CODEX_BIN
+    codex 可执行文件名或绝对路径；默认优先使用 <toolkit-root>/runtime/bin/codex
+
+  CODEX_NODE_BIN
+    node 可执行文件名或绝对路径；默认优先使用 <toolkit-root>/runtime/bin/node
+
+  CODEX_PORTABLE_NO_AUTO_HELP=1
+    source shell/use.zsh 或 shell/use.bash 时不自动打印帮助
+
+  CODEX_PORTABLE_DEFAULT_YOLO=0
+    禁用默认自动添加 --dangerously-bypass-approvals-and-sandbox
+
+  CODEX_PORTABLE_WORKSPACE_ROOT_NAME
+    默认工作空间根目录名，默认: Yansongs_Mickey_Mouse_Clubhouse
+
+工作方式:
+  1. profile 配置文件固定放在 <toolkit-root>/mycodex/configs/<profile>/。
+  2. 运行时把选中 profile 的 auth.json / config.toml 复制到本地 CODEX_HOME。
+  3. 默认使用 <toolkit-root>/mycodex/sessions 作为 CODEX_HOME。
+  4. 会话、sqlite、memories、shell snapshots 等状态都落在 mycodex/sessions/ 下。
+  5. 若 mycodex/sessions/ 为空且旧版 <toolkit>/state/codex-home 有数据，会自动迁入。
+  6. 默认在 Codex 退出后删除本地复制出的 auth.json / config.toml，只保留状态产物。
+  7. 默认自动附加 --dangerously-bypass-approvals-and-sandbox；额外参数会继续
+     透传给 codex；其中 --yolo 会被兼容映射到同一个危险模式参数。
+  8. 默认工作空间目录优先解析到名为 Yansongs_Mickey_Mouse_Clubhouse 的上层目录；
+     未命中时回退到 project_root；可通过 -C / --workspace-dir 临时改成其他目录。
+  9. 执行 codex-project init 后，会在工具根目录生成 portable-init.env，
+     持久保存项目名、相对 project_root、相对 workspace_dir 和默认 profile；
+     环境变量和命令行参数仍可临时覆盖这些默认值。
+
+EOF
+}
+
+die() {
+  printf '错误: %s\n' "$*" >&2
+  exit 1
+}
+
+have_cmd() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+default_workspace_root_name() {
+  printf '%s\n' "${CODEX_PORTABLE_WORKSPACE_ROOT_NAME:-${CODEX_PORTABLE_INIT_PROJECT_NAME:-${DEFAULT_WORKSPACE_ROOT_NAME}}}"
+}
+
+resolve_toolkit_relative_dir() {
+  local relative_path="${1:-}"
+
+  [[ -n "${relative_path}" ]] || return 1
+  [[ -d "${TOOLKIT_ROOT}/${relative_path}" ]] || return 1
+  cd "${TOOLKIT_ROOT}/${relative_path}" && pwd -P
+}
+
+find_workspace_root_by_name() {
+  local start_path="$1"
+  local target_name
+  local current
+
+  target_name="$(default_workspace_root_name)"
+  current="$(cd "${start_path}" && pwd -P)"
+
+  while true; do
+    if [[ "$(basename "${current}")" == "${target_name}" ]]; then
+      printf '%s\n' "${current}"
+      return 0
+    fi
+
+    if [[ "${current}" == "/" ]]; then
+      return 1
+    fi
+
+    current="$(dirname "${current}")"
+  done
+}
+
+project_root() {
+  local toolkit_parent
+  local root_name
+  local detected
+
+  if [[ -n "${CODEX_PORTABLE_PROJECT_ROOT:-}" ]]; then
+    cd "${CODEX_PORTABLE_PROJECT_ROOT}" && pwd -P
+    return
+  fi
+
+  if detected="$(resolve_toolkit_relative_dir "${CODEX_PORTABLE_INIT_PROJECT_ROOT_RELATIVE:-}" 2>/dev/null)"; then
+    printf '%s\n' "${detected}"
+    return
+  fi
+
+  root_name="$(default_workspace_root_name)"
+
+  if detected="$(find_workspace_root_by_name "${TOOLKIT_ROOT}" 2>/dev/null)"; then
+    printf '%s\n' "${detected}"
+    return
+  fi
+
+  if have_cmd git && git -C "${PWD}" rev-parse --show-toplevel >/dev/null 2>&1; then
+    detected="$(git -C "${PWD}" rev-parse --show-toplevel)"
+    if [[ "$(basename "${detected}")" == "${root_name}" ]]; then
+      printf '%s\n' "${detected}"
+      return
+    fi
+  fi
+
+  toolkit_parent="$(cd "${TOOLKIT_ROOT}/.." && pwd -P)"
+
+  # When this toolkit lives under <project>/tools/, prefer that enclosing project
+  # root instead of the caller's arbitrary shell cwd.
+  if [[ "$(basename "${toolkit_parent}")" == "tools" ]]; then
+    cd "${toolkit_parent}/.." && pwd -P
+    return
+  fi
+
+  printf '%s\n' "${toolkit_parent}"
+}
+
+PROJECT_ROOT="$(project_root)"
+DEFAULT_LOCAL_CODEX_HOME="${TOOLKIT_ROOT}/mycodex/sessions"
+LOCAL_CODEX_HOME="${CODEX_PORTABLE_HOME:-${DEFAULT_LOCAL_CODEX_HOME}}"
+CLI_PROFILE="${CODEX_PORTABLE_PROFILE:-${CODEX_PORTABLE_INIT_DEFAULT_PROFILE:-}}"
+CLI_WORKSPACE_DIR="${CODEX_PORTABLE_WORKSPACE_DIR:-}"
+SELECTED_PROFILE=""
+SELECTED_PROFILE_DIR=""
+WORKSPACE_DIR=""
+REMAINING_ARGS=()
+REMAINING_ARGS_COUNT=0
+FORWARDED_CODEX_ARGS=()
+FORWARDED_CODEX_ARGS_COUNT=0
+YOLO_ARG="--dangerously-bypass-approvals-and-sandbox"
+DEFAULT_YOLO_ENABLED="${CODEX_PORTABLE_DEFAULT_YOLO:-1}"
+FORCE_SAFE_MODE=0
+EXPLICIT_YOLO_MODE=0
+
+reset_remaining_args() {
+  REMAINING_ARGS=()
+  REMAINING_ARGS_COUNT=0
+}
+
+append_remaining_arg() {
+  REMAINING_ARGS+=("$1")
+  REMAINING_ARGS_COUNT=$((REMAINING_ARGS_COUNT + 1))
+}
+
+reset_forwarded_codex_args() {
+  FORWARDED_CODEX_ARGS=()
+  FORWARDED_CODEX_ARGS_COUNT=0
+}
+
+append_forwarded_codex_arg() {
+  FORWARDED_CODEX_ARGS+=("$1")
+  FORWARDED_CODEX_ARGS_COUNT=$((FORWARDED_CODEX_ARGS_COUNT + 1))
+}
+
+prepend_forwarded_codex_arg() {
+  local value="$1"
+
+  if [[ "${FORWARDED_CODEX_ARGS_COUNT}" -gt 0 ]]; then
+    FORWARDED_CODEX_ARGS=("${value}" "${FORWARDED_CODEX_ARGS[@]}")
+  else
+    FORWARDED_CODEX_ARGS=("${value}")
+  fi
+  FORWARDED_CODEX_ARGS_COUNT=$((FORWARDED_CODEX_ARGS_COUNT + 1))
+}
+
+load_valid_profiles_into_array() {
+  local __target_name="$1"
+  local __profile_name
+  local __count=0
+
+  eval "${__target_name}=()"
+  while IFS= read -r __profile_name; do
+    eval "${__target_name}+=(\"\${__profile_name}\")"
+    __count=$((__count + 1))
+  done < <(valid_profiles)
+  VALID_PROFILES_COUNT="${__count}"
+}
+
+run_runtime_env_command_with_forwarded_args() {
+  if [[ "${FORWARDED_CODEX_ARGS_COUNT}" -gt 0 ]]; then
+    runtime_env_command "$@" "${FORWARDED_CODEX_ARGS[@]}"
+  else
+    runtime_env_command "$@"
+  fi
+}
+
+parse_common_flags() {
+  reset_remaining_args
+
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      -p|--profile)
+        [[ $# -ge 2 ]] || die "--profile 需要 profile 名称"
+        CLI_PROFILE="$2"
+        shift 2
+        ;;
+      --profile=*)
+        CLI_PROFILE="${1#*=}"
+        shift
+        ;;
+      -C|--workspace-dir|--cwd|--workspace)
+        [[ $# -ge 2 ]] || die "$1 需要目录路径"
+        CLI_WORKSPACE_DIR="$2"
+        shift 2
+        ;;
+      --workspace-dir=*|--cwd=*|--workspace=*)
+        CLI_WORKSPACE_DIR="${1#*=}"
+        shift
+        ;;
+      --)
+        shift
+        while [[ $# -gt 0 ]]; do
+          append_remaining_arg "$1"
+          shift
+        done
+        break
+        ;;
+      *)
+        append_remaining_arg "$1"
+        shift
+        ;;
+    esac
+  done
+}
+
+profile_dir() {
+  printf '%s/%s\n' "${CONFIGS_ROOT}" "$1"
+}
+
+profile_has_auth() {
+  local dir
+  dir="$(profile_dir "$1")"
+  [[ -f "${dir}/auth.json" ]]
+}
+
+profile_has_config() {
+  local dir
+  dir="$(profile_dir "$1")"
+  [[ -f "${dir}/config.toml" ]]
+}
+
+profile_is_valid() {
+  local dir
+  dir="$(profile_dir "$1")"
+  [[ -d "${dir}" ]] && profile_has_auth "$1" && profile_has_config "$1"
+}
+
+all_profiles() {
+  [[ -d "${CONFIGS_ROOT}" ]] || return 0
+  list_child_dirs "${CONFIGS_ROOT}"
+}
+
+valid_profiles() {
+  local profile_name
+  while IFS= read -r profile_name; do
+    if profile_is_valid "${profile_name}"; then
+      printf '%s\n' "${profile_name}"
+    fi
+  done < <(all_profiles)
+}
+
+default_profile_name() {
+  if profile_is_valid "zys"; then
+    printf 'zys\n'
+    return 0
+  fi
+
+  local first_profile
+  first_profile="$(valid_profiles | head -n 1 || true)"
+  [[ -n "${first_profile}" ]] || return 1
+  printf '%s\n' "${first_profile}"
+}
+
+choose_profile_interactively() {
+  local default_profile="$1"
+  shift
+  local -a profiles=("$@")
+  local reply selected index profiles_count="$#"
+
+  printf '检测到多个有效 profile:\n' >&2
+  index=1
+  for selected in "${profiles[@]}"; do
+    if [[ "${selected}" == "${default_profile}" ]]; then
+      printf '  %d. %s (默认)\n' "${index}" "${selected}" >&2
+    else
+      printf '  %d. %s\n' "${index}" "${selected}" >&2
+    fi
+    index=$((index + 1))
+  done
+
+  while true; do
+    if ! read -r -p "选择 profile [1-${profiles_count}]，直接回车使用 ${default_profile}: " reply; then
+      die "读取 profile 选择失败"
+    fi
+
+    if [[ -z "${reply}" ]]; then
+      printf '%s\n' "${default_profile}"
+      return 0
+    fi
+
+    if [[ "${reply}" =~ ^[0-9]+$ ]] && (( reply >= 1 && reply <= profiles_count )); then
+      printf '%s\n' "${profiles[$((reply - 1))]}"
+      return 0
+    fi
+
+    printf '输入无效，请重新选择。\n' >&2
+  done
+}
+
+resolve_selected_profile() {
+  local allow_prompt="${1:-0}"
+  local selected="${CLI_PROFILE:-}"
+  local default_profile
+  local -a profiles=()
+  local profiles_count=0
+
+  if [[ -n "${selected}" ]]; then
+    profile_is_valid "${selected}" || die "profile 不可用: ${selected}；请检查 ${CONFIGS_ROOT}/${selected}/auth.json 和 config.toml"
+    SELECTED_PROFILE="${selected}"
+    SELECTED_PROFILE_DIR="$(profile_dir "${selected}")"
+    return 0
+  fi
+
+  load_valid_profiles_into_array profiles
+  profiles_count="${VALID_PROFILES_COUNT}"
+  [[ "${profiles_count}" -gt 0 ]] || die "在 ${CONFIGS_ROOT} 下没有发现有效 profile"
+
+  if [[ "${profiles_count}" -eq 1 ]]; then
+    selected="${profiles[0]}"
+  else
+    default_profile="$(default_profile_name)" || die "无法确定默认 profile"
+
+    if [[ "${allow_prompt}" == "1" && -t 0 && -t 1 && "${CODEX_PORTABLE_NO_PROFILE_PROMPT:-0}" != "1" ]]; then
+      selected="$(choose_profile_interactively "${default_profile}" "${profiles[@]}")"
+    else
+      selected="${default_profile}"
+    fi
+  fi
+
+  SELECTED_PROFILE="${selected}"
+  SELECTED_PROFILE_DIR="$(profile_dir "${selected}")"
+}
+
+resolve_workspace_dir() {
+  local requested="${CLI_WORKSPACE_DIR:-}"
+
+  if [[ -n "${requested}" ]]; then
+    [[ -d "${requested}" ]] || die "工作空间目录不存在: ${requested}"
+    WORKSPACE_DIR="$(cd "${requested}" && pwd -P)"
+    return 0
+  fi
+
+  if requested="$(resolve_toolkit_relative_dir "${CODEX_PORTABLE_INIT_WORKSPACE_DIR_RELATIVE:-}" 2>/dev/null)"; then
+    WORKSPACE_DIR="${requested}"
+    return 0
+  fi
+
+  WORKSPACE_DIR="${PROJECT_ROOT}"
+}
+
+ensure_requirements() {
+  [[ -x "${NODE_BIN}" ]] || have_cmd "${NODE_BIN}" || die "找不到 node 可执行文件: ${NODE_BIN}"
+  [[ -x "${CODEX_BIN}" ]] || have_cmd "${CODEX_BIN}" || die "找不到 codex 可执行文件: ${CODEX_BIN}"
+  have_cmd python3 || die "需要 python3 用于解析 session 和补写 config.toml"
+  [[ -d "${CONFIGS_ROOT}" ]] || die "profile 根目录不存在: ${CONFIGS_ROOT}"
+}
+
+cleanup_runtime_config_files() {
+  if [[ "${CODEX_PORTABLE_KEEP_SOURCE_FILES:-0}" == "1" ]]; then
+    return
+  fi
+
+  rm -f "${LOCAL_CODEX_HOME}/auth.json" "${LOCAL_CODEX_HOME}/config.toml" "${LOCAL_CODEX_HOME}/version.json"
+}
+
+dir_has_entries() {
+  local dir="$1"
+
+  [[ -d "${dir}" ]] || return 1
+  python3 - "${dir}" <<'PY'
+import os
+import sys
+
+path = sys.argv[1]
+try:
+    for name in os.listdir(path):
+        if name != ".gitignore":
+            sys.exit(0)
+except FileNotFoundError:
+    pass
+sys.exit(1)
+PY
+}
+
+migrate_legacy_state_if_needed() {
+  local entry_name
+
+  if [[ "${LOCAL_CODEX_HOME}" == "${LEGACY_LOCAL_CODEX_HOME}" ]]; then
+    return
+  fi
+
+  if ! dir_has_entries "${LEGACY_LOCAL_CODEX_HOME}"; then
+    return
+  fi
+
+  if dir_has_entries "${LOCAL_CODEX_HOME}"; then
+    return
+  fi
+
+  mkdir -p "${LOCAL_CODEX_HOME}"
+
+  shopt -s dotglob nullglob
+  for entry_name in "${LEGACY_LOCAL_CODEX_HOME}"/*; do
+    case "$(basename "${entry_name}")" in
+      auth.json|config.toml|version.json)
+        continue
+        ;;
+    esac
+
+    cp -R "${entry_name}" "${LOCAL_CODEX_HOME}/"
+  done
+  shopt -u dotglob nullglob
+}
+
+prepare_runtime_home() {
+  migrate_legacy_state_if_needed
+  mkdir -p "${LOCAL_CODEX_HOME}"
+  cp "${SELECTED_PROFILE_DIR}/auth.json" "${LOCAL_CODEX_HOME}/auth.json"
+  cp "${SELECTED_PROFILE_DIR}/config.toml" "${LOCAL_CODEX_HOME}/config.toml"
+
+  if [[ -f "${SELECTED_PROFILE_DIR}/version.json" ]]; then
+    cp "${SELECTED_PROFILE_DIR}/version.json" "${LOCAL_CODEX_HOME}/version.json"
+  fi
+
+  python3 - "${LOCAL_CODEX_HOME}/config.toml" "${WORKSPACE_DIR}" "${PROJECT_ROOT}" "${TOOLKIT_ROOT}" "${LOCAL_CODEX_HOME}" <<'PY'
+import pathlib
+import sys
+
+config_path = pathlib.Path(sys.argv[1])
+trusted_paths = [path for path in sys.argv[2:] if path]
+text = config_path.read_text(encoding="utf-8")
+
+changed = False
+for raw_path in trusted_paths:
+    escaped = raw_path.replace("\\", "\\\\").replace('"', '\\"')
+    marker = f'[projects."{escaped}"]'
+    if marker not in text:
+        if text and not text.endswith("\n"):
+            text += "\n"
+        text += f'\n{marker}\ntrust_level = "trusted"\n'
+        changed = True
+
+if changed:
+    config_path.write_text(text, encoding="utf-8")
+PY
+
+  repair_state_paths quiet
+  update_portable_metadata
+}
+
+repair_state_paths() {
+  local mode="${1:-normal}"
+
+  python3 - "${LOCAL_CODEX_HOME}" "${mode}" <<'PY'
+import sqlite3
+import sys
+import time
+from pathlib import Path
+
+local_home = Path(sys.argv[1])
+mode = sys.argv[2]
+db_path = local_home / "state_5.sqlite"
+sessions_root = local_home / "sessions"
+
+if not db_path.exists() or not sessions_root.exists():
+    if mode != "quiet":
+        print("repaired_threads=0")
+    raise SystemExit(0)
+
+con = sqlite3.connect(str(db_path))
+cur = con.cursor()
+rows = cur.execute("select id, rollout_path from threads").fetchall()
+updated = 0
+
+def safe_exists(path: Path) -> bool:
+    try:
+        return path.exists()
+    except OSError:
+        return False
+
+for thread_id, rollout_path in rows:
+    if not rollout_path:
+        continue
+
+    current = Path(rollout_path)
+    replacement = None
+    current_is_local = str(current).startswith(str(local_home) + "/") or str(current) == str(local_home)
+
+    if current_is_local and safe_exists(current):
+        continue
+
+    marker = "/mycodex/sessions/"
+    if marker in rollout_path:
+        suffix = rollout_path.split(marker, 1)[1]
+        candidate = local_home / suffix
+        if safe_exists(candidate):
+            replacement = candidate
+
+    if replacement is None:
+        matches = list(sessions_root.rglob(current.name))
+        if len(matches) == 1:
+            replacement = matches[0]
+
+    if replacement is None:
+        continue
+
+    if str(replacement) != rollout_path:
+        cur.execute(
+            "update threads set rollout_path=?, updated_at=?, updated_at_ms=? where id=?",
+            (str(replacement), int(time.time()), int(time.time() * 1000), thread_id),
+        )
+        updated += 1
+
+con.commit()
+con.close()
+
+if mode != "quiet":
+    print(f"repaired_threads={updated}")
+PY
+}
+
+update_portable_metadata() {
+  mkdir -p "${STATE_DIR}"
+
+  python3 - "${PORTABLE_META_PATH}" "${TOOLKIT_ROOT}" "${PROJECT_ROOT}" "${WORKSPACE_DIR}" "${LOCAL_CODEX_HOME}" "${CONFIGS_ROOT}" <<'PY'
+import json
+import sys
+import time
+from pathlib import Path
+
+meta_path = Path(sys.argv[1])
+toolkit_root = sys.argv[2]
+project_root = sys.argv[3]
+workspace_dir = sys.argv[4]
+local_codex_home = sys.argv[5]
+configs_root = sys.argv[6]
+
+previous = {}
+if meta_path.exists():
+    try:
+        previous = json.loads(meta_path.read_text(encoding="utf-8"))
+    except Exception:
+        previous = {}
+
+payload = {
+    "updated_at": int(time.time()),
+    "toolkit_root": toolkit_root,
+    "project_root": project_root,
+    "workspace_dir": workspace_dir,
+    "local_codex_home": local_codex_home,
+    "configs_root": configs_root,
+    "previous_toolkit_root": previous.get("toolkit_root", ""),
+    "previous_project_root": previous.get("project_root", ""),
+    "previous_workspace_dir": previous.get("workspace_dir", ""),
+}
+meta_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+PY
+}
+
+normalize_codex_args() {
+  reset_forwarded_codex_args
+  FORCE_SAFE_MODE=0
+  EXPLICIT_YOLO_MODE=0
+
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --yolo)
+        EXPLICIT_YOLO_MODE=1
+        append_forwarded_codex_arg "${YOLO_ARG}"
+        ;;
+      --safe|--no-yolo|--no-danger)
+        FORCE_SAFE_MODE=1
+        DEFAULT_YOLO_ENABLED=0
+        ;;
+      "${YOLO_ARG}")
+        EXPLICIT_YOLO_MODE=1
+        append_forwarded_codex_arg "$1"
+        ;;
+      *)
+        append_forwarded_codex_arg "$1"
+        ;;
+    esac
+    shift
+  done
+
+  if [[ "${DEFAULT_YOLO_ENABLED}" != "0" && "${FORCE_SAFE_MODE}" != "1" && "${EXPLICIT_YOLO_MODE}" != "1" ]]; then
+    prepend_forwarded_codex_arg "${YOLO_ARG}"
+  fi
+}
+
+resolved_cmd_path() {
+  local candidate="$1"
+  if [[ -x "${candidate}" ]]; then
+    printf '%s\n' "${candidate}"
+  else
+    command -v "${candidate}" 2>/dev/null || printf '%s\n' "${candidate}"
+  fi
+}
+
+runtime_env_command() {
+  local node_path codex_path runtime_lib
+  node_path="$(resolved_cmd_path "${NODE_BIN}")"
+  codex_path="$(resolved_cmd_path "${CODEX_BIN}")"
+  runtime_lib="${RUNTIME_ROOT}/lib/node_modules"
+
+  env -u OPENAI_API_KEY -u OPENAI_BASE_URL -u OPENAI_API_BASE -u OPENAI_ORG_ID -u OPENAI_ORGANIZATION \
+    PATH="${RUNTIME_BIN_DIR}:${PATH}" \
+    NODE_PATH="${runtime_lib}${NODE_PATH:+:${NODE_PATH}}" \
+    CODEX_HOME="${LOCAL_CODEX_HOME}" \
+    "${node_path}" "${codex_path}" "$@"
+}
+
+run_codex() {
+  ensure_requirements
+  resolve_selected_profile 1
+  resolve_workspace_dir
+  prepare_runtime_home
+  normalize_codex_args "$@"
+  trap cleanup_runtime_config_files EXIT
+  run_runtime_env_command_with_forwarded_args
+}
+
+run_codex_exec() {
+  ensure_requirements
+  resolve_selected_profile 1
+  resolve_workspace_dir
+  prepare_runtime_home
+  normalize_codex_args "$@"
+  trap cleanup_runtime_config_files EXIT
+  run_runtime_env_command_with_forwarded_args exec -C "${WORKSPACE_DIR}" --skip-git-repo-check
+}
+
+run_codex_exec_resume() {
+  local session_id="$1"
+  shift
+  ensure_requirements
+  resolve_selected_profile 1
+  resolve_workspace_dir
+  prepare_runtime_home
+  normalize_codex_args "$@"
+  trap cleanup_runtime_config_files EXIT
+  run_runtime_env_command_with_forwarded_args exec -C "${WORKSPACE_DIR}" resume --all --skip-git-repo-check "${session_id}"
+}
+
+list_sessions() {
+  local mode="${1:-table}"
+  local sessions_root="${LOCAL_CODEX_HOME}/sessions"
+
+  [[ -d "${sessions_root}" ]] || {
+    if [[ "${mode}" == "json" ]]; then
+      printf '[]\n'
+    else
+      printf '本地尚无 session。\n'
+    fi
+    return
+  }
+
+  python3 - "${sessions_root}" "${mode}" <<'PY'
+import glob
+import json
+import os
+import sys
+
+sessions_root = sys.argv[1]
+mode = sys.argv[2]
+rows = []
+
+for path in sorted(glob.glob(os.path.join(sessions_root, "*", "*", "*", "*.jsonl")), reverse=True):
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            lines = fh.readlines()
+    except Exception:
+        continue
+
+    if not lines:
+        continue
+
+    try:
+        first = json.loads(lines[0])
+    except Exception:
+        continue
+
+    if first.get("type") != "session_meta":
+        continue
+
+    payload = first.get("payload", {})
+    latest_timestamp = str(first.get("timestamp", "")) or str(payload.get("timestamp", ""))
+    for raw_line in lines[1:]:
+        try:
+            item = json.loads(raw_line)
+        except Exception:
+            continue
+        current_timestamp = str(item.get("timestamp", ""))
+        if current_timestamp > latest_timestamp:
+            latest_timestamp = current_timestamp
+
+    rows.append({
+        "timestamp": latest_timestamp or str(payload.get("timestamp", "")),
+        "session_id": payload.get("id", ""),
+        "cwd": payload.get("cwd", ""),
+        "cli_version": payload.get("cli_version", ""),
+        "file": path,
+    })
+
+rows.sort(key=lambda row: (row["timestamp"], row["session_id"]), reverse=True)
+
+if mode == "json":
+    print(json.dumps(rows, ensure_ascii=False, indent=2))
+    sys.exit(0)
+
+if not rows:
+    print("本地尚无 session。")
+    sys.exit(0)
+
+timestamp_w = max(len("timestamp"), *(len(row["timestamp"]) for row in rows))
+session_w = max(len("session_id"), *(len(row["session_id"]) for row in rows))
+cli_w = max(len("cli"), *(len(row["cli_version"]) for row in rows))
+
+print(f'{"last_used".ljust(timestamp_w)}  {"session_id".ljust(session_w)}  {"cli".ljust(cli_w)}  cwd')
+for row in rows:
+    print(
+        f'{row["timestamp"].ljust(timestamp_w)}  '
+        f'{row["session_id"].ljust(session_w)}  '
+        f'{row["cli_version"].ljust(cli_w)}  '
+        f'{row["cwd"]}'
+    )
+PY
+}
+
+list_profiles() {
+  local mode="${1:-table}"
+  local default_profile=""
+
+  default_profile="$(default_profile_name || true)"
+
+  python3 - "${CONFIGS_ROOT}" "${default_profile}" "${mode}" <<'PY'
+import json
+import pathlib
+import sys
+
+configs_root = pathlib.Path(sys.argv[1])
+default_profile = sys.argv[2]
+mode = sys.argv[3]
+rows = []
+
+if configs_root.is_dir():
+    for path in sorted(p for p in configs_root.iterdir() if p.is_dir()):
+        has_auth = (path / "auth.json").is_file()
+        has_config = (path / "config.toml").is_file()
+        rows.append({
+            "profile": path.name,
+            "status": "valid" if has_auth and has_config else "invalid",
+            "has_auth": has_auth,
+            "has_config": has_config,
+            "is_default": path.name == default_profile,
+            "path": str(path),
+        })
+
+if mode == "json":
+    print(json.dumps(rows, ensure_ascii=False, indent=2))
+    sys.exit(0)
+
+if not rows:
+    print("未发现任何 profile 目录。")
+    sys.exit(0)
+
+profile_w = max(len("profile"), *(len(row["profile"]) for row in rows))
+status_w = max(len("status"), *(len(row["status"]) for row in rows))
+
+print(f'{"profile".ljust(profile_w)}  {"status".ljust(status_w)}  auth  config  default  path')
+for row in rows:
+    print(
+        f'{row["profile"].ljust(profile_w)}  '
+        f'{row["status"].ljust(status_w)}  '
+        f'{"yes" if row["has_auth"] else "no " }  '
+        f'{"yes" if row["has_config"] else "no " }  '
+        f'{"yes" if row["is_default"] else "no " }  '
+        f'{row["path"]}'
+    )
+PY
+}
+
+show_where() {
+  resolve_selected_profile 0
+  resolve_workspace_dir
+
+  cat <<EOF
+toolkit_root=${TOOLKIT_ROOT}
+project_root=${PROJECT_ROOT}
+workspace_dir=${WORKSPACE_DIR}
+workspace_root_name=$(default_workspace_root_name)
+configs_root=${CONFIGS_ROOT}
+selected_profile=${SELECTED_PROFILE}
+selected_profile_dir=${SELECTED_PROFILE_DIR}
+local_codex_home=${LOCAL_CODEX_HOME}
+runtime_root=${RUNTIME_ROOT}
+init_config_path=${PORTABLE_INIT_CONFIG_PATH}
+init_project_name=${CODEX_PORTABLE_INIT_PROJECT_NAME:-}
+init_project_root_relative=${CODEX_PORTABLE_INIT_PROJECT_ROOT_RELATIVE:-}
+init_workspace_dir_relative=${CODEX_PORTABLE_INIT_WORKSPACE_DIR_RELATIVE:-}
+init_default_profile=${CODEX_PORTABLE_INIT_DEFAULT_PROFILE:-}
+node_bin=$(resolved_cmd_path "${NODE_BIN}")
+codex_bin=$(resolved_cmd_path "${CODEX_BIN}")
+EOF
+}
+
+doctor() {
+  local sessions_count="0"
+
+  resolve_selected_profile 0
+  resolve_workspace_dir
+
+  if [[ -d "${LOCAL_CODEX_HOME}/sessions" ]]; then
+    sessions_count="$(find "${LOCAL_CODEX_HOME}/sessions" -name '*.jsonl' -type f | wc -l | tr -d ' ')"
+  fi
+
+  cat <<EOF
+toolkit_root: ${TOOLKIT_ROOT}
+project_root: ${PROJECT_ROOT}
+workspace_dir: ${WORKSPACE_DIR}
+configs_root: ${CONFIGS_ROOT}
+selected_profile: ${SELECTED_PROFILE}
+selected_profile_dir: ${SELECTED_PROFILE_DIR}
+local_codex_home: ${LOCAL_CODEX_HOME}
+runtime_root: ${RUNTIME_ROOT}
+init_config_path: ${PORTABLE_INIT_CONFIG_PATH}
+init_project_name: ${CODEX_PORTABLE_INIT_PROJECT_NAME:-}
+init_project_root_relative: ${CODEX_PORTABLE_INIT_PROJECT_ROOT_RELATIVE:-}
+init_workspace_dir_relative: ${CODEX_PORTABLE_INIT_WORKSPACE_DIR_RELATIVE:-}
+init_default_profile: ${CODEX_PORTABLE_INIT_DEFAULT_PROFILE:-}
+workspace_root_name: $(default_workspace_root_name)
+node_bin: $(resolved_cmd_path "${NODE_BIN}")
+codex_bin: $(resolved_cmd_path "${CODEX_BIN}")
+has_profile_auth: $(if [[ -f "${SELECTED_PROFILE_DIR}/auth.json" ]]; then echo yes; else echo no; fi)
+has_profile_config: $(if [[ -f "${SELECTED_PROFILE_DIR}/config.toml" ]]; then echo yes; else echo no; fi)
+legacy_state_present: $(if dir_has_entries "${LEGACY_LOCAL_CODEX_HOME}"; then echo yes; else echo no; fi)
+local_session_files: ${sessions_count}
+inherited_openai_api_key: $(if [[ -n "${OPENAI_API_KEY:-}" ]]; then echo yes; else echo no; fi)
+inherited_openai_base_url: ${OPENAI_BASE_URL:-}
+inherited_openai_api_base: ${OPENAI_API_BASE:-}
+selected_profile_base_url: $(python3 - "${SELECTED_PROFILE_DIR}/config.toml" <<'PY'
+import sys
+from pathlib import Path
+try:
+    import tomllib
+except ModuleNotFoundError:
+    try:
+        import tomli as tomllib
+    except ModuleNotFoundError:
+        print("")
+        raise SystemExit(0)
+path = Path(sys.argv[1])
+if not path.exists():
+    print("")
+    raise SystemExit(0)
+obj = tomllib.loads(path.read_text(encoding="utf-8"))
+provider = obj.get("model_provider", "")
+providers = obj.get("model_providers", {})
+base_url = (providers.get(provider, {}) or {}).get("base_url", "")
+print(base_url)
+PY
+)
+runtime_base_url: $(python3 - "${LOCAL_CODEX_HOME}/config.toml" <<'PY'
+import sys
+from pathlib import Path
+try:
+    import tomllib
+except ModuleNotFoundError:
+    try:
+        import tomli as tomllib
+    except ModuleNotFoundError:
+        print("")
+        raise SystemExit(0)
+path = Path(sys.argv[1])
+if not path.exists():
+    print("")
+    raise SystemExit(0)
+obj = tomllib.loads(path.read_text(encoding="utf-8"))
+provider = obj.get("model_provider", "")
+providers = obj.get("model_providers", {})
+base_url = (providers.get(provider, {}) or {}).get("base_url", "")
+print(base_url)
+PY
+)
+EOF
+}
+
+sync_runtime() {
+  local from_node=""
+  local from_codex=""
+  local codex_target_js codex_pkg_root platform_pkg_root target_triple target_name target_dir_name runtime_platform runtime_arch runtime_node_version source_label target_codex_pkg_root target_platform_pkg_root
+
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --from-node)
+        [[ $# -ge 2 ]] || die "--from-node 需要 node 路径"
+        from_node="$2"
+        shift 2
+        ;;
+      --from-node=*)
+        from_node="${1#*=}"
+        shift
+        ;;
+      --from-codex)
+        [[ $# -ge 2 ]] || die "--from-codex 需要 codex 路径"
+        from_codex="$2"
+        shift 2
+        ;;
+      --from-codex=*)
+        from_codex="${1#*=}"
+        shift
+        ;;
+      *)
+        die "sync-runtime 不支持参数: $1"
+        ;;
+    esac
+  done
+
+  [[ -n "${from_node}" ]] || die "请用 --from-node 指定 node 路径"
+  [[ -n "${from_codex}" ]] || die "请用 --from-codex 指定 codex 路径"
+  [[ -x "${from_node}" ]] || die "node 不可执行: ${from_node}"
+
+  from_node="$(resolve_realpath "${from_node}")"
+  from_codex="$(resolve_realpath "${from_codex}")"
+  [[ -f "${from_codex}" ]] || die "codex 入口不存在: ${from_codex}"
+
+  codex_target_js="$(python3 - "${from_codex}" <<'PY'
+import pathlib
+import sys
+
+path = pathlib.Path(sys.argv[1]).resolve()
+print(path)
+PY
+)"
+  codex_pkg_root="$(cd "$(dirname "${codex_target_js}")/.." && pwd -P)"
+  [[ -f "${codex_pkg_root}/package.json" ]] || die "无法识别 codex 包目录: ${codex_pkg_root}"
+
+  runtime_platform="$("${from_node}" -p 'process.platform')"
+  runtime_arch="$("${from_node}" -p 'process.arch')"
+  runtime_node_version="$("${from_node}" -v)"
+  source_label="${CODEX_PORTABLE_RUNTIME_SOURCE:-internal-refresh}"
+
+  case "${runtime_platform}/${runtime_arch}" in
+    linux/x64)
+      target_triple="x86_64-unknown-linux-musl"
+      target_name="@openai/codex-linux-x64"
+      ;;
+    linux/arm64)
+      target_triple="aarch64-unknown-linux-musl"
+      target_name="@openai/codex-linux-arm64"
+      ;;
+    darwin/x64)
+      target_triple="x86_64-apple-darwin"
+      target_name="@openai/codex-darwin-x64"
+      ;;
+    darwin/arm64)
+      target_triple="aarch64-apple-darwin"
+      target_name="@openai/codex-darwin-arm64"
+      ;;
+    win32/x64)
+      target_triple="x86_64-pc-windows-msvc"
+      target_name="@openai/codex-win32-x64"
+      ;;
+    win32/arm64)
+      target_triple="aarch64-pc-windows-msvc"
+      target_name="@openai/codex-win32-arm64"
+      ;;
+    *) die "未知 target triple: ${target_triple}" ;;
+  esac
+
+  target_dir_name="${target_name#@openai/}"
+  platform_pkg_root="$("${from_node}" - "${codex_pkg_root}" "${target_name}" <<'NODE'
+const path = require("path");
+const { createRequire } = require("module");
+
+const codexPkgRoot = process.argv[2];
+const targetName = process.argv[3];
+const requireFromCodex = createRequire(path.join(codexPkgRoot, "package.json"));
+
+try {
+  const pkgPath = requireFromCodex.resolve(`${targetName}/package.json`);
+  process.stdout.write(path.dirname(pkgPath));
+} catch {
+  process.exit(1);
+}
+NODE
+  )" || die "无法解析平台包: ${target_name}"
+
+  target_codex_pkg_root="${RUNTIME_ROOT}/lib/node_modules/@openai/codex"
+  target_platform_pkg_root="${target_codex_pkg_root}/node_modules/@openai/${target_dir_name}"
+
+  mkdir -p "${RUNTIME_BIN_DIR}" "${RUNTIME_ROOT}/lib/node_modules/@openai"
+  if [[ "${from_node}" != "${BUNDLED_NODE_BIN}" ]]; then
+    cp "${from_node}" "${BUNDLED_NODE_BIN}"
+    chmod +x "${BUNDLED_NODE_BIN}"
+  fi
+
+  if [[ "${codex_pkg_root}" != "${target_codex_pkg_root}" ]]; then
+    rm -rf "${target_codex_pkg_root}"
+    cp -R "${codex_pkg_root}" "${target_codex_pkg_root}"
+  fi
+
+  case "${platform_pkg_root}" in
+    "${codex_pkg_root}"|"${codex_pkg_root}"/*)
+      ;;
+    *)
+      mkdir -p "$(dirname "${target_platform_pkg_root}")"
+      rm -rf "${target_platform_pkg_root}"
+      cp -R "${platform_pkg_root}" "${target_platform_pkg_root}"
+      ;;
+  esac
+
+  rm -f "${RUNTIME_BIN_DIR}/codex"
+  cat > "${RUNTIME_BIN_DIR}/codex" <<'EOF'
+#!/usr/bin/env bash
+set -euo pipefail
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+RUNTIME_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd -P)"
+exec "${SCRIPT_DIR}/node" "${RUNTIME_ROOT}/lib/node_modules/@openai/codex/bin/codex.js" "$@"
+EOF
+  chmod +x "${RUNTIME_BIN_DIR}/codex"
+
+  python3 - "${RUNTIME_ROOT}/portable-runtime.json" "${from_node}" "${codex_pkg_root}/package.json" "${target_triple}" "${target_name}" "${runtime_node_version}" "${source_label}" <<'PY'
+import json
+import pathlib
+import sys
+import time
+
+meta_path = pathlib.Path(sys.argv[1])
+node_path = sys.argv[2]
+pkg_path = pathlib.Path(sys.argv[3])
+target_triple = sys.argv[4]
+target_name = sys.argv[5]
+node_version = sys.argv[6]
+source_label = sys.argv[7]
+pkg = json.loads(pkg_path.read_text(encoding="utf-8"))
+payload = {
+    "updated_at": int(time.time()),
+    "node_path_source": node_path,
+    "node_version": node_version,
+    "codex_version": pkg.get("version", ""),
+    "target_triple": target_triple,
+    "platform_package": target_name,
+    "install_source": source_label,
+}
+meta_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+PY
+
+  printf 'runtime synced\n'
+  printf 'node=%s\n' "${BUNDLED_NODE_BIN}"
+  printf 'codex=%s\n' "${BUNDLED_CODEX_BIN}"
+  printf 'target=%s\n' "${target_triple}"
+}
+
+status() {
+  local sessions_root="${LOCAL_CODEX_HOME}/sessions"
+
+  resolve_selected_profile 0
+  resolve_workspace_dir
+  repair_state_paths quiet
+  update_portable_metadata
+
+  python3 - "${TOOLKIT_ROOT}" "${PROJECT_ROOT}" "${WORKSPACE_DIR}" "${CONFIGS_ROOT}" "${SELECTED_PROFILE}" "${SELECTED_PROFILE_DIR}" "${LOCAL_CODEX_HOME}" "${sessions_root}" "${CODEX_BIN}" "${PORTABLE_META_PATH}" "${DEFAULT_YOLO_ENABLED}" <<'PY'
+import glob
+import json
+import os
+import sys
+from pathlib import Path
+
+try:
+    import tomllib
+except ModuleNotFoundError:
+    try:
+        import tomli as tomllib
+    except ModuleNotFoundError:
+        tomllib = None
+
+toolkit_root, project_root, workspace_dir, configs_root, profile, profile_dir, local_home, sessions_root, codex_bin, meta_path, default_yolo = sys.argv[1:]
+session_rows = []
+meta = {}
+
+meta_file = Path(meta_path)
+if meta_file.exists():
+    try:
+        meta = json.loads(meta_file.read_text(encoding="utf-8"))
+    except Exception:
+        meta = {}
+
+for path in sorted(glob.glob(os.path.join(sessions_root, "*", "*", "*", "*.jsonl")), reverse=True):
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            lines = fh.readlines()
+    except Exception:
+        continue
+    if not lines:
+        continue
+    try:
+        first = json.loads(lines[0])
+    except Exception:
+        continue
+    if first.get("type") != "session_meta":
+        continue
+    payload = first.get("payload", {})
+    latest_timestamp = str(first.get("timestamp", "")) or str(payload.get("timestamp", ""))
+    for raw_line in lines[1:]:
+        try:
+            item = json.loads(raw_line)
+        except Exception:
+            continue
+        current_timestamp = str(item.get("timestamp", ""))
+        if current_timestamp > latest_timestamp:
+            latest_timestamp = current_timestamp
+    session_rows.append({
+        "timestamp": latest_timestamp or str(payload.get("timestamp", "")),
+        "session_id": payload.get("id", ""),
+        "cwd": payload.get("cwd", ""),
+    })
+
+session_rows.sort(key=lambda row: (row["timestamp"], row["session_id"]), reverse=True)
+
+profile_cfg_path = Path(profile_dir) / "config.toml"
+runtime_cfg_path = Path(local_home) / "config.toml"
+
+def read_base_url(path: Path) -> str:
+    if not path.exists():
+        return ""
+    text = path.read_text(encoding="utf-8")
+    if tomllib is not None:
+        try:
+            obj = tomllib.loads(text)
+        except Exception:
+            obj = None
+        if obj is not None:
+            provider = obj.get("model_provider", "")
+            providers = obj.get("model_providers", {}) or {}
+            provider_obj = providers.get(provider, {}) or {}
+            return str(provider_obj.get("base_url", ""))
+
+    provider = ""
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("model_provider"):
+            parts = line.split("=", 1)
+            if len(parts) == 2:
+                provider = parts[1].strip().strip('"').strip("'")
+            break
+
+    if not provider:
+        return ""
+
+    current_section = ""
+    target_section = "model_providers." + provider
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("[") and line.endswith("]"):
+            current_section = line[1:-1].strip()
+            continue
+        if current_section == target_section and line.startswith("base_url"):
+            parts = line.split("=", 1)
+            if len(parts) == 2:
+                return parts[1].strip().strip('"').strip("'")
+    return ""
+
+print(f"toolkit_root: {toolkit_root}")
+print(f"project_root: {project_root}")
+print(f"workspace_dir: {workspace_dir}")
+print(f"configs_root: {configs_root}")
+print(f"selected_profile: {profile}")
+print(f"selected_profile_dir: {profile_dir}")
+print(f"local_codex_home: {local_home}")
+print(f"codex_bin: {codex_bin}")
+print(f"session_count: {len(session_rows)}")
+print(f"previous_toolkit_root: {meta.get('previous_toolkit_root', '')}")
+print(f"previous_project_root: {meta.get('previous_project_root', '')}")
+print(f"previous_workspace_dir: {meta.get('previous_workspace_dir', '')}")
+print(f"relocation_detected: {'yes' if meta.get('previous_toolkit_root') and meta.get('previous_toolkit_root') != toolkit_root else 'no'}")
+print(f"default_yolo: {'enabled' if default_yolo != '0' else 'disabled'}")
+print(f"inherited_openai_api_key: {'yes' if os.environ.get('OPENAI_API_KEY') else 'no'}")
+print(f"inherited_openai_base_url: {os.environ.get('OPENAI_BASE_URL', '')}")
+print(f"inherited_openai_api_base: {os.environ.get('OPENAI_API_BASE', '')}")
+print(f"selected_profile_base_url: {read_base_url(profile_cfg_path)}")
+print(f"runtime_base_url: {read_base_url(runtime_cfg_path)}")
+
+if session_rows:
+    last = session_rows[0]
+    print(f"last_session_id: {last['session_id']}")
+    print(f"last_session_timestamp: {last['timestamp']}")
+    print(f"last_session_cwd: {last['cwd']}")
+else:
+    print("last_session_id: ")
+    print("last_session_timestamp: ")
+    print("last_session_cwd: ")
+PY
+}
+
+selftest() {
+  ensure_requirements
+  resolve_selected_profile 0
+  resolve_workspace_dir
+  repair_state_paths quiet
+  update_portable_metadata
+
+  python3 - "${TOOLKIT_ROOT}" "${PROJECT_ROOT}" "${WORKSPACE_DIR}" "${CONFIGS_ROOT}" "${SELECTED_PROFILE}" "${SELECTED_PROFILE_DIR}" "${LOCAL_CODEX_HOME}" "${CODEX_BIN}" "${DEFAULT_YOLO_ENABLED}" <<'PY'
+import glob
+import json
+import sqlite3
+import sys
+from pathlib import Path
+
+toolkit_root = Path(sys.argv[1])
+project_root = Path(sys.argv[2])
+workspace_dir = Path(sys.argv[3])
+configs_root = Path(sys.argv[4])
+profile = sys.argv[5]
+profile_dir = Path(sys.argv[6])
+local_home = Path(sys.argv[7])
+codex_bin = sys.argv[8]
+default_yolo = sys.argv[9]
+db_path = local_home / "state_5.sqlite"
+sessions_root = local_home / "sessions"
+
+bad_rollouts = 0
+session_files = 0
+if sessions_root.exists():
+    session_files = len(list(sessions_root.rglob("*.jsonl")))
+
+if db_path.exists():
+    con = sqlite3.connect(str(db_path))
+    cur = con.cursor()
+    rows = cur.execute("select rollout_path from threads").fetchall()
+    for (rollout_path,) in rows:
+        if rollout_path and not str(rollout_path).startswith(str(local_home)):
+            bad_rollouts += 1
+    con.close()
+
+result = {
+    "toolkit_exists": toolkit_root.is_dir(),
+    "project_exists": project_root.is_dir(),
+    "workspace_exists": workspace_dir.is_dir(),
+    "configs_root_exists": configs_root.is_dir(),
+    "profile_valid": profile_dir.is_dir() and (profile_dir / "auth.json").is_file() and (profile_dir / "config.toml").is_file(),
+    "codex_bin": codex_bin,
+    "local_codex_home_exists": local_home.is_dir(),
+    "session_files": session_files,
+    "bad_rollout_paths": bad_rollouts,
+    "portable_ready": bad_rollouts == 0,
+    "default_yolo": default_yolo != "0",
+    "selected_profile": profile,
+    "project_root": str(project_root),
+    "workspace_dir": str(workspace_dir),
+    "toolkit_root": str(toolkit_root),
+}
+print(json.dumps(result, ensure_ascii=False, indent=2))
+PY
+}
+
+subcommand="${1:-start}"
+if [[ $# -gt 0 ]]; then
+  shift
+fi
+
+case "${subcommand}" in
+  runtime)
+    exec "${SCRIPT_DIR}/codex-project-runtime" "$@"
+    ;;
+  init)
+    exec "${SCRIPT_DIR}/codex-project-init" "$@"
+    ;;
+  pack)
+    exec "${SCRIPT_DIR}/codex-project-pack" "$@"
+    ;;
+  help|-h|--help)
+    usage
+    exit 0
+    ;;
+esac
+
+parse_common_flags "$@"
+if [[ "${REMAINING_ARGS_COUNT}" -gt 0 ]]; then
+  set -- "${REMAINING_ARGS[@]}"
+else
+  set --
+fi
+
+case "${subcommand}" in
+  start)
+    resolve_workspace_dir
+    run_codex -C "${WORKSPACE_DIR}" "$@"
+    ;;
+  resume)
+    [[ $# -ge 1 ]] || die "resume 需要 session id"
+    session_id="$1"
+    shift
+    resolve_workspace_dir
+    run_codex -C "${WORKSPACE_DIR}" resume --all "${session_id}" "$@"
+    ;;
+  last)
+    resolve_workspace_dir
+    run_codex -C "${WORKSPACE_DIR}" resume --all --last "$@"
+    ;;
+  pick)
+    resolve_workspace_dir
+    run_codex -C "${WORKSPACE_DIR}" resume --all "$@"
+    ;;
+  exec)
+    run_codex_exec "$@"
+    ;;
+  exec-resume)
+    [[ $# -ge 1 ]] || die "exec-resume 需要 session id"
+    session_id="$1"
+    shift
+    run_codex_exec_resume "${session_id}" "$@"
+    ;;
+  sessions)
+    if [[ "${1:-}" == "--json" ]]; then
+      list_sessions json
+    else
+      list_sessions table
+    fi
+    ;;
+  profiles)
+    if [[ "${1:-}" == "--json" ]]; then
+      list_profiles json
+    else
+      list_profiles table
+    fi
+    ;;
+  where)
+    show_where
+    ;;
+  doctor)
+    doctor
+    ;;
+  status)
+    status
+    ;;
+  repair-state)
+    repair_state_paths normal
+    ;;
+  selftest)
+    selftest
+    ;;
+  sync-runtime)
+    sync_runtime "$@"
+    ;;
+  *)
+    die "未知子命令: ${subcommand}。使用 'codex-project help' 查看帮助。"
+    ;;
+esac

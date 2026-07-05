@@ -1,0 +1,46 @@
+{
+  "execute_ms": [
+    926.2053599813953
+  ],
+  "execute_ms_avg": 926.2053599813953,
+  "execute_ms_max": 926.2053599813953,
+  "execute_ms_min": 926.2053599813953,
+  "fetch_ms": [
+    5.48442397848703
+  ],
+  "fetch_ms_avg": 5.48442397848703,
+  "framework": "snpe",
+  "init_code": 0,
+  "init_ms": 145.15047598979436,
+  "input_name": "input",
+  "mode": 5,
+  "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+  "ok": true,
+  "output_len": 65536,
+  "output_max": 2.8550949096679688,
+  "output_mean": -0.04620487987995148,
+  "output_min": -1.6133201122283936,
+  "output_name": "output",
+  "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/snpe_gpu_repro_test100/samples/618_k1_cpu_snpe.npy",
+  "release_code": 0,
+  "repeat": 1,
+  "runtime": "CPU",
+  "sample": {
+    "has_valid_mask": true,
+    "has_y": true,
+    "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/618_k1.npz",
+    "x_shape_chw": [
+      7,
+      256,
+      256
+    ],
+    "x_shape_nhwc": [
+      1,
+      256,
+      256,
+      7
+    ]
+  },
+  "sample_id": "618_k1",
+  "warmup": 1
+}

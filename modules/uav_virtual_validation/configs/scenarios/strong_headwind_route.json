@@ -1,0 +1,19 @@
+{
+  "name": "strong_headwind_route",
+  "route_name": "demo_urban_route",
+  "start": {
+    "lat": 39.9598,
+    "lon": 116.352
+  },
+  "end": {
+    "lat": 40.15608,
+    "lon": 116.28333
+  },
+  "departure": "2026-05-17T09:00:00",
+  "cruise_altitude_m": 100.0,
+  "cruise_speed_mps": 12.0,
+  "step_seconds": 30,
+  "vehicle_config": "../vehicles/generic_multirotor.json",
+  "environment_config": "../environments/urban_low_altitude.json",
+  "weather_config": "../weather/strong_headwind.json"
+}

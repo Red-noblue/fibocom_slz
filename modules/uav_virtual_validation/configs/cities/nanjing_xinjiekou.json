@@ -1,0 +1,20 @@
+{
+  "name": "nanjing_xinjiekou",
+  "display_name": "南京 Xinjiekou",
+  "description": "南京新街口中心城区，商业密度高，适合复杂街区和人口密集任务约束演示。",
+  "center": {"lat": 32.0416, "lon": 118.7847},
+  "bbox": {"south": 32.0310, "west": 118.7690, "north": 32.0520, "east": 118.8000},
+  "default_route": [
+    {"lat": 32.0325, "lon": 118.7710, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 32.0365, "lon": 118.7770, "altitude_m": 135.0, "label": "商业区转向点"},
+    {"lat": 32.0416, "lon": 118.7847, "altitude_m": 155.0, "label": "核心避让点"},
+    {"lat": 32.0470, "lon": 118.7920, "altitude_m": 140.0, "label": "巡航点"},
+    {"lat": 32.0505, "lon": 118.7985, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 24.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

@@ -1,0 +1,742 @@
+{
+  "166_k0": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      84.30630998918787
+    ],
+    "execute_ms_avg": 84.30630998918787,
+    "execute_ms_max": 84.30630998918787,
+    "execute_ms_min": 84.30630998918787,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 4.6119710023049265,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1420.8223409950733,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -118.10601806640625,
+      "mae_db": 2.591580629348755,
+      "pred_dbm_mean": -119.2442398071289,
+      "rmse_db": 4.239192235404738,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": 0.26065462827682495,
+    "output_min": -1.523669958114624,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/166_k0_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/166_k0.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "166_k0",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "166_k1": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      79.0721100056544
+    ],
+    "execute_ms_avg": 79.0721100056544,
+    "execute_ms_max": 79.0721100056544,
+    "execute_ms_min": 79.0721100056544,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 2.4761559907346964,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1249.3853620253503,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -121.35371398925781,
+      "mae_db": 3.07753849029541,
+      "pred_dbm_mean": -121.61795043945312,
+      "rmse_db": 4.319946935822281,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": 0.07539716362953186,
+    "output_min": -1.5347915887832642,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/166_k1_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/166_k1.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "166_k1",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "373_k0": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      89.55644801608287
+    ],
+    "execute_ms_avg": 89.55644801608287,
+    "execute_ms_max": 89.55644801608287,
+    "execute_ms_min": 89.55644801608287,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 2.4372549960389733,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1096.4807150012348,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -122.81071472167969,
+      "mae_db": 3.8195066452026367,
+      "pred_dbm_mean": -124.51534271240234,
+      "rmse_db": 5.328448780771169,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": -0.1507318615913391,
+    "output_min": -1.5681565999984741,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/373_k0_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/373_k0.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "373_k0",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "373_k1": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      79.92571202339604
+    ],
+    "execute_ms_avg": 79.92571202339604,
+    "execute_ms_max": 79.92571202339604,
+    "execute_ms_min": 79.92571202339604,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 2.2744569869246334,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1064.2082109989133,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -123.5843505859375,
+      "mae_db": 3.8325695991516113,
+      "pred_dbm_mean": -124.46981811523438,
+      "rmse_db": 5.330545272848153,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": -0.14717793464660645,
+    "output_min": -1.590399980545044,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/373_k1_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/373_k1.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "373_k1",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "464_k0": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      84.99779700650834
+    ],
+    "execute_ms_avg": 84.99779700650834,
+    "execute_ms_max": 84.99779700650834,
+    "execute_ms_min": 84.99779700650834,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 2.2144100221339613,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1046.7350179969799,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -123.16844940185547,
+      "mae_db": 3.9476912021636963,
+      "pred_dbm_mean": -122.46617126464844,
+      "rmse_db": 5.875096097119657,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": 0.009196728467941284,
+    "output_min": -1.5125482082366943,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/464_k0_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/464_k0.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "464_k0",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "464_k1": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      81.33840697701089
+    ],
+    "execute_ms_avg": 81.33840697701089,
+    "execute_ms_max": 81.33840697701089,
+    "execute_ms_min": 81.33840697701089,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 2.4600699834991246,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1137.6364400202874,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -123.77894592285156,
+      "mae_db": 3.367894411087036,
+      "pred_dbm_mean": -122.81480407714844,
+      "rmse_db": 5.216543496397273,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": -0.018011976033449173,
+    "output_min": -1.5125482082366943,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/464_k1_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/464_k1.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "464_k1",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "660_k0": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      83.52770397323184
+    ],
+    "execute_ms_avg": 83.52770397323184,
+    "execute_ms_max": 83.52770397323184,
+    "execute_ms_min": 83.52770397323184,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 3.4973419969901443,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1110.4659230040852,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -126.13052368164062,
+      "mae_db": 2.2754149436950684,
+      "pred_dbm_mean": -126.92863464355469,
+      "rmse_db": 3.9973041271248055,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": -0.3390793204307556,
+    "output_min": -1.5125482082366943,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/660_k0_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/660_k0.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "660_k0",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "660_k1": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      80.22155499202199
+    ],
+    "execute_ms_avg": 80.22155499202199,
+    "execute_ms_max": 80.22155499202199,
+    "execute_ms_min": 80.22155499202199,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 2.518823981517926,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1086.798884003656,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -128.0598602294922,
+      "mae_db": 1.9775190353393555,
+      "pred_dbm_mean": -128.83035278320312,
+      "rmse_db": 3.5927427787748005,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": -0.4874993562698364,
+    "output_min": -1.4903048276901245,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/660_k1_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/660_k1.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "660_k1",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "666_k0": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      79.66563000809401
+    ],
+    "execute_ms_avg": 79.66563000809401,
+    "execute_ms_max": 79.66563000809401,
+    "execute_ms_min": 79.66563000809401,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 2.68338798196055,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1125.6591910205316,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -115.58624267578125,
+      "mae_db": 2.3056721687316895,
+      "pred_dbm_mean": -117.15365600585938,
+      "rmse_db": 3.909411318432668,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": 0.4238152503967285,
+    "output_min": -1.5347915887832642,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/666_k0_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/666_k0.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "666_k0",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  },
+  "666_k1": {
+    "execute_dtype": "uint8",
+    "execute_ms": [
+      81.23411500127986
+    ],
+    "execute_ms_avg": 81.23411500127986,
+    "execute_ms_max": 81.23411500127986,
+    "execute_ms_min": 81.23411500127986,
+    "fetch_dtype": "uint8",
+    "fetch_ms_avg": 3.0386759899556637,
+    "framework": "qnn",
+    "init_code": 0,
+    "init_ms": 1189.0074650000315,
+    "input_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        7
+      ],
+      "offset": -130,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.0392201766371727
+    },
+    "label_metrics": {
+      "label_dbm_mean": -116.20372009277344,
+      "mae_db": 2.1162610054016113,
+      "pred_dbm_mean": -117.4977035522461,
+      "rmse_db": 3.9004985735171442,
+      "valid_pixels": 65536
+    },
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 1.023194432258606,
+    "output_mean": 0.39696359634399414,
+    "output_min": -1.523669958114624,
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/samples/666_k1_dsp_qnn.npy",
+    "output_quant": {
+      "data_type": 1032,
+      "dims": [
+        1,
+        256,
+        256,
+        1
+      ],
+      "offset": -163,
+      "ok": true,
+      "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+      "scale": 0.011121678166091442
+    },
+    "platform": "qualcomm",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "DSP",
+    "sample": {
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/666_k1.npz",
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "666_k1",
+    "saved_output_shape": [
+      256,
+      256
+    ],
+    "warmup": 1
+  }
+}

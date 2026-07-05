@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "低风险",
+        "strategy": "safest",
+        "score": 38.8,
+        "topsis_score": 12.57,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "city": "chicago_loop",
+        "dataset_key": "chicago"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6398287,
+            41.8749893,
+            12.0
+          ],
+          [
+            -87.6424861,
+            41.8908173,
+            20.0
+          ],
+          [
+            -87.6318565,
+            41.8927958,
+            20.0
+          ],
+          [
+            -87.6159119,
+            41.8927958,
+            20.0
+          ],
+          [
+            -87.6132545,
+            41.8908173,
+            20.0
+          ],
+          [
+            -87.6132545,
+            41.8888388,
+            20.0
+          ],
+          [
+            -87.6159119,
+            41.8888388,
+            18.0
+          ]
+        ]
+      }
+    }
+  ]
+}

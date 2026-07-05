@@ -1,0 +1,12 @@
+# 忽略说明：过滤运行产物、缓存和本地敏感鉴权文件。
+__pycache__/
+*.pyc
+.DS_Store
+
+out/*
+!out/.gitignore
+
+conf/keys/*.json
+!conf/keys/active.sample.json
+conf/tokens/*.md
+

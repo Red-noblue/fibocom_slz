@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_4",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "低风险",
+        "strategy": "safest",
+        "score": 47.6,
+        "topsis_score": 25.15,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "city": "wuhan_jianghan",
+        "dataset_key": "wuhan_jianghan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2591492,
+            30.5759678,
+            15.0
+          ],
+          [
+            114.2683427,
+            30.5819033,
+            20.0
+          ],
+          [
+            114.2775362,
+            30.5898173,
+            20.0
+          ],
+          [
+            114.2798346,
+            30.5898173,
+            20.0
+          ],
+          [
+            114.2959233,
+            30.6036669,
+            20.0
+          ],
+          [
+            114.3005201,
+            30.6036669,
+            20.0
+          ],
+          [
+            114.3028184,
+            30.6056454,
+            10.0
+          ]
+        ]
+      }
+    }
+  ]
+}

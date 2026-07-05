@@ -1,0 +1,14 @@
+{
+  "name": "generic_multirotor",
+  "battery_wh": 130.0,
+  "empty_mass_kg": 2.2,
+  "payload_kg": 0.5,
+  "hover_power_w": 260.0,
+  "cruise_power_w": 310.0,
+  "climb_power_w_per_mps": 70.0,
+  "descent_power_credit_w_per_mps": 25.0,
+  "headwind_power_w_per_mps": 18.0,
+  "crosswind_power_w_per_mps": 8.0,
+  "low_temp_power_pct_per_c_below_15": 0.008,
+  "reserve_battery_pct": 20.0
+}

@@ -1,0 +1,9 @@
+# 实验配置
+speed_search:
+  min_mps: 6.0
+  max_mps: 12.0
+  step_mps: 1.0
+ablation:
+  include_weather_factor: true
+  include_aqi: true
+  include_visibility: true

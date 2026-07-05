@@ -1,0 +1,20 @@
+{
+  "name": "beijing_wangjing",
+  "display_name": "北京 Wangjing",
+  "description": "北京望京片区，高层办公、居住和商业混合，适合城市任务约束和人口密集区演示。",
+  "center": {"lat": 39.9950, "lon": 116.4740},
+  "bbox": {"south": 39.9780, "west": 116.4540, "north": 40.0110, "east": 116.4970},
+  "default_route": [
+    {"lat": 39.9800, "lon": 116.4560, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 39.9870, "lon": 116.4640, "altitude_m": 135.0, "label": "居住区转向点"},
+    {"lat": 39.9950, "lon": 116.4740, "altitude_m": 155.0, "label": "核心避让点"},
+    {"lat": 40.0040, "lon": 116.4860, "altitude_m": 140.0, "label": "巡航点"},
+    {"lat": 40.0090, "lon": 116.4950, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 26.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

@@ -1,0 +1,1 @@
+This repo has the record/stop launch scripts. System monitoring scripts are also included. Main repo: doe_ws

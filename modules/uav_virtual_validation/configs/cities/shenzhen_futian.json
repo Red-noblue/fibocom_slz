@@ -1,0 +1,20 @@
+{
+  "name": "shenzhen_futian",
+  "display_name": "深圳 Futian CBD",
+  "description": "深圳福田中心区，高楼密集、低空经济叙事强，适合作为中国城市无人机任务验证 demo。",
+  "center": {"lat": 22.5408, "lon": 114.0552},
+  "bbox": {"south": 22.5285, "west": 114.0390, "north": 22.5525, "east": 114.0715},
+  "default_route": [
+    {"lat": 22.5295, "lon": 114.0405, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 22.5340, "lon": 114.0475, "altitude_m": 135.0, "label": "商务区转向点"},
+    {"lat": 22.5408, "lon": 114.0552, "altitude_m": 160.0, "label": "核心高楼避让点"},
+    {"lat": 22.5470, "lon": 114.0635, "altitude_m": 140.0, "label": "下降准备点"},
+    {"lat": 22.5515, "lon": 114.0700, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 32.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

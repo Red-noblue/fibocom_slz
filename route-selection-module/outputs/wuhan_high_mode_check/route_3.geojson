@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_3",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "低风险",
+        "strategy": "safest",
+        "score": 80.34,
+        "topsis_score": 72.31,
+        "robustness_score": 99.09,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            220.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            220.0
+          ]
+        ]
+      }
+    }
+  ]
+}

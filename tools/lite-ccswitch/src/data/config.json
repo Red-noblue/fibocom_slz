@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "proxy": {
+    "autoFailoverEnabled": true,
+    "currentProviderId": "ht",
+    "maxAttempts": 10,
+    "streamingFirstByteTimeoutMs": 60000,
+    "streamingIdleTimeoutMs": 120000,
+    "nonStreamingTimeoutMs": 600000,
+    "circuit": {
+      "failureThreshold": 3,
+      "successThreshold": 2,
+      "openTimeoutMs": 60000,
+      "errorRateThreshold": 0.6,
+      "minRequests": 10
+    }
+  },
+  "providers": [
+    {
+      "id": "ht",
+      "name": "ht",
+      "baseUrl": "https://api.aixhan.com/v1",
+      "apiKey": "sk-a5842b27b574c7eaa2a1404d9ac6b52a",
+      "enabled": true,
+      "inFailoverQueue": true,
+      "sortIndex": 1,
+      "notes": "来自 Codex 配置 ht",
+      "modelMap": {},
+      "modelSupport": {
+        "preferredTestModel": "gpt-5.4-mini",
+        "supportedModels": [
+          "gpt-5.4-mini",
+          "gpt-5.4",
+          "gpt-5.5"
+        ],
+        "unsupportedModels": [],
+        "lastTestedAt": "2026-07-04T06:13:26.364Z"
+      },
+      "stripParams": [],
+      "customHeaders": {}
+    },
+    {
+      "id": "k1",
+      "name": "k1",
+      "baseUrl": "https://api.liangrekui.com/v1",
+      "apiKey": "sk-ZMkZCVd9wwAU4W5LDvMgekuaiih6d0G2sU60m3CTuWJaJRL3",
+      "enabled": true,
+      "inFailoverQueue": true,
+      "sortIndex": 2,
+      "notes": "来自 Codex 配置 k1",
+      "modelMap": {},
+      "modelSupport": {
+        "preferredTestModel": "gpt-5.4-mini",
+        "supportedModels": [
+          "gpt-5.4-mini",
+          "gpt-5.4",
+          "gpt-5.5"
+        ],
+        "unsupportedModels": [],
+        "lastTestedAt": "2026-07-04T06:13:31.615Z"
+      },
+      "stripParams": [],
+      "customHeaders": {}
+    },
+    {
+      "id": "k2",
+      "name": "k2",
+      "baseUrl": "https://api.liangrekui.com/v1",
+      "apiKey": "sk-H6Btk5QfTMjubMvS1ORRGPJqtU7qmbuPCH5VmOwPgFnAoKCs",
+      "enabled": true,
+      "inFailoverQueue": true,
+      "sortIndex": 3,
+      "notes": "来自 Codex 配置 k2",
+      "modelMap": {},
+      "modelSupport": {
+        "preferredTestModel": "gpt-5.4",
+        "supportedModels": [
+          "gpt-5.4",
+          "gpt-5.5"
+        ],
+        "unsupportedModels": [
+          "gpt-5.4-mini"
+        ],
+        "lastTestedAt": "2026-07-04T06:13:44.207Z"
+      },
+      "stripParams": [],
+      "customHeaders": {}
+    },
+    {
+      "id": "k3",
+      "name": "k3",
+      "baseUrl": "https://api.liangrekui.com/v1",
+      "apiKey": "sk-rXZpl3JtlttdIrjXYu8qsGu6daLaUB9JtCDNFFl6RRxcxSCI",
+      "enabled": true,
+      "inFailoverQueue": true,
+      "sortIndex": 4,
+      "notes": "来自 Codex 配置 k3",
+      "modelMap": {},
+      "modelSupport": {
+        "preferredTestModel": "gpt-5.4",
+        "supportedModels": [
+          "gpt-5.4",
+          "gpt-5.5"
+        ],
+        "unsupportedModels": [
+          "gpt-5.4-mini"
+        ],
+        "lastTestedAt": "2026-07-04T06:13:47.371Z"
+      },
+      "stripParams": [],
+      "customHeaders": {}
+    },
+    {
+      "id": "k4",
+      "name": "k4",
+      "baseUrl": "https://api.liangrekui.com/v1",
+      "apiKey": "sk-p58UtHFZnJcSSrOPLqFrGnjoXjRGu1fT9vZa4jogKusLBtZo",
+      "enabled": true,
+      "inFailoverQueue": true,
+      "sortIndex": 5,
+      "notes": "来自 Codex 配置 k4",
+      "modelMap": {},
+      "modelSupport": {
+        "preferredTestModel": "gpt-5.4",
+        "supportedModels": [
+          "gpt-5.4",
+          "gpt-5.5"
+        ],
+        "unsupportedModels": [
+          "gpt-5.4-mini"
+        ],
+        "lastTestedAt": "2026-07-04T06:13:51.245Z"
+      },
+      "stripParams": [],
+      "customHeaders": {}
+    }
+  ],
+  "billing": {
+    "currency": "USD",
+    "pricing": {
+      "gpt-5.5": {
+        "inputPerMillion": 5,
+        "outputPerMillion": 30,
+        "cacheReadPerMillion": 0.5,
+        "cacheCreationPerMillion": 0
+      }
+    }
+  }
+}

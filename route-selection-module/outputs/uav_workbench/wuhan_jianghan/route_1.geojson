@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_1",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "快速直达",
+        "strategy": "fastest",
+        "score": 60.63,
+        "topsis_score": 44.21,
+        "robustness_score": 98.96,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_jianghan",
+        "dataset_key": "wuhan_jianghan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2591492,
+            30.5759678,
+            120.0
+          ],
+          [
+            114.3028184,
+            30.6056454,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

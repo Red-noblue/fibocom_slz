@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_3",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "最畅通路线",
+        "strategy": "most_accessible",
+        "score": 40.19,
+        "topsis_score": 14.56,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.9911941,
+            40.7489893,
+            120.0
+          ],
+          [
+            -73.9911941,
+            40.7628388,
+            210.0
+          ],
+          [
+            -73.9729111,
+            40.7628388,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

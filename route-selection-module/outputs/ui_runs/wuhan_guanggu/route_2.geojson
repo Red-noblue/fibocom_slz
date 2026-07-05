@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "均衡推荐",
+        "strategy": "balanced",
+        "score": 433.34
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3841482,
+            30.4959678,
+            180.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            180.0
+          ]
+        ]
+      }
+    }
+  ]
+}

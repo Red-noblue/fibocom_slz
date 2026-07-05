@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_4",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "均衡稳定推荐",
+        "strategy": "balanced_stable",
+        "score": 61.79,
+        "topsis_score": 45.42,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "city": "wuhan_wuchang",
+        "dataset_key": "wuhan_wuchang"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.299446,
+            30.5279678,
+            15.0
+          ],
+          [
+            114.299446,
+            30.5437958,
+            20.0
+          ],
+          [
+            114.3017433,
+            30.5437958,
+            20.0
+          ],
+          [
+            114.3178244,
+            30.5576454,
+            20.0
+          ],
+          [
+            114.3178244,
+            30.5596239,
+            20.0
+          ],
+          [
+            114.3430947,
+            30.5695164,
+            20.0
+          ],
+          [
+            114.3476893,
+            30.5655594,
+            10.0
+          ]
+        ]
+      }
+    }
+  ]
+}

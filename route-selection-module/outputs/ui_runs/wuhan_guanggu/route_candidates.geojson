@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "name": "wuhan_guanggu_route_candidates",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "快速直达",
+        "strategy": "fastest",
+        "score": 431.31,
+        "distance_m": 4535.42,
+        "estimated_duration_s": 347.17,
+        "max_wind_speed_mps": 2.41,
+        "max_headwind_mps": 2.17,
+        "max_crosswind_mps": 0.97,
+        "max_turbulence_index": 0.205,
+        "average_urban_density": 0.504,
+        "waypoint_count": 2,
+        "recommended_rank": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3841482,
+            30.4959678,
+            120.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            120.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "均衡推荐",
+        "strategy": "balanced",
+        "score": 433.34,
+        "distance_m": 4535.42,
+        "estimated_duration_s": 348.25,
+        "max_wind_speed_mps": 2.51,
+        "max_headwind_mps": 2.27,
+        "max_crosswind_mps": 1.01,
+        "max_turbulence_index": 0.205,
+        "average_urban_density": 0.504,
+        "waypoint_count": 2,
+        "recommended_rank": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3841482,
+            30.4959678,
+            180.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            180.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "低风险",
+        "strategy": "safest",
+        "score": 434.46,
+        "distance_m": 4535.42,
+        "estimated_duration_s": 348.85,
+        "max_wind_speed_mps": 2.57,
+        "max_headwind_mps": 2.32,
+        "max_crosswind_mps": 1.04,
+        "max_turbulence_index": 0.205,
+        "average_urban_density": 0.504,
+        "waypoint_count": 2,
+        "recommended_rank": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3841482,
+            30.4959678,
+            220.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            220.0
+          ]
+        ]
+      }
+    }
+  ]
+}

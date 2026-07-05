@@ -1,0 +1,41 @@
+{
+  "papers": [
+    {
+      "name": "engappai_2025_weather_aware_energy",
+      "kind": "link",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0952197624017548",
+      "note": "目标期刊论文，仅保存元信息与链接，不直接抓取受版权保护的全文。"
+    },
+    {
+      "name": "ubc_2024_weather_aware_energy_thesis",
+      "kind": "file",
+      "url": "https://open.library.ubc.ca/media/download/pdf/24/1.0445044/4",
+      "filename": "ubc_2024_weather_aware_energy_thesis.pdf",
+      "note": "目标论文同主题的开放学位论文，可用于补充方法与实验细节。"
+    }
+  ],
+  "repos": [
+    {
+      "name": "cvar-energy-risk-deep-model",
+      "kind": "archive",
+      "url": "https://codeload.github.com/castacks/cvar-energy-risk-deep-model/zip/refs/heads/master",
+      "filename": "cvar-energy-risk-deep-model-master.zip",
+      "extract": true,
+      "note": "公开能耗风险评估项目，可借鉴训练、数据组织与评估流程。"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "cmu_m100_package_delivery_dataset",
+      "kind": "link",
+      "url": "https://kilthub.cmu.edu/articles/dataset/Data_Collected_with_Package_Delivery_Quadcopter_Drone/12683453",
+      "note": "DJI Matrice 100 公开飞行数据集入口。"
+    },
+    {
+      "name": "nature_scientific_data_article",
+      "kind": "link",
+      "url": "https://www.nature.com/articles/s41597-021-00930-x",
+      "note": "M100 数据集的数据论文。"
+    }
+  ]
+}

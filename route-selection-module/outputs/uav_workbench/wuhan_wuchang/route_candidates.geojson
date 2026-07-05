@@ -1,0 +1,661 @@
+{
+  "type": "FeatureCollection",
+  "name": "wuhan_wuchang_route_candidates",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "快速直达",
+        "strategy": "fastest",
+        "score": 84.99,
+        "base_cost": 723.05,
+        "topsis_score": 78.89,
+        "robustness_score": 99.21,
+        "reliability_ratio": 1.0,
+        "duration_p95_s": 354.98,
+        "expected_delay_ratio": 0.008,
+        "distance_m": 4254.41,
+        "estimated_duration_s": 343.76,
+        "max_wind_speed_mps": 1.39,
+        "max_headwind_mps": 0.84,
+        "max_crosswind_mps": 1.07,
+        "max_turbulence_index": 0.172,
+        "average_urban_density": 0.018,
+        "average_connectivity_index": 1.0,
+        "minimum_connectivity_index": 1.0,
+        "average_reachability_index": 0.802,
+        "corridor_diversity_index": 0.536,
+        "overflight_building_count": 23,
+        "overflight_exposure_index": 20.762,
+        "waypoint_count": 2,
+        "recommended_rank": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            40.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            40.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "训练穿行",
+        "strategy": "training",
+        "score": 65.11,
+        "base_cost": 639.7,
+        "topsis_score": 50.39,
+        "robustness_score": 99.47,
+        "reliability_ratio": 1.0,
+        "duration_p95_s": 416.23,
+        "expected_delay_ratio": 0.006,
+        "distance_m": 4547.12,
+        "estimated_duration_s": 407.62,
+        "max_wind_speed_mps": 1.29,
+        "max_headwind_mps": 1.11,
+        "max_crosswind_mps": 0.89,
+        "max_turbulence_index": 0.295,
+        "average_urban_density": 0.198,
+        "average_connectivity_index": 0.8,
+        "minimum_connectivity_index": 0.5,
+        "average_reachability_index": 0.592,
+        "corridor_diversity_index": 0.57,
+        "overflight_building_count": 8,
+        "overflight_exposure_index": 8.803,
+        "waypoint_count": 5,
+        "recommended_rank": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            25.0
+          ],
+          [
+            114.3351586,
+            30.548832,
+            30.0
+          ],
+          [
+            114.3341144,
+            30.5524293,
+            30.0
+          ],
+          [
+            114.3382913,
+            30.5596239,
+            30.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            25.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "均衡推荐",
+        "strategy": "balanced",
+        "score": 57.17,
+        "base_cost": 521.57,
+        "topsis_score": 40.43,
+        "robustness_score": 96.24,
+        "reliability_ratio": 0.968,
+        "duration_p95_s": 470.3,
+        "expected_delay_ratio": 0.036,
+        "distance_m": 5240.46,
+        "estimated_duration_s": 443.76,
+        "max_wind_speed_mps": 1.57,
+        "max_headwind_mps": 1.5,
+        "max_crosswind_mps": 1.51,
+        "max_turbulence_index": 0.306,
+        "average_urban_density": 0.104,
+        "average_connectivity_index": 0.981,
+        "minimum_connectivity_index": 0.625,
+        "average_reachability_index": 0.764,
+        "corridor_diversity_index": 0.6,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 53,
+        "recommended_rank": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.33,
+            30.53,
+            40.0
+          ],
+          [
+            114.3293674,
+            30.5311733,
+            40.0
+          ],
+          [
+            114.3280398,
+            30.5317524,
+            40.0
+          ],
+          [
+            114.3289586,
+            30.5347817,
+            40.0
+          ],
+          [
+            114.3289529,
+            30.5349509,
+            40.0
+          ],
+          [
+            114.3290555,
+            30.5352984,
+            40.0
+          ],
+          [
+            114.3291445,
+            30.5355082,
+            40.0
+          ],
+          [
+            114.3292089,
+            30.5358409,
+            40.0
+          ],
+          [
+            114.3291275,
+            30.5367988,
+            40.0
+          ],
+          [
+            114.329508,
+            30.5373877,
+            40.0
+          ],
+          [
+            114.3295992,
+            30.5374755,
+            40.0
+          ],
+          [
+            114.3298779,
+            30.5375627,
+            40.0
+          ],
+          [
+            114.3304145,
+            30.5376734,
+            40.0
+          ],
+          [
+            114.3308436,
+            30.5377196,
+            40.0
+          ],
+          [
+            114.3335202,
+            30.5377658,
+            40.0
+          ],
+          [
+            114.3336811,
+            30.5378073,
+            40.0
+          ],
+          [
+            114.3335849,
+            30.5399512,
+            40.0
+          ],
+          [
+            114.333542,
+            30.540136,
+            40.0
+          ],
+          [
+            114.3334508,
+            30.5403623,
+            40.0
+          ],
+          [
+            114.3333435,
+            30.5405471,
+            40.0
+          ],
+          [
+            114.3331718,
+            30.5407826,
+            40.0
+          ],
+          [
+            114.3331236,
+            30.5408889,
+            40.0
+          ],
+          [
+            114.3330967,
+            30.5410043,
+            40.0
+          ],
+          [
+            114.3330967,
+            30.5412076,
+            40.0
+          ],
+          [
+            114.3331182,
+            30.541323,
+            40.0
+          ],
+          [
+            114.33361,
+            30.5424377,
+            40.0
+          ],
+          [
+            114.3337411,
+            30.5423925,
+            40.0
+          ],
+          [
+            114.3339002,
+            30.5423663,
+            40.0
+          ],
+          [
+            114.3340415,
+            30.5423647,
+            40.0
+          ],
+          [
+            114.3342078,
+            30.5423786,
+            40.0
+          ],
+          [
+            114.3344796,
+            30.5424987,
+            40.0
+          ],
+          [
+            114.3366662,
+            30.5437835,
+            40.0
+          ],
+          [
+            114.3367981,
+            30.543881,
+            40.0
+          ],
+          [
+            114.3369616,
+            30.5440481,
+            40.0
+          ],
+          [
+            114.3371694,
+            30.544327,
+            40.0
+          ],
+          [
+            114.3381945,
+            30.5465425,
+            40.0
+          ],
+          [
+            114.3382452,
+            30.5467693,
+            40.0
+          ],
+          [
+            114.3382674,
+            30.5470038,
+            40.0
+          ],
+          [
+            114.3381083,
+            30.5492775,
+            40.0
+          ],
+          [
+            114.3381395,
+            30.5494823,
+            40.0
+          ],
+          [
+            114.3386248,
+            30.5510334,
+            40.0
+          ],
+          [
+            114.3387361,
+            30.5512736,
+            40.0
+          ],
+          [
+            114.3388745,
+            30.5514906,
+            40.0
+          ],
+          [
+            114.3419701,
+            30.555974,
+            40.0
+          ],
+          [
+            114.3439792,
+            30.558127,
+            40.0
+          ],
+          [
+            114.3440147,
+            30.5582537,
+            40.0
+          ],
+          [
+            114.3440227,
+            30.5583069,
+            40.0
+          ],
+          [
+            114.3440187,
+            30.5583992,
+            40.0
+          ],
+          [
+            114.3439879,
+            30.5584859,
+            40.0
+          ],
+          [
+            114.3439423,
+            30.5585736,
+            40.0
+          ],
+          [
+            114.3426236,
+            30.5595002,
+            40.0
+          ],
+          [
+            114.3478455,
+            30.5651187,
+            40.0
+          ],
+          [
+            114.348,
+            30.565,
+            40.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "低空绕障",
+        "strategy": "low_altitude",
+        "score": 46.62,
+        "base_cost": 605.11,
+        "topsis_score": 25.86,
+        "robustness_score": 95.07,
+        "reliability_ratio": 0.953,
+        "duration_p95_s": 561.37,
+        "expected_delay_ratio": 0.043,
+        "distance_m": 5606.44,
+        "estimated_duration_s": 523.92,
+        "max_wind_speed_mps": 1.59,
+        "max_headwind_mps": 1.25,
+        "max_crosswind_mps": 1.29,
+        "max_turbulence_index": 0.222,
+        "average_urban_density": 0.222,
+        "average_connectivity_index": 0.846,
+        "minimum_connectivity_index": 0.5,
+        "average_reachability_index": 0.674,
+        "corridor_diversity_index": 0.571,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 17,
+        "recommended_rank": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.33,
+            30.53,
+            40.0
+          ],
+          [
+            114.3293674,
+            30.5311733,
+            40.0
+          ],
+          [
+            114.3296513,
+            30.5316562,
+            40.0
+          ],
+          [
+            114.3267364,
+            30.5326006,
+            40.0
+          ],
+          [
+            114.3249883,
+            30.5329044,
+            40.0
+          ],
+          [
+            114.3246134,
+            30.5329331,
+            40.0
+          ],
+          [
+            114.3243784,
+            30.53298,
+            40.0
+          ],
+          [
+            114.3261529,
+            30.5361717,
+            40.0
+          ],
+          [
+            114.3256933,
+            30.5363814,
+            40.0
+          ],
+          [
+            114.3257655,
+            30.5365223,
+            40.0
+          ],
+          [
+            114.325606,
+            30.5365924,
+            40.0
+          ],
+          [
+            114.3363634,
+            30.5572521,
+            40.0
+          ],
+          [
+            114.3371597,
+            30.5583236,
+            40.0
+          ],
+          [
+            114.3372443,
+            30.5582715,
+            40.0
+          ],
+          [
+            114.3451919,
+            30.5669649,
+            40.0
+          ],
+          [
+            114.3452701,
+            30.5669224,
+            40.0
+          ],
+          [
+            114.348,
+            30.565,
+            40.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "低风险",
+        "strategy": "safest",
+        "score": 45.43,
+        "base_cost": 581.82,
+        "topsis_score": 24.12,
+        "robustness_score": 95.14,
+        "reliability_ratio": 0.954,
+        "duration_p95_s": 535.08,
+        "expected_delay_ratio": 0.043,
+        "distance_m": 5443.47,
+        "estimated_duration_s": 499.71,
+        "max_wind_speed_mps": 1.54,
+        "max_headwind_mps": 1.25,
+        "max_crosswind_mps": 1.42,
+        "max_turbulence_index": 0.234,
+        "average_urban_density": 0.215,
+        "average_connectivity_index": 0.855,
+        "minimum_connectivity_index": 0.625,
+        "average_reachability_index": 0.68,
+        "corridor_diversity_index": 0.565,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 19,
+        "recommended_rank": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.33,
+            30.53,
+            40.0
+          ],
+          [
+            114.3293674,
+            30.5311733,
+            40.0
+          ],
+          [
+            114.3296513,
+            30.5316562,
+            40.0
+          ],
+          [
+            114.3280734,
+            30.5321724,
+            40.0
+          ],
+          [
+            114.3288757,
+            30.5348022,
+            40.0
+          ],
+          [
+            114.3290421,
+            30.5347542,
+            40.0
+          ],
+          [
+            114.3291921,
+            30.5350387,
+            40.0
+          ],
+          [
+            114.3263416,
+            30.5362712,
+            40.0
+          ],
+          [
+            114.3261872,
+            30.5364966,
+            40.0
+          ],
+          [
+            114.3261386,
+            30.5366009,
+            40.0
+          ],
+          [
+            114.3260817,
+            30.536767,
+            40.0
+          ],
+          [
+            114.3260714,
+            30.5369128,
+            40.0
+          ],
+          [
+            114.3261066,
+            30.5371844,
+            40.0
+          ],
+          [
+            114.3365756,
+            30.557249,
+            40.0
+          ],
+          [
+            114.3399568,
+            30.5611039,
+            40.0
+          ],
+          [
+            114.340244,
+            30.5611165,
+            40.0
+          ],
+          [
+            114.3413672,
+            30.5603414,
+            40.0
+          ],
+          [
+            114.3464903,
+            30.5660487,
+            40.0
+          ],
+          [
+            114.348,
+            30.565,
+            40.0
+          ]
+        ]
+      }
+    }
+  ]
+}

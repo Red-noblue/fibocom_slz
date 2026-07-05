@@ -1,0 +1,33 @@
+{
+  "cases": [
+    "fp32_gpu",
+    "int8_gpu"
+  ],
+  "elapsed_sec": 90.98914670944214,
+  "features_dir": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3",
+  "fp32_model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+  "int8_model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/snpe_quant_qemu82_full_20260703_075537/radio_map_liteunet_quantized.dlc",
+  "limit": 20,
+  "mean_fp32_gpu_mae_db": 2.0262357622385023,
+  "mean_fp32_gpu_ms_avg": 302.8367832506774,
+  "mean_fp32_gpu_ms_max": 302.8367832506774,
+  "mean_fp32_gpu_ms_min": 302.8367832506774,
+  "mean_fp32_gpu_rmse_db": 3.2793649191114227,
+  "mean_int8_gpu_mae_db": 2.0398546695709228,
+  "mean_int8_gpu_ms_avg": 291.0643887997139,
+  "mean_int8_gpu_ms_max": 291.0643887997139,
+  "mean_int8_gpu_ms_min": 291.0643887997139,
+  "mean_int8_gpu_rmse_db": 3.299124479289376,
+  "mean_int8_gpu_vs_fp32_mae_db": 0.13950102627277375,
+  "mean_int8_gpu_vs_fp32_max_abs_db": 1.475094985961914,
+  "mean_int8_gpu_vs_fp32_rmse_db": 0.18404587619006635,
+  "mode": 5,
+  "num_failed": 0,
+  "num_ok": 20,
+  "num_samples": 20,
+  "repeat": 1,
+  "run_dir": "modules/radio_map_qcs6490_deploy/outputs/int8_gpu_accuracy_20260703_114758",
+  "split": "test",
+  "summary_csv": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/int8_gpu_accuracy_20260703_114758/summary.csv",
+  "warmup": 1
+}

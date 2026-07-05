@@ -1,0 +1,10 @@
+<launch>
+
+
+<node name="planner" pkg="bitstarbvp" type="planner" output="screen" launch-prefix="gdb -ex run " />
+
+<node name="octomap_pub" pkg="bitstar3d" type="octomap_pub" output="screen" />
+
+ 
+
+</launch>

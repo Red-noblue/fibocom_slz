@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_3",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "训练穿行",
+        "strategy": "training",
+        "score": 59.37,
+        "topsis_score": 42.31,
+        "robustness_score": 99.17,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_guanggu",
+        "dataset_key": "wuhan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3841482,
+            30.4959678,
+            25.0
+          ],
+          [
+            114.3841482,
+            30.4959678,
+            50.0
+          ],
+          [
+            114.4162981,
+            30.5256454,
+            50.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            25.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<scene version="2.1.0">
+  <bsdf type="itu-radio-material" id="concrete">
+    <string name="type" value="concrete"/>
+    <float name="thickness" value="0.2"/>
+  </bsdf>
+  <shape type="ply" id="local-city-buildings">
+    <string name="filename" value="meshes/local_buildings.ply"/>
+    <boolean name="face_normals" value="true"/>
+    <ref id="concrete" name="bsdf"/>
+  </shape>
+</scene>

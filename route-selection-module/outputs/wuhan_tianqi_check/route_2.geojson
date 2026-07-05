@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "低空绕障",
+        "strategy": "low_altitude",
+        "score": 55.11,
+        "topsis_score": 36.11,
+        "robustness_score": 99.44,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            45.0
+          ],
+          [
+            114.3351586,
+            30.548832,
+            60.0
+          ],
+          [
+            114.3341144,
+            30.5524293,
+            80.0
+          ],
+          [
+            114.3382913,
+            30.5596239,
+            60.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            45.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "type": "FeatureCollection",
+  "name": "shanghai_people_square_route_candidates",
+  "planning_mode": "building_only",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "最快到达",
+        "strategy": "fastest",
+        "planning_mode": "building_only",
+        "score": 90.16,
+        "base_cost": 1131.38,
+        "topsis_score": 85.95,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "duration_p95_s": 402.89,
+        "expected_delay_ratio": 0.0,
+        "distance_m": 4565.47,
+        "estimated_duration_s": 402.89,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 0.437,
+        "average_connectivity_index": 0.682,
+        "minimum_connectivity_index": 0.55,
+        "average_reachability_index": 0.664,
+        "corridor_diversity_index": 0.406,
+        "overflight_building_count": 81,
+        "overflight_exposure_index": 41.938,
+        "waypoint_count": 3,
+        "recommended_rank": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4816087,
+            31.2447313,
+            100.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "低风险",
+        "strategy": "safest",
+        "planning_mode": "building_only",
+        "score": 51.65,
+        "base_cost": 716.39,
+        "topsis_score": 30.93,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "duration_p95_s": 419.82,
+        "expected_delay_ratio": 0.0,
+        "distance_m": 4166.11,
+        "estimated_duration_s": 419.82,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 0.595,
+        "average_connectivity_index": 0.55,
+        "minimum_connectivity_index": 0.55,
+        "average_reachability_index": 0.537,
+        "corridor_diversity_index": 0.1,
+        "overflight_building_count": 54,
+        "overflight_exposure_index": 13.618,
+        "waypoint_count": 4,
+        "recommended_rank": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4561569,
+            31.2209893,
+            220.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            220.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "均衡稳定推荐",
+        "strategy": "balanced_stable",
+        "planning_mode": "building_only",
+        "score": 40.53,
+        "base_cost": 995.67,
+        "topsis_score": 15.05,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "duration_p95_s": 526.25,
+        "expected_delay_ratio": 0.0,
+        "distance_m": 4290.84,
+        "estimated_duration_s": 526.25,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 0.73,
+        "average_connectivity_index": 0.568,
+        "minimum_connectivity_index": 0.55,
+        "average_reachability_index": 0.551,
+        "corridor_diversity_index": 0.29,
+        "overflight_building_count": 58,
+        "overflight_exposure_index": 23.899,
+        "waypoint_count": 3,
+        "recommended_rank": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4839225,
+            31.2289033,
+            370.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "能耗最少",
+        "strategy": "energy_saving",
+        "planning_mode": "building_only",
+        "score": 40.19,
+        "base_cost": 915.14,
+        "topsis_score": 14.55,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "duration_p95_s": 475.78,
+        "expected_delay_ratio": 0.0,
+        "distance_m": 4063.94,
+        "estimated_duration_s": 475.78,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 0.73,
+        "average_connectivity_index": 0.55,
+        "minimum_connectivity_index": 0.55,
+        "average_reachability_index": 0.532,
+        "corridor_diversity_index": 0.27,
+        "overflight_building_count": 54,
+        "overflight_exposure_index": 21.929,
+        "waypoint_count": 3,
+        "recommended_rank": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4862363,
+            31.2348388,
+            290.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "最畅通路线",
+        "strategy": "most_accessible",
+        "planning_mode": "building_only",
+        "score": 39.11,
+        "base_cost": 1048.09,
+        "topsis_score": 13.02,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0,
+        "duration_p95_s": 504.38,
+        "expected_delay_ratio": 0.0,
+        "distance_m": 4017.88,
+        "estimated_duration_s": 504.38,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 0.73,
+        "average_connectivity_index": 0.55,
+        "minimum_connectivity_index": 0.55,
+        "average_reachability_index": 0.532,
+        "corridor_diversity_index": 0.29,
+        "overflight_building_count": 69,
+        "overflight_exposure_index": 28.451,
+        "waypoint_count": 3,
+        "recommended_rank": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4816087,
+            31.2368173,
+            370.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

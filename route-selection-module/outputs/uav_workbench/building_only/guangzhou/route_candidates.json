@@ -1,0 +1,63 @@
+{
+  "city": {
+    "name": "guangzhou_zhujiang_new_town",
+    "display_name": "广州 Zhujiang New Town",
+    "center": {
+      "lat": 23.1215,
+      "lon": 113.3235
+    },
+    "bbox": {
+      "south": 23.1105,
+      "west": 113.3055,
+      "north": 23.1335,
+      "east": 113.3435
+    }
+  },
+  "request": {
+    "start": {
+      "lat": 23.112,
+      "lon": 113.307,
+      "altitude_m": 15.0
+    },
+    "end": {
+      "lat": 23.132,
+      "lon": 113.342,
+      "altitude_m": 10.0
+    },
+    "planning_mode": "building_only"
+  },
+  "planner": {
+    "planning_mode": "building_only",
+    "min_altitude_m": 0.0,
+    "max_altitude_m": 27.0,
+    "cell_m": 220.0,
+    "safety_clearance_m": 5.0,
+    "cruise_speed_mps": 14.0,
+    "altitude_layers_m": [
+      0.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "candidate_count": 0,
+    "ranking_method": "entropy_weight_topsis",
+    "monte_carlo_runs": 36,
+    "ranking_weights": {
+      "distance_m": 0.0,
+      "estimated_duration_s": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.0,
+      "overflight_exposure_index": 0.0,
+      "average_reachability_index": 0.0,
+      "corridor_diversity_index": 0.0,
+      "robustness_score": 0.0
+    }
+  },
+  "routes": [],
+  "dataset_key": "guangzhou"
+}

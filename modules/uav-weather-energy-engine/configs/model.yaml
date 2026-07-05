@@ -1,0 +1,58 @@
+# 模型训练配置
+target: segment_energy_wh
+targets:
+  - segment_energy_wh
+  - segment_wh_per_s
+  - mean_power_w
+  - energy_wh_per_km
+  - battery_voltage
+  - battery_current
+  - discharge_mah
+method: elastic_net
+candidate_methods:
+  - elastic_net
+  - ridge
+  - huber
+  - linear_residual_gb
+  - linear
+  - polynomial
+  - lasso
+  - random_forest
+  - gradient_boosting
+  - mlp
+base_features:
+  - speed_mps
+  - payload_kg
+  - altitude_m
+features:
+  - speed_mps
+  - payload_kg
+  - altitude_m
+  - distance_m
+  - heading_deg
+  - heading_cos
+  - route_direct_distance_m
+  - route_total_distance_m
+  - route_segment_count
+  - route_remaining_distance_m
+  - route_turn_density_deg_per_km
+  - segment_turn_density_deg_per_km
+  - route_bearing_sin
+  - route_bearing_cos
+  - segment_route_cross_alignment
+  - route_total_altitude_loss_m
+  - route_altitude_range_m
+  - route_descent_density_m_per_km
+  - climb_ratio
+  - turn_ratio
+  - hover_or_slow_ratio
+  - altitude_range_m
+  - altitude_gain_m
+  - vertical_speed_abs_mean_mps
+  - horizontal_speed_std_mps
+  - horizontal_speed_p95_mps
+  - acceleration_abs_mean_mps2
+  - acceleration_abs_p95_mps2
+  - turn_rate_p95_deg_s
+random_state: 42
+test_size: 0.2

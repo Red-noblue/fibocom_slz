@@ -1,0 +1,22 @@
+{
+  "elapsed_sec": 5.050395250320435,
+  "features_dir": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3",
+  "limit": 1,
+  "mean_cpu_execute_ms": 1340.8589929749724,
+  "mean_dbm_cpu_gpu_abs_diff_mean": 0.012278287671506405,
+  "mean_dbm_cpu_gpu_rmse": 0.014737686142325401,
+  "mean_gpu_execute_ms": 263.70241699623875,
+  "mean_gpu_mae_db": 1.4915146827697754,
+  "mean_gpu_rmse_db": 2.461911931958122,
+  "mean_speedup_cpu_over_gpu": 5.084742901670474,
+  "mode": 5,
+  "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+  "num_failed": 0,
+  "num_ok": 1,
+  "num_samples": 1,
+  "raw_results_json": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/recovery_timing_snpe_gpu_repro_20260705_042712/raw_results.json",
+  "repeat": 1,
+  "split": "test",
+  "summary_csv": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/recovery_timing_snpe_gpu_repro_20260705_042712/summary.csv",
+  "warmup": 0
+}

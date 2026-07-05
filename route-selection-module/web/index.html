@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>无人机路径选择工作台</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cesium@1.127.0/Build/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body data-planning-mode="combined">
+  <div class="app-shell">
+    <aside class="sidebar">
+      <section class="panel brand">
+        <span id="brand-eyebrow" class="eyebrow">Route Selection</span>
+        <h1 id="brand-title">无人机路径选择工作台</h1>
+        <p id="brand-description">基于城市建筑分布和天气采样场，生成多条候选航线并进行可视化对比。</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title-row">
+          <h2>规划输入</h2>
+          <span id="load-status" class="status-tag neutral">初始化中</span>
+        </div>
+        <label for="city-select">城市区域</label>
+        <select id="city-select"></select>
+
+        <div class="grid-2">
+          <div>
+            <label for="start-lat">起点纬度</label>
+            <input id="start-lat" type="number" step="0.000001">
+          </div>
+          <div>
+            <label for="start-lon">起点经度</label>
+            <input id="start-lon" type="number" step="0.000001">
+          </div>
+          <div>
+            <label for="end-lat">终点纬度</label>
+            <input id="end-lat" type="number" step="0.000001">
+          </div>
+          <div>
+            <label for="end-lon">终点经度</label>
+            <input id="end-lon" type="number" step="0.000001">
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button id="btn-use-default" type="button">使用默认起终点</button>
+          <button id="btn-pick-start" type="button">地图点选起点</button>
+          <button id="btn-pick-end" type="button">地图点选终点</button>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            <label for="start-altitude">起点高度 m</label>
+            <input id="start-altitude" type="number" min="0" step="5" value="120">
+          </div>
+          <div>
+            <label for="end-altitude">终点高度 m</label>
+            <input id="end-altitude" type="number" min="0" step="5" value="120">
+          </div>
+          <div>
+            <label for="min-altitude">最低高度 m</label>
+            <input id="min-altitude" type="number" min="0" max="400" step="5" value="0">
+          </div>
+          <div>
+            <label for="candidate-count">候选数量</label>
+            <input id="candidate-count" type="number" min="1" max="5" step="1" value="5">
+          </div>
+          <div>
+            <label for="cell-size">栅格尺寸 m</label>
+            <input id="cell-size" type="number" min="60" max="600" step="10" value="220">
+          </div>
+          <div>
+            <label for="safety-clearance">安全净空 m</label>
+            <input id="safety-clearance" type="number" min="5" max="120" step="5" value="25">
+          </div>
+          <div>
+            <label for="max-altitude">最大高度上限 m（留空或≤0 自动）</label>
+            <input id="max-altitude" type="number" step="10" placeholder="自动">
+          </div>
+        </div>
+
+        <button id="btn-plan" class="primary action" type="button">生成候选航线</button>
+        <p id="interaction-tip" class="small">可直接在地图上点击设置起点或终点。</p>
+      </section>
+
+      <section class="panel">
+        <h2>图层</h2>
+        <div class="toggle-list">
+          <label class="checkbox"><input id="toggle-buildings" type="checkbox" checked><span>建筑</span></label>
+          <label class="checkbox"><input id="toggle-weather" type="checkbox" checked><span>天气采样</span></label>
+          <label class="checkbox"><input id="toggle-routes" type="checkbox" checked><span>候选路线</span></label>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>候选路线</h2>
+        <div id="route-list" class="route-list empty">尚未生成候选路线。</div>
+      </section>
+    </aside>
+
+    <main class="map-column">
+      <section class="panel map-panel">
+        <div class="map-panel-head">
+          <div>
+            <span class="eyebrow dark">Map View</span>
+            <h2 id="city-title">等待城市加载</h2>
+          </div>
+          <div class="map-head-side">
+            <div id="map-hint" class="map-hint">点选模式：关闭</div>
+            <div class="map-tool-row">
+              <button id="btn-fly-route" type="button" class="map-tool-btn">飞到路线</button>
+              <button id="btn-oblique" type="button" class="map-tool-btn">城市斜视</button>
+              <button id="btn-topdown" type="button" class="map-tool-btn">俯视</button>
+              <button id="btn-reset-view" type="button" class="map-tool-btn">复位</button>
+            </div>
+            <div id="camera-readout" class="camera-readout">等待相机初始化</div>
+          </div>
+        </div>
+        <div id="map-wrap" class="map-wrap">
+          <div id="cesiumContainer"></div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="inspector">
+      <section class="panel metric-hero">
+        <span class="eyebrow dark">City Summary</span>
+        <h2 id="summary-name">未加载</h2>
+        <div class="stats-grid">
+          <div><span>建筑</span><strong id="stat-buildings">--</strong></div>
+          <div><span>天气点</span><strong id="stat-weather">--</strong></div>
+          <div><span>纬度范围</span><strong id="stat-lat-range">--</strong></div>
+          <div><span>经度范围</span><strong id="stat-lon-range">--</strong></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>当前路线</h2>
+        <div id="route-detail" class="detail-card empty">选择一条候选路线后显示详细指标。</div>
+      </section>
+
+      <section class="panel">
+        <h2>说明</h2>
+        <ul id="notes-list" class="plain-list">
+          <li>优先加载本地 3D Tiles，加载失败时回退为建筑 GeoJSON 挤出模型。</li>
+          <li>天气点颜色越偏橙红，代表湍流越强。</li>
+          <li>候选路线按总评分从低到高排序，默认优先选中第 1 条。</li>
+          <li>Cesium 默认支持缩放、倾斜、平移和绕楼旋转。</li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/cesium@1.127.0/Build/Cesium/Cesium.js"></script>
+  <script src="./static/app.js?v=20260703-route-stability-v12"></script>
+</body>
+</html>

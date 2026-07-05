@@ -1,0 +1,627 @@
+{
+  "type": "FeatureCollection",
+  "name": "manhattan_midtown_route_candidates",
+  "planning_mode": "building_only",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "低风险",
+        "strategy": "safest",
+        "planning_mode": "building_only",
+        "score": 88.98,
+        "base_cost": 235.22,
+        "topsis_score": 89.66,
+        "robustness_score": 87.39,
+        "reliability_ratio": 0.86,
+        "duration_p95_s": 99.49,
+        "expected_delay_ratio": 0.09,
+        "distance_m": 685.72,
+        "estimated_duration_s": 86.63,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 1.0,
+        "average_connectivity_index": 0.024,
+        "minimum_connectivity_index": 0.0,
+        "average_reachability_index": 0.018,
+        "corridor_diversity_index": 0.03,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 17,
+        "recommended_rank": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.990410512,
+            40.751165612,
+            15.0
+          ],
+          [
+            -73.990410512,
+            40.751482173,
+            27.0
+          ],
+          [
+            -73.989992615,
+            40.751798734,
+            27.0
+          ],
+          [
+            -73.989992615,
+            40.752115296,
+            27.0
+          ],
+          [
+            -73.989574717,
+            40.752431857,
+            27.0
+          ],
+          [
+            -73.98915682,
+            40.752748418,
+            27.0
+          ],
+          [
+            -73.98915682,
+            40.753064979,
+            27.0
+          ],
+          [
+            -73.988738922,
+            40.75338154,
+            27.0
+          ],
+          [
+            -73.988738922,
+            40.753698102,
+            27.0
+          ],
+          [
+            -73.988321025,
+            40.754014663,
+            27.0
+          ],
+          [
+            -73.987903127,
+            40.754331224,
+            27.0
+          ],
+          [
+            -73.987903127,
+            40.754647785,
+            27.0
+          ],
+          [
+            -73.987903127,
+            40.754964347,
+            27.0
+          ],
+          [
+            -73.98748523,
+            40.755280908,
+            27.0
+          ],
+          [
+            -73.987067332,
+            40.755597469,
+            27.0
+          ],
+          [
+            -73.987067332,
+            40.75591403,
+            27.0
+          ],
+          [
+            -73.986649435,
+            40.75591403,
+            10.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "最快到达",
+        "strategy": "fastest",
+        "planning_mode": "building_only",
+        "score": 38.47,
+        "base_cost": 229.88,
+        "topsis_score": 17.51,
+        "robustness_score": 87.39,
+        "reliability_ratio": 0.86,
+        "duration_p95_s": 93.3,
+        "expected_delay_ratio": 0.09,
+        "distance_m": 680.2,
+        "estimated_duration_s": 81.24,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 1.0,
+        "average_connectivity_index": 0.024,
+        "minimum_connectivity_index": 0.0,
+        "average_reachability_index": 0.017,
+        "corridor_diversity_index": 0.019,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 17,
+        "recommended_rank": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.990410512,
+            40.751165612,
+            15.0
+          ],
+          [
+            -73.990410512,
+            40.751482173,
+            15.0
+          ],
+          [
+            -73.989992615,
+            40.751798734,
+            15.0
+          ],
+          [
+            -73.989992615,
+            40.752115296,
+            15.0
+          ],
+          [
+            -73.989574717,
+            40.752431857,
+            15.0
+          ],
+          [
+            -73.98915682,
+            40.752748418,
+            15.0
+          ],
+          [
+            -73.98915682,
+            40.753064979,
+            15.0
+          ],
+          [
+            -73.988738922,
+            40.75338154,
+            15.0
+          ],
+          [
+            -73.988738922,
+            40.753698102,
+            15.0
+          ],
+          [
+            -73.988321025,
+            40.754014663,
+            15.0
+          ],
+          [
+            -73.987903127,
+            40.754331224,
+            15.0
+          ],
+          [
+            -73.987903127,
+            40.754647785,
+            15.0
+          ],
+          [
+            -73.987903127,
+            40.754964347,
+            15.0
+          ],
+          [
+            -73.98748523,
+            40.755280908,
+            15.0
+          ],
+          [
+            -73.987067332,
+            40.755597469,
+            15.0
+          ],
+          [
+            -73.987067332,
+            40.75591403,
+            15.0
+          ],
+          [
+            -73.986649435,
+            40.75591403,
+            10.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "能耗最少",
+        "strategy": "energy_saving",
+        "planning_mode": "building_only",
+        "score": 32.29,
+        "base_cost": 231.26,
+        "topsis_score": 8.68,
+        "robustness_score": 87.39,
+        "reliability_ratio": 0.86,
+        "duration_p95_s": 94.91,
+        "expected_delay_ratio": 0.09,
+        "distance_m": 680.9,
+        "estimated_duration_s": 82.64,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 1.0,
+        "average_connectivity_index": 0.024,
+        "minimum_connectivity_index": 0.0,
+        "average_reachability_index": 0.017,
+        "corridor_diversity_index": 0.012,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 17,
+        "recommended_rank": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.990410512,
+            40.751165612,
+            15.0
+          ],
+          [
+            -73.990410512,
+            40.751482173,
+            18.1
+          ],
+          [
+            -73.989992615,
+            40.751798734,
+            18.1
+          ],
+          [
+            -73.989992615,
+            40.752115296,
+            18.1
+          ],
+          [
+            -73.989574717,
+            40.752431857,
+            18.1
+          ],
+          [
+            -73.98915682,
+            40.752748418,
+            18.1
+          ],
+          [
+            -73.98915682,
+            40.753064979,
+            18.1
+          ],
+          [
+            -73.988738922,
+            40.75338154,
+            18.1
+          ],
+          [
+            -73.988738922,
+            40.753698102,
+            18.1
+          ],
+          [
+            -73.988321025,
+            40.754014663,
+            18.1
+          ],
+          [
+            -73.987903127,
+            40.754331224,
+            18.1
+          ],
+          [
+            -73.987903127,
+            40.754647785,
+            18.1
+          ],
+          [
+            -73.987903127,
+            40.754964347,
+            18.1
+          ],
+          [
+            -73.98748523,
+            40.755280908,
+            18.1
+          ],
+          [
+            -73.987067332,
+            40.755597469,
+            18.1
+          ],
+          [
+            -73.987067332,
+            40.75591403,
+            18.1
+          ],
+          [
+            -73.986649435,
+            40.75591403,
+            10.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "均衡稳定推荐",
+        "strategy": "balanced_stable",
+        "planning_mode": "building_only",
+        "score": 31.99,
+        "base_cost": 231.37,
+        "topsis_score": 8.25,
+        "robustness_score": 87.39,
+        "reliability_ratio": 0.86,
+        "duration_p95_s": 95.04,
+        "expected_delay_ratio": 0.09,
+        "distance_m": 680.98,
+        "estimated_duration_s": 82.75,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 1.0,
+        "average_connectivity_index": 0.024,
+        "minimum_connectivity_index": 0.0,
+        "average_reachability_index": 0.017,
+        "corridor_diversity_index": 0.011,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 17,
+        "recommended_rank": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.990410512,
+            40.751165612,
+            15.0
+          ],
+          [
+            -73.990410512,
+            40.751482173,
+            18.4
+          ],
+          [
+            -73.989992615,
+            40.751798734,
+            18.4
+          ],
+          [
+            -73.989992615,
+            40.752115296,
+            18.4
+          ],
+          [
+            -73.989574717,
+            40.752431857,
+            18.4
+          ],
+          [
+            -73.98915682,
+            40.752748418,
+            18.4
+          ],
+          [
+            -73.98915682,
+            40.753064979,
+            18.4
+          ],
+          [
+            -73.988738922,
+            40.75338154,
+            18.4
+          ],
+          [
+            -73.988738922,
+            40.753698102,
+            18.4
+          ],
+          [
+            -73.988321025,
+            40.754014663,
+            18.4
+          ],
+          [
+            -73.987903127,
+            40.754331224,
+            18.4
+          ],
+          [
+            -73.987903127,
+            40.754647785,
+            18.4
+          ],
+          [
+            -73.987903127,
+            40.754964347,
+            18.4
+          ],
+          [
+            -73.98748523,
+            40.755280908,
+            18.4
+          ],
+          [
+            -73.987067332,
+            40.755597469,
+            18.4
+          ],
+          [
+            -73.987067332,
+            40.75591403,
+            18.4
+          ],
+          [
+            -73.986649435,
+            40.75591403,
+            10.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "最畅通路线",
+        "strategy": "most_accessible",
+        "planning_mode": "building_only",
+        "score": 31.46,
+        "base_cost": 232.0,
+        "topsis_score": 7.49,
+        "robustness_score": 87.39,
+        "reliability_ratio": 0.86,
+        "duration_p95_s": 95.77,
+        "expected_delay_ratio": 0.09,
+        "distance_m": 681.5,
+        "estimated_duration_s": 83.39,
+        "max_wind_speed_mps": 0.0,
+        "max_headwind_mps": 0.0,
+        "max_crosswind_mps": 0.0,
+        "max_turbulence_index": 0.0,
+        "max_precipitation_mm": 0.0,
+        "max_weather_risk_score": 0.0,
+        "high_risk_exposure_ratio": 0.0,
+        "average_urban_density": 1.0,
+        "average_connectivity_index": 0.024,
+        "minimum_connectivity_index": 0.0,
+        "average_reachability_index": 0.017,
+        "corridor_diversity_index": 0.012,
+        "overflight_building_count": 0,
+        "overflight_exposure_index": 0.0,
+        "waypoint_count": 17,
+        "recommended_rank": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.990410512,
+            40.751165612,
+            15.0
+          ],
+          [
+            -73.990410512,
+            40.751482173,
+            19.8
+          ],
+          [
+            -73.989992615,
+            40.751798734,
+            19.8
+          ],
+          [
+            -73.989992615,
+            40.752115296,
+            19.8
+          ],
+          [
+            -73.989574717,
+            40.752431857,
+            19.8
+          ],
+          [
+            -73.98915682,
+            40.752748418,
+            19.8
+          ],
+          [
+            -73.98915682,
+            40.753064979,
+            19.8
+          ],
+          [
+            -73.988738922,
+            40.75338154,
+            19.8
+          ],
+          [
+            -73.988738922,
+            40.753698102,
+            19.8
+          ],
+          [
+            -73.988321025,
+            40.754014663,
+            19.8
+          ],
+          [
+            -73.987903127,
+            40.754331224,
+            19.8
+          ],
+          [
+            -73.987903127,
+            40.754647785,
+            19.8
+          ],
+          [
+            -73.987903127,
+            40.754964347,
+            19.8
+          ],
+          [
+            -73.98748523,
+            40.755280908,
+            19.8
+          ],
+          [
+            -73.987067332,
+            40.755597469,
+            19.8
+          ],
+          [
+            -73.987067332,
+            40.75591403,
+            19.8
+          ],
+          [
+            -73.986649435,
+            40.75591403,
+            10.0
+          ]
+        ]
+      }
+    }
+  ]
+}

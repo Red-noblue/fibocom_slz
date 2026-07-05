@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "低风险",
+        "strategy": "safest",
+        "score": 51.65,
+        "topsis_score": 30.93,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4561569,
+            31.2209893,
+            220.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            220.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

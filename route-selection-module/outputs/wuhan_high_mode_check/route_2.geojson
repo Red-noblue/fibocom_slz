@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "均衡推荐",
+        "strategy": "balanced",
+        "score": 72.61,
+        "topsis_score": 61.29,
+        "robustness_score": 99.02,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            170.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            170.0
+          ]
+        ]
+      }
+    }
+  ]
+}

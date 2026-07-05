@@ -1,0 +1,148 @@
+{
+  "cpu": {
+    "execute_ms": [
+      956.6589999885764
+    ],
+    "execute_ms_avg": 956.6589999885764,
+    "execute_ms_max": 956.6589999885764,
+    "execute_ms_min": 956.6589999885764,
+    "fetch_ms": [
+      5.218923004576936
+    ],
+    "fetch_ms_avg": 5.218923004576936,
+    "framework": "snpe",
+    "init_code": 0,
+    "init_ms": 140.5719550093636,
+    "input_name": "input",
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 3.0184760093688965,
+    "output_mean": -0.2896081209182739,
+    "output_min": -1.4766972064971924,
+    "output_name": "output",
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/snpe_gpu_repro_test100/samples/225_k1_cpu_snpe.npy",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "CPU",
+    "sample": {
+      "has_valid_mask": true,
+      "has_y": true,
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/225_k1.npz",
+      "x_shape_chw": [
+        7,
+        256,
+        256
+      ],
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "225_k1",
+    "warmup": 1
+  },
+  "diff": {
+    "abs_diff_max": 0.005858182907104492,
+    "abs_diff_mean": 0.0009431830258108675,
+    "cpu_max": 3.0184760093688965,
+    "cpu_mean": -0.2896081209182739,
+    "cpu_min": -1.4766972064971924,
+    "diff_mean": 0.00011795891623478383,
+    "gpu_max": 3.013671875,
+    "gpu_mean": -0.2894901633262634,
+    "gpu_min": -1.4755859375,
+    "rmse": 0.001146230730228126,
+    "shape": [
+      256,
+      256
+    ]
+  },
+  "gpu": {
+    "execute_ms": [
+      312.5499809975736
+    ],
+    "execute_ms_avg": 312.5499809975736,
+    "execute_ms_max": 312.5499809975736,
+    "execute_ms_min": 312.5499809975736,
+    "fetch_ms": [
+      22.01954700285569
+    ],
+    "fetch_ms_avg": 22.01954700285569,
+    "framework": "snpe",
+    "init_code": 0,
+    "init_ms": 1092.2449969802983,
+    "input_name": "input",
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 3.013671875,
+    "output_mean": -0.2894901633262634,
+    "output_min": -1.4755859375,
+    "output_name": "output",
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/snpe_gpu_repro_test100/samples/225_k1_gpu_snpe.npy",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "GPU",
+    "sample": {
+      "has_valid_mask": true,
+      "has_y": true,
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/225_k1.npz",
+      "x_shape_chw": [
+        7,
+        256,
+        256
+      ],
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "225_k1",
+    "warmup": 1
+  },
+  "real_sample_metrics": {
+    "cpu_gpu_dbm_diff": {
+      "abs_diff_max_db": 0.07506561279296875,
+      "abs_diff_mean_db": 0.012084837071597576,
+      "rmse_db": 0.014686444774270058
+    },
+    "cpu_vs_label": {
+      "label_dbm_max": -78.75,
+      "label_dbm_mean": -125.79708862304688,
+      "label_dbm_min": -140.0,
+      "mae_db": 2.384995222091675,
+      "pred_dbm_max": -83.90816497802734,
+      "pred_dbm_mean": -126.29476928710938,
+      "pred_dbm_min": -141.50498962402344,
+      "psnr_db": 24.190299652868536,
+      "rmse_db": 3.780864475237739,
+      "valid_pixels": 65536
+    },
+    "gpu_vs_label": {
+      "label_dbm_max": -78.75,
+      "label_dbm_mean": -125.79708862304688,
+      "label_dbm_min": -140.0,
+      "mae_db": 2.3888354301452637,
+      "pred_dbm_max": -83.96971893310547,
+      "pred_dbm_mean": -126.29325866699219,
+      "pred_dbm_min": -141.49075317382812,
+      "psnr_db": 24.190878873379038,
+      "rmse_db": 3.780612355843462,
+      "valid_pixels": 65536
+    },
+    "label_norm": {
+      "type": "standard",
+      "y_mean": -122.58401346206665,
+      "y_std": 12.813038764458584
+    },
+    "ok": true
+  },
+  "sample_id": "225_k1"
+}

@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_5",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "训练穿行",
+        "strategy": "training",
+        "score": 39.18,
+        "topsis_score": 36.57,
+        "robustness_score": 45.26,
+        "reliability_ratio": 0.056,
+        "city": "manhattan_midtown",
+        "dataset_key": "manhattan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.9911941,
+            40.7489893,
+            120.0
+          ],
+          [
+            -73.9807466,
+            40.7470107,
+            110.0
+          ],
+          [
+            -73.9702992,
+            40.7549248,
+            110.0
+          ],
+          [
+            -73.9729111,
+            40.7628388,
+            110.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+.conda-env/
+.vendor/
+.venv/
+conda-*.lock

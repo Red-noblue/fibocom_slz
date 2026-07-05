@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_1",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "快速直达",
+        "strategy": "fastest",
+        "score": 65.48,
+        "topsis_score": 51.1,
+        "robustness_score": 99.04,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_guanggu",
+        "dataset_key": "wuhan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3841482,
+            30.4959678,
+            50.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            50.0
+          ]
+        ]
+      }
+    }
+  ]
+}

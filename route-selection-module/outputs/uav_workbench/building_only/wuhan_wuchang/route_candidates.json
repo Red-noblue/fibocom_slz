@@ -1,0 +1,866 @@
+{
+  "city": {
+    "name": "wuhan_wuchang",
+    "display_name": "武汉 武昌区",
+    "center": {
+      "lat": 30.545,
+      "lon": 114.3225
+    },
+    "bbox": {
+      "south": 30.525,
+      "west": 114.296,
+      "north": 30.567,
+      "east": 114.35
+    }
+  },
+  "request": {
+    "start": {
+      "lat": 30.527,
+      "lon": 114.299,
+      "altitude_m": 15.0
+    },
+    "end": {
+      "lat": 30.565,
+      "lon": 114.348,
+      "altitude_m": 10.0
+    },
+    "planning_mode": "building_only"
+  },
+  "planner": {
+    "planning_mode": "building_only",
+    "min_altitude_m": 0.0,
+    "max_altitude_m": 26.0,
+    "cell_m": 220.0,
+    "safety_clearance_m": 25.0,
+    "cruise_speed_mps": 14.0,
+    "altitude_layers_m": [
+      0.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "candidate_count": 5,
+    "ranking_method": "entropy_weight_topsis",
+    "monte_carlo_runs": 36,
+    "ranking_weights": {
+      "distance_m": 0.1605,
+      "estimated_duration_s": 0.1206,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.1243,
+      "overflight_exposure_index": 0.0,
+      "average_reachability_index": 0.1065,
+      "corridor_diversity_index": 0.3826,
+      "robustness_score": 0.1054
+    }
+  },
+  "routes": [
+    {
+      "route_id": "route_5",
+      "label": "最畅通路线",
+      "strategy": "most_accessible",
+      "score": 75.02,
+      "base_cost": 865.97,
+      "topsis_score": 67.38,
+      "robustness_score": 92.83,
+      "reliability_ratio": 0.926,
+      "duration_p95_s": 858.98,
+      "expected_delay_ratio": 0.057,
+      "distance_m": 8158.21,
+      "estimated_duration_s": 785.21,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.449,
+      "average_connectivity_index": 0.529,
+      "minimum_connectivity_index": 0.0,
+      "average_reachability_index": 0.383,
+      "corridor_diversity_index": 0.713,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 73,
+      "recommended_rank": 1,
+      "waypoints": [
+        {
+          "lat": 30.527,
+          "lon": 114.299,
+          "altitude_m": 26.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5271862,
+          "lon": 114.2988715,
+          "altitude_m": 26.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 30.526303,
+          "lon": 114.300943,
+          "altitude_m": 26.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 30.5263544,
+          "lon": 114.3010058,
+          "altitude_m": 26.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 30.5260495,
+          "lon": 114.3026373,
+          "altitude_m": 26.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 30.5263635,
+          "lon": 114.3028948,
+          "altitude_m": 26.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 30.525784,
+          "lon": 114.3044695,
+          "altitude_m": 26.0,
+          "label": "航点7"
+        },
+        {
+          "lat": 30.5263403,
+          "lon": 114.304767,
+          "altitude_m": 26.0,
+          "label": "航点8"
+        },
+        {
+          "lat": 30.526459,
+          "lon": 114.3048838,
+          "altitude_m": 26.0,
+          "label": "航点9"
+        },
+        {
+          "lat": 30.5263745,
+          "lon": 114.305109,
+          "altitude_m": 26.0,
+          "label": "航点10"
+        },
+        {
+          "lat": 30.5264545,
+          "lon": 114.3051854,
+          "altitude_m": 26.0,
+          "label": "航点11"
+        },
+        {
+          "lat": 30.5265291,
+          "lon": 114.3052953,
+          "altitude_m": 26.0,
+          "label": "航点12"
+        },
+        {
+          "lat": 30.5265776,
+          "lon": 114.3053894,
+          "altitude_m": 26.0,
+          "label": "航点13"
+        },
+        {
+          "lat": 30.5266194,
+          "lon": 114.3055224,
+          "altitude_m": 26.0,
+          "label": "航点14"
+        },
+        {
+          "lat": 30.5266445,
+          "lon": 114.3056828,
+          "altitude_m": 26.0,
+          "label": "航点15"
+        },
+        {
+          "lat": 30.5267108,
+          "lon": 114.3069022,
+          "altitude_m": 26.0,
+          "label": "航点16"
+        },
+        {
+          "lat": 30.5268638,
+          "lon": 114.3073856,
+          "altitude_m": 26.0,
+          "label": "航点17"
+        },
+        {
+          "lat": 30.5268948,
+          "lon": 114.3074604,
+          "altitude_m": 26.0,
+          "label": "航点18"
+        },
+        {
+          "lat": 30.5270766,
+          "lon": 114.3077303,
+          "altitude_m": 26.0,
+          "label": "航点19"
+        },
+        {
+          "lat": 30.5274147,
+          "lon": 114.3080708,
+          "altitude_m": 26.0,
+          "label": "航点20"
+        },
+        {
+          "lat": 30.5275496,
+          "lon": 114.3081691,
+          "altitude_m": 26.0,
+          "label": "航点21"
+        },
+        {
+          "lat": 30.5276949,
+          "lon": 114.3082076,
+          "altitude_m": 26.0,
+          "label": "航点22"
+        },
+        {
+          "lat": 30.5279633,
+          "lon": 114.3084415,
+          "altitude_m": 26.0,
+          "label": "航点23"
+        },
+        {
+          "lat": 30.5280872,
+          "lon": 114.3085289,
+          "altitude_m": 26.0,
+          "label": "航点24"
+        },
+        {
+          "lat": 30.5282454,
+          "lon": 114.3086113,
+          "altitude_m": 26.0,
+          "label": "航点25"
+        },
+        {
+          "lat": 30.5284264,
+          "lon": 114.3086751,
+          "altitude_m": 26.0,
+          "label": "航点26"
+        },
+        {
+          "lat": 30.5308113,
+          "lon": 114.3092402,
+          "altitude_m": 26.0,
+          "label": "航点27"
+        },
+        {
+          "lat": 30.5313428,
+          "lon": 114.3095174,
+          "altitude_m": 26.0,
+          "label": "航点28"
+        },
+        {
+          "lat": 30.5329152,
+          "lon": 114.3106363,
+          "altitude_m": 26.0,
+          "label": "航点29"
+        },
+        {
+          "lat": 30.533198,
+          "lon": 114.3107942,
+          "altitude_m": 26.0,
+          "label": "航点30"
+        },
+        {
+          "lat": 30.5339441,
+          "lon": 114.3110751,
+          "altitude_m": 26.0,
+          "label": "航点31"
+        },
+        {
+          "lat": 30.5445002,
+          "lon": 114.3135789,
+          "altitude_m": 26.0,
+          "label": "航点32"
+        },
+        {
+          "lat": 30.5453868,
+          "lon": 114.3135171,
+          "altitude_m": 26.0,
+          "label": "航点33"
+        },
+        {
+          "lat": 30.5457456,
+          "lon": 114.3135646,
+          "altitude_m": 26.0,
+          "label": "航点34"
+        },
+        {
+          "lat": 30.5458396,
+          "lon": 114.3136009,
+          "altitude_m": 26.0,
+          "label": "航点35"
+        },
+        {
+          "lat": 30.5459205,
+          "lon": 114.3136653,
+          "altitude_m": 26.0,
+          "label": "航点36"
+        },
+        {
+          "lat": 30.545973,
+          "lon": 114.3137244,
+          "altitude_m": 26.0,
+          "label": "航点37"
+        },
+        {
+          "lat": 30.5460238,
+          "lon": 114.3138752,
+          "altitude_m": 26.0,
+          "label": "航点38"
+        },
+        {
+          "lat": 30.547125,
+          "lon": 114.3295482,
+          "altitude_m": 26.0,
+          "label": "航点39"
+        },
+        {
+          "lat": 30.5471146,
+          "lon": 114.3296742,
+          "altitude_m": 26.0,
+          "label": "航点40"
+        },
+        {
+          "lat": 30.5470592,
+          "lon": 114.3299237,
+          "altitude_m": 26.0,
+          "label": "航点41"
+        },
+        {
+          "lat": 30.5461692,
+          "lon": 114.3324208,
+          "altitude_m": 26.0,
+          "label": "航点42"
+        },
+        {
+          "lat": 30.5461843,
+          "lon": 114.3325878,
+          "altitude_m": 26.0,
+          "label": "航点43"
+        },
+        {
+          "lat": 30.5462114,
+          "lon": 114.332689,
+          "altitude_m": 26.0,
+          "label": "航点44"
+        },
+        {
+          "lat": 30.5462334,
+          "lon": 114.332734,
+          "altitude_m": 26.0,
+          "label": "航点45"
+        },
+        {
+          "lat": 30.5462842,
+          "lon": 114.3328004,
+          "altitude_m": 26.0,
+          "label": "航点46"
+        },
+        {
+          "lat": 30.5463506,
+          "lon": 114.3328641,
+          "altitude_m": 26.0,
+          "label": "航点47"
+        },
+        {
+          "lat": 30.5473465,
+          "lon": 114.3333531,
+          "altitude_m": 26.0,
+          "label": "航点48"
+        },
+        {
+          "lat": 30.5475114,
+          "lon": 114.3335004,
+          "altitude_m": 26.0,
+          "label": "航点49"
+        },
+        {
+          "lat": 30.5475368,
+          "lon": 114.3335386,
+          "altitude_m": 26.0,
+          "label": "航点50"
+        },
+        {
+          "lat": 30.5475524,
+          "lon": 114.3335702,
+          "altitude_m": 26.0,
+          "label": "航点51"
+        },
+        {
+          "lat": 30.5475651,
+          "lon": 114.3336131,
+          "altitude_m": 26.0,
+          "label": "航点52"
+        },
+        {
+          "lat": 30.5475726,
+          "lon": 114.3336533,
+          "altitude_m": 26.0,
+          "label": "航点53"
+        },
+        {
+          "lat": 30.5475755,
+          "lon": 114.3337016,
+          "altitude_m": 26.0,
+          "label": "航点54"
+        },
+        {
+          "lat": 30.5474923,
+          "lon": 114.3342313,
+          "altitude_m": 26.0,
+          "label": "航点55"
+        },
+        {
+          "lat": 30.5474865,
+          "lon": 114.3343386,
+          "altitude_m": 26.0,
+          "label": "航点56"
+        },
+        {
+          "lat": 30.5477124,
+          "lon": 114.3382057,
+          "altitude_m": 26.0,
+          "label": "航点57"
+        },
+        {
+          "lat": 30.5492775,
+          "lon": 114.3381083,
+          "altitude_m": 26.0,
+          "label": "航点58"
+        },
+        {
+          "lat": 30.5494823,
+          "lon": 114.3381395,
+          "altitude_m": 26.0,
+          "label": "航点59"
+        },
+        {
+          "lat": 30.5510334,
+          "lon": 114.3386248,
+          "altitude_m": 26.0,
+          "label": "航点60"
+        },
+        {
+          "lat": 30.5512736,
+          "lon": 114.3387361,
+          "altitude_m": 26.0,
+          "label": "航点61"
+        },
+        {
+          "lat": 30.5514906,
+          "lon": 114.3388745,
+          "altitude_m": 26.0,
+          "label": "航点62"
+        },
+        {
+          "lat": 30.5547653,
+          "lon": 114.3411447,
+          "altitude_m": 26.0,
+          "label": "航点63"
+        },
+        {
+          "lat": 30.5556115,
+          "lon": 114.3416702,
+          "altitude_m": 26.0,
+          "label": "航点64"
+        },
+        {
+          "lat": 30.558127,
+          "lon": 114.3439792,
+          "altitude_m": 26.0,
+          "label": "航点65"
+        },
+        {
+          "lat": 30.5582537,
+          "lon": 114.3440147,
+          "altitude_m": 26.0,
+          "label": "航点66"
+        },
+        {
+          "lat": 30.5583069,
+          "lon": 114.3440227,
+          "altitude_m": 26.0,
+          "label": "航点67"
+        },
+        {
+          "lat": 30.5583992,
+          "lon": 114.3440187,
+          "altitude_m": 26.0,
+          "label": "航点68"
+        },
+        {
+          "lat": 30.5584859,
+          "lon": 114.3439879,
+          "altitude_m": 26.0,
+          "label": "航点69"
+        },
+        {
+          "lat": 30.5585736,
+          "lon": 114.3439423,
+          "altitude_m": 26.0,
+          "label": "航点70"
+        },
+        {
+          "lat": 30.5595002,
+          "lon": 114.3426236,
+          "altitude_m": 26.0,
+          "label": "航点71"
+        },
+        {
+          "lat": 30.5651187,
+          "lon": 114.3478455,
+          "altitude_m": 26.0,
+          "label": "航点72"
+        },
+        {
+          "lat": 30.565,
+          "lon": 114.348,
+          "altitude_m": 26.0,
+          "label": "航点73"
+        }
+      ]
+    },
+    {
+      "route_id": "route_4",
+      "label": "均衡稳定推荐",
+      "strategy": "balanced_stable",
+      "score": 61.79,
+      "base_cost": 762.27,
+      "topsis_score": 45.42,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 697.6,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 7658.5,
+      "estimated_duration_s": 697.6,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.325,
+      "average_connectivity_index": 0.665,
+      "minimum_connectivity_index": 0.496,
+      "average_reachability_index": 0.476,
+      "corridor_diversity_index": 0.562,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 7,
+      "recommended_rank": 2,
+      "waypoints": [
+        {
+          "lat": 30.5279678,
+          "lon": 114.299446,
+          "altitude_m": 15.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5437958,
+          "lon": 114.299446,
+          "altitude_m": 20.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 30.5437958,
+          "lon": 114.3017433,
+          "altitude_m": 20.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 30.5576454,
+          "lon": 114.3178244,
+          "altitude_m": 20.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 30.5596239,
+          "lon": 114.3178244,
+          "altitude_m": 20.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 30.5695164,
+          "lon": 114.3430947,
+          "altitude_m": 20.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 30.5655594,
+          "lon": 114.3476893,
+          "altitude_m": 10.0,
+          "label": "航点7"
+        }
+      ]
+    },
+    {
+      "route_id": "route_1",
+      "label": "最快到达",
+      "strategy": "fastest",
+      "score": 52.32,
+      "base_cost": 686.14,
+      "topsis_score": 31.89,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 629.59,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 7077.05,
+      "estimated_duration_s": 629.59,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.2,
+      "average_connectivity_index": 0.667,
+      "minimum_connectivity_index": 0.514,
+      "average_reachability_index": 0.469,
+      "corridor_diversity_index": 0.453,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 8,
+      "recommended_rank": 3,
+      "waypoints": [
+        {
+          "lat": 30.5279678,
+          "lon": 114.299446,
+          "altitude_m": 15.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5398388,
+          "lon": 114.3017433,
+          "altitude_m": 15.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 30.5437958,
+          "lon": 114.3086352,
+          "altitude_m": 15.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 30.5517099,
+          "lon": 114.3178244,
+          "altitude_m": 15.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 30.5576454,
+          "lon": 114.3201217,
+          "altitude_m": 15.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 30.5596239,
+          "lon": 114.3201217,
+          "altitude_m": 15.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 30.5635809,
+          "lon": 114.3270136,
+          "altitude_m": 15.0,
+          "label": "航点7"
+        },
+        {
+          "lat": 30.5655594,
+          "lon": 114.3476893,
+          "altitude_m": 10.0,
+          "label": "航点8"
+        }
+      ]
+    },
+    {
+      "route_id": "route_3",
+      "label": "能耗最少",
+      "strategy": "energy_saving",
+      "score": 51.74,
+      "base_cost": 696.09,
+      "topsis_score": 31.06,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 637.37,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 7081.46,
+      "estimated_duration_s": 637.37,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.221,
+      "average_connectivity_index": 0.64,
+      "minimum_connectivity_index": 0.514,
+      "average_reachability_index": 0.46,
+      "corridor_diversity_index": 0.453,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 10,
+      "recommended_rank": 4,
+      "waypoints": [
+        {
+          "lat": 30.5279678,
+          "lon": 114.299446,
+          "altitude_m": 15.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5339033,
+          "lon": 114.299446,
+          "altitude_m": 20.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 30.5418173,
+          "lon": 114.3040406,
+          "altitude_m": 20.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 30.5437958,
+          "lon": 114.3063379,
+          "altitude_m": 20.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 30.5457743,
+          "lon": 114.3109325,
+          "altitude_m": 20.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 30.5517099,
+          "lon": 114.3178244,
+          "altitude_m": 20.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 30.5576454,
+          "lon": 114.3201217,
+          "altitude_m": 20.0,
+          "label": "航点7"
+        },
+        {
+          "lat": 30.5596239,
+          "lon": 114.3201217,
+          "altitude_m": 20.0,
+          "label": "航点8"
+        },
+        {
+          "lat": 30.5635809,
+          "lon": 114.3270136,
+          "altitude_m": 20.0,
+          "label": "航点9"
+        },
+        {
+          "lat": 30.5655594,
+          "lon": 114.3476893,
+          "altitude_m": 10.0,
+          "label": "航点10"
+        }
+      ]
+    },
+    {
+      "route_id": "route_2",
+      "label": "低风险",
+      "strategy": "safest",
+      "score": 49.24,
+      "base_cost": 744.96,
+      "topsis_score": 27.48,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 690.97,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 7854.17,
+      "estimated_duration_s": 690.97,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.165,
+      "average_connectivity_index": 0.654,
+      "minimum_connectivity_index": 0.448,
+      "average_reachability_index": 0.469,
+      "corridor_diversity_index": 0.477,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 9,
+      "recommended_rank": 5,
+      "waypoints": [
+        {
+          "lat": 30.5279678,
+          "lon": 114.299446,
+          "altitude_m": 15.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5259893,
+          "lon": 114.3017433,
+          "altitude_m": 20.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 30.5259893,
+          "lon": 114.3086352,
+          "altitude_m": 20.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 30.5378603,
+          "lon": 114.3178244,
+          "altitude_m": 20.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 30.5536884,
+          "lon": 114.3178244,
+          "altitude_m": 20.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 30.5556669,
+          "lon": 114.3201217,
+          "altitude_m": 20.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 30.5596239,
+          "lon": 114.3201217,
+          "altitude_m": 20.0,
+          "label": "航点7"
+        },
+        {
+          "lat": 30.5635809,
+          "lon": 114.3270136,
+          "altitude_m": 20.0,
+          "label": "航点8"
+        },
+        {
+          "lat": 30.5655594,
+          "lon": 114.3476893,
+          "altitude_m": 10.0,
+          "label": "航点9"
+        }
+      ]
+    }
+  ],
+  "dataset_key": "wuhan_wuchang"
+}

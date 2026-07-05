@@ -1,0 +1,478 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+TOOLKIT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd -P)"
+INIT_CONFIG_PATH="${TOOLKIT_ROOT}/portable-init.env"
+CONFIGS_ROOT="${TOOLKIT_ROOT}/mycodex/configs"
+SESSIONS_ROOT="${TOOLKIT_ROOT}/mycodex/sessions"
+RUNTIME_ROOT="${TOOLKIT_ROOT}/runtime"
+STATE_DIR="${TOOLKIT_ROOT}/state"
+VALID_PROFILES_COUNT=0
+
+PROJECT_NAME=""
+PROJECT_ROOT=""
+WORKSPACE_DIR=""
+DEFAULT_PROFILE=""
+FORCE_WRITE="0"
+RUNTIME_MODE=""
+
+die() {
+  printf '错误: %s\n' "$*" >&2
+  exit 1
+}
+
+have_cmd() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+list_child_dirs() {
+  python3 - "$1" <<'PY'
+import os
+import sys
+
+root = sys.argv[1]
+try:
+    entries = sorted(entry.name for entry in os.scandir(root) if entry.is_dir())
+except FileNotFoundError:
+    entries = []
+
+for name in entries:
+    print(name)
+PY
+}
+
+usage() {
+  cat <<'EOF'
+Codex Project Portable 初始化工具
+
+用途：
+  把当前工具目录初始化为“某个项目内的便携模块”。
+  初始化后会在工具根目录生成 portable-init.env，
+  用来持久保存：
+    - 项目名称
+    - 相对工具目录的 project_root
+    - 相对工具目录的默认 workspace_dir
+    - 默认 profile
+
+常用示例：
+  ./bin/codex-project-init
+  ./bin/codex-project-init --force --skip-runtime
+  ./bin/codex-project-init --project-root ../.. --workspace-dir ../.. --profile zys
+  ./bin/codex-project init
+
+可选参数：
+  --project-name <name>
+    指定项目名称；默认取 project_root 的目录名。
+
+  --project-root <dir>
+    指定项目根目录；默认优先推断为工具所在项目。
+
+  --workspace-dir <dir>
+    指定默认工作目录；默认等于 project_root。
+
+  --profile <name>
+    指定默认 profile；默认优先 zys，否则取第一个有效 profile。
+
+  --install-runtime
+    初始化完成后，立即执行工具内 runtime install。
+
+  --skip-runtime
+    初始化完成后，不自动安装 runtime。
+
+  --force
+    若 portable-init.env 已存在，直接覆盖。
+
+  -h, --help
+    打印帮助。
+EOF
+}
+
+default_project_root_guess() {
+  local toolkit_parent
+
+  toolkit_parent="$(cd "${TOOLKIT_ROOT}/.." && pwd -P)"
+  if [[ "$(basename "${toolkit_parent}")" == "tools" ]]; then
+    cd "${toolkit_parent}/.." && pwd -P
+    return
+  fi
+
+  printf '%s\n' "${toolkit_parent}"
+}
+
+resolve_abs_dir() {
+  local path="$1"
+  [[ -n "${path}" ]] || die "目录路径不能为空"
+  [[ -d "${path}" ]] || die "目录不存在: ${path}"
+  cd "${path}" && pwd -P
+}
+
+relative_to_toolkit_root() {
+  local abs_path="$1"
+  python3 - "${TOOLKIT_ROOT}" "${abs_path}" <<'PY'
+import os
+import sys
+
+toolkit_root = os.path.realpath(sys.argv[1])
+target = os.path.realpath(sys.argv[2])
+print(os.path.relpath(target, toolkit_root))
+PY
+}
+
+load_valid_profiles_into_array() {
+  local __target_name="$1"
+  local __profile_name
+  local __count=0
+
+  eval "${__target_name}=()"
+  while IFS= read -r __profile_name; do
+    eval "${__target_name}+=(\"\${__profile_name}\")"
+    __count=$((__count + 1))
+  done < <(valid_profiles)
+  VALID_PROFILES_COUNT="${__count}"
+}
+
+ensure_keep_files() {
+  mkdir -p "${SESSIONS_ROOT}" "${RUNTIME_ROOT}" "${STATE_DIR}"
+
+  if [[ ! -f "${SESSIONS_ROOT}/.gitignore" ]]; then
+    cat > "${SESSIONS_ROOT}/.gitignore" <<'EOF'
+# 保留空目录；真正的忽略规则由工具根目录 .gitignore 控制。
+EOF
+  fi
+
+  if [[ ! -f "${RUNTIME_ROOT}/.gitignore" ]]; then
+    cat > "${RUNTIME_ROOT}/.gitignore" <<'EOF'
+# 保留空目录；clean-online 场景下后续由 runtime install 填充。
+EOF
+  fi
+
+  if [[ ! -f "${STATE_DIR}/.gitignore" ]]; then
+    cat > "${STATE_DIR}/.gitignore" <<'EOF'
+*
+!.gitignore
+EOF
+  fi
+}
+
+profile_is_valid() {
+  local dir="${CONFIGS_ROOT}/$1"
+  [[ -d "${dir}" && -f "${dir}/auth.json" && -f "${dir}/config.toml" ]]
+}
+
+valid_profiles() {
+  local path
+
+  [[ -d "${CONFIGS_ROOT}" ]] || return 0
+  while IFS= read -r path; do
+    if profile_is_valid "${path}"; then
+      printf '%s\n' "${path}"
+    fi
+  done < <(list_child_dirs "${CONFIGS_ROOT}")
+}
+
+default_profile_name() {
+  if profile_is_valid "zys"; then
+    printf 'zys\n'
+    return 0
+  fi
+
+  valid_profiles | head -n 1 || true
+}
+
+choose_profile_interactively() {
+  local default_profile="$1"
+  shift
+  local -a profiles=("$@")
+  local index answer
+
+  printf '\n检测到以下有效 profile：\n' >&2
+  index=1
+  for answer in "${profiles[@]}"; do
+    if [[ "${answer}" == "${default_profile}" ]]; then
+      printf '  %d. %s（默认）\n' "${index}" "${answer}" >&2
+    else
+      printf '  %d. %s\n' "${index}" "${answer}" >&2
+    fi
+    index=$((index + 1))
+  done
+
+  while true; do
+    printf '选择默认 profile [1-%d]，直接回车使用 %s：' "${#profiles[@]}" "${default_profile}" >&2
+    read -r answer || exit 1
+
+    if [[ -z "${answer}" ]]; then
+      printf '%s\n' "${default_profile}"
+      return 0
+    fi
+
+    if [[ "${answer}" =~ ^[0-9]+$ ]] && (( answer >= 1 && answer <= ${#profiles[@]} )); then
+      printf '%s\n' "${profiles[$((answer - 1))]}"
+      return 0
+    fi
+
+    printf '输入无效，请重新选择。\n' >&2
+  done
+}
+
+prompt_with_default() {
+  local label="$1"
+  local default_value="$2"
+  local answer
+
+  printf '%s [%s]：' "${label}" "${default_value}" >&2
+  read -r answer || exit 1
+  printf '%s\n' "${answer:-${default_value}}"
+}
+
+prompt_yes_no() {
+  local label="$1"
+  local default_answer="$2"
+  local answer normalized
+
+  while true; do
+    printf '%s [%s]：' "${label}" "${default_answer}"
+    read -r answer || exit 1
+    answer="${answer:-${default_answer}}"
+    normalized="$(printf '%s' "${answer}" | tr '[:upper:]' '[:lower:]')"
+    case "${normalized}" in
+      y|yes) return 0 ;;
+      n|no) return 1 ;;
+      *) printf '请输入 y 或 n。\n' ;;
+    esac
+  done
+}
+
+write_init_config() {
+  local project_root_relative="$1"
+  local workspace_relative="$2"
+
+  python3 - "${INIT_CONFIG_PATH}" "${PROJECT_NAME}" "${project_root_relative}" "${workspace_relative}" "${DEFAULT_PROFILE}" <<'PY'
+import pathlib
+import sys
+
+config_path = pathlib.Path(sys.argv[1])
+project_name = sys.argv[2]
+project_root_relative = sys.argv[3]
+workspace_relative = sys.argv[4]
+default_profile = sys.argv[5]
+
+def quote(value: str) -> str:
+    return "'" + value.replace("'", "'\"'\"'") + "'"
+
+lines = [
+    "# 由 codex-project init 自动生成。",
+    "# 建议把这份文件随项目一起提交和复制。",
+    "# 如需临时覆盖，优先使用环境变量：",
+    "#   CODEX_PORTABLE_PROJECT_ROOT",
+    "#   CODEX_PORTABLE_WORKSPACE_DIR",
+    "#   CODEX_PORTABLE_WORKSPACE_ROOT_NAME",
+    "#   CODEX_PORTABLE_PROFILE",
+    f"CODEX_PORTABLE_INIT_PROJECT_NAME={quote(project_name)}",
+    f"CODEX_PORTABLE_INIT_PROJECT_ROOT_RELATIVE={quote(project_root_relative)}",
+    f"CODEX_PORTABLE_INIT_WORKSPACE_DIR_RELATIVE={quote(workspace_relative)}",
+]
+
+if default_profile:
+    lines.append(f"CODEX_PORTABLE_INIT_DEFAULT_PROFILE={quote(default_profile)}")
+
+config_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+PY
+}
+
+runtime_ready() {
+  [[ -x "${RUNTIME_ROOT}/bin/node" ]] \
+    && [[ -x "${RUNTIME_ROOT}/bin/npm" ]] \
+    && [[ -x "${RUNTIME_ROOT}/bin/codex" ]] \
+    && [[ -f "${RUNTIME_ROOT}/lib/node_modules/@openai/codex/bin/codex.js" ]]
+}
+
+parse_args() {
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --project-name)
+        [[ $# -ge 2 ]] || die "--project-name 需要参数"
+        PROJECT_NAME="$2"
+        shift 2
+        ;;
+      --project-name=*)
+        PROJECT_NAME="${1#*=}"
+        shift
+        ;;
+      --project-root)
+        [[ $# -ge 2 ]] || die "--project-root 需要参数"
+        PROJECT_ROOT="$2"
+        shift 2
+        ;;
+      --project-root=*)
+        PROJECT_ROOT="${1#*=}"
+        shift
+        ;;
+      --workspace-dir|--workspace|--cwd)
+        [[ $# -ge 2 ]] || die "$1 需要参数"
+        WORKSPACE_DIR="$2"
+        shift 2
+        ;;
+      --workspace-dir=*|--workspace=*|--cwd=*)
+        WORKSPACE_DIR="${1#*=}"
+        shift
+        ;;
+      --profile)
+        [[ $# -ge 2 ]] || die "--profile 需要参数"
+        DEFAULT_PROFILE="$2"
+        shift 2
+        ;;
+      --profile=*)
+        DEFAULT_PROFILE="${1#*=}"
+        shift
+        ;;
+      --install-runtime)
+        RUNTIME_MODE="install"
+        shift
+        ;;
+      --skip-runtime)
+        RUNTIME_MODE="skip"
+        shift
+        ;;
+      --force)
+        FORCE_WRITE="1"
+        shift
+        ;;
+      -h|--help)
+        usage
+        exit 0
+        ;;
+      *)
+        die "未知参数: $1"
+        ;;
+    esac
+  done
+}
+
+main() {
+  local guessed_project_root project_root_relative workspace_relative
+  local guessed_project_name chosen_profile
+  local -a profiles=()
+  local profiles_count=0
+
+  parse_args "$@"
+  have_cmd python3 || die "需要 python3 生成 portable-init.env"
+  ensure_keep_files
+
+  guessed_project_root="$(default_project_root_guess)"
+  if [[ -z "${PROJECT_ROOT}" ]]; then
+    if [[ -t 0 && -t 1 ]]; then
+      PROJECT_ROOT="$(prompt_with_default "项目根目录" "${guessed_project_root}")"
+    else
+      PROJECT_ROOT="${guessed_project_root}"
+    fi
+  fi
+  PROJECT_ROOT="$(resolve_abs_dir "${PROJECT_ROOT}")"
+
+  guessed_project_name="$(basename "${PROJECT_ROOT}")"
+  if [[ -z "${PROJECT_NAME}" ]]; then
+    if [[ -t 0 && -t 1 ]]; then
+      PROJECT_NAME="$(prompt_with_default "项目名称" "${guessed_project_name}")"
+    else
+      PROJECT_NAME="${guessed_project_name}"
+    fi
+  fi
+  [[ -n "${PROJECT_NAME}" ]] || die "项目名称不能为空"
+
+  if [[ -z "${WORKSPACE_DIR}" ]]; then
+    if [[ -t 0 && -t 1 ]]; then
+      WORKSPACE_DIR="$(prompt_with_default "默认工作目录" "${PROJECT_ROOT}")"
+    else
+      WORKSPACE_DIR="${PROJECT_ROOT}"
+    fi
+  fi
+  WORKSPACE_DIR="$(resolve_abs_dir "${WORKSPACE_DIR}")"
+
+  if [[ -n "${DEFAULT_PROFILE}" ]]; then
+    profile_is_valid "${DEFAULT_PROFILE}" || die "默认 profile 不可用: ${DEFAULT_PROFILE}"
+  else
+    load_valid_profiles_into_array profiles
+    profiles_count="${VALID_PROFILES_COUNT}"
+    if [[ "${profiles_count}" -gt 0 ]]; then
+      chosen_profile="$(default_profile_name)"
+      if [[ "${profiles_count}" -gt 1 && -t 0 && -t 1 ]]; then
+        DEFAULT_PROFILE="$(choose_profile_interactively "${chosen_profile}" "${profiles[@]}")"
+      else
+        DEFAULT_PROFILE="${chosen_profile}"
+      fi
+    fi
+  fi
+
+  if [[ -f "${INIT_CONFIG_PATH}" && "${FORCE_WRITE}" != "1" ]]; then
+    if [[ -t 0 && -t 1 ]]; then
+      if ! prompt_yes_no "portable-init.env 已存在，是否覆盖" "n"; then
+        printf '已取消。\n'
+        exit 0
+      fi
+    else
+      die "portable-init.env 已存在；如需覆盖请加 --force"
+    fi
+  fi
+
+  project_root_relative="$(relative_to_toolkit_root "${PROJECT_ROOT}")"
+  workspace_relative="$(relative_to_toolkit_root "${WORKSPACE_DIR}")"
+  write_init_config "${project_root_relative}" "${workspace_relative}"
+
+  printf '\n初始化完成。\n'
+  printf '配置文件：%s\n' "${INIT_CONFIG_PATH}"
+  printf '项目名称：%s\n' "${PROJECT_NAME}"
+  printf '项目根目录：%s\n' "${PROJECT_ROOT}"
+  printf '项目根目录相对路径：%s\n' "${project_root_relative}"
+  printf '默认工作目录：%s\n' "${WORKSPACE_DIR}"
+  printf '默认工作目录相对路径：%s\n' "${workspace_relative}"
+  if [[ -n "${DEFAULT_PROFILE}" ]]; then
+    printf '默认 profile：%s\n' "${DEFAULT_PROFILE}"
+  else
+    printf '默认 profile：当前未发现有效 profile，请后续补齐 mycodex/configs/<profile>/auth.json 和 config.toml\n'
+  fi
+
+  if [[ -z "${RUNTIME_MODE}" && -t 0 && -t 1 ]]; then
+    if runtime_ready; then
+      if prompt_yes_no "已检测到工具内 runtime。是否现在重新安装/更新 runtime" "n"; then
+        RUNTIME_MODE="install"
+      else
+        RUNTIME_MODE="skip"
+      fi
+    else
+      if prompt_yes_no "当前未检测到完整 runtime。是否现在执行 runtime install" "y"; then
+        RUNTIME_MODE="install"
+      else
+        RUNTIME_MODE="skip"
+      fi
+    fi
+  fi
+
+  if [[ "${RUNTIME_MODE}" == "install" ]]; then
+    printf '\n开始安装工具内 runtime...\n'
+    "${SCRIPT_DIR}/codex-project-runtime" install
+    printf '\nruntime 安装完成，继续输出初始化后的建议命令。\n'
+  fi
+
+  printf '\n下一步建议：\n'
+  if [[ -n "${DEFAULT_PROFILE}" ]]; then
+    printf '1. ./bin/codex-project where --profile %s\n' "${DEFAULT_PROFILE}"
+    if ! runtime_ready; then
+      printf '2. ./bin/codex-project runtime install\n'
+      printf '3. ./bin/codex-project doctor --profile %s\n' "${DEFAULT_PROFILE}"
+      printf '4. ./bin/codex-project start --profile %s\n' "${DEFAULT_PROFILE}"
+    else
+      printf '2. ./bin/codex-project doctor --profile %s\n' "${DEFAULT_PROFILE}"
+      printf '3. ./bin/codex-project start --profile %s\n' "${DEFAULT_PROFILE}"
+    fi
+  else
+    printf '1. 先补齐 mycodex/configs/<profile>/auth.json 和 config.toml\n'
+    if ! runtime_ready; then
+      printf '2. ./bin/codex-project runtime install\n'
+      printf '3. ./bin/codex-project profiles\n'
+    else
+      printf '2. ./bin/codex-project profiles\n'
+    fi
+  fi
+}
+
+main "$@"

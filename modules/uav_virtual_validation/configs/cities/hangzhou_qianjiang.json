@@ -1,0 +1,20 @@
+{
+  "name": "hangzhou_qianjiang",
+  "display_name": "杭州 Qianjiang New City",
+  "description": "杭州钱江新城，高层商务区与钱塘江城市边界明显，适合低空任务和江风影响演示。",
+  "center": {"lat": 30.2472, "lon": 120.2102},
+  "bbox": {"south": 30.2350, "west": 120.1900, "north": 30.2605, "east": 120.2310},
+  "default_route": [
+    {"lat": 30.2365, "lon": 120.1920, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 30.2410, "lon": 120.2010, "altitude_m": 135.0, "label": "江侧转向点"},
+    {"lat": 30.2472, "lon": 120.2102, "altitude_m": 155.0, "label": "核心高楼避让点"},
+    {"lat": 30.2540, "lon": 120.2210, "altitude_m": 140.0, "label": "巡航点"},
+    {"lat": 30.2590, "lon": 120.2290, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 28.0, "level_height_m": 3.2, "max_buildings": 3000}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "chongqing_jiefangbei",
+  "display_name": "重庆 Jiefangbei/Yuzhong",
+  "description": "重庆解放碑与渝中半岛，山城、江河、高楼组合明显，适合后续加入地形与复杂能耗演示。",
+  "center": {"lat": 29.5628, "lon": 106.5747},
+  "bbox": {"south": 29.5485, "west": 106.5560, "north": 29.5795, "east": 106.5920},
+  "default_route": [
+    {"lat": 29.5500, "lon": 106.5580, "altitude_m": 120.0, "label": "起点"},
+    {"lat": 29.5560, "lon": 106.5660, "altitude_m": 145.0, "label": "江岸转向点"},
+    {"lat": 29.5628, "lon": 106.5747, "altitude_m": 165.0, "label": "核心高楼避让点"},
+    {"lat": 29.5710, "lon": 106.5835, "altitude_m": 145.0, "label": "巡航点"},
+    {"lat": 29.5780, "lon": 106.5900, "altitude_m": 115.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 30.0, "level_height_m": 3.2, "max_buildings": 3400}
+}

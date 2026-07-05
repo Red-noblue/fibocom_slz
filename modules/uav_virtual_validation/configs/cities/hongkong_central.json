@@ -1,0 +1,20 @@
+{
+  "name": "hongkong_central",
+  "display_name": "香港 Central",
+  "description": "香港中环高密度高楼区，建筑数据通常较完整，适合作为中文高密度城市视觉标杆。",
+  "center": {"lat": 22.2819, "lon": 114.1588},
+  "bbox": {"south": 22.2735, "west": 114.1455, "north": 22.2905, "east": 114.1735},
+  "default_route": [
+    {"lat": 22.2750, "lon": 114.1470, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 22.2785, "lon": 114.1535, "altitude_m": 140.0, "label": "金融区转向点"},
+    {"lat": 22.2819, "lon": 114.1588, "altitude_m": 165.0, "label": "核心高楼避让点"},
+    {"lat": 22.2860, "lon": 114.1660, "altitude_m": 145.0, "label": "巡航点"},
+    {"lat": 22.2895, "lon": 114.1720, "altitude_m": 115.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Hong_Kong",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 32.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

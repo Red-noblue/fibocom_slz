@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_1",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "能耗最少",
+        "strategy": "energy_saving",
+        "score": 40.19,
+        "topsis_score": 14.55,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4862363,
+            31.2348388,
+            290.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

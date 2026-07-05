@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UAV 虚拟验证控制台</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cesium@1.127.0/Build/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="./static/styles.css?v=20260704-radio-multiselect">
+</head>
+<body>
+  <div class="app-shell">
+    <button id="btn-toggle-left" class="side-toggle side-toggle-left" type="button" aria-label="折叠左侧栏" aria-expanded="true">&lt;</button>
+    <button id="btn-toggle-right" class="side-toggle side-toggle-right" type="button" aria-label="折叠右侧栏" aria-expanded="true">&gt;</button>
+    <aside class="sidebar">
+      <section class="brand panel">
+        <span class="eyebrow">Virtual Validation</span>
+        <h1>无人机城市低空仿真世界</h1>
+        <p>用于展示城市高楼、禁飞区、三维天气采样和任务航线。</p>
+      </section>
+
+      <details class="panel" open>
+        <summary>数据源</summary>
+        <label for="dataset-select">数据集</label>
+        <select id="dataset-select">
+          <option value="manhattan" selected>真实城市：Manhattan Midtown</option>
+          <option value="chicago">真实城市：Chicago The Loop</option>
+          <option value="london">真实城市：London Canary Wharf</option>
+          <option value="tokyo">真实城市：Tokyo Shinjuku</option>
+          <option value="singapore">真实城市：Singapore Marina Bay</option>
+          <option value="shanghai">真实城市：Shanghai Lujiazui</option>
+          <option value="shenzhen">真实城市：深圳 Futian CBD</option>
+          <option value="guangzhou">真实城市：广州 Zhujiang New Town</option>
+          <option value="beijing">真实城市：北京 CBD Guomao</option>
+          <option value="chongqing">真实城市：重庆 Jiefangbei</option>
+          <option value="hangzhou">真实城市：杭州 Qianjiang New City</option>
+          <option value="chengdu">真实城市：成都 Tianfu Square</option>
+          <option value="wuhan">真实城市：武汉 Guanggu</option>
+          <option value="wuhan_central_urban">真实城市：武汉 中心城区大图</option>
+          <option value="wuhan_jianghan">真实城市：武汉 江汉区</option>
+          <option value="wuhan_wuchang">真实城市：武汉 武昌区</option>
+          <option value="nanjing">真实城市：南京 Xinjiekou</option>
+          <option value="hongkong">真实城市：香港 Central</option>
+          <option value="shenzhen_nanshan_tech">真实城市：深圳 Nanshan Tech Park</option>
+          <option value="shenzhen_qianhai">真实城市：深圳 Qianhai</option>
+          <option value="shanghai_people_square">真实城市：上海 People Square</option>
+          <option value="shanghai_xujiahui">真实城市：上海 Xujiahui</option>
+          <option value="beijing_wangjing">真实城市：北京 Wangjing</option>
+          <option value="beijing_zhongguancun">真实城市：北京 Zhongguancun</option>
+          <option value="guangzhou_pazhou">真实城市：广州 Pazhou</option>
+          <option value="chengdu_financial_city">真实城市：成都 Financial City</option>
+          <option value="chongqing_jiangbeizui">真实城市：重庆 Jiangbeizui</option>
+          <option value="suzhou_jinji_lake">真实城市：苏州 Jinji Lake</option>
+          <option value="procedural">程序化城市：urban_grid_world</option>
+        </select>
+        <div class="control-stack">
+          <button id="btn-load" class="primary">加载默认世界</button>
+        </div>
+      </details>
+
+      <details class="panel" open>
+        <summary>图层</summary>
+        <div class="three-col">
+          <label class="checkbox"><input id="layer-buildings" type="checkbox" checked><span>城市建筑</span></label>
+          <label class="checkbox"><input id="layer-ground" type="checkbox" checked><span>地面道路</span></label>
+          <label class="checkbox"><input id="layer-nofly" type="checkbox" checked><span>禁飞区</span></label>
+          <label class="checkbox"><input id="layer-weather" type="checkbox" checked><span>天气采样</span></label>
+          <label class="checkbox"><input id="layer-route" type="checkbox" checked><span>计划航线</span></label>
+        </div>
+      </details>
+
+      <details class="panel" open>
+        <summary>显示</summary>
+        <div class="compact-grid">
+          <label for="altitude-filter">天气高度</label>
+          <label for="render-mode">建筑表现</label>
+          <select id="altitude-filter">
+            <option value="all">全部高度</option>
+          </select>
+          <select id="render-mode">
+            <option value="solid" selected>实体+边线</option>
+            <option value="clean">纯实体</option>
+            <option value="outline">仅边线</option>
+          </select>
+          <label for="building-backend">建筑后端</label>
+          <label for="terrain-mode">地形模式</label>
+          <select id="building-backend">
+            <option value="tiles" selected>本地 3D Tiles</option>
+            <option value="none">不加载建筑</option>
+            <option value="osm">Cesium OSM Buildings（需 Token）</option>
+          </select>
+          <select id="terrain-mode">
+            <option value="ellipsoid" selected>本地平面基底</option>
+            <option value="world">Cesium World Terrain（需 Token）</option>
+          </select>
+          <label for="lighting-mode">光影模式</label>
+          <label for="sun-cycle">太阳周期</label>
+          <select id="lighting-mode">
+            <option value="flat" selected>基础视觉</option>
+            <option value="sun">太阳投影/AO</option>
+          </select>
+          <select id="sun-cycle">
+            <option value="auto" selected>1小时日出到日落</option>
+            <option value="noon">固定正午</option>
+          </select>
+          <label class="wide" for="ion-token">Cesium Ion 在线资源 Token</label>
+          <input class="wide" id="ion-token" type="password" placeholder="仅 OSM Buildings/真实地形需要">
+          <p id="ion-hint" class="wide small">未配置 Token：使用本地建筑和本地平面基底。</p>
+        </div>
+      </details>
+
+      <details class="panel" open>
+        <summary>天气分辨率</summary>
+        <div class="resolution-facts">
+          <div><span>真实源</span><strong>Open-Meteo 历史天气</strong></div>
+          <div><span>水平</span><strong>约 9-25 km</strong></div>
+          <div><span>时间</span><strong>1 小时</strong></div>
+          <div><span>原生高度</span><strong>2m 温湿度 / 10m 与 100m 风</strong></div>
+        </div>
+        <div class="compact-grid">
+          <label for="weather-grid-mode">派生水平网格</label>
+          <label for="weather-altitude-mode">派生高度层</label>
+          <select id="weather-grid-mode">
+            <option value="full" selected>完整 10x6</option>
+            <option value="medium">中等 5x3</option>
+            <option value="corridor">航线走廊 10x2</option>
+            <option value="sparse">稀疏 4x3</option>
+          </select>
+          <select id="weather-altitude-mode">
+            <option value="all" selected>全部 5 层</option>
+            <option value="low">低空 30/60/100m</option>
+            <option value="mission">任务 100/150/220m</option>
+          </select>
+        </div>
+        <p id="weather-resolution-summary" class="small">等待加载天气场。</p>
+      </details>
+
+      <details class="panel" open>
+        <summary>视角</summary>
+        <div class="button-grid">
+          <button id="btn-fly-route">飞到任务航线</button>
+          <button id="btn-oblique">城市斜视</button>
+          <button id="btn-topdown">城市俯视</button>
+          <button id="btn-reset">重置视角</button>
+        </div>
+      </details>
+    </aside>
+
+    <main class="map-wrap">
+      <div id="cesiumContainer"></div>
+      <div class="map-badge">
+        <span id="load-status">等待加载</span>
+      </div>
+    </main>
+
+    <aside class="inspector">
+      <details class="panel hero-stat" open>
+        <summary>世界摘要</summary>
+        <span class="eyebrow">World Summary</span>
+        <h2 id="world-name">未加载</h2>
+        <div class="stats-grid">
+          <div><span>建筑</span><strong id="stat-buildings">--</strong></div>
+          <div><span>地面要素</span><strong id="stat-ground">--</strong></div>
+          <div><span>禁飞区</span><strong id="stat-nofly">--</strong></div>
+          <div><span>天气点</span><strong id="stat-weather">--</strong></div>
+          <div><span>航线 km</span><strong id="stat-route">--</strong></div>
+        </div>
+      </details>
+
+      <details class="panel view-remote-panel" open>
+        <summary>视角遥控器</summary>
+        <div class="remote-layout">
+          <div class="remote-block">
+            <span class="remote-title">平移目标</span>
+            <div class="remote-pad" aria-label="视角平移">
+              <button type="button" class="remote-btn remote-empty" tabindex="-1" aria-hidden="true"></button>
+              <button type="button" class="remote-btn" data-view-action="pan-north" title="向北平移">北</button>
+              <button type="button" class="remote-btn remote-empty" tabindex="-1" aria-hidden="true"></button>
+              <button type="button" class="remote-btn" data-view-action="pan-west" title="向西平移">西</button>
+              <button type="button" class="remote-btn remote-center" data-view-action="center-city" title="回到城市中心">中</button>
+              <button type="button" class="remote-btn" data-view-action="pan-east" title="向东平移">东</button>
+              <button type="button" class="remote-btn remote-empty" tabindex="-1" aria-hidden="true"></button>
+              <button type="button" class="remote-btn" data-view-action="pan-south" title="向南平移">南</button>
+              <button type="button" class="remote-btn remote-empty" tabindex="-1" aria-hidden="true"></button>
+            </div>
+          </div>
+          <div class="remote-block">
+            <span class="remote-title">缩放/俯仰</span>
+            <div class="remote-stack">
+              <button type="button" class="remote-btn remote-strong" data-view-action="zoom-in">放大 +</button>
+              <button type="button" class="remote-btn" data-view-action="pitch-up">抬头</button>
+              <button type="button" class="remote-btn" data-view-action="pitch-down">俯视</button>
+              <button type="button" class="remote-btn remote-strong" data-view-action="zoom-out">缩小 -</button>
+            </div>
+          </div>
+        </div>
+        <div class="remote-row">
+          <button type="button" class="remote-btn" data-view-action="rotate-left">逆时针</button>
+          <button type="button" class="remote-btn" data-view-action="rotate-right">顺时针</button>
+          <button type="button" class="remote-btn" data-view-action="route-focus">航线</button>
+          <button type="button" class="remote-btn" data-view-action="reset-view">全城</button>
+        </div>
+        <p id="view-remote-readout" class="small remote-readout">等待世界加载。</p>
+      </details>
+
+      <details class="panel route-draw-panel" open>
+        <summary>航线绘制</summary>
+        <p id="route-draw-status" class="small">点击“开始绘制”后，在 3D 视图中左键单击添加航点；拖动仍用于旋转视角。</p>
+        <div class="compact-grid route-draw-inputs">
+          <label for="route-draw-name">航线名称</label>
+          <label for="route-draw-altitude">默认高度 m</label>
+          <input id="route-draw-name" type="text" value="用户绘制航线">
+          <input id="route-draw-altitude" type="number" min="20" max="800" step="5" value="120">
+          <label for="route-draw-speed">速度 m/s</label>
+          <label for="route-draw-altitude-mode">高度模式</label>
+          <input id="route-draw-speed" type="number" min="0.5" max="40" step="0.5" value="8">
+          <select id="route-draw-altitude-mode">
+            <option value="relative_ground">相对地面</option>
+            <option value="absolute">绝对海拔</option>
+          </select>
+        </div>
+        <div class="class-action-grid">
+          <button id="btn-route-draw-start" type="button" class="primary">开始绘制</button>
+          <button id="btn-route-draw-finish" type="button" disabled>完成绘制</button>
+          <button id="btn-route-draw-undo" type="button" disabled>撤销上一点</button>
+          <button id="btn-route-draw-clear" type="button" disabled>清空航线</button>
+          <button id="btn-route-draw-save" type="button" disabled>保存草稿</button>
+        </div>
+        <div id="route-draw-stats" class="route-draw-stats">航点 0｜距离 0.00 km｜预计 0.0 min</div>
+        <ol id="route-waypoint-list" class="route-waypoint-list"></ol>
+      </details>
+
+      <details class="panel radio-profile-panel" open>
+        <summary>无线电画像</summary>
+        <p id="radio-profile-status" class="small">当前城市未加载无线电画像。</p>
+        <div class="radio-profile-grid">
+          <div><span>样本</span><strong id="radio-stat-samples">--</strong></div>
+          <div><span>中心 dBm</span><strong id="radio-stat-center">--</strong></div>
+          <div><span>平均评分</span><strong id="radio-stat-score">--</strong></div>
+          <div><span>覆盖范围</span><strong id="radio-stat-scale">--</strong></div>
+        </div>
+        <div class="radio-control-grid">
+          <label for="radio-sample-filter">采样显示</label>
+          <label for="radio-density-select">点云密度</label>
+          <select id="radio-sample-filter" multiple size="5">
+            <option value="all">全部采样点</option>
+          </select>
+          <select id="radio-density-select">
+            <option value="sparse">稀疏：原始 1/1024</option>
+            <option value="standard" selected>标准：原始 1/256</option>
+            <option value="dense">较密：原始 1/64</option>
+            <option value="ultra">高密：原始 1/16</option>
+            <option value="extreme">极密：原始 1/4</option>
+          </select>
+        </div>
+        <p id="radio-density-note" class="radio-density-note">当前标准点云约为模型原始 256×256 输出的 1/256；按住 Ctrl/Command 可多选采样点，密度越高单点越小。</p>
+        <p id="radio-profile-note" class="radio-profile-note">彩色采样点按当前位置中心信号强度着色；热力点云来自模型输出预测矩阵，红色较强、蓝色较弱。</p>
+        <div class="radio-legend">
+          <span><i class="radio-good"></i>中心较强</span>
+          <span><i class="radio-mid"></i>中心可用</span>
+          <span><i class="radio-bad"></i>中心偏弱</span>
+        </div>
+      </details>
+
+      <details class="panel building-class-panel" open>
+        <summary>城市要素纠错</summary>
+        <p id="class-edit-status" class="small">左键单选建筑；右键或 Ctrl/Command+左键可连续多选，然后批量设置城市要素。</p>
+        <label for="building-class-version">纠错版本</label>
+        <select id="building-class-version"></select>
+        <label for="building-class-color-mode">纠错显示</label>
+        <select id="building-class-color-mode">
+          <option value="category">按要素异色</option>
+          <option value="ground">地面浅灰</option>
+          <option value="pale">柔和淡色</option>
+          <option value="muted">低饱和对比</option>
+          <option value="contrast">高对比检查</option>
+          <option value="outline">仅轮廓标注</option>
+        </select>
+        <label for="building-class-select">实际城市要素</label>
+        <select id="building-class-select" disabled>
+          <option value="building">建筑</option>
+          <option value="road">道路/车行道</option>
+          <option value="pedestrian">步行区域/人行道</option>
+          <option value="green">绿化草坪/公园</option>
+          <option value="plaza">广场/铺装空地</option>
+          <option value="water">水体</option>
+          <option value="parking">停车场</option>
+          <option value="construction">施工/裸地</option>
+          <option value="transport_facility">交通设施</option>
+          <option value="transport_elevated">交通立体结构</option>
+          <option value="transport_support">交通支撑结构</option>
+          <option value="other_ground">其他地面要素</option>
+          <option value="suspect">疑似误识别/待复核</option>
+        </select>
+        <label for="building-class-note">修正备注</label>
+        <textarea id="building-class-note" rows="3" placeholder="例如：疑似公园铺装面、道路面、广场、绿化草坪等。" disabled></textarea>
+        <div class="class-action-grid">
+          <button id="btn-apply-class" type="button" class="primary" disabled>应用纠错</button>
+          <button id="btn-clear-class" type="button" disabled>清除当前</button>
+          <button id="btn-save-new-class-version" type="button">保存为新版本</button>
+          <button id="btn-overwrite-class-version" type="button">覆盖当前版本</button>
+          <button id="btn-set-default-class-version" type="button">设为默认</button>
+          <button id="btn-delete-class-version" type="button" class="danger">删除当前版本</button>
+        </div>
+        <p id="class-edit-count" class="small class-count">当前版本 0 个纠错项。</p>
+      </details>
+
+      <details class="panel" open>
+        <summary>选中对象</summary>
+        <pre id="feature-detail">空间信息：点击建筑、道路、天气点或航线查看属性。</pre>
+        <p class="small">交互：左键拖动旋转/俯仰，滚轮缩放；也可使用右侧视角遥控器。</p>
+      </details>
+    </aside>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/cesium@1.127.0/Build/Cesium/Cesium.js"></script>
+  <script src="./static/app.js?v=20260704-radio-multiselect"></script>
+</body>
+</html>

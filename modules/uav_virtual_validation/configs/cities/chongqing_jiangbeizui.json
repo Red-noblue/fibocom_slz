@@ -1,0 +1,20 @@
+{
+  "name": "chongqing_jiangbeizui",
+  "display_name": "重庆 Jiangbeizui",
+  "description": "重庆江北嘴片区，高楼、江岸和桥梁环境明显，适合复杂地形后续升级。",
+  "center": {"lat": 29.5770, "lon": 106.5840},
+  "bbox": {"south": 29.5660, "west": 106.5700, "north": 29.5890, "east": 106.6000},
+  "default_route": [
+    {"lat": 29.5675, "lon": 106.5720, "altitude_m": 120.0, "label": "起点"},
+    {"lat": 29.5720, "lon": 106.5780, "altitude_m": 140.0, "label": "江岸转向点"},
+    {"lat": 29.5770, "lon": 106.5840, "altitude_m": 165.0, "label": "核心避让点"},
+    {"lat": 29.5830, "lon": 106.5920, "altitude_m": 145.0, "label": "巡航点"},
+    {"lat": 29.5875, "lon": 106.5980, "altitude_m": 115.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 30.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

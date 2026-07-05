@@ -1,0 +1,434 @@
+{
+  "city": {
+    "name": "chicago_loop",
+    "display_name": "芝加哥 The Loop",
+    "center": {
+      "lat": 41.8819,
+      "lon": -87.6278
+    },
+    "bbox": {
+      "south": 41.874,
+      "west": -87.6385,
+      "north": 41.8905,
+      "east": -87.616
+    }
+  },
+  "request": {
+    "start": {
+      "lat": 41.875,
+      "lon": -87.6375,
+      "altitude_m": 12.0
+    },
+    "end": {
+      "lat": 41.8895,
+      "lon": -87.617,
+      "altitude_m": 18.0
+    },
+    "planning_mode": "building_only"
+  },
+  "planner": {
+    "planning_mode": "building_only",
+    "min_altitude_m": 0.0,
+    "max_altitude_m": 27.0,
+    "cell_m": 220.0,
+    "safety_clearance_m": 5.0,
+    "cruise_speed_mps": 14.0,
+    "altitude_layers_m": [
+      0.0,
+      12.0,
+      18.0,
+      20.0
+    ],
+    "candidate_count": 5,
+    "ranking_method": "entropy_weight_topsis",
+    "monte_carlo_runs": 36,
+    "ranking_weights": {
+      "distance_m": 0.2293,
+      "estimated_duration_s": 0.2294,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.2293,
+      "overflight_exposure_index": 0.0,
+      "average_reachability_index": 0.0826,
+      "corridor_diversity_index": 0.2294,
+      "robustness_score": 0.0
+    }
+  },
+  "routes": [
+    {
+      "route_id": "route_1",
+      "label": "能耗最少",
+      "strategy": "energy_saving",
+      "score": 92.53,
+      "base_cost": 469.37,
+      "topsis_score": 89.33,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 404.73,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 4720.84,
+      "estimated_duration_s": 404.73,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.405,
+      "average_connectivity_index": 0.743,
+      "minimum_connectivity_index": 0.471,
+      "average_reachability_index": 0.547,
+      "corridor_diversity_index": 0.227,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 7,
+      "recommended_rank": 1,
+      "waypoints": [
+        {
+          "lat": 41.8749893,
+          "lon": -87.6398287,
+          "altitude_m": 12.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 41.8848818,
+          "lon": -87.6424861,
+          "altitude_m": 20.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6398287,
+          "altitude_m": 20.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6185694,
+          "altitude_m": 20.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6132545,
+          "altitude_m": 18.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6132545,
+          "altitude_m": 18.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6159119,
+          "altitude_m": 18.0,
+          "label": "航点7"
+        }
+      ]
+    },
+    {
+      "route_id": "route_3",
+      "label": "最快到达",
+      "strategy": "fastest",
+      "score": 91.2,
+      "base_cost": 469.35,
+      "topsis_score": 87.43,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 404.42,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 4720.82,
+      "estimated_duration_s": 404.42,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.405,
+      "average_connectivity_index": 0.743,
+      "minimum_connectivity_index": 0.471,
+      "average_reachability_index": 0.543,
+      "corridor_diversity_index": 0.23,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 7,
+      "recommended_rank": 2,
+      "waypoints": [
+        {
+          "lat": 41.8749893,
+          "lon": -87.6398287,
+          "altitude_m": 12.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 41.8848818,
+          "lon": -87.6424861,
+          "altitude_m": 18.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6398287,
+          "altitude_m": 18.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6185694,
+          "altitude_m": 18.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6132545,
+          "altitude_m": 18.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6132545,
+          "altitude_m": 18.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6159119,
+          "altitude_m": 18.0,
+          "label": "航点7"
+        }
+      ]
+    },
+    {
+      "route_id": "route_2",
+      "label": "低风险",
+      "strategy": "safest",
+      "score": 38.8,
+      "base_cost": 472.93,
+      "topsis_score": 12.57,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 409.24,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 4751.93,
+      "estimated_duration_s": 409.24,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.407,
+      "average_connectivity_index": 0.758,
+      "minimum_connectivity_index": 0.471,
+      "average_reachability_index": 0.56,
+      "corridor_diversity_index": 0.152,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 7,
+      "recommended_rank": 3,
+      "waypoints": [
+        {
+          "lat": 41.8749893,
+          "lon": -87.6398287,
+          "altitude_m": 12.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6424861,
+          "altitude_m": 20.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6318565,
+          "altitude_m": 20.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6159119,
+          "altitude_m": 20.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6132545,
+          "altitude_m": 20.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6132545,
+          "altitude_m": 20.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6159119,
+          "altitude_m": 18.0,
+          "label": "航点7"
+        }
+      ]
+    },
+    {
+      "route_id": "route_4",
+      "label": "均衡稳定推荐",
+      "strategy": "balanced_stable",
+      "score": 38.8,
+      "base_cost": 472.93,
+      "topsis_score": 12.57,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 409.24,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 4751.93,
+      "estimated_duration_s": 409.24,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.407,
+      "average_connectivity_index": 0.758,
+      "minimum_connectivity_index": 0.471,
+      "average_reachability_index": 0.56,
+      "corridor_diversity_index": 0.152,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 7,
+      "recommended_rank": 4,
+      "waypoints": [
+        {
+          "lat": 41.8749893,
+          "lon": -87.6398287,
+          "altitude_m": 12.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6424861,
+          "altitude_m": 20.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6318565,
+          "altitude_m": 20.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6159119,
+          "altitude_m": 20.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6132545,
+          "altitude_m": 20.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6132545,
+          "altitude_m": 20.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6159119,
+          "altitude_m": 18.0,
+          "label": "航点7"
+        }
+      ]
+    },
+    {
+      "route_id": "route_5",
+      "label": "最畅通路线",
+      "strategy": "most_accessible",
+      "score": 38.8,
+      "base_cost": 472.93,
+      "topsis_score": 12.57,
+      "robustness_score": 100.0,
+      "reliability_ratio": 1.0,
+      "duration_p95_s": 409.24,
+      "expected_delay_ratio": 0.0,
+      "distance_m": 4751.93,
+      "estimated_duration_s": 409.24,
+      "max_wind_speed_mps": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.407,
+      "average_connectivity_index": 0.758,
+      "minimum_connectivity_index": 0.471,
+      "average_reachability_index": 0.56,
+      "corridor_diversity_index": 0.152,
+      "overflight_building_count": 0,
+      "overflight_exposure_index": 0.0,
+      "waypoint_count": 7,
+      "recommended_rank": 5,
+      "waypoints": [
+        {
+          "lat": 41.8749893,
+          "lon": -87.6398287,
+          "altitude_m": 12.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6424861,
+          "altitude_m": 20.0,
+          "label": "航点2"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6318565,
+          "altitude_m": 20.0,
+          "label": "航点3"
+        },
+        {
+          "lat": 41.8927958,
+          "lon": -87.6159119,
+          "altitude_m": 20.0,
+          "label": "航点4"
+        },
+        {
+          "lat": 41.8908173,
+          "lon": -87.6132545,
+          "altitude_m": 20.0,
+          "label": "航点5"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6132545,
+          "altitude_m": 20.0,
+          "label": "航点6"
+        },
+        {
+          "lat": 41.8888388,
+          "lon": -87.6159119,
+          "altitude_m": 18.0,
+          "label": "航点7"
+        }
+      ]
+    }
+  ],
+  "dataset_key": "chicago"
+}

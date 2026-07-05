@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_5",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "训练穿行",
+        "strategy": "training",
+        "score": 71.75,
+        "topsis_score": 59.86,
+        "robustness_score": 99.49,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_jianghan",
+        "dataset_key": "wuhan_jianghan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2591492,
+            30.5759678,
+            25.0
+          ],
+          [
+            114.282133,
+            30.5819033,
+            25.0
+          ],
+          [
+            114.2867298,
+            30.5878388,
+            25.0
+          ],
+          [
+            114.2913265,
+            30.5917958,
+            25.0
+          ],
+          [
+            114.2959233,
+            30.5917958,
+            20.0
+          ],
+          [
+            114.3028184,
+            30.5977313,
+            25.0
+          ],
+          [
+            114.3051168,
+            30.6036669,
+            25.0
+          ],
+          [
+            114.3028184,
+            30.6056454,
+            25.0
+          ]
+        ]
+      }
+    }
+  ]
+}

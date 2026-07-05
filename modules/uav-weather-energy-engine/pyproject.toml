@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-weather-energy-engine"
+version = "0.1.0"
+description = "受天气影响的无人机能耗评估引擎。"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "joblib",
+  "numpy",
+  "pandas",
+  "pyyaml",
+  "requests",
+  "scikit-learn",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

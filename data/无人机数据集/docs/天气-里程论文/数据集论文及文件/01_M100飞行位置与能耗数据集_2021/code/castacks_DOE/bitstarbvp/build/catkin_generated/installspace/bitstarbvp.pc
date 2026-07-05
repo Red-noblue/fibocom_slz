@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: bitstarbvp
+Description: Description of bitstarbvp
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: octomap_msgs octomap_ros planning_common planning_common roscpp std_msgs bvpvalidator xyzpsi_state_space wind_query_ros

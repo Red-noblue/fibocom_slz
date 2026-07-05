@@ -1,0 +1,7 @@
+<launch>
+  <arg name="file"/>
+  <arg name="outpath"/>
+  <arg name="rate" default="10"/>
+  <node required="true" pkg="rosbag" type="play" name="player" args=" --clock -r $(arg rate) $(arg file)"/>
+  <node required="true" name="combiner" output="screen" pkg="filtering" type="bag_to_csv.py" args=" $(arg outpath)"/>
+</launch>

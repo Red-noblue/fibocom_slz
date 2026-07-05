@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fb59efc4f1f90012f5f234eb08ee7f99 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+    <div style="
+        position: fixed;
+        top: 10px; right: 10px;
+        z-index: 9999;
+        background: rgba(255,255,255,0.96);
+        border: 1px solid #d1d5db;
+        border-radius: 10px;
+        padding: 12px 14px;
+        font-family: Microsoft YaHei, sans-serif;
+        font-size: 12px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+        width: 360px;
+        max-height: 92vh;
+        overflow-y: auto;
+    ">
+      <div style="font-weight:700;font-size:14px;margin-bottom:8px;color:#111827;">无人机概览</div>
+      <div style="font-weight:600;color:#1f2937;margin-bottom:4px;">航线信息</div>
+      <table style="border-collapse:collapse;width:100%;margin-bottom:8px;">
+        <tr><td style="color:#4b5563;">航线名称</td><td><b>BUPT_Haidian_to_Shahe</b></td></tr>
+        <tr><td>起点坐标</td><td><b>39.95980, 116.35200</b></td></tr>
+        <tr><td>终点坐标</td><td><b>40.15608, 116.28333</b></td></tr>
+        <tr><td>航向角</td><td><b>345.03°</b></td></tr>
+        <tr><td>航线长度</td><td><b>22.59 km</b></td></tr>
+      </table>
+      <div style="font-weight:600;color:#1f2937;margin-bottom:4px;">飞行性能参数</div>
+      <table style="border-collapse:collapse;width:100%;margin-bottom:8px;">
+        <tr><td>巡航速度</td><td><b>8.0 m/s</b></td></tr>
+        <tr><td>巡航高度</td><td><b>62.5 m</b></td></tr>
+        <tr><td>载荷重量</td><td><b>250.0 g</b></td></tr>
+        <tr><td>电池容量</td><td><b>130.0 Wh</b></td></tr>
+      </table>
+      <div style="font-weight:600;color:#1f2937;margin-bottom:4px;">时间与预测数据</div>
+      <table style="border-collapse:collapse;width:100%;margin-bottom:8px;">
+        <tr><td>起飞时间</td><td><b>2026年5月9日 22:00:00</b></td></tr>
+        <tr><td>计划飞行时长</td><td><b>2824.29 s (47.1 分钟)</b></td></tr>
+        <tr><td>预测总能耗</td><td><b>960.14 Wh</b></td></tr>
+        <tr><td>预测可达航程</td><td><b>3.03 km</b></td></tr>
+        <tr><td>预测可飞时长</td><td><b>386.59 s</b></td></tr>
+        <tr><td>天气数据来源</td><td><b>CMA realtime (config-driven)（中国气象局实时数据 - 配置驱动）</b></td></tr>
+      </table>
+      <div style="font-weight:600;color:#1f2937;margin-bottom:4px;">天气概览（沿航线）</div>
+      <table style="border-collapse:collapse;width:100%;margin-bottom:8px;">
+        <tr><td>风速(均值/最大)</td><td><b>2.1 / 3.1 m/s</b></td></tr>
+        <tr><td>主导风向</td><td><b>5.1° (北)</b></td></tr>
+        <tr><td>气温(均值/范围)</td><td><b>17.3 °C / 16.1 ~ 18.5 °C</b></td></tr>
+        <tr><td>湿度(均值/最大)</td><td><b>66.6 / 67.3 %</b></td></tr>
+        <tr><td>降水(均值/最大)</td><td><b>0.00 / 0.00 mm</b></td></tr>
+        <tr><td>气压(均值/范围)</td><td><b>1006.0 hPa / 1005.9 ~ 1006.1 hPa</b></td></tr>
+        <tr><td>能见度(均值/最低)</td><td><b>14.1 / 13.9 km</b></td></tr>
+        <tr><td>紫外线(均值/峰值)</td><td><b>0.0 / 0.0 (低)</b></td></tr>
+        <tr><td>空气质量AQI(均值/峰值)</td><td><b>50 / 57 (优)</b></td></tr>
+      </table>
+      <div style="font-weight:600;color:#1f2937;margin-bottom:4px;">风险提示</div>
+      <ul style="margin:0 0 0 16px;padding:0;"><li style='margin-bottom:4px;color:#991b1b'>预测总能耗高于电池容量，实际飞行可能中途电量不足。</li><li style='margin-bottom:4px;color:#991b1b'>按当前效率预测的续航里程不足以覆盖全程航线。</li></ul>
+    </div>
+    
+    
+            <div class="folium-map" id="map_fb59efc4f1f90012f5f234eb08ee7f99" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fb59efc4f1f90012f5f234eb08ee7f99 = L.map(
+                "map_fb59efc4f1f90012f5f234eb08ee7f99",
+                {
+                    center: [40.05794, 116.317665],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_fb59efc4f1f90012f5f234eb08ee7f99);
+
+            
+
+        
+    
+            var tile_layer_81dd53bf1927f72087dd4829ce23a2f6 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u00a9 CARTO \u00a9 OpenStreetMap contributors", "detectRetina": false, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_81dd53bf1927f72087dd4829ce23a2f6.addTo(map_fb59efc4f1f90012f5f234eb08ee7f99);
+        
+    
+            var tile_layer_7370a58edc78bb3823e88a105c5a43f1 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Tiles \u00a9 Esri", "detectRetina": false, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            var poly_line_486fa6faa091ab72e5e91a69ae294337 = L.polyline(
+                [[39.9598, 116.352], [39.96388916666667, 116.350569375], [39.967978333333335, 116.34913875], [39.9720675, 116.347708125], [39.97615666666667, 116.3462775], [39.980245833333335, 116.344846875], [39.984335, 116.34341625], [39.98842416666667, 116.341985625], [39.992513333333335, 116.340555], [39.9966025, 116.339124375], [40.00069166666667, 116.33769375], [40.004780833333335, 116.336263125], [40.00887, 116.3348325], [40.01295916666667, 116.333401875], [40.017048333333335, 116.33197125], [40.0211375, 116.330540625], [40.02522666666667, 116.32911], [40.029315833333335, 116.327679375], [40.033405, 116.32624875], [40.03749416666667, 116.324818125], [40.041583333333335, 116.3233875], [40.0456725, 116.321956875], [40.04976166666667, 116.32052625], [40.053850833333335, 116.319095625], [40.05794, 116.317665], [40.06202916666667, 116.316234375], [40.066118333333335, 116.31480375], [40.0702075, 116.313373125], [40.07429666666667, 116.3119425], [40.078385833333336, 116.310511875], [40.082475, 116.30908125], [40.08656416666667, 116.307650625], [40.090653333333336, 116.30622], [40.0947425, 116.304789375], [40.09883166666667, 116.30335875], [40.102920833333336, 116.301928125], [40.10701, 116.3004975], [40.11109916666667, 116.299066875], [40.115188333333336, 116.29763625], [40.1192775, 116.296205625], [40.12336666666667, 116.294775], [40.127455833333336, 116.293344375], [40.131545, 116.29191375], [40.13563416666667, 116.290483125], [40.139723333333336, 116.2890525], [40.1438125, 116.287621875], [40.14790166666667, 116.28619125], [40.151990833333336, 116.284760625], [40.15608, 116.28333]],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e63946", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_fb59efc4f1f90012f5f234eb08ee7f99);
+        
+    
+            poly_line_486fa6faa091ab72e5e91a69ae294337.bindTooltip(
+                `<div>
+                     实际路径：22.59 km
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_787e9e777fc0e0bbbbfc22c95ed5fa29 = L.marker(
+                [39.9598, 116.352],
+                {}
+            ).addTo(map_fb59efc4f1f90012f5f234eb08ee7f99);
+        
+    
+            var icon_5dcb4a19bae8868362dd23c09ebbb03e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "play", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_787e9e777fc0e0bbbbfc22c95ed5fa29.setIcon(icon_5dcb4a19bae8868362dd23c09ebbb03e);
+        
+    
+        var popup_73f29a67bd06e24477fdfdb66cb3efed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72471904cf758c245de7c53f74375b53 = $(`<div id="html_72471904cf758c245de7c53f74375b53" style="width: 100.0%; height: 100.0%;">起点：BUPT_Haidian_to_Shahe</div>`)[0];
+                popup_73f29a67bd06e24477fdfdb66cb3efed.setContent(html_72471904cf758c245de7c53f74375b53);
+            
+        
+
+        marker_787e9e777fc0e0bbbbfc22c95ed5fa29.bindPopup(popup_73f29a67bd06e24477fdfdb66cb3efed)
+        ;
+
+        
+    
+    
+            marker_787e9e777fc0e0bbbbfc22c95ed5fa29.bindTooltip(
+                `<div>
+                     航线起点
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_549d2484b0bee5df85210de6ec8f09dd = L.marker(
+                [40.15608, 116.28333],
+                {}
+            ).addTo(map_fb59efc4f1f90012f5f234eb08ee7f99);
+        
+    
+            var icon_153785755c2b7b8b71f927f7f6635ab7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-checkered", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_549d2484b0bee5df85210de6ec8f09dd.setIcon(icon_153785755c2b7b8b71f927f7f6635ab7);
+        
+    
+        var popup_d143c8c9fd99f07be0d08caf394e0e5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1087cdba316033debd0cb5926cccd9ce = $(`<div id="html_1087cdba316033debd0cb5926cccd9ce" style="width: 100.0%; height: 100.0%;">终点：BUPT_Haidian_to_Shahe</div>`)[0];
+                popup_d143c8c9fd99f07be0d08caf394e0e5d.setContent(html_1087cdba316033debd0cb5926cccd9ce);
+            
+        
+
+        marker_549d2484b0bee5df85210de6ec8f09dd.bindPopup(popup_d143c8c9fd99f07be0d08caf394e0e5d)
+        ;
+
+        
+    
+    
+            marker_549d2484b0bee5df85210de6ec8f09dd.bindTooltip(
+                `<div>
+                     航线终点
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_6e9640c6427f62820832ea9f80bcbb56 = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_marker_1f9c6ffa74cc6caf3b1291a944c6aae1 = L.circleMarker(
+                [39.9598, 116.352],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_90ebf2614882391590764293873ea841 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_f0dcff26bdd1bd049c13ecefa6c15499 = $(`<div id="html_f0dcff26bdd1bd049c13ecefa6c15499" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:00:00<br>风速: 3.10 m/s @ 28.0°(东北)<br>温度: 18.5 °C<br>湿度: 65.0 %<br>降水: 0.00 mm<br>气压: 1006.1 hPa<br>能见度: 13.9 km<br>紫外线: 0.0<br>空气质量指数(AQI): 45 (优)<br>分段能耗: 0.00 Wh<br>累计能耗: 0.00 Wh<br>剩余电池: 130.00 Wh</div>`)[0];
+                popup_90ebf2614882391590764293873ea841.setContent(html_f0dcff26bdd1bd049c13ecefa6c15499);
+            
+        
+
+        circle_marker_1f9c6ffa74cc6caf3b1291a944c6aae1.bindPopup(popup_90ebf2614882391590764293873ea841)
+        ;
+
+        
+    
+    
+            circle_marker_1f9c6ffa74cc6caf3b1291a944c6aae1.bindTooltip(
+                `<div>
+                     2026-05-09T22:00:00 | T 18.5°C | H 65% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e87f88511e7e1efec885e9a38471cc44 = L.circleMarker(
+                [39.967978333333335, 116.34913875],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_4917af0878684809a83676ffd585d92f = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_879ef975b93870999433b2d2c1feff9c = $(`<div id="html_879ef975b93870999433b2d2c1feff9c" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:02:00<br>风速: 3.05 m/s @ 27.8°(东北)<br>温度: 18.5 °C<br>湿度: 65.1 %<br>降水: 0.00 mm<br>气压: 1006.1 hPa<br>能见度: 13.9 km<br>紫外线: 0.0<br>空气质量指数(AQI): 45 (优)<br>分段能耗: 20.29 Wh<br>累计能耗: 40.33 Wh<br>剩余电池: 89.67 Wh</div>`)[0];
+                popup_4917af0878684809a83676ffd585d92f.setContent(html_879ef975b93870999433b2d2c1feff9c);
+            
+        
+
+        circle_marker_e87f88511e7e1efec885e9a38471cc44.bindPopup(popup_4917af0878684809a83676ffd585d92f)
+        ;
+
+        
+    
+    
+            circle_marker_e87f88511e7e1efec885e9a38471cc44.bindTooltip(
+                `<div>
+                     2026-05-09T22:02:00 | T 18.5°C | H 65% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f4600853f29faaee0f3a5ee76f0c8cc = L.circleMarker(
+                [39.97615666666667, 116.3462775],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_8c74268d1c266fe78e97460379e14177 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_4e8469c219d931d02fc7747444caba5f = $(`<div id="html_4e8469c219d931d02fc7747444caba5f" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:04:00<br>风速: 2.96 m/s @ 27.3°(东北)<br>温度: 18.4 °C<br>湿度: 65.3 %<br>降水: 0.00 mm<br>气压: 1006.1 hPa<br>能见度: 13.9 km<br>紫外线: 0.0<br>空气质量指数(AQI): 45 (优)<br>分段能耗: 20.36 Wh<br>累计能耗: 80.98 Wh<br>剩余电池: 49.02 Wh</div>`)[0];
+                popup_8c74268d1c266fe78e97460379e14177.setContent(html_4e8469c219d931d02fc7747444caba5f);
+            
+        
+
+        circle_marker_9f4600853f29faaee0f3a5ee76f0c8cc.bindPopup(popup_8c74268d1c266fe78e97460379e14177)
+        ;
+
+        
+    
+    
+            circle_marker_9f4600853f29faaee0f3a5ee76f0c8cc.bindTooltip(
+                `<div>
+                     2026-05-09T22:04:00 | T 18.4°C | H 65% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b6bc5130234df292475af79bafc1cda5 = L.circleMarker(
+                [39.984335, 116.34341625],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_a8a8bcce390c7696d4e0573614608f72 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_b81ef742bd7091a6f708fb5adec345c0 = $(`<div id="html_b81ef742bd7091a6f708fb5adec345c0" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:06:00<br>风速: 2.86 m/s @ 26.7°(东北)<br>温度: 18.3 °C<br>湿度: 65.5 %<br>降水: 0.00 mm<br>气压: 1006.1 hPa<br>能见度: 14.0 km<br>紫外线: 0.0<br>空气质量指数(AQI): 45 (优)<br>分段能耗: 19.84 Wh<br>累计能耗: 121.18 Wh<br>剩余电池: 8.82 Wh</div>`)[0];
+                popup_a8a8bcce390c7696d4e0573614608f72.setContent(html_b81ef742bd7091a6f708fb5adec345c0);
+            
+        
+
+        circle_marker_b6bc5130234df292475af79bafc1cda5.bindPopup(popup_a8a8bcce390c7696d4e0573614608f72)
+        ;
+
+        
+    
+    
+            circle_marker_b6bc5130234df292475af79bafc1cda5.bindTooltip(
+                `<div>
+                     2026-05-09T22:06:00 | T 18.3°C | H 66% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3bf154633e14044efac529fb2fa9c2e8 = L.circleMarker(
+                [39.992513333333335, 116.340555],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_df5af3a3e2ddb31aeaf93a242d234c3c = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_a746de85705ca2d55342288917d7bb3d = $(`<div id="html_a746de85705ca2d55342288917d7bb3d" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:08:00<br>风速: 2.77 m/s @ 25.8°(东北)<br>温度: 18.2 °C<br>湿度: 65.7 %<br>降水: 0.00 mm<br>气压: 1006.1 hPa<br>能见度: 14.0 km<br>紫外线: 0.0<br>空气质量指数(AQI): 45 (优)<br>分段能耗: 19.90 Wh<br>累计能耗: 160.98 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_df5af3a3e2ddb31aeaf93a242d234c3c.setContent(html_a746de85705ca2d55342288917d7bb3d);
+            
+        
+
+        circle_marker_3bf154633e14044efac529fb2fa9c2e8.bindPopup(popup_df5af3a3e2ddb31aeaf93a242d234c3c)
+        ;
+
+        
+    
+    
+            circle_marker_3bf154633e14044efac529fb2fa9c2e8.bindTooltip(
+                `<div>
+                     2026-05-09T22:08:00 | T 18.2°C | H 66% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7871886425bf341bde60e625a3f5ef80 = L.circleMarker(
+                [40.00069166666667, 116.33769375],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_6affb8a980af90a558c664c5b26233e3 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_1215b56db760a4823dd2c83444fc56b4 = $(`<div id="html_1215b56db760a4823dd2c83444fc56b4" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:10:00<br>风速: 2.68 m/s @ 24.7°(东北)<br>温度: 18.1 °C<br>湿度: 65.9 %<br>降水: 0.00 mm<br>气压: 1006.1 hPa<br>能见度: 14.0 km<br>紫外线: 0.0<br>空气质量指数(AQI): 45 (优)<br>分段能耗: 19.90 Wh<br>累计能耗: 200.79 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_6affb8a980af90a558c664c5b26233e3.setContent(html_1215b56db760a4823dd2c83444fc56b4);
+            
+        
+
+        circle_marker_7871886425bf341bde60e625a3f5ef80.bindPopup(popup_6affb8a980af90a558c664c5b26233e3)
+        ;
+
+        
+    
+    
+            circle_marker_7871886425bf341bde60e625a3f5ef80.bindTooltip(
+                `<div>
+                     2026-05-09T22:10:00 | T 18.1°C | H 66% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1d73933ed27b1770853666745ac4fbd8 = L.circleMarker(
+                [40.00887, 116.3348325],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_67fa504210f021afe192eb5351e92e74 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_e519107b43ef58da7dbab76e8462651b = $(`<div id="html_e519107b43ef58da7dbab76e8462651b" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:12:00<br>风速: 2.59 m/s @ 23.4°(东北)<br>温度: 18.0 °C<br>湿度: 66.1 %<br>降水: 0.00 mm<br>气压: 1006.1 hPa<br>能见度: 14.0 km<br>紫外线: 0.0<br>空气质量指数(AQI): 46 (优)<br>分段能耗: 19.91 Wh<br>累计能耗: 240.61 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_67fa504210f021afe192eb5351e92e74.setContent(html_e519107b43ef58da7dbab76e8462651b);
+            
+        
+
+        circle_marker_1d73933ed27b1770853666745ac4fbd8.bindPopup(popup_67fa504210f021afe192eb5351e92e74)
+        ;
+
+        
+    
+    
+            circle_marker_1d73933ed27b1770853666745ac4fbd8.bindTooltip(
+                `<div>
+                     2026-05-09T22:12:00 | T 18.0°C | H 66% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_58a8089a772cd7daec90c080b9604244 = L.circleMarker(
+                [40.017048333333335, 116.33197125],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_51738010c3a85a28cffb36807d6f5d09 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_2b59b0147138bc2809452b5cb99b97ca = $(`<div id="html_2b59b0147138bc2809452b5cb99b97ca" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:14:00<br>风速: 2.49 m/s @ 21.9°(北)<br>温度: 17.9 °C<br>湿度: 66.2 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.0 km<br>紫外线: 0.0<br>空气质量指数(AQI): 46 (优)<br>分段能耗: 19.92 Wh<br>累计能耗: 280.45 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_51738010c3a85a28cffb36807d6f5d09.setContent(html_2b59b0147138bc2809452b5cb99b97ca);
+            
+        
+
+        circle_marker_58a8089a772cd7daec90c080b9604244.bindPopup(popup_51738010c3a85a28cffb36807d6f5d09)
+        ;
+
+        
+    
+    
+            circle_marker_58a8089a772cd7daec90c080b9604244.bindTooltip(
+                `<div>
+                     2026-05-09T22:14:00 | T 17.9°C | H 66% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8cb73cc55e8f83ea635e2444fa85c276 = L.circleMarker(
+                [40.02522666666667, 116.32911],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_d98bb1ea74e7915915e620762343a8c4 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_4ca7d8f6bff34f2d1704c84f09668032 = $(`<div id="html_4ca7d8f6bff34f2d1704c84f09668032" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:16:00<br>风速: 2.40 m/s @ 20.2°(北)<br>温度: 17.8 °C<br>湿度: 66.4 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.1 km<br>紫外线: 0.0<br>空气质量指数(AQI): 46 (优)<br>分段能耗: 19.93 Wh<br>累计能耗: 320.31 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_d98bb1ea74e7915915e620762343a8c4.setContent(html_4ca7d8f6bff34f2d1704c84f09668032);
+            
+        
+
+        circle_marker_8cb73cc55e8f83ea635e2444fa85c276.bindPopup(popup_d98bb1ea74e7915915e620762343a8c4)
+        ;
+
+        
+    
+    
+            circle_marker_8cb73cc55e8f83ea635e2444fa85c276.bindTooltip(
+                `<div>
+                     2026-05-09T22:16:00 | T 17.8°C | H 66% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_31e9c9986410f0a5226813634c15240e = L.circleMarker(
+                [40.033405, 116.32624875],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_f8db5465af9232bb3d65cb78fe650631 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_9d3c26883e3955e72f3275273ceb1bdb = $(`<div id="html_9d3c26883e3955e72f3275273ceb1bdb" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:18:00<br>风速: 2.32 m/s @ 18.2°(北)<br>温度: 17.7 °C<br>湿度: 66.5 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.1 km<br>紫外线: 0.0<br>空气质量指数(AQI): 47 (优)<br>分段能耗: 19.95 Wh<br>累计能耗: 360.20 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_f8db5465af9232bb3d65cb78fe650631.setContent(html_9d3c26883e3955e72f3275273ceb1bdb);
+            
+        
+
+        circle_marker_31e9c9986410f0a5226813634c15240e.bindPopup(popup_f8db5465af9232bb3d65cb78fe650631)
+        ;
+
+        
+    
+    
+            circle_marker_31e9c9986410f0a5226813634c15240e.bindTooltip(
+                `<div>
+                     2026-05-09T22:18:00 | T 17.7°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3e68a1fcdee35de80c57000f7ab6990c = L.circleMarker(
+                [40.041583333333335, 116.3233875],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_f62ee11af9017dc6cf30ae57399c06b2 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_a5e9a6df666e4aaeb6af9e61bf9cf12f = $(`<div id="html_a5e9a6df666e4aaeb6af9e61bf9cf12f" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:20:00<br>风速: 2.23 m/s @ 15.9°(北)<br>温度: 17.5 °C<br>湿度: 66.6 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.1 km<br>紫外线: 0.0<br>空气质量指数(AQI): 48 (优)<br>分段能耗: 19.96 Wh<br>累计能耗: 400.11 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_f62ee11af9017dc6cf30ae57399c06b2.setContent(html_a5e9a6df666e4aaeb6af9e61bf9cf12f);
+            
+        
+
+        circle_marker_3e68a1fcdee35de80c57000f7ab6990c.bindPopup(popup_f62ee11af9017dc6cf30ae57399c06b2)
+        ;
+
+        
+    
+    
+            circle_marker_3e68a1fcdee35de80c57000f7ab6990c.bindTooltip(
+                `<div>
+                     2026-05-09T22:20:00 | T 17.5°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cddc8e0b1f60c68bfcc7b76bff9ffb70 = L.circleMarker(
+                [40.04976166666667, 116.32052625],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_397d064316d43baf031cf07ac7773b54 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_ba576fc24c0bab73904f6290cb171e9b = $(`<div id="html_ba576fc24c0bab73904f6290cb171e9b" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:22:00<br>风速: 2.14 m/s @ 13.3°(北)<br>温度: 17.4 °C<br>湿度: 66.8 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.1 km<br>紫外线: 0.0<br>空气质量指数(AQI): 49 (优)<br>分段能耗: 19.97 Wh<br>累计能耗: 440.05 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_397d064316d43baf031cf07ac7773b54.setContent(html_ba576fc24c0bab73904f6290cb171e9b);
+            
+        
+
+        circle_marker_cddc8e0b1f60c68bfcc7b76bff9ffb70.bindPopup(popup_397d064316d43baf031cf07ac7773b54)
+        ;
+
+        
+    
+    
+            circle_marker_cddc8e0b1f60c68bfcc7b76bff9ffb70.bindTooltip(
+                `<div>
+                     2026-05-09T22:22:00 | T 17.4°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b422914f6cdd14da9062ab55f71227da = L.circleMarker(
+                [40.05794, 116.317665],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_12e15e79ab68799e2782dbf522897bf1 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_9b0633c79cb3277128f88ab65f3eef68 = $(`<div id="html_9b0633c79cb3277128f88ab65f3eef68" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:24:00<br>风速: 2.05 m/s @ 10.5°(北)<br>温度: 17.3 °C<br>湿度: 66.9 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.1 km<br>紫外线: 0.0<br>空气质量指数(AQI): 49 (优)<br>分段能耗: 19.93 Wh<br>累计能耗: 479.90 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_12e15e79ab68799e2782dbf522897bf1.setContent(html_9b0633c79cb3277128f88ab65f3eef68);
+            
+        
+
+        circle_marker_b422914f6cdd14da9062ab55f71227da.bindPopup(popup_12e15e79ab68799e2782dbf522897bf1)
+        ;
+
+        
+    
+    
+            circle_marker_b422914f6cdd14da9062ab55f71227da.bindTooltip(
+                `<div>
+                     2026-05-09T22:24:00 | T 17.3°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_090bd562d9cee54e4fd30e422ed2af02 = L.circleMarker(
+                [40.066118333333335, 116.31480375],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_a8bf00f2f9ef83a553e0faf95dc3781d = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_f3cdbe7058d56e7e5d744c0e0281aef7 = $(`<div id="html_f3cdbe7058d56e7e5d744c0e0281aef7" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:26:00<br>风速: 1.97 m/s @ 7.4°(北)<br>温度: 17.2 °C<br>湿度: 66.9 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.1 km<br>紫外线: 0.0<br>空气质量指数(AQI): 50 (良)<br>分段能耗: 19.94 Wh<br>累计能耗: 519.78 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_a8bf00f2f9ef83a553e0faf95dc3781d.setContent(html_f3cdbe7058d56e7e5d744c0e0281aef7);
+            
+        
+
+        circle_marker_090bd562d9cee54e4fd30e422ed2af02.bindPopup(popup_a8bf00f2f9ef83a553e0faf95dc3781d)
+        ;
+
+        
+    
+    
+            circle_marker_090bd562d9cee54e4fd30e422ed2af02.bindTooltip(
+                `<div>
+                     2026-05-09T22:26:00 | T 17.2°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ce87eb1189808b2b326038b7ec4d3cde = L.circleMarker(
+                [40.07429666666667, 116.3119425],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_49fdcaa11ce66ca3db718fc2492dbf89 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_0dc726dce0cacdb0d68350cf6e7b14da = $(`<div id="html_0dc726dce0cacdb0d68350cf6e7b14da" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:28:00<br>风速: 1.88 m/s @ 4.0°(北)<br>温度: 17.1 °C<br>湿度: 67.0 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.1 km<br>紫外线: 0.0<br>空气质量指数(AQI): 51 (良)<br>分段能耗: 19.96 Wh<br>累计能耗: 559.68 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_49fdcaa11ce66ca3db718fc2492dbf89.setContent(html_0dc726dce0cacdb0d68350cf6e7b14da);
+            
+        
+
+        circle_marker_ce87eb1189808b2b326038b7ec4d3cde.bindPopup(popup_49fdcaa11ce66ca3db718fc2492dbf89)
+        ;
+
+        
+    
+    
+            circle_marker_ce87eb1189808b2b326038b7ec4d3cde.bindTooltip(
+                `<div>
+                     2026-05-09T22:28:00 | T 17.1°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6c0b844d0a70110f119df1301f6903ec = L.circleMarker(
+                [40.082475, 116.30908125],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_1d6d6628159b055b988adebd69684ccb = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_d105c11bf5e4d5cd2f9119b9d3c08874 = $(`<div id="html_d105c11bf5e4d5cd2f9119b9d3c08874" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:30:00<br>风速: 1.80 m/s @ 0.4°(北)<br>温度: 17.0 °C<br>湿度: 67.1 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 51 (良)<br>分段能耗: 19.97 Wh<br>累计能耗: 599.61 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_1d6d6628159b055b988adebd69684ccb.setContent(html_d105c11bf5e4d5cd2f9119b9d3c08874);
+            
+        
+
+        circle_marker_6c0b844d0a70110f119df1301f6903ec.bindPopup(popup_1d6d6628159b055b988adebd69684ccb)
+        ;
+
+        
+    
+    
+            circle_marker_6c0b844d0a70110f119df1301f6903ec.bindTooltip(
+                `<div>
+                     2026-05-09T22:30:00 | T 17.0°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d979f3021d58d301af9b64fc039c8ed2 = L.circleMarker(
+                [40.090653333333336, 116.30622],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_4e49a6aa57f054849b90a97ab839fa68 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_67d400c56b46df6735a761104ae8c5a8 = $(`<div id="html_67d400c56b46df6735a761104ae8c5a8" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:32:00<br>风速: 1.71 m/s @ 356.6°(北)<br>温度: 16.9 °C<br>湿度: 67.2 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 52 (良)<br>分段能耗: 19.98 Wh<br>累计能耗: 639.57 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_4e49a6aa57f054849b90a97ab839fa68.setContent(html_67d400c56b46df6735a761104ae8c5a8);
+            
+        
+
+        circle_marker_d979f3021d58d301af9b64fc039c8ed2.bindPopup(popup_4e49a6aa57f054849b90a97ab839fa68)
+        ;
+
+        
+    
+    
+            circle_marker_d979f3021d58d301af9b64fc039c8ed2.bindTooltip(
+                `<div>
+                     2026-05-09T22:32:00 | T 16.9°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3b598eea654bc43071adf44ebbac613a = L.circleMarker(
+                [40.09883166666667, 116.30335875],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_4155afb8da5236dd60480b39dccba02d = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_5ef7b49ba440b9314e00b52ba2123689 = $(`<div id="html_5ef7b49ba440b9314e00b52ba2123689" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:34:00<br>风速: 1.63 m/s @ 352.5°(北)<br>温度: 16.8 °C<br>湿度: 67.2 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 53 (良)<br>分段能耗: 19.99 Wh<br>累计能耗: 679.55 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_4155afb8da5236dd60480b39dccba02d.setContent(html_5ef7b49ba440b9314e00b52ba2123689);
+            
+        
+
+        circle_marker_3b598eea654bc43071adf44ebbac613a.bindPopup(popup_4155afb8da5236dd60480b39dccba02d)
+        ;
+
+        
+    
+    
+            circle_marker_3b598eea654bc43071adf44ebbac613a.bindTooltip(
+                `<div>
+                     2026-05-09T22:34:00 | T 16.8°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_db6c0f5849ed486b78ebf74cf6711e07 = L.circleMarker(
+                [40.10701, 116.3004975],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_3faac64766578c80de109e13f473cc34 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_101f8e8e9c3f2a5715083d7060c7e1d7 = $(`<div id="html_101f8e8e9c3f2a5715083d7060c7e1d7" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:36:00<br>风速: 1.55 m/s @ 348.4°(北)<br>温度: 16.7 °C<br>湿度: 67.2 %<br>降水: 0.00 mm<br>气压: 1006.0 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 53 (良)<br>分段能耗: 20.01 Wh<br>累计能耗: 719.55 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_3faac64766578c80de109e13f473cc34.setContent(html_101f8e8e9c3f2a5715083d7060c7e1d7);
+            
+        
+
+        circle_marker_db6c0f5849ed486b78ebf74cf6711e07.bindPopup(popup_3faac64766578c80de109e13f473cc34)
+        ;
+
+        
+    
+    
+            circle_marker_db6c0f5849ed486b78ebf74cf6711e07.bindTooltip(
+                `<div>
+                     2026-05-09T22:36:00 | T 16.7°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_72c5327b317560739f6943459a9623ff = L.circleMarker(
+                [40.115188333333336, 116.29763625],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_2172dc6880169dd395721185f2ae8d3c = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_ea32c6f24bdf95b95f88d8b2b0d67d23 = $(`<div id="html_ea32c6f24bdf95b95f88d8b2b0d67d23" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:38:00<br>风速: 1.47 m/s @ 344.1°(北)<br>温度: 16.6 °C<br>湿度: 67.3 %<br>降水: 0.00 mm<br>气压: 1005.9 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 54 (良)<br>分段能耗: 20.02 Wh<br>累计能耗: 759.59 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_2172dc6880169dd395721185f2ae8d3c.setContent(html_ea32c6f24bdf95b95f88d8b2b0d67d23);
+            
+        
+
+        circle_marker_72c5327b317560739f6943459a9623ff.bindPopup(popup_2172dc6880169dd395721185f2ae8d3c)
+        ;
+
+        
+    
+    
+            circle_marker_72c5327b317560739f6943459a9623ff.bindTooltip(
+                `<div>
+                     2026-05-09T22:38:00 | T 16.6°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_077f077fdcf3a0fb53262aa842b0159d = L.circleMarker(
+                [40.12336666666667, 116.294775],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_54f3ad96b834358c5977b308fa710105 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_b1a9374353bcd7c6384f4245c0b028cc = $(`<div id="html_b1a9374353bcd7c6384f4245c0b028cc" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:40:00<br>风速: 1.39 m/s @ 339.8°(北)<br>温度: 16.5 °C<br>湿度: 67.3 %<br>降水: 0.00 mm<br>气压: 1005.9 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 55 (良)<br>分段能耗: 20.03 Wh<br>累计能耗: 799.64 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_54f3ad96b834358c5977b308fa710105.setContent(html_b1a9374353bcd7c6384f4245c0b028cc);
+            
+        
+
+        circle_marker_077f077fdcf3a0fb53262aa842b0159d.bindPopup(popup_54f3ad96b834358c5977b308fa710105)
+        ;
+
+        
+    
+    
+            circle_marker_077f077fdcf3a0fb53262aa842b0159d.bindTooltip(
+                `<div>
+                     2026-05-09T22:40:00 | T 16.5°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f557184964568c00028d9b4003acd5ae = L.circleMarker(
+                [40.131545, 116.29191375],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_390a435d1a0022206520f0688bc94ea1 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_3182896d736adf41fee883b912f222f0 = $(`<div id="html_3182896d736adf41fee883b912f222f0" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:42:00<br>风速: 1.31 m/s @ 335.6°(西北)<br>温度: 16.4 °C<br>湿度: 67.3 %<br>降水: 0.00 mm<br>气压: 1005.9 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 55 (良)<br>分段能耗: 20.05 Wh<br>累计能耗: 839.73 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_390a435d1a0022206520f0688bc94ea1.setContent(html_3182896d736adf41fee883b912f222f0);
+            
+        
+
+        circle_marker_f557184964568c00028d9b4003acd5ae.bindPopup(popup_390a435d1a0022206520f0688bc94ea1)
+        ;
+
+        
+    
+    
+            circle_marker_f557184964568c00028d9b4003acd5ae.bindTooltip(
+                `<div>
+                     2026-05-09T22:42:00 | T 16.4°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e1039fb9dfd3b32adfe82b52b83db47 = L.circleMarker(
+                [40.139723333333336, 116.2890525],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_e59422de6f829c8a748d2c807ed6c1c4 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_aa73e1354d1c5426b622845eaed3e2fc = $(`<div id="html_aa73e1354d1c5426b622845eaed3e2fc" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:44:00<br>风速: 1.23 m/s @ 331.5°(西北)<br>温度: 16.3 °C<br>湿度: 67.3 %<br>降水: 0.00 mm<br>气压: 1005.9 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 56 (良)<br>分段能耗: 20.06 Wh<br>累计能耗: 879.84 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_e59422de6f829c8a748d2c807ed6c1c4.setContent(html_aa73e1354d1c5426b622845eaed3e2fc);
+            
+        
+
+        circle_marker_1e1039fb9dfd3b32adfe82b52b83db47.bindPopup(popup_e59422de6f829c8a748d2c807ed6c1c4)
+        ;
+
+        
+    
+    
+            circle_marker_1e1039fb9dfd3b32adfe82b52b83db47.bindTooltip(
+                `<div>
+                     2026-05-09T22:44:00 | T 16.3°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e01d753db9a4065d2f6891301ba164bd = L.circleMarker(
+                [40.14790166666667, 116.28619125],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_fadddc90bef095b97da259a5e69edc5f = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_420266cda96d1dd5b58f687cac2f25fb = $(`<div id="html_420266cda96d1dd5b58f687cac2f25fb" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:46:00<br>风速: 1.15 m/s @ 327.6°(西北)<br>温度: 16.2 °C<br>湿度: 67.2 %<br>降水: 0.00 mm<br>气压: 1005.9 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 56 (良)<br>分段能耗: 20.07 Wh<br>累计能耗: 919.97 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_fadddc90bef095b97da259a5e69edc5f.setContent(html_420266cda96d1dd5b58f687cac2f25fb);
+            
+        
+
+        circle_marker_e01d753db9a4065d2f6891301ba164bd.bindPopup(popup_fadddc90bef095b97da259a5e69edc5f)
+        ;
+
+        
+    
+    
+            circle_marker_e01d753db9a4065d2f6891301ba164bd.bindTooltip(
+                `<div>
+                     2026-05-09T22:46:00 | T 16.2°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2cf86f00ef8856383c44433cc648b997 = L.circleMarker(
+                [40.15608, 116.28333],
+                {"bubblingMouseEvents": true, "color": "#f97316", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f97316", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6e9640c6427f62820832ea9f80bcbb56);
+        
+    
+        var popup_a0e09c51f0505f2664e2e03122c4fa70 = L.popup({"maxWidth": 320});
+
+        
+            
+                var html_4c9db49d56179cf74f9559f6ac6c59ba = $(`<div id="html_4c9db49d56179cf74f9559f6ac6c59ba" style="width: 100.0%; height: 100.0%;">时间: 2026-05-09T22:48:00<br>风速: 1.08 m/s @ 323.8°(西北)<br>温度: 16.1 °C<br>湿度: 67.2 %<br>降水: 0.00 mm<br>气压: 1005.9 hPa<br>能见度: 14.2 km<br>紫外线: 0.0<br>空气质量指数(AQI): 57 (良)<br>分段能耗: 20.08 Wh<br>累计能耗: 960.14 Wh<br>剩余电池: 0.00 Wh</div>`)[0];
+                popup_a0e09c51f0505f2664e2e03122c4fa70.setContent(html_4c9db49d56179cf74f9559f6ac6c59ba);
+            
+        
+
+        circle_marker_2cf86f00ef8856383c44433cc648b997.bindPopup(popup_a0e09c51f0505f2664e2e03122c4fa70)
+        ;
+
+        
+    
+    
+            circle_marker_2cf86f00ef8856383c44433cc648b997.bindTooltip(
+                `<div>
+                     2026-05-09T22:48:00 | T 16.1°C | H 67% | R 0.00 mm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            feature_group_6e9640c6427f62820832ea9f80bcbb56.addTo(map_fb59efc4f1f90012f5f234eb08ee7f99);
+        
+    
+            var layer_control_7a695466df0a24e26681febc641d0b6d_layers = {
+                base_layers : {
+                    "CartoDB Positron" : tile_layer_81dd53bf1927f72087dd4829ce23a2f6,
+                    "Esri StreetMap" : tile_layer_7370a58edc78bb3823e88a105c5a43f1,
+                },
+                overlays :  {
+                    "\u5b9e\u65f6\u89c2\u6d4b\u91c7\u6837\u70b9" : feature_group_6e9640c6427f62820832ea9f80bcbb56,
+                },
+            };
+            let layer_control_7a695466df0a24e26681febc641d0b6d = L.control.layers(
+                layer_control_7a695466df0a24e26681febc641d0b6d_layers.base_layers,
+                layer_control_7a695466df0a24e26681febc641d0b6d_layers.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_fb59efc4f1f90012f5f234eb08ee7f99);
+
+        
+</script>
+</html>

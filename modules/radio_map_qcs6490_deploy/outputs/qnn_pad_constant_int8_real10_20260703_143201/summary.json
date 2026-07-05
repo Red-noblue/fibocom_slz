@@ -1,0 +1,14 @@
+{
+  "mean_execute_ms_avg": 82.38457879924681,
+  "mean_mae_db": 2.931164813041687,
+  "mean_rmse_db": 4.570972961621269,
+  "model": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so",
+  "num_failed": 0,
+  "num_ok": 10,
+  "num_samples": 10,
+  "qnn_json": "modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json",
+  "raw_results_json": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/raw_results.json",
+  "run_dir": "modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201",
+  "runtime": "DSP",
+  "summary_csv": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/qnn_pad_constant_int8_real10_20260703_143201/summary.csv"
+}

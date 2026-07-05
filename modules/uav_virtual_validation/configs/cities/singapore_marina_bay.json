@@ -1,0 +1,41 @@
+{
+  "name": "singapore_marina_bay",
+  "display_name": "新加坡 Marina Bay",
+  "description": "高楼、水域和复杂城市形态明显，适合后续演示国际化城市低空场景。",
+  "center": {
+    "lat": 1.2834,
+    "lon": 103.8607
+  },
+  "bbox": {
+    "south": 1.2760,
+    "west": 103.8480,
+    "north": 1.2920,
+    "east": 103.8720
+  },
+  "default_route": [
+    {"lat": 1.2790, "lon": 103.8500, "altitude_m": 110.0, "label": "起点"},
+    {"lat": 1.2820, "lon": 103.8545, "altitude_m": 130.0, "label": "滨海转向点"},
+    {"lat": 1.2850, "lon": 103.8590, "altitude_m": 150.0, "label": "高楼避让点"},
+    {"lat": 1.2880, "lon": 103.8655, "altitude_m": 135.0, "label": "巡航点"},
+    {"lat": 1.2910, "lon": 103.8700, "altitude_m": 105.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Singapore",
+    "history_date": "2025-10-15",
+    "hourly": [
+      "temperature_2m",
+      "relative_humidity_2m",
+      "pressure_msl",
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "wind_gusts_10m",
+      "precipitation",
+      "cloud_cover"
+    ]
+  },
+  "osm": {
+    "default_building_height_m": 24.0,
+    "level_height_m": 3.2,
+    "max_buildings": 2500
+  }
+}

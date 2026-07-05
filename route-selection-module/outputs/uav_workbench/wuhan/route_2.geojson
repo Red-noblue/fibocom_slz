@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "低空绕障",
+        "strategy": "low_altitude",
+        "score": 62.24,
+        "topsis_score": 46.53,
+        "robustness_score": 98.91,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_guanggu",
+        "dataset_key": "wuhan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3841482,
+            30.4959678,
+            45.0
+          ],
+          [
+            114.3841482,
+            30.4959678,
+            50.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            50.0
+          ],
+          [
+            114.4208909,
+            30.5216884,
+            45.0
+          ]
+        ]
+      }
+    }
+  ]
+}

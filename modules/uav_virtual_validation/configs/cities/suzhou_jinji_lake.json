@@ -1,0 +1,20 @@
+{
+  "name": "suzhou_jinji_lake",
+  "display_name": "苏州 Jinji Lake",
+  "description": "苏州金鸡湖片区，湖区、高楼和商务区混合，适合水域边界与城市风场演示。",
+  "center": {"lat": 31.3190, "lon": 120.7040},
+  "bbox": {"south": 31.3000, "west": 120.6800, "north": 31.3380, "east": 120.7280},
+  "default_route": [
+    {"lat": 31.3020, "lon": 120.6820, "altitude_m": 115.0, "label": "起点"},
+    {"lat": 31.3100, "lon": 120.6920, "altitude_m": 135.0, "label": "湖区转向点"},
+    {"lat": 31.3190, "lon": 120.7040, "altitude_m": 155.0, "label": "核心避让点"},
+    {"lat": 31.3290, "lon": 120.7160, "altitude_m": 140.0, "label": "巡航点"},
+    {"lat": 31.3360, "lon": 120.7260, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 26.0, "level_height_m": 3.2, "max_buildings": 3200}
+}

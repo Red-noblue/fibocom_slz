@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_4",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "能耗最少",
+        "strategy": "energy_saving",
+        "score": 51.86,
+        "topsis_score": 31.86,
+        "robustness_score": 98.52,
+        "reliability_ratio": 1.0,
+        "max_precipitation_mm": 1.632,
+        "max_weather_risk_score": 0.597,
+        "high_risk_exposure_ratio": 0.0,
+        "city": "wuhan_guanggu",
+        "dataset_key": "wuhan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.38414821,
+            30.495967761,
+            115.0
+          ],
+          [
+            114.395630308,
+            30.515752837,
+            150.0
+          ],
+          [
+            114.420890925,
+            30.521688359,
+            110.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "wuhan_central_urban",
+  "display_name": "武汉 中心城区大图",
+  "description": "覆盖武汉中心城区主要行政区的综合大图，包含江岸、江汉、硚口、汉阳、武昌、青山、洪山核心片区，适合跨江、跨区、长距离低空任务 demo。",
+  "center": {"lat": 30.5700, "lon": 114.3150},
+  "bbox": {"south": 30.4550, "west": 114.1700, "north": 30.6850, "east": 114.4700},
+  "default_route": [
+    {"lat": 30.5000, "lon": 114.2000, "altitude_m": 140.0, "label": "汉阳西南起点"},
+    {"lat": 30.5550, "lon": 114.2550, "altitude_m": 165.0, "label": "汉口转向点"},
+    {"lat": 30.5900, "lon": 114.3150, "altitude_m": 185.0, "label": "中心城区避让点"},
+    {"lat": 30.5550, "lon": 114.3750, "altitude_m": 170.0, "label": "武昌巡航点"},
+    {"lat": 30.5050, "lon": 114.4300, "altitude_m": 145.0, "label": "东南终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Shanghai",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 26.0, "level_height_m": 3.2, "max_buildings": 6000}
+}

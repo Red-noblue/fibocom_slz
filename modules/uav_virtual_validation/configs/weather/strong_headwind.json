@@ -1,0 +1,10 @@
+{
+  "name": "strong_headwind",
+  "temperature_c": 8.0,
+  "pressure_hpa": 1018.0,
+  "relative_humidity_pct": 58.0,
+  "wind_speed_mps": 8.0,
+  "wind_dir_deg": 330.0,
+  "gust_mps": 3.0,
+  "precipitation_mm_h": 0.0
+}

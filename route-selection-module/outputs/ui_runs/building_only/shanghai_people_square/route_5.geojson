@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_5",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_5",
+        "label": "最快到达",
+        "strategy": "fastest",
+        "score": 90.16,
+        "topsis_score": 85.95,
+        "robustness_score": 100.0,
+        "reliability_ratio": 1.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4561569,
+            31.2209893,
+            120.0
+          ],
+          [
+            121.4816087,
+            31.2447313,
+            100.0
+          ],
+          [
+            121.4908639,
+            31.2407743,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

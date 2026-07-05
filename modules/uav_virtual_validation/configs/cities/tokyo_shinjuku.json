@@ -1,0 +1,20 @@
+{
+  "name": "tokyo_shinjuku",
+  "display_name": "东京 Shinjuku",
+  "description": "东京高密度城区，适合复杂街区和高层建筑任务验证。",
+  "center": {"lat": 35.6896, "lon": 139.7006},
+  "bbox": {"south": 35.6815, "west": 139.6900, "north": 35.6980, "east": 139.7130},
+  "default_route": [
+    {"lat": 35.6825, "lon": 139.6910, "altitude_m": 110.0, "label": "起点"},
+    {"lat": 35.6860, "lon": 139.6960, "altitude_m": 135.0, "label": "城区转向点"},
+    {"lat": 35.6898, "lon": 139.7010, "altitude_m": 150.0, "label": "核心高楼点"},
+    {"lat": 35.6935, "lon": 139.7065, "altitude_m": 130.0, "label": "巡航点"},
+    {"lat": 35.6970, "lon": 139.7120, "altitude_m": 105.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Asia/Tokyo",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 24.0, "level_height_m": 3.1, "max_buildings": 3200}
+}

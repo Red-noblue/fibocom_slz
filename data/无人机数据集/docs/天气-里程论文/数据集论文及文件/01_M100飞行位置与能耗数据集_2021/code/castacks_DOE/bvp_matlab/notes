@@ -1,0 +1,15 @@
+ make sure a = 0 (remove as optim parameter)
+ scale the problem somehow?
+initialize close to ednpoint (reuse curv lib)
+use Sf^2 in the cost function so that there is no incentive to make sf -ve?
+dy/dq in the paper is incorrect, right?
+
+check all gradients
+change angle error by modifying xf to lie in the same period as psi_f(s)
+constraints on psi_f magnitude?
+
+initialize sf2 smartly?
+add constraints on boundary values
+sin/cos for heading error
+IMP!! check if you're multiplying by L too many times for gradient in multi-poly!!
+when getting linear constraint terms, what about a != 0 for c3?

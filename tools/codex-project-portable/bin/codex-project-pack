@@ -1,0 +1,735 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+TOOLKIT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd -P)"
+DIST_ROOT="${TOOLKIT_ROOT}/dist"
+RUNTIME_ROOT="${TOOLKIT_ROOT}/runtime"
+CONFIGS_ROOT="${TOOLKIT_ROOT}/mycodex/configs"
+SESSIONS_ROOT="${TOOLKIT_ROOT}/mycodex/sessions"
+DATE_TAG="$(date +%Y%m%d)"
+
+MODE=""
+TARGET=""
+NODE_VERSION=""
+CODEX_VERSION=""
+OUTPUT_PATH=""
+CODEX_VERSION_EXPLICIT="0"
+
+PACK_NPM_BIN=""
+PACK_NPM_PATH_DIR=""
+TMP_ROOT=""
+
+die() {
+  printf '错误: %s\n' "$*" >&2
+  exit 1
+}
+
+have_cmd() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+normalize_host_arch() {
+  case "$1" in
+    x86_64|amd64|x64) printf 'x86_64\n' ;;
+    aarch64|arm64) printf 'arm64\n' ;;
+    *) printf '%s\n' "$1" ;;
+  esac
+}
+
+host_platform_arch() {
+  local platform arch
+
+  platform="$(uname -s)"
+  arch="$(normalize_host_arch "$(uname -m)")"
+  printf '%s/%s\n' "${platform}" "${arch}"
+}
+
+extract_archive() {
+  local archive_path="$1"
+  local destination_dir="$2"
+
+  mkdir -p "${destination_dir}"
+
+  case "${archive_path}" in
+    *.tar.xz)
+      if tar -xJf "${archive_path}" -C "${destination_dir}" >/dev/null 2>&1; then
+        return 0
+      fi
+      ;;
+    *.tar.gz|*.tgz)
+      if tar -xzf "${archive_path}" -C "${destination_dir}" >/dev/null 2>&1; then
+        return 0
+      fi
+      ;;
+    *)
+      if tar -xf "${archive_path}" -C "${destination_dir}" >/dev/null 2>&1; then
+        return 0
+      fi
+      ;;
+  esac
+
+  have_cmd python3 || die "需要 python3 作为压缩包解压兜底"
+  python3 - "${archive_path}" "${destination_dir}" <<'PY'
+import sys
+import tarfile
+
+archive_path = sys.argv[1]
+destination_dir = sys.argv[2]
+
+with tarfile.open(archive_path, "r:*") as archive:
+    archive.extractall(destination_dir)
+PY
+}
+
+make_temp_dir() {
+  local dir=""
+
+  dir="$(mktemp -d 2>/dev/null || true)"
+  if [[ -z "${dir}" ]]; then
+    dir="$(mktemp -d -t codex-project-portable 2>/dev/null || true)"
+  fi
+
+  [[ -n "${dir}" && -d "${dir}" ]] || die "无法创建临时目录"
+  printf '%s\n' "${dir}"
+}
+
+usage() {
+  cat <<'EOF'
+Codex Project Portable 打包工具
+
+用途：
+  一键生成适合复制到其他项目中的便携压缩包。
+
+打包模式：
+  clean-offline
+    新项目、确定目标平台、开箱即用。
+    会自动准备目标平台对应的 runtime，不带旧对话和记忆，但保留 configs。
+
+  clean-online
+    新项目、目标平台不确定、包体尽量小。
+    不带 runtime，不带旧对话和记忆；目标机器上再执行 runtime install。
+
+  migrate-full
+    迁移旧项目。
+    保留 configs、历史对话、state_5.sqlite、memories、skills、history.jsonl，
+    同时保留当前 runtime，但会排除日志、临时文件、shell 快照。
+
+常用示例：
+  ./bin/codex-project-pack
+  ./bin/codex-project-pack clean-online
+  ./bin/codex-project-pack clean-offline --target linux-x64
+  ./bin/codex-project-pack clean-offline --target darwin-arm64 --node-version v18.20.8
+  ./bin/codex-project-pack migrate-full
+
+可选参数：
+  --target <linux-x64|linux-arm64|darwin-x64|darwin-arm64>
+    仅 clean-offline 使用；指定目标平台。
+
+  --node-version <vX.Y.Z>
+    仅 clean-offline 使用；指定要打包的 Node 版本。
+
+  --codex-version <latest|版本号>
+    仅 clean-offline 使用；指定 Codex 主包版本，默认 latest。
+
+  --output <文件名或绝对路径>
+    输出压缩包路径。
+    如果只给文件名，会默认输出到 <toolkit-root>/dist/ 下。
+
+  -h, --help
+    打印帮助。
+EOF
+}
+
+cleanup_tmp() {
+  if [[ -n "${TMP_ROOT}" && -d "${TMP_ROOT}" ]]; then
+    rm -rf "${TMP_ROOT}"
+  fi
+}
+
+trap cleanup_tmp EXIT
+
+resolve_pack_npm() {
+  if [[ -n "${PACK_NPM_BIN}" ]]; then
+    return 0
+  fi
+
+  if [[ -x "${RUNTIME_ROOT}/bin/npm" ]]; then
+    PACK_NPM_BIN="${RUNTIME_ROOT}/bin/npm"
+    PACK_NPM_PATH_DIR="${RUNTIME_ROOT}/bin"
+    return 0
+  fi
+
+  if have_cmd npm; then
+    PACK_NPM_BIN="$(command -v npm)"
+    PACK_NPM_PATH_DIR="$(cd "$(dirname "${PACK_NPM_BIN}")" && pwd -P)"
+    return 0
+  fi
+
+  die "找不到可用的 npm；请先确保工具内 runtime 已安装，或当前机器有可用 npm"
+}
+
+current_target() {
+  case "$(host_platform_arch)" in
+    Linux/x86_64) printf 'linux-x64\n' ;;
+    Linux/arm64) printf 'linux-arm64\n' ;;
+    Darwin/x86_64) printf 'darwin-x64\n' ;;
+    Darwin/arm64) printf 'darwin-arm64\n' ;;
+    *)
+      return 1
+      ;;
+  esac
+}
+
+validate_target() {
+  case "$1" in
+    linux-x64|linux-arm64|darwin-x64|darwin-arm64) ;;
+    *)
+      die "不支持的目标平台: $1"
+      ;;
+  esac
+}
+
+default_node_version_for_target() {
+  case "$1" in
+    linux-*) printf 'v16.20.2\n' ;;
+    darwin-*) printf 'v18.20.8\n' ;;
+    *) die "无法为目标平台推断默认 Node 版本: $1" ;;
+  esac
+}
+
+node_filename_for_target() {
+  local node_version="$1"
+  local target="$2"
+
+  case "${target}" in
+    linux-x64) printf 'node-%s-linux-x64.tar.xz\n' "${node_version}" ;;
+    linux-arm64) printf 'node-%s-linux-arm64.tar.xz\n' "${node_version}" ;;
+    darwin-x64) printf 'node-%s-darwin-x64.tar.gz\n' "${node_version}" ;;
+    darwin-arm64) printf 'node-%s-darwin-arm64.tar.gz\n' "${node_version}" ;;
+    *) die "不支持的目标平台: ${target}" ;;
+  esac
+}
+
+target_platform_package() {
+  case "$1" in
+    linux-x64) printf '@openai/codex-linux-x64\n' ;;
+    linux-arm64) printf '@openai/codex-linux-arm64\n' ;;
+    darwin-x64) printf '@openai/codex-darwin-x64\n' ;;
+    darwin-arm64) printf '@openai/codex-darwin-arm64\n' ;;
+    *) die "不支持的目标平台: $1" ;;
+  esac
+}
+
+target_triple() {
+  case "$1" in
+    linux-x64) printf 'x86_64-unknown-linux-musl\n' ;;
+    linux-arm64) printf 'aarch64-unknown-linux-musl\n' ;;
+    darwin-x64) printf 'x86_64-apple-darwin\n' ;;
+    darwin-arm64) printf 'aarch64-apple-darwin\n' ;;
+    *) die "不支持的目标平台: $1" ;;
+  esac
+}
+
+resolve_output_path() {
+  local raw_output="$1"
+
+  if [[ -z "${raw_output}" ]]; then
+    die "输出文件名不能为空"
+  fi
+
+  if [[ "${raw_output}" = /* ]]; then
+    printf '%s\n' "${raw_output}"
+    return 0
+  fi
+
+  printf '%s/%s\n' "${DIST_ROOT}" "${raw_output}"
+}
+
+default_archive_name() {
+  case "${MODE}" in
+    clean-offline)
+      printf 'codex-project-portable-clean-offline-%s-%s.tar.gz\n' "${TARGET}" "${DATE_TAG}"
+      ;;
+    clean-online)
+      printf 'codex-project-portable-clean-online-%s.tar.gz\n' "${DATE_TAG}"
+      ;;
+    migrate-full)
+      printf 'codex-project-portable-migrate-full-%s.tar.gz\n' "${DATE_TAG}"
+      ;;
+    *)
+      die "未知打包模式: ${MODE}"
+      ;;
+  esac
+}
+
+prompt_mode_if_needed() {
+  if [[ -n "${MODE}" ]]; then
+    return 0
+  fi
+
+  if [[ ! -t 0 || ! -t 1 ]]; then
+    die "未指定打包模式，且当前不是交互终端；请显式传入 clean-offline / clean-online / migrate-full"
+  fi
+
+  while true; do
+    printf '\n请选择打包模式：\n'
+    printf '1. clean-offline  新项目、确定平台、开箱即用\n'
+    printf '2. clean-online   新项目、目标平台不确定、包体尽量小\n'
+    printf '3. migrate-full   迁移旧项目，保留历史对话和记忆\n'
+    printf '4. 退出\n'
+    printf '输入 [1-4]: '
+
+    local answer
+    read -r answer || exit 1
+    case "${answer}" in
+      1) MODE="clean-offline"; return 0 ;;
+      2) MODE="clean-online"; return 0 ;;
+      3) MODE="migrate-full"; return 0 ;;
+      4) exit 0 ;;
+      *) printf '输入无效，请重新选择。\n' ;;
+    esac
+  done
+}
+
+prompt_clean_offline_options_if_needed() {
+  local detected_target default_target default_node
+
+  if [[ -z "${TARGET}" ]]; then
+    if [[ -t 0 && -t 1 ]]; then
+      detected_target="$(current_target || true)"
+      while true; do
+        printf '\n请选择目标平台：\n'
+        printf '1. linux-x64'
+        if [[ "${detected_target}" == "linux-x64" ]]; then printf '（当前机器）'; fi
+        printf '\n'
+        printf '2. linux-arm64'
+        if [[ "${detected_target}" == "linux-arm64" ]]; then printf '（当前机器）'; fi
+        printf '\n'
+        printf '3. darwin-x64'
+        if [[ "${detected_target}" == "darwin-x64" ]]; then printf '（当前机器）'; fi
+        printf '\n'
+        printf '4. darwin-arm64'
+        if [[ "${detected_target}" == "darwin-arm64" ]]; then printf '（当前机器）'; fi
+        printf '\n'
+        printf '输入 [1-4]：'
+
+        local answer
+        read -r answer || exit 1
+        case "${answer}" in
+          1) TARGET="linux-x64"; break ;;
+          2) TARGET="linux-arm64"; break ;;
+          3) TARGET="darwin-x64"; break ;;
+          4) TARGET="darwin-arm64"; break ;;
+          *) printf '输入无效，请重新选择。\n' ;;
+        esac
+      done
+    else
+      TARGET="$(current_target || true)"
+      [[ -n "${TARGET}" ]] || die "当前机器平台无法自动识别；请用 --target 显式指定"
+    fi
+  fi
+
+  validate_target "${TARGET}"
+
+  if [[ -z "${NODE_VERSION}" ]]; then
+    default_node="$(default_node_version_for_target "${TARGET}")"
+    if [[ -t 0 && -t 1 ]]; then
+      printf '目标平台默认 Node 版本 [%s]：' "${default_node}"
+      read -r NODE_VERSION || true
+      NODE_VERSION="${NODE_VERSION:-${default_node}}"
+    else
+      NODE_VERSION="${default_node}"
+    fi
+  fi
+
+  if [[ -z "${CODEX_VERSION}" ]]; then
+    CODEX_VERSION="latest"
+  fi
+
+  if [[ "${CODEX_VERSION_EXPLICIT}" != "1" && -t 0 && -t 1 ]]; then
+    printf 'Codex 主包版本 [latest]：'
+    local raw_codex_version
+    read -r raw_codex_version || true
+    if [[ -n "${raw_codex_version}" ]]; then
+      CODEX_VERSION="${raw_codex_version}"
+    fi
+  fi
+}
+
+prompt_output_if_needed() {
+  local default_name
+
+  if [[ -n "${OUTPUT_PATH}" ]]; then
+    OUTPUT_PATH="$(resolve_output_path "${OUTPUT_PATH}")"
+    return 0
+  fi
+
+  default_name="$(default_archive_name)"
+  if [[ -t 0 && -t 1 ]]; then
+    printf '输出压缩包文件名 [%s]：' "${default_name}"
+    local answer
+    read -r answer || true
+    answer="${answer:-${default_name}}"
+    OUTPUT_PATH="$(resolve_output_path "${answer}")"
+    return 0
+  fi
+
+  OUTPUT_PATH="$(resolve_output_path "${default_name}")"
+}
+
+copy_path_to_stage() {
+  local stage_root="$1"
+  local relative_path="$2"
+  local src="${TOOLKIT_ROOT}/${relative_path}"
+  local dest="${stage_root}/${relative_path}"
+
+  [[ -e "${src}" ]] || return 0
+  mkdir -p "$(dirname "${dest}")"
+  cp -R "${src}" "${dest}"
+}
+
+prepare_common_stage_layout() {
+  local stage_root="$1"
+
+  mkdir -p "${stage_root}"
+  copy_path_to_stage "${stage_root}" ".gitignore"
+  copy_path_to_stage "${stage_root}" "AGENTS.md"
+  copy_path_to_stage "${stage_root}" "README.md"
+  copy_path_to_stage "${stage_root}" "INIT_NEW_PROJECT.md"
+  copy_path_to_stage "${stage_root}" "SKILLS.md"
+  copy_path_to_stage "${stage_root}" "STATUS.md"
+  copy_path_to_stage "${stage_root}" "USER_GUIDE_ZYS.md"
+  copy_path_to_stage "${stage_root}" "bin"
+  copy_path_to_stage "${stage_root}" "shell"
+  copy_path_to_stage "${stage_root}" "skill"
+  copy_path_to_stage "${stage_root}" "mycodex/configs"
+  copy_path_to_stage "${stage_root}" "mycodex/sessions/.gitignore"
+  copy_path_to_stage "${stage_root}" "runtime/.gitignore"
+  mkdir -p "${stage_root}/mycodex/sessions"
+  mkdir -p "${stage_root}/runtime"
+  mkdir -p "${stage_root}/state"
+  copy_path_to_stage "${stage_root}" "state/.gitignore"
+}
+
+copy_current_runtime_without_tmp() {
+  local stage_root="$1"
+
+  if [[ -d "${RUNTIME_ROOT}" ]]; then
+    rm -rf "${stage_root}/runtime"
+    cp -R "${RUNTIME_ROOT}" "${stage_root}/runtime"
+    rm -rf "${stage_root}/runtime/tmp"
+  fi
+}
+
+copy_migrate_state() {
+  local stage_root="$1"
+  local relative_path
+
+  for relative_path in \
+    "mycodex/sessions/sessions" \
+    "mycodex/sessions/state_5.sqlite" \
+    "mycodex/sessions/memories" \
+    "mycodex/sessions/skills" \
+    "mycodex/sessions/history.jsonl"
+  do
+    copy_path_to_stage "${stage_root}" "${relative_path}"
+  done
+}
+
+download_node_distribution_for_target() {
+  local runtime_dir="$1"
+  local target="$2"
+  local node_version="$3"
+  local work_dir="$4"
+  local node_filename node_url node_dir_name extracted_root
+
+  have_cmd curl || die "需要 curl 下载官方 Node 包"
+  have_cmd tar || die "需要 tar 解压官方 Node 包"
+
+  node_filename="$(node_filename_for_target "${node_version}" "${target}")"
+  node_url="https://nodejs.org/dist/${node_version}/${node_filename}"
+  node_dir_name="${node_filename%.tar.xz}"
+  node_dir_name="${node_dir_name%.tar.gz}"
+
+  mkdir -p "${work_dir}"
+  printf '下载目标平台 Node: %s\n' "${node_url}"
+  curl -fL "${node_url}" -o "${work_dir}/${node_filename}"
+  extract_archive "${work_dir}/${node_filename}" "${work_dir}"
+
+  extracted_root="${work_dir}/${node_dir_name}"
+  [[ -d "${extracted_root}" ]] || die "未找到解压后的 Node 目录: ${extracted_root}"
+
+  rm -rf "${runtime_dir}"
+  mkdir -p "${runtime_dir}"
+  cp -R "${extracted_root}/." "${runtime_dir}/"
+}
+
+installed_codex_version() {
+  local runtime_dir="$1"
+  python3 - "${runtime_dir}/lib/node_modules/@openai/codex/package.json" <<'PY'
+import json
+import pathlib
+import sys
+
+pkg_path = pathlib.Path(sys.argv[1])
+obj = json.loads(pkg_path.read_text(encoding="utf-8"))
+print(obj.get("version", ""))
+PY
+}
+
+installed_platform_spec() {
+  local runtime_dir="$1"
+  local target_package="$2"
+  python3 - "${runtime_dir}/lib/node_modules/@openai/codex/package.json" "${target_package}" <<'PY'
+import json
+import pathlib
+import sys
+
+pkg_path = pathlib.Path(sys.argv[1])
+target_package = sys.argv[2]
+obj = json.loads(pkg_path.read_text(encoding="utf-8"))
+optional_deps = obj.get("optionalDependencies", {}) or {}
+print(optional_deps.get(target_package, ""))
+PY
+}
+
+download_target_platform_package() {
+  local runtime_dir="$1"
+  local target="$2"
+  local work_dir="$3"
+  local target_package target_dir_name alias_spec resolved_view_spec tarball_url install_root
+
+  resolve_pack_npm
+  target_package="$(target_platform_package "${target}")"
+  target_dir_name="${target_package#@openai/}"
+  alias_spec="$(installed_platform_spec "${runtime_dir}" "${target_package}")"
+  [[ -n "${alias_spec}" ]] || die "无法从主包中找到目标平台映射: ${target_package}"
+  resolved_view_spec="${alias_spec#npm:}"
+
+  printf '下载目标平台 Codex 二进制包: %s\n' "${resolved_view_spec}"
+  tarball_url="$(
+    PATH="${PACK_NPM_PATH_DIR}:${PATH}" "${PACK_NPM_BIN}" view "${resolved_view_spec}" dist.tarball --json \
+      | python3 -c 'import json,sys; print(json.load(sys.stdin))'
+  )"
+  [[ -n "${tarball_url}" ]] || die "无法获取目标平台包下载地址: ${resolved_view_spec}"
+
+  rm -rf "${work_dir}/platform-package"
+  mkdir -p "${work_dir}/platform-package"
+  curl -fL "${tarball_url}" -o "${work_dir}/platform-package/pkg.tgz"
+  extract_archive "${work_dir}/platform-package/pkg.tgz" "${work_dir}/platform-package"
+
+  install_root="${runtime_dir}/lib/node_modules/@openai/codex/node_modules/@openai"
+  rm -rf "${install_root}"
+  mkdir -p "${install_root}"
+  mv "${work_dir}/platform-package/package" "${install_root}/${target_dir_name}"
+}
+
+install_codex_into_runtime() {
+  local runtime_dir="$1"
+  local target="$2"
+  local codex_version="$3"
+  local work_dir="$4"
+  local codex_spec installed_version target_package
+
+  resolve_pack_npm
+  codex_spec='@openai/codex@latest'
+  if [[ "${codex_version}" != "latest" ]]; then
+    codex_spec="@openai/codex@${codex_version}"
+  fi
+
+  printf '安装 Codex 主包: %s\n' "${codex_spec}"
+  PATH="${PACK_NPM_PATH_DIR}:${PATH}" "${PACK_NPM_BIN}" install -g --prefix "${runtime_dir}" "${codex_spec}"
+
+  download_target_platform_package "${runtime_dir}" "${target}" "${work_dir}"
+  installed_version="$(installed_codex_version "${runtime_dir}")"
+  target_package="$(target_platform_package "${target}")"
+
+  rm -f "${runtime_dir}/bin/codex"
+  cat > "${runtime_dir}/bin/codex" <<'EOF'
+#!/usr/bin/env bash
+set -euo pipefail
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+RUNTIME_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd -P)"
+exec "${SCRIPT_DIR}/node" "${RUNTIME_ROOT}/lib/node_modules/@openai/codex/bin/codex.js" "$@"
+EOF
+  chmod +x "${runtime_dir}/bin/codex"
+
+  python3 - "${runtime_dir}/portable-runtime.json" "runtime/bin/node" "${NODE_VERSION}" "${installed_version}" "$(target_triple "${target}")" "${target_package}" <<'PY'
+import json
+import sys
+import time
+from pathlib import Path
+
+meta_path = Path(sys.argv[1])
+node_path = sys.argv[2]
+node_version = sys.argv[3]
+codex_version = sys.argv[4]
+target_triple = sys.argv[5]
+target_package = sys.argv[6]
+
+payload = {
+    "updated_at": int(time.time()),
+    "node_path_source": node_path,
+    "node_version": node_version,
+    "codex_version": codex_version,
+    "target_triple": target_triple,
+    "platform_package": target_package,
+    "install_source": "pack-clean-offline",
+}
+meta_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+PY
+}
+
+build_clean_offline_package() {
+  local stage_root="$1"
+  local work_dir="${TMP_ROOT}/offline-runtime"
+
+  printf '\n开始准备 clean-offline 离线运行时。\n'
+  printf '目标平台: %s\n' "${TARGET}"
+  printf 'Node 版本: %s\n' "${NODE_VERSION}"
+  printf 'Codex 版本: %s\n' "${CODEX_VERSION}"
+
+  download_node_distribution_for_target "${stage_root}/runtime" "${TARGET}" "${NODE_VERSION}" "${work_dir}/node"
+  install_codex_into_runtime "${stage_root}/runtime" "${TARGET}" "${CODEX_VERSION}" "${work_dir}"
+  rm -rf "${stage_root}/runtime/tmp"
+}
+
+archive_basename_from_output() {
+  local output_path="$1"
+  local name
+  name="$(basename "${output_path}")"
+  name="${name%.tar.gz}"
+  name="${name%.tgz}"
+  printf '%s\n' "${name}"
+}
+
+create_archive_from_stage() {
+  local stage_root="$1"
+  local output_path="$2"
+  local output_dir
+
+  output_dir="$(dirname "${output_path}")"
+  mkdir -p "${output_dir}"
+  tar -C "$(dirname "${stage_root}")" -czf "${output_path}" "$(basename "${stage_root}")"
+}
+
+print_summary() {
+  printf '\n打包摘要：\n'
+  printf '模式: %s\n' "${MODE}"
+  if [[ "${MODE}" == "clean-offline" ]]; then
+    printf '目标平台: %s\n' "${TARGET}"
+    printf 'Node 版本: %s\n' "${NODE_VERSION}"
+    printf 'Codex 版本: %s\n' "${CODEX_VERSION}"
+  fi
+  printf '输出文件: %s\n' "${OUTPUT_PATH}"
+}
+
+parse_args() {
+  if [[ $# -gt 0 && "${1}" != -* ]]; then
+    MODE="$1"
+    shift
+  fi
+
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --target)
+        [[ $# -ge 2 ]] || die "--target 需要参数"
+        TARGET="$2"
+        shift 2
+        ;;
+      --target=*)
+        TARGET="${1#*=}"
+        shift
+        ;;
+      --node-version)
+        [[ $# -ge 2 ]] || die "--node-version 需要参数"
+        NODE_VERSION="$2"
+        shift 2
+        ;;
+      --node-version=*)
+        NODE_VERSION="${1#*=}"
+        shift
+        ;;
+      --codex-version)
+        [[ $# -ge 2 ]] || die "--codex-version 需要参数"
+        CODEX_VERSION="$2"
+        CODEX_VERSION_EXPLICIT="1"
+        shift 2
+        ;;
+      --codex-version=*)
+        CODEX_VERSION="${1#*=}"
+        CODEX_VERSION_EXPLICIT="1"
+        shift
+        ;;
+      --output)
+        [[ $# -ge 2 ]] || die "--output 需要参数"
+        OUTPUT_PATH="$2"
+        shift 2
+        ;;
+      --output=*)
+        OUTPUT_PATH="${1#*=}"
+        shift
+        ;;
+      -h|--help)
+        usage
+        exit 0
+        ;;
+      *)
+        die "未知参数: $1"
+        ;;
+    esac
+  done
+}
+
+main() {
+  local archive_root_name stage_root
+
+  parse_args "$@"
+  prompt_mode_if_needed
+
+  case "${MODE}" in
+    clean-offline)
+      prompt_clean_offline_options_if_needed
+      ;;
+    clean-online|migrate-full)
+      ;;
+    *)
+      die "未知打包模式: ${MODE}"
+      ;;
+  esac
+
+  prompt_output_if_needed
+  archive_root_name="$(archive_basename_from_output "${OUTPUT_PATH}")"
+
+  TMP_ROOT="$(make_temp_dir)"
+  stage_root="${TMP_ROOT}/${archive_root_name}"
+
+  print_summary
+  printf '\n开始生成打包目录...\n'
+
+  prepare_common_stage_layout "${stage_root}"
+
+  case "${MODE}" in
+    clean-offline)
+      build_clean_offline_package "${stage_root}"
+      ;;
+    clean-online)
+      printf 'clean-online 模式不打包 runtime，也不带历史对话和记忆。\n'
+      ;;
+    migrate-full)
+      printf 'migrate-full 模式将保留 runtime、历史对话、记忆、skills 和 history.jsonl。\n'
+      copy_path_to_stage "${stage_root}" "portable-init.env"
+      copy_current_runtime_without_tmp "${stage_root}"
+      copy_migrate_state "${stage_root}"
+      ;;
+  esac
+
+  printf '正在生成压缩包...\n'
+  create_archive_from_stage "${stage_root}" "${OUTPUT_PATH}"
+
+  printf '\n打包完成。\n'
+  printf '输出文件：%s\n' "${OUTPUT_PATH}"
+}
+
+main "$@"

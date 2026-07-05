@@ -1,0 +1,39 @@
+function [err] = constr_violation(q, num_poly_params, X0, Xf, v, vw_x, vw_y, params)
+    % extract params
+    % scale poly coeffs
+    q(1:num_poly_params) = q(1:num_poly_params) ./ params.scales;
+    q(num_poly_params+1:2*num_poly_params) = q(num_poly_params+1:2*num_poly_params) ./ params.scales;
+    sf1 = q(end-2);
+    sf2 = q(end-1);
+    sf3 = q(end);
+    c1 = fliplr([X0(4); q(1:num_poly_params)]'); % follow matlab poly convention
+    c2 = [zeros(1, num_poly_params), polyval(c1, sf1)]; % follow matlab poly convention
+    c3 = fliplr([polyval(c2, sf2); q(num_poly_params+1:end-3)]'); % follow matlab poly convention
+    psi1 = polyint(c1, X0(3));
+    psi2 = polyint(c2, polyval(psi1, sf1));
+    psi3 = polyint(c3, polyval(psi2, sf2));
+    sf = sf1 + sf2 + sf3;
+    
+    % set up functions
+    fun_sinns1 = @(s, pow) (s .^ pow) .* sin(polyval(psi1, s));
+    fun_sinns2 = @(s, pow) (s .^ pow) .* sin(polyval(psi2, s));
+    fun_sinns3 = @(s, pow) (s .^ pow) .* sin(polyval(psi3, s));
+    fun_cosns1 = @(s, pow) (s .^ pow) .* cos(polyval(psi1, s));
+    fun_cosns2 = @(s, pow) (s .^ pow) .* cos(polyval(psi2, s));
+    fun_cosns3 = @(s, pow) (s .^ pow) .* cos(polyval(psi3, s));
+    
+    err = [...
+        X0(1) + simpson_integration(fun_cosns1, 0, 501, 0, sf1) + ...
+            simpson_integration(fun_cosns2, 0, 501, 0, sf2) + ...
+            simpson_integration(fun_cosns3, 0, 501, 0, sf3) + ...
+            vw_x * sf / v - Xf(1); ...
+        X0(2) + simpson_integration(fun_sinns1, 0, 501, 0, sf1) + ...
+            simpson_integration(fun_sinns2, 0, 501, 0, sf2) + ...
+            simpson_integration(fun_sinns3, 0, 501, 0, sf3) + ...
+            vw_y * sf / v - Xf(2); ...
+        min(abs(wrapTo2Pi(polyval(psi3, sf3)) - Xf(3)),abs(wrapTo2Pi(polyval(psi3, sf3)) - (Xf(3)+2*pi))); ...
+        ...%L * (polyval(psi3, sf3) - Xf(3)); ...
+        ...%L * (get_corr_heading_change(Xf(3), wrapTo2Pi(polyval(psi3, sf3))));
+        polyval(c3, sf3) - Xf(4); ...
+    ];
+end

@@ -1,0 +1,52 @@
+{
+  "source_program_template": "/home/fibo/fibocom_slz/modules/UAVs_sim/tools/codex-project-portable",
+  "source_state_master": "/home/fibo/fibocom_slz/tools/codex-project-portable",
+  "dest": "/home/fibo/fibocom_slz/tools/codex-project-portable-1",
+  "profile_actions": [
+    {
+      "source": "aix",
+      "target": "uavs_aix",
+      "action": "renamed_name_conflict"
+    },
+    {
+      "source": "ht",
+      "target": "ht",
+      "action": "copied_module_unique"
+    },
+    {
+      "source": "htc",
+      "target": "htc",
+      "action": "copied_module_unique"
+    },
+    {
+      "source": "nzr",
+      "target": "nzr",
+      "action": "copied_module_unique"
+    },
+    {
+      "source": "uc",
+      "target": "uc",
+      "action": "skipped_identical_name"
+    },
+    {
+      "source": "zys",
+      "target": "uavs_zys",
+      "action": "renamed_name_conflict"
+    }
+  ],
+  "jsonl_actions": {
+    "copied": 3,
+    "skipped_identical": 0,
+    "renamed_conflict": 0
+  },
+  "snapshot_actions": {
+    "copied": 4,
+    "skipped_identical": 0,
+    "renamed_conflict": 0
+  },
+  "sqlite_actions": {
+    "inserted_threads": 3,
+    "existing_threads": 0,
+    "rewritten_threads": 15
+  }
+}

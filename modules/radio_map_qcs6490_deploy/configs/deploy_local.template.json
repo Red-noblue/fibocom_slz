@@ -1,0 +1,10 @@
+{
+  "说明": "QCS6490 本机部署配置模板；复制为 deploy_local.json 后按本机实际路径调整。",
+  "upstream_project": "../radio-map-estimation-workbench",
+  "features_dir": "../radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3",
+  "checkpoint_source_run_dir": "../radio-map-estimation-workbench/modules/m4/runs/datas/m4-1_aspp_base48_focus_bg_edge_losaware_y133p129_3k_s17_cleanproto",
+  "reference_eval_run_dir": "../radio-map-estimation-workbench/modules/m4/runs/datas/m4-3_eval_s17_cleanproto_test",
+  "input_shape": [1, 7, 256, 256],
+  "output_shape": [1, 1, 256, 256],
+  "runtime_targets": ["pytorch_cpu", "onnxruntime_cpu", "fibo_ai_stack"]
+}

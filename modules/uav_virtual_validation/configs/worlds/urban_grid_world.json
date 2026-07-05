@@ -1,0 +1,42 @@
+{
+  "name": "urban_grid_world",
+  "description": "程序化城市低空仿真世界，用于第一阶段 3D 环境资产生成。",
+  "seed": 20260518,
+  "route_corridor_width_m": 520.0,
+  "city_length_margin_m": 1200.0,
+  "city_width_m": 2600.0,
+  "block_size_m": 180.0,
+  "street_width_m": 28.0,
+  "building_min_height_m": 18.0,
+  "building_max_height_m": 95.0,
+  "highrise_zone": {
+    "start_fraction": 0.38,
+    "end_fraction": 0.62,
+    "extra_height_m": 85.0,
+    "density_multiplier": 1.35
+  },
+  "no_fly_zones": [
+    {
+      "name": "hospital_rooftop_zone",
+      "center_fraction": 0.31,
+      "lateral_offset_m": -420.0,
+      "radius_m": 220.0,
+      "min_altitude_m": 0.0,
+      "max_altitude_m": 180.0
+    },
+    {
+      "name": "dense_highrise_safety_zone",
+      "center_fraction": 0.55,
+      "lateral_offset_m": 360.0,
+      "radius_m": 260.0,
+      "min_altitude_m": 0.0,
+      "max_altitude_m": 240.0
+    }
+  ],
+  "weather_field": {
+    "sample_spacing_m": 600.0,
+    "altitude_layers_m": [30.0, 60.0, 100.0, 150.0, 220.0],
+    "urban_canyon_turbulence_bonus": 0.35,
+    "highrise_wind_shear_bonus": 0.22
+  }
+}

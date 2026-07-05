@@ -1,0 +1,13 @@
+{
+  "name": "urban_low_altitude",
+  "ground_elevation_m": 45.0,
+  "roughness_alpha": 0.27,
+  "risk_zones": [
+    {
+      "name": "high_building_corridor",
+      "start_fraction": 0.42,
+      "end_fraction": 0.58,
+      "risk_score_add": 18.0
+    }
+  ]
+}

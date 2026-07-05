@@ -1,0 +1,59 @@
+Logger initialized with level: trace
+[2026-07-05 04:33:29.412] [Fiboaisdk] [---T---] [thread 1309110]   Model Path: /home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/snpe_quant_qemu82_full_20260703_075537/radio_map_liteunet_quantized.dlc
+Platform: qualcomm
+Framework: snpe
+Device Unit: dsp
+Mode: 5
+Log Level: error
+Logger initialized with level: error
+/prj/qct/webtech_scratch20/mlg_user_admin/qaisw_repo_rel/2.29.0/release/snpe_src/avante-tools/prebuilt/dsp/hexagon-sdk-4.2.0/ipc/fastrpc/rpcmem/src/rpcmem_android.c:38:dummy call to rpcmem_init, rpcmem APIs will be used from libxdsprpc
+[USER_ERROR]  <E> No Device and Core not registered for power config id 0
+[USER_ERROR]  <E> Failed to find power config id 0
+[USER_ERROR]  <E> Failed to destroy powerConfigId with error 0x32c9
+{
+  "execute_ms": [
+    75.07194901700132
+  ],
+  "execute_ms_avg": 75.07194901700132,
+  "execute_ms_max": 75.07194901700132,
+  "execute_ms_min": 75.07194901700132,
+  "fetch_ms": [
+    5.352727981517091
+  ],
+  "fetch_ms_avg": 5.352727981517091,
+  "framework": "snpe",
+  "init_code": 0,
+  "init_ms": 1199.3102220003493,
+  "input_name": "input",
+  "mode": 5,
+  "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/snpe_quant_qemu82_full_20260703_075537/radio_map_liteunet_quantized.dlc",
+  "ok": true,
+  "output_len": 65536,
+  "output_max": 0.9026824235916138,
+  "output_mean": -0.049239907413721085,
+  "output_min": -1.5474557876586914,
+  "output_name": "output",
+  "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/int8_gpu_dsp_repro_test100_20260703_133812/int8_dsp/688_k0_dsp_snpe.npy",
+  "release_code": 0,
+  "repeat": 1,
+  "runtime": "DSP",
+  "sample": {
+    "has_valid_mask": true,
+    "has_y": true,
+    "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/688_k0.npz",
+    "x_shape_chw": [
+      7,
+      256,
+      256
+    ],
+    "x_shape_nhwc": [
+      1,
+      256,
+      256,
+      7
+    ]
+  },
+  "sample_id": "688_k0",
+  "warmup": 1
+}
+/prj/qct/webtech_scratch20/mlg_user_admin/qaisw_repo_rel/2.29.0/release/snpe_src/avante-tools/prebuilt/dsp/hexagon-sdk-4.2.0/ipc/fastrpc/rpcmem/src/rpcmem_android.c:42:dummy call to rpcmem_deinit, rpcmem APIs will be used from libxdsprpc

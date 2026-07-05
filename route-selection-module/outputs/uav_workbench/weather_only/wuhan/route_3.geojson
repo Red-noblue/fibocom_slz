@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_3",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_3",
+        "label": "最畅通路线",
+        "strategy": "most_accessible",
+        "score": 47.71,
+        "topsis_score": 26.11,
+        "robustness_score": 98.1,
+        "reliability_ratio": 1.0,
+        "max_precipitation_mm": 1.72,
+        "max_weather_risk_score": 0.618,
+        "high_risk_exposure_ratio": 0.0,
+        "city": "wuhan_guanggu",
+        "dataset_key": "wuhan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.38414821,
+            30.495967761,
+            115.0
+          ],
+          [
+            114.397926728,
+            30.495967761,
+            115.0
+          ],
+          [
+            114.416298085,
+            30.509817314,
+            115.0
+          ],
+          [
+            114.420890925,
+            30.521688359,
+            110.0
+          ]
+        ]
+      }
+    }
+  ]
+}

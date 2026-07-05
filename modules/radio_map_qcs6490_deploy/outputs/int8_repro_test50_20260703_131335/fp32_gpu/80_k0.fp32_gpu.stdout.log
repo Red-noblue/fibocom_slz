@@ -1,0 +1,56 @@
+Logger initialized with level: trace
+[2026-07-05 04:40:00.942] [Fiboaisdk] [---T---] [thread 1330668]   Model Path: /home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc
+Platform: qualcomm
+Framework: snpe
+Device Unit: gpu
+Mode: 5
+Log Level: error
+Logger initialized with level: error
+[USER_ERROR] GPU ERROR: GPU_ERROR_UNSUPPORTED(10018) - Setting context priority after context initialization not supported
+[USER_ERROR] 6000 | QnnContext_setConfig() failed; QNN_CONTEXT_ERROR_INVALID_ARGUMENT: An argument to QNN context API is deemed invalid by a backend
+{
+  "execute_ms": [
+    311.86342300497927
+  ],
+  "execute_ms_avg": 311.86342300497927,
+  "execute_ms_max": 311.86342300497927,
+  "execute_ms_min": 311.86342300497927,
+  "fetch_ms": [
+    22.96392701100558
+  ],
+  "fetch_ms_avg": 22.96392701100558,
+  "framework": "snpe",
+  "init_code": 0,
+  "init_ms": 1100.431667000521,
+  "input_name": "input",
+  "mode": 5,
+  "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+  "ok": true,
+  "output_len": 65536,
+  "output_max": 2.33984375,
+  "output_mean": -0.2511666417121887,
+  "output_min": -1.5546875,
+  "output_name": "output",
+  "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/int8_repro_test50_20260703_131335/fp32_gpu/80_k0_gpu_snpe.npy",
+  "release_code": 0,
+  "repeat": 1,
+  "runtime": "GPU",
+  "sample": {
+    "has_valid_mask": true,
+    "has_y": true,
+    "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/80_k0.npz",
+    "x_shape_chw": [
+      7,
+      256,
+      256
+    ],
+    "x_shape_nhwc": [
+      1,
+      256,
+      256,
+      7
+    ]
+  },
+  "sample_id": "80_k0",
+  "warmup": 1
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "uav_virtual_validation_workbench_settings_v1",
+  "radioProfile": {
+    "last": {
+      "datasetKey": "",
+      "densityKey": "standard",
+      "sampleFilter": "all"
+    },
+    "datasets": {}
+  }
+}

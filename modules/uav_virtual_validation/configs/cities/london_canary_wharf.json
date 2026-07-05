@@ -1,0 +1,20 @@
+{
+  "name": "london_canary_wharf",
+  "display_name": "伦敦 Canary Wharf",
+  "description": "伦敦高楼商务区，水域、道路和高层建筑混合明显。",
+  "center": {"lat": 51.5054, "lon": -0.0235},
+  "bbox": {"south": 51.4975, "west": -0.0390, "north": 51.5140, "east": -0.0060},
+  "default_route": [
+    {"lat": 51.4985, "lon": -0.0370, "altitude_m": 110.0, "label": "起点"},
+    {"lat": 51.5020, "lon": -0.0300, "altitude_m": 135.0, "label": "水域转向点"},
+    {"lat": 51.5055, "lon": -0.0235, "altitude_m": 150.0, "label": "高楼核心点"},
+    {"lat": 51.5100, "lon": -0.0160, "altitude_m": 130.0, "label": "下降准备点"},
+    {"lat": 51.5130, "lon": -0.0080, "altitude_m": 105.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "Europe/London",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 22.0, "level_height_m": 3.2, "max_buildings": 2800}
+}

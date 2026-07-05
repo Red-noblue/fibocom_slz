@@ -1,0 +1,63 @@
+{
+  "city": {
+    "name": "tokyo_shinjuku",
+    "display_name": "东京 Shinjuku",
+    "center": {
+      "lat": 35.6896,
+      "lon": 139.7006
+    },
+    "bbox": {
+      "south": 35.6815,
+      "west": 139.69,
+      "north": 35.698,
+      "east": 139.713
+    }
+  },
+  "request": {
+    "start": {
+      "lat": 35.6825,
+      "lon": 139.691,
+      "altitude_m": 14.0
+    },
+    "end": {
+      "lat": 35.697,
+      "lon": 139.712,
+      "altitude_m": 17.0
+    },
+    "planning_mode": "building_only"
+  },
+  "planner": {
+    "planning_mode": "building_only",
+    "min_altitude_m": 0.0,
+    "max_altitude_m": 29.0,
+    "cell_m": 220.0,
+    "safety_clearance_m": 6.0,
+    "cruise_speed_mps": 14.0,
+    "altitude_layers_m": [
+      0.0,
+      14.0,
+      17.0,
+      20.0
+    ],
+    "candidate_count": 0,
+    "ranking_method": "entropy_weight_topsis",
+    "monte_carlo_runs": 36,
+    "ranking_weights": {
+      "distance_m": 0.0,
+      "estimated_duration_s": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.0,
+      "overflight_exposure_index": 0.0,
+      "average_reachability_index": 0.0,
+      "corridor_diversity_index": 0.0,
+      "robustness_score": 0.0
+    }
+  },
+  "routes": [],
+  "dataset_key": "tokyo"
+}

@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_4",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "低空绕障",
+        "strategy": "low_altitude",
+        "score": 56.24,
+        "topsis_score": 37.72,
+        "robustness_score": 99.46,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_jianghan",
+        "dataset_key": "wuhan_jianghan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2591492,
+            30.5759678,
+            45.0
+          ],
+          [
+            114.2591492,
+            30.5799248,
+            80.0
+          ],
+          [
+            114.2660443,
+            30.5858603,
+            60.0
+          ],
+          [
+            114.2660443,
+            30.5878388,
+            40.0
+          ],
+          [
+            114.2775362,
+            30.5937743,
+            45.0
+          ],
+          [
+            114.2936249,
+            30.6076239,
+            45.0
+          ],
+          [
+            114.3028184,
+            30.6076239,
+            45.0
+          ],
+          [
+            114.3028184,
+            30.6056454,
+            45.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_1",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "最快到达",
+        "strategy": "fastest",
+        "score": 60.23,
+        "topsis_score": 44.56,
+        "robustness_score": 96.8,
+        "reliability_ratio": 0.972,
+        "max_precipitation_mm": 2.289,
+        "max_weather_risk_score": 0.739,
+        "high_risk_exposure_ratio": 0.833,
+        "city": "wuhan_wuchang",
+        "dataset_key": "wuhan_wuchang"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.299445956,
+            30.527967761,
+            115.0
+          ],
+          [
+            114.310932474,
+            30.539838806,
+            150.0
+          ],
+          [
+            114.313229778,
+            30.541817314,
+            150.0
+          ],
+          [
+            114.313229778,
+            30.543795822,
+            150.0
+          ],
+          [
+            114.315527082,
+            30.545774329,
+            150.0
+          ],
+          [
+            114.336202815,
+            30.563580897,
+            120.0
+          ],
+          [
+            114.347689334,
+            30.565559404,
+            110.0
+          ]
+        ]
+      }
+    }
+  ]
+}

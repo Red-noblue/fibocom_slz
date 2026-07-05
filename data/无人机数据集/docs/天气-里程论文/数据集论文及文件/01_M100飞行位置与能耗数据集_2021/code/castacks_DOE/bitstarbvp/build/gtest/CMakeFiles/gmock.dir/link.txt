@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2  -frounding-math -O3 -DNDEBUG  -shared -Wl,-soname,libgmock.so -o libgmock.so CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o CMakeFiles/gmock.dir/src/gmock-all.cc.o -lpthread 

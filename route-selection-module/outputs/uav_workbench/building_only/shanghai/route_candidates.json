@@ -1,0 +1,63 @@
+{
+  "city": {
+    "name": "shanghai_lujiazui",
+    "display_name": "上海陆家嘴",
+    "center": {
+      "lat": 31.2397,
+      "lon": 121.4998
+    },
+    "bbox": {
+      "south": 31.231,
+      "west": 121.488,
+      "north": 31.2485,
+      "east": 121.5105
+    }
+  },
+  "request": {
+    "start": {
+      "lat": 31.2325,
+      "lon": 121.489,
+      "altitude_m": 12.0
+    },
+    "end": {
+      "lat": 31.2475,
+      "lon": 121.51,
+      "altitude_m": 18.0
+    },
+    "planning_mode": "building_only"
+  },
+  "planner": {
+    "planning_mode": "building_only",
+    "min_altitude_m": 0.0,
+    "max_altitude_m": 25.0,
+    "cell_m": 220.0,
+    "safety_clearance_m": 5.0,
+    "cruise_speed_mps": 14.0,
+    "altitude_layers_m": [
+      0.0,
+      12.0,
+      18.0,
+      20.0
+    ],
+    "candidate_count": 0,
+    "ranking_method": "entropy_weight_topsis",
+    "monte_carlo_runs": 36,
+    "ranking_weights": {
+      "distance_m": 0.0,
+      "estimated_duration_s": 0.0,
+      "max_headwind_mps": 0.0,
+      "max_crosswind_mps": 0.0,
+      "max_turbulence_index": 0.0,
+      "max_precipitation_mm": 0.0,
+      "max_weather_risk_score": 0.0,
+      "high_risk_exposure_ratio": 0.0,
+      "average_urban_density": 0.0,
+      "overflight_exposure_index": 0.0,
+      "average_reachability_index": 0.0,
+      "corridor_diversity_index": 0.0,
+      "robustness_score": 0.0
+    }
+  },
+  "routes": [],
+  "dataset_key": "shanghai"
+}

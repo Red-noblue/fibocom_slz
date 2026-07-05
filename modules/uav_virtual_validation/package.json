@@ -1,0 +1,12 @@
+{
+  "name": "uav-virtual-validation-web-checks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser-based checks for the UAV virtual validation web console.",
+  "scripts": {
+    "check:web": "node scripts/check_web_console.js"
+  },
+  "devDependencies": {
+    "playwright": "1.40.1"
+  }
+}

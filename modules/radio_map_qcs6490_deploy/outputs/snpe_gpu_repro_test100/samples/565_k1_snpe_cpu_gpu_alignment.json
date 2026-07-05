@@ -1,0 +1,148 @@
+{
+  "cpu": {
+    "execute_ms": [
+      979.4757530034985
+    ],
+    "execute_ms_avg": 979.4757530034985,
+    "execute_ms_max": 979.4757530034985,
+    "execute_ms_min": 979.4757530034985,
+    "fetch_ms": [
+      6.4691729785408825
+    ],
+    "fetch_ms_avg": 6.4691729785408825,
+    "framework": "snpe",
+    "init_code": 0,
+    "init_ms": 165.13852000935003,
+    "input_name": "input",
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 2.6157355308532715,
+    "output_mean": -0.39775213599205017,
+    "output_min": -1.4579472541809082,
+    "output_name": "output",
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/snpe_gpu_repro_test100/samples/565_k1_cpu_snpe.npy",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "CPU",
+    "sample": {
+      "has_valid_mask": true,
+      "has_y": true,
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/565_k1.npz",
+      "x_shape_chw": [
+        7,
+        256,
+        256
+      ],
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "565_k1",
+    "warmup": 1
+  },
+  "diff": {
+    "abs_diff_max": 0.007155299186706543,
+    "abs_diff_mean": 0.0010521039366722107,
+    "cpu_max": 2.6157355308532715,
+    "cpu_mean": -0.39775213599205017,
+    "cpu_min": -1.4579472541809082,
+    "diff_mean": 0.0003987606323789805,
+    "gpu_max": 2.611328125,
+    "gpu_mean": -0.3973534107208252,
+    "gpu_min": -1.45703125,
+    "rmse": 0.0012377352686598897,
+    "shape": [
+      256,
+      256
+    ]
+  },
+  "gpu": {
+    "execute_ms": [
+      290.9689479856752
+    ],
+    "execute_ms_avg": 290.9689479856752,
+    "execute_ms_max": 290.9689479856752,
+    "execute_ms_min": 290.9689479856752,
+    "fetch_ms": [
+      32.51425799680874
+    ],
+    "fetch_ms_avg": 32.51425799680874,
+    "framework": "snpe",
+    "init_code": 0,
+    "init_ms": 1084.9952830176335,
+    "input_name": "input",
+    "mode": 5,
+    "model": "/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/radio_map_liteunet.dlc",
+    "ok": true,
+    "output_len": 65536,
+    "output_max": 2.611328125,
+    "output_mean": -0.3973534107208252,
+    "output_min": -1.45703125,
+    "output_name": "output",
+    "output_npy": "/home/fibo/fibocom_slz/modules/radio_map_qcs6490_deploy/outputs/snpe_gpu_repro_test100/samples/565_k1_gpu_snpe.npy",
+    "release_code": 0,
+    "repeat": 1,
+    "runtime": "GPU",
+    "sample": {
+      "has_valid_mask": true,
+      "has_y": true,
+      "sample_path": "/home/fibo/fibocom_slz/modules/radio-map-estimation-workbench/modules/m2/runs/datas/features/v1_base_256_k1_landuse3/565_k1.npz",
+      "x_shape_chw": [
+        7,
+        256,
+        256
+      ],
+      "x_shape_nhwc": [
+        1,
+        256,
+        256,
+        7
+      ]
+    },
+    "sample_id": "565_k1",
+    "warmup": 1
+  },
+  "real_sample_metrics": {
+    "cpu_gpu_dbm_diff": {
+      "abs_diff_max_db": 0.0916748046875,
+      "abs_diff_mean_db": 0.013480075635015965,
+      "rmse_db": 0.015858469530940056
+    },
+    "cpu_vs_label": {
+      "label_dbm_max": -82.75,
+      "label_dbm_mean": -127.87890625,
+      "label_dbm_min": -140.0,
+      "mae_db": 1.7381104230880737,
+      "pred_dbm_max": -89.06849670410156,
+      "pred_dbm_mean": -127.68043518066406,
+      "pred_dbm_min": -141.26475524902344,
+      "psnr_db": 24.95739322763722,
+      "rmse_db": 3.235234980119205,
+      "valid_pixels": 65536
+    },
+    "gpu_vs_label": {
+      "label_dbm_max": -82.75,
+      "label_dbm_mean": -127.87890625,
+      "label_dbm_min": -140.0,
+      "mae_db": 1.7412872314453125,
+      "pred_dbm_max": -89.12496948242188,
+      "pred_dbm_mean": -127.6753158569336,
+      "pred_dbm_min": -141.25302124023438,
+      "psnr_db": 24.963276612093743,
+      "rmse_db": 3.2330443367813175,
+      "valid_pixels": 65536
+    },
+    "label_norm": {
+      "type": "standard",
+      "y_mean": -122.58401346206665,
+      "y_std": 12.813038764458584
+    },
+    "ok": true
+  },
+  "sample_id": "565_k1"
+}

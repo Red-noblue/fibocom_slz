@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# 工具入口：按相对路径定位工具包根目录与源码，允许从任意工作目录直接调用。
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+ROOT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd -P)"
+
+export RCBEVDET_MINERU_TOOL_ROOT="${ROOT_DIR}"
+export PYTHONPATH="${ROOT_DIR}/src${PYTHONPATH:+:${PYTHONPATH}}"
+
+exec /usr/bin/env python3 -m rcbevdet_mineru_extract "$@"

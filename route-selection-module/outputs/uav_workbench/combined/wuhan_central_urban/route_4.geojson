@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_4",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_4",
+        "label": "最畅通路线",
+        "strategy": "most_accessible",
+        "score": 41.15,
+        "topsis_score": 18.81,
+        "robustness_score": 93.29,
+        "reliability_ratio": 0.917,
+        "max_precipitation_mm": 2.363,
+        "max_weather_risk_score": 0.752,
+        "high_risk_exposure_ratio": 0.182,
+        "city": "wuhan_central_urban",
+        "dataset_key": "wuhan_central_urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.1987237,
+            30.4995164,
+            150.0
+          ],
+          [
+            114.2033195,
+            30.5034734,
+            150.0
+          ],
+          [
+            114.3365974,
+            30.5014949,
+            150.0
+          ],
+          [
+            114.3710659,
+            30.5074304,
+            150.0
+          ],
+          [
+            114.3733638,
+            30.509409,
+            150.0
+          ],
+          [
+            114.3802574,
+            30.509409,
+            150.0
+          ],
+          [
+            114.3848532,
+            30.5074304,
+            150.0
+          ],
+          [
+            114.3963427,
+            30.5074304,
+            150.0
+          ],
+          [
+            114.4009385,
+            30.509409,
+            150.0
+          ],
+          [
+            114.412428,
+            30.509409,
+            150.0
+          ],
+          [
+            114.4308112,
+            30.5074304,
+            150.0
+          ],
+          [
+            114.4308112,
+            30.5054519,
+            150.0
+          ]
+        ]
+      }
+    }
+  ]
+}

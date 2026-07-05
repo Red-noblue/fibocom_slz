@@ -1,0 +1,18 @@
+# 基础运行配置
+route_name: BUPT_Haidian_to_Shahe
+start:
+  lat: 39.9598
+  lon: 116.3520
+end:
+  lat: 40.15608
+  lon: 116.28333
+battery:
+  capacity_wh: 130.0
+  nominal_voltage_v: 15.2
+vehicle:
+  name: default_vehicle
+  payload_g: 250.0
+  cruise_speed_mps: 8.0
+  altitude_m: 62.5
+mission:
+  step_minutes: 1

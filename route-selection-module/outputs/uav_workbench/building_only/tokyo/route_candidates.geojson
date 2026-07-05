@@ -1,0 +1,6 @@
+{
+  "type": "FeatureCollection",
+  "name": "tokyo_shinjuku_route_candidates",
+  "planning_mode": "building_only",
+  "features": []
+}

@@ -1,0 +1,134 @@
+{
+  "city": {
+    "name": "wuhan_wuchang",
+    "display_name": "武汉 武昌区",
+    "center": {
+      "lat": 30.545,
+      "lon": 114.3225
+    },
+    "bbox": {
+      "south": 30.525,
+      "west": 114.296,
+      "north": 30.567,
+      "east": 114.35
+    }
+  },
+  "request": {
+    "start": {
+      "lat": 30.53,
+      "lon": 114.33,
+      "altitude_m": 120.0
+    },
+    "end": {
+      "lat": 30.565,
+      "lon": 114.348,
+      "altitude_m": 120.0
+    }
+  },
+  "planner": {
+    "cell_m": 220.0,
+    "safety_clearance_m": 25.0,
+    "cruise_speed_mps": 14.0,
+    "altitude_layers_m": [
+      60.0,
+      100.0,
+      120.0,
+      150.0,
+      180.0,
+      220.0,
+      240.0,
+      300.0,
+      320.0
+    ],
+    "candidate_count": 3
+  },
+  "routes": [
+    {
+      "route_id": "route_1",
+      "label": "快速直达",
+      "strategy": "fastest",
+      "score": 373.28,
+      "distance_m": 4333.5,
+      "estimated_duration_s": 321.67,
+      "max_wind_speed_mps": 1.49,
+      "max_headwind_mps": 0.94,
+      "max_crosswind_mps": 1.12,
+      "max_turbulence_index": 0.217,
+      "average_urban_density": 0.174,
+      "waypoint_count": 2,
+      "recommended_rank": 1,
+      "waypoints": [
+        {
+          "lat": 30.5299463,
+          "lon": 114.3293109,
+          "altitude_m": 120.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5655594,
+          "lon": 114.3476893,
+          "altitude_m": 120.0,
+          "label": "航点2"
+        }
+      ]
+    },
+    {
+      "route_id": "route_2",
+      "label": "均衡推荐",
+      "strategy": "balanced",
+      "score": 374.36,
+      "distance_m": 4333.5,
+      "estimated_duration_s": 322.22,
+      "max_wind_speed_mps": 1.55,
+      "max_headwind_mps": 0.98,
+      "max_crosswind_mps": 1.16,
+      "max_turbulence_index": 0.217,
+      "average_urban_density": 0.174,
+      "waypoint_count": 2,
+      "recommended_rank": 2,
+      "waypoints": [
+        {
+          "lat": 30.5299463,
+          "lon": 114.3293109,
+          "altitude_m": 180.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5655594,
+          "lon": 114.3476893,
+          "altitude_m": 180.0,
+          "label": "航点2"
+        }
+      ]
+    },
+    {
+      "route_id": "route_3",
+      "label": "低风险",
+      "strategy": "safest",
+      "score": 374.96,
+      "distance_m": 4333.5,
+      "estimated_duration_s": 322.51,
+      "max_wind_speed_mps": 1.58,
+      "max_headwind_mps": 1.0,
+      "max_crosswind_mps": 1.19,
+      "max_turbulence_index": 0.217,
+      "average_urban_density": 0.174,
+      "waypoint_count": 2,
+      "recommended_rank": 3,
+      "waypoints": [
+        {
+          "lat": 30.5299463,
+          "lon": 114.3293109,
+          "altitude_m": 220.0,
+          "label": "航点1"
+        },
+        {
+          "lat": 30.5655594,
+          "lon": 114.3476893,
+          "altitude_m": 220.0,
+          "label": "航点2"
+        }
+      ]
+    }
+  ]
+}

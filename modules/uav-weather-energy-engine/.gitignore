@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Data and outputs
+data/raw/*
+data/processed/*
+outputs/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/samples/.gitkeep
+!outputs/.gitkeep
+
+# Notebook checkpoints
+.ipynb_checkpoints/

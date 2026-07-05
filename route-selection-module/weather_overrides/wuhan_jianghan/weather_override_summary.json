@@ -1,0 +1,15 @@
+{
+  "city_name": "wuhan_jianghan",
+  "generated_at_utc": "2026-05-27T09:18:13.120192+00:00",
+  "source_weather_path": "/home/fibo/fibocom_slz/modules/uav_virtual_validation/outputs/real_city/wuhan_jianghan/real_weather_field.geojson",
+  "vertical_model_path": "/home/fibo/tianqi/outputs_wuhan_vertical_lowalt/wuhan_vertical_model.pkl",
+  "feature_count": 300,
+  "point_count": 60,
+  "altitude_levels_m": [
+    30.0,
+    60.0,
+    100.0,
+    150.0,
+    220.0
+  ]
+}

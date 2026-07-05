@@ -1,0 +1,29 @@
+{
+  "train": {
+    "count": 145,
+    "mae": 0.4577950911640271,
+    "rmse": 0.579827225793856,
+    "r2": 0.9968225872739942
+  },
+  "test": {
+    "count": 37,
+    "mae": 1.1776310615033456,
+    "rmse": 1.4739130276760892,
+    "r2": 0.9778597404915568
+  },
+  "features": [
+    "speed_mps",
+    "payload_kg",
+    "altitude_m",
+    "wind_speed_mps",
+    "headwind_mps",
+    "crosswind_mps"
+  ],
+  "base_features": [
+    "speed_mps",
+    "payload_kg",
+    "altitude_m"
+  ],
+  "target": "energy_wh_per_km",
+  "rows_total": 182
+}

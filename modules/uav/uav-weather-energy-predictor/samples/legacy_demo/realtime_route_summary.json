@@ -1,0 +1,27 @@
+{
+  "route_name": "BUPT_Haidian_to_Shahe",
+  "route_start": {
+    "lat": 39.9598,
+    "lon": 116.352
+  },
+  "route_end": {
+    "lat": 40.15608,
+    "lon": 116.28333
+  },
+  "route_heading_deg": 345.0312011074301,
+  "route_length_km": 22.594289852806554,
+  "cruise_speed_mps": 8.0,
+  "cruise_altitude_m": 62.5,
+  "payload_g": 250.0,
+  "battery_wh": 130.0,
+  "departure_time": "2026-05-09T22:00:00",
+  "planned_flight_time_s": 2824.286231600819,
+  "predicted_total_energy_wh": 960.1364592149215,
+  "predicted_range_km": 3.032862161706373,
+  "predicted_flight_time_s": 386.58630488576205,
+  "weather_source": "CMA realtime (config-driven)（中国气象局实时数据 - 配置驱动）",
+  "risk_alerts": [
+    "预测总能耗高于电池容量，实际飞行可能中途电量不足。",
+    "按当前效率预测的续航里程不足以覆盖全程航线。"
+  ]
+}

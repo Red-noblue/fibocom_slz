@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_2",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_2",
+        "label": "训练穿行",
+        "strategy": "training",
+        "score": 65.11,
+        "topsis_score": 50.39,
+        "robustness_score": 99.47,
+        "reliability_ratio": 1.0,
+        "city": "wuhan_wuchang",
+        "dataset_key": "wuhan_wuchang"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3299374,
+            30.5299463,
+            25.0
+          ],
+          [
+            114.3351586,
+            30.548832,
+            30.0
+          ],
+          [
+            114.3341144,
+            30.5524293,
+            30.0
+          ],
+          [
+            114.3382913,
+            30.5596239,
+            30.0
+          ],
+          [
+            114.3476893,
+            30.5650198,
+            25.0
+          ]
+        ]
+      }
+    }
+  ]
+}

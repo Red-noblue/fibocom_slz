@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "route_1",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route_1",
+        "label": "快速直达",
+        "strategy": "fastest",
+        "score": 1692.25
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2010216,
+            30.4995164,
+            120.0
+          ],
+          [
+            114.4308112,
+            30.5054519,
+            120.0
+          ]
+        ]
+      }
+    }
+  ]
+}

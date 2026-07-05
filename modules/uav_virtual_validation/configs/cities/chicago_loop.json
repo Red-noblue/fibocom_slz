@@ -1,0 +1,20 @@
+{
+  "name": "chicago_loop",
+  "display_name": "芝加哥 The Loop",
+  "description": "芝加哥核心商务区，高层建筑密集，适合北美城市峡谷与湖滨风场示例。",
+  "center": {"lat": 41.8819, "lon": -87.6278},
+  "bbox": {"south": 41.8740, "west": -87.6385, "north": 41.8905, "east": -87.6160},
+  "default_route": [
+    {"lat": 41.8750, "lon": -87.6375, "altitude_m": 120.0, "label": "起点"},
+    {"lat": 41.8790, "lon": -87.6330, "altitude_m": 145.0, "label": "金融区转向点"},
+    {"lat": 41.8820, "lon": -87.6280, "altitude_m": 155.0, "label": "核心巡航点"},
+    {"lat": 41.8860, "lon": -87.6220, "altitude_m": 135.0, "label": "湖滨下降点"},
+    {"lat": 41.8895, "lon": -87.6170, "altitude_m": 110.0, "label": "终点"}
+  ],
+  "weather": {
+    "timezone": "America/Chicago",
+    "history_date": "2025-10-15",
+    "hourly": ["temperature_2m", "relative_humidity_2m", "pressure_msl", "wind_speed_10m", "wind_direction_10m", "wind_gusts_10m", "precipitation", "cloud_cover"]
+  },
+  "osm": {"default_building_height_m": 26.0, "level_height_m": 3.2, "max_buildings": 2800}
+}

@@ -1,0 +1,5020 @@
+- generic [active] [ref=e1]:
+  - text: ⚠
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip to main content":
+        - /url: "#screen-reader-main-content"
+        - generic [ref=e7] [cursor=pointer]: Skip to main content
+      - link "Skip to article":
+        - /url: "#screen-reader-main-title"
+        - generic [ref=e8] [cursor=pointer]: Skip to article
+      - banner [ref=e9]:
+        - generic [ref=e10]:
+          - link "ScienceDirect home page" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier logo" [ref=e12]
+            - img [ref=e13]
+          - generic [ref=e21]:
+            - navigation "links" [ref=e22]:
+              - list [ref=e23]:
+                - listitem [ref=e24]:
+                  - link "Journals & Books" [ref=e25] [cursor=pointer]:
+                    - /url: /browse/journals-and-books
+                    - generic [ref=e26]: Journals & Books
+            - navigation "utilities" [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - button "Help" [ref=e33] [cursor=pointer]:
+                    - img [ref=e34]
+                    - generic [ref=e7472]: Help
+                - listitem [ref=e37]:
+                  - button "Search" [ref=e39] [cursor=pointer]:
+                    - img [ref=e40]
+                    - generic [ref=e7473]: Search
+          - link "My account" [ref=e44] [cursor=pointer]:
+            - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS1270963822005958&from=globalheader
+            - img [ref=e45]
+            - generic [ref=e7474]: My account
+          - button "Beijing University of Posts and Telecommunications Institutional Access" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+            - generic [ref=e7475]: Beijing University of Posts and Telecommunications
+      - main [ref=e55]:
+        - region "Download options and search" [ref=e57]:
+          - list "PDF Options" [ref=e59]:
+            - listitem [ref=e60]:
+              - link "View PDF. Opens in a new window." [ref=e273] [cursor=pointer]:
+                - /url: /science/article/pii/S1270963822005958/pdfft?md5=27ca8374b97390347631860531ff2cbc&pid=1-s2.0-S1270963822005958-main.pdf
+                - img [ref=e62]
+                - generic [ref=e69]:
+                  - text: View
+                  - strong [ref=e70]: PDF
+            - listitem [ref=e71]:
+              - button "Download full issue" [ref=e72] [cursor=pointer]:
+                - generic [ref=e74]: Download full issue
+        - generic [ref=e75]:
+          - navigation "Table of contents" [ref=e76]:
+            - generic [ref=e274]:
+              - button "Expand Reading Assistant" [ref=e277] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Reading Assistant
+                  - generic:
+                    - button [disabled]:
+                      - img
+              - generic [ref=e278]:
+                - heading "Outline" [level=2] [ref=e279]
+                - list [ref=e280]:
+                  - listitem [ref=e281]:
+                    - link "Abstract" [ref=e282] [cursor=pointer]:
+                      - /url: "#ab0010"
+                      - generic [ref=e283]: Abstract
+                  - listitem [ref=e284]:
+                    - link "Keywords" [ref=e285] [cursor=pointer]:
+                      - /url: "#kws0010"
+                      - generic [ref=e286]: Keywords
+                  - listitem [ref=e287]:
+                    - link "1. Introduction" [ref=e288] [cursor=pointer]:
+                      - /url: "#se0010"
+                      - generic [ref=e290]: 1. Introduction
+                  - listitem [ref=e291]:
+                    - link "2. Related works" [ref=e292] [cursor=pointer]:
+                      - /url: "#se0020"
+                      - generic [ref=e294]: 2. Related works
+                  - listitem [ref=e295]:
+                    - link "3. Proposed methodology and equipment" [ref=e296] [cursor=pointer]:
+                      - /url: "#se0030"
+                      - generic [ref=e298]: 3. Proposed methodology and equipment
+                  - listitem [ref=e299]:
+                    - link "4. Predictor development and results" [ref=e300] [cursor=pointer]:
+                      - /url: "#se0060"
+                      - generic [ref=e302]: 4. Predictor development and results
+                  - listitem [ref=e303]:
+                    - link "5. Battery-discharge-predictor application" [ref=e304] [cursor=pointer]:
+                      - /url: "#se0100"
+                      - generic [ref=e306]: 5. Battery-discharge-predictor application
+                  - listitem [ref=e307]:
+                    - link "6. Conclusion" [ref=e308] [cursor=pointer]:
+                      - /url: "#se0130"
+                      - generic [ref=e310]: 6. Conclusion
+                  - listitem [ref=e311]:
+                    - link "Declaration of Competing Interest" [ref=e312] [cursor=pointer]:
+                      - /url: "#coi0001"
+                      - generic [ref=e313]: Declaration of Competing Interest
+                  - listitem [ref=e314]:
+                    - link "Appendix A." [ref=e315] [cursor=pointer]:
+                      - /url: "#se0140"
+                      - generic [ref=e317]: Appendix A.
+                  - listitem [ref=e318]:
+                    - link "Data availability" [ref=e319] [cursor=pointer]:
+                      - /url: "#dav0001"
+                      - generic [ref=e320]: Data availability
+                  - listitem [ref=e321]:
+                    - link "References" [ref=e322] [cursor=pointer]:
+                      - /url: "#bl0010"
+                      - generic [ref=e323]: References
+                - button "Show full outline" [ref=e324] [cursor=pointer]:
+                  - generic [ref=e325]: Show full outline
+                  - img [ref=e326]
+              - heading "Cited by (18)" [level=2] [ref=e330]:
+                - link "Cited by (18)" [ref=e331] [cursor=pointer]:
+                  - /url: "#section-cited-by"
+                  - generic [ref=e332]: Cited by (18)
+              - generic [ref=e334]:
+                - heading "Figures (7)" [level=2] [ref=e335]
+                - list [ref=e336]:
+                  - listitem [ref=e337]:
+                    - link "Fig. 1. Configuration of a standard segment" [ref=e338] [cursor=pointer]:
+                      - /url: "#fg0010"
+                      - img "Fig. 1. Configuration of a standard segment" [ref=e339]
+                  - listitem [ref=e340]:
+                    - link "Fig. 2. One lap drone trajectory over the Standard Path with 120 deg characteristic…" [ref=e341] [cursor=pointer]:
+                      - /url: "#fg0080"
+                      - img "Fig. 2. One lap drone trajectory over the Standard Path with 120 deg characteristic…" [ref=e342]
+                  - listitem [ref=e343]:
+                    - link "Fig. 3. NRMSE (left-axis) and R (right axis) for different 2-layers NN configurations…" [ref=e344] [cursor=pointer]:
+                      - /url: "#fg0020"
+                      - img "Fig. 3. NRMSE (left-axis) and R (right axis) for different 2-layers NN configurations…" [ref=e345]
+                  - listitem [ref=e346]:
+                    - link "Fig. 4. One lap drone trajectory over generic Paths" [ref=e347] [cursor=pointer]:
+                      - /url: "#fg0030"
+                      - img "Fig. 4. One lap drone trajectory over generic Paths" [ref=e348]
+                  - listitem [ref=e349]:
+                    - link "Fig. 5. Scaled package delivery path" [ref=e350] [cursor=pointer]:
+                      - /url: "#fg0040"
+                      - img "Fig. 5. Scaled package delivery path" [ref=e351]
+                  - listitem [ref=e352]:
+                    - link "Fig. 6. Lstraight and Lwc distances at the selected path Monitoring Points" [ref=e353] [cursor=pointer]:
+                      - /url: "#fg0050"
+                      - img "Fig. 6. Lstraight and Lwc distances at the selected path Monitoring Points" [ref=e354]
+                - button "Show 1 more figure" [ref=e355] [cursor=pointer]:
+                  - generic [ref=e356]: Show 1 more figure
+                  - img [ref=e357]
+              - generic [ref=e360]:
+                - heading "Tables (8)" [level=2] [ref=e361]
+                - list [ref=e362]:
+                  - listitem [ref=e363]:
+                    - link "Table 1" [ref=e364] [cursor=pointer]:
+                      - /url: "#tbl0010"
+                      - img [ref=e365]
+                      - generic [ref=e367]: Table 1
+                  - listitem [ref=e368]:
+                    - link "Table 2" [ref=e369] [cursor=pointer]:
+                      - /url: "#tbl0020"
+                      - img [ref=e370]
+                      - generic [ref=e372]: Table 2
+                  - listitem [ref=e373]:
+                    - link "Table 3" [ref=e374] [cursor=pointer]:
+                      - /url: "#tbl0030"
+                      - img [ref=e375]
+                      - generic [ref=e377]: Table 3
+                  - listitem [ref=e378]:
+                    - link "Table 4" [ref=e379] [cursor=pointer]:
+                      - /url: "#tbl0040"
+                      - img [ref=e380]
+                      - generic [ref=e382]: Table 4
+                  - listitem [ref=e383]:
+                    - link "Table 5" [ref=e384] [cursor=pointer]:
+                      - /url: "#tbl0050"
+                      - img [ref=e385]
+                      - generic [ref=e387]: Table 5
+                  - listitem [ref=e388]:
+                    - link "Table 6" [ref=e389] [cursor=pointer]:
+                      - /url: "#tbl0060"
+                      - img [ref=e390]
+                      - generic [ref=e392]: Table 6
+                - button "Show all tables" [ref=e393] [cursor=pointer]:
+                  - generic [ref=e394]: Show all tables
+                  - img [ref=e395]
+          - article [ref=e77]:
+            - generic [ref=e78]:
+              - link "Elsevier" [ref=e80] [cursor=pointer]:
+                - /url: /journal/aerospace-science-and-technology
+                - img "Elsevier" [ref=e83]
+              - generic [ref=e84]:
+                - heading "Aerospace Science and Technology" [level=2] [ref=e85]:
+                  - link "Aerospace Science and Technology" [ref=e86] [cursor=pointer]:
+                    - /url: /journal/aerospace-science-and-technology
+                    - generic [ref=e87]: Aerospace Science and Technology
+                - generic [ref=e88]:
+                  - link "Volume 130" [ref=e89] [cursor=pointer]:
+                    - /url: /journal/aerospace-science-and-technology/vol/130/suppl/C
+                    - generic [ref=e90]: Volume 130
+                  - text: ", November 2022, 107921"
+              - link "Homepage for Aerospace Science and Technology" [ref=e92] [cursor=pointer]:
+                - /url: /journal/aerospace-science-and-technology/vol/130/suppl/C
+                - img "Aerospace Science and Technology" [ref=e95]
+            - heading "A data-driven learning method for online prediction of drone battery discharge" [level=1] [ref=e96]
+            - generic [ref=e97]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: Author links open overlay panel
+                - button "C. Conte a bAuthor email or social media contact details icon" [ref=e102] [cursor=pointer]:
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: C. Conte
+                    - superscript [ref=e107]: a
+                    - superscript [ref=e109]: b
+                    - img "Author email or social media contact details icon" [ref=e110]
+                - text: ","
+                - link "G. Rufino a" [ref=e398] [cursor=pointer]:
+                  - /url: /author/6602181166/giancarlo-rufino
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: G. Rufino
+                    - superscript [ref=e403]: a
+                - button "Author email or social media contact details icon" [ref=e404] [cursor=pointer]:
+                  - img "Author email or social media contact details icon" [ref=e407]
+                - text: ","
+                - button "G. de Alteriis aAuthor email or social media contact details icon" [ref=e120] [cursor=pointer]:
+                  - generic [ref=e122]:
+                    - generic [ref=e123]: G. de Alteriis
+                    - superscript [ref=e125]: a
+                    - img "Author email or social media contact details icon" [ref=e126]
+                - text: ","
+                - button "V. Bottino aCorrespondence author iconAuthor email or social media contact details icon" [ref=e128] [cursor=pointer]:
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: V. Bottino
+                    - superscript [ref=e133]: a
+                    - img "Correspondence author icon" [ref=e134]
+                    - img "Author email or social media contact details icon" [ref=e136]
+                - text: ","
+                - link "D. Accardo a" [ref=e409] [cursor=pointer]:
+                  - /url: /author/6603652386/domenico-accardo
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: D. Accardo
+                    - superscript [ref=e414]: a
+                - button "Author email or social media contact details icon" [ref=e415] [cursor=pointer]:
+                  - img "Author email or social media contact details icon" [ref=e418]
+              - button "Show more" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]: Show more
+                - img [ref=e148]
+              - generic [ref=e150]:
+                - button "Add to Mendeley" [ref=e151] [cursor=pointer]:
+                  - img [ref=e152]
+                  - generic [ref=e154]: Add to Mendeley
+                - button "Share" [ref=e158] [cursor=pointer]:
+                  - img [ref=e159]
+                  - generic [ref=e161]: Share
+                - button "Cite" [ref=e165] [cursor=pointer]:
+                  - img [ref=e166]
+                  - generic [ref=e168]: Cite
+            - generic [ref=e169]:
+              - link "Persistent link using digital object identifier" [ref=e170] [cursor=pointer]:
+                - /url: https://doi.org/10.1016/j.ast.2022.107921
+                - generic [ref=e171]:
+                  - text: https://doi.org/10.1016/j.ast.2022.107921
+                  - img "Opens in new window" [ref=e172]
+              - link "Get rights and contentOpens in new window" [ref=e174] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S1270963822005958&orderBeanReset=true
+                - generic [ref=e175]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=e176]
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - text: Under a Creative Commons
+                - link "licenseOpens in new window" [ref=e180] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by/4.0/
+                  - generic [ref=e181]:
+                    - text: license
+                    - img "Opens in new window" [ref=e182]
+              - generic [ref=e184]: Open access
+            - generic [ref=e188]:
+              - heading "Abstract" [level=2] [ref=e189]
+              - generic [ref=e191]:
+                - generic [ref=e420]:
+                  - text: This paper describes an adaptive method to predict the
+                  - link "battery discharge" [ref=e421] [cursor=pointer]:
+                    - /url: /topics/engineering/battery-discharge
+                  - generic [ref=e422]:
+                    - text: of a multirotor drone over a generic path. A proper assessment of
+                    - link "battery" [ref=e423] [cursor=pointer]:
+                      - /url: /topics/engineering/battery-electrochemical-energy-engineering
+                    - text: state of discharge trend is critical to ensure a safe operation of battery-powered aerial vehicles in critical environments, such as the urban ones. Several standard paths were executed by a commercial, battery-powered drone to acquire the data needed to train a
+                - link "Deep Learning" [ref=e424] [cursor=pointer]:
+                  - /url: /topics/physics-and-astronomy/deep-learning
+                - generic [ref=e425]:
+                  - text: based method;
+                  - link "telemetry" [ref=e426] [cursor=pointer]:
+                    - /url: /topics/physics-and-astronomy/telemetry
+                  - generic [ref=e427]:
+                    - text: files and ground-collected data were processed to train the proposed method according to a trajectory segmentation strategy. Two learning configurations were trained to predict the time-of-flight and the integral of the battery current needed to fly the standard path segments. The current integral for each standard path segment is exploited to estimate the corresponding reduction of the battery
+                    - link "state of charge" [ref=e428] [cursor=pointer]:
+                      - /url: /topics/materials-science/state-of-charge
+                    - generic [ref=e429]:
+                      - text: . Based on path segmentation into predefined standard sections, the presented solution allows to predict
+                      - link "time of flight" [ref=e430] [cursor=pointer]:
+                        - /url: /topics/engineering/time-of-flight
+                      - text: and battery consumption along any generic path. This can be exploited to plan a complete path at strategic stage, as well as to estimate the remaining available power resource at any intermediate point along a generic trajectory both at strategic stage and during mission execution to be exploited by the drone operator or by a traffic management service. To validate the technique, a scaled package delivery mission is presented as an example of contingency management application. The maximum distance that the drone can reach from selected points along the mission path was computed according to the remaining battery level. Considering a random distribution of safe-landing areas around the planned path, the computed maximum distance was used to determine which safe-landing areas can be reached by the drone from a generic point of the path after an unexpected event.
+            - list [ref=e192]:
+              - listitem [ref=e193]:
+                - link "Previous article in issue" [ref=e431] [cursor=pointer]:
+                  - /url: /science/article/pii/S127096382200596X
+                  - img [ref=e432]
+                  - generic [ref=e435]: Previous article in issue
+              - listitem [ref=e199]:
+                - link "Next article in issue" [ref=e436] [cursor=pointer]:
+                  - /url: /science/article/pii/S1270963822005946
+                  - generic [ref=e438]: Next article in issue
+                  - img [ref=e439]
+            - generic [ref=e206]:
+              - heading "Keywords" [level=2] [ref=e207]
+              - generic [ref=e208]: Battery state of charge;
+              - generic [ref=e209]: Drone;
+              - generic [ref=e210]: Segmentation;
+              - generic [ref=e211]: Trajectory prediction;
+              - generic [ref=e212]: UAS;
+              - generic [ref=e213]: UTM
+            - generic [ref=e441]:
+              - generic [ref=e442]:
+                - generic [ref=e443]:
+                  - heading "1. Introduction" [level=2] [ref=e444]
+                  - generic [ref=e445]:
+                    - generic [ref=e446]:
+                      - text: The current worldwide interest in the development of an Unmanned Traffic Management (UTM) system is supported by the standardization of several procedures to allow safe operations of
+                      - link "Unmanned Aircraft Systems" [ref=e447] [cursor=pointer]:
+                        - /url: /topics/engineering/unmanned-aircraft-system
+                      - text: (UASs). Several projects have been focused on the identification of services that must be provided to support UTM, such as flight planning, tracking, conflict detection and resolution, contingency management
+                    - link "[1]" [ref=e448] [cursor=pointer]:
+                      - /url: "#br0010"
+                      - generic [ref=e449]: "[1]"
+                    - text: ","
+                    - link "[2]" [ref=e450] [cursor=pointer]:
+                      - /url: "#br0020"
+                      - generic [ref=e451]: "[2]"
+                    - text: ","
+                    - link "[3]" [ref=e452] [cursor=pointer]:
+                      - /url: "#br0030"
+                      - generic [ref=e453]: "[3]"
+                    - text: ","
+                    - link "[4]" [ref=e454] [cursor=pointer]:
+                      - /url: "#br0040"
+                      - generic [ref=e455]: "[4]"
+                    - text: ","
+                    - link "[5]" [ref=e456] [cursor=pointer]:
+                      - /url: "#br0050"
+                      - generic [ref=e457]: "[5]"
+                    - text: ","
+                    - link "[6]" [ref=e458] [cursor=pointer]:
+                      - /url: "#br0060"
+                      - generic [ref=e459]: "[6]"
+                    - text: ","
+                    - link "[7]" [ref=e460] [cursor=pointer]:
+                      - /url: "#br0070"
+                      - generic [ref=e461]: "[7]"
+                    - text: ","
+                    - link "[8]" [ref=e462] [cursor=pointer]:
+                      - /url: "#br0080"
+                      - generic [ref=e463]: "[8]"
+                    - text: . The so-called Trajectory Based Operations (TBO) and specific methods that have been introduced for Air Traffic Management (ATM)
+                    - link "[9]" [ref=e464] [cursor=pointer]:
+                      - /url: "#br0090"
+                      - generic [ref=e465]: "[9]"
+                    - text: ","
+                    - link "[10]" [ref=e466] [cursor=pointer]:
+                      - /url: "#br0100"
+                      - generic [ref=e467]: "[10]"
+                    - text: ","
+                    - link "[11]" [ref=e468] [cursor=pointer]:
+                      - /url: "#br0110"
+                      - generic [ref=e469]: "[11]"
+                    - text: ","
+                    - link "[12]" [ref=e470] [cursor=pointer]:
+                      - /url: "#br0120"
+                      - generic [ref=e471]: "[12]"
+                    - text: can also be analyzed to identify solutions to speed up and manage the traffic flow of several UASs. Specifically, trajectory prediction is a critical element for UTM to support safe and on-time operations
+                    - link "[13]" [ref=e472] [cursor=pointer]:
+                      - /url: "#br0130"
+                      - generic [ref=e473]: "[13]"
+                    - text: . Considering the developed Concept of Operations for UASs management
+                    - link "[14]" [ref=e474] [cursor=pointer]:
+                      - /url: "#br0140"
+                      - generic [ref=e475]: "[14]"
+                    - text: ","
+                    - link "[15]" [ref=e476] [cursor=pointer]:
+                      - /url: "#br0150"
+                      - generic [ref=e477]: "[15]"
+                    - generic [ref=e478]:
+                      - text: and according to current
+                      - link "airspace" [ref=e479] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/airspace
+                      - generic [ref=e480]:
+                        - text: regulations, specific UAS missions require the flight plan submission to the proper authority. The improvement of trajectory prediction is useful to better manage the increasing number of UAS missions during the strategic phase, i.e. when flight plans are submitted. This capability is also useful in the tactical phase, i.e. when several UASs are performing their missions in the same
+                        - link "airspace" [ref=e481] [cursor=pointer]:
+                          - /url: /topics/physics-and-astronomy/airspace
+                        - text: volume. The prediction of specific critical parameters related to the trajectory execution
+                    - link "[16]" [ref=e482] [cursor=pointer]:
+                      - /url: "#br0160"
+                      - generic [ref=e483]: "[16]"
+                    - text: ", such as time-of-flight or battery/fuel consumption, can definitely contribute to support the UTM flight planning and management tasks"
+                    - link "[17]" [ref=e484] [cursor=pointer]:
+                      - /url: "#br0170"
+                      - generic [ref=e485]: "[17]"
+                    - text: . The current Regulation about UAS management is experiencing several updates in order to face the increasing UAS market demand and the different profiles of UAS operations
+                    - link "[14]" [ref=e486] [cursor=pointer]:
+                      - /url: "#br0140"
+                      - generic [ref=e487]: "[14]"
+                    - text: ","
+                    - link "[18]" [ref=e488] [cursor=pointer]:
+                      - /url: "#br0180"
+                      - generic [ref=e489]: "[18]"
+                    - text: ","
+                    - link "[19]" [ref=e490] [cursor=pointer]:
+                      - /url: "#br0190"
+                      - generic [ref=e491]: "[19]"
+                    - text: . The development of standard scenarios
+                    - link "[20]" [ref=e492] [cursor=pointer]:
+                      - /url: "#br0200"
+                      - generic [ref=e493]: "[20]"
+                    - text: allows to define commonly used mission parameters for safe operations.
+                  - generic [ref=e494]:
+                    - text: This paper describes a Deep learning-based method to predict the UAS
+                    - link "battery" [ref=e495] [cursor=pointer]:
+                      - /url: /topics/engineering/battery-electrochemical-energy-engineering
+                    - text: consumption over an assigned path for also evaluating the wind vector effects. The prediction of battery consumption allows to better develop the mission profile for a single UAS and to better manage the overall traffic flow in a specific airspace volume.
+                  - generic [ref=e496]:
+                    - generic [ref=e497]:
+                      - text: According to worldwide regulations, the UAS operator is responsible for the operation at any time. He must develop specific operative and
+                      - link "contingency procedures" [ref=e498] [cursor=pointer]:
+                        - /url: /topics/engineering/contingency-procedure
+                      - generic [ref=e499]:
+                        - text: according to the UAS model and mission, informing the proper authority and the involved people about the planned procedures. Considering battery consumption, during the strategic phase the UAS operator must compute the battery level required by the mission and he must monitor the remaining battery level to perform proper actions if it is too low and does not allow to safely complete the mission. The roles of UAS operator and
+                        - link "remote pilot" [ref=e500] [cursor=pointer]:
+                          - /url: /topics/engineering/remote-pilot
+                        - text: are stated by regulations, e.g. in
+                    - link "[14]" [ref=e501] [cursor=pointer]:
+                      - /url: "#br0140"
+                      - generic [ref=e502]: "[14]"
+                    - text: ","
+                    - link "[15]" [ref=e503] [cursor=pointer]:
+                      - /url: "#br0150"
+                      - generic [ref=e504]: "[15]"
+                    - text: . Specific UTM services
+                    - link "[1]" [ref=e505] [cursor=pointer]:
+                      - /url: "#br0010"
+                      - generic [ref=e506]: "[1]"
+                    - text: "shall be developed to support the UAS operator during any mission phase and several studies are focusing on the identification of proper systems to implement the identified services. A solution to predict the battery consumption can support the UAS operator during the strategic phase: for example, the operator of a multirotor UAS can interrogate the battery consumption predictor to evaluate the number of batteries needed to complete the planned route or to estimate the safe level of remaining battery to land also considering the wind effects. Moreover, the battery consumption must be monitored also during the tactical phase to perform proper actions if unexpected conditions occur. If the mission must be interrupted, the UAS can land immediately or fly to a safer area before landing. In this latter condition, the UTM system or the operator can re-plan the route also considering the predicted battery consumption."
+                  - generic [ref=e507]:
+                    - generic [ref=e508]:
+                      - text: The proposed method was developed and validated using a micro
+                      - link "Remotely Piloted Aircraft" [ref=e509] [cursor=pointer]:
+                        - /url: /topics/engineering/remotely-piloted-aircraft
+                      - text: Vehicle (RPAS) in automatic mode, so the word in common use
+                    - emphasis [ref=e510]: drone
+                    - text: "is adopted. The paper is organized as follows: Section"
+                    - link "2" [ref=e511] [cursor=pointer]:
+                      - /url: "#se0020"
+                      - generic [ref=e512]: "2"
+                    - text: describes some related works and projects, Section
+                    - link "3" [ref=e513] [cursor=pointer]:
+                      - /url: "#se0030"
+                      - generic [ref=e514]: "3"
+                    - text: reports the methodology and equipment used to develop the time-of-flight and the battery consumption predictors, Section
+                    - link "4" [ref=e515] [cursor=pointer]:
+                      - /url: "#se0060"
+                      - generic [ref=e516]: "4"
+                    - text: presents the results obtained by the proposed learning-based method, Section
+                    - link "5" [ref=e517] [cursor=pointer]:
+                      - /url: "#se0100"
+                      - generic [ref=e518]: "5"
+                    - text: describes an application of the proposed method, and at the end Section
+                    - link "6" [ref=e519] [cursor=pointer]:
+                      - /url: "#se0130"
+                      - generic [ref=e520]: "6"
+                    - text: includes the conclusions.
+                - generic [ref=e521]:
+                  - heading "2. Related works" [level=2] [ref=e522]
+                  - generic [ref=e523]:
+                    - text: The recent increase of unmanned aerial traffic involves a challenging development of proper planning strategies to manage a high number of platforms, also considering the different levels of system automation
+                    - link "[21]" [ref=e524] [cursor=pointer]:
+                      - /url: "#br0210"
+                      - generic [ref=e525]: "[21]"
+                    - generic [ref=e526]:
+                      - text: . A proper assessment of
+                      - link "battery discharge" [ref=e527] [cursor=pointer]:
+                        - /url: /topics/engineering/battery-discharge
+                      - generic [ref=e528]:
+                        - text: level is a critical task especially for multirotor drones that are often characterized by limited autonomy performance, i.e. about 20-30 minutes for most commercial quadrotors, and strongly related to the environmental conditions. Several studies are interested in the prediction of the characteristic battery parameters, such as
+                        - link "State Of Charge" [ref=e529] [cursor=pointer]:
+                          - /url: /topics/materials-science/state-of-charge
+                        - text: (SOC), State Of Health (SOH), or Remaining Useful Life (RUL), and different methods have been developed
+                    - link "[22]" [ref=e530] [cursor=pointer]:
+                      - /url: "#br0220"
+                      - generic [ref=e531]: "[22]"
+                    - text: ","
+                    - link "[23]" [ref=e532] [cursor=pointer]:
+                      - /url: "#br0230"
+                      - generic [ref=e533]: "[23]"
+                    - text: ","
+                    - link "[24]" [ref=e534] [cursor=pointer]:
+                      - /url: "#br0240"
+                      - generic [ref=e535]: "[24]"
+                    - text: ","
+                    - link "[25]" [ref=e536] [cursor=pointer]:
+                      - /url: "#br0250"
+                      - generic [ref=e537]: "[25]"
+                    - text: .
+                  - generic [ref=e538]:
+                    - text: The study described in
+                    - link "[26]" [ref=e539] [cursor=pointer]:
+                      - /url: "#br0260"
+                      - generic [ref=e540]: "[26]"
+                    - generic [ref=e541]:
+                      - text: is related to the prediction of an electric aircraft battery discharge. The battery modelling is defined, and the battery state is estimated by using an approach based on Unscented
+                      - link "Kalman Filter" [ref=e542] [cursor=pointer]:
+                        - /url: /topics/engineering/kalman-filter
+                      - text: algorithm. The battery state estimate and the future loads are used to predict the battery demand. The study reported in
+                    - link "[27]" [ref=e543] [cursor=pointer]:
+                      - /url: "#br0270"
+                      - generic [ref=e544]: "[27]"
+                    - text: proposes a method to predict the battery RUL of an electric vehicle thanks to the battery SOH estimation and exploiting real-word data. In
+                    - link "[28]" [ref=e545] [cursor=pointer]:
+                      - /url: "#br0280"
+                      - generic [ref=e546]: "[28]"
+                    - text: the authors use an improved particle filter and a sliding-window grey model to predict the battery RUL.
+                  - generic [ref=e547]:
+                    - text: The study reported in
+                    - link "[29]" [ref=e548] [cursor=pointer]:
+                      - /url: "#br0290"
+                      - generic [ref=e549]: "[29]"
+                    - generic [ref=e550]:
+                      - generic [ref=e551]:
+                        - text: compares four Machine-Learning-based methods, i.e. Least Absolute Shrinkage and Selection,
+                        - link "Least Squares" [ref=e552] [cursor=pointer]:
+                          - /url: /topics/engineering/least-square
+                      - link "Support Vector machines" [ref=e553] [cursor=pointer]:
+                        - /url: /topics/engineering/support-vector-machine
+                      - generic [ref=e554]:
+                        - text: for Regression, Multi-Layer
+                        - link "Perceptron" [ref=e555] [cursor=pointer]:
+                          - /url: /topics/earth-and-planetary-sciences/self-organizing-systems
+                        - text: ", and Gradient Boosted Trees, to predict the battery RUL adopting an hexa-copter platform. In"
+                    - link "[30]" [ref=e556] [cursor=pointer]:
+                      - /url: "#br0300"
+                      - generic [ref=e557]: "[30]"
+                    - text: the authors adopt a Long-Short-Term Memory (LSTM) method to predict the battery SOC, a multiple-constraints method to estimate the battery State Of Power (SOP), and then a joint estimation applying a Kalman filter for SOC and SOP estimation. The authors in
+                    - link "[31]" [ref=e558] [cursor=pointer]:
+                      - /url: "#br0310"
+                      - generic [ref=e559]: "[31]"
+                    - generic [ref=e560]:
+                      - text: use a LSTM algorithm for sensor output prediction, then the faults are classified by using a
+                      - link "Deep Belief Network" [ref=e561] [cursor=pointer]:
+                        - /url: /topics/engineering/deep-belief-network
+                      - text: and at the end the battery RUL is estimated.
+                  - generic [ref=e562]:
+                    - generic [ref=e563]:
+                      - text: This paper proposes a data-driven approach aimed at predicting the drone
+                      - link "time of flight" [ref=e564] [cursor=pointer]:
+                        - /url: /topics/engineering/time-of-flight
+                      - text: and the absorbed current integral over a generic path. Thanks to the data-driven approach, the presented approach does not require the knowledge of the drone dynamics and new features can be added varying the training dataset. The inputs are related to the planned path geometry and the wind condition, so this strategy was developed to fit the requirements of the UTM scenario. Moreover, the prediction of the absorbed current integral can be directly used to compute the battery SOC if the battery capacity is known. Otherwise, a method to estimate the battery capacity is reported in Appendix
+                    - link "A" [ref=e565] [cursor=pointer]:
+                      - /url: "#se0140"
+                      - generic [ref=e566]: A
+                    - text: .
+                - generic [ref=e567]:
+                  - heading "3. Proposed methodology and equipment" [level=2] [ref=e568]
+                  - generic [ref=e569]:
+                    - text: The nominal maximum time-of-flight for a specific drone model is usually reported in the flight manual and it is related to the nominal battery capacity for micro and small drones. For most of commercial drones the pilot terminal reports the battery consumption as the remaining battery level, i.e. the SOC, as percentage of the battery capacity and this value is displayed on the controller and saved in the
+                    - link "telemetry" [ref=e570] [cursor=pointer]:
+                      - /url: /topics/physics-and-astronomy/telemetry
+                    - text: file. The battery level is usually reported as integer percentage.
+                  - generic [ref=e571]:
+                    - text: The evolution of the battery SOC during a flight depends instantaneously on the discharge current, i.e. the overall current absorbed on board, and on the battery capacity that is a specific parameter for each battery type and, of course, drone model. The proposed method aims at predicting the integral of the discharge current for trajectory segments, and then computing the corresponding variation of battery SOC thanks to the knowledge of the battery capacity. It must be taken into account that such a prediction is challenging because the battery discharge is characterized by a non-linear behaviour and is influenced by several parameters, such as speed and manoeuvres, trajectory geometry,
+                    - link "wind speed" [ref=e572] [cursor=pointer]:
+                      - /url: /topics/earth-and-planetary-sciences/wind-velocity
+                    - text: and orientation, payload operation, battery life cycle. By referring the prediction to the current integral for standard path segments rather than to battery SOC, the implemented predictor is valid for the specific drone and the considered flight conditions (speed, mass at take-off, etc.) for any capacity of the battery in use.
+                  - generic [ref=e573]:
+                    - generic [ref=e574]:
+                      - text: The battery SOC is mostly used to monitor flight data because it gives an immediate warning if the battery discharge is approaching a critical value. The battery SOC is related to the integral of the absorbed current and it can be computed with the
+                      - link "Coulomb Counting" [ref=e575] [cursor=pointer]:
+                        - /url: /topics/engineering/coulomb-counting
+                      - text: method
+                    - link "[25]" [ref=e576] [cursor=pointer]:
+                      - /url: "#br0250"
+                      - generic [ref=e577]: "[25]"
+                    - text: ","
+                    - link "[30]" [ref=e578] [cursor=pointer]:
+                      - /url: "#br0300"
+                      - generic [ref=e579]: "[30]"
+                    - text: ":"
+                    - generic [ref=e581]:
+                      - generic [ref=e582]: (1)
+                      - generic [ref=e584]:
+                        - img [ref=e585]
+                        - math [ref=e654]:
+                          - generic [ref=e655]: S
+                          - generic [ref=e656]: O
+                          - generic [ref=e657]:
+                            - generic [ref=e659]: C
+                            - generic [ref=e661]: t
+                          - generic [ref=e662]: =
+                          - generic [ref=e663]: S
+                          - generic [ref=e664]: O
+                          - generic [ref=e665]:
+                            - generic [ref=e667]: C
+                            - generic [ref=e669]:
+                              - generic [ref=e671]: t
+                              - generic [ref=e673]: "0"
+                          - generic [ref=e674]: −
+                          - generic [ref=e675]:
+                            - generic [ref=e677]: "1"
+                            - generic [ref=e679]: Q
+                          - generic [ref=e680]:
+                            - generic [ref=e681]: ∫
+                            - generic [ref=e683]:
+                              - generic [ref=e685]: t
+                              - generic [ref=e687]: "0"
+                            - generic [ref=e689]: t
+                          - generic [ref=e690]: c
+                          - generic [ref=e691]:
+                            - generic [ref=e692]: (
+                            - generic [ref=e693]: τ
+                            - generic [ref=e694]: )
+                          - generic [ref=e695]: d
+                          - generic [ref=e696]: τ
+                    - text: where
+                    - generic [ref=e698]:
+                      - img [ref=e699]
+                      - math [ref=e712]:
+                        - generic [ref=e713]: S
+                        - generic [ref=e714]: O
+                        - generic [ref=e715]:
+                          - generic [ref=e717]: C
+                          - generic [ref=e719]: t
+                    - text: is the battery SOC at the time instant
+                    - emphasis [ref=e720]: t
+                    - text: ","
+                    - generic [ref=e722]:
+                      - img [ref=e723]
+                      - math [ref=e741]:
+                        - generic [ref=e742]: S
+                        - generic [ref=e743]: O
+                        - generic [ref=e744]:
+                          - generic [ref=e746]: C
+                          - generic [ref=e748]:
+                            - generic [ref=e750]: t
+                            - generic [ref=e752]: "0"
+                    - text: is the battery SOC at the time instant
+                    - generic [ref=e754]:
+                      - img [ref=e755]
+                      - math [ref=e764]:
+                        - generic [ref=e765]:
+                          - generic [ref=e767]: t
+                          - generic [ref=e769]: "0"
+                    - text: ","
+                    - emphasis [ref=e770]: Q
+                    - text: is the battery capacity, and
+                    - generic [ref=e772]:
+                      - img [ref=e773]
+                      - math [ref=e784]:
+                        - generic [ref=e785]: c
+                        - generic [ref=e786]:
+                          - generic [ref=e787]: (
+                          - generic [ref=e788]: τ
+                          - generic [ref=e789]: )
+                    - text: is the discharge current.
+                  - generic [ref=e790]: Besides the battery level, the remaining flight time is of great interest because it directly influences the mission management. This parameter is often reported on the pilot display of commercial drones. It directly depends on the remaining battery level, i.e. the instantaneous SOC, but its derivation is complex because it needs the prediction of the battery discharge. So, the prediction of the remaining available flight time is a challenging task, but it is strongly needed.
+                  - generic [ref=e791]:
+                    - heading "3.1. Data acquisition" [level=3] [ref=e792]
+                    - generic [ref=e793]:
+                      - generic [ref=e794]:
+                        - text: The proposed study adopts a learning-based method to predict the battery SOC thanks to the trajectory segmentation approach described by the authors in
+                        - link "[32]" [ref=e795] [cursor=pointer]:
+                          - /url: "#br0320"
+                          - generic [ref=e796]: "[32]"
+                        - generic [ref=e797]:
+                          - text: to predict the drone time-of-flight for
+                          - link "collision detection" [ref=e798] [cursor=pointer]:
+                            - /url: /topics/engineering/collision-detection
+                          - text: applications. The trajectory segmentation approach requires first to generate the planned path as a sequence of 3D waypoints and then to cut the planned path around the waypoints in sub-paths that are called standard segments or corners. The generic
+                        - emphasis [ref=e799]: i
+                        - superscript [ref=e800]: th
+                        - text: corner is centred in the i
+                        - superscript [ref=e801]: th
+                        - text: waypoint WP
+                        - subscript [ref=e802]: i
+                        - text: "and includes two legs: the initial leg from the corner starting point"
+                        - generic [ref=e804]:
+                          - img [ref=e805]
+                          - math [ref=e814]:
+                            - generic [ref=e815]:
+                              - generic [ref=e817]: S
+                              - generic [ref=e819]: i
+                        - text: to the waypoint
+                        - generic [ref=e821]:
+                          - img [ref=e822]
+                          - math [ref=e833]:
+                            - generic [ref=e834]: W
+                            - generic [ref=e835]:
+                              - generic [ref=e837]: P
+                              - generic [ref=e839]: i
+                        - text: and the ending leg from the waypoint
+                        - generic [ref=e841]:
+                          - img [ref=e842]
+                          - math [ref=e853]:
+                            - generic [ref=e854]: W
+                            - generic [ref=e855]:
+                              - generic [ref=e857]: P
+                              - generic [ref=e859]: i
+                        - text: to the corner ending point
+                        - generic [ref=e861]:
+                          - img [ref=e862]
+                          - math [ref=e871]:
+                            - generic [ref=e872]:
+                              - generic [ref=e874]: F
+                              - generic [ref=e876]: i
+                        - text: . The points
+                        - generic [ref=e878]:
+                          - img [ref=e879]
+                          - math [ref=e888]:
+                            - generic [ref=e889]:
+                              - generic [ref=e891]: S
+                              - generic [ref=e893]: i
+                        - text: and
+                        - generic [ref=e895]:
+                          - img [ref=e896]
+                          - math [ref=e905]:
+                            - generic [ref=e906]:
+                              - generic [ref=e908]: F
+                              - generic [ref=e910]: i
+                        - text: are the intersecting points between the circle of assigned radius
+                        - emphasis [ref=e911]: ℓ
+                        - text: and the planned path, so that the starting and ending legs would have the same length, as reported in the
+                        - link "Fig. 1" [ref=e912] [cursor=pointer]:
+                          - /url: "#fg0010"
+                          - generic [ref=e913]: Fig. 1
+                        - text: . The length
+                        - emphasis [ref=e914]: ℓ
+                        - text: is fixed on the basis of the drone manoeuvring characteristics
+                        - link "[32]" [ref=e915] [cursor=pointer]:
+                          - /url: "#br0320"
+                          - generic [ref=e916]: "[32]"
+                        - text: .
+                      - figure [ref=e917]:
+                        - generic [ref=e918]:
+                          - img "Fig. 1" [ref=e919]
+                          - list [ref=e920]:
+                            - listitem [ref=e921]:
+                              - 'link "Download: Download high-res image (35KB)" [ref=e922] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr001_lrg.jpg
+                                - generic [ref=e924]: "Download: Download high-res image (35KB)"
+                            - listitem [ref=e925]:
+                              - 'link "Download: Download full-size image" [ref=e926] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr001.jpg
+                                - generic [ref=e928]: "Download: Download full-size image"
+                        - paragraph [ref=e931]:
+                          - text: Fig. 1. Configuration of a standard segment. For the
+                          - emphasis [ref=e932]: i
+                          - superscript [ref=e933]: th
+                          - text: corner
+                          - emphasis [ref=e934]: S
+                          - subscript [ref=e935]:
+                            - emphasis [ref=e936]: i
+                          - text: is the corner starting point and
+                          - emphasis [ref=e937]: F
+                          - subscript [ref=e938]:
+                            - emphasis [ref=e939]: i
+                          - text: is the corner ending point.
+                    - generic [ref=e940]:
+                      - text: The proposed study was conducted adopting the DJI® Mavic 2 Enterprise Dual
+                      - link "[33]" [ref=e941] [cursor=pointer]:
+                        - /url: "#br0330"
+                        - generic [ref=e942]: "[33]"
+                      - text: commercial drone and the Ground Software Station UgCS®
+                      - link "[34]" [ref=e943] [cursor=pointer]:
+                        - /url: "#br0340"
+                        - generic [ref=e944]: "[34]"
+                      - generic [ref=e945]:
+                        - text: to upload and manage pre-planned flights. The standard DJI® battery of the Mavic 2 series has 3850 mAh
+                        - link "nominal capacity" [ref=e946] [cursor=pointer]:
+                          - /url: /topics/engineering/nominal-capacity
+                        - text: . The portable weather meter Kestrel 5500®
+                      - link "[35]" [ref=e947] [cursor=pointer]:
+                        - /url: "#br0350"
+                        - generic [ref=e948]: "[35]"
+                      - text: manufactured by Weather Instruments was used to acquire weather data on ground. The weather meter was fixed on a tripod with a rotating vane mount to align the weathervane to the wind direction. Considering the available weather data, the wind direction and intensity data are needed for the proposed method. Specifically, the weather meter allows to compute the intensity of head and cross wind components and the pointing direction with respect to the magnetic North. As a result, the wind vector
+                      - generic [ref=e950]:
+                        - img [ref=e951]
+                        - math [ref=e960]:
+                          - generic [ref=e961]:
+                            - generic [ref=e963]: w
+                            - generic [ref=e964]: ‾
+                      - text: was computed.
+                    - generic [ref=e965]:
+                      - text: The drone performed a properly selected number of laps in terms of
+                      - emphasis [ref=e966]: standard paths
+                      - text: to acquire the data for the learning method training and
+                      - emphasis [ref=e967]: generic paths
+                      - text: to test the developed method. A
+                      - emphasis [ref=e968]: standard path
+                      - text: is a closed route planned with a characteristic turning angle -such as equilateral triangle, square, hexagon- and with the same-length sides of 30 m so that they consist of a series of standard path segment, i.e. a sequence of corners. On the other hand, a
+                      - emphasis [ref=e969]: generic path
+                      - text: is a closed route planned with different turning angles and side lengths. Both
+                      - emphasis [ref=e970]: standard paths
+                      - text: and
+                      - emphasis [ref=e971]: generic paths
+                      - generic [ref=e972]:
+                        - text: were executed at constant altitude Above Ground Level (AGL) of 20 m and at constant
+                        - link "ground speed" [ref=e973] [cursor=pointer]:
+                          - /url: /topics/engineering/ground-speed
+                        - text: of 5 m/s. The ground speed of 5 m/s was selected to use a nominal value that is adopted in standard scenarios according to
+                      - link "[20]" [ref=e974] [cursor=pointer]:
+                        - /url: "#br0200"
+                        - generic [ref=e975]: "[20]"
+                      - text: . The flights were executed in automatic mode uploading a pre-planned route and setting a turn and stop manoeuvre when the drone reaches the
+                      - generic [ref=e977]:
+                        - img [ref=e978]
+                        - math [ref=e989]:
+                          - generic [ref=e990]: W
+                          - generic [ref=e991]:
+                            - generic [ref=e993]: P
+                            - generic [ref=e995]: i
+                      - text: to guarantee a soft turn for the drone payload.
+                    - generic [ref=e996]:
+                      - generic [ref=e997]:
+                        - text: The considered
+                        - emphasis [ref=e998]: Standard paths
+                        - generic [ref=e999]:
+                          - text: "have a side length of 30 m, and the characteristic angle is a multiple of 30 deg. So, the following characteristic angles were considered: 0 deg - star shaped geometry, 30 deg - sawtooth shaped geometry, 60 deg -"
+                          - link "equilateral triangular" [ref=e1000] [cursor=pointer]:
+                            - /url: /topics/engineering/equilateral-triangular
+                          - text: geometry, 90 deg - square geometry, 120 deg - regular hexagon geometry as reported in the
+                        - link "Fig. 2" [ref=e1001] [cursor=pointer]:
+                          - /url: "#fg0080"
+                          - generic [ref=e1002]: Fig. 2
+                        - generic [ref=e1003]:
+                          - text: ", 150 deg - regular dodecagon geometry, and 180 deg -"
+                          - link "straight line" [ref=e1004] [cursor=pointer]:
+                            - /url: /topics/engineering/straight-line
+                          - text: geometry. Each
+                        - emphasis [ref=e1005]: standard path
+                        - text: was performed several times to acquire the needed data.
+                      - figure [ref=e1006]:
+                        - generic [ref=e1007]:
+                          - img "Fig. 2" [ref=e1008]
+                          - list [ref=e1009]:
+                            - listitem [ref=e1010]:
+                              - 'link "Download: Download high-res image (49KB)" [ref=e1011] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr002_lrg.jpg
+                                - generic [ref=e1013]: "Download: Download high-res image (49KB)"
+                            - listitem [ref=e1014]:
+                              - 'link "Download: Download full-size image" [ref=e1015] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr002.jpg
+                                - generic [ref=e1017]: "Download: Download full-size image"
+                        - paragraph [ref=e1020]:
+                          - text: Fig. 2. One lap drone trajectory over the
+                          - emphasis [ref=e1021]: Standard Path
+                          - text: with 120 deg characteristic angle. East North Up reference frame centred at first WP.
+                  - generic [ref=e1022]:
+                    - heading "3.2. Data processing and clean" [level=3] [ref=e1023]
+                    - generic [ref=e1024]:
+                      - generic [ref=e1025]:
+                        - text: To properly implement the learning method, training, validation, and
+                        - link "test datasets" [ref=e1026] [cursor=pointer]:
+                          - /url: /topics/engineering/test-dataset
+                        - generic [ref=e1027]:
+                          - text: must be built from experimental data. Drone
+                          - link "telemetry" [ref=e1028] [cursor=pointer]:
+                            - /url: /topics/earth-and-planetary-sciences/telemetry
+                          - text: data, acquired according to the drone telemetry rate, must be processed. The proposed supervised learning approach requires to identify the telemetry data that are associated to each performed path corner. According to the drone telemetry rate, the corner limiting points
+                      - generic [ref=e1030]:
+                        - img [ref=e1031]
+                        - math [ref=e1042]:
+                          - generic [ref=e1043]:
+                            - generic [ref=e1045]: S
+                            - generic [ref=e1046]:
+                              - generic [ref=e1047]: t
+                              - generic [ref=e1048]: i
+                      - text: and
+                      - generic [ref=e1050]:
+                        - img [ref=e1051]
+                        - math [ref=e1062]:
+                          - generic [ref=e1063]:
+                            - generic [ref=e1065]: F
+                            - generic [ref=e1066]:
+                              - generic [ref=e1067]: t
+                              - generic [ref=e1068]: i
+                      - generic [ref=e1069]:
+                        - text: were identified as the telemetry samples with the
+                        - link "minimum Euclidean distance" [ref=e1070] [cursor=pointer]:
+                          - /url: /topics/engineering/minimum-euclidean-distance
+                        - text: to the planned
+                      - generic [ref=e1072]:
+                        - img [ref=e1073]
+                        - math [ref=e1082]:
+                          - generic [ref=e1083]:
+                            - generic [ref=e1085]: S
+                            - generic [ref=e1087]: i
+                      - text: and
+                      - generic [ref=e1089]:
+                        - img [ref=e1090]
+                        - math [ref=e1099]:
+                          - generic [ref=e1100]:
+                            - generic [ref=e1102]: F
+                            - generic [ref=e1104]: i
+                      - text: points, respectively. The telemetry samples included in the range that is limited by
+                      - generic [ref=e1106]:
+                        - img [ref=e1107]
+                        - math [ref=e1118]:
+                          - generic [ref=e1119]:
+                            - generic [ref=e1121]: S
+                            - generic [ref=e1122]:
+                              - generic [ref=e1123]: t
+                              - generic [ref=e1124]: i
+                      - text: and
+                      - generic [ref=e1126]:
+                        - img [ref=e1127]
+                        - math [ref=e1138]:
+                          - generic [ref=e1139]:
+                            - generic [ref=e1141]: F
+                            - generic [ref=e1142]:
+                              - generic [ref=e1143]: t
+                              - generic [ref=e1144]: i
+                      - text: belong to the considered path corner. Each flown corner represents a sample that will be used to train the learning method.
+                    - generic [ref=e1145]:
+                      - text: For the generic
+                      - emphasis [ref=e1146]: i
+                      - superscript [ref=e1147]: th
+                      - text: "corner the following six parameters were considered:"
+                      - list [ref=e1148]:
+                        - listitem [ref=e1149]:
+                          - generic [ref=e1150]: "1."
+                          - generic [ref=e1152]: the corner characteristic angle, i.e. the inner angle between the corner legs,
+                        - listitem [ref=e1153]:
+                          - generic [ref=e1154]: "2."
+                          - generic [ref=e1156]:
+                            - text: the angle between
+                            - generic [ref=e1158]:
+                              - img [ref=e1159]
+                              - math [ref=e1168]:
+                                - generic [ref=e1169]:
+                                  - generic [ref=e1171]: w
+                                  - generic [ref=e1172]: ‾
+                            - text: and
+                            - generic [ref=e1174]:
+                              - img [ref=e1175]
+                              - math [ref=e1200]:
+                                - generic [ref=e1201]:
+                                  - generic [ref=e1202]:
+                                    - generic [ref=e1203]:
+                                      - generic [ref=e1205]: S
+                                      - generic [ref=e1207]: i
+                                    - generic [ref=e1208]: W
+                                    - generic [ref=e1209]:
+                                      - generic [ref=e1211]: P
+                                      - generic [ref=e1213]: i
+                                  - generic [ref=e1214]: ‾
+                            - text: ","
+                        - listitem [ref=e1215]:
+                          - generic [ref=e1216]: "3."
+                          - generic [ref=e1218]:
+                            - text: the angle between
+                            - generic [ref=e1220]:
+                              - img [ref=e1221]
+                              - math [ref=e1230]:
+                                - generic [ref=e1231]:
+                                  - generic [ref=e1233]: w
+                                  - generic [ref=e1234]: ‾
+                            - text: and
+                            - generic [ref=e1236]:
+                              - img [ref=e1237]
+                              - math [ref=e1262]:
+                                - generic [ref=e1263]:
+                                  - generic [ref=e1264]:
+                                    - generic [ref=e1265]: W
+                                    - generic [ref=e1266]:
+                                      - generic [ref=e1268]: P
+                                      - generic [ref=e1270]: i
+                                    - generic [ref=e1271]:
+                                      - generic [ref=e1273]: F
+                                      - generic [ref=e1275]: i
+                                  - generic [ref=e1276]: ‾
+                            - text: ","
+                        - listitem [ref=e1277]:
+                          - generic [ref=e1278]: "4."
+                          - generic [ref=e1280]:
+                            - text: the wind intensity
+                            - generic [ref=e1282]:
+                              - img [ref=e1283]
+                              - math [ref=e1296]:
+                                - generic [ref=e1297]: "|"
+                                - generic [ref=e1298]:
+                                  - generic [ref=e1300]: w
+                                  - generic [ref=e1301]: ‾
+                                - generic [ref=e1302]: "|"
+                            - text: ","
+                        - listitem [ref=e1303]:
+                          - generic [ref=e1304]: "5."
+                          - generic [ref=e1306]:
+                            - text: the time to fly from
+                            - generic [ref=e1308]:
+                              - img [ref=e1309]
+                              - math [ref=e1320]:
+                                - generic [ref=e1321]:
+                                  - generic [ref=e1323]: S
+                                  - generic [ref=e1324]:
+                                    - generic [ref=e1325]: t
+                                    - generic [ref=e1326]: i
+                            - text: to
+                            - generic [ref=e1328]:
+                              - img [ref=e1329]
+                              - math [ref=e1340]:
+                                - generic [ref=e1341]:
+                                  - generic [ref=e1343]: F
+                                  - generic [ref=e1344]:
+                                    - generic [ref=e1345]: t
+                                    - generic [ref=e1346]: i
+                            - text: ","
+                        - listitem [ref=e1347]:
+                          - generic [ref=e1348]: "6."
+                          - generic [ref=e1350]:
+                            - text: the integral of the absorbed current over the time interval to fly from
+                            - generic [ref=e1352]:
+                              - img [ref=e1353]
+                              - math [ref=e1364]:
+                                - generic [ref=e1365]:
+                                  - generic [ref=e1367]: S
+                                  - generic [ref=e1368]:
+                                    - generic [ref=e1369]: t
+                                    - generic [ref=e1370]: i
+                            - text: to
+                            - generic [ref=e1372]:
+                              - img [ref=e1373]
+                              - math [ref=e1384]:
+                                - generic [ref=e1385]:
+                                  - generic [ref=e1387]: F
+                                  - generic [ref=e1388]:
+                                    - generic [ref=e1389]: t
+                                    - generic [ref=e1390]: i
+                            - text: .
+                    - generic [ref=e1391]:
+                      - text: The first input is the nominal inner corner angle. The second and the third inputs are computed considering the nominal course angle and the measured wind direction. The wind intensity input is measured by the
+                      - link "weather station" [ref=e1392] [cursor=pointer]:
+                        - /url: /topics/physics-and-astronomy/weather-stations
+                      - text: . The time to fly and the current integral are computed by using the telemetry data.
+                    - generic [ref=e1393]:
+                      - text: The angles between the wind direction and the two legs of the corner were approximated to the nearest multiple of 30 deg angle. Wind intensity was reported in m/s in the telemetry files. The correspondent Beaufort category
+                      - link "[36]" [ref=e1394] [cursor=pointer]:
+                        - /url: "#br0360"
+                        - generic [ref=e1395]: "[36]"
+                      - text: was associated to classify the wind intensity in a limited number of categories. The performed flights include wind intensity values from the category 0 to the category 3, i.e. from calm wind up to 10 kts, that are wind conditions in which most drone operations are allowed.
+                    - generic [ref=e1396]:
+                      - text: The current integral included in
+                      - link "(1)" [ref=e1397] [cursor=pointer]:
+                        - /url: "#fm0010"
+                        - generic [ref=e1398]: (1)
+                      - text: can be numerically computed over the i
+                      - superscript [ref=e1399]: th
+                      - text: corner flight-time interval on the basis of telemetry data by using the trapezoidal rule
+                      - link "[37]" [ref=e1400] [cursor=pointer]:
+                        - /url: "#br0370"
+                        - generic [ref=e1401]: "[37]"
+                      - text: and it is named
+                      - generic [ref=e1403]:
+                        - img [ref=e1404]
+                        - math [ref=e1419]:
+                          - generic [ref=e1420]: c
+                          - generic [ref=e1421]: u
+                          - generic [ref=e1422]: r
+                          - generic [ref=e1423]:
+                            - generic [ref=e1425]: r
+                            - generic [ref=e1427]: i
+                      - text: in
+                      - link "(2)" [ref=e1428] [cursor=pointer]:
+                        - /url: "#fm0020"
+                        - generic [ref=e1429]: (2)
+                      - generic [ref=e1431]:
+                        - generic [ref=e1432]: (2)
+                        - generic [ref=e1434]:
+                          - img [ref=e1435]
+                          - math [ref=e1521]:
+                            - generic [ref=e1522]: c
+                            - generic [ref=e1523]: u
+                            - generic [ref=e1524]: r
+                            - generic [ref=e1525]:
+                              - generic [ref=e1527]: r
+                              - generic [ref=e1529]: i
+                            - generic [ref=e1530]: =
+                            - generic [ref=e1531]:
+                              - generic [ref=e1532]: ∑
+                              - generic [ref=e1533]:
+                                - generic [ref=e1534]: k
+                                - generic [ref=e1535]: =
+                                - generic [ref=e1536]: "1"
+                              - generic [ref=e1538]:
+                                - generic [ref=e1540]: K
+                                - generic [ref=e1542]: i
+                            - generic [ref=e1543]:
+                              - generic [ref=e1544]:
+                                - generic [ref=e1545]:
+                                  - generic [ref=e1547]: c
+                                  - generic [ref=e1548]:
+                                    - generic [ref=e1549]: k
+                                    - generic [ref=e1550]: −
+                                    - generic [ref=e1551]: "1"
+                                - generic [ref=e1552]: +
+                                - generic [ref=e1553]:
+                                  - generic [ref=e1555]: c
+                                  - generic [ref=e1557]: k
+                              - generic [ref=e1559]: "2"
+                            - generic [ref=e1560]: (
+                            - generic [ref=e1561]:
+                              - generic [ref=e1563]: t
+                              - generic [ref=e1565]: k
+                            - generic [ref=e1566]: −
+                            - generic [ref=e1567]:
+                              - generic [ref=e1569]: t
+                              - generic [ref=e1570]:
+                                - generic [ref=e1571]: k
+                                - generic [ref=e1572]: −
+                                - generic [ref=e1573]: "1"
+                            - generic [ref=e1574]: )
+                      - text: where
+                      - generic [ref=e1576]:
+                        - img [ref=e1577]
+                        - math [ref=e1586]:
+                          - generic [ref=e1587]:
+                            - generic [ref=e1589]: c
+                            - generic [ref=e1591]: k
+                      - text: is the current value at the time instant
+                      - generic [ref=e1593]:
+                        - img [ref=e1594]
+                        - math [ref=e1603]:
+                          - generic [ref=e1604]:
+                            - generic [ref=e1606]: t
+                            - generic [ref=e1608]: k
+                      - text: ","
+                      - generic [ref=e1610]:
+                        - img [ref=e1611]
+                        - math [ref=e1624]:
+                          - generic [ref=e1625]:
+                            - generic [ref=e1627]: c
+                            - generic [ref=e1628]:
+                              - generic [ref=e1629]: k
+                              - generic [ref=e1630]: −
+                              - generic [ref=e1631]: "1"
+                      - text: is the current value at the time instant
+                      - generic [ref=e1633]:
+                        - img [ref=e1634]
+                        - math [ref=e1647]:
+                          - generic [ref=e1648]:
+                            - generic [ref=e1650]: t
+                            - generic [ref=e1651]:
+                              - generic [ref=e1652]: k
+                              - generic [ref=e1653]: −
+                              - generic [ref=e1654]: "1"
+                      - text: ", and"
+                      - generic [ref=e1656]:
+                        - img [ref=e1657]
+                        - math [ref=e1666]:
+                          - generic [ref=e1667]:
+                            - generic [ref=e1669]: K
+                            - generic [ref=e1671]: i
+                      - text: is the number of the available telemetry samples for the generic
+                      - emphasis [ref=e1672]: i
+                      - superscript [ref=e1673]: th
+                      - text: corner according to the telemetry data rate which is not rigorous. This value is used to evaluate, by means of equation
+                      - link "(1)" [ref=e1674] [cursor=pointer]:
+                        - /url: "#fm0010"
+                        - generic [ref=e1675]: (1)
+                      - text: ", the battery SOC change associated to the flight over the considered corner."
+                    - generic [ref=e1676]:
+                      - text: The initial database includes the data of all the corners flown during several drone flights. The standard deviation was computed for the time of flight and for the integral of current for each kind of standard corner, and the presence of several out-data in the collected samples was noticed. This strongly affects the learning capability, so a threshold of 3
+                      - emphasis [ref=e1677]: σ
+                      - text: "was set to both time and integral of current datasets: samples outside the"
+                      - generic [ref=e1679]:
+                        - img [ref=e1680]
+                        - math [ref=e1692]:
+                          - generic [ref=e1693]: +
+                          - generic [ref=e1694]: /
+                          - generic [ref=e1695]: −
+                          - generic [ref=e1696]: "3"
+                          - generic [ref=e1697]: σ
+                      - generic [ref=e1698]:
+                        - text: threshold with respect to the mean value are not used to train the
+                        - link "Neural Network" [ref=e1699] [cursor=pointer]:
+                          - /url: /topics/chemical-engineering/neural-network
+                        - text: (NN). After out-data removal, 726 valid samples were included in the database on the whole.
+                - generic [ref=e1700]:
+                  - heading "4. Predictor development and results" [level=2] [ref=e1701]
+                  - generic [ref=e1702]: The proposed method aims to predict the time-of-flight and the integral of the battery discharge current over a path corner. So, proper learning algorithms must be identified.
+                  - generic [ref=e1703]:
+                    - heading "4.1. Learning phase" [level=3] [ref=e1704]
+                    - generic [ref=e1705]:
+                      - generic [ref=e1706]:
+                        - generic [ref=e1707]:
+                          - text: After analyzing different
+                          - link "Deep Learning algorithms" [ref=e1708] [cursor=pointer]:
+                            - /url: /topics/engineering/deep-learning
+                        - link "[38]" [ref=e1709] [cursor=pointer]:
+                          - /url: "#br0380"
+                          - generic [ref=e1710]: "[38]"
+                        - text: ","
+                        - link "[39]" [ref=e1711] [cursor=pointer]:
+                          - /url: "#br0390"
+                          - generic [ref=e1712]: "[39]"
+                        - text: ","
+                        - link "[40]" [ref=e1713] [cursor=pointer]:
+                          - /url: "#br0400"
+                          - generic [ref=e1714]: "[40]"
+                        - text: ","
+                        - link "[41]" [ref=e1715] [cursor=pointer]:
+                          - /url: "#br0410"
+                          - generic [ref=e1716]: "[41]"
+                        - text: and realizing preliminary tests
+                        - link "[42]" [ref=e1717] [cursor=pointer]:
+                          - /url: "#br0420"
+                          - generic [ref=e1718]: "[42]"
+                        - generic [ref=e1719]:
+                          - text: ", the"
+                          - link "feedforward NN" [ref=e1720] [cursor=pointer]:
+                            - /url: /topics/chemical-engineering/feedforward-neural-network
+                          - generic [ref=e1721]:
+                            - text: architecture was selected. The
+                            - link "feedforward" [ref=e1722] [cursor=pointer]:
+                              - /url: /topics/engineering/feedforward
+                            - generic [ref=e1723]:
+                              - link "NN architecture" [ref=e1724] [cursor=pointer]:
+                                - /url: /topics/engineering/neural-network-architecture
+                              - text: was adopted as classifier considering different path geometries that were executed by the drone in several wind conditions, according to the strategy described in
+                        - link "[42]" [ref=e1725] [cursor=pointer]:
+                          - /url: "#br0420"
+                          - generic [ref=e1726]: "[42]"
+                        - text: . Two independent feedforward NNs were developed, i.e. the Time-Predictor (TP) NN and the Battery-Discharge-Predictor (BDP) NN, to predict, respectively, the time-of-flight and the current integral over a standard path corner. Both NNs were trained by using a discrete range of path geometries -that are called
+                        - emphasis [ref=e1727]: standard paths-
+                        - text: and categories of wind conditions. The MATLAB® Deep Learning Toolbox
+                        - superscript [ref=e1728]: TM
+                        - generic [ref=e1729]:
+                          - generic [ref=e1730]:
+                            - text: was adopted, and the Bayesian
+                            - link "Regularization" [ref=e1731] [cursor=pointer]:
+                              - /url: /topics/engineering/regularization
+                          - link "Backpropagation" [ref=e1732] [cursor=pointer]:
+                            - /url: /topics/chemical-engineering/backpropagation
+                          - text: function was selected to train both NNs because it allows to achieve better results with large variability data
+                        - link "[39]" [ref=e1733] [cursor=pointer]:
+                          - /url: "#br0390"
+                          - generic [ref=e1734]: "[39]"
+                        - text: ","
+                        - link "[43]" [ref=e1735] [cursor=pointer]:
+                          - /url: "#br0430"
+                          - generic [ref=e1736]: "[43]"
+                        - text: ","
+                        - link "[44]" [ref=e1737] [cursor=pointer]:
+                          - /url: "#br0440"
+                          - generic [ref=e1738]: "[44]"
+                        - text: . Moreover, this function does not need a validation dataset. The samples were randomly assigned to the datasets. The main parameters that were set to develop both NN architectures are reported in
+                        - link "Table 1" [ref=e1739] [cursor=pointer]:
+                          - /url: "#tbl0010"
+                          - generic [ref=e1740]: Table 1
+                        - text: .
+                      - generic [ref=e1741]:
+                        - paragraph [ref=e1744]:
+                          - text: Table 1. Characteristics of the
+                          - link "NN architectures" [ref=e1745] [cursor=pointer]:
+                            - /url: /topics/engineering/neural-network-architecture
+                          - text: .
+                        - table [ref=e1747]:
+                          - rowgroup [ref=e1748]:
+                            - row "Parameter Value" [ref=e1749]:
+                              - rowheader "Parameter" [ref=e1750]
+                              - columnheader "Value" [ref=e1751]
+                          - rowgroup [ref=e1752]:
+                            - row "Training Function Bayesian Regularization Backpropagation" [ref=e1753]:
+                              - rowheader "Training Function" [ref=e1754]
+                              - cell "Bayesian Regularization Backpropagation" [ref=e1755]
+                            - row "Network Architecture Feedforward, fully connected" [ref=e1756]:
+                              - rowheader "Network Architecture" [ref=e1757]
+                              - cell "Feedforward, fully connected" [ref=e1758]
+                            - row "Training, Validation, and Test Datasets 85%, 0%, 15%" [ref=e1759]:
+                              - rowheader "Training, Validation, and Test Datasets" [ref=e1760]
+                              - cell "85%, 0%, 15%" [ref=e1761]
+                            - row "Number of Epochs 1000" [ref=e1762]:
+                              - rowheader "Number of Epochs" [ref=e1763]
+                              - cell "1000" [ref=e1764]
+                            - row "Number of input data 4" [ref=e1765]:
+                              - rowheader "Number of input data" [ref=e1766]
+                              - cell "4" [ref=e1767]
+                            - row "Number of output data 1" [ref=e1768]:
+                              - rowheader "Number of output data" [ref=e1769]
+                              - cell "1" [ref=e1770]
+                    - generic [ref=e1771]:
+                      - generic [ref=e1772]:
+                        - text: To properly define the number of hidden layers and neurons, an incremental approach was followed analyzing the 1-hidden-layer and 2-hidden-layers architectures with increasing numbers of neurons. The NN performance of each considered configuration, i.e. numbers of layers and of neurons was estimated by using the Normalized
+                        - link "Root Mean Square Error" [ref=e1773] [cursor=pointer]:
+                          - /url: /topics/earth-and-planetary-sciences/root-mean-square-error
+                        - text: "(NRMSE):"
+                      - generic [ref=e1775]:
+                        - generic [ref=e1776]: (3)
+                        - generic [ref=e1778]:
+                          - img [ref=e1779]
+                          - math [ref=e1852]:
+                            - generic [ref=e1853]:
+                              - generic [ref=e1854]: NRMSE
+                              - generic [ref=e1855]: =
+                              - generic [ref=e1857]:
+                                - generic [ref=e1858]:
+                                  - generic [ref=e1860]: "1"
+                                  - generic [ref=e1862]: "N"
+                                - generic [ref=e1863]:
+                                  - generic [ref=e1864]: ∑
+                                  - generic [ref=e1865]:
+                                    - generic [ref=e1866]: i
+                                    - generic [ref=e1867]: =
+                                    - generic [ref=e1868]: "1"
+                                  - generic [ref=e1870]: "N"
+                                - generic [ref=e1871]:
+                                  - generic [ref=e1872]:
+                                    - generic [ref=e1873]: (
+                                    - generic [ref=e1874]:
+                                      - generic [ref=e1875]:
+                                        - generic [ref=e1876]:
+                                          - generic [ref=e1878]: v
+                                          - generic [ref=e1880]: t
+                                        - generic [ref=e1881]: −
+                                        - generic [ref=e1882]:
+                                          - generic [ref=e1884]: v
+                                          - generic [ref=e1886]: p
+                                      - generic [ref=e1888]:
+                                        - generic [ref=e1890]: v
+                                        - generic [ref=e1892]: t
+                                    - generic [ref=e1893]: )
+                                  - generic [ref=e1895]: "2"
+                      - text: where
+                      - generic [ref=e1897]:
+                        - img [ref=e1898]
+                        - math [ref=e1907]:
+                          - generic [ref=e1908]:
+                            - generic [ref=e1910]: v
+                            - generic [ref=e1912]: t
+                      - text: is the true value of the predicted parameter, i.e. flight-time or current integral,
+                      - generic [ref=e1914]:
+                        - img [ref=e1915]
+                        - math [ref=e1924]:
+                          - generic [ref=e1925]:
+                            - generic [ref=e1927]: v
+                            - generic [ref=e1929]: p
+                      - text: is the predicted value, and
+                      - emphasis [ref=e1930]: "N"
+                      - generic [ref=e1931]:
+                        - text: is the number of samples, i.e. the number of samples in the training or
+                        - link "test dataset" [ref=e1932] [cursor=pointer]:
+                          - /url: /topics/engineering/test-dataset
+                        - text: . To reduce the dependency of the NN performance on the sample assignment to training and test datasets, the training phase was repeated 10 times with the random assignment mode for each NN configuration which was considered; the mean value of the NRMSE over the 10 repetition was used as figure of merit for each considered configuration. The increase of the neuron number was stopped when the NRMSE reaches an almost constant value. Following this strategy, a maximum number of 10 neurons in each layer was reached.
+                    - generic [ref=e1933]:
+                      - generic [ref=e1934]:
+                        - text: The 2-layer architecture was selected because it shows a better generalization behaviour. To select the optimal number of neurons in each hidden layer, the mentioned (average) NRMSE in percentage and the relative number of effective NN parameters that was computed thanks to the MATLAB® Deep Learning Toolbox
+                        - superscript [ref=e1935]: TM
+                        - text: routines in use
+                        - link "[45]" [ref=e1936] [cursor=pointer]:
+                          - /url: "#br0450"
+                          - generic [ref=e1937]: "[45]"
+                        - text: were analyzed. R is the ratio between the number of effective NN parameters and the total number of NN parameters in percentage.
+                        - link "Fig. 3" [ref=e1938] [cursor=pointer]:
+                          - /url: "#fg0020"
+                          - generic [ref=e1939]: Fig. 3
+                        - text: shows the resulting performance of the 2-hidden-layer architecture, for the TP NN and for the BDP NN, varying the number of neurons. The displayed number of neurons is the total number of neurons in the two layers. The plot reports the percent values of NRMSE and R.
+                      - figure [ref=e1940]:
+                        - generic [ref=e1941]:
+                          - img "Fig. 3" [ref=e1942]
+                          - list [ref=e1943]:
+                            - listitem [ref=e1944]:
+                              - 'link "Download: Download high-res image (239KB)" [ref=e1945] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr003_lrg.jpg
+                                - generic [ref=e1947]: "Download: Download high-res image (239KB)"
+                            - listitem [ref=e1948]:
+                              - 'link "Download: Download full-size image" [ref=e1949] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr003.jpg
+                                - generic [ref=e1951]: "Download: Download full-size image"
+                        - paragraph [ref=e1954]: Fig. 3. NRMSE (left-axis) and R (right axis) for different 2-layers NN configurations varying the number of neurons. a) Time-Predictor (TP) NN performance. b) Battery-Discharge-Predictor (BDP) NN performance.
+                    - generic [ref=e1955]:
+                      - generic [ref=e1956]:
+                        - text: The number of neurons in the first and in the second hidden layers that allows a low NRMSE in the almost constant region of R results to be, respectively, 4 and 6 for the TP NN, whilst it is 5 and 6 for the BDP NN.
+                        - link "Table 2" [ref=e1957] [cursor=pointer]:
+                          - /url: "#tbl0020"
+                          - generic [ref=e1958]: Table 2
+                        - text: reports the performance of the selected NNs for training and test datasets.
+                      - generic [ref=e1959]:
+                        - paragraph [ref=e1962]: Table 2. NN performance for the selected Time-Predictor (TP) NN and Battery-Discharge-Predictor (BDP) NN.
+                        - table [ref=e1964]:
+                          - rowgroup [ref=e1965]:
+                            - row "NN (neurons in the two hidden layers) NRMSE Training NRMSE Test R" [ref=e1966]:
+                              - rowheader "NN (neurons in the two hidden layers)" [ref=e1967]
+                              - columnheader "NRMSE Training" [ref=e1968]
+                              - columnheader "NRMSE Test" [ref=e1969]
+                              - columnheader "R" [ref=e1970]
+                          - rowgroup [ref=e1971]:
+                            - row "Time-Predictor NN (4,6) neurons 2.16% 2.19% 39.3%" [ref=e1972]:
+                              - rowheader "Time-Predictor NN (4,6) neurons" [ref=e1973]
+                              - cell "2.16%" [ref=e1974]
+                              - cell "2.19%" [ref=e1975]
+                              - cell "39.3%" [ref=e1976]
+                            - row "Battery-Discharge-Predictor NN (5,6) neurons 3.88% 3.98% 39.7%" [ref=e1977]:
+                              - rowheader "Battery-Discharge-Predictor NN (5,6) neurons" [ref=e1978]
+                              - cell "3.88%" [ref=e1979]
+                              - cell "3.98%" [ref=e1980]
+                              - cell "39.7%" [ref=e1981]
+                  - generic [ref=e1982]:
+                    - heading "4.2. Test phase" [level=3] [ref=e1983]
+                    - generic [ref=e1984]:
+                      - generic [ref=e1985]:
+                        - text: Four
+                        - emphasis [ref=e1986]: generic paths
+                        - text: were designed and flown four times to test the method, as reported in
+                        - link "Fig. 4" [ref=e1987] [cursor=pointer]:
+                          - /url: "#fg0030"
+                          - generic [ref=e1988]: Fig. 4
+                        - text: . The selected paths mimic the route for a typical surveillance or last-mile packet delivery mission. To predict the time-of-flight and the integral of the current over
+                        - emphasis [ref=e1989]: generic paths
+                        - generic [ref=e1990]:
+                          - text: ", they were segmented in corners and the predicted values over each corner were summed;"
+                          - link "linear extrapolation" [ref=e1991] [cursor=pointer]:
+                            - /url: /topics/engineering/linear-extrapolation
+                          - text: over straight segments longer that the 180 deg standard corner was adopted according to the strategy reported in
+                        - link "[32]" [ref=e1992] [cursor=pointer]:
+                          - /url: "#br0320"
+                          - generic [ref=e1993]: "[32]"
+                        - text: .
+                      - figure [ref=e1994]:
+                        - generic [ref=e1995]:
+                          - img "Fig. 4" [ref=e1996]
+                          - list [ref=e1997]:
+                            - listitem [ref=e1998]:
+                              - 'link "Download: Download high-res image (429KB)" [ref=e1999] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr004_lrg.jpg
+                                - generic [ref=e2001]: "Download: Download high-res image (429KB)"
+                            - listitem [ref=e2002]:
+                              - 'link "Download: Download full-size image" [ref=e2003] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr004.jpg
+                                - generic [ref=e2005]: "Download: Download full-size image"
+                        - paragraph [ref=e2008]:
+                          - text: Fig. 4. One lap drone trajectory over
+                          - emphasis [ref=e2009]: generic Path
+                          - text: s. East North Up reference frame centred at first WP. a) Path 1. b) Path 2. c) Path 3. d) Path 4.
+                    - generic [ref=e2010]:
+                      - generic [ref=e2011]:
+                        - text: The results computed for the
+                        - emphasis [ref=e2012]: generic paths
+                        - text: based on corner prediction are reported in the
+                        - link "Table 3" [ref=e2013] [cursor=pointer]:
+                          - /url: "#tbl0030"
+                          - generic [ref=e2014]: Table 3
+                        - text: .
+                      - generic [ref=e2015]:
+                        - paragraph [ref=e2018]:
+                          - text: Table 3. NN performance for Time-Predictor (TP) NN and Battery-Discharge-Predictor (BDP) NN over four
+                          - emphasis [ref=e2019]: generic paths
+                          - text: . Each path was executed four times. The TP NN involves 4 and 6 neurons in each hidden layer. The BDP NN involves 5 and 6 neurons in each hidden layer.
+                        - table [ref=e2021]:
+                          - rowgroup [ref=e2022]:
+                            - row "NN (neurons in the two hidden layers) NRMSE" [ref=e2023]:
+                              - columnheader "NN (neurons in the two hidden layers)" [ref=e2024]
+                              - columnheader "NRMSE" [ref=e2025]
+                            - row "Path 1 Path 2 Path 3 Path 4" [ref=e2026]:
+                              - columnheader "Path 1" [ref=e2027]
+                              - columnheader "Path 2" [ref=e2028]
+                              - columnheader "Path 3" [ref=e2029]
+                              - columnheader "Path 4" [ref=e2030]
+                          - rowgroup [ref=e2031]:
+                            - row "Time-Predictor NN (4,6) neurons 9.61% 8.98% 10.20% 12.70%" [ref=e2032]:
+                              - rowheader "Time-Predictor NN (4,6) neurons" [ref=e2033]
+                              - cell "9.61%" [ref=e2034]
+                              - cell "8.98%" [ref=e2035]
+                              - cell "10.20%" [ref=e2036]
+                              - cell "12.70%" [ref=e2037]
+                            - row "Battery-Discharge-Predictor NN (5,6) neurons 13.79% 16.28% 13.94% 16.66%" [ref=e2038]:
+                              - rowheader "Battery-Discharge-Predictor NN (5,6) neurons" [ref=e2039]
+                              - cell "13.79%" [ref=e2040]
+                              - cell "16.28%" [ref=e2041]
+                              - cell "13.94%" [ref=e2042]
+                              - cell "16.66%" [ref=e2043]
+                    - generic [ref=e2044]:
+                      - text: The sides of Path 1 and Path 2 have all the same length, and it is equal to a standard corner leg, so the predicted values of time and current for the complete path were computed summing the predicted values over corners. Instead, Path 3 and Path 4 involve different length sides, so the predicted values of time and current were computed summing the predicted values over corners and adding proportional values for the remaining part of sides. For the time prediction, the constant speed value of 5 m/s was considered, for the integral of current prediction a mean value of current integral was estimated with straight path
+                      - link "flight tests" [ref=e2045] [cursor=pointer]:
+                        - /url: /topics/physics-and-astronomy/flight-test
+                      - text: .
+                    - generic [ref=e2046]:
+                      - generic [ref=e2047]:
+                        - link "Table 4" [ref=e2048] [cursor=pointer]:
+                          - /url: "#tbl0040"
+                          - generic [ref=e2049]: Table 4
+                        - text: reports the true values and the predicted values of time and current integral over a single lap of each path. The predicted results are lower than the true values because the proposed learning method was trained collecting data in a discrete number of categories that involves specific path geometry and wind condition. So, the generalization capability is affected by the training dataset. However, the difference between the true values and the predicted values is within an acceptable range in terms of flight time and absorbed current integral that are critical parameters for most of current applications.
+                      - generic [ref=e2050]:
+                        - paragraph [ref=e2053]:
+                          - text: Table 4. True value and predicted value of time and current integral over the first lap of each
+                          - emphasis [ref=e2054]: generic path
+                          - text: .
+                        - table [ref=e2056]:
+                          - rowgroup [ref=e2057]:
+                            - row "Empty Cell Time of flight (s) Absorbed current integral (As)" [ref=e2058]:
+                              - cell "Empty Cell" [ref=e2059]:
+                                - generic [ref=e2060]: Empty Cell
+                              - columnheader "Time of flight (s)" [ref=e2061]
+                              - columnheader "Absorbed current integral (As)" [ref=e2062]
+                            - row "True NN Prediction True NN Prediction" [ref=e2063]:
+                              - columnheader "True" [ref=e2064]
+                              - columnheader "NN Prediction" [ref=e2065]
+                              - columnheader "True" [ref=e2066]
+                              - columnheader "NN Prediction" [ref=e2067]
+                          - rowgroup [ref=e2068]:
+                            - row "Path 1 129.7 120.6 962.4 927.8" [ref=e2069]:
+                              - rowheader "Path 1" [ref=e2070]
+                              - cell "129.7" [ref=e2071]
+                              - cell "120.6" [ref=e2072]
+                              - cell "962.4" [ref=e2073]
+                              - cell "927.8" [ref=e2074]
+                            - row "Path 2 112.3 108.8 884.6 839.8" [ref=e2075]:
+                              - rowheader "Path 2" [ref=e2076]
+                              - cell "112.3" [ref=e2077]
+                              - cell "108.8" [ref=e2078]
+                              - cell "884.6" [ref=e2079]
+                              - cell "839.8" [ref=e2080]
+                            - row "Path 3 114.0 107.5 853.2 836.8" [ref=e2081]:
+                              - rowheader "Path 3" [ref=e2082]
+                              - cell "114.0" [ref=e2083]
+                              - cell "107.5" [ref=e2084]
+                              - cell "853.2" [ref=e2085]
+                              - cell "836.8" [ref=e2086]
+                            - row "Path 4 130.1 124.9 984.6 967.5" [ref=e2087]:
+                              - rowheader "Path 4" [ref=e2088]
+                              - cell "130.1" [ref=e2089]
+                              - cell "124.9" [ref=e2090]
+                              - cell "984.6" [ref=e2091]
+                              - cell "967.5" [ref=e2092]
+                  - generic [ref=e2093]:
+                    - heading "4.3. Battery SOC estimation" [level=3] [ref=e2094]
+                    - generic [ref=e2095]:
+                      - text: The battery SOC variation due to flying the generic
+                      - emphasis [ref=e2096]: i
+                      - superscript [ref=e2097]: th
+                      - text: corner is
+                      - generic [ref=e2099]:
+                        - generic [ref=e2100]: (4)
+                        - generic [ref=e2102]:
+                          - img [ref=e2103]
+                          - math [ref=e2158]:
+                            - generic [ref=e2159]: Δ
+                            - generic [ref=e2160]: S
+                            - generic [ref=e2161]: O
+                            - generic [ref=e2162]:
+                              - generic [ref=e2164]: C
+                              - generic [ref=e2166]: i
+                            - generic [ref=e2167]: =
+                            - generic [ref=e2168]: S
+                            - generic [ref=e2169]: O
+                            - generic [ref=e2170]:
+                              - generic [ref=e2172]: C
+                              - generic [ref=e2173]:
+                                - generic [ref=e2174]: i
+                                - generic [ref=e2175]: ","
+                                - generic [ref=e2176]: i
+                                - generic [ref=e2177]: "n"
+                            - generic [ref=e2178]: −
+                            - generic [ref=e2179]: S
+                            - generic [ref=e2180]: O
+                            - generic [ref=e2181]:
+                              - generic [ref=e2183]: C
+                              - generic [ref=e2184]:
+                                - generic [ref=e2185]: i
+                                - generic [ref=e2186]: ","
+                                - generic [ref=e2187]: f
+                                - generic [ref=e2188]: i
+                                - generic [ref=e2189]: "n"
+                      - text: where
+                      - generic [ref=e2191]:
+                        - img [ref=e2192]
+                        - math [ref=e2211]:
+                          - generic [ref=e2212]: S
+                          - generic [ref=e2213]: O
+                          - generic [ref=e2214]:
+                            - generic [ref=e2216]: C
+                            - generic [ref=e2217]:
+                              - generic [ref=e2218]: i
+                              - generic [ref=e2219]: ","
+                              - generic [ref=e2220]: i
+                              - generic [ref=e2221]: "n"
+                      - text: and
+                      - generic [ref=e2223]:
+                        - img [ref=e2224]
+                        - math [ref=e2245]:
+                          - generic [ref=e2246]: S
+                          - generic [ref=e2247]: O
+                          - generic [ref=e2248]:
+                            - generic [ref=e2250]: C
+                            - generic [ref=e2251]:
+                              - generic [ref=e2252]: i
+                              - generic [ref=e2253]: ","
+                              - generic [ref=e2254]: f
+                              - generic [ref=e2255]: i
+                              - generic [ref=e2256]: "n"
+                      - text: are the battery SOC at
+                      - generic [ref=e2258]:
+                        - img [ref=e2259]
+                        - math [ref=e2270]:
+                          - generic [ref=e2271]:
+                            - generic [ref=e2273]: S
+                            - generic [ref=e2274]:
+                              - generic [ref=e2275]: t
+                              - generic [ref=e2276]: i
+                      - text: and at
+                      - generic [ref=e2278]:
+                        - img [ref=e2279]
+                        - math [ref=e2290]:
+                          - generic [ref=e2291]:
+                            - generic [ref=e2293]: F
+                            - generic [ref=e2294]:
+                              - generic [ref=e2295]: t
+                              - generic [ref=e2296]: i
+                      - text: ", respectively. It can be estimated by inverting equation"
+                      - link "(1)" [ref=e2297] [cursor=pointer]:
+                        - /url: "#fm0010"
+                        - generic [ref=e2298]: (1)
+                      - text: "as follows:"
+                      - generic [ref=e2300]:
+                        - generic [ref=e2301]: (5)
+                        - generic [ref=e2303]:
+                          - img [ref=e2304]
+                          - math [ref=e2371]:
+                            - generic [ref=e2372]: Δ
+                            - generic [ref=e2373]: S
+                            - generic [ref=e2374]: O
+                            - generic [ref=e2375]:
+                              - generic [ref=e2377]: C
+                              - generic [ref=e2379]: i
+                            - generic [ref=e2380]: =
+                            - generic [ref=e2381]:
+                              - generic [ref=e2383]: "1"
+                              - generic [ref=e2385]:
+                                - generic [ref=e2387]: Q
+                                - generic [ref=e2389]: ˜
+                            - generic [ref=e2390]:
+                              - generic [ref=e2391]: ∫
+                              - generic [ref=e2393]:
+                                - generic [ref=e2395]: S
+                                - generic [ref=e2396]:
+                                  - generic [ref=e2397]: t
+                                  - generic [ref=e2398]: i
+                              - generic [ref=e2400]:
+                                - generic [ref=e2402]: F
+                                - generic [ref=e2403]:
+                                  - generic [ref=e2404]: t
+                                  - generic [ref=e2405]: i
+                            - generic [ref=e2406]: c
+                            - generic [ref=e2407]:
+                              - generic [ref=e2408]: (
+                              - generic [ref=e2409]: τ
+                              - generic [ref=e2410]: )
+                            - generic [ref=e2411]: d
+                            - generic [ref=e2412]: τ
+                      - text: in which the value of integral of the absorbed current is the one predicted by the developed BDP NN and
+                      - generic [ref=e2414]:
+                        - img [ref=e2415]
+                        - math [ref=e2424]:
+                          - generic [ref=e2425]:
+                            - generic [ref=e2427]: Q
+                            - generic [ref=e2429]: ˜
+                      - text: is the properly estimated value of the battery capacity. Battery capacity is crucial in this computation, and it may be significantly different from the nominal value due to the battery history of charges and discharges, environmental conditions, etc. Appendix
+                      - link "A" [ref=e2430] [cursor=pointer]:
+                        - /url: "#se0140"
+                        - generic [ref=e2431]: A
+                      - text: reports a method to properly estimate the actual battery capacity, otherwise, the nominal battery capacity can be used.
+                    - generic [ref=e2432]:
+                      - text: Following the above procedure, the battery SOC was predicted over the
+                      - emphasis [ref=e2433]: generic paths
+                      - text: . The following batteries were used for the
+                      - emphasis [ref=e2434]: generic paths
+                      - text: ":"
+                      - list [ref=e2435]:
+                        - listitem [ref=e2436]:
+                          - generic [ref=e2437]: •
+                          - generic [ref=e2439]: B01 for Path 1 and Path 2;
+                        - listitem [ref=e2440]:
+                          - generic [ref=e2441]: •
+                          - generic [ref=e2443]: B02 for Path 3;
+                        - listitem [ref=e2444]:
+                          - generic [ref=e2445]: •
+                          - generic [ref=e2447]: B03 for Path 4.
+                    - generic [ref=e2448]:
+                      - generic [ref=e2449]:
+                        - generic [ref=e2450]:
+                          - text: The overall travel of four rounds was considered as test for each path. The True Battery ΔSOC was computed on the basis of the
+                          - link "telemetry" [ref=e2451] [cursor=pointer]:
+                            - /url: /topics/physics-and-astronomy/telemetry
+                          - text: data as the difference between the battery SOC at the first waypoint at the beginning of the first round and the battery SOC at the last waypoint of the fourth round of each path. The Predicted Battery ΔSOC was computed by using equation
+                        - link "(5)" [ref=e2452] [cursor=pointer]:
+                          - /url: "#fm0050"
+                          - generic [ref=e2453]: (5)
+                        - text: with the predicted value of the current integral. The true and predicted values of battery ΔSOC and integral of current are reported in
+                        - link "Table 5" [ref=e2454] [cursor=pointer]:
+                          - /url: "#tbl0050"
+                          - generic [ref=e2455]: Table 5
+                        - text: .
+                      - generic [ref=e2456]:
+                        - paragraph [ref=e2459]:
+                          - text: Table 5. True and predicted values of the battery ΔSOC and of the integral of the absorbed current for the four
+                          - emphasis [ref=e2460]: generic paths
+                          - text: . Each path was executed four times.
+                        - table [ref=e2462]:
+                          - rowgroup [ref=e2463]:
+                            - row "Empty Cell Battery ΔSOC Integral of absorbed current (As)" [ref=e2464]:
+                              - cell "Empty Cell" [ref=e2465]:
+                                - generic [ref=e2466]: Empty Cell
+                              - columnheader "Battery ΔSOC" [ref=e2467]
+                              - columnheader "Integral of absorbed current (As)" [ref=e2468]
+                            - row "True value Predicted value True value Predicted value" [ref=e2469]:
+                              - columnheader "True value" [ref=e2470]
+                              - columnheader "Predicted value" [ref=e2471]
+                              - columnheader "True value" [ref=e2472]
+                              - columnheader "Predicted value" [ref=e2473]
+                          - rowgroup [ref=e2474]:
+                            - row "Path 1 32% 29.7% 3702.1 3630.3" [ref=e2475]:
+                              - rowheader "Path 1" [ref=e2476]
+                              - cell "32%" [ref=e2477]
+                              - cell "29.7%" [ref=e2478]
+                              - cell "3702.1" [ref=e2479]
+                              - cell "3630.3" [ref=e2480]
+                            - row "Path 2 30% 26.7% 3482.8 3272.2" [ref=e2481]:
+                              - rowheader "Path 2" [ref=e2482]
+                              - cell "30%" [ref=e2483]
+                              - cell "26.7%" [ref=e2484]
+                              - cell "3482.8" [ref=e2485]
+                              - cell "3272.2" [ref=e2486]
+                            - row "Path 3 27% 25.6% 3233.6 3212.1" [ref=e2487]:
+                              - rowheader "Path 3" [ref=e2488]
+                              - cell "27%" [ref=e2489]
+                              - cell "25.6%" [ref=e2490]
+                              - cell "3233.6" [ref=e2491]
+                              - cell "3212.1" [ref=e2492]
+                            - row "Path 4 32% 31.2% 3823.5 3756.7" [ref=e2493]:
+                              - rowheader "Path 4" [ref=e2494]
+                              - cell "32%" [ref=e2495]
+                              - cell "31.2%" [ref=e2496]
+                              - cell "3823.5" [ref=e2497]
+                              - cell "3756.7" [ref=e2498]
+                    - generic [ref=e2499]:
+                      - text: Due to the mentioned integer approximation of battery SOC in
+                      - link "telemetry" [ref=e2500] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/telemetry
+                      - generic [ref=e2501]:
+                        - text: data, the proposed method of prediction is in substantial agreement with the
+                        - link "reference data" [ref=e2502] [cursor=pointer]:
+                          - /url: /topics/engineering/reference-data
+                        - text: .
+                - generic [ref=e2503]:
+                  - heading "5. Battery-discharge-predictor application" [level=2] [ref=e2504]
+                  - generic [ref=e2505]:
+                    - text: The proposed method was tested to predict the battery ΔSOC during a generic planned path. Among the services required by the UTM framework, the Path Planner module can be supported by the proposed method to evaluate if the planned path can be executed by the drone guaranteeing a proper remaining battery SOC to land or to face up unexpected situations. Moreover, the proposed method can also be applied to support tactical re-planning operations. At the beginning, a generic path was planned to simulate a scaled package delivery operation. Then, the battery SOC was predicted along the path and the maximum reachable distance was computed, considering
+                    - link "airspace" [ref=e2506] [cursor=pointer]:
+                      - /url: /topics/earth-and-planetary-sciences/airspace
+                    - text: sectors that will be involved in most of typical drone operations, such as urban or industrial areas. This strategy allows to evaluate the area that the drone can cover with the remaining battery resource. An example of contingency management application is reported in the next paragraphs of this Section.
+                  - generic [ref=e2507]:
+                    - heading "5.1. Battery SOC prediction over a planned path" [level=3] [ref=e2508]
+                    - generic [ref=e2509]:
+                      - generic [ref=e2510]:
+                        - text: A simulated scaled last-mile package delivery mission was planned. The drone starts the mission at the waypoint
+                        - generic [ref=e2512]:
+                          - img [ref=e2513]
+                          - math [ref=e2524]:
+                            - generic [ref=e2525]: W
+                            - generic [ref=e2526]:
+                              - generic [ref=e2528]: P
+                              - generic [ref=e2530]: "1"
+                        - text: and ends the mission at the waypoint
+                        - generic [ref=e2532]:
+                          - img [ref=e2533]
+                          - math [ref=e2548]:
+                            - generic [ref=e2549]: W
+                            - generic [ref=e2550]:
+                              - generic [ref=e2552]: P
+                              - generic [ref=e2553]:
+                                - generic [ref=e2554]: e
+                                - generic [ref=e2555]: "n"
+                                - generic [ref=e2556]: d
+                        - text: following the waypoint sequence according to
+                        - link "Fig. 5" [ref=e2557] [cursor=pointer]:
+                          - /url: "#fg0040"
+                          - generic [ref=e2558]: Fig. 5
+                        - text: . The path was planned to simulate an urban environment in which the drone must reach planned waypoints to drop off a small package.
+                        - link "Fig. 5" [ref=e2559] [cursor=pointer]:
+                          - /url: "#fg0040"
+                          - generic [ref=e2560]: Fig. 5
+                        - generic [ref=e2561]:
+                          - text: a shows a schematic view of the planned mission. The grey rectangles are fixed obstacles, such as buildings, the blue rectangle is the warehouse for drone departure and arrival, and the green circles are the areas in which the drone could safely land. Wind conditions are supposed to be evaluated by using
+                          - link "weather forecasts" [ref=e2562] [cursor=pointer]:
+                            - /url: /topics/earth-and-planetary-sciences/weather-forecast
+                          - text: or in-site measurements at the time of the mission. The wind vector assumed for the simulation is along the direction 240 deg with intensity of 2.0 m/s, so the Beaufort category is 2.
+                        - link "Fig. 5" [ref=e2563] [cursor=pointer]:
+                          - /url: "#fg0040"
+                          - generic [ref=e2564]: Fig. 5
+                        - text: b shows the distribution of several Safe-Landing Areas (SLAs) that were defined with a random distribution in the mission surrounding area, and they are identified by black circles. Not all SLAs can be reached by the drone during the flight due to the limited remaining battery level. The battery SOC can be predicted in points belonging to the planned path during the strategic phase. The black stars in
+                        - link "Fig. 5" [ref=e2565] [cursor=pointer]:
+                          - /url: "#fg0040"
+                          - generic [ref=e2566]: Fig. 5
+                        - text: b show the points that were randomly selected for this application as Monitoring Points MPs. So, the MPs are the points in which the Predictors were applied.
+                      - figure [ref=e2567]:
+                        - generic [ref=e2568]:
+                          - img "Fig. 5" [ref=e2569]
+                          - list [ref=e2570]:
+                            - listitem [ref=e2571]:
+                              - 'link "Download: Download high-res image (274KB)" [ref=e2572] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr005_lrg.jpg
+                                - generic [ref=e2574]: "Download: Download high-res image (274KB)"
+                            - listitem [ref=e2575]:
+                              - 'link "Download: Download full-size image" [ref=e2576] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr005.jpg
+                                - generic [ref=e2578]: "Download: Download full-size image"
+                        - paragraph [ref=e2581]: Fig. 5. Scaled package delivery path. a) The planned path is represented with black solid line, the package delivery warehouse with the blue rectangle, the fixed obstacles, such as buildings, with grey rectangles, and the SLAs with green circles. b) The planned path is represented with black solid line, the selected MPs with black stars, and the SLAs with black circles. (For interpretation of the colours in the figure(s), the reader is referred to the web version of this article.)
+                    - generic [ref=e2582]:
+                      - generic [ref=e2583]:
+                        - link "Table 6" [ref=e2584] [cursor=pointer]:
+                          - /url: "#tbl0060"
+                          - generic [ref=e2585]: Table 6
+                        - text: shows the predicted time-of-flight, current integral, and battery SOC at the selected monitoring points (MPs) as resulting from the flight along the planned path from
+                        - generic [ref=e2587]:
+                          - img [ref=e2588]
+                          - math [ref=e2599]:
+                            - generic [ref=e2600]: W
+                            - generic [ref=e2601]:
+                              - generic [ref=e2603]: P
+                              - generic [ref=e2605]: "1"
+                        - text: (mission star point).
+                      - generic [ref=e2606]:
+                        - paragraph [ref=e2609]:
+                          - text: Table 6. Predicted time-of-flight, current integral, and battery SOC from
+                          - emphasis [ref=e2610]: WP
+                          - subscript [ref=e2611]: "1"
+                          - text: (mission star point) at the selected monitoring points (MPs).
+                        - table [ref=e2613]:
+                          - rowgroup [ref=e2614]:
+                            - row "Empty Cell Predicted Time of Flight (s) Predicted Integral of Current (As) Predicted Battery ΔSOC" [ref=e2615]:
+                              - cell "Empty Cell" [ref=e2616]:
+                                - generic [ref=e2617]: Empty Cell
+                              - columnheader "Predicted Time of Flight (s)" [ref=e2618]
+                              - columnheader "Predicted Integral of Current (As)" [ref=e2619]
+                              - columnheader "Predicted Battery ΔSOC" [ref=e2620]
+                          - rowgroup [ref=e2621]:
+                            - row "MP1 76.0 609.6 95.0%" [ref=e2622]:
+                              - rowheader "MP1" [ref=e2623]
+                              - cell "76.0" [ref=e2624]
+                              - cell "609.6" [ref=e2625]
+                              - cell "95.0%" [ref=e2626]
+                            - row "MP2 165.5 1322.7 89.2%" [ref=e2627]:
+                              - rowheader "MP2" [ref=e2628]
+                              - cell "165.5" [ref=e2629]
+                              - cell "1322.7" [ref=e2630]
+                              - cell "89.2%" [ref=e2631]
+                            - row "MP3 264.6 2114.3 82.7%" [ref=e2632]:
+                              - rowheader "MP3" [ref=e2633]
+                              - cell "264.6" [ref=e2634]
+                              - cell "2114.3" [ref=e2635]
+                              - cell "82.7%" [ref=e2636]
+                            - row "MP4 311.9 2487.7 79.7%" [ref=e2637]:
+                              - rowheader "MP4" [ref=e2638]
+                              - cell "311.9" [ref=e2639]
+                              - cell "2487.7" [ref=e2640]
+                              - cell "79.7%" [ref=e2641]
+                            - row "MP5 387.0 3084.3 74.8%" [ref=e2642]:
+                              - rowheader "MP5" [ref=e2643]
+                              - cell "387.0" [ref=e2644]
+                              - cell "3084.3" [ref=e2645]
+                              - cell "74.8%" [ref=e2646]
+                            - row "MP6 456.0 3632.3 70.3%" [ref=e2647]:
+                              - rowheader "MP6" [ref=e2648]
+                              - cell "456.0" [ref=e2649]
+                              - cell "3632.3" [ref=e2650]
+                              - cell "70.3%" [ref=e2651]
+                            - row "MP7 571.0 4553.5 62.8%" [ref=e2652]:
+                              - rowheader "MP7" [ref=e2653]
+                              - cell "571.0" [ref=e2654]
+                              - cell "4553.5" [ref=e2655]
+                              - cell "62.8%" [ref=e2656]
+                            - row "MP8 664.5 5300.3 56.7%" [ref=e2657]:
+                              - rowheader "MP8" [ref=e2658]
+                              - cell "664.5" [ref=e2659]
+                              - cell "5300.3" [ref=e2660]
+                              - cell "56.7%" [ref=e2661]
+                            - row "MP9 744.2 5935.2 51.5%" [ref=e2662]:
+                              - rowheader "MP9" [ref=e2663]
+                              - cell "744.2" [ref=e2664]
+                              - cell "5935.2" [ref=e2665]
+                              - cell "51.5%" [ref=e2666]
+                            - row "MP10 789.2 6290.6 48.6%" [ref=e2667]:
+                              - rowheader "MP10" [ref=e2668]
+                              - cell "789.2" [ref=e2669]
+                              - cell "6290.6" [ref=e2670]
+                              - cell "48.6%" [ref=e2671]
+                            - row "MP11 854.4 6808.5 44.4%" [ref=e2672]:
+                              - rowheader "MP11" [ref=e2673]
+                              - cell "854.4" [ref=e2674]
+                              - cell "6808.5" [ref=e2675]
+                              - cell "44.4%" [ref=e2676]
+                            - row "MP12 929.7 7407.2 39.5%" [ref=e2677]:
+                              - rowheader "MP12" [ref=e2678]
+                              - cell "929.7" [ref=e2679]
+                              - cell "7407.2" [ref=e2680]
+                              - cell "39.5%" [ref=e2681]
+                            - row "MP13 992.2 7906.1 35.4%" [ref=e2682]:
+                              - rowheader "MP13" [ref=e2683]
+                              - cell "992.2" [ref=e2684]
+                              - cell "7906.1" [ref=e2685]
+                              - cell "35.4%" [ref=e2686]
+                  - generic [ref=e2687]:
+                    - heading "5.2. Determination of available safe-landing areas" [level=3] [ref=e2688]
+                    - generic [ref=e2689]:
+                      - generic [ref=e2690]:
+                        - text: In addition to the above discussed prediction of critical parameters for
+                        - link "path planning" [ref=e2691] [cursor=pointer]:
+                          - /url: /topics/earth-and-planetary-sciences/trajectory-planning
+                        - text: "and management, a strategy to support path re-planning is proposed here based on the available information resulting from the presented path prediction tool. The target is the tentative estimation of possible mission re-planning options along the nominal mission path, to be exploited in the case of contingencies preventing nominal completion of the mission. According to the environmental characteristics, two flight conditions can be adopted to reach a SLA:"
+                      - list [ref=e2692]:
+                        - listitem [ref=e2693]:
+                          - generic [ref=e2694]: "1."
+                          - generic [ref=e2696]: Straight Path to safe landing. This condition can be exploited if the drone is flying at a safety height above obstacles before moving towards a given SLA.
+                        - listitem [ref=e2697]:
+                          - generic [ref=e2698]: "2."
+                          - generic [ref=e2700]: Path to safe landing with corners. This condition can be exploited if the drone needs to avoid fixed obstacles to reach a given SLA performing corners.
+                    - generic [ref=e2701]:
+                      - text: First, the difference
+                      - generic [ref=e2703]:
+                        - img [ref=e2704]
+                        - math [ref=e2727]:
+                          - generic [ref=e2728]: Δ
+                          - generic [ref=e2729]: S
+                          - generic [ref=e2730]: O
+                          - generic [ref=e2731]:
+                            - generic [ref=e2733]: C
+                            - generic [ref=e2734]:
+                              - generic [ref=e2735]: M
+                              - generic [ref=e2736]: P
+                              - generic [ref=e2737]: ","
+                              - generic [ref=e2738]: t
+                              - generic [ref=e2739]: h
+                      - text: between the battery SOC at each MP and a safety threshold of the SOC was computed;
+                      - generic [ref=e2741]:
+                        - img [ref=e2742]
+                        - math [ref=e2765]:
+                          - generic [ref=e2766]: Δ
+                          - generic [ref=e2767]: S
+                          - generic [ref=e2768]: O
+                          - generic [ref=e2769]:
+                            - generic [ref=e2771]: C
+                            - generic [ref=e2772]:
+                              - generic [ref=e2773]: M
+                              - generic [ref=e2774]: P
+                              - generic [ref=e2775]: ","
+                              - generic [ref=e2776]: t
+                              - generic [ref=e2777]: h
+                      - text: represents the battery resources still available when reaching the considered MP which are available for the safe management of a contingency. In the following the threshold of 30% is adopted as a conservative threshold with respect to typical values
+                      - link "[33]" [ref=e2778] [cursor=pointer]:
+                        - /url: "#br0330"
+                        - generic [ref=e2779]: "[33]"
+                      - text: ","
+                      - link "[46]" [ref=e2780] [cursor=pointer]:
+                        - /url: "#br0460"
+                        - generic [ref=e2781]: "[46]"
+                      - text: ","
+                      - link "[47]" [ref=e2782] [cursor=pointer]:
+                        - /url: "#br0470"
+                        - generic [ref=e2783]: "[47]"
+                      - text: for safely landing.
+                    - generic [ref=e2784]:
+                      - text: About the Straight Path to safe landing condition, considering the constant-speed T180
+                      - emphasis [ref=e2785]: standard paths
+                      - text: ", the corresponding mean value of battery SOC variation per unit flown distance in this"
+                      - emphasis [ref=e2786]: standard path
+                      - text: segment, i.e. in a straight direct path,
+                      - generic [ref=e2788]:
+                        - img [ref=e2789]
+                        - math [ref=e2824]:
+                          - generic [ref=e2825]: Δ
+                          - generic [ref=e2826]: S
+                          - generic [ref=e2827]: O
+                          - generic [ref=e2828]:
+                            - generic [ref=e2830]: C
+                            - generic [ref=e2831]:
+                              - generic [ref=e2832]: u
+                              - generic [ref=e2833]: l
+                              - generic [ref=e2834]: ","
+                              - generic [ref=e2835]: s
+                              - generic [ref=e2836]: t
+                              - generic [ref=e2837]: r
+                              - generic [ref=e2838]: a
+                              - generic [ref=e2839]: i
+                              - generic [ref=e2840]: g
+                              - generic [ref=e2841]: h
+                              - generic [ref=e2842]: t
+                      - text: ", was computed. So, the maximum distance, L"
+                      - subscript [ref=e2843]: straight
+                      - text: ", that is expected the drone can fly from the considered MP over a straight-line path can be computed:"
+                      - generic [ref=e2845]:
+                        - generic [ref=e2846]: (6)
+                        - generic [ref=e2848]:
+                          - img [ref=e2849]
+                          - math [ref=e2933]:
+                            - generic [ref=e2934]:
+                              - generic [ref=e2936]: L
+                              - generic [ref=e2937]:
+                                - generic [ref=e2938]: s
+                                - generic [ref=e2939]: t
+                                - generic [ref=e2940]: r
+                                - generic [ref=e2941]: a
+                                - generic [ref=e2942]: i
+                                - generic [ref=e2943]: g
+                                - generic [ref=e2944]: h
+                                - generic [ref=e2945]: t
+                            - generic [ref=e2946]: =
+                            - generic [ref=e2947]:
+                              - generic [ref=e2948]:
+                                - generic [ref=e2949]: Δ
+                                - generic [ref=e2950]: S
+                                - generic [ref=e2951]: O
+                                - generic [ref=e2952]:
+                                  - generic [ref=e2954]: C
+                                  - generic [ref=e2955]:
+                                    - generic [ref=e2956]: M
+                                    - generic [ref=e2957]: P
+                                    - generic [ref=e2958]: ","
+                                    - generic [ref=e2959]: t
+                                    - generic [ref=e2960]: h
+                              - generic [ref=e2961]:
+                                - generic [ref=e2962]: Δ
+                                - generic [ref=e2963]: S
+                                - generic [ref=e2964]: O
+                                - generic [ref=e2965]:
+                                  - generic [ref=e2967]: C
+                                  - generic [ref=e2968]:
+                                    - generic [ref=e2969]: u
+                                    - generic [ref=e2970]: l
+                                    - generic [ref=e2971]: ","
+                                    - generic [ref=e2972]: s
+                                    - generic [ref=e2973]: t
+                                    - generic [ref=e2974]: r
+                                    - generic [ref=e2975]: a
+                                    - generic [ref=e2976]: i
+                                    - generic [ref=e2977]: g
+                                    - generic [ref=e2978]: h
+                                    - generic [ref=e2979]: t
+                    - generic [ref=e2980]:
+                      - text: About the Path to safe landing with corners condition, the distance travelled from
+                      - generic [ref=e2982]:
+                        - img [ref=e2983]
+                        - math [ref=e2994]:
+                          - generic [ref=e2995]: W
+                          - generic [ref=e2996]:
+                            - generic [ref=e2998]: P
+                            - generic [ref=e3000]: "1"
+                      - text: along the planned path up to each MP was computed; also, the battery SOC decrease per unit of flown path
+                      - generic [ref=e3002]:
+                        - img [ref=e3003]
+                        - math [ref=e3020]:
+                          - generic [ref=e3021]: Δ
+                          - generic [ref=e3022]: S
+                          - generic [ref=e3023]: O
+                          - generic [ref=e3024]:
+                            - generic [ref=e3026]: C
+                            - generic [ref=e3027]:
+                              - generic [ref=e3028]: u
+                              - generic [ref=e3029]: l
+                      - text: was derived as the variation of battery SOC divided by the flown distance; for a worst-case approach, 70% of the computed flown distance was considered in the computation of
+                      - generic [ref=e3031]:
+                        - img [ref=e3032]
+                        - math [ref=e3055]:
+                          - generic [ref=e3056]: Δ
+                          - generic [ref=e3057]: S
+                          - generic [ref=e3058]: O
+                          - generic [ref=e3059]:
+                            - generic [ref=e3061]: C
+                            - generic [ref=e3062]:
+                              - generic [ref=e3063]: u
+                              - generic [ref=e3064]: l
+                              - generic [ref=e3065]: ","
+                              - generic [ref=e3066]: w
+                              - generic [ref=e3067]: c
+                      - text: . It represents a conservative estimate of the battery consumption being realized during the mission, influenced by (and somehow reporting) the specific characteristics of the flown mission path up to the considered path point. So, the maximum distance, L
+                      - subscript [ref=e3068]: wc
+                      - text: ", that is expected the drone can fly from the considered MP following a path with corners similar to the already travelled path can be computed:"
+                      - generic [ref=e3070]:
+                        - generic [ref=e3071]: (7)
+                        - generic [ref=e3073]:
+                          - img [ref=e3074]
+                          - math [ref=e3134]:
+                            - generic [ref=e3135]:
+                              - generic [ref=e3137]: L
+                              - generic [ref=e3138]:
+                                - generic [ref=e3139]: w
+                                - generic [ref=e3140]: c
+                            - generic [ref=e3141]: =
+                            - generic [ref=e3142]:
+                              - generic [ref=e3143]:
+                                - generic [ref=e3144]: Δ
+                                - generic [ref=e3145]: S
+                                - generic [ref=e3146]: O
+                                - generic [ref=e3147]:
+                                  - generic [ref=e3149]: C
+                                  - generic [ref=e3150]:
+                                    - generic [ref=e3151]: M
+                                    - generic [ref=e3152]: P
+                                    - generic [ref=e3153]: ","
+                                    - generic [ref=e3154]: t
+                                    - generic [ref=e3155]: h
+                              - generic [ref=e3156]:
+                                - generic [ref=e3157]: Δ
+                                - generic [ref=e3158]: S
+                                - generic [ref=e3159]: O
+                                - generic [ref=e3160]:
+                                  - generic [ref=e3162]: C
+                                  - generic [ref=e3163]:
+                                    - generic [ref=e3164]: u
+                                    - generic [ref=e3165]: l
+                                    - generic [ref=e3166]: ","
+                                    - generic [ref=e3167]: w
+                                    - generic [ref=e3168]: c
+                    - generic [ref=e3169]:
+                      - generic [ref=e3170]:
+                        - link "Fig. 6" [ref=e3171] [cursor=pointer]:
+                          - /url: "#fg0050"
+                          - generic [ref=e3172]: Fig. 6
+                        - text: describes the difference of the computed maximum distances for the simulated test mission. Considering the same MP,
+                        - link "Fig. 6" [ref=e3173] [cursor=pointer]:
+                          - /url: "#fg0050"
+                          - generic [ref=e3174]: Fig. 6
+                        - text: shows that
+                        - generic [ref=e3176]:
+                          - img [ref=e3177]
+                          - math [ref=e3188]:
+                            - generic [ref=e3189]:
+                              - generic [ref=e3191]: L
+                              - generic [ref=e3192]:
+                                - generic [ref=e3193]: w
+                                - generic [ref=e3194]: c
+                        - text: is always smaller, even if slightly, than
+                        - generic [ref=e3196]:
+                          - img [ref=e3197]
+                          - math [ref=e3220]:
+                            - generic [ref=e3221]:
+                              - generic [ref=e3223]: L
+                              - generic [ref=e3224]:
+                                - generic [ref=e3225]: s
+                                - generic [ref=e3226]: t
+                                - generic [ref=e3227]: r
+                                - generic [ref=e3228]: a
+                                - generic [ref=e3229]: i
+                                - generic [ref=e3230]: g
+                                - generic [ref=e3231]: h
+                                - generic [ref=e3232]: t
+                        - text: ", as it is expected since in the first case the drone performs stop-and-turn manoeuvres moving towards the SLA."
+                      - figure [ref=e3233]:
+                        - generic [ref=e3234]:
+                          - img "Fig. 6" [ref=e3235]
+                          - list [ref=e3236]:
+                            - listitem [ref=e3237]:
+                              - 'link "Download: Download high-res image (63KB)" [ref=e3238] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr006_lrg.jpg
+                                - generic [ref=e3240]: "Download: Download high-res image (63KB)"
+                            - listitem [ref=e3241]:
+                              - 'link "Download: Download full-size image" [ref=e3242] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr006.jpg
+                                - generic [ref=e3244]: "Download: Download full-size image"
+                        - paragraph [ref=e3247]:
+                          - text: Fig. 6.
+                          - emphasis [ref=e3248]: L
+                          - subscript [ref=e3249]:
+                            - emphasis [ref=e3250]: straight
+                          - text: and
+                          - emphasis [ref=e3251]: L
+                          - subscript [ref=e3252]:
+                            - emphasis [ref=e3253]: wc
+                          - text: distances at the selected path Monitoring Points.
+                    - generic [ref=e3254]:
+                      - generic [ref=e3255]:
+                        - text: So, from the knowledge of
+                        - generic [ref=e3257]:
+                          - img [ref=e3258]
+                          - math [ref=e3281]:
+                            - generic [ref=e3282]:
+                              - generic [ref=e3284]: L
+                              - generic [ref=e3285]:
+                                - generic [ref=e3286]: s
+                                - generic [ref=e3287]: t
+                                - generic [ref=e3288]: r
+                                - generic [ref=e3289]: a
+                                - generic [ref=e3290]: i
+                                - generic [ref=e3291]: g
+                                - generic [ref=e3292]: h
+                                - generic [ref=e3293]: t
+                        - text: and
+                        - generic [ref=e3295]:
+                          - img [ref=e3296]
+                          - math [ref=e3307]:
+                            - generic [ref=e3308]:
+                              - generic [ref=e3310]: L
+                              - generic [ref=e3311]:
+                                - generic [ref=e3312]: w
+                                - generic [ref=e3313]: c
+                        - text: ", it is possible to determine in the strategic phase if a SLA can be reached by the drone while over the planned path, as reported in"
+                        - link "Table 7" [ref=e3314] [cursor=pointer]:
+                          - /url: "#tbl0070"
+                          - generic [ref=e3315]: Table 7
+                        - text: . Two circles centred at each MP and with radius of
+                        - generic [ref=e3317]:
+                          - img [ref=e3318]
+                          - math [ref=e3341]:
+                            - generic [ref=e3342]:
+                              - generic [ref=e3344]: L
+                              - generic [ref=e3345]:
+                                - generic [ref=e3346]: s
+                                - generic [ref=e3347]: t
+                                - generic [ref=e3348]: r
+                                - generic [ref=e3349]: a
+                                - generic [ref=e3350]: i
+                                - generic [ref=e3351]: g
+                                - generic [ref=e3352]: h
+                                - generic [ref=e3353]: t
+                        - text: and
+                        - generic [ref=e3355]:
+                          - img [ref=e3356]
+                          - math [ref=e3367]:
+                            - generic [ref=e3368]:
+                              - generic [ref=e3370]: L
+                              - generic [ref=e3371]:
+                                - generic [ref=e3372]: w
+                                - generic [ref=e3373]: c
+                        - generic [ref=e3374]:
+                          - text: were considered. The area of each circle describes the area that the drone can reach with the remaining battery level in straight-line flight or along an
+                          - link "irregular path" [ref=e3375] [cursor=pointer]:
+                            - /url: /topics/engineering/irregular-path
+                          - text: ", respectively. Therefore, it is possible to determine if the defined SLAs can be reached by the drone from each considered MP. This approach can be used during the strategic phase to identify the SLAs that can be reached from MPs if an unexpected event does not allow to complete the planned mission. The concept is similar to the Point of No Return (PNR) for aircraft route planning."
+                        - link "Table 7" [ref=e3376] [cursor=pointer]:
+                          - /url: "#tbl0070"
+                          - generic [ref=e3377]: Table 7
+                        - text: shows the available SLAs for each MP considering
+                        - generic [ref=e3379]:
+                          - img [ref=e3380]
+                          - math [ref=e3403]:
+                            - generic [ref=e3404]:
+                              - generic [ref=e3406]: L
+                              - generic [ref=e3407]:
+                                - generic [ref=e3408]: s
+                                - generic [ref=e3409]: t
+                                - generic [ref=e3410]: r
+                                - generic [ref=e3411]: a
+                                - generic [ref=e3412]: i
+                                - generic [ref=e3413]: g
+                                - generic [ref=e3414]: h
+                                - generic [ref=e3415]: t
+                        - text: and
+                        - generic [ref=e3417]:
+                          - img [ref=e3418]
+                          - math [ref=e3429]:
+                            - generic [ref=e3430]:
+                              - generic [ref=e3432]: L
+                              - generic [ref=e3433]:
+                                - generic [ref=e3434]: w
+                                - generic [ref=e3435]: c
+                        - text: .
+                      - generic [ref=e3436]:
+                        - paragraph [ref=e3439]:
+                          - text: Table 7. Available SLAs from each MP in straight-line flight
+                          - link "(6)" [ref=e3440] [cursor=pointer]:
+                            - /url: "#fm0060"
+                            - generic [ref=e3441]: (6)
+                          - text: and irregular flight path
+                          - link "(7)" [ref=e3442] [cursor=pointer]:
+                            - /url: "#fm0070"
+                            - generic [ref=e3443]: (7)
+                          - text: . “Y” symbol indicates that the SLA can be reached by the drone from the corresponding MP. Bold “N” symbol indicates that the remaining battery level does not allow to reach the SLA.
+                        - table [ref=e3445]:
+                          - rowgroup [ref=e3446]:
+                            - row "Empty Cell Reachable SLAs from selected MPs (straight line flight/irregular flight path)" [ref=e3447]:
+                              - cell "Empty Cell" [ref=e3448]:
+                                - generic [ref=e3449]: Empty Cell
+                              - columnheader "Reachable SLAs from selected MPs (straight line flight/irregular flight path)" [ref=e3450]
+                            - row "SLA1 SLA2 SLA3 SLA4 SLA5 SLA6 SLA7 SLA8 SLA9 SLA10" [ref=e3451]:
+                              - columnheader "SLA1" [ref=e3452]
+                              - columnheader "SLA2" [ref=e3453]
+                              - columnheader "SLA3" [ref=e3454]
+                              - columnheader "SLA4" [ref=e3455]
+                              - columnheader "SLA5" [ref=e3456]
+                              - columnheader "SLA6" [ref=e3457]
+                              - columnheader "SLA7" [ref=e3458]
+                              - columnheader "SLA8" [ref=e3459]
+                              - columnheader "SLA9" [ref=e3460]
+                              - columnheader "SLA10" [ref=e3461]
+                          - rowgroup [ref=e3462]:
+                            - row "MP1" [ref=e3463]:
+                              - rowheader "MP1" [ref=e3464]
+                              - cell [ref=e3465]:
+                                - generic [ref=e3467]:
+                                  - img [ref=e3468]
+                                  - math [ref=e3476]:
+                                    - generic [ref=e3477]: "Y"
+                                    - generic [ref=e3478]: /
+                                    - generic [ref=e3479]: "Y"
+                              - cell [ref=e3480]:
+                                - generic [ref=e3482]:
+                                  - img [ref=e3483]
+                                  - math [ref=e3491]:
+                                    - generic [ref=e3492]: "Y"
+                                    - generic [ref=e3493]: /
+                                    - generic [ref=e3494]: "Y"
+                              - cell [ref=e3495]:
+                                - generic [ref=e3497]:
+                                  - img [ref=e3498]
+                                  - math [ref=e3506]:
+                                    - generic [ref=e3507]: "Y"
+                                    - generic [ref=e3508]: /
+                                    - generic [ref=e3509]: "Y"
+                              - cell [ref=e3510]:
+                                - generic [ref=e3512]:
+                                  - img [ref=e3513]
+                                  - math [ref=e3521]:
+                                    - generic [ref=e3522]: "Y"
+                                    - generic [ref=e3523]: /
+                                    - generic [ref=e3524]: "Y"
+                              - cell [ref=e3525]:
+                                - generic [ref=e3527]:
+                                  - img [ref=e3528]
+                                  - math [ref=e3536]:
+                                    - generic [ref=e3537]: "Y"
+                                    - generic [ref=e3538]: /
+                                    - generic [ref=e3539]: "Y"
+                              - cell [ref=e3540]:
+                                - generic [ref=e3542]:
+                                  - img [ref=e3543]
+                                  - math [ref=e3551]:
+                                    - generic [ref=e3552]: "Y"
+                                    - generic [ref=e3553]: /
+                                    - generic [ref=e3554]: "Y"
+                              - cell [ref=e3555]:
+                                - generic [ref=e3557]:
+                                  - img [ref=e3558]
+                                  - math [ref=e3566]:
+                                    - generic [ref=e3567]: "Y"
+                                    - generic [ref=e3568]: /
+                                    - generic [ref=e3569]: "Y"
+                              - cell [ref=e3570]:
+                                - generic [ref=e3572]:
+                                  - img [ref=e3573]
+                                  - math [ref=e3581]:
+                                    - generic [ref=e3582]: "Y"
+                                    - generic [ref=e3583]: /
+                                    - generic [ref=e3584]: "Y"
+                              - cell [ref=e3585]:
+                                - generic [ref=e3587]:
+                                  - img [ref=e3588]
+                                  - math [ref=e3596]:
+                                    - generic [ref=e3597]: "Y"
+                                    - generic [ref=e3598]: /
+                                    - generic [ref=e3599]: "Y"
+                              - cell [ref=e3600]:
+                                - generic [ref=e3602]:
+                                  - img [ref=e3603]
+                                  - math [ref=e3611]:
+                                    - generic [ref=e3612]: "Y"
+                                    - generic [ref=e3613]: /
+                                    - generic [ref=e3614]: "Y"
+                            - row "MP2" [ref=e3615]:
+                              - rowheader "MP2" [ref=e3616]
+                              - cell [ref=e3617]:
+                                - generic [ref=e3619]:
+                                  - img [ref=e3620]
+                                  - math [ref=e3628]:
+                                    - generic [ref=e3629]: "Y"
+                                    - generic [ref=e3630]: /
+                                    - generic [ref=e3631]: "Y"
+                              - cell [ref=e3632]:
+                                - generic [ref=e3634]:
+                                  - img [ref=e3635]
+                                  - math [ref=e3643]:
+                                    - generic [ref=e3644]: "Y"
+                                    - generic [ref=e3645]: /
+                                    - generic [ref=e3646]: "Y"
+                              - cell [ref=e3647]:
+                                - generic [ref=e3649]:
+                                  - img [ref=e3650]
+                                  - math [ref=e3658]:
+                                    - generic [ref=e3659]: "Y"
+                                    - generic [ref=e3660]: /
+                                    - generic [ref=e3661]: "Y"
+                              - cell [ref=e3662]:
+                                - generic [ref=e3664]:
+                                  - img [ref=e3665]
+                                  - math [ref=e3673]:
+                                    - generic [ref=e3674]: "Y"
+                                    - generic [ref=e3675]: /
+                                    - generic [ref=e3676]: "Y"
+                              - cell [ref=e3677]:
+                                - generic [ref=e3679]:
+                                  - img [ref=e3680]
+                                  - math [ref=e3688]:
+                                    - generic [ref=e3689]: "Y"
+                                    - generic [ref=e3690]: /
+                                    - generic [ref=e3691]: "Y"
+                              - cell [ref=e3692]:
+                                - generic [ref=e3694]:
+                                  - img [ref=e3695]
+                                  - math [ref=e3703]:
+                                    - generic [ref=e3704]: "Y"
+                                    - generic [ref=e3705]: /
+                                    - generic [ref=e3706]: "Y"
+                              - cell [ref=e3707]:
+                                - generic [ref=e3709]:
+                                  - img [ref=e3710]
+                                  - math [ref=e3718]:
+                                    - generic [ref=e3719]: "Y"
+                                    - generic [ref=e3720]: /
+                                    - generic [ref=e3721]: "Y"
+                              - cell [ref=e3722]:
+                                - generic [ref=e3724]:
+                                  - img [ref=e3725]
+                                  - math [ref=e3733]:
+                                    - generic [ref=e3734]: "Y"
+                                    - generic [ref=e3735]: /
+                                    - generic [ref=e3736]: "Y"
+                              - cell [ref=e3737]:
+                                - generic [ref=e3739]:
+                                  - img [ref=e3740]
+                                  - math [ref=e3748]:
+                                    - generic [ref=e3749]: "Y"
+                                    - generic [ref=e3750]: /
+                                    - generic [ref=e3751]: "Y"
+                              - cell [ref=e3752]:
+                                - generic [ref=e3754]:
+                                  - img [ref=e3755]
+                                  - math [ref=e3763]:
+                                    - generic [ref=e3764]: "Y"
+                                    - generic [ref=e3765]: /
+                                    - generic [ref=e3766]: "Y"
+                            - row "MP3" [ref=e3767]:
+                              - rowheader "MP3" [ref=e3768]
+                              - cell [ref=e3769]:
+                                - generic [ref=e3771]:
+                                  - img [ref=e3772]
+                                  - math [ref=e3780]:
+                                    - generic [ref=e3781]: "Y"
+                                    - generic [ref=e3782]: /
+                                    - generic [ref=e3783]: "Y"
+                              - cell [ref=e3784]:
+                                - generic [ref=e3786]:
+                                  - img [ref=e3787]
+                                  - math [ref=e3795]:
+                                    - generic [ref=e3796]: "Y"
+                                    - generic [ref=e3797]: /
+                                    - generic [ref=e3798]: "Y"
+                              - cell [ref=e3799]:
+                                - generic [ref=e3801]:
+                                  - img [ref=e3802]
+                                  - math [ref=e3810]:
+                                    - generic [ref=e3811]: "Y"
+                                    - generic [ref=e3812]: /
+                                    - generic [ref=e3813]: "Y"
+                              - cell [ref=e3814]:
+                                - generic [ref=e3816]:
+                                  - img [ref=e3817]
+                                  - math [ref=e3825]:
+                                    - generic [ref=e3826]: "Y"
+                                    - generic [ref=e3827]: /
+                                    - generic [ref=e3828]: "Y"
+                              - cell [ref=e3829]:
+                                - generic [ref=e3831]:
+                                  - img [ref=e3832]
+                                  - math [ref=e3840]:
+                                    - generic [ref=e3841]: "Y"
+                                    - generic [ref=e3842]: /
+                                    - generic [ref=e3843]: "Y"
+                              - cell [ref=e3844]:
+                                - generic [ref=e3846]:
+                                  - img [ref=e3847]
+                                  - math [ref=e3855]:
+                                    - generic [ref=e3856]: "Y"
+                                    - generic [ref=e3857]: /
+                                    - generic [ref=e3858]: "Y"
+                              - cell [ref=e3859]:
+                                - generic [ref=e3861]:
+                                  - img [ref=e3862]
+                                  - math [ref=e3870]:
+                                    - generic [ref=e3871]: "Y"
+                                    - generic [ref=e3872]: /
+                                    - generic [ref=e3873]: "Y"
+                              - cell [ref=e3874]:
+                                - generic [ref=e3876]:
+                                  - img [ref=e3877]
+                                  - math [ref=e3885]:
+                                    - generic [ref=e3886]: "Y"
+                                    - generic [ref=e3887]: /
+                                    - generic [ref=e3888]: "Y"
+                              - cell [ref=e3889]:
+                                - generic [ref=e3891]:
+                                  - img [ref=e3892]
+                                  - math [ref=e3900]:
+                                    - generic [ref=e3901]: "Y"
+                                    - generic [ref=e3902]: /
+                                    - generic [ref=e3903]: "Y"
+                              - cell [ref=e3904]:
+                                - generic [ref=e3906]:
+                                  - img [ref=e3907]
+                                  - math [ref=e3915]:
+                                    - generic [ref=e3916]: "Y"
+                                    - generic [ref=e3917]: /
+                                    - generic [ref=e3918]: "Y"
+                            - row "MP4" [ref=e3919]:
+                              - rowheader "MP4" [ref=e3920]
+                              - cell [ref=e3921]:
+                                - generic [ref=e3923]:
+                                  - img [ref=e3924]
+                                  - math [ref=e3932]:
+                                    - generic [ref=e3933]: "Y"
+                                    - generic [ref=e3934]: /
+                                    - generic [ref=e3935]: "Y"
+                              - cell [ref=e3936]:
+                                - generic [ref=e3938]:
+                                  - img [ref=e3939]
+                                  - math [ref=e3947]:
+                                    - generic [ref=e3948]: "Y"
+                                    - generic [ref=e3949]: /
+                                    - generic [ref=e3950]: "Y"
+                              - cell [ref=e3951]:
+                                - generic [ref=e3953]:
+                                  - img [ref=e3954]
+                                  - math [ref=e3962]:
+                                    - generic [ref=e3963]: "Y"
+                                    - generic [ref=e3964]: /
+                                    - generic [ref=e3965]: "Y"
+                              - cell [ref=e3966]:
+                                - generic [ref=e3968]:
+                                  - img [ref=e3969]
+                                  - math [ref=e3977]:
+                                    - generic [ref=e3978]: "Y"
+                                    - generic [ref=e3979]: /
+                                    - generic [ref=e3980]: "Y"
+                              - cell [ref=e3981]:
+                                - generic [ref=e3983]:
+                                  - img [ref=e3984]
+                                  - math [ref=e3992]:
+                                    - generic [ref=e3993]: "Y"
+                                    - generic [ref=e3994]: /
+                                    - generic [ref=e3995]: "Y"
+                              - cell [ref=e3996]:
+                                - generic [ref=e3998]:
+                                  - img [ref=e3999]
+                                  - math [ref=e4007]:
+                                    - generic [ref=e4008]: "Y"
+                                    - generic [ref=e4009]: /
+                                    - generic [ref=e4010]: "Y"
+                              - cell [ref=e4011]:
+                                - generic [ref=e4013]:
+                                  - img [ref=e4014]
+                                  - math [ref=e4022]:
+                                    - generic [ref=e4023]: "Y"
+                                    - generic [ref=e4024]: /
+                                    - generic [ref=e4025]: "Y"
+                              - cell [ref=e4026]:
+                                - generic [ref=e4028]:
+                                  - img [ref=e4029]
+                                  - math [ref=e4037]:
+                                    - generic [ref=e4038]: "Y"
+                                    - generic [ref=e4039]: /
+                                    - generic [ref=e4040]: "Y"
+                              - cell [ref=e4041]:
+                                - generic [ref=e4043]:
+                                  - img [ref=e4044]
+                                  - math [ref=e4052]:
+                                    - generic [ref=e4053]: "Y"
+                                    - generic [ref=e4054]: /
+                                    - generic [ref=e4055]: "Y"
+                              - cell [ref=e4056]:
+                                - generic [ref=e4058]:
+                                  - img [ref=e4059]
+                                  - math [ref=e4067]:
+                                    - generic [ref=e4068]: "Y"
+                                    - generic [ref=e4069]: /
+                                    - generic [ref=e4070]: "Y"
+                            - row "MP5" [ref=e4071]:
+                              - rowheader "MP5" [ref=e4072]
+                              - cell [ref=e4073]:
+                                - generic [ref=e4075]:
+                                  - img [ref=e4076]
+                                  - math [ref=e4084]:
+                                    - generic [ref=e4085]: "Y"
+                                    - generic [ref=e4086]: /
+                                    - generic [ref=e4087]: "Y"
+                              - cell [ref=e4088]:
+                                - generic [ref=e4090]:
+                                  - img [ref=e4091]
+                                  - math [ref=e4099]:
+                                    - generic [ref=e4100]: "Y"
+                                    - generic [ref=e4101]: /
+                                    - generic [ref=e4102]: "Y"
+                              - cell [ref=e4103]:
+                                - generic [ref=e4105]:
+                                  - img [ref=e4106]
+                                  - math [ref=e4114]:
+                                    - generic [ref=e4115]: "Y"
+                                    - generic [ref=e4116]: /
+                                    - generic [ref=e4117]: "Y"
+                              - cell [ref=e4118]:
+                                - generic [ref=e4120]:
+                                  - img [ref=e4121]
+                                  - math [ref=e4129]:
+                                    - generic [ref=e4130]: "Y"
+                                    - generic [ref=e4131]: /
+                                    - generic [ref=e4132]: "Y"
+                              - cell [ref=e4133]:
+                                - generic [ref=e4135]:
+                                  - img [ref=e4136]
+                                  - math [ref=e4144]:
+                                    - generic [ref=e4145]: "Y"
+                                    - generic [ref=e4146]: /
+                                    - generic [ref=e4147]: "Y"
+                              - cell [ref=e4148]:
+                                - generic [ref=e4150]:
+                                  - img [ref=e4151]
+                                  - math [ref=e4159]:
+                                    - generic [ref=e4160]: "Y"
+                                    - generic [ref=e4161]: /
+                                    - generic [ref=e4162]: "Y"
+                              - cell [ref=e4163]:
+                                - generic [ref=e4165]:
+                                  - img [ref=e4166]
+                                  - math [ref=e4174]:
+                                    - generic [ref=e4175]: "Y"
+                                    - generic [ref=e4176]: /
+                                    - generic [ref=e4177]: "Y"
+                              - cell [ref=e4178]:
+                                - generic [ref=e4180]:
+                                  - img [ref=e4181]
+                                  - math [ref=e4189]:
+                                    - generic [ref=e4190]: "Y"
+                                    - generic [ref=e4191]: /
+                                    - generic [ref=e4192]: "Y"
+                              - cell [ref=e4193]:
+                                - generic [ref=e4195]:
+                                  - img [ref=e4196]
+                                  - math [ref=e4204]:
+                                    - generic [ref=e4205]: "Y"
+                                    - generic [ref=e4206]: /
+                                    - generic [ref=e4207]: "Y"
+                              - cell [ref=e4208]:
+                                - generic [ref=e4210]:
+                                  - img [ref=e4211]
+                                  - math [ref=e4219]:
+                                    - generic [ref=e4220]: "Y"
+                                    - generic [ref=e4221]: /
+                                    - generic [ref=e4222]: "Y"
+                            - row "MP6" [ref=e4223]:
+                              - rowheader "MP6" [ref=e4224]
+                              - cell [ref=e4225]:
+                                - generic [ref=e4227]:
+                                  - img [ref=e4228]
+                                  - math [ref=e4236]:
+                                    - generic [ref=e4237]: "Y"
+                                    - generic [ref=e4238]: /
+                                    - generic [ref=e4239]: "Y"
+                              - cell [ref=e4240]:
+                                - generic [ref=e4242]:
+                                  - img [ref=e4243]
+                                  - math [ref=e4251]:
+                                    - generic [ref=e4252]: "Y"
+                                    - generic [ref=e4253]: /
+                                    - generic [ref=e4254]: "Y"
+                              - cell [ref=e4255]:
+                                - generic [ref=e4257]:
+                                  - img [ref=e4258]
+                                  - math [ref=e4266]:
+                                    - generic [ref=e4267]: "Y"
+                                    - generic [ref=e4268]: /
+                                    - generic [ref=e4269]: "Y"
+                              - cell [ref=e4270]:
+                                - generic [ref=e4272]:
+                                  - img [ref=e4273]
+                                  - math [ref=e4281]:
+                                    - generic [ref=e4282]: "Y"
+                                    - generic [ref=e4283]: /
+                                    - generic [ref=e4284]: "Y"
+                              - cell [ref=e4285]:
+                                - generic [ref=e4287]:
+                                  - img [ref=e4288]
+                                  - math [ref=e4296]:
+                                    - generic [ref=e4297]: "Y"
+                                    - generic [ref=e4298]: /
+                                    - generic [ref=e4299]: "Y"
+                              - cell [ref=e4300]:
+                                - generic [ref=e4302]:
+                                  - img [ref=e4303]
+                                  - math [ref=e4311]:
+                                    - generic [ref=e4312]: "Y"
+                                    - generic [ref=e4313]: /
+                                    - generic [ref=e4314]: "Y"
+                              - cell [ref=e4315]:
+                                - generic [ref=e4317]:
+                                  - img [ref=e4318]
+                                  - math [ref=e4326]:
+                                    - generic [ref=e4327]: "Y"
+                                    - generic [ref=e4328]: /
+                                    - generic [ref=e4329]: "Y"
+                              - cell [ref=e4330]:
+                                - generic [ref=e4332]:
+                                  - img [ref=e4333]
+                                  - math [ref=e4341]:
+                                    - generic [ref=e4342]: "Y"
+                                    - generic [ref=e4343]: /
+                                    - generic [ref=e4344]: "Y"
+                              - cell [ref=e4345]:
+                                - generic [ref=e4347]:
+                                  - img [ref=e4348]
+                                  - math [ref=e4356]:
+                                    - generic [ref=e4357]: "Y"
+                                    - generic [ref=e4358]: /
+                                    - generic [ref=e4359]: "Y"
+                              - cell [ref=e4360]:
+                                - generic [ref=e4362]:
+                                  - img [ref=e4363]
+                                  - math [ref=e4371]:
+                                    - generic [ref=e4372]: "Y"
+                                    - generic [ref=e4373]: /
+                                    - generic [ref=e4374]: "Y"
+                            - row "MP7" [ref=e4375]:
+                              - rowheader "MP7" [ref=e4376]
+                              - cell [ref=e4377]:
+                                - generic [ref=e4379]:
+                                  - img [ref=e4380]
+                                  - math [ref=e4388]:
+                                    - generic [ref=e4389]: "Y"
+                                    - generic [ref=e4390]: /
+                                    - generic [ref=e4391]: "Y"
+                              - cell [ref=e4392]:
+                                - generic [ref=e4394]:
+                                  - img [ref=e4395]
+                                  - math [ref=e4403]:
+                                    - generic [ref=e4404]: "Y"
+                                    - generic [ref=e4405]: /
+                                    - generic [ref=e4406]: "Y"
+                              - cell [ref=e4407]:
+                                - generic [ref=e4409]:
+                                  - img [ref=e4410]
+                                  - math [ref=e4418]:
+                                    - generic [ref=e4419]: "Y"
+                                    - generic [ref=e4420]: /
+                                    - generic [ref=e4421]: "Y"
+                              - cell [ref=e4422]:
+                                - generic [ref=e4424]:
+                                  - img [ref=e4425]
+                                  - math [ref=e4433]:
+                                    - generic [ref=e4434]: "Y"
+                                    - generic [ref=e4435]: /
+                                    - generic [ref=e4436]: "Y"
+                              - cell [ref=e4437]:
+                                - generic [ref=e4439]:
+                                  - img [ref=e4440]
+                                  - math [ref=e4448]:
+                                    - generic [ref=e4449]: "Y"
+                                    - generic [ref=e4450]: /
+                                    - generic [ref=e4451]: "Y"
+                              - cell [ref=e4452]:
+                                - generic [ref=e4454]:
+                                  - img [ref=e4455]
+                                  - math [ref=e4463]:
+                                    - generic [ref=e4464]: "Y"
+                                    - generic [ref=e4465]: /
+                                    - generic [ref=e4466]: "Y"
+                              - cell [ref=e4467]:
+                                - generic [ref=e4469]:
+                                  - img [ref=e4470]
+                                  - math [ref=e4478]:
+                                    - generic [ref=e4479]: "Y"
+                                    - generic [ref=e4480]: /
+                                    - generic [ref=e4481]: "Y"
+                              - cell [ref=e4482]:
+                                - generic [ref=e4484]:
+                                  - img [ref=e4485]
+                                  - math [ref=e4493]:
+                                    - generic [ref=e4494]: "Y"
+                                    - generic [ref=e4495]: /
+                                    - generic [ref=e4496]: "Y"
+                              - cell [ref=e4497]:
+                                - generic [ref=e4499]:
+                                  - img [ref=e4500]
+                                  - math [ref=e4508]:
+                                    - generic [ref=e4509]: "Y"
+                                    - generic [ref=e4510]: /
+                                    - generic [ref=e4511]: "Y"
+                              - cell [ref=e4512]:
+                                - generic [ref=e4514]:
+                                  - img [ref=e4515]
+                                  - math [ref=e4523]:
+                                    - generic [ref=e4524]: "Y"
+                                    - generic [ref=e4525]: /
+                                    - generic [ref=e4526]: "Y"
+                            - row "MP8" [ref=e4527]:
+                              - rowheader "MP8" [ref=e4528]
+                              - cell [ref=e4529]:
+                                - generic [ref=e4531]:
+                                  - img [ref=e4532]
+                                  - math [ref=e4540]:
+                                    - generic [ref=e4541]: "Y"
+                                    - generic [ref=e4542]: /
+                                    - generic [ref=e4543]: "Y"
+                              - cell [ref=e4544]:
+                                - generic [ref=e4546]:
+                                  - img [ref=e4547]
+                                  - math [ref=e4555]:
+                                    - generic [ref=e4556]: "Y"
+                                    - generic [ref=e4557]: /
+                                    - generic [ref=e4558]: "Y"
+                              - cell [ref=e4559]:
+                                - generic [ref=e4561]:
+                                  - img [ref=e4562]
+                                  - math [ref=e4570]:
+                                    - generic [ref=e4571]: "Y"
+                                    - generic [ref=e4572]: /
+                                    - generic [ref=e4573]: "Y"
+                              - cell [ref=e4574]:
+                                - generic [ref=e4576]:
+                                  - img [ref=e4577]
+                                  - math [ref=e4585]:
+                                    - generic [ref=e4586]: "Y"
+                                    - generic [ref=e4587]: /
+                                    - generic [ref=e4588]: "Y"
+                              - cell [ref=e4589]:
+                                - generic [ref=e4591]:
+                                  - img [ref=e4592]
+                                  - math [ref=e4600]:
+                                    - generic [ref=e4601]: "Y"
+                                    - generic [ref=e4602]: /
+                                    - generic [ref=e4603]: "Y"
+                              - cell [ref=e4604]:
+                                - generic [ref=e4606]:
+                                  - img [ref=e4607]
+                                  - math [ref=e4615]:
+                                    - generic [ref=e4616]: "Y"
+                                    - generic [ref=e4617]: /
+                                    - generic [ref=e4618]: "N"
+                              - cell [ref=e4619]:
+                                - generic [ref=e4621]:
+                                  - img [ref=e4622]
+                                  - math [ref=e4630]:
+                                    - generic [ref=e4631]: "Y"
+                                    - generic [ref=e4632]: /
+                                    - generic [ref=e4633]: "Y"
+                              - cell [ref=e4634]:
+                                - generic [ref=e4636]:
+                                  - img [ref=e4637]
+                                  - math [ref=e4645]:
+                                    - generic [ref=e4646]: "Y"
+                                    - generic [ref=e4647]: /
+                                    - generic [ref=e4648]: "Y"
+                              - cell [ref=e4649]:
+                                - generic [ref=e4651]:
+                                  - img [ref=e4652]
+                                  - math [ref=e4660]:
+                                    - generic [ref=e4661]: "Y"
+                                    - generic [ref=e4662]: /
+                                    - generic [ref=e4663]: "Y"
+                              - cell [ref=e4664]:
+                                - generic [ref=e4666]:
+                                  - img [ref=e4667]
+                                  - math [ref=e4675]:
+                                    - generic [ref=e4676]: "Y"
+                                    - generic [ref=e4677]: /
+                                    - generic [ref=e4678]: "N"
+                            - row "MP9" [ref=e4679]:
+                              - rowheader "MP9" [ref=e4680]
+                              - cell [ref=e4681]:
+                                - generic [ref=e4683]:
+                                  - img [ref=e4684]
+                                  - math [ref=e4692]:
+                                    - generic [ref=e4693]: "Y"
+                                    - generic [ref=e4694]: /
+                                    - generic [ref=e4695]: "Y"
+                              - cell [ref=e4696]:
+                                - generic [ref=e4698]:
+                                  - img [ref=e4699]
+                                  - math [ref=e4707]:
+                                    - generic [ref=e4708]: "Y"
+                                    - generic [ref=e4709]: /
+                                    - generic [ref=e4710]: "Y"
+                              - cell [ref=e4711]:
+                                - generic [ref=e4713]:
+                                  - img [ref=e4714]
+                                  - math [ref=e4722]:
+                                    - generic [ref=e4723]: "Y"
+                                    - generic [ref=e4724]: /
+                                    - generic [ref=e4725]: "N"
+                              - cell [ref=e4726]:
+                                - generic [ref=e4728]:
+                                  - img [ref=e4729]
+                                  - math [ref=e4737]:
+                                    - generic [ref=e4738]: "Y"
+                                    - generic [ref=e4739]: /
+                                    - generic [ref=e4740]: "Y"
+                              - cell [ref=e4741]:
+                                - generic [ref=e4743]:
+                                  - img [ref=e4744]
+                                  - math [ref=e4752]:
+                                    - generic [ref=e4753]: "Y"
+                                    - generic [ref=e4754]: /
+                                    - generic [ref=e4755]: "Y"
+                              - cell [ref=e4756]:
+                                - generic [ref=e4758]:
+                                  - img [ref=e4759]
+                                  - math [ref=e4767]:
+                                    - generic [ref=e4768]: "Y"
+                                    - generic [ref=e4769]: /
+                                    - generic [ref=e4770]: "N"
+                              - cell [ref=e4771]:
+                                - generic [ref=e4773]:
+                                  - img [ref=e4774]
+                                  - math [ref=e4782]:
+                                    - generic [ref=e4783]: "Y"
+                                    - generic [ref=e4784]: /
+                                    - generic [ref=e4785]: "N"
+                              - cell [ref=e4786]:
+                                - generic [ref=e4788]:
+                                  - img [ref=e4789]
+                                  - math [ref=e4797]:
+                                    - generic [ref=e4798]: "Y"
+                                    - generic [ref=e4799]: /
+                                    - generic [ref=e4800]: "Y"
+                              - cell [ref=e4801]:
+                                - generic [ref=e4803]:
+                                  - img [ref=e4804]
+                                  - math [ref=e4812]:
+                                    - generic [ref=e4813]: "Y"
+                                    - generic [ref=e4814]: /
+                                    - generic [ref=e4815]: "Y"
+                              - cell [ref=e4816]:
+                                - generic [ref=e4818]:
+                                  - img [ref=e4819]
+                                  - math [ref=e4827]:
+                                    - generic [ref=e4828]: "Y"
+                                    - generic [ref=e4829]: /
+                                    - generic [ref=e4830]: "N"
+                            - row "MP10" [ref=e4831]:
+                              - rowheader "MP10" [ref=e4832]
+                              - cell [ref=e4833]:
+                                - generic [ref=e4835]:
+                                  - img [ref=e4836]
+                                  - math [ref=e4844]:
+                                    - generic [ref=e4845]: "Y"
+                                    - generic [ref=e4846]: /
+                                    - generic [ref=e4847]: "N"
+                              - cell [ref=e4848]:
+                                - generic [ref=e4850]:
+                                  - img [ref=e4851]
+                                  - math [ref=e4859]:
+                                    - generic [ref=e4860]: "Y"
+                                    - generic [ref=e4861]: /
+                                    - generic [ref=e4862]: "Y"
+                              - cell [ref=e4863]:
+                                - generic [ref=e4865]:
+                                  - img [ref=e4866]
+                                  - math [ref=e4874]:
+                                    - generic [ref=e4875]: "Y"
+                                    - generic [ref=e4876]: /
+                                    - generic [ref=e4877]: "N"
+                              - cell [ref=e4878]:
+                                - generic [ref=e4880]:
+                                  - img [ref=e4881]
+                                  - math [ref=e4889]:
+                                    - generic [ref=e4890]: "Y"
+                                    - generic [ref=e4891]: /
+                                    - generic [ref=e4892]: "Y"
+                              - cell [ref=e4893]:
+                                - generic [ref=e4895]:
+                                  - img [ref=e4896]
+                                  - math [ref=e4904]:
+                                    - generic [ref=e4905]: "Y"
+                                    - generic [ref=e4906]: /
+                                    - generic [ref=e4907]: "Y"
+                              - cell [ref=e4908]:
+                                - generic [ref=e4910]:
+                                  - img [ref=e4911]
+                                  - math [ref=e4919]:
+                                    - generic [ref=e4920]: "Y"
+                                    - generic [ref=e4921]: /
+                                    - generic [ref=e4922]: "N"
+                              - cell [ref=e4923]:
+                                - generic [ref=e4925]:
+                                  - img [ref=e4926]
+                                  - math [ref=e4934]:
+                                    - generic [ref=e4935]: "Y"
+                                    - generic [ref=e4936]: /
+                                    - generic [ref=e4937]: "N"
+                              - cell [ref=e4938]:
+                                - generic [ref=e4940]:
+                                  - img [ref=e4941]
+                                  - math [ref=e4949]:
+                                    - generic [ref=e4950]: "Y"
+                                    - generic [ref=e4951]: /
+                                    - generic [ref=e4952]: "Y"
+                              - cell [ref=e4953]:
+                                - generic [ref=e4955]:
+                                  - img [ref=e4956]
+                                  - math [ref=e4964]:
+                                    - generic [ref=e4965]: "Y"
+                                    - generic [ref=e4966]: /
+                                    - generic [ref=e4967]: "N"
+                              - cell [ref=e4968]:
+                                - generic [ref=e4970]:
+                                  - img [ref=e4971]
+                                  - math [ref=e4979]:
+                                    - generic [ref=e4980]: "Y"
+                                    - generic [ref=e4981]: /
+                                    - generic [ref=e4982]: "N"
+                            - row "MP11 N/N N/N" [ref=e4983]:
+                              - rowheader "MP11" [ref=e4984]
+                              - cell [ref=e4985]:
+                                - generic [ref=e4987]:
+                                  - img [ref=e4988]
+                                  - math [ref=e4996]:
+                                    - generic [ref=e4997]: "Y"
+                                    - generic [ref=e4998]: /
+                                    - generic [ref=e4999]: "N"
+                              - cell [ref=e5000]:
+                                - generic [ref=e5002]:
+                                  - img [ref=e5003]
+                                  - math [ref=e5011]:
+                                    - generic [ref=e5012]: "Y"
+                                    - generic [ref=e5013]: /
+                                    - generic [ref=e5014]: "Y"
+                              - cell [ref=e5015]:
+                                - generic [ref=e5017]:
+                                  - img [ref=e5018]
+                                  - math [ref=e5026]:
+                                    - generic [ref=e5027]: "Y"
+                                    - generic [ref=e5028]: /
+                                    - generic [ref=e5029]: "N"
+                              - cell [ref=e5030]:
+                                - generic [ref=e5032]:
+                                  - img [ref=e5033]
+                                  - math [ref=e5041]:
+                                    - generic [ref=e5042]: "Y"
+                                    - generic [ref=e5043]: /
+                                    - generic [ref=e5044]: "Y"
+                              - cell [ref=e5045]:
+                                - generic [ref=e5047]:
+                                  - img [ref=e5048]
+                                  - math [ref=e5056]:
+                                    - generic [ref=e5057]: "Y"
+                                    - generic [ref=e5058]: /
+                                    - generic [ref=e5059]: "N"
+                              - cell "N/N" [ref=e5060]:
+                                - strong [ref=e5061]: "N"
+                                - text: /
+                                - strong [ref=e5062]: "N"
+                              - cell [ref=e5063]:
+                                - generic [ref=e5065]:
+                                  - img [ref=e5066]
+                                  - math [ref=e5074]:
+                                    - generic [ref=e5075]: "Y"
+                                    - generic [ref=e5076]: /
+                                    - generic [ref=e5077]: "N"
+                              - cell [ref=e5078]:
+                                - generic [ref=e5080]:
+                                  - img [ref=e5081]
+                                  - math [ref=e5089]:
+                                    - generic [ref=e5090]: "Y"
+                                    - generic [ref=e5091]: /
+                                    - generic [ref=e5092]: "N"
+                              - cell [ref=e5093]:
+                                - generic [ref=e5095]:
+                                  - img [ref=e5096]
+                                  - math [ref=e5104]:
+                                    - generic [ref=e5105]: "Y"
+                                    - generic [ref=e5106]: /
+                                    - generic [ref=e5107]: "N"
+                              - cell "N/N" [ref=e5108]:
+                                - strong [ref=e5109]: "N"
+                                - text: /
+                                - strong [ref=e5110]: "N"
+                            - row "MP12 N/N N/N N/N N/N" [ref=e5111]:
+                              - rowheader "MP12" [ref=e5112]
+                              - cell [ref=e5113]:
+                                - generic [ref=e5115]:
+                                  - img [ref=e5116]
+                                  - math [ref=e5124]:
+                                    - generic [ref=e5125]: "Y"
+                                    - generic [ref=e5126]: /
+                                    - generic [ref=e5127]: "N"
+                              - cell [ref=e5128]:
+                                - generic [ref=e5130]:
+                                  - img [ref=e5131]
+                                  - math [ref=e5139]:
+                                    - generic [ref=e5140]: "Y"
+                                    - generic [ref=e5141]: /
+                                    - generic [ref=e5142]: "N"
+                              - cell [ref=e5143]:
+                                - generic [ref=e5145]:
+                                  - img [ref=e5146]
+                                  - math [ref=e5154]:
+                                    - generic [ref=e5155]: "Y"
+                                    - generic [ref=e5156]: /
+                                    - generic [ref=e5157]: "N"
+                              - cell [ref=e5158]:
+                                - generic [ref=e5160]:
+                                  - img [ref=e5161]
+                                  - math [ref=e5169]:
+                                    - generic [ref=e5170]: "Y"
+                                    - generic [ref=e5171]: /
+                                    - generic [ref=e5172]: "Y"
+                              - cell "N/N" [ref=e5173]:
+                                - strong [ref=e5174]: "N"
+                                - text: /
+                                - strong [ref=e5175]: "N"
+                              - cell "N/N" [ref=e5176]:
+                                - strong [ref=e5177]: "N"
+                                - text: /
+                                - strong [ref=e5178]: "N"
+                              - cell [ref=e5179]:
+                                - generic [ref=e5181]:
+                                  - img [ref=e5182]
+                                  - math [ref=e5190]:
+                                    - generic [ref=e5191]: "Y"
+                                    - generic [ref=e5192]: /
+                                    - generic [ref=e5193]: "N"
+                              - cell [ref=e5194]:
+                                - generic [ref=e5196]:
+                                  - img [ref=e5197]
+                                  - math [ref=e5205]:
+                                    - generic [ref=e5206]: "Y"
+                                    - generic [ref=e5207]: /
+                                    - generic [ref=e5208]: "N"
+                              - cell "N/N" [ref=e5209]:
+                                - strong [ref=e5210]: "N"
+                                - text: /
+                                - strong [ref=e5211]: "N"
+                              - cell "N/N" [ref=e5212]:
+                                - strong [ref=e5213]: "N"
+                                - text: /
+                                - strong [ref=e5214]: "N"
+                            - row "MP13 N/N N/N N/N N/N N/N N/N" [ref=e5215]:
+                              - rowheader "MP13" [ref=e5216]
+                              - cell [ref=e5217]:
+                                - generic [ref=e5219]:
+                                  - img [ref=e5220]
+                                  - math [ref=e5228]:
+                                    - generic [ref=e5229]: "Y"
+                                    - generic [ref=e5230]: /
+                                    - generic [ref=e5231]: "N"
+                              - cell "N/N" [ref=e5232]:
+                                - strong [ref=e5233]: "N"
+                                - text: /
+                                - strong [ref=e5234]: "N"
+                              - cell [ref=e5235]:
+                                - generic [ref=e5237]:
+                                  - img [ref=e5238]
+                                  - math [ref=e5246]:
+                                    - generic [ref=e5247]: "Y"
+                                    - generic [ref=e5248]: /
+                                    - generic [ref=e5249]: "N"
+                              - cell [ref=e5250]:
+                                - generic [ref=e5252]:
+                                  - img [ref=e5253]
+                                  - math [ref=e5261]:
+                                    - generic [ref=e5262]: "Y"
+                                    - generic [ref=e5263]: /
+                                    - generic [ref=e5264]: "Y"
+                              - cell "N/N" [ref=e5265]:
+                                - strong [ref=e5266]: "N"
+                                - text: /
+                                - strong [ref=e5267]: "N"
+                              - cell "N/N" [ref=e5268]:
+                                - strong [ref=e5269]: "N"
+                                - text: /
+                                - strong [ref=e5270]: "N"
+                              - cell [ref=e5271]:
+                                - generic [ref=e5273]:
+                                  - img [ref=e5274]
+                                  - math [ref=e5282]:
+                                    - generic [ref=e5283]: "Y"
+                                    - generic [ref=e5284]: /
+                                    - generic [ref=e5285]: "N"
+                              - cell "N/N" [ref=e5286]:
+                                - strong [ref=e5287]: "N"
+                                - text: /
+                                - strong [ref=e5288]: "N"
+                              - cell "N/N" [ref=e5289]:
+                                - strong [ref=e5290]: "N"
+                                - text: /
+                                - strong [ref=e5291]: "N"
+                              - cell "N/N" [ref=e5292]:
+                                - strong [ref=e5293]: "N"
+                                - text: /
+                                - strong [ref=e5294]: "N"
+                    - generic [ref=e5295]:
+                      - generic [ref=e5296]:
+                        - link "Fig. 7" [ref=e5297] [cursor=pointer]:
+                          - /url: "#fg0060"
+                          - generic [ref=e5298]: Fig. 7
+                        - text: shows an example of SLA determination in the strategic phase. An unexpected event occurs when the drone reaches the MP13. The drone cannot land at the warehouse due to traffic bottleneck or area maintenance. For MP13,
+                        - generic [ref=e5300]:
+                          - img [ref=e5301]
+                          - math [ref=e5324]:
+                            - generic [ref=e5325]:
+                              - generic [ref=e5327]: L
+                              - generic [ref=e5328]:
+                                - generic [ref=e5329]: s
+                                - generic [ref=e5330]: t
+                                - generic [ref=e5331]: r
+                                - generic [ref=e5332]: a
+                                - generic [ref=e5333]: i
+                                - generic [ref=e5334]: g
+                                - generic [ref=e5335]: h
+                                - generic [ref=e5336]: t
+                        - text: =410.0 m and
+                        - generic [ref=e5338]:
+                          - img [ref=e5339]
+                          - math [ref=e5350]:
+                            - generic [ref=e5351]:
+                              - generic [ref=e5353]: L
+                              - generic [ref=e5354]:
+                                - generic [ref=e5355]: w
+                                - generic [ref=e5356]: c
+                        - text: =248.9 m. So,
+                        - link "Fig. 7" [ref=e5357] [cursor=pointer]:
+                          - /url: "#fg0060"
+                          - generic [ref=e5358]: Fig. 7
+                        - text: reports the SLAs that cannot be reached (red), the SLA that can be reached with a straight-line path or with a more complex path (green) and the SLAs that can only be reached following a straight-line path (blue).
+                      - figure [ref=e5359]:
+                        - generic [ref=e5360]:
+                          - img "Fig. 7" [ref=e5361]
+                          - list [ref=e5362]:
+                            - listitem [ref=e5363]:
+                              - 'link "Download: Download high-res image (59KB)" [ref=e5364] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr007_lrg.jpg
+                                - generic [ref=e5366]: "Download: Download high-res image (59KB)"
+                            - listitem [ref=e5367]:
+                              - 'link "Download: Download full-size image" [ref=e5368] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S1270963822005958-gr007.jpg
+                                - generic [ref=e5370]: "Download: Download full-size image"
+                        - paragraph [ref=e5373]:
+                          - text: Fig. 7. Example of SLA availability determination in the strategic phase from the MP13 indicated with a black star. East North Up reference frame centred at first WP. The red SLAs cannot be reached by the drone, the green SLA can be reached by the drone according to both distances
+                          - link "(6)" [ref=e5374] [cursor=pointer]:
+                            - /url: "#fm0060"
+                            - generic [ref=e5375]: (6)
+                          - text: and
+                          - link "(7)" [ref=e5376] [cursor=pointer]:
+                            - /url: "#fm0070"
+                            - generic [ref=e5377]: (7)
+                          - text: ", the blue SLAs can be reached by the drone only according to the distance"
+                          - link "(6)" [ref=e5378] [cursor=pointer]:
+                            - /url: "#fm0060"
+                            - generic [ref=e5379]: (6)
+                          - text: ", so when the drone performs a straight-line path."
+                - generic [ref=e5380]:
+                  - heading "6. Conclusion" [level=2] [ref=e5381]
+                  - generic [ref=e5382]:
+                    - generic [ref=e5383]:
+                      - generic [ref=e5384]:
+                        - text: This paper describes a data-driven learning based method to predict the battery discharge of a multirotor drone over a generic planned path.
+                        - link "Flight tests" [ref=e5385] [cursor=pointer]:
+                          - /url: /topics/physics-and-astronomy/flight-test
+                        - text: were realized to acquire huge amount of data that was processed according to a segmentation strategy in order to realize a proper database. The valid samples were used to train an adaptive neural algorithm based on the Bayesian
+                      - link "Regularization" [ref=e5386] [cursor=pointer]:
+                        - /url: /topics/engineering/regularization
+                    - link "Backpropagation" [ref=e5387] [cursor=pointer]:
+                      - /url: /topics/engineering/backpropagation
+                    - text: approach. A Time-Predictor and a Battery-Discharge-Predictor were developed identifying the optimal neural network configuration for time-of-flight and integral-of-current prediction. The battery capacity was estimated, and the battery state of charge can be predicted starting from the current integral knowledge. The method was applied to a scaled package delivery mission that was planned considering a generic planned path and a random distribution of safe-landing areas in which the drone can land if an unexpected event occurs during the mission execution. The maximum distance that the drone can reach from selected points of the planned path was computed according to the remaining battery level and considering a safety threshold of the 30%. So, the safe-landing areas available for the drone can be identified.
+                  - generic [ref=e5388]:
+                    - text: The presented method was developed for a specific commercial drone, so the algorithm must be trained with a new dataset if a new drone model is involved. Moreover, the battery capacity must be estimated for each used battery and/or if the battery performance changes. To obtain an accurate estimation of both drone time of flight and absorbed current integral, the wind direction and intensity should be computed in the surrounding area of the flight. This method allows to support the
+                    - link "path planning" [ref=e5389] [cursor=pointer]:
+                      - /url: /topics/earth-and-planetary-sciences/trajectory-planning
+                    - text: or re-planning tasks thanks to the development of safety procedures for Unmanned Traffic Management systems both at strategical and tactical levels; the latter case, in a real-time implementation of the algorithm, would benefit of the deterministic computational time guaranteed by the neural architecture of the proposed prediction tool.
+              - generic [ref=e5390]:
+                - heading "Declaration of Competing Interest" [level=2] [ref=e5391]
+                - generic [ref=e5392]: The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+              - generic [ref=e5394]:
+                - heading "Appendix A." [level=2] [ref=e5395]
+                - generic [ref=e5396]:
+                  - text: The estimation of battery capacity is a critical element to be computed. This study considers an experimental value of the battery capacity that was computed after tests data of the
+                  - emphasis [ref=e5397]: standard paths
+                  - text: flights. Five LiPo DJI® Mavic 2 Intelligent Flight batteries were used. The batteries are identified as B01, B02, B03, B04, and B05.
+                - generic [ref=e5398]:
+                  - text: Now, it is worth mentioning explicitly that each
+                  - emphasis [ref=e5399]: standard path
+                  - text: was completed in more than one flight because a single battery was not sufficient to complete the path. For the generic complete
+                  - emphasis [ref=e5400]: j
+                  - superscript [ref=e5401]: th
+                  - text: flight, following the Coulomb counting method and equation
+                  - link "(1)" [ref=e5402] [cursor=pointer]:
+                    - /url: "#fm0010"
+                    - generic [ref=e5403]: (1)
+                  - text: ", the overall SOC variation can be related to the current integral:"
+                  - generic [ref=e5405]:
+                    - generic [ref=e5406]: (A.1)
+                    - generic [ref=e5408]:
+                      - img [ref=e5409]
+                      - math [ref=e5528]:
+                        - generic [ref=e5529]: S
+                        - generic [ref=e5530]: O
+                        - generic [ref=e5531]:
+                          - generic [ref=e5533]: C
+                          - generic [ref=e5534]:
+                            - generic [ref=e5535]: j
+                            - generic [ref=e5536]: ","
+                            - generic [ref=e5537]: e
+                            - generic [ref=e5538]: "n"
+                            - generic [ref=e5539]: d
+                        - generic [ref=e5540]: =
+                        - generic [ref=e5541]: S
+                        - generic [ref=e5542]: O
+                        - generic [ref=e5543]:
+                          - generic [ref=e5545]: C
+                          - generic [ref=e5546]:
+                            - generic [ref=e5547]: j
+                            - generic [ref=e5548]: ","
+                            - generic [ref=e5549]: s
+                            - generic [ref=e5550]: t
+                            - generic [ref=e5551]: a
+                            - generic [ref=e5552]: r
+                            - generic [ref=e5553]: t
+                        - generic [ref=e5554]: −
+                        - generic [ref=e5555]:
+                          - generic [ref=e5557]: "1"
+                          - generic [ref=e5559]:
+                            - generic [ref=e5561]:
+                              - generic [ref=e5563]: Q
+                              - generic [ref=e5565]: ˜
+                            - generic [ref=e5567]: j
+                        - generic [ref=e5568]:
+                          - generic [ref=e5569]: ∫
+                          - generic [ref=e5571]:
+                            - generic [ref=e5573]: t
+                            - generic [ref=e5574]:
+                              - generic [ref=e5575]: j
+                              - generic [ref=e5576]: ","
+                              - generic [ref=e5577]: s
+                              - generic [ref=e5578]: t
+                              - generic [ref=e5579]: a
+                              - generic [ref=e5580]: r
+                              - generic [ref=e5581]: t
+                          - generic [ref=e5583]:
+                            - generic [ref=e5585]: t
+                            - generic [ref=e5586]:
+                              - generic [ref=e5587]: j
+                              - generic [ref=e5588]: ","
+                              - generic [ref=e5589]: e
+                              - generic [ref=e5590]: "n"
+                              - generic [ref=e5591]: d
+                        - generic [ref=e5592]: c
+                        - generic [ref=e5593]:
+                          - generic [ref=e5594]: (
+                          - generic [ref=e5595]: τ
+                          - generic [ref=e5596]: )
+                        - generic [ref=e5597]: d
+                        - generic [ref=e5598]: τ
+                  - text: where
+                  - generic [ref=e5600]:
+                    - img [ref=e5601]
+                    - math [ref=e5626]:
+                      - generic [ref=e5627]: S
+                      - generic [ref=e5628]: O
+                      - generic [ref=e5629]:
+                        - generic [ref=e5631]: C
+                        - generic [ref=e5632]:
+                          - generic [ref=e5633]: j
+                          - generic [ref=e5634]: ","
+                          - generic [ref=e5635]: s
+                          - generic [ref=e5636]: t
+                          - generic [ref=e5637]: a
+                          - generic [ref=e5638]: r
+                          - generic [ref=e5639]: t
+                  - text: and
+                  - generic [ref=e5641]:
+                    - img [ref=e5642]
+                    - math [ref=e5663]:
+                      - generic [ref=e5664]: S
+                      - generic [ref=e5665]: O
+                      - generic [ref=e5666]:
+                        - generic [ref=e5668]: C
+                        - generic [ref=e5669]:
+                          - generic [ref=e5670]: j
+                          - generic [ref=e5671]: ","
+                          - generic [ref=e5672]: e
+                          - generic [ref=e5673]: "n"
+                          - generic [ref=e5674]: d
+                  - text: are the battery SOC values at the beginning and at the end of the j
+                  - superscript [ref=e5675]: th
+                  - text: flight and are available from the telemetry,
+                  - generic [ref=e5677]:
+                    - img [ref=e5678]
+                    - math [ref=e5692]:
+                      - generic [ref=e5693]:
+                        - generic [ref=e5695]:
+                          - generic [ref=e5697]: Q
+                          - generic [ref=e5699]: ˜
+                        - generic [ref=e5701]: j
+                  - text: is the experimental determination of the battery being used in the considered flight,
+                  - generic [ref=e5703]:
+                    - img [ref=e5704]
+                    - math [ref=e5725]:
+                      - generic [ref=e5726]:
+                        - generic [ref=e5728]: t
+                        - generic [ref=e5729]:
+                          - generic [ref=e5730]: j
+                          - generic [ref=e5731]: ","
+                          - generic [ref=e5732]: s
+                          - generic [ref=e5733]: t
+                          - generic [ref=e5734]: a
+                          - generic [ref=e5735]: r
+                          - generic [ref=e5736]: t
+                  - text: and
+                  - generic [ref=e5738]:
+                    - img [ref=e5739]
+                    - math [ref=e5756]:
+                      - generic [ref=e5757]:
+                        - generic [ref=e5759]: t
+                        - generic [ref=e5760]:
+                          - generic [ref=e5761]: j
+                          - generic [ref=e5762]: ","
+                          - generic [ref=e5763]: e
+                          - generic [ref=e5764]: "n"
+                          - generic [ref=e5765]: d
+                  - text: are the time instant at the beginning and at the end of the j
+                  - superscript [ref=e5766]: th
+                  - text: flight, respectively. The integral of the current in equation
+                  - link "(A.1)" [ref=e5767] [cursor=pointer]:
+                    - /url: "#fm0080"
+                    - generic [ref=e5768]: (A.1)
+                  - text: can be numerically computed, following equation
+                  - link "(2)" [ref=e5769] [cursor=pointer]:
+                    - /url: "#fm0020"
+                    - generic [ref=e5770]: (2)
+                  - text: ":"
+                  - generic [ref=e5772]:
+                    - generic [ref=e5773]: (A.2)
+                    - generic [ref=e5775]:
+                      - img [ref=e5776]
+                      - math [ref=e5862]:
+                        - generic [ref=e5863]: c
+                        - generic [ref=e5864]: u
+                        - generic [ref=e5865]: r
+                        - generic [ref=e5866]:
+                          - generic [ref=e5868]: r
+                          - generic [ref=e5870]: j
+                        - generic [ref=e5871]: =
+                        - generic [ref=e5872]:
+                          - generic [ref=e5873]: ∑
+                          - generic [ref=e5874]:
+                            - generic [ref=e5875]: k
+                            - generic [ref=e5876]: =
+                            - generic [ref=e5877]: "1"
+                          - generic [ref=e5879]:
+                            - generic [ref=e5881]: K
+                            - generic [ref=e5883]: j
+                        - generic [ref=e5884]:
+                          - generic [ref=e5885]:
+                            - generic [ref=e5886]:
+                              - generic [ref=e5888]: c
+                              - generic [ref=e5889]:
+                                - generic [ref=e5890]: k
+                                - generic [ref=e5891]: −
+                                - generic [ref=e5892]: "1"
+                            - generic [ref=e5893]: +
+                            - generic [ref=e5894]:
+                              - generic [ref=e5896]: c
+                              - generic [ref=e5898]: k
+                          - generic [ref=e5900]: "2"
+                        - generic [ref=e5901]: (
+                        - generic [ref=e5902]:
+                          - generic [ref=e5904]: t
+                          - generic [ref=e5906]: k
+                        - generic [ref=e5907]: −
+                        - generic [ref=e5908]:
+                          - generic [ref=e5910]: t
+                          - generic [ref=e5911]:
+                            - generic [ref=e5912]: k
+                            - generic [ref=e5913]: −
+                            - generic [ref=e5914]: "1"
+                        - generic [ref=e5915]: )
+                  - text: where here
+                  - generic [ref=e5917]:
+                    - img [ref=e5918]
+                    - math [ref=e5927]:
+                      - generic [ref=e5928]:
+                        - generic [ref=e5930]: K
+                        - generic [ref=e5932]: j
+                  - text: is the number of telemetry samples for the
+                  - emphasis [ref=e5933]: j
+                  - superscript [ref=e5934]: th
+                  - text: flight, t
+                  - subscript [ref=e5935]: k
+                  - text: and c
+                  - subscript [ref=e5936]: k
+                  - text: are the relevant telemetry time and battery current samples. The value of battery capacity
+                  - generic [ref=e5938]:
+                    - img [ref=e5939]
+                    - math [ref=e5953]:
+                      - generic [ref=e5954]:
+                        - generic [ref=e5956]:
+                          - generic [ref=e5958]: Q
+                          - generic [ref=e5960]: ˜
+                        - generic [ref=e5962]: j
+                  - text: was estimated from the telemetry data of the
+                  - emphasis [ref=e5963]: j
+                  - superscript [ref=e5964]: th
+                  - text: flight as follows
+                  - generic [ref=e5966]:
+                    - generic [ref=e5967]: (A.3)
+                    - generic [ref=e5969]:
+                      - img [ref=e5970]
+                      - math [ref=e6044]:
+                        - generic [ref=e6045]:
+                          - generic [ref=e6047]:
+                            - generic [ref=e6049]: Q
+                            - generic [ref=e6051]: ˜
+                          - generic [ref=e6053]: j
+                        - generic [ref=e6054]: =
+                        - generic [ref=e6055]: −
+                        - generic [ref=e6056]:
+                          - generic [ref=e6057]:
+                            - generic [ref=e6058]: c
+                            - generic [ref=e6059]: u
+                            - generic [ref=e6060]: r
+                            - generic [ref=e6061]:
+                              - generic [ref=e6063]: r
+                              - generic [ref=e6065]: j
+                          - generic [ref=e6066]:
+                            - generic [ref=e6067]: S
+                            - generic [ref=e6068]: O
+                            - generic [ref=e6069]:
+                              - generic [ref=e6071]: C
+                              - generic [ref=e6072]:
+                                - generic [ref=e6073]: f
+                                - generic [ref=e6074]: i
+                                - generic [ref=e6075]: "n"
+                                - generic [ref=e6076]: ","
+                                - generic [ref=e6077]: j
+                            - generic [ref=e6078]: −
+                            - generic [ref=e6079]: S
+                            - generic [ref=e6080]: O
+                            - generic [ref=e6081]:
+                              - generic [ref=e6083]: C
+                              - generic [ref=e6084]:
+                                - generic [ref=e6085]: i
+                                - generic [ref=e6086]: "n"
+                                - generic [ref=e6087]: ","
+                                - generic [ref=e6088]: j
+                - generic [ref=e6089]:
+                  - generic [ref=e6090]:
+                    - text: The
+                    - link "Table A.1" [ref=e6091] [cursor=pointer]:
+                      - /url: "#tbl0080"
+                      - generic [ref=e6092]: Table A.1
+                    - text: shows the computed
+                    - generic [ref=e6094]:
+                      - img [ref=e6095]
+                      - math [ref=e6109]:
+                        - generic [ref=e6110]:
+                          - generic [ref=e6112]:
+                            - generic [ref=e6114]: Q
+                            - generic [ref=e6116]: ˜
+                          - generic [ref=e6118]: j
+                    - text: value for the batteries in use in the flights of the standard paths, i.e. from B01 to B05, and the mean value of the battery capacity
+                    - generic [ref=e6120]:
+                      - img [ref=e6121]
+                      - math [ref=e6136]:
+                        - generic [ref=e6137]:
+                          - generic [ref=e6139]: Q
+                          - generic [ref=e6140]:
+                            - generic [ref=e6141]: m
+                            - generic [ref=e6142]: e
+                            - generic [ref=e6143]: a
+                            - generic [ref=e6144]: "n"
+                    - text: .
+                  - generic [ref=e6145]:
+                    - paragraph [ref=e6148]:
+                      - text: Table A.1. Experimental value of the capacity
+                      - generic [ref=e6150]:
+                        - img [ref=e6151]
+                        - math [ref=e6165]:
+                          - generic [ref=e6166]:
+                            - generic [ref=e6168]:
+                              - generic [ref=e6170]: Q
+                              - generic [ref=e6172]: ˜
+                            - generic [ref=e6174]: j
+                      - text: for the batteries in use in the flights of the standard paths and mean value of the battery capacity
+                      - emphasis [ref=e6175]: Q
+                      - subscript [ref=e6176]:
+                        - emphasis [ref=e6177]: mean
+                      - text: .
+                    - table [ref=e6179]:
+                      - rowgroup [ref=e6180]:
+                        - row "Battery ID Standard Path Flight (As) Qmean (As)" [ref=e6181]:
+                          - rowheader "Battery ID" [ref=e6182]
+                          - columnheader "Standard Path Flight" [ref=e6183]
+                          - columnheader "(As)" [ref=e6184]:
+                            - generic [ref=e6186]:
+                              - img [ref=e6187]
+                              - math [ref=e6201]:
+                                - generic [ref=e6202]:
+                                  - generic [ref=e6204]:
+                                    - generic [ref=e6206]: Q
+                                    - generic [ref=e6208]: ˜
+                                  - generic [ref=e6210]: j
+                            - text: (As)
+                          - columnheader "Qmean (As)" [ref=e6211]:
+                            - emphasis [ref=e6212]: Q
+                            - subscript [ref=e6213]:
+                              - emphasis [ref=e6214]: mean
+                            - text: (As)
+                      - rowgroup [ref=e6215]:
+                        - row "B01 T30-1 12093 12234" [ref=e6216]:
+                          - cell "B01" [ref=e6217]
+                          - cell "T30-1" [ref=e6218]
+                          - cell "12093" [ref=e6219]
+                          - cell "12234" [ref=e6220]
+                        - row "T90-2 12370" [ref=e6221]:
+                          - cell "T90-2" [ref=e6222]
+                          - cell "12370" [ref=e6223]
+                          - cell [ref=e6224]
+                        - row "T120-1 12181" [ref=e6225]:
+                          - cell "T120-1" [ref=e6226]
+                          - cell "12181" [ref=e6227]
+                          - cell [ref=e6228]
+                        - row "T180-2 12291" [ref=e6229]:
+                          - cell "T180-2" [ref=e6230]
+                          - cell "12291" [ref=e6231]
+                          - cell [ref=e6232]
+                        - row [ref=e6233]:
+                          - cell [ref=e6234]
+                        - row "B02 T0-2 12236 12522" [ref=e6235]:
+                          - cell "B02" [ref=e6236]
+                          - cell "T0-2" [ref=e6237]
+                          - cell "12236" [ref=e6238]
+                          - cell "12522" [ref=e6239]
+                        - row "T30-2 12372" [ref=e6240]:
+                          - cell "T30-2" [ref=e6241]
+                          - cell "12372" [ref=e6242]
+                          - cell [ref=e6243]
+                        - row "T30-3 12667" [ref=e6244]:
+                          - cell "T30-3" [ref=e6245]
+                          - cell "12667" [ref=e6246]
+                          - cell [ref=e6247]
+                        - row "T60-1 12358" [ref=e6248]:
+                          - cell "T60-1" [ref=e6249]
+                          - cell "12358" [ref=e6250]
+                          - cell [ref=e6251]
+                        - row "T150-1 12583" [ref=e6252]:
+                          - cell "T150-1" [ref=e6253]
+                          - cell "12583" [ref=e6254]
+                          - cell [ref=e6255]
+                        - row "T180-3 12881" [ref=e6256]:
+                          - cell "T180-3" [ref=e6257]
+                          - cell "12881" [ref=e6258]
+                          - cell [ref=e6259]
+                        - row "T180-4 12556" [ref=e6260]:
+                          - cell "T180-4" [ref=e6261]
+                          - cell "12556" [ref=e6262]
+                          - cell [ref=e6263]
+                        - row [ref=e6264]:
+                          - cell [ref=e6265]
+                        - row "B03 T0-1 12111 12025" [ref=e6266]:
+                          - cell "B03" [ref=e6267]
+                          - cell "T0-1" [ref=e6268]
+                          - cell "12111" [ref=e6269]
+                          - cell "12025" [ref=e6270]
+                        - row "T0-4 11907" [ref=e6271]:
+                          - cell "T0-4" [ref=e6272]
+                          - cell "11907" [ref=e6273]
+                          - cell [ref=e6274]
+                        - row "T60-2 11986" [ref=e6275]:
+                          - cell "T60-2" [ref=e6276]
+                          - cell "11986" [ref=e6277]
+                          - cell [ref=e6278]
+                        - row "T90-1 12095" [ref=e6279]:
+                          - cell "T90-1" [ref=e6280]
+                          - cell "12095" [ref=e6281]
+                          - cell [ref=e6282]
+                        - row [ref=e6283]:
+                          - cell [ref=e6284]
+                        - row "B04 T0-3 12884 12699" [ref=e6285]:
+                          - cell "B04" [ref=e6286]
+                          - cell "T0-3" [ref=e6287]
+                          - cell "12884" [ref=e6288]
+                          - cell "12699" [ref=e6289]
+                        - row "T150-2 12514" [ref=e6290]:
+                          - cell "T150-2" [ref=e6291]
+                          - cell "12514" [ref=e6292]
+                          - cell [ref=e6293]
+                        - row [ref=e6294]:
+                          - cell [ref=e6295]
+                        - row "B05 T120-2 12810 12944" [ref=e6296]:
+                          - cell "B05" [ref=e6297]
+                          - cell "T120-2" [ref=e6298]
+                          - cell "12810" [ref=e6299]
+                          - cell "12944" [ref=e6300]
+                        - row "T180-1 13079" [ref=e6301]:
+                          - cell "T180-1" [ref=e6302]
+                          - cell "13079" [ref=e6303]
+                          - cell [ref=e6304]
+                - generic [ref=e6305]:
+                  - text: The values reported in the
+                  - link "Table A.1" [ref=e6306] [cursor=pointer]:
+                    - /url: "#tbl0080"
+                    - generic [ref=e6307]: Table A.1
+                  - text: were used to predict the battery ΔSOC in the tests of Sections
+                  - link "4" [ref=e6308] [cursor=pointer]:
+                    - /url: "#se0060"
+                    - generic [ref=e6309]: "4"
+                  - text: and
+                  - link "5" [ref=e6310] [cursor=pointer]:
+                    - /url: "#se0100"
+                    - generic [ref=e6311]: "5"
+                  - text: .
+            - generic [ref=e215]:
+              - heading "Data availability" [level=2] [ref=e216]
+              - generic [ref=e217]: Data will be made available on request.
+            - generic [ref=e6313]:
+              - heading "References" [level=2] [ref=e6314]
+              - list [ref=e6316]:
+                - listitem [ref=e6317]:
+                  - link "[1]" [ref=e6319] [cursor=pointer]:
+                    - /url: "#bbr0010"
+                    - generic [ref=e6320]: "[1]"
+                  - generic [ref=e6321]:
+                    - generic [ref=e6322]: SESAR Joint Undertaking, Concept of Operations for European UTM Systems - CORUS
+                    - generic [ref=e6323]:
+                      - link "https://www.sesarju.eu/projects/corusOpens in new window" [ref=e6324] [cursor=pointer]:
+                        - /url: https://www.sesarju.eu/projects/corus
+                        - generic [ref=e6325]:
+                          - text: https://www.sesarju.eu/projects/corus
+                          - img "Opens in new window" [ref=e6326]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6329] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=SESAR%20Joint%20Undertaking%2C%20Concept%20Of%20Operations%20for%20European%20UTM%20Systems%20-%20CORUS.%20https%3A%2F%2Fwww.sesarju.eu%2Fprojects%2Fcorus%20(accessed%2023%20March%202022).
+                      - generic [ref=e6330]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6331]
+                - listitem [ref=e6333]:
+                  - link "[2]" [ref=e6335] [cursor=pointer]:
+                    - /url: "#bbr0020"
+                    - generic [ref=e6336]: "[2]"
+                  - generic [ref=e6337]:
+                    - generic [ref=e6338]: SESAR Joint Undertaking, Advanced Integrated RPAS Avionics Safety Suites - AIRPASS
+                    - link "https://www.sesarju.eu/node/3327Opens in new window" [ref=e6340] [cursor=pointer]:
+                      - /url: https://www.sesarju.eu/node/3327
+                      - generic [ref=e6341]:
+                        - text: https://www.sesarju.eu/node/3327
+                        - img "Opens in new window" [ref=e6342]
+                    - link "Google ScholarOpens in new window" [ref=e6345] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=SESAR%20Joint%20Undertaking%2C%20Advanced%20Integrated%20RPAS%20Avionics%20Safety%20Suites%20-%20AIRPASS.%20https%3A%2F%2Fwww.sesarju.eu%2Fnode%2F3327.
+                      - generic [ref=e6346]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6347]
+                - listitem [ref=e6349]:
+                  - link "[3]" [ref=e6351] [cursor=pointer]:
+                    - /url: "#bbr0030"
+                    - generic [ref=e6352]: "[3]"
+                  - generic [ref=e6353]:
+                    - generic [ref=e6354]: Federal Aviation Administration (FAA), UAS Integration Pilot Program
+                    - generic [ref=e6355]:
+                      - link "https://www.faa.gov/uas/programs_partnerships/completed/integration_pilot_program/Opens in new window" [ref=e6356] [cursor=pointer]:
+                        - /url: https://www.faa.gov/uas/programs_partnerships/completed/integration_pilot_program/
+                        - generic [ref=e6357]:
+                          - text: https://www.faa.gov/uas/programs_partnerships/completed/integration_pilot_program/
+                          - img "Opens in new window" [ref=e6358]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6361] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Federal%20Aviation%20Administration%20(FAA)%2C%20UAS%20Integration%20Pilot%20Program.%20https%3A%2F%2Fwww.faa.gov%2Fuas%2Fprograms_partnerships%2Fcompleted%2Fintegration_pilot_program%2F%20(accessed%2023%20March%202022).
+                      - generic [ref=e6362]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6363]
+                - listitem [ref=e6365]:
+                  - link "[4]" [ref=e6367] [cursor=pointer]:
+                    - /url: "#bbr0040"
+                    - generic [ref=e6368]: "[4]"
+                  - generic [ref=e6369]:
+                    - generic [ref=e6370]: Federal Aviation Administration (FAA), BEYOND
+                    - generic [ref=e6371]:
+                      - link "https://www.faa.gov/uas/programs_partnerships/beyond/Opens in new window" [ref=e6372] [cursor=pointer]:
+                        - /url: https://www.faa.gov/uas/programs_partnerships/beyond/
+                        - generic [ref=e6373]:
+                          - text: https://www.faa.gov/uas/programs_partnerships/beyond/
+                          - img "Opens in new window" [ref=e6374]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6377] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Federal%20Aviation%20Administration%20(FAA)%2C%20BEYOND.%20https%3A%2F%2Fwww.faa.gov%2Fuas%2Fprograms_partnerships%2Fbeyond%2F%20(accessed%2023%20March%202022).
+                      - generic [ref=e6378]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6379]
+                - listitem [ref=e6381]:
+                  - link "[5]" [ref=e6383] [cursor=pointer]:
+                    - /url: "#bbr0050"
+                    - generic [ref=e6384]: "[5]"
+                  - generic [ref=e6385]:
+                    - generic [ref=e6386]: NextGen - SESAR Joint Undertaking
+                    - generic [ref=e6388]: State of Harmonization
+                    - generic [ref=e6389]: (3rd edition) (2018)
+                    - generic [ref=e6390]:
+                      - link "https://www.sesarju.eu/newsroom/brochures-publications/state-harmonisationOpens in new window" [ref=e6391] [cursor=pointer]:
+                        - /url: https://www.sesarju.eu/newsroom/brochures-publications/state-harmonisation
+                        - generic [ref=e6392]:
+                          - text: https://www.sesarju.eu/newsroom/brochures-publications/state-harmonisation
+                          - img "Opens in new window" [ref=e6393]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6396] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=NextGen%20-%20SESAR%20Joint%20Undertaking%2C%20State%20of%20Harmonization%2C%203rd%20edition%2C%202018.%20https%3A%2F%2Fwww.sesarju.eu%2Fnewsroom%2Fbrochures-publications%2Fstate-harmonisation%20(accessed%2023%20March%202022).
+                      - generic [ref=e6397]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6398]
+                - listitem [ref=e6400]:
+                  - link "[6]" [ref=e6402] [cursor=pointer]:
+                    - /url: "#bbr0060"
+                    - generic [ref=e6403]: "[6]"
+                  - generic [ref=e6404]:
+                    - generic [ref=e6405]:
+                      - generic [ref=e6406]: W. Dai, B. Pang, K. Huat Low
+                      - generic [ref=e6407]: Conflict-free four-dimensional path planning for urban air mobility considering airspace occupancy
+                    - generic [ref=e6408]:
+                      - text: Aerosp. Sci. Technol., 119 (2021), Article 107154,
+                      - link "10.1016/j.ast.2021.107154Opens in new window" [ref=e6409] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ast.2021.107154
+                        - generic [ref=e6410]:
+                          - text: 10.1016/j.ast.2021.107154
+                          - img "Opens in new window" [ref=e6411]
+                    - generic [ref=e6413]:
+                      - link "View PDF" [ref=e6414] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963821006647/pdfft?md5=5250c4e28df6df12b9c0f4cd1c65617d&pid=1-s2.0-S1270963821006647-main.pdf
+                        - img [ref=e6415]
+                        - generic [ref=e6420]: View PDF
+                      - link "View article" [ref=e6421] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963821006647
+                        - generic [ref=e6422]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6423] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85117615611&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6424]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6425]
+                      - link "Google ScholarOpens in new window" [ref=e6427] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Conflict-free%20four-dimensional%20path%20planning%20for%20urban%20air%20mobility%20considering%20airspace%20occupancy&publication_year=2021&author=W.%20Dai&author=B.%20Pang&author=K.%20Huat%20Low
+                        - generic [ref=e6428]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6429]
+                - listitem [ref=e6431]:
+                  - link "[7]" [ref=e6433] [cursor=pointer]:
+                    - /url: "#bbr0070"
+                    - generic [ref=e6434]: "[7]"
+                  - generic [ref=e6435]:
+                    - generic [ref=e6436]:
+                      - generic [ref=e6437]: Y. Lin, J.-w. Zhang, H. Liu
+                      - generic [ref=e6438]: Deep learning based short-term air traffic flow prediction considering temporal–spatial correlation
+                    - generic [ref=e6439]:
+                      - text: Aerosp. Sci. Technol., 93 (2019), Article 105113,
+                      - link "10.1016/j.ast.2019.04.021Opens in new window" [ref=e6440] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ast.2019.04.021
+                        - generic [ref=e6441]:
+                          - text: 10.1016/j.ast.2019.04.021
+                          - img "Opens in new window" [ref=e6442]
+                    - generic [ref=e6444]:
+                      - link "View PDF" [ref=e6445] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963818315864/pdfft?md5=a0278469c49808ce67fdf0755689bfba&pid=1-s2.0-S1270963818315864-main.pdf
+                        - img [ref=e6446]
+                        - generic [ref=e6451]: View PDF
+                      - link "View article" [ref=e6452] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963818315864
+                        - generic [ref=e6453]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6454] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85070754931&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6455]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6456]
+                      - link "Google ScholarOpens in new window" [ref=e6458] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Deep%20learning%20based%20short-term%20air%20traffic%20flow%20prediction%20considering%20temporalspatial%20correlation&publication_year=2019&author=Y.%20Lin&author=J.-w.%20Zhang&author=H.%20Liu
+                        - generic [ref=e6459]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6460]
+                - listitem [ref=e6462]:
+                  - link "[8]" [ref=e6464] [cursor=pointer]:
+                    - /url: "#bbr0080"
+                    - generic [ref=e6465]: "[8]"
+                  - generic [ref=e6466]:
+                    - generic [ref=e6467]:
+                      - generic [ref=e6468]: H. Usach, J.A. Vila
+                      - generic [ref=e6469]: Reconfigurable mission plans for RPAS
+                    - generic [ref=e6470]:
+                      - text: Aerosp. Sci. Technol., 96 (2020), Article 105528,
+                      - link "10.1016/j.ast.2019.105528Opens in new window" [ref=e6471] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ast.2019.105528
+                        - generic [ref=e6472]:
+                          - text: 10.1016/j.ast.2019.105528
+                          - img "Opens in new window" [ref=e6473]
+                    - generic [ref=e6475]:
+                      - link "View PDF" [ref=e6476] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963818315438/pdfft?md5=e7580034f4397f8c5b26fc074d22ba3d&pid=1-s2.0-S1270963818315438-main.pdf
+                        - img [ref=e6477]
+                        - generic [ref=e6482]: View PDF
+                      - link "View article" [ref=e6483] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963818315438
+                        - generic [ref=e6484]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6485] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85075393390&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6486]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6487]
+                      - link "Google ScholarOpens in new window" [ref=e6489] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Reconfigurable%20mission%20plans%20for%20RPAS&publication_year=2020&author=H.%20Usach&author=J.A.%20Vila
+                        - generic [ref=e6490]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6491]
+                - listitem [ref=e6493]:
+                  - link "[9]" [ref=e6495] [cursor=pointer]:
+                    - /url: "#bbr0090"
+                    - generic [ref=e6496]: "[9]"
+                  - generic [ref=e6497]:
+                    - generic [ref=e6498]: SESAR Joint Undertaking, Trajectory Based Operations
+                    - generic [ref=e6499]:
+                      - link "https://www.sesarju.eu/sesar-solutions/trajectory-based-operationsOpens in new window" [ref=e6500] [cursor=pointer]:
+                        - /url: https://www.sesarju.eu/sesar-solutions/trajectory-based-operations
+                        - generic [ref=e6501]:
+                          - text: https://www.sesarju.eu/sesar-solutions/trajectory-based-operations
+                          - img "Opens in new window" [ref=e6502]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6505] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=SESAR%20Joint%20Undertaking%2C%20Trajectory%20Based%20Operations.%20https%3A%2F%2Fwww.sesarju.eu%2Fsesar-solutions%2Ftrajectory-based-operations%20(accessed%2023%20March%202022).
+                      - generic [ref=e6506]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6507]
+                - listitem [ref=e6509]:
+                  - link "[10]" [ref=e6511] [cursor=pointer]:
+                    - /url: "#bbr0100"
+                    - generic [ref=e6512]: "[10]"
+                  - generic [ref=e6513]:
+                    - generic [ref=e6514]: Federal Aviation Administration (FAA), Trajectory Based Operations
+                    - generic [ref=e6515]:
+                      - link "https://www.faa.gov/air_traffic/technology/tbo/Opens in new window" [ref=e6516] [cursor=pointer]:
+                        - /url: https://www.faa.gov/air_traffic/technology/tbo/
+                        - generic [ref=e6517]:
+                          - text: https://www.faa.gov/air_traffic/technology/tbo/
+                          - img "Opens in new window" [ref=e6518]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6521] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Federal%20Aviation%20Administration%20(FAA)%2C%20Trajectory%20Based%20Operations.%20https%3A%2F%2Fwww.faa.gov%2Fair_traffic%2Ftechnology%2Ftbo%2F%20(accessed%2023%20March%202022).
+                      - generic [ref=e6522]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6523]
+                - listitem [ref=e6525]:
+                  - link "[11]" [ref=e6527] [cursor=pointer]:
+                    - /url: "#bbr0110"
+                    - generic [ref=e6528]: "[11]"
+                  - generic [ref=e6529]:
+                    - generic [ref=e6530]:
+                      - generic [ref=e6531]: A. Franco, D. Rivas, A. Valenzuela
+                      - generic [ref=e6532]: Probabilistic aircraft trajectory prediction in cruise flight considering ensemble wind forecasts
+                    - generic [ref=e6533]:
+                      - text: Aerosp. Sci. Technol., 82–83 (2018), pp. 350-362,
+                      - link "10.1016/j.ast.2018.09.020Opens in new window" [ref=e6534] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ast.2018.09.020
+                        - generic [ref=e6535]:
+                          - text: 10.1016/j.ast.2018.09.020
+                          - img "Opens in new window" [ref=e6536]
+                    - generic [ref=e6538]:
+                      - link "View PDF" [ref=e6539] [cursor=pointer]:
+                        - /url: /science/article/pii/S127096381731619X/pdfft?md5=a4edaf779748e516550b9f5e7cc95c74&pid=1-s2.0-S127096381731619X-main.pdf
+                        - img [ref=e6540]
+                        - generic [ref=e6545]: View PDF
+                      - link "View article" [ref=e6546] [cursor=pointer]:
+                        - /url: /science/article/pii/S127096381731619X
+                        - generic [ref=e6547]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6548] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85054187177&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6549]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6550]
+                      - link "Google ScholarOpens in new window" [ref=e6552] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Probabilistic%20aircraft%20trajectory%20prediction%20in%20cruise%20flight%20considering%20ensemble%20wind%20forecasts&publication_year=2018&author=A.%20Franco&author=D.%20Rivas&author=A.%20Valenzuela
+                        - generic [ref=e6553]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6554]
+                - listitem [ref=e6556]:
+                  - link "[12]" [ref=e6558] [cursor=pointer]:
+                    - /url: "#bbr0120"
+                    - generic [ref=e6559]: "[12]"
+                  - generic [ref=e6560]:
+                    - generic [ref=e6561]:
+                      - generic [ref=e6562]: J. Zhang, J. Liu, R. Hu, H. Zhu
+                      - generic [ref=e6563]: Online four dimensional trajectory prediction method based on aircraft intent updating
+                    - generic [ref=e6564]:
+                      - text: Aerosp. Sci. Technol., 77 (2018), pp. 774-787,
+                      - link "10.1016/j.ast.2018.03.037Opens in new window" [ref=e6565] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ast.2018.03.037
+                        - generic [ref=e6566]:
+                          - text: 10.1016/j.ast.2018.03.037
+                          - img "Opens in new window" [ref=e6567]
+                    - generic [ref=e6569]:
+                      - link "View PDF" [ref=e6570] [cursor=pointer]:
+                        - /url: /science/article/pii/S0898122118302864/pdfft?md5=e3f86458614b35a1da3a98f9ae2b46f6&pid=1-s2.0-S0898122118302864-main.pdf
+                        - img [ref=e6571]
+                        - generic [ref=e6576]: View PDF
+                      - link "View article" [ref=e6577] [cursor=pointer]:
+                        - /url: /science/article/pii/S0898122118302864
+                        - generic [ref=e6578]: View article
+                      - link "Google ScholarOpens in new window" [ref=e6579] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Online%20four%20dimensional%20trajectory%20prediction%20method%20based%20on%20aircraft%20intent%20updating&publication_year=2018&author=J.%20Zhang&author=J.%20Liu&author=R.%20Hu&author=H.%20Zhu
+                        - generic [ref=e6580]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6581]
+                - listitem [ref=e6583]:
+                  - link "[13]" [ref=e6585] [cursor=pointer]:
+                    - /url: "#bbr0130"
+                    - generic [ref=e6586]: "[13]"
+                  - generic [ref=e6587]:
+                    - generic [ref=e6588]:
+                      - generic [ref=e6589]: M. Huang, W. Yotto Ochieng, J. Javier Escribano Macias, Y. Ding
+                      - generic [ref=e6590]: Accuracy evaluation of a new generic trajectory prediction model for unmanned aerial vehicles
+                    - generic [ref=e6591]:
+                      - text: Aerosp. Sci. Technol., 119 (2021), Article 107160,
+                      - link "10.1016/j.ast.2021.107160Opens in new window" [ref=e6592] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ast.2021.107160
+                        - generic [ref=e6593]:
+                          - text: 10.1016/j.ast.2021.107160
+                          - img "Opens in new window" [ref=e6594]
+                    - generic [ref=e6596]:
+                      - link "View PDF" [ref=e6597] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963821006702/pdfft?md5=c3f5826a7be4de59688f322547e45702&pid=1-s2.0-S1270963821006702-main.pdf
+                        - img [ref=e6598]
+                        - generic [ref=e6603]: View PDF
+                      - link "View article" [ref=e6604] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963821006702
+                        - generic [ref=e6605]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6606] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85117094352&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6607]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6608]
+                      - link "Google ScholarOpens in new window" [ref=e6610] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Accuracy%20evaluation%20of%20a%20new%20generic%20trajectory%20prediction%20model%20for%20unmanned%20aerial%20vehicles&publication_year=2021&author=M.%20Huang&author=W.%20Yotto%20Ochieng&author=J.%20Javier%20Escribano%20Macias&author=Y.%20Ding
+                        - generic [ref=e6611]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6612]
+                - listitem [ref=e6614]:
+                  - link "[14]" [ref=e6616] [cursor=pointer]:
+                    - /url: "#bbr0140"
+                    - generic [ref=e6617]: "[14]"
+                  - generic [ref=e6618]:
+                    - generic [ref=e6619]: SESAR Joint Undertaking, Concept of Operations for U-Space
+                    - generic [ref=e6620]:
+                      - link "https://www.sesarju.eu/node/3411Opens in new window" [ref=e6621] [cursor=pointer]:
+                        - /url: https://www.sesarju.eu/node/3411
+                        - generic [ref=e6622]:
+                          - text: https://www.sesarju.eu/node/3411
+                          - img "Opens in new window" [ref=e6623]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6626] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=SESAR%20Joint%20Undertaking%2C%20Concept%20of%20Operations%20for%20U-Space.%20https%3A%2F%2Fwww.sesarju.eu%2Fnode%2F3411%20(accessed%2023%20March%202022).
+                      - generic [ref=e6627]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6628]
+                - listitem [ref=e6630]:
+                  - link "[15]" [ref=e6632] [cursor=pointer]:
+                    - /url: "#bbr0150"
+                    - generic [ref=e6633]: "[15]"
+                  - generic [ref=e6634]:
+                    - generic [ref=e6635]: Federal Aviation Administration (FAA), Unmanned Aircraft System Traffic Management (UTM)
+                    - generic [ref=e6636]:
+                      - link "https://www.faa.gov/uas/research_development/traffic_management/Opens in new window" [ref=e6637] [cursor=pointer]:
+                        - /url: https://www.faa.gov/uas/research_development/traffic_management/
+                        - generic [ref=e6638]:
+                          - text: https://www.faa.gov/uas/research_development/traffic_management/
+                          - img "Opens in new window" [ref=e6639]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e6642] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Federal%20Aviation%20Administration%20(FAA)%2C%20Unmanned%20Aircraft%20System%20Traffic%20Management%20(UTM)%20https%3A%2F%2Fwww.faa.gov%2Fuas%2Fresearch_development%2Ftraffic_management%2F%20(accessed%2023%20March%202022).
+                      - generic [ref=e6643]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6644]
+                - listitem [ref=e6646]:
+                  - link "[16]" [ref=e6648] [cursor=pointer]:
+                    - /url: "#bbr0160"
+                    - generic [ref=e6649]: "[16]"
+                  - generic [ref=e6650]:
+                    - generic [ref=e6651]:
+                      - generic [ref=e6652]: S. Mondoloni, N. Rozen
+                      - generic [ref=e6653]: Aircraft trajectory prediction and synchronization for air traffic management applications
+                    - generic [ref=e6654]:
+                      - text: Prog. Aerosp. Sci., 119 (2020), Article 100640,
+                      - link "10.1016/j.paerosci.2020.100640Opens in new window" [ref=e6655] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.paerosci.2020.100640
+                        - generic [ref=e6656]:
+                          - text: 10.1016/j.paerosci.2020.100640
+                          - img "Opens in new window" [ref=e6657]
+                    - generic [ref=e6659]:
+                      - link "View PDF" [ref=e6660] [cursor=pointer]:
+                        - /url: /science/article/pii/S037604212030052X/pdfft?md5=88dac24bfab35c19e02d925a1d34562e&pid=1-s2.0-S037604212030052X-main.pdf
+                        - img [ref=e6661]
+                        - generic [ref=e6666]: View PDF
+                      - link "View article" [ref=e6667] [cursor=pointer]:
+                        - /url: /science/article/pii/S037604212030052X
+                        - generic [ref=e6668]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6669] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85090417462&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6670]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6671]
+                      - link "Google ScholarOpens in new window" [ref=e6673] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Aircraft%20trajectory%20prediction%20and%20synchronization%20for%20air%20traffic%20management%20applications&publication_year=2020&author=S.%20Mondoloni&author=N.%20Rozen
+                        - generic [ref=e6674]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6675]
+                - listitem [ref=e6677]:
+                  - link "[17]" [ref=e6679] [cursor=pointer]:
+                    - /url: "#bbr0170"
+                    - generic [ref=e6680]: "[17]"
+                  - generic [ref=e6681]:
+                    - generic [ref=e6682]:
+                      - generic [ref=e6683]:
+                        - text: D. Baek,
+                        - emphasis [ref=e6684]: et al.
+                      - generic [ref=e6685]: Battery-aware operation range estimation for terrestrial and aerial electric vehicles
+                    - generic [ref=e6686]:
+                      - text: IEEE Trans. Veh. Technol., 68 (6) (2019), pp. 5471-5482,
+                      - link "10.1109/TVT.2019.2910452Opens in new window" [ref=e6687] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/TVT.2019.2910452
+                        - generic [ref=e6688]:
+                          - text: 10.1109/TVT.2019.2910452
+                          - img "Opens in new window" [ref=e6689]
+                    - generic [ref=e6691]:
+                      - link "View in ScopusOpens in new window" [ref=e6692] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85067795154&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6693]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6694]
+                      - link "Google ScholarOpens in new window" [ref=e6696] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Battery-aware%20operation%20range%20estimation%20for%20terrestrial%20and%20aerial%20electric%20vehicles&publication_year=2019&author=D.%20Baek
+                        - generic [ref=e6697]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6698]
+                - listitem [ref=e6700]:
+                  - link "[18]" [ref=e6702] [cursor=pointer]:
+                    - /url: "#bbr0180"
+                    - generic [ref=e6703]: "[18]"
+                  - generic [ref=e6704]:
+                    - generic [ref=e6705]: Regulation (EU) 2019/945 of 12 March 2019 on unmanned aircraft systems and on third-country operators of unmanned 537 aircraft systems. EUR-Lex. (Accessed 23 March 2022).
+                    - link "Google ScholarOpens in new window" [ref=e6707] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Regulation%20(EU)%202019%2F945%20of%2012%20March%202019%20on%20unmanned%20aircraft%20systems%20and%20on%20third-country%20operators%20of%20unmanned%20537%20aircraft%20systems.%20EUR-Lex.%20(Accessed%2023%20March%202022).
+                      - generic [ref=e6708]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6709]
+                - listitem [ref=e6711]:
+                  - link "[19]" [ref=e6713] [cursor=pointer]:
+                    - /url: "#bbr0190"
+                    - generic [ref=e6714]: "[19]"
+                  - generic [ref=e6715]:
+                    - generic [ref=e6716]: Regulation (EU) 2019/947 of 24 May 2019 on the rules and procedures for the operation of unmanned aircraft. EUR-Lex. (Accessed 23 March 2022).
+                    - link "Google ScholarOpens in new window" [ref=e6718] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Regulation%20(EU)%202019%2F947%20of%2024%20May%202019%20on%20the%20rules%20and%20procedures%20for%20the%20operation%20of%20unmanned%20aircraft.%20EUR-Lex.%20(Accessed%2023%20March%202022).
+                      - generic [ref=e6719]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6720]
+                - listitem [ref=e6722]:
+                  - link "[20]" [ref=e6724] [cursor=pointer]:
+                    - /url: "#bbr0200"
+                    - generic [ref=e6725]: "[20]"
+                  - generic [ref=e6726]:
+                    - generic [ref=e6727]: Regulation (EU) 2020/639 of 12 May 2020 amending Implementing Regulation (EU) 2019/947 as regards standard scenarios for operations executed in or beyond the visual line of sigh. EUR-Lex. (Accessed 23 March 2022).
+                    - link "Google ScholarOpens in new window" [ref=e6729] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Regulation%20(EU)%202020%2F639%20of%2012%20May%202020%20amending%20Implementing%20Regulation%20(EU)%202019%2F947%20as%20regards%20standard%20scenarios%20for%20operations%20executed%20in%20or%20beyond%20the%20visual%20line%20of%20sigh.%20EUR-Lex.%20(Accessed%2023%20March%202022).
+                      - generic [ref=e6730]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6731]
+                - listitem [ref=e6733]:
+                  - link "[21]" [ref=e6735] [cursor=pointer]:
+                    - /url: "#bbr0210"
+                    - generic [ref=e6736]: "[21]"
+                  - generic [ref=e6737]:
+                    - generic [ref=e6738]:
+                      - generic [ref=e6739]: E. Anderson, T. Fannin, B. Nelson
+                      - generic [ref=e6740]: Levels of aviation autonomy
+                    - generic [ref=e6741]:
+                      - text: IEEE/AIAA 37th Digital Avionics Systems Conference (DASC) (2018), pp. 1-8,
+                      - link "10.1109/DASC.2018.8569280Opens in new window" [ref=e6742] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/DASC.2018.8569280
+                        - generic [ref=e6743]:
+                          - text: 10.1109/DASC.2018.8569280
+                          - img "Opens in new window" [ref=e6744]
+                    - link "Google ScholarOpens in new window" [ref=e6747] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Levels%20of%20aviation%20autonomy&publication_year=2018&author=E.%20Anderson&author=T.%20Fannin&author=B.%20Nelson
+                      - generic [ref=e6748]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6749]
+                - listitem [ref=e6751]:
+                  - link "[22]" [ref=e6753] [cursor=pointer]:
+                    - /url: "#bbr0220"
+                    - generic [ref=e6754]: "[22]"
+                  - generic [ref=e6755]:
+                    - generic [ref=e6756]:
+                      - generic [ref=e6757]:
+                        - text: M.A. Hannan,
+                        - emphasis [ref=e6758]: et al.
+                      - generic [ref=e6759]: Toward enhanced state of charge estimation of lithium-ion batteries using optimized machine learning techniques
+                    - generic [ref=e6760]:
+                      - text: Sci. Rep., 10 (2020), p. 4687,
+                      - link "10.1038/s41598-020-61464-7Opens in new window" [ref=e6761] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038/s41598-020-61464-7
+                        - generic [ref=e6762]:
+                          - text: 10.1038/s41598-020-61464-7
+                          - img "Opens in new window" [ref=e6763]
+                    - generic [ref=e6765]:
+                      - link "View in ScopusOpens in new window" [ref=e6766] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85081926043&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6767]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6768]
+                      - link "Google ScholarOpens in new window" [ref=e6770] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Toward%20enhanced%20state%20of%20charge%20estimation%20of%20lithium-ion%20batteries%20using%20optimized%20machine%20learning%20techniques&publication_year=2020&author=M.A.%20Hannan
+                        - generic [ref=e6771]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6772]
+                - listitem [ref=e6774]:
+                  - link "[23]" [ref=e6776] [cursor=pointer]:
+                    - /url: "#bbr0230"
+                    - generic [ref=e6777]: "[23]"
+                  - generic [ref=e6778]:
+                    - generic [ref=e6779]:
+                      - generic [ref=e6780]: M. Danko, J. Adamec, M. Taraba, P. Drgona
+                      - generic [ref=e6781]: Overview of batteries state of charge estimation methods
+                    - generic [ref=e6782]:
+                      - text: Transp. Res. Proc., 40 (2019), pp. 186-192,
+                      - link "10.1016/j.trpro.2019.07.029Opens in new window" [ref=e6783] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trpro.2019.07.029
+                        - generic [ref=e6784]:
+                          - text: 10.1016/j.trpro.2019.07.029
+                          - img "Opens in new window" [ref=e6785]
+                    - generic [ref=e6787]:
+                      - link "View PDF" [ref=e6788] [cursor=pointer]:
+                        - /url: /science/article/pii/S2352146519301905/pdf?md5=e1eaca1e8655197f259bcf88b4e9e47f&pid=1-s2.0-S2352146519301905-main.pdf
+                        - img [ref=e6789]
+                        - generic [ref=e6794]: View PDF
+                      - link "View article" [ref=e6795] [cursor=pointer]:
+                        - /url: /science/article/pii/S2352146519301905
+                        - generic [ref=e6796]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6797] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85070927589&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6798]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6799]
+                      - link "Google ScholarOpens in new window" [ref=e6801] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Overview%20of%20batteries%20state%20of%20charge%20estimation%20methods&publication_year=2019&author=M.%20Danko&author=J.%20Adamec&author=M.%20Taraba&author=P.%20Drgona
+                        - generic [ref=e6802]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6803]
+                - listitem [ref=e6805]:
+                  - link "[24]" [ref=e6807] [cursor=pointer]:
+                    - /url: "#bbr0240"
+                    - generic [ref=e6808]: "[24]"
+                  - generic [ref=e6809]:
+                    - generic [ref=e6810]:
+                      - generic [ref=e6811]: W. Zhou, Y. Zheng, Z. Pan, Q. Lu
+                      - generic [ref=e6812]: Review on the battery model and SOC estimation method
+                    - generic [ref=e6813]:
+                      - text: Processes, 9 (2021), p. 1685,
+                      - link "10.3390/pr9091685Opens in new window" [ref=e6814] [cursor=pointer]:
+                        - /url: https://doi.org/10.3390/pr9091685
+                        - generic [ref=e6815]:
+                          - text: 10.3390/pr9091685
+                          - img "Opens in new window" [ref=e6816]
+                    - generic [ref=e6818]:
+                      - link "View in ScopusOpens in new window" [ref=e6819] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85115716639&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6820]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6821]
+                      - link "Google ScholarOpens in new window" [ref=e6823] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Review%20on%20the%20battery%20model%20and%20SOC%20estimation%20method&publication_year=2021&author=W.%20Zhou&author=Y.%20Zheng&author=Z.%20Pan&author=Q.%20Lu
+                        - generic [ref=e6824]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6825]
+                - listitem [ref=e6827]:
+                  - link "[25]" [ref=e6829] [cursor=pointer]:
+                    - /url: "#bbr0250"
+                    - generic [ref=e6830]: "[25]"
+                  - generic [ref=e6831]:
+                    - generic [ref=e6832]:
+                      - generic [ref=e6833]: W.-Y. Chang
+                      - generic [ref=e6834]: "The state of charge estimating methods for battery: a review"
+                    - generic [ref=e6835]:
+                      - text: Int. Sch. Res. Not., 2013 (2013), Article 953792,
+                      - link "10.1155/2013/953792Opens in new window" [ref=e6836] [cursor=pointer]:
+                        - /url: https://doi.org/10.1155/2013/953792
+                        - generic [ref=e6837]:
+                          - text: 10.1155/2013/953792
+                          - img "Opens in new window" [ref=e6838]
+                    - link "Google ScholarOpens in new window" [ref=e6841] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=The%20state%20of%20charge%20estimating%20methods%20for%20battery%3A%20a%20review&publication_year=2013&author=W.-Y.%20Chang
+                      - generic [ref=e6842]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6843]
+                - listitem [ref=e6845]:
+                  - link "[26]" [ref=e6847] [cursor=pointer]:
+                    - /url: "#bbr0260"
+                    - generic [ref=e6848]: "[26]"
+                  - generic [ref=e6849]:
+                    - generic [ref=e6850]:
+                      - generic [ref=e6851]: B. Bole, M. Daigle, G. Gorospe
+                      - generic [ref=e6852]: Online prediction of battery discharge and estimation of parasitic loads for an electric aircraft
+                    - generic [ref=e6853]: European Conference of the PHM Society (2014)
+                    - link "Google ScholarOpens in new window" [ref=e6855] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Online%20prediction%20of%20battery%20discharge%20and%20estimation%20of%20parasitic%20loads%20for%20an%20electric%20aircraft&publication_year=2014&author=B.%20Bole&author=M.%20Daigle&author=G.%20Gorospe
+                      - generic [ref=e6856]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6857]
+                - listitem [ref=e6859]:
+                  - link "[27]" [ref=e6861] [cursor=pointer]:
+                    - /url: "#bbr0270"
+                    - generic [ref=e6862]: "[27]"
+                  - generic [ref=e6863]:
+                    - generic [ref=e6864]:
+                      - generic [ref=e6865]: X. Wang, J. Li, B.-C. Shia, Y.-W. Kao, C.-W. Ho, M. Chen
+                      - generic [ref=e6866]: A novel prediction process of the remaining useful life of electric vehicle battery using real-world data
+                    - generic [ref=e6867]:
+                      - text: Processes, 9 (2021), p. 2174,
+                      - link "10.3390/pr9122174Opens in new window" [ref=e6868] [cursor=pointer]:
+                        - /url: https://doi.org/10.3390/pr9122174
+                        - generic [ref=e6869]:
+                          - text: 10.3390/pr9122174
+                          - img "Opens in new window" [ref=e6870]
+                    - generic [ref=e6872]:
+                      - link "View in ScopusOpens in new window" [ref=e6873] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85121603916&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6874]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6875]
+                      - link "Google ScholarOpens in new window" [ref=e6877] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=A%20novel%20prediction%20process%20of%20the%20remaining%20useful%20life%20of%20electric%20vehicle%20battery%20using%20real-world%20data&publication_year=2021&author=X.%20Wang&author=J.%20Li&author=B.-C.%20Shia&author=Y.-W.%20Kao&author=C.-W.%20Ho&author=M.%20Chen
+                        - generic [ref=e6878]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6879]
+                - listitem [ref=e6881]:
+                  - link "[28]" [ref=e6883] [cursor=pointer]:
+                    - /url: "#bbr0280"
+                    - generic [ref=e6884]: "[28]"
+                  - generic [ref=e6885]:
+                    - generic [ref=e6886]:
+                      - generic [ref=e6887]: L. Chen, J. An, H. Wang, M. Zhang, H. Pan
+                      - generic [ref=e6888]: Remaining useful life prediction for lithium-ion battery by combining an improved particle filter with sliding-window gray model
+                    - generic [ref=e6889]:
+                      - text: Energy Rep., 6 (2020), pp. 2086-2093,
+                      - link "10.1016/j.egyr.2020.07.026Opens in new window" [ref=e6890] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.egyr.2020.07.026
+                        - generic [ref=e6891]:
+                          - text: 10.1016/j.egyr.2020.07.026
+                          - img "Opens in new window" [ref=e6892]
+                    - generic [ref=e6894]:
+                      - link "View PDF" [ref=e6895] [cursor=pointer]:
+                        - /url: /science/article/pii/S2352484720312440/pdfft?md5=d5eb103ad3e450dc4dbb24e0463e1d22&pid=1-s2.0-S2352484720312440-main.pdf
+                        - img [ref=e6896]
+                        - generic [ref=e6901]: View PDF
+                      - link "View article" [ref=e6902] [cursor=pointer]:
+                        - /url: /science/article/pii/S2352484720312440
+                        - generic [ref=e6903]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6904] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85089340647&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6905]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6906]
+                      - link "Google ScholarOpens in new window" [ref=e6908] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Remaining%20useful%20life%20prediction%20for%20lithium-ion%20battery%20by%20combining%20an%20improved%20particle%20filter%20with%20sliding-window%20gray%20model&publication_year=2020&author=L.%20Chen&author=J.%20An&author=H.%20Wang&author=M.%20Zhang&author=H.%20Pan
+                        - generic [ref=e6909]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6910]
+                - listitem [ref=e6912]:
+                  - link "[29]" [ref=e6914] [cursor=pointer]:
+                    - /url: "#bbr0290"
+                    - generic [ref=e6915]: "[29]"
+                  - generic [ref=e6916]:
+                    - generic [ref=e6917]:
+                      - generic [ref=e6918]: S. Sharif Mansouri, P. Karvelis, G. Georgoulas, G. Nikolakopoulos
+                      - generic [ref=e6919]: Remaining useful battery life prediction for UAVs based on machine learning
+                    - generic [ref=e6920]:
+                      - text: IFAC-PapersOnLine, 50 (1) (2017), pp. 4727-4732,
+                      - link "10.1016/j.ifacol.2017.08.863Opens in new window" [ref=e6921] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ifacol.2017.08.863
+                        - generic [ref=e6922]:
+                          - text: 10.1016/j.ifacol.2017.08.863
+                          - img "Opens in new window" [ref=e6923]
+                    - link "Google ScholarOpens in new window" [ref=e6926] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Remaining%20useful%20battery%20life%20prediction%20for%20UAVs%20based%20on%20machine%20learning&publication_year=2017&author=S.%20Sharif%20Mansouri&author=P.%20Karvelis&author=G.%20Georgoulas&author=G.%20Nikolakopoulos
+                      - generic [ref=e6927]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e6928]
+                - listitem [ref=e6930]:
+                  - link "[30]" [ref=e6932] [cursor=pointer]:
+                    - /url: "#bbr0300"
+                    - generic [ref=e6933]: "[30]"
+                  - generic [ref=e6934]:
+                    - generic [ref=e6935]:
+                      - generic [ref=e6936]: W. Cheng, Z. Yi, J. Liang, Y. Song, D. Liu
+                      - generic [ref=e6937]: An SOC and SOP joint estimation method of lithium-ion batteries in unmanned aerial vehicles
+                    - generic [ref=e6938]:
+                      - text: International Conference on Sensing, Measurement & Data Analytics in the era of Artificial Intelligence (ICSMD) (2020), pp. 247-252,
+                      - link "10.1109/ICSMD50554.2020.9261659Opens in new window" [ref=e6939] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/ICSMD50554.2020.9261659
+                        - generic [ref=e6940]:
+                          - text: 10.1109/ICSMD50554.2020.9261659
+                          - img "Opens in new window" [ref=e6941]
+                    - generic [ref=e6943]:
+                      - link "View in ScopusOpens in new window" [ref=e6944] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85098589450&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6945]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6946]
+                      - link "Google ScholarOpens in new window" [ref=e6948] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=An%20SOC%20and%20SOP%20joint%20estimation%20method%20of%20lithium-ion%20batteries%20in%20unmanned%20aerial%20vehicles&publication_year=2020&author=W.%20Cheng&author=Z.%20Yi&author=J.%20Liang&author=Y.%20Song&author=D.%20Liu
+                        - generic [ref=e6949]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6950]
+                - listitem [ref=e6952]:
+                  - link "[31]" [ref=e6954] [cursor=pointer]:
+                    - /url: "#bbr0310"
+                    - generic [ref=e6955]: "[31]"
+                  - generic [ref=e6956]:
+                    - generic [ref=e6957]:
+                      - generic [ref=e6958]: C. Che, H. Wang, Q. Fu, X. Ni
+                      - generic [ref=e6959]: Combining multiple deep learning algorithms for prognostic and health management of aircraft
+                    - generic [ref=e6960]:
+                      - text: Aerosp. Sci. Technol., 94 (2019), Article 105423,
+                      - link "10.1016/j.ast.2019.105423Opens in new window" [ref=e6961] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.ast.2019.105423
+                        - generic [ref=e6962]:
+                          - text: 10.1016/j.ast.2019.105423
+                          - img "Opens in new window" [ref=e6963]
+                    - generic [ref=e6965]:
+                      - link "View PDF" [ref=e6966] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963819301452/pdfft?md5=55961d8bf3835c3b22c143cb98e29084&pid=1-s2.0-S1270963819301452-main.pdf
+                        - img [ref=e6967]
+                        - generic [ref=e6972]: View PDF
+                      - link "View article" [ref=e6973] [cursor=pointer]:
+                        - /url: /science/article/pii/S1270963819301452
+                        - generic [ref=e6974]: View article
+                      - link "View in ScopusOpens in new window" [ref=e6975] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85072805485&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6976]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6977]
+                      - link "Google ScholarOpens in new window" [ref=e6979] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Combining%20multiple%20deep%20learning%20algorithms%20for%20prognostic%20and%20health%20management%20of%20aircraft&publication_year=2019&author=C.%20Che&author=H.%20Wang&author=Q.%20Fu&author=X.%20Ni
+                        - generic [ref=e6980]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e6981]
+                - listitem [ref=e6983]:
+                  - link "[32]" [ref=e6985] [cursor=pointer]:
+                    - /url: "#bbr0320"
+                    - generic [ref=e6986]: "[32]"
+                  - generic [ref=e6987]:
+                    - generic [ref=e6988]:
+                      - generic [ref=e6989]: C. Conte, G. de Alteriis, R. Schiano Lo Moriello, D. Accardo, G. Rufino
+                      - generic [ref=e6990]: Drone trajectory segmentation for real-time and adaptive time-of-flight prediction
+                    - generic [ref=e6991]:
+                      - text: Drones, 5 (2021), p. 62,
+                      - link "10.3390/drones5030062Opens in new window" [ref=e6992] [cursor=pointer]:
+                        - /url: https://doi.org/10.3390/drones5030062
+                        - generic [ref=e6993]:
+                          - text: 10.3390/drones5030062
+                          - img "Opens in new window" [ref=e6994]
+                    - generic [ref=e6996]:
+                      - link "View in ScopusOpens in new window" [ref=e6997] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85111427360&partnerID=10&rel=R3.0.0
+                        - generic [ref=e6998]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e6999]
+                      - link "Google ScholarOpens in new window" [ref=e7001] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Drone%20trajectory%20segmentation%20for%20real-time%20and%20adaptive%20time-of-flight%20prediction&publication_year=2021&author=C.%20Conte&author=G.%20de%20Alteriis&author=R.%20Schiano%20Lo%20Moriello&author=D.%20Accardo&author=G.%20Rufino
+                        - generic [ref=e7002]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7003]
+                - listitem [ref=e7005]:
+                  - link "[33]" [ref=e7007] [cursor=pointer]:
+                    - /url: "#bbr0330"
+                    - generic [ref=e7008]: "[33]"
+                  - generic [ref=e7009]:
+                    - generic [ref=e7010]: DJI, Mavic 2 Enterprise User Manual v1.8
+                    - generic [ref=e7011]:
+                      - link "https://www.dji.com/it/mavic-2-enterprise/downloadsOpens in new window" [ref=e7012] [cursor=pointer]:
+                        - /url: https://www.dji.com/it/mavic-2-enterprise/downloads
+                        - generic [ref=e7013]:
+                          - text: https://www.dji.com/it/mavic-2-enterprise/downloads
+                          - img "Opens in new window" [ref=e7014]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e7017] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=DJI%2C%20Mavic%202%20Enterprise%20User%20Manual%20v1.8.%20https%3A%2F%2Fwww.dji.com%2Fit%2Fmavic-2-enterprise%2Fdownloads%20(accessed%2023%20March%202022).
+                      - generic [ref=e7018]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e7019]
+                - listitem [ref=e7021]:
+                  - link "[34]" [ref=e7023] [cursor=pointer]:
+                    - /url: "#bbr0340"
+                    - generic [ref=e7024]: "[34]"
+                  - generic [ref=e7025]:
+                    - generic [ref=e7026]: UgCS, Drone flight planning and control software by SPH engineering
+                    - generic [ref=e7027]:
+                      - link "https://www.ugcs.com/Opens in new window" [ref=e7028] [cursor=pointer]:
+                        - /url: https://www.ugcs.com/
+                        - generic [ref=e7029]:
+                          - text: https://www.ugcs.com/
+                          - img "Opens in new window" [ref=e7030]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e7033] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=UgCS%2C%20Drone%20flight%20planning%20and%20control%20software%20by%20SPH%20engineering.%20https%3A%2F%2Fwww.ugcs.com%2F%20(accessed%2023%20March%202022).
+                      - generic [ref=e7034]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e7035]
+                - listitem [ref=e7037]:
+                  - link "[35]" [ref=e7039] [cursor=pointer]:
+                    - /url: "#bbr0350"
+                    - generic [ref=e7040]: "[35]"
+                  - generic [ref=e7041]:
+                    - generic [ref=e7042]: Weather Instruments, Kestrel 5500
+                    - generic [ref=e7043]:
+                      - link "https://weather-instruments.com/products/kestrel-5500-weather-meterOpens in new window" [ref=e7044] [cursor=pointer]:
+                        - /url: https://weather-instruments.com/products/kestrel-5500-weather-meter
+                        - generic [ref=e7045]:
+                          - text: https://weather-instruments.com/products/kestrel-5500-weather-meter
+                          - img "Opens in new window" [ref=e7046]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e7049] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Weather%20Instruments%2C%20Kestrel%205500.%20https%3A%2F%2Fweather-instruments.com%2Fproducts%2Fkestrel-5500-weather-meter%20(accessed%2023%20March%202022).
+                      - generic [ref=e7050]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e7051]
+                - listitem [ref=e7053]:
+                  - link "[36]" [ref=e7055] [cursor=pointer]:
+                    - /url: "#bbr0360"
+                    - generic [ref=e7056]: "[36]"
+                  - generic [ref=e7057]:
+                    - generic [ref=e7058]:
+                      - generic [ref=e7059]: L.G. Garbett
+                      - generic [ref=e7060]: Admiral sir Francis Beaufort and the Beaufort scales of wind and weather
+                    - generic [ref=e7061]:
+                      - text: Q. J. R. Meteorol. Soc., 52 (1926), pp. 161-172,
+                      - link "10.1002/qj.49705221807Opens in new window" [ref=e7062] [cursor=pointer]:
+                        - /url: https://doi.org/10.1002/qj.49705221807
+                        - generic [ref=e7063]:
+                          - text: 10.1002/qj.49705221807
+                          - img "Opens in new window" [ref=e7064]
+                    - generic [ref=e7066]:
+                      - link "View in ScopusOpens in new window" [ref=e7067] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-28244494390&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7068]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7069]
+                      - link "Google ScholarOpens in new window" [ref=e7071] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Admiral%20sir%20Francis%20Beaufort%20and%20the%20Beaufort%20scales%20of%20wind%20and%20weather&publication_year=1926&author=L.G.%20Garbett
+                        - generic [ref=e7072]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7073]
+                - listitem [ref=e7075]:
+                  - link "[37]" [ref=e7077] [cursor=pointer]:
+                    - /url: "#bbr0370"
+                    - generic [ref=e7078]: "[37]"
+                  - generic [ref=e7079]:
+                    - generic [ref=e7080]:
+                      - generic [ref=e7081]: S.C. Chapra, R.P. Canale
+                      - generic [ref=e7082]: Numerical Methods for Engineers
+                    - generic [ref=e7083]: (8th ed.), McGraw-Hill Education (2021)
+                    - link "Google ScholarOpens in new window" [ref=e7085] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Numerical%20Methods%20for%20Engineers&publication_year=2021&author=S.C.%20Chapra&author=R.P.%20Canale
+                      - generic [ref=e7086]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e7087]
+                - listitem [ref=e7089]:
+                  - link "[38]" [ref=e7091] [cursor=pointer]:
+                    - /url: "#bbr0380"
+                    - generic [ref=e7092]: "[38]"
+                  - generic [ref=e7093]:
+                    - generic [ref=e7094]:
+                      - generic [ref=e7095]: M. Firat, M. Gungor
+                      - generic [ref=e7096]: Generalized regression neural networks and feed forward neural networks for prediction of scour depth around bridge piers
+                    - generic [ref=e7097]:
+                      - text: Adv. Eng. Softw., 40 (8) (2009), pp. 731-737,
+                      - link "10.1016/j.advengsoft.2008.12.001Opens in new window" [ref=e7098] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.advengsoft.2008.12.001
+                        - generic [ref=e7099]:
+                          - text: 10.1016/j.advengsoft.2008.12.001
+                          - img "Opens in new window" [ref=e7100]
+                    - generic [ref=e7102]:
+                      - link "View PDF" [ref=e7103] [cursor=pointer]:
+                        - /url: /science/article/pii/S0965997808002056/pdfft?md5=8fcc8957107af33219fa614b112be2f8&pid=1-s2.0-S0965997808002056-main.pdf
+                        - img [ref=e7104]
+                        - generic [ref=e7109]: View PDF
+                      - link "View article" [ref=e7110] [cursor=pointer]:
+                        - /url: /science/article/pii/S0965997808002056
+                        - generic [ref=e7111]: View article
+                      - link "View in ScopusOpens in new window" [ref=e7112] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-64849117838&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7113]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7114]
+                      - link "Google ScholarOpens in new window" [ref=e7116] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Generalized%20regression%20neural%20networks%20and%20feed%20forward%20neural%20networks%20for%20prediction%20of%20scour%20depth%20around%20bridge%20piers&publication_year=2009&author=M.%20Firat&author=M.%20Gungor
+                        - generic [ref=e7117]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7118]
+                - listitem [ref=e7120]:
+                  - link "[39]" [ref=e7122] [cursor=pointer]:
+                    - /url: "#bbr0390"
+                    - generic [ref=e7123]: "[39]"
+                  - generic [ref=e7124]:
+                    - generic [ref=e7125]:
+                      - generic [ref=e7126]: M. Kayri
+                      - generic [ref=e7127]: "Predictive abilities of Bayesian regularization and Levenberg-Marquardt algorithms in artificial neural networks: a comparative empirical study on social data"
+                    - generic [ref=e7128]:
+                      - text: Math. Comput. Appl., 21 (2016), p. 20,
+                      - link "10.3390/mca21020020Opens in new window" [ref=e7129] [cursor=pointer]:
+                        - /url: https://doi.org/10.3390/mca21020020
+                        - generic [ref=e7130]:
+                          - text: 10.3390/mca21020020
+                          - img "Opens in new window" [ref=e7131]
+                    - link "Google ScholarOpens in new window" [ref=e7134] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Predictive%20abilities%20of%20Bayesian%20regularization%20and%20Levenberg-Marquardt%20algorithms%20in%20artificial%20neural%20networks%3A%20a%20comparative%20empirical%20study%20on%20social%20data&publication_year=2016&author=M.%20Kayri
+                      - generic [ref=e7135]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e7136]
+                - listitem [ref=e7138]:
+                  - link "[40]" [ref=e7140] [cursor=pointer]:
+                    - /url: "#bbr0400"
+                    - generic [ref=e7141]: "[40]"
+                  - generic [ref=e7142]:
+                    - generic [ref=e7143]:
+                      - generic [ref=e7144]: R. Rodríguez-Pérez, J. Bajorath
+                      - generic [ref=e7145]: Evaluation of multi-target deep neural network models for compound potency prediction under increasingly challenging test conditions
+                    - generic [ref=e7146]:
+                      - text: J. Comput.-Aided Mol. Des., 35 (2021), pp. 285-295,
+                      - link "10.1007/s10822-021-00376-8Opens in new window" [ref=e7147] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s10822-021-00376-8
+                        - generic [ref=e7148]:
+                          - text: 10.1007/s10822-021-00376-8
+                          - img "Opens in new window" [ref=e7149]
+                    - generic [ref=e7151]:
+                      - link "View in ScopusOpens in new window" [ref=e7152] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85101161289&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7153]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7154]
+                      - link "Google ScholarOpens in new window" [ref=e7156] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Evaluation%20of%20multi-target%20deep%20neural%20network%20models%20for%20compound%20potency%20prediction%20under%20increasingly%20challenging%20test%20conditions&publication_year=2021&author=R.%20Rodr%C3%ADguez-P%C3%A9rez&author=J.%20Bajorath
+                        - generic [ref=e7157]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7158]
+                - listitem [ref=e7160]:
+                  - link "[41]" [ref=e7162] [cursor=pointer]:
+                    - /url: "#bbr0410"
+                    - generic [ref=e7163]: "[41]"
+                  - generic [ref=e7164]:
+                    - generic [ref=e7165]:
+                      - generic [ref=e7166]: H. Faris, I. Aljarah, S. Mirjalili
+                      - generic [ref=e7167]: Chapter 28 - evolving radial basis function networks using moth–flame optimizer
+                    - generic [ref=e7168]:
+                      - text: Handbook of Neural Computation, Academic Press (2017), pp. 537-550,
+                      - link "10.1016/B978-0-12-811318-9.00028-4Opens in new window" [ref=e7169] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/B978-0-12-811318-9.00028-4
+                        - generic [ref=e7170]:
+                          - text: 10.1016/B978-0-12-811318-9.00028-4
+                          - img "Opens in new window" [ref=e7171]
+                    - generic [ref=e7173]:
+                      - link "View PDF" [ref=e7174] [cursor=pointer]:
+                        - /url: /science/article/pii/B9780128113189000284/pdfft?md5=3db662a18b9d8267f3c6ba3f3014113c&pid=3-s2.0-B9780128113189000284-main.pdf
+                        - img [ref=e7175]
+                        - generic [ref=e7180]: View PDF
+                      - link "View article" [ref=e7181] [cursor=pointer]:
+                        - /url: /science/article/pii/B9780128113189000284
+                        - generic [ref=e7182]: View article
+                      - link "View in ScopusOpens in new window" [ref=e7183] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85032390911&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7184]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7185]
+                      - link "Google ScholarOpens in new window" [ref=e7187] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Chapter%2028%20-%20evolving%20radial%20basis%20function%20networks%20using%20mothflame%20optimizer&publication_year=2017&author=H.%20Faris&author=I.%20Aljarah&author=S.%20Mirjalili
+                        - generic [ref=e7188]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7189]
+                - listitem [ref=e7191]:
+                  - link "[42]" [ref=e7193] [cursor=pointer]:
+                    - /url: "#bbr0420"
+                    - generic [ref=e7194]: "[42]"
+                  - generic [ref=e7195]:
+                    - generic [ref=e7196]:
+                      - generic [ref=e7197]: C. Conte, D. Accardo, G. Rufino
+                      - generic [ref=e7198]: Trajectory flight-time prediction based on machine learning for unmanned traffic management
+                    - generic [ref=e7199]:
+                      - text: AIAA/IEEE 39th Digital Avionics Systems Conference (DASC) (2020), pp. 1-6,
+                      - link "10.1109/DASC50938.2020.9256513Opens in new window" [ref=e7200] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/DASC50938.2020.9256513
+                        - generic [ref=e7201]:
+                          - text: 10.1109/DASC50938.2020.9256513
+                          - img "Opens in new window" [ref=e7202]
+                    - link "Google ScholarOpens in new window" [ref=e7205] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Trajectory%20flight-time%20prediction%20based%20on%20machine%20learning%20for%20unmanned%20traffic%20management&publication_year=2020&author=C.%20Conte&author=D.%20Accardo&author=G.%20Rufino
+                      - generic [ref=e7206]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e7207]
+                - listitem [ref=e7209]:
+                  - link "[43]" [ref=e7211] [cursor=pointer]:
+                    - /url: "#bbr0430"
+                    - generic [ref=e7212]: "[43]"
+                  - generic [ref=e7213]:
+                    - generic [ref=e7214]:
+                      - generic [ref=e7215]:
+                        - text: H. Hassan,
+                        - emphasis [ref=e7216]: et al.
+                      - generic [ref=e7217]: A machine learning approach to achieving energy efficiency in relay-assisted LTE-a downlink system
+                    - generic [ref=e7218]:
+                      - text: Sensors, 1 (2019), Article 3461,
+                      - link "10.3390/s19163461Opens in new window" [ref=e7219] [cursor=pointer]:
+                        - /url: https://doi.org/10.3390/s19163461
+                        - generic [ref=e7220]:
+                          - text: 10.3390/s19163461
+                          - img "Opens in new window" [ref=e7221]
+                    - generic [ref=e7223]:
+                      - link "View in ScopusOpens in new window" [ref=e7224] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85071281510&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7225]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7226]
+                      - link "Google ScholarOpens in new window" [ref=e7228] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=A%20machine%20learning%20approach%20to%20achieving%20energy%20efficiency%20in%20relay-assisted%20LTE-a%20downlink%20system&publication_year=2019&author=H.%20Hassan
+                        - generic [ref=e7229]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7230]
+                - listitem [ref=e7232]:
+                  - link "[44]" [ref=e7234] [cursor=pointer]:
+                    - /url: "#bbr0440"
+                    - generic [ref=e7235]: "[44]"
+                  - generic [ref=e7236]:
+                    - generic [ref=e7237]:
+                      - generic [ref=e7238]: A. Gowida, T. Moussa, S. Elkatatny, A. Ali
+                      - generic [ref=e7239]: A hybrid artificial intelligence model to predict the elastic behavior of sandstone rocks
+                    - generic [ref=e7240]:
+                      - text: Sustainability, 11 (2019), p. 5283,
+                      - link "10.3390/su11195283Opens in new window" [ref=e7241] [cursor=pointer]:
+                        - /url: https://doi.org/10.3390/su11195283
+                        - generic [ref=e7242]:
+                          - text: 10.3390/su11195283
+                          - img "Opens in new window" [ref=e7243]
+                    - generic [ref=e7245]:
+                      - link "View in ScopusOpens in new window" [ref=e7246] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-105004169442&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7247]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7248]
+                      - link "Google ScholarOpens in new window" [ref=e7250] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=A%20hybrid%20artificial%20intelligence%20model%20to%20predict%20the%20elastic%20behavior%20of%20sandstone%20rocks&publication_year=2019&author=A.%20Gowida&author=T.%20Moussa&author=S.%20Elkatatny&author=A.%20Ali
+                        - generic [ref=e7251]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7252]
+                - listitem [ref=e7254]:
+                  - link "[45]" [ref=e7256] [cursor=pointer]:
+                    - /url: "#bbr0450"
+                    - generic [ref=e7257]: "[45]"
+                  - generic [ref=e7258]:
+                    - generic [ref=e7259]: MathWorks, Improve Shallow Neural Network Generalization and Avoid Overfitting
+                    - generic [ref=e7260]:
+                      - link "https://it.mathworks.com/help/deeplearning/ug/improve-neural-network-generalization-and-avoid-overfitting.htmlOpens in new window" [ref=e7261] [cursor=pointer]:
+                        - /url: https://it.mathworks.com/help/deeplearning/ug/improve-neural-network-generalization-and-avoid-overfitting.html
+                        - generic [ref=e7262]:
+                          - text: https://it.mathworks.com/help/deeplearning/ug/improve-neural-network-generalization-and-avoid-overfitting.html
+                          - img "Opens in new window" [ref=e7263]
+                      - text: ", Accessed 23rd Mar 2022"
+                    - link "Google ScholarOpens in new window" [ref=e7266] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=MathWorks%2C%20Improve%20Shallow%20Neural%20Network%20Generalization%20and%20Avoid%20Overfitting.%20https%3A%2F%2Fit.mathworks.com%2Fhelp%2Fdeeplearning%2Fug%2Fimprove-neural-network-generalization-and-avoid-overfitting.html%20(accessed%2023%20March%202022).
+                      - generic [ref=e7267]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e7268]
+                - listitem [ref=e7270]:
+                  - link "[46]" [ref=e7272] [cursor=pointer]:
+                    - /url: "#bbr0460"
+                    - generic [ref=e7273]: "[46]"
+                  - generic [ref=e7274]:
+                    - generic [ref=e7275]:
+                      - generic [ref=e7276]: A. Troudi, S.-A. Addouche, S. Dellagi, A.E. Mhamedi
+                      - generic [ref=e7277]: Sizing of the drone delivery fleet considering energy autonomy
+                    - generic [ref=e7278]:
+                      - text: Sustainability, 10 (2018), p. 3344,
+                      - link "10.3390/su10093344Opens in new window" [ref=e7279] [cursor=pointer]:
+                        - /url: https://doi.org/10.3390/su10093344
+                        - generic [ref=e7280]:
+                          - text: 10.3390/su10093344
+                          - img "Opens in new window" [ref=e7281]
+                    - generic [ref=e7283]:
+                      - link "View in ScopusOpens in new window" [ref=e7284] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85053628397&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7285]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7286]
+                      - link "Google ScholarOpens in new window" [ref=e7288] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Sizing%20of%20the%20drone%20delivery%20fleet%20considering%20energy%20autonomy&publication_year=2018&author=A.%20Troudi&author=S.-A.%20Addouche&author=S.%20Dellagi&author=A.E.%20Mhamedi
+                        - generic [ref=e7289]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7290]
+                - listitem [ref=e7292]:
+                  - link "[47]" [ref=e7294] [cursor=pointer]:
+                    - /url: "#bbr0470"
+                    - generic [ref=e7295]: "[47]"
+                  - generic [ref=e7296]:
+                    - generic [ref=e7297]:
+                      - generic [ref=e7298]: J. Kim, S. Kim, J. Jeong, H. Kim, J. Park, T. Kim
+                      - generic [ref=e7299]: "CBDN: cloud-based drone navigation for efficient battery charging in drone networks"
+                    - generic [ref=e7300]:
+                      - text: IEEE Trans. Intell. Transp. Syst., 20 (11) (2019), pp. 4174-4191,
+                      - link "10.1109/TITS.2018.2883058Opens in new window" [ref=e7301] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/TITS.2018.2883058
+                        - generic [ref=e7302]:
+                          - text: 10.1109/TITS.2018.2883058
+                          - img "Opens in new window" [ref=e7303]
+                    - generic [ref=e7305]:
+                      - link "View in ScopusOpens in new window" [ref=e7306] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85058664261&partnerID=10&rel=R3.0.0
+                        - generic [ref=e7307]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e7308]
+                      - link "Google ScholarOpens in new window" [ref=e7310] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=CBDN%3A%20cloud-based%20drone%20navigation%20for%20efficient%20battery%20charging%20in%20drone%20networks&publication_year=2019&author=J.%20Kim&author=S.%20Kim&author=J.%20Jeong&author=H.%20Kim&author=J.%20Park&author=T.%20Kim
+                        - generic [ref=e7311]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e7312]
+            - region "Cited by" [ref=e219]:
+              - heading "Cited by (18)" [level=2] [ref=e7314]
+              - generic [ref=e7316]:
+                - list [ref=e7317]:
+                  - listitem [ref=e7318]:
+                    - generic [ref=e7319]:
+                      - 'heading "Drones for automated parcel delivery: Use case identification and derivation of technical requirements" [level=3] [ref=e7320]':
+                        - 'link "Drones for automated parcel delivery: Use case identification and derivation of technical requirements" [ref=e7321] [cursor=pointer]':
+                          - /url: /science/article/pii/S2590198224002392
+                          - generic [ref=e7322]: "Drones for automated parcel delivery: Use case identification and derivation of technical requirements"
+                      - generic [ref=e7323]: 2024, Transportation Research Interdisciplinary Perspectives
+                    - button "Show abstract" [ref=e7325] [cursor=pointer]:
+                      - generic [ref=e7326]: Show abstract
+                      - img [ref=e7327]
+                  - listitem [ref=e7329]:
+                    - generic [ref=e7330]:
+                      - 'heading "CNN-DBLSTM: A long-term remaining life prediction framework for lithium-ion battery with small number of samples" [level=3] [ref=e7331]':
+                        - 'link "CNN-DBLSTM: A long-term remaining life prediction framework for lithium-ion battery with small number of samples" [ref=e7332] [cursor=pointer]':
+                          - /url: /science/article/pii/S2352152X24025337
+                          - generic [ref=e7333]: "CNN-DBLSTM: A long-term remaining life prediction framework for lithium-ion battery with small number of samples"
+                      - generic [ref=e7334]: 2024, Journal of Energy Storage
+                      - generic [ref=e7336]:
+                        - generic [ref=e7337]: "Citation Excerpt :"
+                        - paragraph [ref=e7338]: …In the field of unmanned aerial vehicles (UAVs), battery life prediction is also crucial. If effective energy management for UAVs is not implemented, it can lead to UAVs crashing and causing damage, and even cause the failure of rescue and combat missions being executed [15–17]. In spacecraft, the battery's performance and output power may decrease with the increase of duration in orbit, which can cause serious problems such as failure to power important loads and impact the normal operation of the spacecraft [18].…
+                    - button "Show abstract" [ref=e7340] [cursor=pointer]:
+                      - generic [ref=e7341]: Show abstract
+                      - img [ref=e7342]
+                  - listitem [ref=e7344]:
+                    - generic [ref=e7345]:
+                      - heading "Data-efficient modeling for power consumption estimation of quadrotor operations using ensemble learning" [level=3] [ref=e7346]:
+                        - link "Data-efficient modeling for power consumption estimation of quadrotor operations using ensemble learning" [ref=e7347] [cursor=pointer]:
+                          - /url: /science/article/pii/S1270963823006879
+                          - generic [ref=e7348]: Data-efficient modeling for power consumption estimation of quadrotor operations using ensemble learning
+                      - generic [ref=e7349]: 2024, Aerospace Science and Technology
+                      - generic [ref=e7351]:
+                        - generic [ref=e7352]: "Citation Excerpt :"
+                        - paragraph [ref=e7353]: …The dependency on large dataset limits the model's scalability. Conte et al. [38] developed a deep learning model to predict energy consumption on a generic path. The prediction output is the power consumption of the entire flight mission, but not the instantaneous power.…
+                    - button "Show abstract" [ref=e7355] [cursor=pointer]:
+                      - generic [ref=e7356]: Show abstract
+                      - img [ref=e7357]
+                  - listitem [ref=e7359]:
+                    - generic [ref=e7360]:
+                      - heading "A Novel Charging Station on Overhead Power Lines for Autonomous Unmanned DronesOpens in new window" [level=3] [ref=e7361]:
+                        - link "A Novel Charging Station on Overhead Power Lines for Autonomous Unmanned DronesOpens in new window" [ref=e7362] [cursor=pointer]:
+                          - /url: https://doi.org/10.3390/app131810175
+                          - generic [ref=e7363]:
+                            - text: A Novel Charging Station on Overhead Power Lines for Autonomous Unmanned Drones
+                            - img "Opens in new window" [ref=e7364]
+                      - generic [ref=e7366]: 2023, Applied Sciences Switzerland
+                  - listitem [ref=e7367]:
+                    - generic [ref=e7368]:
+                      - heading "A Comprehensive Review of Research Hotspots on Battery Management Systems for UAVsOpens in new window" [level=3] [ref=e7369]:
+                        - link "A Comprehensive Review of Research Hotspots on Battery Management Systems for UAVsOpens in new window" [ref=e7370] [cursor=pointer]:
+                          - /url: https://doi.org/10.1109/ACCESS.2023.3301989
+                          - generic [ref=e7371]:
+                            - text: A Comprehensive Review of Research Hotspots on Battery Management Systems for UAVs
+                            - img "Opens in new window" [ref=e7372]
+                      - generic [ref=e7374]: 2023, IEEE Access
+                  - listitem [ref=e7375]:
+                    - generic [ref=e7376]:
+                      - 'heading "Drones in last-mile delivery: a systematic literature review from a logistics management perspectiveOpens in new window" [level=3] [ref=e7377]':
+                        - 'link "Drones in last-mile delivery: a systematic literature review from a logistics management perspectiveOpens in new window" [ref=e7378] [cursor=pointer]':
+                          - /url: https://doi.org/10.1108/IJLM-04-2023-0149
+                          - generic [ref=e7379]:
+                            - text: "Drones in last-mile delivery: a systematic literature review from a logistics management perspective"
+                            - img "Opens in new window" [ref=e7380]
+                      - generic [ref=e7382]: 2023, International Journal of Logistics Management
+                - link "View all citing articles on Scopus Opens in new window" [ref=e7383] [cursor=pointer]:
+                  - /url: http://www.scopus.com/scopus/inward/citedby.url?partnerID=10&rel=3.0.0&eid=2-s2.0-85139335268&md5=5928c127421d273c7920b6faee1b1dca
+                  - img [ref=e7384]
+                  - generic [ref=e7386]: View all citing articles on Scopus
+                  - img "Opens in new window" [ref=e7387]
+            - generic [ref=e223]: © 2022 The Authors. Published by Elsevier Masson SAS.
+          - complementary "Related content" [ref=e225]:
+            - generic [ref=e226]:
+              - button "Recommended articles" [expanded] [ref=e228] [cursor=pointer]:
+                - heading "Recommended articles" [level=2] [ref=e231]
+                - img [ref=e232]
+              - generic [ref=e234]:
+                - list [ref=e7390]:
+                  - listitem [ref=e7391]:
+                    - generic [ref=e7392]:
+                      - heading "Water/acetonitrile hybrid electrolyte enables using smaller ions for achieving superior energy density in carbon-based supercapacitors" [level=3] [ref=e7393]:
+                        - link "Water/acetonitrile hybrid electrolyte enables using smaller ions for achieving superior energy density in carbon-based supercapacitors" [ref=e7394] [cursor=pointer]:
+                          - /url: /science/article/pii/S0378775321004389
+                          - generic [ref=e7396]: Water/acetonitrile hybrid electrolyte enables using smaller ions for achieving superior energy density in carbon-based supercapacitors
+                      - generic [ref=e7398]: Journal of Power Sources, Volume 498, 2021, Article 229905
+                      - generic [ref=e7399]: Ali Khosrozadeh, …, Jian Liu
+                  - listitem [ref=e7400]:
+                    - generic [ref=e7401]:
+                      - heading "Determination of the battery pack capacity considering the estimation error using a Capacity–Quantity diagram" [level=3] [ref=e7402]:
+                        - link "Determination of the battery pack capacity considering the estimation error using a Capacity–Quantity diagram" [ref=e7403] [cursor=pointer]:
+                          - /url: /science/article/pii/S0306261916307425
+                          - generic [ref=e7405]: Determination of the battery pack capacity considering the estimation error using a Capacity–Quantity diagram
+                      - generic [ref=e7407]: Applied Energy, Volume 177, 2016, pp. 384-392
+                      - generic [ref=e7408]: Minggao Ouyang, …, Ping Shen
+                    - link "View PDF" [ref=e7410] [cursor=pointer]:
+                      - /url: /science/article/pii/S0306261916307425/pdfft?md5=06a10dcf5eed9d06b60e5cd0a2cfd83c&pid=1-s2.0-S0306261916307425-main.pdf
+                      - img [ref=e7411]
+                      - generic [ref=e7416]: View PDF
+                  - listitem [ref=e7417]:
+                    - generic [ref=e7418]:
+                      - heading "An Experimental Evaluation of LTA on the performance of a drone" [level=3] [ref=e7419]:
+                        - link "An Experimental Evaluation of LTA on the performance of a drone" [ref=e7420] [cursor=pointer]:
+                          - /url: /science/article/pii/S2351978919307929
+                          - generic [ref=e7422]: An Experimental Evaluation of LTA on the performance of a drone
+                      - generic [ref=e7424]: Procedia Manufacturing, Volume 35, 2019, pp. 1135-1140
+                      - generic [ref=e7425]: J. Azeta, …, E.Y. Salawu
+                    - link "View PDF" [ref=e7427] [cursor=pointer]:
+                      - /url: /science/article/pii/S2351978919307929/pdf?md5=66bf5549845af404e7789d3c738651cf&pid=1-s2.0-S2351978919307929-main.pdf
+                      - img [ref=e7428]
+                      - generic [ref=e7433]: View PDF
+                - button "Show 3 more articles" [ref=e7434] [cursor=pointer]:
+                  - generic [ref=e7435]: Show 3 more articles
+                  - img [ref=e7436]
+            - generic [ref=e7438]:
+              - button "Article Metrics" [expanded] [ref=e7440] [cursor=pointer]:
+                - heading "Article Metrics" [level=2] [ref=e7443]
+                - img [ref=e7444]
+              - generic [ref=e7447]:
+                - heading "Citations" [level=3] [ref=e7448]
+                - list [ref=e7449]:
+                  - listitem [ref=e7450]:
+                    - generic [ref=e7451]: Citation Indexes
+                    - generic [ref=e7452]: "17"
+                - heading "Captures" [level=3] [ref=e7453]
+                - list [ref=e7454]:
+                  - listitem [ref=e7455]:
+                    - generic [ref=e7456]: Mendeley Readers
+                    - generic [ref=e7457]: "38"
+                - heading "Mentions" [level=3] [ref=e7458]
+                - list [ref=e7459]:
+                  - listitem [ref=e7460]:
+                    - generic [ref=e7461]: News Mentions
+                    - generic [ref=e7462]: "1"
+                - generic [ref=e7463]:
+                  - img "PlumX Metrics Logo" [ref=e7464]
+                  - link "View detailsOpens in new window" [ref=e7465] [cursor=pointer]:
+                    - /url: https://plu.mx/plum/a/?doi=10.1016%2Fj.ast.2022.107921&theme=plum-sciencedirect-theme&hideUsage=true
+                    - generic [ref=e7466]:
+                      - text: View details
+                      - img "Opens in new window" [ref=e7467]
+    - contentinfo [ref=e236]:
+      - link "Elsevier home page (opens in a new tab)" [ref=e238] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=e239]
+      - generic [ref=e240]:
+        - list [ref=e242]:
+          - listitem [ref=e243]:
+            - link "About ScienceDirectOpens in new window" [ref=e244] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=e245]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=e246]
+          - listitem [ref=e248]:
+            - link "Remote access" [ref=e249] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS1270963822005958
+              - generic [ref=e250]: Remote access
+          - listitem [ref=e251]:
+            - link "Contact and supportOpens in new window" [ref=e252] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=e253]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=e254]
+          - listitem [ref=e256]:
+            - link "Terms and conditionsOpens in new window" [ref=e257] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=e258]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=e259]
+          - listitem [ref=e261]:
+            - link "Privacy policyOpens in new window" [ref=e262] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=e263]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=e264]
+          - listitem [ref=e266]:
+            - button "Cookie settings" [ref=e267] [cursor=pointer]:
+              - generic [ref=e268]: Cookie settings
+        - paragraph [ref=e269]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=e271] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=e272]
+  - alert [ref=e7469]
+  - button "Feedback" [ref=e7470] [cursor=pointer]:
+    - img "Feedback" [ref=e7471]

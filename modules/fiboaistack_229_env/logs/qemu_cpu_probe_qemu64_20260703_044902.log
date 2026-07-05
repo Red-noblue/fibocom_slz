@@ -1,0 +1,15 @@
+[sudo] password for fibo: 2026-07-03 12:49:14,022 - 235 - INFO - Input shape info 
+WARNING: The argument `input_shapes` is deprecated. Please use 
+`overwrite_input_shapes` and/or `test_input_shapes` instead. An error will be 
+raised in the future.
+2026-07-03 12:49:59,119 - 235 - INFO - user_provided_output is same as graph_output..skipping update_output_names call
+Fatal Python error: Illegal instruction
+
+Current thread 0x0000004002197280 (most recent call first):
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/backend/qnn_quantizer.py", line 422 in quantize
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/backend/ir_to_qnn.py", line 543 in save
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-onnx-converter", line 78 in main
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-onnx-converter", line 108 in <module>
+
+Extension modules: numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, google.protobuf.pyext._message, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.hashing, pandas._libs.tslib, pandas._libs.ops, pandas._libs.arrays, pandas._libs.sparse, pandas._libs.reduction, pandas._libs.indexing, pandas._libs.index, pandas._libs.internals, pandas._libs.join, pandas._libs.writers, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.testing, pandas._libs.parsers, pandas._libs.json (total: 55)
+qemu: uncaught target signal 4 (Illegal instruction) - core dumped

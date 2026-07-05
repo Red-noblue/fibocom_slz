@@ -1,0 +1,310 @@
+<!doctype html>
+<!-- 中文说明：本页面提供 Q-learning 计算卸载实验分析台，围绕真实策略查表、状态生成、运行验证和策略对比组织界面。 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q-learning 计算卸载实验分析台</title>
+  <link rel="stylesheet" href="./static/styles.css?v=20260601-analysis1">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <strong>Q-learning 计算卸载实验分析台</strong>
+      <span>真实策略查表与运行验证</span>
+    </div>
+    <div class="status-strip">
+      <span id="data-status">数据加载中</span>
+      <span id="backend-status">后端检测中</span>
+      <span id="coverage-status">覆盖率 --</span>
+    </div>
+  </header>
+
+  <nav class="workspace-tabs" aria-label="工作区">
+    <button class="active" type="button" data-view="run">单步决策</button>
+    <button type="button" data-view="compare">策略对比</button>
+    <button type="button" data-view="explain">奖励解释</button>
+    <button type="button" data-view="assets">训练资产</button>
+  </nav>
+
+  <main class="workspace">
+    <section id="view-run" class="view active">
+      <aside class="side-panel">
+        <div class="section-title">
+          <span>实验输入</span>
+          <button id="btn-copy-json" class="tool-button" type="button" title="复制当前接口 JSON">复制 JSON</button>
+        </div>
+
+        <label class="control">
+          <span>实验环境模板</span>
+          <select id="input-city">
+            <option value="shenzhen" selected>高密度城市任务</option>
+            <option value="xuzhou">边云协同任务</option>
+            <option value="baoshan">高风险监管任务</option>
+          </select>
+        </label>
+
+        <label class="control">
+          <span>任务路线模板</span>
+          <select id="input-route">
+            <option value="urban_inspection" selected>城区巡检路线</option>
+            <option value="logistics_corridor">物流干线路线</option>
+            <option value="airport_perimeter">机场周界路线</option>
+          </select>
+        </label>
+
+        <label class="control">
+          <span>路线阶段</span>
+          <select id="input-segment">
+            <option value="0" selected>起飞阶段</option>
+            <option value="1">作业区域</option>
+            <option value="2">边缘节点附近</option>
+            <option value="3">高风险区域</option>
+            <option value="4">返航阶段</option>
+          </select>
+        </label>
+
+        <label class="control">
+          <span>网络覆盖</span>
+          <select id="input-scenario">
+            <option value="balanced">均衡覆盖</option>
+            <option value="good_coverage">良好覆盖</option>
+            <option value="weak_coverage">弱覆盖</option>
+            <option value="intermittent_coverage">间歇覆盖</option>
+            <option value="congested_edge" selected>边缘拥塞</option>
+          </select>
+        </label>
+
+        <label class="control">
+          <span>能耗条件</span>
+          <select id="input-weather">
+            <option value="calm" selected>平稳天气</option>
+            <option value="windy">大风高耗能</option>
+            <option value="rainy">降雨风险</option>
+          </select>
+        </label>
+
+        <label class="control">
+          <span>任务模板</span>
+          <select id="input-task">
+            <option value="inspection" selected>巡检识别</option>
+            <option value="obstacle_alert">避障告警</option>
+            <option value="video_analysis">视频分析</option>
+            <option value="log_upload">日志上传</option>
+            <option value="regulatory_capture">监管取证</option>
+          </select>
+        </label>
+
+        <label class="control">
+          <span>策略来源</span>
+          <select id="input-policy-mode">
+            <option value="trained_or_rule" selected>训练策略优先，未覆盖时规则回退</option>
+            <option value="trained_only">只使用训练策略，未覆盖则不返回动作</option>
+            <option value="rule_based">始终使用规则基线</option>
+          </select>
+        </label>
+
+        <div class="control-grid compact">
+          <label class="control">
+            <span>随机种子</span>
+            <input id="input-runtime-seed" type="number" min="0" step="1" value="31">
+          </label>
+          <label class="control">
+            <span>运行步数</span>
+            <input id="input-rollout-steps" type="number" min="1" max="50" step="1" value="8">
+          </label>
+        </div>
+
+        <details class="advanced" open>
+          <summary>当前离散状态</summary>
+          <div class="control-grid">
+            <label class="control">
+              <span>队列 <b id="label-queue">10</b></span>
+              <input id="input-queue" type="range" min="0" max="16" step="1" value="10">
+            </label>
+            <label class="control">
+              <span>电量 <b id="label-battery">4</b></span>
+              <input id="input-battery" type="range" min="0" max="4" step="1" value="4">
+            </label>
+            <label class="control">
+              <span>链路</span>
+              <select id="input-link">
+                <option value="0">弱</option>
+                <option value="1">中</option>
+                <option value="2" selected>强</option>
+              </select>
+            </label>
+            <label class="control">
+              <span>边缘负载</span>
+              <select id="input-edge">
+                <option value="0">低</option>
+                <option value="1">中</option>
+                <option value="2" selected>高</option>
+              </select>
+            </label>
+            <label class="control">
+              <span>云端负载</span>
+              <select id="input-cloud">
+                <option value="0" selected>低</option>
+                <option value="1">中</option>
+                <option value="2">高</option>
+              </select>
+            </label>
+            <label class="control">
+              <span>紧急度</span>
+              <select id="input-urgency">
+                <option value="0">低</option>
+                <option value="1" selected>中</option>
+                <option value="2">高</option>
+              </select>
+            </label>
+            <label class="control">
+              <span>敏感度</span>
+              <select id="input-sensitive">
+                <option value="0" selected>低</option>
+                <option value="1">中</option>
+                <option value="2">高</option>
+              </select>
+            </label>
+            <label class="control">
+              <span>区域风险</span>
+              <select id="input-risk">
+                <option value="0" selected>低</option>
+                <option value="1">中</option>
+                <option value="2">高</option>
+              </select>
+            </label>
+          </div>
+        </details>
+
+        <div class="button-row">
+          <button id="btn-derive-state" type="button">生成状态</button>
+          <button id="btn-trained-sample" type="button">训练样例</button>
+        </div>
+        <div class="button-row">
+          <button id="btn-runtime-step" type="button">执行一步</button>
+          <button id="btn-runtime-rollout" type="button">连续运行</button>
+        </div>
+      </aside>
+
+      <section class="main-panel">
+        <div class="map-panel">
+          <div class="section-title">
+            <span>状态生成结果</span>
+            <strong id="route-name">城区巡检路线</strong>
+          </div>
+          <p id="route-context" class="panel-note">这些中文状态字段会被转换为策略接口的原始字段；接口字段名可在“奖励解释”的 JSON 区查看。</p>
+          <div id="input-impact" class="impact-list"></div>
+          <div class="telemetry-grid">
+            <div><span>队列</span><strong id="metric-queue">--</strong></div>
+            <div><span>链路</span><strong id="metric-link">--</strong></div>
+            <div><span>电量</span><strong id="metric-battery">--</strong></div>
+            <div><span>风险</span><strong id="metric-risk">--</strong></div>
+            <div><span>边缘</span><strong id="metric-edge">--</strong></div>
+            <div><span>云端</span><strong id="metric-cloud">--</strong></div>
+            <div><span>紧急度</span><strong id="metric-urgency">--</strong></div>
+            <div><span>敏感度</span><strong id="metric-sensitive">--</strong></div>
+          </div>
+        </div>
+
+        <div class="decision-panel">
+          <div class="section-title">
+            <span>当前决策</span>
+            <strong id="policy-source">等待策略</strong>
+          </div>
+          <div class="decision-grid">
+            <div class="decision-primary">
+              <span id="decision-action">--</span>
+              <small id="decision-reason">等待训练快照加载。</small>
+            </div>
+            <div><span>动作价值（Q 值）</span><strong id="decision-q">--</strong></div>
+            <div><span>奖励值</span><strong id="decision-reward">--</strong></div>
+            <div><span>时延</span><strong id="decision-delay">--</strong></div>
+            <div><span>能耗</span><strong id="decision-energy">--</strong></div>
+            <div><span>覆盖</span><strong id="decision-coverage">--</strong></div>
+          </div>
+        </div>
+
+        <div class="trace-panel">
+          <div class="section-title">
+            <span>运行轨迹</span>
+            <strong id="rollout-summary">尚未运行</strong>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>步</th>
+                  <th>来源</th>
+                  <th>当前状态（队列/链路/电量/负载/语义）</th>
+                  <th>动作（本地/边缘/云端任务数）</th>
+                  <th>奖励值（reward）</th>
+                  <th>新到达任务数（arrival）</th>
+                  <th>下一状态（队列/链路/电量/负载/语义）</th>
+                </tr>
+              </thead>
+              <tbody id="runtime-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="view-compare" class="view">
+      <div class="section-title">
+        <span>同一状态策略对比</span>
+        <strong id="compare-title">当前任务状态</strong>
+      </div>
+      <div id="strategy-compare" class="strategy-grid"></div>
+    </section>
+
+    <section id="view-explain" class="view">
+      <div class="explain-grid">
+        <section>
+          <div class="section-title">
+            <span>奖励分解</span>
+            <strong id="explain-action">--</strong>
+          </div>
+          <div id="reward-breakdown" class="breakdown-list"></div>
+        </section>
+        <section>
+          <div class="section-title">
+          <span>接口 JSON 原文</span>
+            <button id="btn-refresh-act" class="tool-button" type="button">重新查表</button>
+          </div>
+          <pre id="state-json" class="json-box">{}</pre>
+        </section>
+      </div>
+    </section>
+
+    <section id="view-assets" class="view">
+      <div class="asset-grid">
+        <section>
+          <div class="section-title">
+            <span>训练快照</span>
+            <strong id="asset-training">--</strong>
+          </div>
+          <div id="asset-scenarios" class="asset-list"></div>
+        </section>
+        <section>
+          <div class="section-title">
+            <span>场景指标</span>
+            <strong id="scheme-status">--</strong>
+          </div>
+          <div id="scenario-bars" class="bar-list"></div>
+        </section>
+        <section>
+          <div class="section-title">
+            <span>接口字段</span>
+            <strong>状态输入</strong>
+          </div>
+          <div id="contract-fields" class="field-list"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="./static/app.js?v=20260601-dispatch1"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+# 本地运行产物：全项目任意层级忽略。
+logs_2.sqlite
+runtime/
+tmp/
+.tmp/
+__pycache__/
+
+# 本地环境与旧工具包，不进入 Git。
+._envs/
+.vendor/
+.venv/
+**/.venv/
+/tools/lite-ccswitch/src/node_modules/
+/tools/old-codex-project-portable/
+/tools/proxy-tunnel/
+/tools/codex-project-portable/mycodex/configs/
+
+# 独立子项目/归档包：主项目只保留说明，不提交完整内容。
+/modules/radio-map-estimation-workbench/*
+!/modules/radio-map-estimation-workbench/README_GITHUB.md
+/modules/fiboaistack_229_env/tmp_qemu_pkg/
+/modules/Q-learning/archives/
+
+# 可从公开数据源恢复的大型压缩包。
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/03_多旋翼风估计_2022/data/02_EPFL_FLIGHTS.zip
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/03_多旋翼风估计_2022/data/03_SVALBARD_FLIGHTS.zip
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/01_M100飞行位置与能耗数据集_2021/data/12683453.zip
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/01_M100飞行位置与能耗数据集_2021/data/extracted_12683453/raw_files.zip
+
+# 可重新解压/下载恢复的数据目录。
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/03_多旋翼风估计_2022/data/extracted_02_EPFL_sample/
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/03_多旋翼风估计_2022/data/extracted_03_SVALBARD_FLIGHTS/
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/01_M100飞行位置与能耗数据集_2021/data/extracted_12683453/
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/02_小包裹配送飞行数据与能耗模型_2022/code/extracted_drone_energy_consumption_v1_0_0/thiago-a-rod-drone_energy_consumption-3d27ac9/data/
+
+# 可从公开 GitHub 仓库重新下载的源码压缩包。
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/05_全球无人机天气飞行约束_2021/code/UAV_Flyability-main.zip
+
+# 可从公开 Bitbucket 仓库恢复的大型表数据，保留同目录源码头文件。
+/data/无人机数据集/docs/天气-里程论文/数据集论文及文件/01_M100飞行位置与能耗数据集_2021/code/castacks_DOE/bvp_doe/include/kite_bvp_solver/large_data*.csv

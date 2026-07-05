@@ -1,0 +1,122 @@
+== build qnn_model ==
+mkdir -p obj/aarch64-ubuntu-gcc9.4
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/include/QNN jni/QnnWrapperUtils.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnWrapperUtils.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/include/QNN jni/radio_map_liteunet_qnn.cpp -o obj/aarch64-ubuntu-gcc9.4/radio_map_liteunet_qnn.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/include/QNN jni/QnnModelPal.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnModelPal.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/include/QNN jni/QnnModel.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnModel.o
+In file included from /usr/aarch64-linux-gnu/include/stdio.h:867,
+                 from /usr/include/c++/9/cstdio:42,
+                 from /usr/include/c++/9/ext/string_conversions.h:43,
+                 from /usr/include/c++/9/bits/basic_string.h:6496,
+                 from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/stdexcept:39,
+                 from /usr/include/c++/9/array:39,
+                 from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/bits/stl_map.h:63,
+                 from /usr/include/c++/9/map:61,
+                 from jni/QnnModel.hpp:13,
+                 from jni/QnnModel.cpp:15:
+In function ‘int printf(const char*, ...)’,
+    inlined from ‘qnn_wrapper_api::ModelError_t qnn_wrapper_api::QnnModel::addNode(Qnn_OpConfigVersion_t, const char*, const char*, const char*, Qnn_Param_t*, uint32_t, const char**, uint32_t, Qnn_Tensor_t*, uint32_t)’ at jni/QnnWrapperUtils.hpp:147:5:
+/usr/aarch64-linux-gnu/include/bits/stdio2.h:107:23: warning: ‘%s’ directive argument is null [-Wformat-overflow=]
+  107 |   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+      |          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mkdir -p obj/binary/aarch64-ubuntu-gcc9.4
+touch obj/binary/extractbinary
+touch obj/binary/aarch64-ubuntu-gcc9.4/objcopyDone
+mkdir -p libs/aarch64-ubuntu-gcc9.4
+== build pad_constant fp32 ==
+mkdir -p obj/aarch64-ubuntu-gcc9.4
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/include/QNN jni/QnnWrapperUtils.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnWrapperUtils.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/include/QNN jni/QnnModelPal.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnModelPal.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/include/QNN jni/QnnModel.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnModel.o
+In file included from /usr/aarch64-linux-gnu/include/stdio.h:867,
+                 from /usr/include/c++/9/cstdio:42,
+                 from /usr/include/c++/9/ext/string_conversions.h:43,
+                 from /usr/include/c++/9/bits/basic_string.h:6496,
+                 from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/stdexcept:39,
+                 from /usr/include/c++/9/array:39,
+                 from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/bits/stl_map.h:63,
+                 from /usr/include/c++/9/map:61,
+                 from jni/QnnModel.hpp:13,
+                 from jni/QnnModel.cpp:15:
+In function ‘int printf(const char*, ...)’,
+    inlined from ‘qnn_wrapper_api::ModelError_t qnn_wrapper_api::QnnModel::addNode(Qnn_OpConfigVersion_t, const char*, const char*, const char*, Qnn_Param_t*, uint32_t, const char**, uint32_t, Qnn_Tensor_t*, uint32_t)’ at jni/QnnWrapperUtils.hpp:147:5:
+/usr/aarch64-linux-gnu/include/bits/stdio2.h:107:23: warning: ‘%s’ directive argument is null [-Wformat-overflow=]
+  107 |   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+      |          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/include/QNN jni/radio_map_liteunet_pad_constant_qnn.cpp -o obj/aarch64-ubuntu-gcc9.4/radio_map_liteunet_pad_constant_qnn.o
+mkdir -p obj/binary/aarch64-ubuntu-gcc9.4
+touch obj/binary/extractbinary
+touch obj/binary/aarch64-ubuntu-gcc9.4/objcopyDone
+mkdir -p libs/aarch64-ubuntu-gcc9.4
+== build pad_constant int8 ==
+mkdir -p obj/aarch64-ubuntu-gcc9.4
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/include/QNN jni/radio_map_liteunet_pad_constant_int8_qnn.cpp -o obj/aarch64-ubuntu-gcc9.4/radio_map_liteunet_pad_constant_int8_qnn.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/include/QNN jni/QnnWrapperUtils.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnWrapperUtils.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/include/QNN jni/QnnModelPal.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnModelPal.o
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/include/QNN jni/QnnModel.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnModel.o
+In file included from /usr/aarch64-linux-gnu/include/stdio.h:867,
+                 from /usr/include/c++/9/cstdio:42,
+                 from /usr/include/c++/9/ext/string_conversions.h:43,
+                 from /usr/include/c++/9/bits/basic_string.h:6496,
+                 from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/stdexcept:39,
+                 from /usr/include/c++/9/array:39,
+                 from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/bits/stl_map.h:63,
+                 from /usr/include/c++/9/map:61,
+                 from jni/QnnModel.hpp:13,
+                 from jni/QnnModel.cpp:15:
+In function ‘int printf(const char*, ...)’,
+    inlined from ‘qnn_wrapper_api::ModelError_t qnn_wrapper_api::QnnModel::addNode(Qnn_OpConfigVersion_t, const char*, const char*, const char*, Qnn_Param_t*, uint32_t, const char**, uint32_t, Qnn_Tensor_t*, uint32_t)’ at jni/QnnWrapperUtils.hpp:147:5:
+/usr/aarch64-linux-gnu/include/bits/stdio2.h:107:23: warning: ‘%s’ directive argument is null [-Wformat-overflow=]
+  107 |   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+      |          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mkdir -p obj/binary/aarch64-ubuntu-gcc9.4
+touch obj/binary/extractbinary
+touch obj/binary/aarch64-ubuntu-gcc9.4/objcopyDone
+mkdir -p libs/aarch64-ubuntu-gcc9.4
+== qnn restored files ==
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/host_build/jni/QnnModel.cpp 17960 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/host_build/jni/QnnModelPal.cpp 751 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/host_build/jni/QnnWrapperUtils.cpp 8866 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/host_build/jni/radio_map_liteunet_pad_constant_qnn.bin 8038400 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/host_build/jni/radio_map_liteunet_pad_constant_qnn.cpp 486473 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_qnn.so 8242728 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/converter/jni/QnnModel.cpp 17960 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/converter/jni/QnnWrapperUtils.cpp 8866 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/converter/jni/linux/QnnModelPal.cpp 751 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/qnn_sdk_subset/converter/jni/windows/QnnModelPal.cpp 2785 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/radio_map_liteunet_pad_constant_qnn.bin 8038400 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/radio_map_liteunet_pad_constant_qnn.cpp 486473 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant/radio_map_liteunet_pad_constant_qnn_net.json 251988 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/jni/QnnModel.cpp 17960 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/jni/QnnModelPal.cpp 751 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/jni/QnnWrapperUtils.cpp 8866 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/jni/radio_map_liteunet_pad_constant_int8_qnn.bin 2078720 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/jni/radio_map_liteunet_pad_constant_int8_qnn.cpp 445370 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_pad_constant_int8_qnn.so 2257744 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/converter/jni/QnnModel.cpp 17960 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/converter/jni/QnnWrapperUtils.cpp 8866 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/converter/jni/linux/QnnModelPal.cpp 751 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/qnn_sdk_subset/converter/jni/windows/QnnModelPal.cpp 2785 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn.bin 2078720 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn.cpp 445370 bytes
+modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8/radio_map_liteunet_pad_constant_int8_qnn_net.json 235479 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/host_build/jni/QnnModel.cpp 17960 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/host_build/jni/QnnModelPal.cpp 751 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/host_build/jni/QnnWrapperUtils.cpp 8866 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/host_build/jni/radio_map_liteunet_qnn.bin 8038400 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/host_build/jni/radio_map_liteunet_qnn.cpp 532725 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/host_build/libs/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_qnn.so 8255016 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/lib/aarch64-ubuntu-gcc9.4/libradio_map_liteunet_qnn.so 8255016 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/converter/jni/QnnModel.cpp 17960 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/converter/jni/QnnWrapperUtils.cpp 8866 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/converter/jni/linux/QnnModelPal.cpp 751 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset/converter/jni/windows/QnnModelPal.cpp 2785 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/radio_map_liteunet_qnn.bin 8038400 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/radio_map_liteunet_qnn.cpp 532725 bytes
+modules/fiboaistack_229_env/outputs/qnn_model/radio_map_liteunet_qnn_net.json 281541 bytes

@@ -1,0 +1,48 @@
+[sudo] password for fibo: 2026-07-03 13:29:52,002 - 235 - INFO - Input shape info 
+WARNING: The argument `input_shapes` is deprecated. Please use 
+`overwrite_input_shapes` and/or `test_input_shapes` instead. An error will be 
+raised in the future.
+2026-07-03 13:30:47,198 - 235 - INFO - user_provided_output is same as graph_output..skipping update_output_names call
+2026-07-03 13:30:47,780 - 235 - INFO - Saving QNN Model...
+2026-07-03 13:30:47,855 - 235 - INFO - Model CPP saved at: /workspace/modules/fiboaistack_229_env/outputs/htp_cdsp_minimal_qnn/plain_conv_int8/plain_conv_int8_qnn.cpp 
+2026-07-03 13:30:47,858 - 235 - INFO - Model BIN saved at: /workspace/modules/fiboaistack_229_env/outputs/htp_cdsp_minimal_qnn/plain_conv_int8/plain_conv_int8_qnn.bin 
+2026-07-03 13:30:47,883 - 235 - INFO - Conversion complete!
+     4.7ms [  INFO ] Inferences will run in sync mode
+    12.9ms [  INFO ] Initializing logging in the backend. Callback: [0x7f493bed10], Log Level: [3]
+    14.9ms [  INFO ] No BackendExtensions lib provided;initializing NetRunBackend Interface
+    35.9ms [  INFO ] [QNN_CPU] CpuBackend creation start
+    36.2ms [  INFO ] [QNN_CPU] CpuBackend creation end
+    52.1ms [WARNING] Unable to find a device with NetRunDeviceKeyDefault in Library NetRunBackendLibKeyDefault
+    52.3ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+    40.1ms [  INFO ] [QNN_CPU] QnnContext create start
+    40.9ms [  INFO ] [QNN_CPU] QnnContext create end
+    63.7ms [  INFO ] Entering QuantizeRuntimeApp flow
+    64.9ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+    53.2ms [  INFO ] [QNN_CPU] CpuGraph creation start
+    53.4ms [  INFO ] [QNN_CPU] CpuGraph creation end
+    54.4ms [  INFO ] [QNN_CPU] QnnGraph create end
+    77.6ms [  INFO ] [QNN_CPU] QnnGraph finalize start
+    82.1ms [  INFO ] [QNN_CPU] QnnGraph finalize end
+    92.3ms [  INFO ] [QNN_CPU] QnnGraph execute start
+   140.5ms [  INFO ] [QNN_CPU] QnnGraph execute end
+    91.3ms [  INFO ] cleaning up resources for input tensors
+    92.0ms [  INFO ] cleaning up resources for output tensors
+   147.2ms [  INFO ] [QNN_CPU] QnnGraph execute start
+   151.9ms [  INFO ] [QNN_CPU] QnnGraph execute end
+    99.8ms [  INFO ] cleaning up resources for input tensors
+    99.9ms [  INFO ] cleaning up resources for output tensors
+   153.2ms [  INFO ] [QNN_CPU] QnnGraph execute start
+   155.2ms [  INFO ] [QNN_CPU] QnnGraph execute end
+   103.2ms [  INFO ] cleaning up resources for input tensors
+   103.2ms [  INFO ] cleaning up resources for output tensors
+   156.3ms [  INFO ] [QNN_CPU] QnnGraph execute start
+   157.7ms [  INFO ] [QNN_CPU] QnnGraph execute end
+   105.6ms [  INFO ] cleaning up resources for input tensors
+   105.6ms [  INFO ] cleaning up resources for output tensors
+   187.9ms [  INFO ] Freeing graphsInfo
+   188.6ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+   241.7ms [  INFO ] [QNN_CPU] QnnContext Free start
+   246.4ms [  INFO ] [QNN_CPU] QnnContext Free end
+   209.6ms [WARNING] Profile Logger with name = defaultKey doesn't exist!
+   263.6ms [  INFO ] [QNN_CPU] QnnBackend Free start
+   265.6ms [  INFO ] [QNN_CPU] QnnBackend Free end

@@ -1,0 +1,13 @@
+== prepare sdk modules/fiboaistack_229_env/outputs/qnn_model ==
+[sudo] password for fibo: == prepare sdk modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant ==
+== prepare sdk modules/fiboaistack_229_env/outputs/qnn_htp_rewrite_pad_constant_int8 ==
+== build qnn_model ==
+realpath: modules/fiboaistack_229_env/outputs/qnn_model/qnn_sdk_subset: No such file or directory
+mkdir -p obj/aarch64-ubuntu-gcc9.4
+/usr/bin/aarch64-linux-gnu-g++ -c -std=c++11 -D_UBUNTU_SOURCE -std=gnu++11 -fPIC -Wl,-lstdc++ -O3 -fno-exceptions -fno-rtti -Wno-write-strings -DQNN_API="__attribute__((visibility(\"default\")))" -fPIC -fvisibility=hidden -Ijni/ -I/home/fibo/fibocom_slz/modules/include/QNN jni/QnnWrapperUtils.cpp -o obj/aarch64-ubuntu-gcc9.4/QnnWrapperUtils.o
+In file included from jni/QnnWrapperUtils.cpp:14:
+jni/QnnWrapperUtils.hpp:12:10: fatal error: QnnContext.h: No such file or directory
+   12 | #include "QnnContext.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile.ubuntu-aarch64-gcc9.4:106: obj/aarch64-ubuntu-gcc9.4/QnnWrapperUtils.o] Error 1

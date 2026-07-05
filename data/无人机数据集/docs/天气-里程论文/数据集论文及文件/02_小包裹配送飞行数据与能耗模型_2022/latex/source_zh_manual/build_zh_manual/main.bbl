@@ -1,0 +1,2437 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Davis2021Transportation39}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=1db5debd55e16e9c563208ff6fa07978}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Stacy},
+           giveni={S\bibinitperiod}}}%
+        {{hash=774beac83ee8b84b31930c702fe62aae}{%
+           family={Boundy},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oak Ridge National Laboratory (ORNL)}%
+      }
+      \list{location}{1}{%
+        {Oak Ridge, TN (United States)}%
+      }
+      \strng{namehash}{7197e36b46cf8299fcebe07f24ace64e}
+      \strng{fullhash}{7197e36b46cf8299fcebe07f24ace64e}
+      \strng{fullhashraw}{7197e36b46cf8299fcebe07f24ace64e}
+      \strng{bibnamehash}{7197e36b46cf8299fcebe07f24ace64e}
+      \strng{authorbibnamehash}{7197e36b46cf8299fcebe07f24ace64e}
+      \strng{authornamehash}{7197e36b46cf8299fcebe07f24ace64e}
+      \strng{authorfullhash}{7197e36b46cf8299fcebe07f24ace64e}
+      \strng{authorfullhashraw}{7197e36b46cf8299fcebe07f24ace64e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{Transportation Energy Data Book: Edition 39}}
+      \field{type}{techreport}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.2172/1767864
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/servlets/purl/1767864/
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/servlets/purl/1767864/
+      \endverb
+    \endentry
+    \entry{Dost2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=94e3e8c57b6b195a70178c7d45fa7c84}{%
+           family={Dost},
+           familyi={D\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e4d45fa303ef54e028a025a397ecc1a1}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a06428e4ca3b69854b002105748ae913}
+      \strng{fullhash}{a06428e4ca3b69854b002105748ae913}
+      \strng{fullhashraw}{a06428e4ca3b69854b002105748ae913}
+      \strng{bibnamehash}{a06428e4ca3b69854b002105748ae913}
+      \strng{authorbibnamehash}{a06428e4ca3b69854b002105748ae913}
+      \strng{authornamehash}{a06428e4ca3b69854b002105748ae913}
+      \strng{authorfullhash}{a06428e4ca3b69854b002105748ae913}
+      \strng{authorfullhashraw}{a06428e4ca3b69854b002105748ae913}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15309290}
+      \field{journaltitle}{Journal of Industrial Ecology}
+      \field{title}{{E-commerce effects on energy consumption: A multi-year ecosystem-level assessment}}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1111/jiec.12639
+      \endverb
+      \keyw{Complexity,Dynamic systems,E-commerce,Ecosystem modelling,Energy consumption,Rebound effect}
+    \endentry
+    \entry{Mims2020}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9754d929ec37499632bf8357e1c8a237}{%
+           family={Mims},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9754d929ec37499632bf8357e1c8a237}
+      \strng{fullhash}{9754d929ec37499632bf8357e1c8a237}
+      \strng{fullhashraw}{9754d929ec37499632bf8357e1c8a237}
+      \strng{bibnamehash}{9754d929ec37499632bf8357e1c8a237}
+      \strng{authorbibnamehash}{9754d929ec37499632bf8357e1c8a237}
+      \strng{authornamehash}{9754d929ec37499632bf8357e1c8a237}
+      \strng{authorfullhash}{9754d929ec37499632bf8357e1c8a237}
+      \strng{authorfullhashraw}{9754d929ec37499632bf8357e1c8a237}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Wall Street Journal}
+      \field{title}{{The Scramble for Delivery Robots Is On and Startups Can Barely Keep Up}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.wsj.com/articles/the-scramble-for-delivery-robots-is-on-and-startups-can-barely-keep-up-11587787199
+      \endverb
+      \verb{url}
+      \verb https://www.wsj.com/articles/the-scramble-for-delivery-robots-is-on-and-startups-can-barely-keep-up-11587787199
+      \endverb
+    \endentry
+    \entry{Lee2020TheFuture}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5e09f01e01bbc5cd2bf2fdafbf3f6277}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Timothy\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \strng{fullhash}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \strng{fullhashraw}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \strng{bibnamehash}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \strng{authorbibnamehash}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \strng{authornamehash}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \strng{authorfullhash}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \strng{authorfullhashraw}{5e09f01e01bbc5cd2bf2fdafbf3f6277}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ARS Technica}
+      \field{month}{4}
+      \field{title}{{The pandemic is bringing us closer to our robot takeout future}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://arstechnica.com/tech-policy/2020/04/the-pandemic-is-bringing-us-closer-to-our-robot-takeout-future/
+      \endverb
+      \verb{url}
+      \verb https://arstechnica.com/tech-policy/2020/04/the-pandemic-is-bringing-us-closer-to-our-robot-takeout-future/
+      \endverb
+    \endentry
+    \entry{Pani2020EvaluatingPandemic}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=49c4043f3ed4bb20264262ee9377a7c9}{%
+           family={Pani},
+           familyi={P\bibinitperiod},
+           given={Agnivesh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=23f171ff4248ba6d271179e697d3ccdf}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Sabya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8a61754c84fc8ce12e7842d2563868fa}{%
+           family={Golias},
+           familyi={G\bibinitperiod},
+           given={Mihalis},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b6e4d7bbc5473cad81d23a9b9b3ad6c0}{%
+           family={Figliozzi},
+           familyi={F\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{a52dc7c347b8519642d5710d3e0b07bc}
+      \strng{fullhash}{b811093dbe80bde18394f9cfa903822a}
+      \strng{fullhashraw}{b811093dbe80bde18394f9cfa903822a}
+      \strng{bibnamehash}{a52dc7c347b8519642d5710d3e0b07bc}
+      \strng{authorbibnamehash}{a52dc7c347b8519642d5710d3e0b07bc}
+      \strng{authornamehash}{a52dc7c347b8519642d5710d3e0b07bc}
+      \strng{authorfullhash}{b811093dbe80bde18394f9cfa903822a}
+      \strng{authorfullhashraw}{b811093dbe80bde18394f9cfa903822a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{12}
+      \field{title}{{Evaluating public acceptance of autonomous delivery robots during COVID-19 pandemic}}
+      \field{volume}{89}
+      \field{year}{2020}
+      \field{pages}{102600}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trd.2020.102600
+      \endverb
+      \keyw{Attitude-based segmentation,COVID-19,Consumer acceptance,Latent class analysis,Low-carbon delivery,Willingness to pay}
+    \endentry
+    \entry{Kapser2020AcceptancePerceptions}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=98fc41217a8a270b39fc79a98e63d4a8}{%
+           family={Kapser},
+           familyi={K\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f8392c3bbe587b8465e3c0f6311d0cc1}{%
+           family={Abdelrahman},
+           familyi={A\bibinitperiod},
+           given={Mahmoud},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{d56bfb63b06d71f878bb84eecad26146}
+      \strng{fullhash}{d56bfb63b06d71f878bb84eecad26146}
+      \strng{fullhashraw}{d56bfb63b06d71f878bb84eecad26146}
+      \strng{bibnamehash}{d56bfb63b06d71f878bb84eecad26146}
+      \strng{authorbibnamehash}{d56bfb63b06d71f878bb84eecad26146}
+      \strng{authornamehash}{d56bfb63b06d71f878bb84eecad26146}
+      \strng{authorfullhash}{d56bfb63b06d71f878bb84eecad26146}
+      \strng{authorfullhashraw}{d56bfb63b06d71f878bb84eecad26146}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0968090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{month}{2}
+      \field{title}{{Acceptance of autonomous delivery vehicles for last-mile delivery in Germany – Extending UTAUT2 with risk perceptions}}
+      \field{volume}{111}
+      \field{year}{2020}
+      \field{pages}{210\bibrangedash 225}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.trc.2019.12.016
+      \endverb
+      \keyw{Germany,Home delivery,Last-mile transportation,Perceived risk,UTAUT2,User acceptance}
+    \endentry
+    \entry{Abrar2020AnSystem}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=62f46d8f8c43aef4f7e4add28ef42e2e}{%
+           family={Abrar},
+           familyi={A\bibinitperiod},
+           given={Murad\bibnamedelima Mehrab},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1d262977cb0a3798358913c714a90b88}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Raian},
+           giveni={R\bibinitperiod}}}%
+        {{hash=177af16ed48cf559094f831329829378}{%
+           family={Shanto},
+           familyi={S\bibinitperiod},
+           given={Md\bibnamedelima Abid\bibnamedelima Hasan},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers Inc.}%
+      }
+      \strng{namehash}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \strng{fullhash}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \strng{fullhashraw}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \strng{bibnamehash}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \strng{authorbibnamehash}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \strng{authornamehash}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \strng{authorfullhash}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \strng{authorfullhashraw}{39ada4bd647d1af6686fa7bf3b1ac932}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 11th IEEE Annual Ubiquitous Computing, Electronics and Mobile Communication Conference, UEMCON 2020}
+      \field{isbn}{9781728196565}
+      \field{month}{10}
+      \field{title}{{An Autonomous Delivery Robot to Prevent the Spread of Coronavirus in Product Delivery System}}
+      \field{year}{2020}
+      \field{pages}{0461\bibrangedash 0466}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/UEMCON51285.2020.9298108
+      \endverb
+      \keyw{Autonomous,Compass,Coronavirus,Delivery robot,GPS,Last mile,Password,Robot}
+    \endentry
+    \entry{Joerss2016HowMcKinsey}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=3e473b1fcd1ce7c6100a2049fe08b6ed}{%
+           family={Joerss},
+           familyi={J\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8622f3a66ec58c0a8cd10adb1fe83be1}{%
+           family={Neuhaus},
+           familyi={N\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0f4f597cf4d3540144ca27a16fbc8809}{%
+           family={Schröder},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{21b9761bca913fab7f6453769e53543d}
+      \strng{fullhash}{21b9761bca913fab7f6453769e53543d}
+      \strng{fullhashraw}{21b9761bca913fab7f6453769e53543d}
+      \strng{bibnamehash}{21b9761bca913fab7f6453769e53543d}
+      \strng{authorbibnamehash}{21b9761bca913fab7f6453769e53543d}
+      \strng{authornamehash}{21b9761bca913fab7f6453769e53543d}
+      \strng{authorfullhash}{21b9761bca913fab7f6453769e53543d}
+      \strng{authorfullhashraw}{21b9761bca913fab7f6453769e53543d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{How customer demands are reshaping last-mile delivery | McKinsey}}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.mckinsey.com/industries/travel-transport-and-logistics/our-insights/how-customer-demands-are-reshaping-last-mile-delivery
+      \endverb
+      \verb{url}
+      \verb https://www.mckinsey.com/industries/travel-transport-and-logistics/our-insights/how-customer-demands-are-reshaping-last-mile-delivery
+      \endverb
+    \endentry
+    \entry{Bensinger2016AmazonsFedEx}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=a99c4949f1b1590d84c67723565c7ea0}{%
+           family={Bensinger},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=48489e11950fc10959dbbb565b20e13a}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{53ff20fc77bd72bf16c95a14ed887da6}
+      \strng{fullhash}{53ff20fc77bd72bf16c95a14ed887da6}
+      \strng{fullhashraw}{53ff20fc77bd72bf16c95a14ed887da6}
+      \strng{bibnamehash}{53ff20fc77bd72bf16c95a14ed887da6}
+      \strng{authorbibnamehash}{53ff20fc77bd72bf16c95a14ed887da6}
+      \strng{authornamehash}{53ff20fc77bd72bf16c95a14ed887da6}
+      \strng{authorfullhash}{53ff20fc77bd72bf16c95a14ed887da6}
+      \strng{authorfullhashraw}{53ff20fc77bd72bf16c95a14ed887da6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Amazon’s Newest Ambition: Competing Directly With UPS and FedEx}}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.wsj.com/articles/amazons-newest-ambitioncompeting-directly-with-ups-and-fedex-1474994758
+      \endverb
+      \verb{url}
+      \verb https://www.wsj.com/articles/amazons-newest-ambitioncompeting-directly-with-ups-and-fedex-1474994758
+      \endverb
+    \endentry
+    \entry{Gross2013}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=976f52444b487d54b504fa0ddf352277}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{976f52444b487d54b504fa0ddf352277}
+      \strng{fullhash}{976f52444b487d54b504fa0ddf352277}
+      \strng{fullhashraw}{976f52444b487d54b504fa0ddf352277}
+      \strng{bibnamehash}{976f52444b487d54b504fa0ddf352277}
+      \strng{authorbibnamehash}{976f52444b487d54b504fa0ddf352277}
+      \strng{authornamehash}{976f52444b487d54b504fa0ddf352277}
+      \strng{authorfullhash}{976f52444b487d54b504fa0ddf352277}
+      \strng{authorfullhashraw}{976f52444b487d54b504fa0ddf352277}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Amazon's drone delivery: How would it work? - CNN}}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.cnn.com/2013/12/02/tech/innovation/amazon-drones-questions/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.cnn.com/2013/12/02/tech/innovation/amazon-drones-questions/index.html
+      \endverb
+    \endentry
+    \entry{Murphy2016}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=83c335c6a7c49f172067831167439945}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{83c335c6a7c49f172067831167439945}
+      \strng{fullhash}{83c335c6a7c49f172067831167439945}
+      \strng{fullhashraw}{83c335c6a7c49f172067831167439945}
+      \strng{bibnamehash}{83c335c6a7c49f172067831167439945}
+      \strng{authorbibnamehash}{83c335c6a7c49f172067831167439945}
+      \strng{authornamehash}{83c335c6a7c49f172067831167439945}
+      \strng{authorfullhash}{83c335c6a7c49f172067831167439945}
+      \strng{authorfullhashraw}{83c335c6a7c49f172067831167439945}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{This is how Google wants its drones to deliver stuff to you}}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://qz.com/670670/this-is-how-google-wants-its-drones-to-deliver-stuff-to-you/
+      \endverb
+      \verb{url}
+      \verb https://qz.com/670670/this-is-how-google-wants-its-drones-to-deliver-stuff-to-you/
+      \endverb
+    \endentry
+    \entry{UPS2017}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0e60ac85bc39f1e221d66a048ff164da}{%
+           family={{UPS}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{fullhash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{fullhashraw}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{bibnamehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authorbibnamehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authornamehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authorfullhash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authorfullhashraw}{0e60ac85bc39f1e221d66a048ff164da}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{UPS Tests Residential Delivery Via Drone Launched From atop Package Car}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=PressReleases&id=1487687844847-162
+      \endverb
+      \verb{url}
+      \verb https://pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=PressReleases&id=1487687844847-162
+      \endverb
+    \endentry
+    \entry{Sheth2019MeasuringAreas}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=21f4296aa8caf5b2054781bff1ca1a86}{%
+           family={Sheth},
+           familyi={S\bibinitperiod},
+           given={Manali},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d452adad686ab3691a126361419d2d2}{%
+           family={Butrina},
+           familyi={B\bibinitperiod},
+           given={Polina},
+           giveni={P\bibinitperiod}}}%
+        {{hash=78e073d12b1f9543cd85aee9e3ac3059}{%
+           family={Goodchild},
+           familyi={G\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f4f1c7746f0a89873e12cd71eef07b7}{%
+           family={McCormack},
+           familyi={M\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Verlag}%
+      }
+      \strng{namehash}{0f6366dee1eb0faeb9120a9f1e62eedf}
+      \strng{fullhash}{207e70b08874f3ab5928af8e6ae6a312}
+      \strng{fullhashraw}{207e70b08874f3ab5928af8e6ae6a312}
+      \strng{bibnamehash}{0f6366dee1eb0faeb9120a9f1e62eedf}
+      \strng{authorbibnamehash}{0f6366dee1eb0faeb9120a9f1e62eedf}
+      \strng{authornamehash}{0f6366dee1eb0faeb9120a9f1e62eedf}
+      \strng{authorfullhash}{207e70b08874f3ab5928af8e6ae6a312}
+      \strng{authorfullhashraw}{207e70b08874f3ab5928af8e6ae6a312}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{18668887}
+      \field{journaltitle}{European Transport Research Review}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{{Measuring delivery route cost trade-offs between electric-assist cargo bicycles and delivery trucks in dense urban areas}}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1186/s12544-019-0349-5
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/articles/10.1186/s12544-019-0349-5 https://link.springer.com/article/10.1186/s12544-019-0349-5
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/articles/10.1186/s12544-019-0349-5%20https://link.springer.com/article/10.1186/s12544-019-0349-5
+      \endverb
+      \keyw{Cargo bicycles,Cargo bike,Delivery modes,E-trike,Electric assist cargo bicycle,Electric tricycle,Green transportation,Parcel deliveries,Transportation,Urban deliveries,Urban logistics}
+    \endentry
+    \entry{McLeod2020QuantifyingDelivery}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=9c990c500206a837e2002d0061e72ba6}{%
+           family={McLeod},
+           familyi={M\bibinitperiod},
+           given={F.\bibnamedelimi N.},
+           giveni={F\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=da8eb54bed08c8ab2627daa94245c29c}{%
+           family={Cherrett},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2adad662e9599e0358abc92f7352c7ca}{%
+           family={Bektas},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9fec006d1662e01ab1e9b50d96c92c0b}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0cb8a6a94c9187896e92566d2b7083db}{%
+           family={Martinez-Sykora},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49a9d8e2f17c5e003bf42708e66faafa}{%
+           family={Lamas-Fernandez},
+           familyi={L\bibinithyphendelim F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0c7feb3f29e5841cd355a20a98560d18}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=359bb5d3a6c93a800df5e4a1ceaeabc5}{%
+           family={Cheliotis},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1cd55fa560e0cfaaead3abe5334ad16f}{%
+           family={Friday},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cb426af23013a0b29b6ab8895758e2e1}{%
+           family={Piecyk},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a498e54e5c4d0298c6745a439c9836f2}{%
+           family={Wise},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{7962707fb643421b222fd7d085bb2ab2}
+      \strng{fullhash}{a81baf06a1c3133653b1b20268a85d0a}
+      \strng{fullhashraw}{a81baf06a1c3133653b1b20268a85d0a}
+      \strng{bibnamehash}{7962707fb643421b222fd7d085bb2ab2}
+      \strng{authorbibnamehash}{7962707fb643421b222fd7d085bb2ab2}
+      \strng{authornamehash}{7962707fb643421b222fd7d085bb2ab2}
+      \strng{authorfullhash}{a81baf06a1c3133653b1b20268a85d0a}
+      \strng{authorfullhashraw}{a81baf06a1c3133653b1b20268a85d0a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{5}
+      \field{title}{{Quantifying environmental and financial benefits of using porters and cycle couriers for last-mile parcel delivery}}
+      \field{volume}{82}
+      \field{year}{2020}
+      \field{pages}{102311}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trd.2020.102311
+      \endverb
+      \keyw{Last-mile logistics,Parcel delivery,Sustainable transport}
+    \endentry
+    \entry{Gebeloff2017}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=b794c8b20e2e7cdf9d926b5465ad83fd}{%
+           family={Gebeloff},
+           familyi={G\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=89541e75048facdc1b6e3b3c024e4533}{%
+           family={Russel},
+           familyi={R\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \strng{fullhash}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \strng{fullhashraw}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \strng{bibnamehash}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \strng{authorbibnamehash}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \strng{authornamehash}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \strng{authorfullhash}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \strng{authorfullhashraw}{c3cea1ec0eb618167c5fef0ec2c69321}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{How the Growth of E-Commerce Is Shifting Retail Jobs}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/interactive/2017/07/06/business/ecommerce-retail-jobs.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/interactive/2017/07/06/business/ecommerce-retail-jobs.html
+      \endverb
+    \endentry
+    \entry{Dominkovic2018TheTransition}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=6d2526777c5846257c7537a20d30c828}{%
+           family={Dominković},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=6dcb4aa0669d5e998cf925636c26b351}{%
+           family={Bačeković},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=56aa23cb6d28830f1d083e88c415923a}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d0c20115958c4ee406dce5149ac36a1b}{%
+           family={Krajačić},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{e86359cdc245160128207e3c43c871d2}
+      \strng{fullhash}{e39587e73b5a58492da417941cddaac5}
+      \strng{fullhashraw}{e39587e73b5a58492da417941cddaac5}
+      \strng{bibnamehash}{e86359cdc245160128207e3c43c871d2}
+      \strng{authorbibnamehash}{e86359cdc245160128207e3c43c871d2}
+      \strng{authornamehash}{e86359cdc245160128207e3c43c871d2}
+      \strng{authorfullhash}{e39587e73b5a58492da417941cddaac5}
+      \strng{authorfullhashraw}{e39587e73b5a58492da417941cddaac5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Renewable and Sustainable Energy Reviews}
+      \field{issn}{18790690}
+      \field{month}{2}
+      \field{title}{{The future of transportation in sustainable energy systems: Opportunities and barriers in a clean energy transition}}
+      \field{volume}{82}
+      \field{year}{2018}
+      \field{pages}{1823\bibrangedash 1838}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.rser.2017.06.117
+      \endverb
+      \keyw{Biofuels,hydrogen,Electric vehicles,Electrofuels,Renewable transport,Synthetic fuels}
+    \endentry
+    \entry{Zhang2021EnergyAssessment}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=4677bcd6915e5e9391edb1e91e1ca641}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8ca2505bc0b6b50661ca176ccdf22369}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fc0e95fb066228ee050417f3c710275c}{%
+           family={Sweeney},
+           familyi={S\bibinitperiod},
+           given={Donald\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b8a91f6dd5a9cb31060f442612c7585b}{%
+           family={Hupman},
+           familyi={H\bibinitperiod},
+           given={Andrea\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{96c43c6acbf94f739385b0770aa73093}
+      \strng{fullhash}{3a6b126e2defe01977d4749540d09f5e}
+      \strng{fullhashraw}{3a6b126e2defe01977d4749540d09f5e}
+      \strng{bibnamehash}{96c43c6acbf94f739385b0770aa73093}
+      \strng{authorbibnamehash}{96c43c6acbf94f739385b0770aa73093}
+      \strng{authornamehash}{96c43c6acbf94f739385b0770aa73093}
+      \strng{authorfullhash}{3a6b126e2defe01977d4749540d09f5e}
+      \strng{authorfullhashraw}{3a6b126e2defe01977d4749540d09f5e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{1}
+      \field{title}{{Energy consumption models for delivery drones: A comparison and assessment}}
+      \field{volume}{90}
+      \field{year}{2021}
+      \field{pages}{102668}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trd.2020.102668
+      \endverb
+      \keyw{Drone,Drone energy models,Energy consumption,Parcel delivery,UAV,Unmanned aerial vehicle}
+    \endentry
+    \entry{DAndrea2014GuestDeliver}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ed6aac3f87d9f74d066c55f4124be7f4}{%
+           family={D'Andrea},
+           familyi={D\bibinitperiod},
+           given={Raffaello},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers Inc.}%
+      }
+      \strng{namehash}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \strng{fullhash}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \strng{fullhashraw}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \strng{bibnamehash}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \strng{authorbibnamehash}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \strng{authornamehash}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \strng{authorfullhash}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \strng{authorfullhashraw}{ed6aac3f87d9f74d066c55f4124be7f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15455955}
+      \field{journaltitle}{IEEE Transactions on Automation Science and Engineering}
+      \field{number}{3}
+      \field{title}{{Guest editorial can drones deliver?}}
+      \field{volume}{11}
+      \field{year}{2014}
+      \field{pages}{647\bibrangedash 648}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/TASE.2014.2326952
+      \endverb
+    \endentry
+    \entry{Figliozzi2017LifecycleEmissions}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=dff3ba7534129ce4c102a7d1923c3f15}{%
+           family={Figliozzi},
+           familyi={F\bibinitperiod},
+           given={Miguel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{fullhash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{fullhashraw}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{bibnamehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authorbibnamehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authornamehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authorfullhash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authorfullhashraw}{dff3ba7534129ce4c102a7d1923c3f15}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{12}
+      \field{title}{{Lifecycle modeling and assessment of unmanned aerial vehicles (Drones) CO2e emissions}}
+      \field{volume}{57}
+      \field{year}{2017}
+      \field{pages}{251\bibrangedash 261}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.trd.2017.09.011
+      \endverb
+      \keyw{Electric vehicles,Energy efficiency,Lifecycle emissions,Logistics last mile,Tricycles,UAV drone}
+    \endentry
+    \entry{Dorling2016VehicleDelivery}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f24afed654a5e4e2593ec3f8ac427c08}{%
+           family={Dorling},
+           familyi={D\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=775e3d80b8b7def8a211092a5d2ea1b7}{%
+           family={Heinrichs},
+           familyi={H\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e46f9ef2ff23f18cea2589e2db12cf96}{%
+           family={Messier},
+           familyi={M\bibinitperiod},
+           given={Geoffrey\bibnamedelima G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a09838f8aa91401650f4196973b71a6f}{%
+           family={Magierowski},
+           familyi={M\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers Inc.}%
+      }
+      \strng{namehash}{c490efabf640841010bb3e3897291b1b}
+      \strng{fullhash}{64475d8a94bb9d93e0e392432bd88cf5}
+      \strng{fullhashraw}{64475d8a94bb9d93e0e392432bd88cf5}
+      \strng{bibnamehash}{c490efabf640841010bb3e3897291b1b}
+      \strng{authorbibnamehash}{c490efabf640841010bb3e3897291b1b}
+      \strng{authornamehash}{c490efabf640841010bb3e3897291b1b}
+      \strng{authorfullhash}{64475d8a94bb9d93e0e392432bd88cf5}
+      \strng{authorfullhashraw}{64475d8a94bb9d93e0e392432bd88cf5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10834427}
+      \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics: Systems}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Vehicle Routing Problems for Drone Delivery}}
+      \field{volume}{47}
+      \field{year}{2016}
+      \field{pages}{70\bibrangedash 85}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TSMC.2016.2582745
+      \endverb
+      \keyw{Delivery,drone,heuristic,mixed integer program (MIP),simulated annealing (SA),traveling salesman problem (TSP),unmanned aerial vehicle (UAV),vehicle routing problem (VRP)}
+    \endentry
+    \entry{Liu2017}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=79f2f07484b7ac042af3f033bdac1dae}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhilong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a9619fab66f4fcbc9d8c994fb5e7eb72}{%
+           family={Sengupta},
+           familyi={S\bibinitperiod},
+           given={Raja},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bfe3ce0145148d0ed39747c9fa560819}{%
+           family={Kurzhanskiy},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \strng{fullhash}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \strng{fullhashraw}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \strng{bibnamehash}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \strng{authorbibnamehash}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \strng{authornamehash}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \strng{authorfullhash}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \strng{authorfullhashraw}{d60efa5578fa3dc8fc4610bd22f827b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 International Conference on Unmanned Aircraft Systems (ICUAS)}
+      \field{isbn}{978-1-5090-4495-5}
+      \field{month}{6}
+      \field{title}{{A power consumption model for multi-rotor small unmanned aircraft systems}}
+      \field{year}{2017}
+      \field{pages}{310\bibrangedash 315}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICUAS.2017.7991310
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/7991310/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/7991310/
+      \endverb
+    \endentry
+    \entry{Lohn2018TheBuzz}{report}{}{}
+      \name{author}{6}{}{%
+        {{hash=1c950d245158cfb76018f21cb937cbfd}{%
+           family={Lohn},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=180eada02828f7d4d38004059c1c5cf6}{%
+           family={Gulden},
+           familyi={G\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=12fa2ebe9c237a73cca137863d40508f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ef1334245ccb33a4a5044c5ad49a23f}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Therese},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6a9fc15b7d10e2248d68866984d4c68c}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9584b7029c97fec8dd2407a650510dd1}{%
+           family={Welser},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima IV},
+           giveni={W\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{76bc60507de08ef55f2d995ddde29b08}
+      \strng{fullhash}{53a94b8b80ab4c60583078bc5088f1c0}
+      \strng{fullhashraw}{53a94b8b80ab4c60583078bc5088f1c0}
+      \strng{bibnamehash}{76bc60507de08ef55f2d995ddde29b08}
+      \strng{authorbibnamehash}{76bc60507de08ef55f2d995ddde29b08}
+      \strng{authornamehash}{76bc60507de08ef55f2d995ddde29b08}
+      \strng{authorfullhash}{53a94b8b80ab4c60583078bc5088f1c0}
+      \strng{authorfullhashraw}{53a94b8b80ab4c60583078bc5088f1c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The Drones Are Here What's the Buzz?}}
+      \field{type}{techreport}
+      \field{year}{2018}
+    \endentry
+    \entry{Stolaroff2018EnergyDelivery}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=27dc90b4139eb9c6b35fb6f82a0e6656}{%
+           family={Stolaroff},
+           familyi={S\bibinitperiod},
+           given={Joshuah\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=272378f05846b8e9ad99be8b66348df8}{%
+           family={Samaras},
+           familyi={S\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1898f27080738bf301e5e025f23c3e5b}{%
+           family={O'Neill},
+           familyi={O\bibinitperiod},
+           given={Emma\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a819d6d557ee884d800290a66d998618}{%
+           family={Lubers},
+           familyi={L\bibinitperiod},
+           given={Alia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a7df1d2da0b17dae2e907c44d4e3816f}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Alexandra\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d781e6087721767fd6cf4f56c7ed2e73}{%
+           family={Ceperley},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f23859f768e5f53d591d30168b7d3d6e}
+      \strng{fullhash}{99b7138667418ea37fd8fdec182f4665}
+      \strng{fullhashraw}{99b7138667418ea37fd8fdec182f4665}
+      \strng{bibnamehash}{f23859f768e5f53d591d30168b7d3d6e}
+      \strng{authorbibnamehash}{f23859f768e5f53d591d30168b7d3d6e}
+      \strng{authornamehash}{f23859f768e5f53d591d30168b7d3d6e}
+      \strng{authorfullhash}{99b7138667418ea37fd8fdec182f4665}
+      \strng{authorfullhashraw}{99b7138667418ea37fd8fdec182f4665}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{20411723}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{{Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery}}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1038/s41467-017-02411-5
+      \endverb
+    \endentry
+    \entry{Jeong2019Truck-droneZones}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3de5eef991bf2d68cc4e140a516b490c}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Ho\bibnamedelima Young},
+           giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=78dbe5da756a2a62f54c7c9302089424}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Byung\bibnamedelima Duk},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f85fa96c4c76521735d0a8a1894b927b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seokcheon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{d8e3f01cfe44706201d9bb13b1990108}
+      \strng{fullhash}{d8e3f01cfe44706201d9bb13b1990108}
+      \strng{fullhashraw}{d8e3f01cfe44706201d9bb13b1990108}
+      \strng{bibnamehash}{d8e3f01cfe44706201d9bb13b1990108}
+      \strng{authorbibnamehash}{d8e3f01cfe44706201d9bb13b1990108}
+      \strng{authornamehash}{d8e3f01cfe44706201d9bb13b1990108}
+      \strng{authorfullhash}{d8e3f01cfe44706201d9bb13b1990108}
+      \strng{authorfullhashraw}{d8e3f01cfe44706201d9bb13b1990108}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09255273}
+      \field{journaltitle}{International Journal of Production Economics}
+      \field{month}{8}
+      \field{title}{{Truck-drone hybrid delivery routing: Payload-energy dependency and No-Fly zones}}
+      \field{volume}{214}
+      \field{year}{2019}
+      \field{pages}{220\bibrangedash 233}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.ijpe.2019.01.010
+      \endverb
+      \keyw{Drone,Flying sidekick,Heuristic algorithm,Mixed integer programming,Routing,Traveling salesman}
+    \endentry
+    \entry{Torabbeigi2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c7309304d65a4a29de728b0a9485621f}{%
+           family={Torabbeigi},
+           familyi={T\bibinitperiod},
+           given={Maryam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f87368e75c78d0fdddd5b70366a545b}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Gino\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2a28c8d002e1319c5eb2392961d9e5e8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seon\bibnamedelima Jin},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \strng{fullhash}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \strng{fullhashraw}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \strng{bibnamehash}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \strng{authorbibnamehash}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \strng{authornamehash}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \strng{authorfullhash}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \strng{authorfullhashraw}{4ae9e8dcad6906c1797b86df7374fe8e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15730409}
+      \field{journaltitle}{Journal of Intelligent and Robotic Systems: Theory and Applications}
+      \field{month}{3}
+      \field{number}{3-4}
+      \field{title}{{Drone Delivery Scheduling Optimization Considering Payload-induced Battery Consumption Rates}}
+      \field{volume}{97}
+      \field{year}{2019}
+      \field{pages}{471\bibrangedash 487}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s10846-019-01034-w
+      \endverb
+      \keyw{Battery consumption rate,Delivery network,Drone scheduling,Path planning,Payload amount}
+    \endentry
+    \entry{Kirschstein2020ComparisonServices}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c496ca764b639ca2e40357ffbf50a04a}{%
+           family={Kirschstein},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{c496ca764b639ca2e40357ffbf50a04a}
+      \strng{fullhash}{c496ca764b639ca2e40357ffbf50a04a}
+      \strng{fullhashraw}{c496ca764b639ca2e40357ffbf50a04a}
+      \strng{bibnamehash}{c496ca764b639ca2e40357ffbf50a04a}
+      \strng{authorbibnamehash}{c496ca764b639ca2e40357ffbf50a04a}
+      \strng{authornamehash}{c496ca764b639ca2e40357ffbf50a04a}
+      \strng{authorfullhash}{c496ca764b639ca2e40357ffbf50a04a}
+      \strng{authorfullhashraw}{c496ca764b639ca2e40357ffbf50a04a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{1}
+      \field{title}{{Comparison of energy demands of drone-based and ground-based parcel delivery services}}
+      \field{volume}{78}
+      \field{year}{2020}
+      \field{pages}{102209}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trd.2019.102209
+      \endverb
+      \keyw{Drones,Electric trucks,Energy consumption,GHG emissions,Parcel delivery}
+    \endentry
+    \entry{Tseng2017AutonomousDrones}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=b23a548cd0cdca194e7b5761623cda5b}{%
+           family={Tseng},
+           familyi={T\bibinitperiod},
+           given={Chien-Ming},
+           giveni={C\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=14cfc85242793036eb41fe4debac04af}{%
+           family={Chau},
+           familyi={C\bibinitperiod},
+           given={Chi-Kin},
+           giveni={C\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=e09f38e6e18951b0e05c36eb02c150c3}{%
+           family={Elbassioni},
+           familyi={E\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod}}}%
+        {{hash=16247fa6677d64d314c53e50cb9e8fa6}{%
+           family={Khonji},
+           familyi={K\bibinitperiod},
+           given={Majid},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{fullhash}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \strng{fullhashraw}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \strng{bibnamehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{authorbibnamehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{authornamehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{authorfullhash}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \strng{authorfullhashraw}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{Autonomous Recharging and Flight Mission Planning for Battery-operated Autonomous Drones}}
+      \field{volume}{25}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1703.10049
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1703.10049
+      \endverb
+      \keyw{Additional Key Words and Phrases: Autonomous Drones,Flight Mission Planning,Recharging Optimization,Automated Drone Management ACM Reference format:,CCS Concepts: •Computer systems organization →Embedded and cyber-physical systems,•Computing methodologies →Robotic planning,•eory of computation →Dynamic graph algorithms}
+    \endentry
+    \entry{Tseng2017FlightDrones}{report}{}{}
+      \name{author}{4}{}{%
+        {{hash=b23a548cd0cdca194e7b5761623cda5b}{%
+           family={Tseng},
+           familyi={T\bibinitperiod},
+           given={Chien-Ming},
+           giveni={C\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=14cfc85242793036eb41fe4debac04af}{%
+           family={Chau},
+           familyi={C\bibinitperiod},
+           given={Chi-Kin},
+           giveni={C\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=e09f38e6e18951b0e05c36eb02c150c3}{%
+           family={Elbassioni},
+           familyi={E\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod}}}%
+        {{hash=16247fa6677d64d314c53e50cb9e8fa6}{%
+           family={Khonji},
+           familyi={K\bibinitperiod},
+           given={Majid},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{fullhash}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \strng{fullhashraw}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \strng{bibnamehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{authorbibnamehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{authornamehash}{55aca4dae94e4d86ba0bad7103d3d60f}
+      \strng{authorfullhash}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \strng{authorfullhashraw}{7783fd04e9a7d1e7e510ff651e072bb6}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Flight Tour Planning with Recharging Optimization for Battery-operated Autonomous Drones}}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \keyw{Electric Vehicles,Flight Tour Planning,Index Terms-Drones,Intelligent Drone Management System,Recharging Optimization}
+    \endentry
+    \entry{Figliozzi2020CarbonVehicles}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=dff3ba7534129ce4c102a7d1923c3f15}{%
+           family={Figliozzi},
+           familyi={F\bibinitperiod},
+           given={Miguel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{fullhash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{fullhashraw}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{bibnamehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authorbibnamehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authornamehash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authorfullhash}{dff3ba7534129ce4c102a7d1923c3f15}
+      \strng{authorfullhashraw}{dff3ba7534129ce4c102a7d1923c3f15}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{8}
+      \field{title}{{Carbon emissions reductions in last mile and grocery deliveries utilizing air and ground autonomous vehicles}}
+      \field{volume}{85}
+      \field{year}{2020}
+      \field{pages}{102443}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trd.2020.102443
+      \endverb
+      \keyw{Air drone,Autonomous vehicles,Carbon emissions,Delivery industry,Energy,Grocery shopping,Ground robot,Travel distance}
+    \endentry
+    \entry{Goodchild2018DeliveryIndustry}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=78e073d12b1f9543cd85aee9e3ac3059}{%
+           family={Goodchild},
+           familyi={G\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=380633ff9d4503123306a1d91b968ce2}{%
+           family={Toy},
+           familyi={T\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{197ea743a113fdef9e1b6db8c158d60c}
+      \strng{fullhash}{197ea743a113fdef9e1b6db8c158d60c}
+      \strng{fullhashraw}{197ea743a113fdef9e1b6db8c158d60c}
+      \strng{bibnamehash}{197ea743a113fdef9e1b6db8c158d60c}
+      \strng{authorbibnamehash}{197ea743a113fdef9e1b6db8c158d60c}
+      \strng{authornamehash}{197ea743a113fdef9e1b6db8c158d60c}
+      \strng{authorfullhash}{197ea743a113fdef9e1b6db8c158d60c}
+      \strng{authorfullhashraw}{197ea743a113fdef9e1b6db8c158d60c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{6}
+      \field{title}{{Delivery by drone: An evaluation of unmanned aerial vehicle technology in reducing CO2 emissions in the delivery service industry}}
+      \field{volume}{61}
+      \field{year}{2018}
+      \field{pages}{58\bibrangedash 67}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.trd.2017.02.017
+      \endverb
+      \keyw{CO2,Drone,Emissions,Freight transportation,UAV,VMT}
+    \endentry
+    \entry{Borlaug2021Heavy-dutySystems}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=8b91757de2bc7c2e904b76694c2dc7ec}{%
+           family={Borlaug},
+           familyi={B\bibinitperiod},
+           given={Brennan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e347f85cc42288ac39c057dffa54b622}{%
+           family={Muratori},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1a8d3ef411e99d1e6a073554a35270bc}{%
+           family={Gilleran},
+           familyi={G\bibinitperiod},
+           given={Madeline},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2a2fb39c520bb24a524f59b082054747}{%
+           family={Woody},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ba02f8e793c49d8a560731d55479d1ee}{%
+           family={Muston},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8b6be25e43415a6d23ba61e3b0c10755}{%
+           family={Canada},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9d3a5b5648dedf4b3c9a0f1313768bb8}{%
+           family={Ingram},
+           familyi={I\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=abcc632d6362b6d02200f0fb12b4e0d1}{%
+           family={Gresham},
+           familyi={G\bibinitperiod},
+           given={Hal},
+           giveni={H\bibinitperiod}}}%
+        {{hash=da4da16bd10f9682c1953a3f38408239}{%
+           family={McQueen},
+           familyi={M\bibinitperiod},
+           given={Charlie},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{2c148fb705a56647722a651377cee53a}
+      \strng{fullhash}{a7891eaad0188975d9d28e473595deeb}
+      \strng{fullhashraw}{a7891eaad0188975d9d28e473595deeb}
+      \strng{bibnamehash}{2c148fb705a56647722a651377cee53a}
+      \strng{authorbibnamehash}{2c148fb705a56647722a651377cee53a}
+      \strng{authornamehash}{2c148fb705a56647722a651377cee53a}
+      \strng{authorfullhash}{a7891eaad0188975d9d28e473595deeb}
+      \strng{authorfullhashraw}{a7891eaad0188975d9d28e473595deeb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2058-7546}
+      \field{journaltitle}{Nature Energy}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{{Heavy-duty truck electrification and the impacts of depot charging on electricity distribution systems}}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{673\bibrangedash 682}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41560-021-00855-0
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41560-021-00855-0
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41560-021-00855-0
+      \endverb
+      \keyw{Energy grids and networks,Energy modelling,Operational research}
+    \endentry
+    \entry{Rodrigues2020a}{misc}{}{}
+      \name{author}{11}{}{%
+        {{hash=ac0526ff8e696cc063834e5727955f05}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Thiago\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e6ad158fd67ca0a52cce3a5f28a34851}{%
+           family={Patrikar},
+           familyi={P\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4f2e6783e95088440d76a386b86055e0}{%
+           family={Choudhry},
+           familyi={C\bibinitperiod},
+           given={Arnav},
+           giveni={A\bibinitperiod}}}%
+        {{hash=733e4126376ab6bee5a9ed5a56fc5394}{%
+           family={Feldgoise},
+           familyi={F\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=486c09d32de4de4f440e444388d08d75}{%
+           family={Arcot},
+           familyi={A\bibinitperiod},
+           given={Vaibhav},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a88b99f00e500a5d0db5f06836a94d27}{%
+           family={Gahlaut},
+           familyi={G\bibinitperiod},
+           given={Aradhana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=94b3f0dd62b2189f035b72e933d55a42}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Sophia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c542230142b5dc2e04d4773a60b4f98e}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={Brady},
+           giveni={B\bibinitperiod}}}%
+        {{hash=28e682b4bfbaf7de34d5076e74a692e9}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Bastian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6be95dcddcfd8bc01f9e31dd2063e8ba}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={H\bibnamedelima Scott},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Carnegie Mellon University}%
+      }
+      \strng{namehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{fullhash}{be402aa19d87fb858a44a958b35adaf7}
+      \strng{fullhashraw}{be402aa19d87fb858a44a958b35adaf7}
+      \strng{bibnamehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{authorbibnamehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{authornamehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{authorfullhash}{be402aa19d87fb858a44a958b35adaf7}
+      \strng{authorfullhashraw}{be402aa19d87fb858a44a958b35adaf7}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{title}{Data Collected with Package Delivery Quadcopter Drone. \textit{figshare}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb https://doi.org/10.1184/R1/12683453
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1184/R1/12683453
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1184/R1/12683453
+      \endverb
+    \endentry
+    \entry{Rodrigues2021In-flightDelivery}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=ac0526ff8e696cc063834e5727955f05}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Thiago\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e6ad158fd67ca0a52cce3a5f28a34851}{%
+           family={Patrikar},
+           familyi={P\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4f2e6783e95088440d76a386b86055e0}{%
+           family={Choudhry},
+           familyi={C\bibinitperiod},
+           given={Arnav},
+           giveni={A\bibinitperiod}}}%
+        {{hash=733e4126376ab6bee5a9ed5a56fc5394}{%
+           family={Feldgoise},
+           familyi={F\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=486c09d32de4de4f440e444388d08d75}{%
+           family={Arcot},
+           familyi={A\bibinitperiod},
+           given={Vaibhav},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a88b99f00e500a5d0db5f06836a94d27}{%
+           family={Gahlaut},
+           familyi={G\bibinitperiod},
+           given={Aradhana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=94b3f0dd62b2189f035b72e933d55a42}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Sophia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c542230142b5dc2e04d4773a60b4f98e}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={Brady},
+           giveni={B\bibinitperiod}}}%
+        {{hash=28e682b4bfbaf7de34d5076e74a692e9}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Bastian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6be95dcddcfd8bc01f9e31dd2063e8ba}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi Scott},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ad26bf16eeaee427e8e36bea35587822}{%
+           family={Scherer},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=272378f05846b8e9ad99be8b66348df8}{%
+           family={Samaras},
+           familyi={S\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{fullhash}{824af3cb4b280dac130b0924468d5486}
+      \strng{fullhashraw}{824af3cb4b280dac130b0924468d5486}
+      \strng{bibnamehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{authorbibnamehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{authornamehash}{a9f2e4ab1780f0136b8cec846b2314d0}
+      \strng{authorfullhash}{824af3cb4b280dac130b0924468d5486}
+      \strng{authorfullhashraw}{824af3cb4b280dac130b0924468d5486}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{{In-flight positional and energy use data set of a DJI Matrice 100 quadcopter for small package delivery}}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41597-021-00930-x
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41597-021-00930-x
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41597-021-00930-x
+      \endverb
+      \keyw{Aerospace engineering,Energy modelling,Energy science and technology}
+    \endentry
+    \entry{DJI}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=153d951385c5fdca0deb46430d4c73e2}{%
+           family={{DJI}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{153d951385c5fdca0deb46430d4c73e2}
+      \strng{fullhash}{153d951385c5fdca0deb46430d4c73e2}
+      \strng{fullhashraw}{153d951385c5fdca0deb46430d4c73e2}
+      \strng{bibnamehash}{153d951385c5fdca0deb46430d4c73e2}
+      \strng{authorbibnamehash}{153d951385c5fdca0deb46430d4c73e2}
+      \strng{authornamehash}{153d951385c5fdca0deb46430d4c73e2}
+      \strng{authorfullhash}{153d951385c5fdca0deb46430d4c73e2}
+      \strng{authorfullhashraw}{153d951385c5fdca0deb46430d4c73e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{DJI info}
+      \field{howpublished}{Available at \url{https://www.dji.com/matrice100/info}}
+      \field{title}{{MATRICE 100 SPECS}}
+      \verb{urlraw}
+      \verb https://www.dji.com/matrice100/info
+      \endverb
+      \verb{url}
+      \verb https://www.dji.com/matrice100/info
+      \endverb
+    \endentry
+    \entry{Guglielmo2013TurnsPounds}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3846b9dcbabe2c49fbeda0e9f798a71c}{%
+           family={Guglielmo},
+           familyi={G\bibinitperiod},
+           given={Connie},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \strng{fullhash}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \strng{fullhashraw}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \strng{bibnamehash}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \strng{authorbibnamehash}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \strng{authornamehash}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \strng{authorfullhash}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \strng{authorfullhashraw}{3846b9dcbabe2c49fbeda0e9f798a71c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Forbes}
+      \field{month}{12}
+      \field{title}{{Turns Out Amazon, Touting Drone Delivery, Does Sell Lots of Products That Weigh Less Than 5 Pounds}}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.forbes.com/sites/connieguglielmo/2013/12/02/turns-out-amazon-touting-drone-delivery-does-sell-lots-of-products-that-weigh-less-than-5-pounds/#5b9bdaa6455e
+      \endverb
+      \verb{url}
+      \verb https://www.forbes.com/sites/connieguglielmo/2013/12/02/turns-out-amazon-touting-drone-delivery-does-sell-lots-of-products-that-weigh-less-than-5-pounds/#5b9bdaa6455e
+      \endverb
+    \endentry
+    \entry{Elsayed2020TheOperation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=200b0e1dcc20366fbeccec6b5b9ef71b}{%
+           family={Elsayed},
+           familyi={E\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46bcfbc7abdda23ab102eae3d3c44860}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Moataz},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{b450c821d60fd0cd2c528ce3e533096f}
+      \strng{fullhash}{b450c821d60fd0cd2c528ce3e533096f}
+      \strng{fullhashraw}{b450c821d60fd0cd2c528ce3e533096f}
+      \strng{bibnamehash}{b450c821d60fd0cd2c528ce3e533096f}
+      \strng{authorbibnamehash}{b450c821d60fd0cd2c528ce3e533096f}
+      \strng{authornamehash}{b450c821d60fd0cd2c528ce3e533096f}
+      \strng{authorfullhash}{b450c821d60fd0cd2c528ce3e533096f}
+      \strng{authorfullhashraw}{b450c821d60fd0cd2c528ce3e533096f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{10}
+      \field{title}{{The impact of airspace regulations on unmanned aerial vehicles in last-mile operation}}
+      \field{volume}{87}
+      \field{year}{2020}
+      \field{pages}{102480}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trd.2020.102480
+      \endverb
+      \keyw{Autonomous drones,GHG emissions,Last-Mile delivery,UAV policy,Unmanned Aerial Vehicles (UAV)}
+    \endentry
+    \entry{SrivatsaSrinivas2021MovingBeyond}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d5954d892cc20fb5a11d9e73e9036654}{%
+           family={Srivatsa\bibnamedelima Srinivas},
+           familyi={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50a18eaf996fdbf929e81fd234bc9d86}{%
+           family={Marathe},
+           familyi={M\bibinitperiod},
+           given={Rahul\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \strng{fullhash}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \strng{fullhashraw}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \strng{bibnamehash}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \strng{authorbibnamehash}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \strng{authornamehash}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \strng{authorfullhash}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \strng{authorfullhashraw}{866b9c18e38eb57d21e2d97bb9b5b6c2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{25901982}
+      \field{journaltitle}{Transportation Research Interdisciplinary Perspectives}
+      \field{month}{3}
+      \field{title}{{Moving towards “mobile warehouse”: Last-mile logistics during COVID-19 and beyond}}
+      \field{year}{2021}
+      \field{pages}{100339}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trip.2021.100339
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2590198221000464
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2590198221000464
+      \endverb
+    \endentry
+    \entry{UPS20192019Index}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=0e60ac85bc39f1e221d66a048ff164da}{%
+           family={{UPS}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlanta}%
+      }
+      \strng{namehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{fullhash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{fullhashraw}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{bibnamehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authorbibnamehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authornamehash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authorfullhash}{0e60ac85bc39f1e221d66a048ff164da}
+      \strng{authorfullhashraw}{0e60ac85bc39f1e221d66a048ff164da}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{2019 GRI Content Index}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://about.ups.com/content/dam/upsstories/assets/reporting/2019-UPS-Corporate-Global-Reporting-Initiative-GRI-Content-Index.pdf
+      \endverb
+      \verb{url}
+      \verb https://about.ups.com/content/dam/upsstories/assets/reporting/2019-UPS-Corporate-Global-Reporting-Initiative-GRI-Content-Index.pdf
+      \endverb
+    \endentry
+    \entry{Isik2021TransportationRates}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e3f8f8e1bfbfcf65ea6512fc8514c9d3}{%
+           family={Isik},
+           familyi={I\bibinitperiod},
+           given={Mine},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e2cc771e0d1d2e8f252f8890a6a9d95}{%
+           family={Dodder},
+           familyi={D\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a8dae34977117f74b51ebeab6cce1bc1}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi Ozge},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{0875790c2970fac40668031c87edb778}
+      \strng{fullhash}{0875790c2970fac40668031c87edb778}
+      \strng{fullhashraw}{0875790c2970fac40668031c87edb778}
+      \strng{bibnamehash}{0875790c2970fac40668031c87edb778}
+      \strng{authorbibnamehash}{0875790c2970fac40668031c87edb778}
+      \strng{authornamehash}{0875790c2970fac40668031c87edb778}
+      \strng{authorfullhash}{0875790c2970fac40668031c87edb778}
+      \strng{authorfullhashraw}{0875790c2970fac40668031c87edb778}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2058-7546}
+      \field{journaltitle}{Nature Energy}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Transportation emissions scenarios for New York City under different carbon intensities of electricity and electric vehicle adoption rates}}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{92\bibrangedash 104}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/s41560-020-00740-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41560-020-00740-2
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41560-020-00740-2
+      \endverb
+      \keyw{Energy infrastructure,Energy modelling,Energy policy,Energy supply and demand,Environmental impact}
+    \endentry
+    \entry{Foundation2010}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fa2a5b8f6c9b86ad56e4ddd672fd4bb7}{%
+           family={ROS.org},
+           familyi={R\bibinitperiod},
+           given={Open\bibnamedelimb Source\bibnamedelimb Robotics\bibnamedelima Foundation},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \strng{fullhash}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \strng{fullhashraw}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \strng{bibnamehash}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \strng{authorbibnamehash}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \strng{authornamehash}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \strng{authorfullhash}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \strng{authorfullhashraw}{fa2a5b8f6c9b86ad56e4ddd672fd4bb7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{message{\_}filters/ApproximateTime}
+      \field{title}{{ApproximateTime}}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/message_filters/ApproximateTime
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/message_filters/ApproximateTime
+      \endverb
+    \endentry
+    \entry{Rotaru2017a}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=5f5f9d265d81fe9a3a18817dcffa36ba}{%
+           family={Rotaru},
+           familyi={R\bibinitperiod},
+           given={Constantin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d944da52efe243b0e09675d54ce93af5}{%
+           family={Todorov},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {InTech}%
+      }
+      \strng{namehash}{66cf7fedbcd317303884ee9df4e34e53}
+      \strng{fullhash}{66cf7fedbcd317303884ee9df4e34e53}
+      \strng{fullhashraw}{66cf7fedbcd317303884ee9df4e34e53}
+      \strng{bibnamehash}{66cf7fedbcd317303884ee9df4e34e53}
+      \strng{authorbibnamehash}{66cf7fedbcd317303884ee9df4e34e53}
+      \strng{authornamehash}{66cf7fedbcd317303884ee9df4e34e53}
+      \strng{authorfullhash}{66cf7fedbcd317303884ee9df4e34e53}
+      \strng{authorfullhashraw}{66cf7fedbcd317303884ee9df4e34e53}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Flight Physics - Models, Techniques and Technologies}
+      \field{month}{2}
+      \field{title}{{Helicopter Flight Physics}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.5772/intechopen.71516
+      \endverb
+      \verb{urlraw}
+      \verb http://www.intechopen.com/books/flight-physics-models-techniques-and-technologies/helicopter-flight-physics
+      \endverb
+      \verb{url}
+      \verb http://www.intechopen.com/books/flight-physics-models-techniques-and-technologies/helicopter-flight-physics
+      \endverb
+    \endentry
+    \entry{xgboostRpackage}{misc}{}{}
+      \name{author}{15}{}{%
+        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=399cf1aabecf0867957b50a0628a019a}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Tong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9c63aa70433d165d24d07f6c715d0352}{%
+           family={Benesty},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3e8410ade8492482d690da62434787f5}{%
+           family={Khotilovich},
+           familyi={K\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cee39f71272fa2c9f004d3adbc43dc73}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=65d58781ba579fe32c0e92e20df1d840}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Hyunsu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bce0b19313ad52ecf40d2a0a7c617b31}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kailong},
+           giveni={K\bibinitperiod}}}%
+        {{hash=43c9f4ab91b642db14a78d533a61184b}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Rory},
+           giveni={R\bibinitperiod}}}%
+        {{hash=49ce7befb32d2db3ef64cb4f12dc1b05}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=dc84af730bfa0a75783610aaff4f9e65}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Tianyi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c4a02f87e51fc72ab3f841de1a3982a7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Mu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ece164ebb1f6ce9fea9dcf065b89ac93}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Junyuan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d2827b813d1d73df44360201e3296bea}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b360a5dbaa7ee7aab1704343f12f6edb}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Yifeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3f1575cc0543a21f7c6e001ff8089105}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yutian},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{fullhash}{6fb09574a1ba575a75153016b0669c49}
+      \strng{fullhashraw}{6fb09574a1ba575a75153016b0669c49}
+      \strng{bibnamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authorbibnamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authornamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authorfullhash}{6fb09574a1ba575a75153016b0669c49}
+      \strng{authorfullhashraw}{6fb09574a1ba575a75153016b0669c49}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{xgboost: Extreme Gradient Boosting}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://cran.r-project.org/package=xgboost
+      \endverb
+      \verb{url}
+      \verb https://cran.r-project.org/package=xgboost
+      \endverb
+    \endentry
+    \entry{EfroTibs93}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=5470455fc7dceb3ccf6db38cb22a113d}{%
+           family={Efron},
+           familyi={E\bibinitperiod},
+           given={Bradley},
+           giveni={B\bibinitperiod}}}%
+        {{hash=678c48302939b4b85d5ad2d85319617a}{%
+           family={Tibshirani},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, Florida, USA}%
+      }
+      \list{publisher}{1}{%
+        {Chapman {\&} Hall/CRC}%
+      }
+      \strng{namehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{fullhash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{fullhashraw}{5c03685c9f7f37796bba48432d40df61}
+      \strng{bibnamehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authorbibnamehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authornamehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authorfullhash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authorfullhashraw}{5c03685c9f7f37796bba48432d40df61}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{57}
+      \field{series}{Monographs on Statistics and Applied Probability}
+      \field{title}{{An Introduction to the Bootstrap}}
+      \field{year}{1993}
+    \endentry
+    \entry{Prohaska2016FieldTrucks}{report}{}{}
+      \name{author}{6}{}{%
+        {{hash=6dab6adf6e9e8a754dd4e501ee300fe9}{%
+           family={Prohaska},
+           familyi={P\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c4bc821422ffdad24ffa831798f2e692}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6faff91576f6423f4d11a9ab4dc85047}{%
+           family={Ragatz},
+           familyi={R\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=725bb1daa987564cbe85850a7fe005c9}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bd7e7e8de996d11566a49fc225c7b13f}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Kandler},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3f6d64b168ee03d930085733a4b27964}{%
+           family={Walkowicz},
+           familyi={W\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Renewable Energy Laboratory (NREL)}%
+      }
+      \list{location}{1}{%
+        {Golden, CO (United States)}%
+      }
+      \strng{namehash}{9ab0485b88fd3d0f3c7bea721b2de4ca}
+      \strng{fullhash}{ca8ede0b12539ac253418785e5d39a96}
+      \strng{fullhashraw}{ca8ede0b12539ac253418785e5d39a96}
+      \strng{bibnamehash}{9ab0485b88fd3d0f3c7bea721b2de4ca}
+      \strng{authorbibnamehash}{9ab0485b88fd3d0f3c7bea721b2de4ca}
+      \strng{authornamehash}{9ab0485b88fd3d0f3c7bea721b2de4ca}
+      \strng{authorfullhash}{ca8ede0b12539ac253418785e5d39a96}
+      \strng{authorfullhashraw}{ca8ede0b12539ac253418785e5d39a96}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{{Field Evaluation of Medium-Duty Plug-in Electric Delivery Trucks}}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.2172/1337010
+      \endverb
+      \verb{urlraw}
+      \verb http://www.osti.gov/servlets/purl/1337010/
+      \endverb
+      \verb{url}
+      \verb http://www.osti.gov/servlets/purl/1337010/
+      \endverb
+    \endentry
+    \entry{AdvantageOutfitters2019BestMore}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=862f3ea795faf1b29772260f67e53ff5}{%
+           family={{Advantage Outfitters}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{862f3ea795faf1b29772260f67e53ff5}
+      \strng{fullhash}{862f3ea795faf1b29772260f67e53ff5}
+      \strng{fullhashraw}{862f3ea795faf1b29772260f67e53ff5}
+      \strng{bibnamehash}{862f3ea795faf1b29772260f67e53ff5}
+      \strng{authorbibnamehash}{862f3ea795faf1b29772260f67e53ff5}
+      \strng{authornamehash}{862f3ea795faf1b29772260f67e53ff5}
+      \strng{authorfullhash}{862f3ea795faf1b29772260f67e53ff5}
+      \strng{authorfullhashraw}{862f3ea795faf1b29772260f67e53ff5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advantage Outfitters}
+      \field{month}{7}
+      \field{title}{{Best Cargo Vans for Small Businesses: Gas Mileage, Cargo Space and More}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.commercialvanshelving.com/blog/best-cargo-van-small-businesses
+      \endverb
+      \verb{url}
+      \verb https://www.commercialvanshelving.com/blog/best-cargo-van-small-businesses
+      \endverb
+    \endentry
+    \entry{U.S.EnergyInformationAdministrationEIA2020EnergyExplained}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=311b20aa0fc4043379f047c3a32ba5bb}{%
+           family={{U.S. Energy Information Administration (EIA)}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{fullhash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{fullhashraw}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{bibnamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorbibnamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authornamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorfullhash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorfullhashraw}{311b20aa0fc4043379f047c3a32ba5bb}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Energy units and calculators explained}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.eia.gov/energyexplained/units-and-calculators/
+      \endverb
+      \verb{url}
+      \verb https://www.eia.gov/energyexplained/units-and-calculators/
+      \endverb
+    \endentry
+    \entry{Fiori2018ModellingDataset}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=dfa2fd883a0a725cc14822ab7b69d7fe}{%
+           family={Fiori},
+           familyi={F\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2341cbfb8211fd470cc0b94c3d9a2a05}{%
+           family={Marzano},
+           familyi={M\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{85b092f787f2977776f31d013b6b3860}
+      \strng{fullhash}{85b092f787f2977776f31d013b6b3860}
+      \strng{fullhashraw}{85b092f787f2977776f31d013b6b3860}
+      \strng{bibnamehash}{85b092f787f2977776f31d013b6b3860}
+      \strng{authorbibnamehash}{85b092f787f2977776f31d013b6b3860}
+      \strng{authornamehash}{85b092f787f2977776f31d013b6b3860}
+      \strng{authorfullhash}{85b092f787f2977776f31d013b6b3860}
+      \strng{authorfullhashraw}{85b092f787f2977776f31d013b6b3860}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13619209}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{month}{12}
+      \field{title}{{Modelling energy consumption of electric freight vehicles in urban pickup/delivery operations: analysis and estimation on a real-world dataset}}
+      \field{volume}{65}
+      \field{year}{2018}
+      \field{pages}{658\bibrangedash 673}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.trd.2018.09.020
+      \endverb
+      \keyw{Electric freight vehicles,Energy consumption/recovery,Last-mile pickup/delivery}
+    \endentry
+    \entry{Erlandsson2017TheVan}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=289754f4376bb012adf5557912f6c779}{%
+           family={Erlandsson},
+           familyi={E\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{289754f4376bb012adf5557912f6c779}
+      \strng{fullhash}{289754f4376bb012adf5557912f6c779}
+      \strng{fullhashraw}{289754f4376bb012adf5557912f6c779}
+      \strng{bibnamehash}{289754f4376bb012adf5557912f6c779}
+      \strng{authorbibnamehash}{289754f4376bb012adf5557912f6c779}
+      \strng{authornamehash}{289754f4376bb012adf5557912f6c779}
+      \strng{authorfullhash}{289754f4376bb012adf5557912f6c779}
+      \strng{authorfullhashraw}{289754f4376bb012adf5557912f6c779}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Velove}
+      \field{howpublished}{Available at \url{https://www.velove.se/news/armadillo-cargo-bike-use-6-electricity-small-electric-van}}
+      \field{title}{{The Armadillo electric cargo bike use 6 {\%} of the electricity of a small electric van}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.velove.se/news/armadillo-cargo-bike-use-6-electricity-small-electric-van
+      \endverb
+      \verb{url}
+      \verb https://www.velove.se/news/armadillo-cargo-bike-use-6-electricity-small-electric-van
+      \endverb
+    \endentry
+    \entry{FuelEconomyManyMPG}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f6cd5b5b184ad5dcf66198edda1fe77}{%
+           family={{U.S. Department of Energy}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{bibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorbibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authornamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Fuel Economy}
+      \field{howpublished}{Available at \url{https://www.fueleconomy.gov/feg/factors.shtml}}
+      \field{title}{{Many Factors Affect MPG}}
+      \verb{urlraw}
+      \verb {https://www.fueleconomy.gov/feg/factors.shtml}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.fueleconomy.gov/feg/factors.shtml%7D
+      \endverb
+    \endentry
+    \entry{ArgonneGREETPublication2016Cradle-to-GraveTechnologies}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=ab7ec68d189f9a920db2f6189738c98a}{%
+           family={{Argonne GREET Publication}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab7ec68d189f9a920db2f6189738c98a}
+      \strng{fullhash}{ab7ec68d189f9a920db2f6189738c98a}
+      \strng{fullhashraw}{ab7ec68d189f9a920db2f6189738c98a}
+      \strng{bibnamehash}{ab7ec68d189f9a920db2f6189738c98a}
+      \strng{authorbibnamehash}{ab7ec68d189f9a920db2f6189738c98a}
+      \strng{authornamehash}{ab7ec68d189f9a920db2f6189738c98a}
+      \strng{authorfullhash}{ab7ec68d189f9a920db2f6189738c98a}
+      \strng{authorfullhashraw}{ab7ec68d189f9a920db2f6189738c98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Cradle-to-Grave Lifecycle Analysis of U.S. Light-Duty Vehicle-Fuel Pathways: A Greenhouse Gas Emissions and Economic Assessment of Current (2015) and Future (2025-2030) Technologies}}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://greet.es.anl.gov/publication-c2g-2016-report
+      \endverb
+      \verb{url}
+      \verb https://greet.es.anl.gov/publication-c2g-2016-report
+      \endverb
+    \endentry
+    \entry{Shiau2009ImpactVehicles}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3e540aa8d95c06971d00495d2041fd32}{%
+           family={Shiau},
+           familyi={S\bibinitperiod},
+           given={Ching\bibnamedelimb Shin\bibnamedelima Norman},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=272378f05846b8e9ad99be8b66348df8}{%
+           family={Samaras},
+           familyi={S\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2444beb9135f40c838631e77598a4aa0}{%
+           family={Hauffe},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1c91c53cf018a0de7005fba50fc085ef}{%
+           family={Michalek},
+           familyi={M\bibinitperiod},
+           given={Jeremy\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{42c807eb370c67003f6404b51d7c0e9c}
+      \strng{fullhash}{6f49f961db0ed41a1df7856a10320f95}
+      \strng{fullhashraw}{6f49f961db0ed41a1df7856a10320f95}
+      \strng{bibnamehash}{42c807eb370c67003f6404b51d7c0e9c}
+      \strng{authorbibnamehash}{42c807eb370c67003f6404b51d7c0e9c}
+      \strng{authornamehash}{42c807eb370c67003f6404b51d7c0e9c}
+      \strng{authorfullhash}{6f49f961db0ed41a1df7856a10320f95}
+      \strng{authorfullhashraw}{6f49f961db0ed41a1df7856a10320f95}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03014215}
+      \field{journaltitle}{Energy Policy}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{{Impact of battery weight and charging patterns on the economic and environmental benefits of plug-in hybrid vehicles}}
+      \field{volume}{37}
+      \field{year}{2009}
+      \field{pages}{2653\bibrangedash 2663}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.enpol.2009.02.040
+      \endverb
+      \keyw{Greenhouse gases,Plug-in hybrid electric vehicles,Transportation}
+    \endentry
+    \entry{USEPA2019EmissionseGRID}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f5627235f7755f36aacdeda188b7ba6f}{%
+           family={{US EPA}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5627235f7755f36aacdeda188b7ba6f}
+      \strng{fullhash}{f5627235f7755f36aacdeda188b7ba6f}
+      \strng{fullhashraw}{f5627235f7755f36aacdeda188b7ba6f}
+      \strng{bibnamehash}{f5627235f7755f36aacdeda188b7ba6f}
+      \strng{authorbibnamehash}{f5627235f7755f36aacdeda188b7ba6f}
+      \strng{authornamehash}{f5627235f7755f36aacdeda188b7ba6f}
+      \strng{authorfullhash}{f5627235f7755f36aacdeda188b7ba6f}
+      \strng{authorfullhashraw}{f5627235f7755f36aacdeda188b7ba6f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Emissions {\&} Generation Resource Integrated Database (eGRID)}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.epa.gov/egrid/data-explorer
+      \endverb
+      \verb{url}
+      \verb https://www.epa.gov/egrid/data-explorer
+      \endverb
+    \endentry
+    \entry{U.S.EnergyInformationAdministrationEIA2021HowStates}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=311b20aa0fc4043379f047c3a32ba5bb}{%
+           family={{U.S. Energy Information Administration (EIA)}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{fullhash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{fullhashraw}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{bibnamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorbibnamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authornamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorfullhash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorfullhashraw}{311b20aa0fc4043379f047c3a32ba5bb}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Frequently Asked Questions (FAQS)}
+      \field{month}{5}
+      \field{title}{{How much electricity is lost in electricity transmission and distribution in the United States?}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.eia.gov/tools/faqs/faq.php?id=105&t=3
+      \endverb
+      \verb{url}
+      \verb https://www.eia.gov/tools/faqs/faq.php?id=105&t=3
+      \endverb
+    \endentry
+    \entry{U.S.EnergyInformationAdministrationEIA2020HowBurned}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=311b20aa0fc4043379f047c3a32ba5bb}{%
+           family={{U.S. Energy Information Administration (EIA)}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{fullhash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{fullhashraw}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{bibnamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorbibnamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authornamehash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorfullhash}{311b20aa0fc4043379f047c3a32ba5bb}
+      \strng{authorfullhashraw}{311b20aa0fc4043379f047c3a32ba5bb}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{How much carbon dioxide is produced when different fuels are burned?}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.eia.gov/tools/faqs/faq.php?id=73&t=11
+      \endverb
+      \verb{url}
+      \verb https://www.eia.gov/tools/faqs/faq.php?id=73&t=11
+      \endverb
+    \endentry
+    \entry{Laboratory2020GREET}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=654dff0c11e965eee9ad47ce2db68533}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={Argonne\bibnamedelima National},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Argonne National Laboratory}%
+      }
+      \list{location}{1}{%
+        {Lemont, Illinois, USA}%
+      }
+      \strng{namehash}{654dff0c11e965eee9ad47ce2db68533}
+      \strng{fullhash}{654dff0c11e965eee9ad47ce2db68533}
+      \strng{fullhashraw}{654dff0c11e965eee9ad47ce2db68533}
+      \strng{bibnamehash}{654dff0c11e965eee9ad47ce2db68533}
+      \strng{authorbibnamehash}{654dff0c11e965eee9ad47ce2db68533}
+      \strng{authornamehash}{654dff0c11e965eee9ad47ce2db68533}
+      \strng{authorfullhash}{654dff0c11e965eee9ad47ce2db68533}
+      \strng{authorfullhashraw}{654dff0c11e965eee9ad47ce2db68533}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{GREET}}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

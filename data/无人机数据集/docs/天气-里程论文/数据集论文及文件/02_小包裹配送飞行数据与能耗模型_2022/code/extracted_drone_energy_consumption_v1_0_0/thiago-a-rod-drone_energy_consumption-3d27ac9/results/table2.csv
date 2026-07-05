@@ -1,0 +1,7 @@
+Vehicle,Delivery density required to match drone energy consumption [package/km],(multiplier from base case),Minimum energy consumption required for the drone [MJ/km]
+Medium duty diesel truck,33.76779643445319,16.07990306402533,1.3095238095238098
+Small diesel vans,15.042018411710968,4.3224190838249905,0.3520114942528736
+Medium duty e-truck,11.677774654156371,5.560845073407797,0.45286709725212404
+Small electric van,5.074049051007242,1.4580600721285177,0.11874228175168615
+Electric cargo bicycle,0.30966622884823575,0.30966622884823575,0.0252187651920272
+Quad-copter drone,0.25,1.0,0.0814385387965139

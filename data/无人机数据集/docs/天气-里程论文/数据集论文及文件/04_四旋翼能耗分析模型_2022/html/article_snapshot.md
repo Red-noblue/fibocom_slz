@@ -1,0 +1,13816 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]: 
+  - generic [ref=e6]: 
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - link "MDPI Open Access Journals" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img "MDPI Open Access Journals" [ref=e14]
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Journals" [ref=e18] [cursor=pointer]:
+                - /url: /about/journals
+            - listitem [ref=e19]:
+              - link "Topics" [ref=e20] [cursor=pointer]:
+                - /url: /topics
+            - listitem [ref=e21]:
+              - link "Information" [ref=e22] [cursor=pointer]:
+                - /url: /authors
+            - listitem [ref=e23]:
+              - link "Author Services" [ref=e24] [cursor=pointer]:
+                - /url: /authors/english
+            - listitem [ref=e25]:
+              - link "Initiatives" [ref=e26] [cursor=pointer]:
+                - /url: /about/initiatives
+            - listitem [ref=e27]:
+              - link "About" [ref=e28] [cursor=pointer]:
+                - /url: /about
+          - generic [ref=e30]:
+            - link "Sign In / Sign Up" [ref=e31] [cursor=pointer]:
+              - /url: /user/login
+            - link "Submit" [ref=e32] [cursor=pointer]:
+              - /url: "            https://susy.mdpi.com/user/manuscripts/upload?journal=energies\n    "
+        - generic [ref=e34]:
+          - generic [ref=e35]: error_outline
+          - text: You can access
+          - link "the new MDPI.com website here" [ref=e36] [cursor=pointer]:
+            - /url: https://www.mdpi.com/redirect/new_site?return=/1996-1073/15/19/7136
+          - text: . Explore and share your feedback with us.
+          - link "close":
+            - /url: "#"
+            - generic [ref=e37] [cursor=pointer]: close
+        - generic [ref=e41]:
+          - generic [ref=e43]: "Search for Articles:"
+          - generic:
+            - textbox "Title / Keyword" [ref=e45]
+            - textbox "Author / Affiliation / Email" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e51] [cursor=pointer]: Energies
+              - generic [ref=e54]:
+                - textbox [ref=e56]
+                - list
+            - generic [ref=e58]:
+              - generic [ref=e60] [cursor=pointer]: All Article Types
+              - generic [ref=e63]:
+                - textbox [ref=e65]
+                - list
+            - button "Search" [ref=e67] [cursor=pointer]
+            - link "Advanced" [ref=e69] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - link "Journals" [ref=e73] [cursor=pointer]:
+              - /url: /about/journals
+            - text: /
+          - generic [ref=e74]:
+            - link "Energies" [ref=e75] [cursor=pointer]:
+              - /url: /journal/energies
+            - text: /
+          - generic [ref=e76]:
+            - link "Volume 15" [ref=e77] [cursor=pointer]:
+              - /url: /1996-1073/15
+            - text: /
+          - generic [ref=e78]:
+            - link "Issue 19" [ref=e79] [cursor=pointer]:
+              - /url: /1996-1073/15/19
+            - text: /
+          - generic [ref=e80]:
+            - link "10.3390/en15197136" [ref=e81] [cursor=pointer]:
+              - /url: "#"
+            - text: /
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - link "energies-logo" [ref=e86] [cursor=pointer]:
+              - /url: /journal/energies
+              - img "energies-logo" [ref=e87]
+            - generic [ref=e88]:
+              - link "Submit to this Journal" [ref=e89] [cursor=pointer]:
+                - /url: https://susy.mdpi.com/user/manuscripts/upload?form%5Bjournal_id%5D%3D7
+              - link "Review for this Journal" [ref=e90] [cursor=pointer]:
+                - /url: https://susy.mdpi.com/volunteer/journals/review
+              - link "Propose a Special Issue" [ref=e91] [cursor=pointer]:
+                - /url: /journalproposal/sendproposalspecialissue/energies
+            - generic [ref=e92]:
+              - heading "Article Menu" [level=2] [ref=e94]
+              - list [ref=e95]:
+                - listitem [ref=e96]:
+                  - link "Academic Editor keyboard_arrow_up" [expanded] [ref=e97] [cursor=pointer]:
+                    - /url: "#academic_editors"
+                  - generic "Department of Engineering, University of Almeria, CeiA3, 04120 Almeria, Spain" [ref=e99]:
+                    - link "Francisco Manzano Agugliaro" [ref=e101] [cursor=pointer]:
+                      - /url: https://sciprofiles.com/profile/109629?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+                      - img [ref=e102]
+                      - generic [ref=e103]: Francisco Manzano Agugliaro
+                - listitem [ref=e104]:
+                  - link "Recommended Articles" [ref=e105] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e106]:
+                  - link "Related Info Link keyboard_arrow_down" [ref=e107] [cursor=pointer]:
+                    - /url: "#related"
+                  - text: insert_link
+                - listitem [ref=e108]:
+                  - link "More by Authors Links keyboard_arrow_down" [ref=e109] [cursor=pointer]:
+                    - /url: "#authors"
+                  - text: lens insert_link lens insert_link lens insert_link lens insert_link lens lens insert_link lens insert_link lens insert_link lens insert_link lens lens insert_link lens insert_link lens insert_link lens insert_link lens
+          - generic [ref=e111]:
+            - link "Article Views 10393" [ref=e113] [cursor=pointer]:
+              - /url: "#metrics"
+              - generic [ref=e114]:
+                - generic [ref=e115]: Article Views
+                - generic [ref=e116]: "10393"
+            - link "Citations 27" [ref=e118] [cursor=pointer]:
+              - /url: "#metrics"
+              - generic [ref=e119]:
+                - generic [ref=e120]: Citations
+                - generic [ref=e121]: "27"
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - link "Table of Contents keyboard_arrow_up" [expanded] [ref=e126] [cursor=pointer]:
+                - /url: "#table_of_contents"
+              - list [ref=e128]:
+                - listitem [ref=e129]:
+                  - text: lens
+                  - link "Abstract" [ref=e130] [cursor=pointer]:
+                    - /url: "#html-abstract"
+                - listitem [ref=e131]:
+                  - text: lens
+                  - link "Introduction" [ref=e132] [cursor=pointer]:
+                    - /url: "#sec1-energies-15-07136"
+                - listitem [ref=e133]:
+                  - text: lens
+                  - link "Materials and Methods" [ref=e134] [cursor=pointer]:
+                    - /url: "#sec2-energies-15-07136"
+                - listitem [ref=e135]:
+                  - text: lens
+                  - link "Results" [ref=e136] [cursor=pointer]:
+                    - /url: "#sec3-energies-15-07136"
+                - listitem [ref=e137]:
+                  - text: lens
+                  - link "Conclusions" [ref=e138] [cursor=pointer]:
+                    - /url: "#sec4-energies-15-07136"
+                - listitem [ref=e139]:
+                  - text: lens
+                  - link "Supplementary Materials" [ref=e140] [cursor=pointer]:
+                    - /url: "#app1-energies-15-07136"
+                - listitem [ref=e141]:
+                  - text: lens
+                  - link "Author Contributions" [ref=e142] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e143]:
+                  - text: lens
+                  - link "Funding" [ref=e144] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e145]:
+                  - text: lens
+                  - link "Data Availability Statement" [ref=e146] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e147]:
+                  - text: lens
+                  - link "Acknowledgments" [ref=e148] [cursor=pointer]:
+                    - /url: "#html-ack"
+                - listitem [ref=e149]:
+                  - text: lens
+                  - link "Conflicts of Interest" [ref=e150] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e151]:
+                  - text: lens
+                  - link "Nomenclature" [ref=e152] [cursor=pointer]:
+                    - /url: "#html-glossary"
+                - listitem [ref=e153]:
+                  - text: lens
+                  - link "Appendix A. Flight Data and MATLAB Scripts" [ref=e154] [cursor=pointer]:
+                    - /url: "#app2-energies-15-07136"
+                - listitem [ref=e155]:
+                  - text: lens
+                  - link "References" [ref=e156] [cursor=pointer]:
+                    - /url: "#html-references_list"
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - link "share Share" [ref=e159] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e160]: share
+              - generic [ref=e161]: Share
+            - link "announcement Help" [ref=e162] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e163]: announcement
+              - generic [ref=e164]: Help
+            - link "format_quote Cite" [ref=e165] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e166]: format_quote
+              - generic [ref=e167]: Cite
+            - link "question_answer Discuss in SciProfiles" [ref=e168] [cursor=pointer]:
+              - /url: https://sciprofiles.com/discussion-groups/public/10.3390/en15197136?utm_source=mpdi.com&utm_medium=publication&utm_campaign=discuss_in_sciprofiles
+              - generic [ref=e169]: question_answer
+              - generic [ref=e170]: Discuss in SciProfiles
+          - generic [ref=e174]:
+            - generic:
+              - generic [ref=e175]:
+                - generic [ref=e177] [cursor=pointer]: first_page
+                - generic [ref=e179] [cursor=pointer]: settings
+                - link "Order Article Reprints" [ref=e180] [cursor=pointer]:
+                  - /url: /1996-1073/15/19/7136/reprints
+              - text:   
+            - article [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e184] [cursor=pointer]: Open Access
+                  - generic [ref=e185]: Article
+                - heading "Quadrotor Model for Energy Consumption Analysis" [level=1] [ref=e186]
+                - generic [ref=e187]:
+                  - text: by
+                  - generic [ref=e188]:
+                    - text: Mariusz Jacewicz
+                    - superscript [ref=e189]: "*"
+                    - link "" [ref=e190] [cursor=pointer]:
+                      - /url: mailto:mariusz.jacewicz@pw.edu.pl
+                      - superscript [ref=e191]:
+                        - generic [ref=e192]: 
+                    - link "ORCID" [ref=e193] [cursor=pointer]:
+                      - /url: https://orcid.org/0000-0002-7173-0890
+                      - img "ORCID" [ref=e194]
+                    - text: ","
+                  - generic [ref=e195]:
+                    - text: Marcin Żugaj
+                    - superscript
+                    - text: ","
+                  - generic [ref=e196]:
+                    - text: Robert Głębocki
+                    - superscript
+                    - link "ORCID" [ref=e197] [cursor=pointer]:
+                      - /url: https://orcid.org/0000-0002-2389-7653
+                      - img "ORCID" [ref=e198]
+                    - text: and
+                  - generic [ref=e199]:
+                    - text: Przemysław Bibik
+                    - superscript
+                - generic [ref=e202]:
+                  - generic [ref=e204]: Institute of Aeronautics and Applied Mechanics, Warsaw University of Technology, St. Nowowiejska 24, 00-665 Warsaw, Poland
+                  - generic [ref=e205]:
+                    - superscript [ref=e207]: "*"
+                    - generic [ref=e208]: Author to whom correspondence should be addressed.
+                - generic [ref=e209]:
+                  - emphasis [ref=e210]: Energies
+                  - text: 2022,
+                  - emphasis [ref=e211]: "15"
+                  - text: (19), 7136;
+                  - link "https://doi.org/10.3390/en15197136" [ref=e212] [cursor=pointer]:
+                    - /url: https://doi.org/10.3390/en15197136
+                - generic [ref=e213]:
+                  - generic [ref=e214]: "Submission received: 29 August 2022"
+                  - text: /
+                  - generic [ref=e215]: "Revised: 17 September 2022"
+                  - text: /
+                  - generic [ref=e216]: "Accepted: 21 September 2022"
+                  - text: /
+                  - generic [ref=e217]: "Published: 28 September 2022"
+                - generic [ref=e218]:
+                  - text: (This article belongs to the Section
+                  - 'link "E: Electric Vehicles" [ref=e219] [cursor=pointer]':
+                    - /url: /journal/energies/sections/electric_vehicles
+                  - text: )
+                - generic [ref=e221]:
+                  - generic [ref=e222] [cursor=pointer]:
+                    - text: Download
+                    - generic [ref=e223]: keyboard_arrow_down
+                  - link "Browse Figures" [ref=e225] [cursor=pointer]:
+                    - /url: "#"
+                  - generic:
+                    - link "<strong>Figure 1</strong><br/> <p>The quadrotor used in the experiments (CAD model).</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g001.png?1664525219
+                    - link "<strong>Figure 2</strong><br/> <p>Moments of inertia measurements using trifilar pendulum (<b>a</b>) <math display=\"inline\"><semantics> <mrow> <msub> <mi>I</mi> <mrow> <mi>x</mi> <mi>x</mi> </mrow> </msub> </mrow> </semantics></math> (<b>b</b>) <math display=\"inline\"><semantics> <mrow> <msub> <mi>I</mi> <mrow> <mi>y</mi> <mi>y</mi> </mrow> </msub> </mrow> </semantics></math> (<b>c</b>) <math display=\"inline\"><semantics> <mrow> <msub> <mi>I</mi> <mrow> <mi>z</mi> <mi>z</mi> </mrow> </msub> </mrow> </semantics></math>.</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g002.png?1664525253
+                    - link "<strong>Figure 3</strong><br/> <p>Coordinate systems overview.</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g003.png?1664525226
+                    - link "<strong>Figure 4</strong><br/> <p>Rotors configuration (top view).</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g004.png?1664525267
+                    - link "<strong>Figure 5</strong><br/> <p>Modeled and manufacturer thrust and torque comparison for hover conditions.</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g005.png?1664525231
+                    - link "<strong>Figure 6</strong><br/> <p>Correction factors of (<b>a</b>) thrust, (<b>b</b>) torque, and (<b>c</b>) drag.</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g006.png?1664525241
+                    - link "<strong>Figure 7</strong><br/> <p>Automatic flight control system structure.</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g007.png?1664525224
+                    - link "<strong>Figure 8</strong><br/> <p>Laboratory tests of the battery discharge.</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g008.png?1664525245
+                    - 'link "<strong>Figure 9</strong><br/> <p>Quadrotor during the flight tests: (<b>a</b>) drone ready to fly and (<b>b</b>) take-off.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g009.png?1664525234
+                    - 'link "<strong>Figure 10</strong><br/> <p>The comparison between the real and simulated trajectories: (<b>a</b>) 3D view of the trajectory and (<b>b</b>) 2D plot of the drone trajectory.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g010.png?1664525258
+                    - 'link "<strong>Figure 11</strong><br/> <p>Linear velocities: (<b>a</b>) north–south, (<b>b</b>) west–east, and (<b>c</b>) vertical.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g011.png?1664525220
+                    - 'link "<strong>Figure 12</strong><br/> <p>Angular rates: (<b>a</b>) roll, (<b>b</b>) pitch, and (<b>c</b>) yaw.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g012.png?1664525240
+                    - 'link "<strong>Figure 13</strong><br/> <p>Quadrotor position: (<b>a</b>) north–south, (<b>b</b>) west–east, and (<b>c</b>) altitude.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g013.png?1664525236
+                    - 'link "<strong>Figure 14</strong><br/> <p>Euler angles: (<b>a</b>) roll, (<b>b</b>) pitch, and (<b>c</b>) yaw.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g014.png?1664525250
+                    - 'link "<strong>Figure 15</strong><br/> <p>Energetic model: (<b>a</b>) total energy consumed by the drone, (<b>b</b>) battery state of charge, (<b>c</b>) voltage, and (<b>d</b>) current.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g015.png?1664525247
+                    - 'link "<strong>Figure 16</strong><br/> <p>The comparison of trajectories between reality and simulation: (<b>a</b>) 3D view of the trajectory and (<b>b</b>) 2D plot of the drone trajectory.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g016.png?1664525243
+                    - 'link "<strong>Figure 17</strong><br/> <p>Linear velocities: (<b>a</b>) north–south, (<b>b</b>) west–east, and (<b>c</b>) vertical.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g017.png?1664525227
+                    - 'link "<strong>Figure 18</strong><br/> <p>Angular rates: (<b>a</b>) roll, (<b>b</b>) pitch, and (<b>c</b>) yaw.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g018.png?1664525261
+                    - 'link "<strong>Figure 19</strong><br/> <p>Quadrotor position: (<b>a</b>) north–south, (<b>b</b>) west–east, and (<b>c</b>) altitude.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g019.png?1664525222
+                    - 'link "<strong>Figure 20</strong><br/> <p>Euler angles: (<b>a</b>) roll, (<b>b</b>) pitch, and (<b>c</b>) yaw.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g020.png?1664525263
+                    - 'link "<strong>Figure 21</strong><br/> <p>Energetic model: (<b>a</b>) total energy consumed by the drone (<b>b</b>) battery state of charge, (<b>c</b>) voltage, and (<b>d</b>) current.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g021a.png?1664525229
+                    - 'link "<strong>Figure 21 Cont.</strong><br/> <p>Energetic model: (<b>a</b>) total energy consumed by the drone (<b>b</b>) battery state of charge, (<b>c</b>) voltage, and (<b>d</b>) current.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g021b.png?1664525259
+                    - link "<strong>Figure 22</strong><br/> <p>Histogram and probability distribution fit of (<b>a</b>) the N–S leg (<b>b</b>), the E–W leg, and (<b>c</b>) turn (real data).</p>":
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g022.png?1664525238
+                    - 'link "<strong>Figure 23</strong><br/> <p>Quadrotor trajectories: (<b>a</b>) case 1 and (<b>b</b>) case 2.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g023.png?1664525249
+                    - 'link "<strong>Figure 24</strong><br/> <p>Kernel density estimators of consumed energy: (<b>a</b>) case 1: all disturbances, (<b>b</b>) case 2: all disturbances, (<b>c</b>) case 1: wind disturbances, (<b>d</b>) case 2: wind disturbances, (<b>e</b>) case 1: mass disturbances, and (<b>f</b>) case 2: mass disturbances.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g024.png?1664525265
+                    - 'link "<strong>Figure 25</strong><br/> <p>Histograms of consumed energy: (<b>a</b>) mean wind azimuth 0°, wind speed 4.5 m/s, (<b>b</b>) mean wind azimuth 180°, wind speed 4.5 m/s, (<b>c</b>) mean wind azimuth 0°, wind speed 9 m/s, and (<b>d</b>) mean wind azimuth 180°, wind speed 9 m/s.</p>"':
+                      - /url: https://pub.mdpi-res.com/energies/energies-15-07136/article_deploy/html/images/energies-15-07136-g025.png?1664525254
+                  - link "Versions Notes" [ref=e226] [cursor=pointer]:
+                    - /url: /1996-1073/15/19/7136/notes
+                - generic [ref=e229]:
+                  - paragraph
+                  - generic [ref=e230]:
+                    - generic [ref=e231]:
+                      - heading "Abstract" [level=2] [ref=e232]
+                      - text: In this paper, a quadrotor dynamic model’s energy efficiency was investigated. A method for the design of the dynamic model which assures energy consumption estimation was presented. This model was developed to analyze the energy efficiency of the quadrotor during each maneuver. A medium-class quadrotor (4.689 kg) was used as a test platform. Thrust force correction factors obtained with FLIGHTLAB software were used to predict object behavior in forward flight. Model validation and long-duration flight tests in outdoor windy conditions are also presented. Monte-Carlo simulation was used to study the influence of uncertainties in model parameters on the simulation reliability. The developed model might be used for practical purposes (for example, energy-efficient coverage path planning).
+                    - generic [ref=e234]:
+                      - text: "Keywords:"
+                      - link "UAV" [ref=e235] [cursor=pointer]:
+                        - /url: /search?q=UAV
+                      - text: ;
+                      - link "flight dynamics" [ref=e236] [cursor=pointer]:
+                        - /url: /search?q=flight+dynamics
+                      - text: ;
+                      - link "control" [ref=e237] [cursor=pointer]:
+                        - /url: /search?q=control
+                      - text: ;
+                      - link "energy" [ref=e238] [cursor=pointer]:
+                        - /url: /search?q=energy
+                  - paragraph
+                - generic [ref=e239]:
+                  - generic [ref=e240]:
+                    - generic [ref=e241]:
+                      - heading "1. Introduction" [level=2] [ref=e242]
+                      - generic [ref=e243]:
+                        - text: In the last few decades, the number of unmanned aircraft operations has increased significantly. At the beginning, the Unmanned Aerial Vehicles (UAVs) were used mainly for military purposes. Today, plenty of different types of UAVs are performing missions which are too dull, dirty, dangerous, or just not cost-effective for manned aircrafts, as well as missions in the civil airspace. Rotorcrafts are a significant group of unmanned aerial vehicles used for civil purposes. Their vertical take-off, landing, and hover capabilities give them an advantage over the fixed-wing UAVs, but their energy efficiency is significantly smaller. One of the most popular types of UAV rotorcraft in the civil market is the quadrotor. There are several reasons for this fact. Firstly, the quadrotor is configuration-easy to design and build. Additionally, the control of quadrotors is simpler compared with other rotorcraft configuration control systems, the cross-couplings between the degrees of freedom are not as strong as for a single-rotor helicopter, and the problem is easy to cope with using simple classical control algorithms [
+                        - link "1" [ref=e244] [cursor=pointer]:
+                          - /url: "#B1-energies-15-07136"
+                        - text: ","
+                        - link "2" [ref=e245] [cursor=pointer]:
+                          - /url: "#B2-energies-15-07136"
+                        - text: ","
+                        - link "3" [ref=e246] [cursor=pointer]:
+                          - /url: "#B3-energies-15-07136"
+                        - text: ","
+                        - link "4" [ref=e247] [cursor=pointer]:
+                          - /url: "#B4-energies-15-07136"
+                        - text: "]. Quadrotors have very good handling qualities and are easy to fly. Their main advantages are stable behavior, low vibrations, quiet flight, and simple maintenance. These features make them perfect for use in observation system ["
+                        - link "5" [ref=e248] [cursor=pointer]:
+                          - /url: "#B5-energies-15-07136"
+                        - text: "]."
+                      - generic [ref=e249]:
+                        - text: Small, unmanned quadrotors are powered by electric motors driving fixed-pitch propellers. This multi-rotor propulsion system provides the lift, thrust, and control of the quadrotor, which results in a significant demand for electric power. Electric power is also consumed by the onboard systems (navigation system, communication system, control system, and others). The only power source aboard the quadrotor is the battery, and the amount of energy stored is limited by its weight. That is why the most significant disadvantage of a quadrotor is limited available energy restricting its flight duration and range [
+                        - link "6" [ref=e250] [cursor=pointer]:
+                          - /url: "#B6-energies-15-07136"
+                        - text: ","
+                        - link "7" [ref=e251] [cursor=pointer]:
+                          - /url: "#B7-energies-15-07136"
+                        - text: ","
+                        - link "8" [ref=e252] [cursor=pointer]:
+                          - /url: "#B8-energies-15-07136"
+                        - text: "]. A typical flight time of such drones on a single battery (charge) is in the order of several minutes."
+                      - generic [ref=e253]:
+                        - text: Quadrotor energy effectiveness might be improved by appropriate design, flying qualities, and mission planning. The structural design aims toward weight reduction and aerodynamic efficiency improvement, as well as propulsion system [
+                        - link "3" [ref=e254] [cursor=pointer]:
+                          - /url: "#B3-energies-15-07136"
+                        - text: ","
+                        - link "9" [ref=e255] [cursor=pointer]:
+                          - /url: "#B9-energies-15-07136"
+                        - text: "] and onboard equipment optimization with respect to the energy consumption. The following actions can be used to improve quadrotor energy effectiveness: designing a structure optimized for weight reduction, increasing aerodynamic efficiency, and optimizing the propulsion system ["
+                        - link "1" [ref=e256] [cursor=pointer]:
+                          - /url: "#B1-energies-15-07136"
+                        - text: ","
+                        - link "2" [ref=e257] [cursor=pointer]:
+                          - /url: "#B2-energies-15-07136"
+                        - text: "] and onboard equipment for energy consumption. Another way to increase the flight duration and range is to minimize energy expenditure during the flight by optimizing the mission plan and flight trajectory ["
+                        - link "10" [ref=e258] [cursor=pointer]:
+                          - /url: "#B10-energies-15-07136"
+                        - text: ","
+                        - link "11" [ref=e259] [cursor=pointer]:
+                          - /url: "#B11-energies-15-07136"
+                        - text: "]. To achieve the mission goals the drone has to realize a set of maneuvers (e.g., take-off, hover, turn, cruise, approach, and landing). Each maneuver costs a certain amount of energy. The mission scenario and flight profile might be designed in such a manner as to minimize energy consumption ["
+                        - link "4" [ref=e260] [cursor=pointer]:
+                          - /url: "#B4-energies-15-07136"
+                        - text: ","
+                        - link "12" [ref=e261] [cursor=pointer]:
+                          - /url: "#B12-energies-15-07136"
+                        - text: ","
+                        - link "13" [ref=e262] [cursor=pointer]:
+                          - /url: "#B13-energies-15-07136"
+                        - text: ","
+                        - link "14" [ref=e263] [cursor=pointer]:
+                          - /url: "#B14-energies-15-07136"
+                        - text: ","
+                        - link "15" [ref=e264] [cursor=pointer]:
+                          - /url: "#B15-energies-15-07136"
+                        - text: "]. To realize this approach, a reliable, mathematical quadrotor simulation model is required ["
+                        - link "16" [ref=e265] [cursor=pointer]:
+                          - /url: "#B16-energies-15-07136"
+                        - text: ","
+                        - link "17" [ref=e266] [cursor=pointer]:
+                          - /url: "#B17-energies-15-07136"
+                        - text: "]."
+                      - generic [ref=e267]:
+                        - text: The subject of energy consumption by multirotor UAVs has been addressed by several researchers. Zhang et al. [
+                        - link "18" [ref=e268] [cursor=pointer]:
+                          - /url: "#B18-energies-15-07136"
+                        - text: "] discussed the comparison of such models and concluded that there exists a need to validate such models through field tests. A detailed review of existing models was also presented by Beigi et al. ["
+                        - link "19" [ref=e269] [cursor=pointer]:
+                          - /url: "#B19-energies-15-07136"
+                        - text: "]. The existing models might be categorized into three main groups."
+                      - generic [ref=e270]:
+                        - text: First, the most common approach is to use models based on physics principles. Lu et al. [
+                        - link "2" [ref=e271] [cursor=pointer]:
+                          - /url: "#B2-energies-15-07136"
+                        - text: "] developed a dynamic model of quadrotors and electric motors. Morbidi et al. ["
+                        - link "20" [ref=e272] [cursor=pointer]:
+                          - /url: "#B20-energies-15-07136"
+                        - text: "] presented an energy consumption model and demonstrated how it can be used to optimize a drone’s trajectory. Yage et al. ["
+                        - link "21" [ref=e273] [cursor=pointer]:
+                          - /url: "#B21-energies-15-07136"
+                        - text: ","
+                        - link "22" [ref=e274] [cursor=pointer]:
+                          - /url: "#B22-energies-15-07136"
+                        - text: "] proposed an energy consumption model and realized trajectory optimization. Jee and Cho ["
+                        - link "23" [ref=e275] [cursor=pointer]:
+                          - /url: "#B23-energies-15-07136"
+                        - text: "] studied the energy consumption of electric motors. The polynomial expression on the consumed energy was derived by Li et al. ["
+                        - link "24" [ref=e276] [cursor=pointer]:
+                          - /url: "#B24-energies-15-07136"
+                        - text: "]. This approach allows a detailed understanding of quadrotor dynamics. However, the main disadvantage of these models lies in the fact that they require a set of parameters that are often difficult to obtain. Often, only the energy spent on propulsion is considered ["
+                        - link "25" [ref=e277] [cursor=pointer]:
+                          - /url: "#B25-energies-15-07136"
+                        - text: "]."
+                      - generic [ref=e278]:
+                        - text: Second, up to this time, a number of black box models have been proposed [
+                        - link "26" [ref=e279] [cursor=pointer]:
+                          - /url: "#B26-energies-15-07136"
+                        - text: ","
+                        - link "27" [ref=e280] [cursor=pointer]:
+                          - /url: "#B27-energies-15-07136"
+                        - text: ","
+                        - link "28" [ref=e281] [cursor=pointer]:
+                          - /url: "#B28-energies-15-07136"
+                        - text: "]. Alyassi et al. ["
+                        - link "29" [ref=e282] [cursor=pointer]:
+                          - /url: "#B29-energies-15-07136"
+                        - text: "] presented extensive experiments for three different drones and proposed a model that uses nine coefficients. Abeywickrama et al. ["
+                        - link "30" [ref=e283] [cursor=pointer]:
+                          - /url: "#B30-energies-15-07136"
+                        - text: ","
+                        - link "31" [ref=e284] [cursor=pointer]:
+                          - /url: "#B31-energies-15-07136"
+                        - text: "] proposed a model that is a function of on-ground power consumption, communication activities, hovering, vertical and horizontal movements, speed, payload, and wind. Recently, machine learning techniques were also used by Steup et al. to create a generic energy model ["
+                        - link "32" [ref=e285] [cursor=pointer]:
+                          - /url: "#B32-energies-15-07136"
+                        - text: "]. These methods do not require detailed knowledge about quadrotor parameters ["
+                        - link "29" [ref=e286] [cursor=pointer]:
+                          - /url: "#B29-energies-15-07136"
+                        - text: "]. The main limitation of such methods is that they will not allow deep insight into the drone dynamics."
+                      - generic [ref=e287]:
+                        - text: Third, aeromechanics are also used to predict the energy consumption [
+                        - link "33" [ref=e288] [cursor=pointer]:
+                          - /url: "#B33-energies-15-07136"
+                        - text: ","
+                        - link "34" [ref=e289] [cursor=pointer]:
+                          - /url: "#B34-energies-15-07136"
+                        - text: ","
+                        - link "35" [ref=e290] [cursor=pointer]:
+                          - /url: "#B35-energies-15-07136"
+                        - text: ","
+                        - link "36" [ref=e291] [cursor=pointer]:
+                          - /url: "#B36-energies-15-07136"
+                        - text: "]. Momentum Theory ["
+                        - link "37" [ref=e292] [cursor=pointer]:
+                          - /url: "#B37-energies-15-07136"
+                        - text: ","
+                        - link "38" [ref=e293] [cursor=pointer]:
+                          - /url: "#B38-energies-15-07136"
+                        - text: ","
+                        - link "39" [ref=e294] [cursor=pointer]:
+                          - /url: "#B39-energies-15-07136"
+                        - text: ","
+                        - link "40" [ref=e295] [cursor=pointer]:
+                          - /url: "#B40-energies-15-07136"
+                        - text: "] and Blade Element Theory ["
+                        - link "41" [ref=e296] [cursor=pointer]:
+                          - /url: "#B41-energies-15-07136"
+                        - text: "] are used to calculate aerodynamic power. These models allow taking into account the forward speed regarding the consumed energy ["
+                        - link "42" [ref=e297] [cursor=pointer]:
+                          - /url: "#B42-energies-15-07136"
+                        - text: "]. The disadvantage of these models is the necessity of iteratively calculating the induced velocity that degrades the computational efficiency ["
+                        - link "43" [ref=e298] [cursor=pointer]:
+                          - /url: "#B43-energies-15-07136"
+                        - text: "]."
+                      - generic [ref=e299]:
+                        - text: Simple models of the loads produced by a quadrotor propulsion system were used in most of the abovementioned works. Only thrust force and torque were modeled as functions of rotor angular rate, and do not provide a full picture of energy consumption. This method is only valid in hover conditions, but during the cruise flight, where the free stream through the rotor is more horizontal and the blade tip vortices are sparse, the energy required for rotor driving is reduced. That is why the influence of the forward velocity on the rotor loads and energy consumption must be considered. Moreover, in the literature, frequently, only the energy consumed by electric motors is considered and the study of energy consumption is limited mainly to indoor tests. This simplification might lead to the overestimation of energy consumption, especially in long-duration flights. To render the simulation more realistic, the battery performance should be taken into account, as omitting battery dynamics might lead to significant errors. It is common that only the simulation results of energy consumption are presented without comparing the proposed models with real data. Eventually, the validation is performed using only data from a few flight tests [
+                        - link "44" [ref=e300] [cursor=pointer]:
+                          - /url: "#B44-energies-15-07136"
+                        - text: "]. Due to these facts, it is difficult to determine the reliability of existing energy consumption models. Even the common dataset various models could provide very significant differences in the amount of predicted energy. The dynamic model of quadrotor, which utilizes a detailed model of energy consumption, is needed in order to plan missions and analyze and synthesize their energy costs."
+                      - generic [ref=e301]: The aim of the present work was to develop and validate a quadrotor dynamics model for the analysis of energy consumption during long-duration outdoor flight. A six degrees-of-freedom nonlinear dynamic model with a reliable model of energy consumption was derived. The model was developed in the MATLAB/Simulink environment, which facilitates easy design and simulation of additional features such as atmospheric disturbance, control system, and experimental data processing. A detailed model of the rotor, which was designed with use of an advance modeling tool for rotorcraft dynamic simulation FLIGHTLAB, was used to estimate the velocity correction factors of propulsion system loads simulated in the main model. The model was validated using the experimental data that were acquired during laboratory and in-flight tests. The capability of the model to simulate energy consumption was analyzed as well.
+                      - generic [ref=e302]:
+                        - text: The organization of the remaining portion of the paper is as follows. In
+                        - link "Section 2" [ref=e303] [cursor=pointer]:
+                          - /url: "#sec2-energies-15-07136"
+                        - text: ", the quadrotor dynamics, energy consumption model, and battery model are described. In"
+                        - link "Section 3" [ref=e304] [cursor=pointer]:
+                          - /url: "#sec3-energies-15-07136"
+                        - text: ", the results of the flight tests for two example trajectories are presented. Then, flight data are compared with simulation results. Monte-Carlo simulation is used to investigate the model robustness on parameter uncertainties. The manuscript ends with a summary of the main findings and suggestions for possible further research directions."
+                    - generic [ref=e305]:
+                      - heading "2. Materials and Methods" [level=2] [ref=e306]
+                      - generic [ref=e307]:
+                        - heading "2.1. Quadrotor Used as a Test Platform" [level=3] [ref=e308]
+                        - generic [ref=e309]:
+                          - text: The modeled UAV was a medium class, off-the-shelf M690A quadrotor (
+                          - link "Figure 1" [ref=e310] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f001"
+                          - text: ).
+                        - generic [ref=e311]:
+                          - generic [ref=e313] [cursor=pointer]:
+                            - img "Energies 15 07136 g001" [ref=e314]
+                            - link [ref=e315]:
+                              - /url: "#fig_body_display_energies-15-07136-f001"
+                          - generic [ref=e316]: Figure 1. The quadrotor used in the experiments (CAD model).
+                        - generic [ref=e317]:
+                          - text: The parameters of the quadrotor model were obtained by measurements and from the producer’s manual. The laboratory tests were initially aimed at estimation of the mass and geometry parameters of the quadrotor. Moments of inertia were measured experimentally using a trifilar pendulum (
+                          - link "Figure 2" [ref=e318] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f002"
+                          - text: ). The above-mentioned mass parameters were confirmed using a quadrotor 3D CAD model.
+                        - generic [ref=e319]:
+                          - generic [ref=e321] [cursor=pointer]:
+                            - img "Energies 15 07136 g002" [ref=e322]
+                            - link [ref=e323]:
+                              - /url: "#fig_body_display_energies-15-07136-f002"
+                          - generic [ref=e324]:
+                            - text: Figure 2. Moments of inertia measurements using trifilar pendulum (a)
+                            - generic [ref=e325]:
+                              - generic [ref=e332]:
+                                - generic [ref=e334]: 𝐼
+                                - generic [ref=e337]: 𝑥𝑥
+                              - math [ref=e338]:
+                                - generic [ref=e341]:
+                                  - generic [ref=e342]: I
+                                  - generic [ref=e343]:
+                                    - generic [ref=e344]: x
+                                    - generic [ref=e345]: x
+                            - text: (b)
+                            - generic [ref=e346]:
+                              - generic [ref=e353]:
+                                - generic [ref=e355]: 𝐼
+                                - generic [ref=e358]: 𝑦𝑦
+                              - math [ref=e359]:
+                                - generic [ref=e362]:
+                                  - generic [ref=e363]: I
+                                  - generic [ref=e364]:
+                                    - generic [ref=e365]: "y"
+                                    - generic [ref=e366]: "y"
+                            - text: (c)
+                            - generic [ref=e367]:
+                              - generic [ref=e374]:
+                                - generic [ref=e376]: 𝐼
+                                - generic [ref=e379]: 𝑧𝑧
+                              - math [ref=e380]:
+                                - generic [ref=e383]:
+                                  - generic [ref=e384]: I
+                                  - generic [ref=e385]:
+                                    - generic [ref=e386]: z
+                                    - generic [ref=e387]: z
+                            - text: .
+                        - generic [ref=e388]:
+                          - text: The resulting parameters are presented in
+                          - link "Table 1" [ref=e389] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t001"
+                          - text: .
+                        - generic [ref=e390]:
+                          - generic [ref=e391]: Table 1. Quadrotor parameters.
+                          - generic [ref=e393] [cursor=pointer]:
+                            - img [ref=e394]
+                            - link [ref=e395]:
+                              - /url: "#table_body_display_energies-15-07136-t001"
+                        - generic [ref=e396]:
+                          - text: Four brushless direct current electric motors (BLDC) directly drive carbon fiber propellers. The drone structure is highly integrated and optimized to achieve the maximum flight duration. It should be mentioned that the drone is able to fly continuously for more than one hour (please see
+                          - link "Table 1" [ref=e397] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t001"
+                          - text: ), which makes it suitable for inspecting large areas. The fuselage is composed of aluminum alloys to reduce its mass. The disadvantage of this design approach is that the replacement of individual components (e.g., motors) is quite difficult. The drone is equipped with an Orange Cube Flight Controller [
+                          - link "45" [ref=e398] [cursor=pointer]:
+                            - /url: "#B45-energies-15-07136"
+                          - text: "] containing several redundant measurement devices: ICM20948 (9 axis IMU: 3× accelerometers, 3× gyroscopes, 3× magnetometers), ICM20649 (6 axis IMU), ICM20602 (6 axis IMU), and two MS5611 barometric pressure sensors. The drone instrumentation also includes a Here 3 GPS GNSS module, RFD868x telemetry modem, and Raspberry Pi. The onboard equipment facilitates obtaining a set of data pertaining to the quadrotor state (e.g., drone velocity, position, angular rates, accelerations, Euler angles, battery parameters, etc.). The quadrotor is additionally equipped with a gimbaled digital camera."
+                      - generic [ref=e399]:
+                        - heading "2.2. Quadrotor Nonlinear Dynamic Model" [level=3] [ref=e400]
+                        - generic [ref=e401]: The quadrotor is modeled as a rigid body with six degrees of freedom and constant mass. The lift, thrust, and control forces and moments are produced by four rotors driven by the electric motors. The Earth’s rotation effects were omitted due to the short flight range.
+                        - generic [ref=e402]:
+                          - text: The quadrotor equations of motion are derived in the body coordinate system
+                          - generic [ref=e403]:
+                            - generic [ref=e409]:
+                              - generic [ref=e410]:
+                                - generic [ref=e411]: 𝑂
+                                - generic [ref=e412]: 𝑏
+                              - generic [ref=e413]:
+                                - generic [ref=e414]: 𝑥
+                                - generic [ref=e415]: 𝑏
+                              - generic [ref=e416]:
+                                - generic [ref=e417]: 𝑦
+                                - generic [ref=e418]: 𝑏
+                              - generic [ref=e419]:
+                                - generic [ref=e420]: 𝑧
+                                - generic [ref=e421]: 𝑏
+                            - math [ref=e422]:
+                              - generic [ref=e424]:
+                                - generic [ref=e425]:
+                                  - generic [ref=e426]: O
+                                  - generic [ref=e427]: b
+                                - generic [ref=e428]:
+                                  - generic [ref=e429]: x
+                                  - generic [ref=e430]: b
+                                - generic [ref=e431]:
+                                  - generic [ref=e432]: "y"
+                                  - generic [ref=e433]: b
+                                - generic [ref=e434]:
+                                  - generic [ref=e435]: z
+                                  - generic [ref=e436]: b
+                          - text: (
+                          - link "Figure 3" [ref=e437] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f003"
+                          - text: ) fixed to the airplane’s fuselage. The center
+                          - generic [ref=e438]:
+                            - generic [ref=e445]:
+                              - generic [ref=e446]: 𝑂
+                              - generic [ref=e447]: 𝑏
+                            - math [ref=e448]:
+                              - generic [ref=e451]:
+                                - generic [ref=e452]: O
+                                - generic [ref=e453]: b
+                          - text: of the system was placed at the UAV gravity center. The
+                          - generic [ref=e454]:
+                            - generic [ref=e460]:
+                              - generic [ref=e461]:
+                                - generic [ref=e462]: 𝑂
+                                - generic [ref=e463]: 𝑏
+                              - generic [ref=e464]:
+                                - generic [ref=e465]: 𝑥
+                                - generic [ref=e466]: 𝑏
+                            - math [ref=e467]:
+                              - generic [ref=e469]:
+                                - generic [ref=e470]:
+                                  - generic [ref=e471]: O
+                                  - generic [ref=e472]: b
+                                - generic [ref=e473]:
+                                  - generic [ref=e474]: x
+                                  - generic [ref=e475]: b
+                          - text: axis lays in the plane of quadrotor symmetry and was directed forward. The
+                          - generic [ref=e476]:
+                            - generic [ref=e482]:
+                              - generic [ref=e483]:
+                                - generic [ref=e484]: 𝑂
+                                - generic [ref=e485]: 𝑏
+                              - generic [ref=e486]:
+                                - generic [ref=e487]: 𝑦
+                                - generic [ref=e488]: 𝑏
+                            - math [ref=e489]:
+                              - generic [ref=e491]:
+                                - generic [ref=e492]:
+                                  - generic [ref=e493]: O
+                                  - generic [ref=e494]: b
+                                - generic [ref=e495]:
+                                  - generic [ref=e496]: "y"
+                                  - generic [ref=e497]: b
+                          - text: axis was perpendicular to the plane of symmetry and pointed right, while the
+                          - generic [ref=e498]:
+                            - generic [ref=e504]:
+                              - generic [ref=e505]:
+                                - generic [ref=e506]: 𝑂
+                                - generic [ref=e507]: 𝑏
+                              - generic [ref=e508]:
+                                - generic [ref=e509]: 𝑧
+                                - generic [ref=e510]: 𝑏
+                            - math [ref=e511]:
+                              - generic [ref=e513]:
+                                - generic [ref=e514]:
+                                  - generic [ref=e515]: O
+                                  - generic [ref=e516]: b
+                                - generic [ref=e517]:
+                                  - generic [ref=e518]: z
+                                  - generic [ref=e519]: b
+                          - text: axis pointed “down”.
+                        - generic [ref=e520]:
+                          - generic [ref=e522] [cursor=pointer]:
+                            - img "Energies 15 07136 g003" [ref=e523]
+                            - link [ref=e524]:
+                              - /url: "#fig_body_display_energies-15-07136-f003"
+                          - generic [ref=e525]: Figure 3. Coordinate systems overview.
+                        - generic [ref=e526]:
+                          - text: The translations and attitude angles were calculated in the inertial coordinate system
+                          - generic [ref=e527]:
+                            - generic [ref=e533]:
+                              - generic [ref=e534]:
+                                - generic [ref=e535]: 𝑂
+                                - generic [ref=e536]: 𝑛
+                              - generic [ref=e537]:
+                                - generic [ref=e538]: 𝑥
+                                - generic [ref=e539]: 𝑛
+                              - generic [ref=e540]:
+                                - generic [ref=e541]: 𝑦
+                                - generic [ref=e542]: 𝑛
+                              - generic [ref=e543]:
+                                - generic [ref=e544]: 𝑧
+                                - generic [ref=e545]: 𝑛
+                            - math [ref=e546]:
+                              - generic [ref=e548]:
+                                - generic [ref=e549]:
+                                  - generic [ref=e550]: O
+                                  - generic [ref=e551]: "n"
+                                - generic [ref=e552]:
+                                  - generic [ref=e553]: x
+                                  - generic [ref=e554]: "n"
+                                - generic [ref=e555]:
+                                  - generic [ref=e556]: "y"
+                                  - generic [ref=e557]: "n"
+                                - generic [ref=e558]:
+                                  - generic [ref=e559]: z
+                                  - generic [ref=e560]: "n"
+                          - text: ; the center of this system
+                          - generic [ref=e561]:
+                            - generic [ref=e568]:
+                              - generic [ref=e569]: 𝑂
+                              - generic [ref=e570]: 𝑛
+                            - math [ref=e571]:
+                              - generic [ref=e574]:
+                                - generic [ref=e575]: O
+                                - generic [ref=e576]: "n"
+                          - text: was placed at an arbitrary point on the earth surface. The
+                          - generic [ref=e577]:
+                            - generic [ref=e583]:
+                              - generic [ref=e584]:
+                                - generic [ref=e585]: 𝑂
+                                - generic [ref=e586]: 𝑛
+                              - generic [ref=e587]:
+                                - generic [ref=e588]: 𝑧
+                                - generic [ref=e589]: 𝑛
+                            - math [ref=e590]:
+                              - generic [ref=e592]:
+                                - generic [ref=e593]:
+                                  - generic [ref=e594]: O
+                                  - generic [ref=e595]: "n"
+                                - generic [ref=e596]:
+                                  - generic [ref=e597]: z
+                                  - generic [ref=e598]: "n"
+                          - text: axis was along the vector of gravity acceleration, and it pointed down. The
+                          - generic [ref=e599]:
+                            - generic [ref=e605]:
+                              - generic [ref=e606]:
+                                - generic [ref=e607]: 𝑂
+                                - generic [ref=e608]: 𝑛
+                              - generic [ref=e609]:
+                                - generic [ref=e610]: 𝑥
+                                - generic [ref=e611]: 𝑛
+                              - generic [ref=e612]:
+                                - generic [ref=e613]: 𝑧
+                                - generic [ref=e614]: 𝑛
+                            - math [ref=e615]:
+                              - generic [ref=e617]:
+                                - generic [ref=e618]:
+                                  - generic [ref=e619]: O
+                                  - generic [ref=e620]: "n"
+                                - generic [ref=e621]:
+                                  - generic [ref=e622]: x
+                                  - generic [ref=e623]: "n"
+                                - generic [ref=e624]:
+                                  - generic [ref=e625]: z
+                                  - generic [ref=e626]: "n"
+                          - text: plane was horizontal, tangent to the Earth’s surface, and the
+                          - generic [ref=e627]:
+                            - generic [ref=e633]:
+                              - generic [ref=e634]:
+                                - generic [ref=e635]: 𝑂
+                                - generic [ref=e636]: 𝑛
+                              - generic [ref=e637]:
+                                - generic [ref=e638]: 𝑥
+                                - generic [ref=e639]: 𝑛
+                            - math [ref=e640]:
+                              - generic [ref=e642]:
+                                - generic [ref=e643]:
+                                  - generic [ref=e644]: O
+                                  - generic [ref=e645]: "n"
+                                - generic [ref=e646]:
+                                  - generic [ref=e647]: x
+                                  - generic [ref=e648]: "n"
+                          - text: axis pointed to the north and
+                          - generic [ref=e649]:
+                            - generic [ref=e655]:
+                              - generic [ref=e656]:
+                                - generic [ref=e657]: 𝑂
+                                - generic [ref=e658]: 𝑛
+                              - generic [ref=e659]:
+                                - generic [ref=e660]: 𝑦
+                                - generic [ref=e661]: 𝑛
+                            - math [ref=e662]:
+                              - generic [ref=e664]:
+                                - generic [ref=e665]:
+                                  - generic [ref=e666]: O
+                                  - generic [ref=e667]: "n"
+                                - generic [ref=e668]:
+                                  - generic [ref=e669]: "y"
+                                  - generic [ref=e670]: "n"
+                          - text: the axis to the east.
+                        - generic [ref=e671]:
+                          - text: The vector
+                          - generic [ref=e672]:
+                            - generic [ref=e678]:
+                              - text: 𝒚=
+                              - generic [ref=e679]:
+                                - generic [ref=e682]:
+                                  - generic [ref=e683]: "["
+                                  - generic [ref=e685]:
+                                    - generic [ref=e691]:
+                                      - generic [ref=e692]: 𝑥
+                                      - generic [ref=e693]: 𝑛
+                                    - generic [ref=e699]:
+                                      - generic [ref=e700]: 𝑦
+                                      - generic [ref=e701]: 𝑛
+                                    - generic [ref=e707]:
+                                      - generic [ref=e708]: 𝑧
+                                      - generic [ref=e709]: 𝑛
+                                    - generic [ref=e714]: Φ
+                                    - generic [ref=e719]: Θ
+                                    - generic [ref=e724]: Ψ
+                                  - generic [ref=e725]: "]"
+                                - generic [ref=e727]: 𝑇
+                            - math [ref=e729]:
+                              - generic [ref=e731]:
+                                - generic [ref=e732]: "y"
+                                - generic [ref=e733]: =
+                                - generic [ref=e734]:
+                                  - generic [ref=e739]:
+                                    - generic [ref=e742]:
+                                      - generic [ref=e743]: x
+                                      - generic [ref=e744]: "n"
+                                    - generic [ref=e747]:
+                                      - generic [ref=e748]: "y"
+                                      - generic [ref=e749]: "n"
+                                    - generic [ref=e752]:
+                                      - generic [ref=e753]: z
+                                      - generic [ref=e754]: "n"
+                                    - generic [ref=e756]: Φ
+                                    - generic [ref=e758]: Θ
+                                    - generic [ref=e760]: Ψ
+                                  - generic [ref=e761]: T
+                          - text: defines the position and attitude of the quadrotor (
+                          - link "Figure 3" [ref=e762] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f003"
+                          - text: ). It is composed of the vector of the position
+                          - generic [ref=e763]:
+                            - generic [ref=e769]:
+                              - generic [ref=e770]:
+                                - generic [ref=e772]: 𝒓
+                                - generic [ref=e774]: 𝒏
+                              - text: =
+                              - generic [ref=e775]:
+                                - generic [ref=e778]:
+                                  - generic [ref=e779]: "["
+                                  - generic [ref=e781]:
+                                    - generic [ref=e787]:
+                                      - generic [ref=e788]: 𝑥
+                                      - generic [ref=e789]: 𝑛
+                                    - generic [ref=e795]:
+                                      - generic [ref=e796]: 𝑦
+                                      - generic [ref=e797]: 𝑛
+                                    - generic [ref=e803]:
+                                      - generic [ref=e804]: 𝑧
+                                      - generic [ref=e805]: 𝑛
+                                  - generic [ref=e806]: "]"
+                                - generic [ref=e808]: 𝑇
+                            - math [ref=e810]:
+                              - generic [ref=e812]:
+                                - generic [ref=e813]:
+                                  - generic [ref=e814]: r
+                                  - generic [ref=e815]: "n"
+                                - generic [ref=e816]: =
+                                - generic [ref=e817]:
+                                  - generic [ref=e822]:
+                                    - generic [ref=e825]:
+                                      - generic [ref=e826]: x
+                                      - generic [ref=e827]: "n"
+                                    - generic [ref=e830]:
+                                      - generic [ref=e831]: "y"
+                                      - generic [ref=e832]: "n"
+                                    - generic [ref=e835]:
+                                      - generic [ref=e836]: z
+                                      - generic [ref=e837]: "n"
+                                  - generic [ref=e838]: T
+                          - text: in the ground system of coordinates
+                          - generic [ref=e839]:
+                            - generic [ref=e845]:
+                              - generic [ref=e846]:
+                                - generic [ref=e847]: 𝑂
+                                - generic [ref=e848]: 𝑛
+                              - generic [ref=e849]:
+                                - generic [ref=e850]: 𝑥
+                                - generic [ref=e851]: 𝑛
+                              - generic [ref=e852]:
+                                - generic [ref=e853]: 𝑦
+                                - generic [ref=e854]: 𝑛
+                              - generic [ref=e855]:
+                                - generic [ref=e856]: 𝑧
+                                - generic [ref=e857]: 𝑛
+                            - math [ref=e858]:
+                              - generic [ref=e860]:
+                                - generic [ref=e861]:
+                                  - generic [ref=e862]: O
+                                  - generic [ref=e863]: "n"
+                                - generic [ref=e864]:
+                                  - generic [ref=e865]: x
+                                  - generic [ref=e866]: "n"
+                                - generic [ref=e867]:
+                                  - generic [ref=e868]: "y"
+                                  - generic [ref=e869]: "n"
+                                - generic [ref=e870]:
+                                  - generic [ref=e871]: z
+                                  - generic [ref=e872]: "n"
+                          - text: and roll
+                          - generic [ref=e873]:
+                            - generic [ref=e879]: Φ
+                            - math [ref=e880]:
+                              - generic [ref=e882]: Φ
+                          - text: ", pitch"
+                          - generic [ref=e883]:
+                            - generic [ref=e889]: Θ
+                            - math [ref=e890]:
+                              - generic [ref=e892]: Θ
+                          - text: ", and yaw"
+                          - generic [ref=e893]:
+                            - generic [ref=e899]: Ψ
+                            - math [ref=e900]:
+                              - generic [ref=e902]: Ψ
+                          - text: angles describe its attitude. The quadrotor state vector
+                          - generic [ref=e903]:
+                            - generic [ref=e909]:
+                              - text: 𝒙=
+                              - generic [ref=e910]:
+                                - generic [ref=e913]:
+                                  - generic [ref=e914]: "["
+                                  - generic [ref=e916]:
+                                    - generic [ref=e920]: 𝒗
+                                    - generic [ref=e924]: 𝝎
+                                  - generic [ref=e925]: "]"
+                                - generic [ref=e927]: 𝑇
+                            - math [ref=e929]:
+                              - generic [ref=e931]:
+                                - generic [ref=e932]: x
+                                - generic [ref=e933]: =
+                                - generic [ref=e934]:
+                                  - generic [ref=e939]:
+                                    - generic [ref=e941]: v
+                                    - generic [ref=e943]: ω
+                                  - generic [ref=e944]: T
+                          - text: is composed of linear velocity
+                          - generic [ref=e945]:
+                            - generic [ref=e951]:
+                              - text: 𝒗=
+                              - generic [ref=e952]:
+                                - generic [ref=e955]:
+                                  - generic [ref=e956]: "["
+                                  - generic [ref=e958]:
+                                    - generic [ref=e963]: 𝑈
+                                    - generic [ref=e969]: 𝑉
+                                    - generic [ref=e975]: 𝑊
+                                  - generic [ref=e977]: "]"
+                                - generic [ref=e979]: 𝑇
+                            - math [ref=e981]:
+                              - generic [ref=e983]:
+                                - generic [ref=e984]: v
+                                - generic [ref=e985]: =
+                                - generic [ref=e986]:
+                                  - generic [ref=e991]:
+                                    - generic [ref=e993]: U
+                                    - generic [ref=e995]: V
+                                    - generic [ref=e997]: W
+                                  - generic [ref=e998]: T
+                          - text: and angular rate
+                          - generic [ref=e999]:
+                            - generic [ref=e1005]:
+                              - text: 𝝎=
+                              - generic [ref=e1006]:
+                                - generic [ref=e1009]:
+                                  - generic [ref=e1010]: "["
+                                  - generic [ref=e1012]:
+                                    - generic [ref=e1016]: 𝑃
+                                    - generic [ref=e1020]: 𝑄
+                                    - generic [ref=e1024]: 𝑅
+                                  - generic [ref=e1025]: "]"
+                                - generic [ref=e1027]: 𝑇
+                            - math [ref=e1029]:
+                              - generic [ref=e1031]:
+                                - generic [ref=e1032]: ω
+                                - generic [ref=e1033]: =
+                                - generic [ref=e1034]:
+                                  - generic [ref=e1039]:
+                                    - generic [ref=e1041]: P
+                                    - generic [ref=e1043]: Q
+                                    - generic [ref=e1045]: R
+                                  - generic [ref=e1046]: T
+                          - text: components.
+                        - generic [ref=e1047]:
+                          - text: "The vectors of quadrotor states, position, and attitude are related by the following kinematic equation:"
+                          - generic [ref=e1048]:
+                            - generic [ref=e1051]:
+                              - generic [ref=e1057]:
+                                - generic [ref=e1058]:
+                                  - generic [ref=e1059]: 𝒚
+                                  - generic [ref=e1060]: ˙
+                                - text: =
+                                - generic [ref=e1061]: 𝑻
+                                - text: 𝒙.
+                              - math [ref=e1063]:
+                                - generic [ref=e1065]:
+                                  - generic [ref=e1066]:
+                                    - generic [ref=e1067]: "y"
+                                    - generic [ref=e1068]: ˙
+                                  - generic [ref=e1069]: =
+                                  - generic [ref=e1070]: T
+                                  - generic [ref=e1071]: x
+                                  - generic [ref=e1072]: .
+                            - generic [ref=e1074]: (1)
+                        - generic [ref=e1075]:
+                          - text: The matrix
+                          - generic [ref=e1076]:
+                            - generic [ref=e1082]: 𝑻
+                            - math [ref=e1084]:
+                              - generic [ref=e1086]: T
+                          - text: "is composed of two matrices:"
+                          - generic [ref=e1087]:
+                            - generic [ref=e1094]:
+                              - generic [ref=e1096]: 𝑻
+                              - generic [ref=e1099]: 𝑽
+                            - math [ref=e1101]:
+                              - generic [ref=e1104]:
+                                - generic [ref=e1105]: T
+                                - generic [ref=e1106]: V
+                          - text: relating to velocities and
+                          - generic [ref=e1107]:
+                            - generic [ref=e1114]:
+                              - generic [ref=e1116]: 𝑻
+                              - generic [ref=e1118]: 𝜴
+                            - math [ref=e1119]:
+                              - generic [ref=e1122]:
+                                - generic [ref=e1123]: T
+                                - generic [ref=e1124]: Ω
+                          - text: "relating to angular rates:"
+                          - generic [ref=e1125]:
+                            - generic [ref=e1128]:
+                              - generic [ref=e1134]:
+                                - generic [ref=e1135]: 𝑻
+                                - text: =
+                                - generic [ref=e1137]:
+                                  - generic [ref=e1138]: "["
+                                  - generic [ref=e1140]:
+                                    - generic [ref=e1141]:
+                                      - generic [ref=e1146]:
+                                        - generic [ref=e1148]: 𝑻
+                                        - generic [ref=e1151]: 𝑽
+                                      - generic [ref=e1155]: 𝟎
+                                    - generic [ref=e1156]:
+                                      - generic [ref=e1159]: 𝟎
+                                      - generic [ref=e1164]:
+                                        - generic [ref=e1166]: 𝑻
+                                        - generic [ref=e1168]: 𝜴
+                                  - generic [ref=e1169]: "]"
+                                - text: ","
+                              - math [ref=e1170]:
+                                - generic [ref=e1172]:
+                                  - generic [ref=e1173]: T
+                                  - generic [ref=e1174]: =
+                                  - generic [ref=e1177]:
+                                    - generic [ref=e1178]:
+                                      - generic [ref=e1181]:
+                                        - generic [ref=e1182]: T
+                                        - generic [ref=e1183]: V
+                                      - generic [ref=e1185]: "0"
+                                    - generic [ref=e1186]:
+                                      - generic [ref=e1188]: "0"
+                                      - generic [ref=e1191]:
+                                        - generic [ref=e1192]: T
+                                        - generic [ref=e1193]: Ω
+                                  - generic [ref=e1194]: ","
+                            - generic [ref=e1196]: (2)
+                          - text: where [
+                          - link "46" [ref=e1197] [cursor=pointer]:
+                            - /url: "#B46-energies-15-07136"
+                          - text: ","
+                          - link "47" [ref=e1198] [cursor=pointer]:
+                            - /url: "#B47-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e1199]:
+                            - generic [ref=e1202]:
+                              - generic [ref=e1208]:
+                                - generic [ref=e1209]:
+                                  - generic [ref=e1211]: 𝑻
+                                  - generic [ref=e1214]: 𝑽
+                                - text: =
+                                - generic [ref=e1216]:
+                                  - generic [ref=e1217]:
+                                    - generic [ref=e1218]: ⎡
+                                    - generic [ref=e1219]: ⎣
+                                    - generic [ref=e1220]: ⎢
+                                    - generic [ref=e1221]: ⎢
+                                  - generic [ref=e1223]:
+                                    - generic [ref=e1224]:
+                                      - generic [ref=e1228]:
+                                        - text: cos
+                                        - generic [ref=e1229]: Θ
+                                        - text: cos
+                                        - generic [ref=e1230]: Ψ
+                                      - generic [ref=e1234]:
+                                        - text: cos
+                                        - generic [ref=e1235]: Θ
+                                        - text: sin
+                                        - generic [ref=e1236]: Ψ
+                                      - generic [ref=e1240]:
+                                        - text: −sin
+                                        - generic [ref=e1241]: Θ
+                                    - generic [ref=e1242]:
+                                      - generic [ref=e1246]:
+                                        - text: sin
+                                        - generic [ref=e1247]: Φ
+                                        - text: sin
+                                        - generic [ref=e1248]: Θ
+                                        - text: cos
+                                        - generic [ref=e1249]: Ψ
+                                        - text: −cos
+                                        - generic [ref=e1250]: Φ
+                                        - text: sin
+                                        - generic [ref=e1251]: Ψ
+                                      - generic [ref=e1255]:
+                                        - text: sin
+                                        - generic [ref=e1256]: Φ
+                                        - text: sin
+                                        - generic [ref=e1257]: Θ
+                                        - text: sin
+                                        - generic [ref=e1258]: Ψ
+                                        - text: +cos
+                                        - generic [ref=e1259]: Φ
+                                        - text: cos
+                                        - generic [ref=e1260]: Ψ
+                                      - generic [ref=e1264]:
+                                        - text: sin
+                                        - generic [ref=e1265]: Φ
+                                        - text: cos
+                                        - generic [ref=e1266]: Θ
+                                    - generic [ref=e1267]:
+                                      - generic [ref=e1271]:
+                                        - text: cos
+                                        - generic [ref=e1272]: Φ
+                                        - text: sin
+                                        - generic [ref=e1273]: Θ
+                                        - text: cos
+                                        - generic [ref=e1274]: Ψ
+                                        - text: +sin
+                                        - generic [ref=e1275]: Φ
+                                        - text: sin
+                                        - generic [ref=e1276]: Ψ
+                                      - generic [ref=e1280]:
+                                        - text: cos
+                                        - generic [ref=e1281]: Φ
+                                        - text: sin
+                                        - generic [ref=e1282]: Θ
+                                        - text: sin
+                                        - generic [ref=e1283]: Ψ
+                                        - text: −sin
+                                        - generic [ref=e1284]: Φ
+                                        - text: cos
+                                        - generic [ref=e1285]: Ψ
+                                      - generic [ref=e1289]:
+                                        - text: cos
+                                        - generic [ref=e1290]: Φ
+                                        - text: cos
+                                        - generic [ref=e1291]: Θ
+                                  - generic [ref=e1292]:
+                                    - generic [ref=e1293]: ⎤
+                                    - generic [ref=e1294]: ⎦
+                                    - generic [ref=e1295]: ⎥
+                                    - generic [ref=e1296]: ⎥
+                                - text: ","
+                              - math [ref=e1297]:
+                                - generic [ref=e1299]:
+                                  - generic [ref=e1300]:
+                                    - generic [ref=e1301]: T
+                                    - generic [ref=e1302]: V
+                                  - generic [ref=e1303]: =
+                                  - generic [ref=e1306]:
+                                    - generic [ref=e1307]:
+                                      - generic [ref=e1309]:
+                                        - generic [ref=e1310]: cos
+                                        - generic [ref=e1311]: Θ
+                                        - generic [ref=e1312]: cos
+                                        - generic [ref=e1313]: Ψ
+                                      - generic [ref=e1315]:
+                                        - generic [ref=e1316]: sin
+                                        - generic [ref=e1317]: Φ
+                                        - generic [ref=e1318]: sin
+                                        - generic [ref=e1319]: Θ
+                                        - generic [ref=e1320]: cos
+                                        - generic [ref=e1321]: Ψ
+                                        - generic [ref=e1322]: −
+                                        - generic [ref=e1323]: cos
+                                        - generic [ref=e1324]: Φ
+                                        - generic [ref=e1325]: sin
+                                        - generic [ref=e1326]: Ψ
+                                      - generic [ref=e1328]:
+                                        - generic [ref=e1329]: cos
+                                        - generic [ref=e1330]: Φ
+                                        - generic [ref=e1331]: sin
+                                        - generic [ref=e1332]: Θ
+                                        - generic [ref=e1333]: cos
+                                        - generic [ref=e1334]: Ψ
+                                        - generic [ref=e1335]: +
+                                        - generic [ref=e1336]: sin
+                                        - generic [ref=e1337]: Φ
+                                        - generic [ref=e1338]: sin
+                                        - generic [ref=e1339]: Ψ
+                                    - generic [ref=e1340]:
+                                      - generic [ref=e1342]:
+                                        - generic [ref=e1343]: cos
+                                        - generic [ref=e1344]: Θ
+                                        - generic [ref=e1345]: sin
+                                        - generic [ref=e1346]: Ψ
+                                      - generic [ref=e1348]:
+                                        - generic [ref=e1349]: sin
+                                        - generic [ref=e1350]: Φ
+                                        - generic [ref=e1351]: sin
+                                        - generic [ref=e1352]: Θ
+                                        - generic [ref=e1353]: sin
+                                        - generic [ref=e1354]: Ψ
+                                        - generic [ref=e1355]: +
+                                        - generic [ref=e1356]: cos
+                                        - generic [ref=e1357]: Φ
+                                        - generic [ref=e1358]: cos
+                                        - generic [ref=e1359]: Ψ
+                                      - generic [ref=e1361]:
+                                        - generic [ref=e1362]: cos
+                                        - generic [ref=e1363]: Φ
+                                        - generic [ref=e1364]: sin
+                                        - generic [ref=e1365]: Θ
+                                        - generic [ref=e1366]: sin
+                                        - generic [ref=e1367]: Ψ
+                                        - generic [ref=e1368]: −
+                                        - generic [ref=e1369]: sin
+                                        - generic [ref=e1370]: Φ
+                                        - generic [ref=e1371]: cos
+                                        - generic [ref=e1372]: Ψ
+                                    - generic [ref=e1373]:
+                                      - generic [ref=e1375]:
+                                        - generic [ref=e1376]: −
+                                        - generic [ref=e1377]: sin
+                                        - generic [ref=e1378]: Θ
+                                      - generic [ref=e1380]:
+                                        - generic [ref=e1381]: sin
+                                        - generic [ref=e1382]: Φ
+                                        - generic [ref=e1383]: cos
+                                        - generic [ref=e1384]: Θ
+                                      - generic [ref=e1386]:
+                                        - generic [ref=e1387]: cos
+                                        - generic [ref=e1388]: Φ
+                                        - generic [ref=e1389]: cos
+                                        - generic [ref=e1390]: Θ
+                                  - generic [ref=e1391]: ","
+                            - generic [ref=e1393]: (3)
+                          - text: and [
+                          - link "46" [ref=e1394] [cursor=pointer]:
+                            - /url: "#B46-energies-15-07136"
+                          - text: ","
+                          - link "47" [ref=e1395] [cursor=pointer]:
+                            - /url: "#B47-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e1396]:
+                            - generic [ref=e1399]:
+                              - generic [ref=e1405]:
+                                - generic [ref=e1406]:
+                                  - generic [ref=e1408]: 𝑻
+                                  - generic [ref=e1410]: 𝜴
+                                - text: =
+                                - generic [ref=e1411]:
+                                  - generic [ref=e1412]:
+                                    - generic [ref=e1413]: ⎡
+                                    - generic [ref=e1414]: ⎣
+                                    - generic [ref=e1415]: ⎢
+                                    - generic [ref=e1416]: ⎢
+                                  - generic [ref=e1418]:
+                                    - generic [ref=e1419]:
+                                      - generic [ref=e1422]: "1"
+                                      - generic [ref=e1425]: "0"
+                                      - generic [ref=e1428]: "0"
+                                    - generic [ref=e1429]:
+                                      - generic [ref=e1433]:
+                                        - text: sin
+                                        - generic [ref=e1434]: Φ
+                                        - text: tan
+                                        - generic [ref=e1435]: Θ
+                                      - generic [ref=e1439]:
+                                        - text: cos
+                                        - generic [ref=e1440]: Φ
+                                      - generic [ref=e1444]:
+                                        - text: sin
+                                        - generic [ref=e1445]: Φ
+                                        - text: sec
+                                        - generic [ref=e1446]: Θ
+                                    - generic [ref=e1447]:
+                                      - generic [ref=e1451]:
+                                        - text: cos
+                                        - generic [ref=e1452]: Φ
+                                        - text: tan
+                                        - generic [ref=e1453]: Θ
+                                      - generic [ref=e1457]:
+                                        - text: −sin
+                                        - generic [ref=e1458]: Φ
+                                      - generic [ref=e1462]:
+                                        - text: cos
+                                        - generic [ref=e1463]: Φ
+                                        - text: sec
+                                        - generic [ref=e1464]: Θ
+                                  - generic [ref=e1465]:
+                                    - generic [ref=e1466]: ⎤
+                                    - generic [ref=e1467]: ⎦
+                                    - generic [ref=e1468]: ⎥
+                                    - generic [ref=e1469]: ⎥
+                                - text: .
+                              - math [ref=e1470]:
+                                - generic [ref=e1472]:
+                                  - generic [ref=e1473]:
+                                    - generic [ref=e1474]: T
+                                    - generic [ref=e1475]: Ω
+                                  - generic [ref=e1476]: =
+                                  - generic [ref=e1479]:
+                                    - generic [ref=e1480]:
+                                      - generic [ref=e1482]: "1"
+                                      - generic [ref=e1484]:
+                                        - generic [ref=e1485]: sin
+                                        - generic [ref=e1486]: Φ
+                                        - generic [ref=e1487]: tan
+                                        - generic [ref=e1488]: Θ
+                                      - generic [ref=e1490]:
+                                        - generic [ref=e1491]: cos
+                                        - generic [ref=e1492]: Φ
+                                        - generic [ref=e1493]: tan
+                                        - generic [ref=e1494]: Θ
+                                    - generic [ref=e1495]:
+                                      - generic [ref=e1497]: "0"
+                                      - generic [ref=e1499]:
+                                        - generic [ref=e1500]: cos
+                                        - generic [ref=e1501]: Φ
+                                      - generic [ref=e1503]:
+                                        - generic [ref=e1504]: −
+                                        - generic [ref=e1505]: sin
+                                        - generic [ref=e1506]: Φ
+                                    - generic [ref=e1507]:
+                                      - generic [ref=e1509]: "0"
+                                      - generic [ref=e1511]:
+                                        - generic [ref=e1512]: sin
+                                        - generic [ref=e1513]: Φ
+                                        - generic [ref=e1514]: sec
+                                        - generic [ref=e1515]: Θ
+                                      - generic [ref=e1517]:
+                                        - generic [ref=e1518]: cos
+                                        - generic [ref=e1519]: Φ
+                                        - generic [ref=e1520]: sec
+                                        - generic [ref=e1521]: Θ
+                                  - generic [ref=e1522]: .
+                            - generic [ref=e1524]: (4)
+                        - generic [ref=e1525]:
+                          - text: The quadrotor equations of motion were obtained by summing up the forces and moments from inertia, gravity
+                          - generic [ref=e1526]:
+                            - generic [ref=e1533]:
+                              - generic [ref=e1535]: 𝒇
+                              - generic [ref=e1537]: 𝐺
+                            - math [ref=e1538]:
+                              - generic [ref=e1541]:
+                                - generic [ref=e1542]: f
+                                - generic [ref=e1543]: G
+                          - text: ", aerodynamic"
+                          - generic [ref=e1544]:
+                            - generic [ref=e1551]:
+                              - generic [ref=e1553]: 𝒇
+                              - generic [ref=e1555]: 𝐴
+                            - math [ref=e1556]:
+                              - generic [ref=e1559]:
+                                - generic [ref=e1560]: f
+                                - generic [ref=e1561]: A
+                          - text: ", and rotor"
+                          - generic [ref=e1562]:
+                            - generic [ref=e1569]:
+                              - generic [ref=e1571]: 𝒇
+                              - generic [ref=e1573]: 𝑅
+                            - math [ref=e1574]:
+                              - generic [ref=e1577]:
+                                - generic [ref=e1578]: f
+                                - generic [ref=e1579]: R
+                          - text: loads [
+                          - link "47" [ref=e1580] [cursor=pointer]:
+                            - /url: "#B47-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e1581]:
+                            - generic [ref=e1584]:
+                              - generic [ref=e1590]:
+                                - text: 𝑨
+                                - generic [ref=e1591]:
+                                  - generic [ref=e1592]: 𝒙
+                                  - generic [ref=e1593]: ˙
+                                - text: +𝑩
+                                - generic [ref=e1594]:
+                                  - generic [ref=e1595]: (
+                                  - text: 𝒙
+                                  - generic [ref=e1596]: )
+                                - text: 𝒙=
+                                - generic [ref=e1597]:
+                                  - generic [ref=e1599]: 𝒇
+                                  - generic [ref=e1601]: 𝑮
+                                - generic [ref=e1602]:
+                                  - generic [ref=e1603]: (
+                                  - text: 𝒚
+                                  - generic [ref=e1604]: )
+                                - text: +
+                                - generic [ref=e1605]:
+                                  - generic [ref=e1607]: 𝒇
+                                  - generic [ref=e1609]: 𝑨
+                                - generic [ref=e1610]:
+                                  - generic [ref=e1611]: (
+                                  - generic [ref=e1612]: 𝒙,𝒚
+                                  - generic [ref=e1613]: )
+                                - text: +
+                                - generic [ref=e1614]:
+                                  - generic [ref=e1616]: 𝒇
+                                  - generic [ref=e1618]: 𝑹
+                                - generic [ref=e1619]:
+                                  - generic [ref=e1620]: (
+                                  - generic [ref=e1621]:
+                                    - text: 𝒙,𝒚,
+                                    - generic [ref=e1622]:
+                                      - generic [ref=e1623]: 𝜴
+                                      - generic [ref=e1624]: 𝑹
+                                  - generic [ref=e1625]: )
+                                - text: ","
+                              - math [ref=e1626]:
+                                - generic [ref=e1628]:
+                                  - generic [ref=e1629]: A
+                                  - generic [ref=e1630]:
+                                    - generic [ref=e1631]: x
+                                    - generic [ref=e1632]: ˙
+                                  - generic [ref=e1633]: +
+                                  - generic [ref=e1634]: B
+                                  - generic [ref=e1636]: x
+                                  - generic [ref=e1637]: x
+                                  - generic [ref=e1638]: =
+                                  - generic [ref=e1639]:
+                                    - generic [ref=e1640]: f
+                                    - generic [ref=e1641]: G
+                                  - generic [ref=e1643]: "y"
+                                  - generic [ref=e1644]: +
+                                  - generic [ref=e1645]:
+                                    - generic [ref=e1646]: f
+                                    - generic [ref=e1647]: A
+                                  - generic [ref=e1649]:
+                                    - generic [ref=e1650]: x
+                                    - generic [ref=e1651]: ","
+                                    - generic [ref=e1652]: "y"
+                                  - generic [ref=e1653]: +
+                                  - generic [ref=e1654]:
+                                    - generic [ref=e1655]: f
+                                    - generic [ref=e1656]: R
+                                  - generic [ref=e1658]:
+                                    - generic [ref=e1659]: x
+                                    - generic [ref=e1660]: ","
+                                    - generic [ref=e1661]: "y"
+                                    - generic [ref=e1662]: ","
+                                    - generic [ref=e1663]:
+                                      - generic [ref=e1664]: Ω
+                                      - generic [ref=e1665]: R
+                                  - generic [ref=e1666]: ","
+                            - generic [ref=e1668]: (5)
+                          - text: where
+                          - generic [ref=e1669]:
+                            - generic [ref=e1676]:
+                              - generic [ref=e1677]: 𝜴
+                              - generic [ref=e1678]: 𝑹
+                            - math [ref=e1679]:
+                              - generic [ref=e1682]:
+                                - generic [ref=e1683]: Ω
+                                - generic [ref=e1684]: R
+                          - text: is the vector of the angular velocity of the rotors.
+                        - generic [ref=e1685]:
+                          - text: Matrix
+                          - generic [ref=e1686]:
+                            - generic [ref=e1691]: 𝑨
+                            - math [ref=e1692]:
+                              - generic [ref=e1694]: A
+                          - text: describes the inertia properties of the quadrotor, and matrix
+                          - generic [ref=e1695]:
+                            - generic [ref=e1701]:
+                              - text: 𝑩
+                              - generic [ref=e1702]:
+                                - generic [ref=e1703]: (
+                                - text: 𝒙
+                                - generic [ref=e1704]: )
+                              - text: =𝜴
+                              - generic [ref=e1705]:
+                                - generic [ref=e1706]: (
+                                - text: 𝒙
+                                - generic [ref=e1707]: )
+                              - text: 𝑨
+                            - math [ref=e1708]:
+                              - generic [ref=e1710]:
+                                - generic [ref=e1711]: B
+                                - generic [ref=e1713]: x
+                                - generic [ref=e1714]: =
+                                - generic [ref=e1715]: Ω
+                                - generic [ref=e1717]: x
+                                - generic [ref=e1718]: A
+                          - text: results from the inertia loads not depending on accelerations [
+                          - link "47" [ref=e1719] [cursor=pointer]:
+                            - /url: "#B47-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e1720]:
+                            - generic [ref=e1723]:
+                              - generic [ref=e1731]:
+                                - generic [ref=e1735]:
+                                  - text: 𝑨=
+                                  - generic [ref=e1736]:
+                                    - generic [ref=e1737]:
+                                      - generic [ref=e1738]: ⎡
+                                      - generic [ref=e1739]: ⎣
+                                      - generic [ref=e1740]: ⎢
+                                      - generic [ref=e1741]: ⎢
+                                      - generic [ref=e1742]: ⎢
+                                      - generic [ref=e1743]: ⎢
+                                      - generic [ref=e1744]: ⎢
+                                      - generic [ref=e1745]: ⎢
+                                      - generic [ref=e1746]: ⎢
+                                      - generic [ref=e1747]: ⎢
+                                      - generic [ref=e1748]: ⎢
+                                    - generic [ref=e1750]:
+                                      - generic [ref=e1751]:
+                                        - generic [ref=e1754]: 𝑚
+                                        - generic [ref=e1757]: "0"
+                                        - generic [ref=e1760]: "0"
+                                        - generic [ref=e1763]: "0"
+                                        - generic [ref=e1766]: "0"
+                                        - generic [ref=e1769]: "0"
+                                      - generic [ref=e1770]:
+                                        - generic [ref=e1773]: "0"
+                                        - generic [ref=e1776]: 𝑚
+                                        - generic [ref=e1779]: "0"
+                                        - generic [ref=e1782]: "0"
+                                        - generic [ref=e1785]: "0"
+                                        - generic [ref=e1788]: "0"
+                                      - generic [ref=e1789]:
+                                        - generic [ref=e1792]: "0"
+                                        - generic [ref=e1795]: "0"
+                                        - generic [ref=e1798]: 𝑚
+                                        - generic [ref=e1801]: "0"
+                                        - generic [ref=e1804]: "0"
+                                        - generic [ref=e1807]: "0"
+                                      - generic [ref=e1808]:
+                                        - generic [ref=e1811]: "0"
+                                        - generic [ref=e1814]: "0"
+                                        - generic [ref=e1817]: "0"
+                                        - generic [ref=e1822]:
+                                          - generic [ref=e1824]: 𝐼
+                                          - generic [ref=e1826]: 𝑥
+                                        - generic [ref=e1830]:
+                                          - text: −
+                                          - generic [ref=e1831]:
+                                            - generic [ref=e1833]: 𝐼
+                                            - generic [ref=e1836]: 𝑥𝑦
+                                        - generic [ref=e1840]:
+                                          - text: −
+                                          - generic [ref=e1841]:
+                                            - generic [ref=e1843]: 𝐼
+                                            - generic [ref=e1846]: 𝑥𝑧
+                                      - generic [ref=e1847]:
+                                        - generic [ref=e1850]: "0"
+                                        - generic [ref=e1853]: "0"
+                                        - generic [ref=e1856]: "0"
+                                        - generic [ref=e1860]:
+                                          - text: −
+                                          - generic [ref=e1861]:
+                                            - generic [ref=e1863]: 𝐼
+                                            - generic [ref=e1866]: 𝑥𝑦
+                                        - generic [ref=e1871]:
+                                          - generic [ref=e1873]: 𝐼
+                                          - generic [ref=e1875]: 𝑦
+                                        - generic [ref=e1879]:
+                                          - text: −
+                                          - generic [ref=e1880]:
+                                            - generic [ref=e1882]: 𝐼
+                                            - generic [ref=e1885]: 𝑦𝑧
+                                      - generic [ref=e1886]:
+                                        - generic [ref=e1889]: "0"
+                                        - generic [ref=e1892]: "0"
+                                        - generic [ref=e1895]: "0"
+                                        - generic [ref=e1899]:
+                                          - text: −
+                                          - generic [ref=e1900]:
+                                            - generic [ref=e1902]: 𝐼
+                                            - generic [ref=e1905]: 𝑥𝑧
+                                        - generic [ref=e1909]:
+                                          - text: −
+                                          - generic [ref=e1910]:
+                                            - generic [ref=e1912]: 𝐼
+                                            - generic [ref=e1915]: 𝑦𝑧
+                                        - generic [ref=e1920]:
+                                          - generic [ref=e1922]: 𝐼
+                                          - generic [ref=e1924]: 𝑧
+                                    - generic [ref=e1925]:
+                                      - generic [ref=e1926]: ⎤
+                                      - generic [ref=e1927]: ⎦
+                                      - generic [ref=e1928]: ⎥
+                                      - generic [ref=e1929]: ⎥
+                                      - generic [ref=e1930]: ⎥
+                                      - generic [ref=e1931]: ⎥
+                                      - generic [ref=e1932]: ⎥
+                                      - generic [ref=e1933]: ⎥
+                                      - generic [ref=e1934]: ⎥
+                                      - generic [ref=e1935]: ⎥
+                                      - generic [ref=e1936]: ⎥
+                                  - text: ","
+                                - generic [ref=e1940]:
+                                  - text: 𝜴
+                                  - generic [ref=e1941]:
+                                    - generic [ref=e1942]: (
+                                    - text: 𝒙
+                                    - generic [ref=e1943]: )
+                                  - text: =
+                                  - generic [ref=e1944]:
+                                    - generic [ref=e1945]:
+                                      - generic [ref=e1946]: ⎡
+                                      - generic [ref=e1947]: ⎣
+                                      - generic [ref=e1948]: ⎢
+                                      - generic [ref=e1949]: ⎢
+                                      - generic [ref=e1950]: ⎢
+                                      - generic [ref=e1951]: ⎢
+                                      - generic [ref=e1952]: ⎢
+                                      - generic [ref=e1953]: ⎢
+                                      - generic [ref=e1954]: ⎢
+                                      - generic [ref=e1955]: ⎢
+                                    - generic [ref=e1957]:
+                                      - generic [ref=e1958]:
+                                        - generic [ref=e1961]: "0"
+                                        - generic [ref=e1964]: 𝑅
+                                        - generic [ref=e1968]: −𝑄
+                                        - generic [ref=e1971]: "0"
+                                        - generic [ref=e1975]: 𝑊
+                                        - generic [ref=e1980]:
+                                          - text: −
+                                          - generic [ref=e1981]: 𝑉
+                                      - generic [ref=e1983]:
+                                        - generic [ref=e1987]: −𝑅
+                                        - generic [ref=e1990]: "0"
+                                        - generic [ref=e1993]: 𝑃
+                                        - generic [ref=e1997]:
+                                          - text: −
+                                          - generic [ref=e1998]: 𝑊
+                                        - generic [ref=e2002]: "0"
+                                        - generic [ref=e2006]: 𝑈
+                                      - generic [ref=e2008]:
+                                        - generic [ref=e2011]: 𝑄
+                                        - generic [ref=e2015]: −𝑃
+                                        - generic [ref=e2018]: "0"
+                                        - generic [ref=e2022]: 𝑉
+                                        - generic [ref=e2027]:
+                                          - text: −
+                                          - generic [ref=e2028]: 𝑈
+                                        - generic [ref=e2032]: "0"
+                                      - generic [ref=e2033]:
+                                        - generic [ref=e2036]: "0"
+                                        - generic [ref=e2039]: "0"
+                                        - generic [ref=e2042]: "0"
+                                        - generic [ref=e2045]: "0"
+                                        - generic [ref=e2048]: 𝑅
+                                        - generic [ref=e2052]: −𝑄
+                                      - generic [ref=e2053]:
+                                        - generic [ref=e2056]: "0"
+                                        - generic [ref=e2059]: "0"
+                                        - generic [ref=e2062]: "0"
+                                        - generic [ref=e2066]: −𝑅
+                                        - generic [ref=e2069]: "0"
+                                        - generic [ref=e2072]: 𝑃
+                                      - generic [ref=e2073]:
+                                        - generic [ref=e2076]: "0"
+                                        - generic [ref=e2079]: "0"
+                                        - generic [ref=e2082]: "0"
+                                        - generic [ref=e2085]: 𝑄
+                                        - generic [ref=e2089]: −𝑃
+                                        - generic [ref=e2092]: "0"
+                                    - generic [ref=e2093]:
+                                      - generic [ref=e2094]: ⎤
+                                      - generic [ref=e2095]: ⎦
+                                      - generic [ref=e2096]: ⎥
+                                      - generic [ref=e2097]: ⎥
+                                      - generic [ref=e2098]: ⎥
+                                      - generic [ref=e2099]: ⎥
+                                      - generic [ref=e2100]: ⎥
+                                      - generic [ref=e2101]: ⎥
+                                      - generic [ref=e2102]: ⎥
+                                      - generic [ref=e2103]: ⎥
+                                  - text: ","
+                              - math [ref=e2104]:
+                                - generic [ref=e2107]:
+                                  - generic [ref=e2110]:
+                                    - generic [ref=e2111]: A
+                                    - generic [ref=e2112]: =
+                                    - generic [ref=e2115]:
+                                      - generic [ref=e2116]:
+                                        - generic [ref=e2118]: m
+                                        - generic [ref=e2120]: "0"
+                                        - generic [ref=e2122]: "0"
+                                        - generic [ref=e2124]: "0"
+                                        - generic [ref=e2126]: "0"
+                                        - generic [ref=e2128]: "0"
+                                      - generic [ref=e2129]:
+                                        - generic [ref=e2131]: "0"
+                                        - generic [ref=e2133]: m
+                                        - generic [ref=e2135]: "0"
+                                        - generic [ref=e2137]: "0"
+                                        - generic [ref=e2139]: "0"
+                                        - generic [ref=e2141]: "0"
+                                      - generic [ref=e2142]:
+                                        - generic [ref=e2144]: "0"
+                                        - generic [ref=e2146]: "0"
+                                        - generic [ref=e2148]: m
+                                        - generic [ref=e2150]: "0"
+                                        - generic [ref=e2152]: "0"
+                                        - generic [ref=e2154]: "0"
+                                      - generic [ref=e2155]:
+                                        - generic [ref=e2157]: "0"
+                                        - generic [ref=e2159]: "0"
+                                        - generic [ref=e2161]: "0"
+                                        - generic [ref=e2164]:
+                                          - generic [ref=e2165]: I
+                                          - generic [ref=e2166]: x
+                                        - generic [ref=e2168]:
+                                          - generic [ref=e2169]: −
+                                          - generic [ref=e2170]:
+                                            - generic [ref=e2171]: I
+                                            - generic [ref=e2172]:
+                                              - generic [ref=e2173]: x
+                                              - generic [ref=e2174]: "y"
+                                        - generic [ref=e2176]:
+                                          - generic [ref=e2177]: −
+                                          - generic [ref=e2178]:
+                                            - generic [ref=e2179]: I
+                                            - generic [ref=e2180]:
+                                              - generic [ref=e2181]: x
+                                              - generic [ref=e2182]: z
+                                      - generic [ref=e2183]:
+                                        - generic [ref=e2185]: "0"
+                                        - generic [ref=e2187]: "0"
+                                        - generic [ref=e2189]: "0"
+                                        - generic [ref=e2191]:
+                                          - generic [ref=e2192]: −
+                                          - generic [ref=e2193]:
+                                            - generic [ref=e2194]: I
+                                            - generic [ref=e2195]:
+                                              - generic [ref=e2196]: x
+                                              - generic [ref=e2197]: "y"
+                                        - generic [ref=e2200]:
+                                          - generic [ref=e2201]: I
+                                          - generic [ref=e2202]: "y"
+                                        - generic [ref=e2204]:
+                                          - generic [ref=e2205]: −
+                                          - generic [ref=e2206]:
+                                            - generic [ref=e2207]: I
+                                            - generic [ref=e2208]:
+                                              - generic [ref=e2209]: "y"
+                                              - generic [ref=e2210]: z
+                                      - generic [ref=e2211]:
+                                        - generic [ref=e2213]: "0"
+                                        - generic [ref=e2215]: "0"
+                                        - generic [ref=e2217]: "0"
+                                        - generic [ref=e2219]:
+                                          - generic [ref=e2220]: −
+                                          - generic [ref=e2221]:
+                                            - generic [ref=e2222]: I
+                                            - generic [ref=e2223]:
+                                              - generic [ref=e2224]: x
+                                              - generic [ref=e2225]: z
+                                        - generic [ref=e2227]:
+                                          - generic [ref=e2228]: −
+                                          - generic [ref=e2229]:
+                                            - generic [ref=e2230]: I
+                                            - generic [ref=e2231]:
+                                              - generic [ref=e2232]: "y"
+                                              - generic [ref=e2233]: z
+                                        - generic [ref=e2236]:
+                                          - generic [ref=e2237]: I
+                                          - generic [ref=e2238]: z
+                                    - generic [ref=e2239]: ","
+                                  - generic [ref=e2242]:
+                                    - generic [ref=e2243]: Ω
+                                    - generic [ref=e2245]: x
+                                    - generic [ref=e2246]: =
+                                    - generic [ref=e2249]:
+                                      - generic [ref=e2250]:
+                                        - generic [ref=e2252]: "0"
+                                        - generic [ref=e2254]:
+                                          - generic [ref=e2255]: −
+                                          - generic [ref=e2256]: R
+                                        - generic [ref=e2258]: Q
+                                        - generic [ref=e2260]: "0"
+                                        - generic [ref=e2262]: "0"
+                                        - generic [ref=e2264]: "0"
+                                      - generic [ref=e2265]:
+                                        - generic [ref=e2267]: R
+                                        - generic [ref=e2269]: "0"
+                                        - generic [ref=e2271]:
+                                          - generic [ref=e2272]: −
+                                          - generic [ref=e2273]: P
+                                        - generic [ref=e2275]: "0"
+                                        - generic [ref=e2277]: "0"
+                                        - generic [ref=e2279]: "0"
+                                      - generic [ref=e2280]:
+                                        - generic [ref=e2282]:
+                                          - generic [ref=e2283]: −
+                                          - generic [ref=e2284]: Q
+                                        - generic [ref=e2286]: P
+                                        - generic [ref=e2288]: "0"
+                                        - generic [ref=e2290]: "0"
+                                        - generic [ref=e2292]: "0"
+                                        - generic [ref=e2294]: "0"
+                                      - generic [ref=e2295]:
+                                        - generic [ref=e2297]: "0"
+                                        - generic [ref=e2299]:
+                                          - generic [ref=e2300]: −
+                                          - generic [ref=e2301]: W
+                                        - generic [ref=e2303]: V
+                                        - generic [ref=e2305]: "0"
+                                        - generic [ref=e2307]:
+                                          - generic [ref=e2308]: −
+                                          - generic [ref=e2309]: R
+                                        - generic [ref=e2311]: Q
+                                      - generic [ref=e2312]:
+                                        - generic [ref=e2314]: W
+                                        - generic [ref=e2316]: "0"
+                                        - generic [ref=e2318]:
+                                          - generic [ref=e2319]: −
+                                          - generic [ref=e2320]: U
+                                        - generic [ref=e2322]: R
+                                        - generic [ref=e2324]: "0"
+                                        - generic [ref=e2326]:
+                                          - generic [ref=e2327]: −
+                                          - generic [ref=e2328]: P
+                                      - generic [ref=e2329]:
+                                        - generic [ref=e2331]:
+                                          - generic [ref=e2332]: −
+                                          - generic [ref=e2333]: V
+                                        - generic [ref=e2335]: U
+                                        - generic [ref=e2337]: "0"
+                                        - generic [ref=e2339]:
+                                          - generic [ref=e2340]: −
+                                          - generic [ref=e2341]: Q
+                                        - generic [ref=e2343]: P
+                                        - generic [ref=e2345]: "0"
+                                    - generic [ref=e2346]: ","
+                            - generic [ref=e2348]: (6)
+                          - text: where
+                          - generic [ref=e2349]:
+                            - generic [ref=e2354]: 𝑚
+                            - math [ref=e2355]:
+                              - generic [ref=e2357]: m
+                          - text: is the quadrotor mass,
+                          - generic [ref=e2358]:
+                            - generic [ref=e2364]:
+                              - generic [ref=e2365]:
+                                - generic [ref=e2367]: 𝐼
+                                - generic [ref=e2369]: 𝑥
+                              - text: ","
+                              - generic [ref=e2370]:
+                                - generic [ref=e2372]: 𝐼
+                                - generic [ref=e2374]: 𝑦
+                              - text: ","
+                              - generic [ref=e2375]:
+                                - generic [ref=e2377]: 𝐼
+                                - generic [ref=e2379]: 𝑧
+                            - math [ref=e2380]:
+                              - generic [ref=e2382]:
+                                - generic [ref=e2383]:
+                                  - generic [ref=e2384]: I
+                                  - generic [ref=e2385]: x
+                                - generic [ref=e2386]: ","
+                                - generic [ref=e2387]:
+                                  - generic [ref=e2388]: I
+                                  - generic [ref=e2389]: "y"
+                                - generic [ref=e2390]: ","
+                                - generic [ref=e2391]:
+                                  - generic [ref=e2392]: I
+                                  - generic [ref=e2393]: z
+                          - text: are the moments of inertia, and
+                          - generic [ref=e2394]:
+                            - generic [ref=e2400]:
+                              - generic [ref=e2401]:
+                                - generic [ref=e2403]: 𝐼
+                                - generic [ref=e2406]: 𝑥𝑦
+                              - text: ","
+                              - generic [ref=e2407]:
+                                - generic [ref=e2409]: 𝐼
+                                - generic [ref=e2412]: 𝑦𝑧
+                              - text: ","
+                              - generic [ref=e2413]:
+                                - generic [ref=e2415]: 𝐼
+                                - generic [ref=e2418]: 𝑥𝑧
+                            - math [ref=e2419]:
+                              - generic [ref=e2421]:
+                                - generic [ref=e2422]:
+                                  - generic [ref=e2423]: I
+                                  - generic [ref=e2424]:
+                                    - generic [ref=e2425]: x
+                                    - generic [ref=e2426]: "y"
+                                - generic [ref=e2427]: ","
+                                - generic [ref=e2428]:
+                                  - generic [ref=e2429]: I
+                                  - generic [ref=e2430]:
+                                    - generic [ref=e2431]: "y"
+                                    - generic [ref=e2432]: z
+                                - generic [ref=e2433]: ","
+                                - generic [ref=e2434]:
+                                  - generic [ref=e2435]: I
+                                  - generic [ref=e2436]:
+                                    - generic [ref=e2437]: x
+                                    - generic [ref=e2438]: z
+                          - text: are the products of inertia.
+                        - generic [ref=e2439]:
+                          - text: The gravity loads
+                          - generic [ref=e2440]:
+                            - generic [ref=e2447]:
+                              - generic [ref=e2449]: 𝒇
+                              - generic [ref=e2451]: 𝑮
+                            - math [ref=e2452]:
+                              - generic [ref=e2455]:
+                                - generic [ref=e2456]: f
+                                - generic [ref=e2457]: G
+                          - text: "vector is composed of a gravity force vector which results from an assumption that the origin of the body frame is located in the quadrotor center of gravity:"
+                          - generic [ref=e2458]:
+                            - generic [ref=e2461]:
+                              - generic [ref=e2467]:
+                                - generic [ref=e2468]:
+                                  - generic [ref=e2470]: 𝒇
+                                  - generic [ref=e2472]: 𝑮
+                                - generic [ref=e2473]:
+                                  - generic [ref=e2474]: (
+                                  - text: 𝒚
+                                  - generic [ref=e2475]: )
+                                - text: =
+                                - generic [ref=e2476]:
+                                  - generic [ref=e2479]:
+                                    - generic [ref=e2480]: "["
+                                    - generic [ref=e2482]:
+                                      - generic [ref=e2488]:
+                                        - generic [ref=e2490]: 𝑭
+                                        - generic [ref=e2492]: 𝑮
+                                      - generic [ref=e2498]:
+                                        - generic [ref=e2502]: "0"
+                                        - generic [ref=e2506]: "0"
+                                        - generic [ref=e2510]: "0"
+                                    - generic [ref=e2511]: "]"
+                                  - generic [ref=e2513]: 𝑇
+                                - text: ","
+                              - math [ref=e2515]:
+                                - generic [ref=e2517]:
+                                  - generic [ref=e2518]:
+                                    - generic [ref=e2519]: f
+                                    - generic [ref=e2520]: G
+                                  - generic [ref=e2522]: "y"
+                                  - generic [ref=e2523]: =
+                                  - generic [ref=e2524]:
+                                    - generic [ref=e2529]:
+                                      - generic [ref=e2532]:
+                                        - generic [ref=e2533]: F
+                                        - generic [ref=e2534]: G
+                                      - generic [ref=e2538]:
+                                        - generic [ref=e2540]: "0"
+                                        - generic [ref=e2542]: "0"
+                                        - generic [ref=e2544]: "0"
+                                    - generic [ref=e2545]: T
+                                  - generic [ref=e2546]: ","
+                            - generic [ref=e2548]: (7)
+                          - text: "where:"
+                          - generic [ref=e2549]:
+                            - generic [ref=e2552]:
+                              - generic [ref=e2558]:
+                                - generic [ref=e2559]:
+                                  - generic [ref=e2561]: 𝑭
+                                  - generic [ref=e2563]: 𝑮
+                                - text: =𝑚𝑔
+                                - generic [ref=e2564]:
+                                  - generic [ref=e2567]:
+                                    - generic [ref=e2568]: "["
+                                    - generic [ref=e2570]:
+                                      - generic [ref=e2575]:
+                                        - text: −sin
+                                        - generic [ref=e2576]: Θ
+                                      - generic [ref=e2581]:
+                                        - text: sin
+                                        - generic [ref=e2582]: Φ
+                                        - text: cos
+                                        - generic [ref=e2583]: Θ
+                                      - generic [ref=e2588]:
+                                        - text: cos
+                                        - generic [ref=e2589]: Φ
+                                        - text: cos
+                                        - generic [ref=e2590]: Θ
+                                    - generic [ref=e2591]: "]"
+                                  - generic [ref=e2593]: 𝑇
+                                - text: .
+                              - math [ref=e2595]:
+                                - generic [ref=e2597]:
+                                  - generic [ref=e2598]:
+                                    - generic [ref=e2599]: F
+                                    - generic [ref=e2600]: G
+                                  - generic [ref=e2601]: =
+                                  - generic [ref=e2602]: m
+                                  - generic [ref=e2603]: g
+                                  - generic [ref=e2604]:
+                                    - generic [ref=e2609]:
+                                      - generic [ref=e2611]:
+                                        - generic [ref=e2612]: −
+                                        - generic [ref=e2613]: sin
+                                        - generic [ref=e2614]: Θ
+                                      - generic [ref=e2616]:
+                                        - generic [ref=e2617]: sin
+                                        - generic [ref=e2618]: Φ
+                                        - generic [ref=e2619]: cos
+                                        - generic [ref=e2620]: Θ
+                                      - generic [ref=e2622]:
+                                        - generic [ref=e2623]: cos
+                                        - generic [ref=e2624]: Φ
+                                        - generic [ref=e2625]: cos
+                                        - generic [ref=e2626]: Θ
+                                    - generic [ref=e2627]: T
+                                  - generic [ref=e2628]: .
+                            - generic [ref=e2630]: (8)
+                          - text: and
+                          - generic [ref=e2631]:
+                            - generic [ref=e2636]: 𝑔
+                            - math [ref=e2637]:
+                              - generic [ref=e2639]: g
+                          - text: is gravity acceleration.
+                        - generic [ref=e2640]:
+                          - text: The vector of aerodynamic loads
+                          - generic [ref=e2641]:
+                            - generic [ref=e2648]:
+                              - generic [ref=e2650]: 𝒇
+                              - generic [ref=e2652]: 𝑨
+                            - math [ref=e2653]:
+                              - generic [ref=e2656]:
+                                - generic [ref=e2657]: f
+                                - generic [ref=e2658]: A
+                          - text: "consists of the fuselage’s aerodynamic force and moment vectors:"
+                          - generic [ref=e2659]:
+                            - generic [ref=e2662]:
+                              - generic [ref=e2668]:
+                                - generic [ref=e2669]:
+                                  - generic [ref=e2671]: 𝒇
+                                  - generic [ref=e2673]: 𝑨
+                                - generic [ref=e2674]:
+                                  - generic [ref=e2675]: (
+                                  - generic [ref=e2676]: 𝒙,𝒚
+                                  - generic [ref=e2677]: )
+                                - text: =
+                                - generic [ref=e2678]:
+                                  - generic [ref=e2681]:
+                                    - generic [ref=e2682]: "["
+                                    - generic [ref=e2684]:
+                                      - generic [ref=e2690]:
+                                        - generic [ref=e2692]: 𝑭
+                                        - generic [ref=e2694]: 𝑨
+                                      - generic [ref=e2700]:
+                                        - generic [ref=e2702]: 𝑴
+                                        - generic [ref=e2704]: 𝑨
+                                    - generic [ref=e2705]: "]"
+                                  - generic [ref=e2707]: 𝑇
+                                - text: ","
+                              - math [ref=e2709]:
+                                - generic [ref=e2711]:
+                                  - generic [ref=e2712]:
+                                    - generic [ref=e2713]: f
+                                    - generic [ref=e2714]: A
+                                  - generic [ref=e2716]:
+                                    - generic [ref=e2717]: x
+                                    - generic [ref=e2718]: ","
+                                    - generic [ref=e2719]: "y"
+                                  - generic [ref=e2720]: =
+                                  - generic [ref=e2721]:
+                                    - generic [ref=e2726]:
+                                      - generic [ref=e2729]:
+                                        - generic [ref=e2730]: F
+                                        - generic [ref=e2731]: A
+                                      - generic [ref=e2734]:
+                                        - generic [ref=e2735]: M
+                                        - generic [ref=e2736]: A
+                                    - generic [ref=e2737]: T
+                                  - generic [ref=e2738]: ","
+                            - generic [ref=e2740]: (9)
+                          - text: where
+                          - generic [ref=e2741]:
+                            - generic [ref=e2744]:
+                              - generic [ref=e2750]:
+                                - generic [ref=e2751]:
+                                  - generic [ref=e2753]: 𝑭
+                                  - generic [ref=e2755]: 𝑨
+                                - text: =
+                                - generic [ref=e2756]:
+                                  - generic [ref=e2757]: 𝑞
+                                  - generic [ref=e2759]: ̲
+                                - text: 𝑆
+                                - generic [ref=e2760]:
+                                  - generic [ref=e2763]:
+                                    - generic [ref=e2764]: "["
+                                    - generic [ref=e2766]:
+                                      - generic [ref=e2771]:
+                                        - generic [ref=e2772]:
+                                          - generic [ref=e2773]: 𝐶
+                                          - generic [ref=e2775]: 𝑋
+                                        - text: cos𝛼cos𝛽
+                                      - generic [ref=e2781]:
+                                        - generic [ref=e2782]:
+                                          - generic [ref=e2783]: 𝐶
+                                          - generic [ref=e2785]: 𝑋
+                                        - text: sin𝛽
+                                      - generic [ref=e2791]:
+                                        - generic [ref=e2792]:
+                                          - generic [ref=e2793]: 𝐶
+                                          - generic [ref=e2795]: 𝑋
+                                        - text: sin𝛼cos𝛽
+                                    - generic [ref=e2797]: "]"
+                                  - generic [ref=e2799]: 𝑇
+                                - text: ","
+                              - math [ref=e2801]:
+                                - generic [ref=e2803]:
+                                  - generic [ref=e2804]:
+                                    - generic [ref=e2805]: F
+                                    - generic [ref=e2806]: A
+                                  - generic [ref=e2807]: =
+                                  - generic [ref=e2808]:
+                                    - generic [ref=e2809]: q
+                                    - generic [ref=e2810]: ¯
+                                  - generic [ref=e2811]: S
+                                  - generic [ref=e2812]:
+                                    - generic [ref=e2817]:
+                                      - generic [ref=e2819]:
+                                        - generic [ref=e2820]:
+                                          - generic [ref=e2821]: C
+                                          - generic [ref=e2822]: X
+                                        - generic [ref=e2823]: cos
+                                        - generic [ref=e2824]: α
+                                        - generic [ref=e2825]: cos
+                                        - generic [ref=e2826]: β
+                                      - generic [ref=e2828]:
+                                        - generic [ref=e2829]:
+                                          - generic [ref=e2830]: C
+                                          - generic [ref=e2831]: X
+                                        - generic [ref=e2832]: sin
+                                        - generic [ref=e2833]: β
+                                      - generic [ref=e2835]:
+                                        - generic [ref=e2836]:
+                                          - generic [ref=e2837]: C
+                                          - generic [ref=e2838]: X
+                                        - generic [ref=e2839]: sin
+                                        - generic [ref=e2840]: α
+                                        - generic [ref=e2841]: cos
+                                        - generic [ref=e2842]: β
+                                    - generic [ref=e2843]: T
+                                  - generic [ref=e2844]: ","
+                            - generic [ref=e2846]: (10)
+                          - text: and
+                          - generic [ref=e2847]:
+                            - generic [ref=e2850]:
+                              - generic [ref=e2856]:
+                                - generic [ref=e2857]:
+                                  - generic [ref=e2859]: 𝑴
+                                  - generic [ref=e2861]: 𝑨
+                                - text: =
+                                - generic [ref=e2862]:
+                                  - generic [ref=e2863]: 𝑞
+                                  - generic [ref=e2865]: ̲
+                                - text: 𝑆𝑑
+                                - generic [ref=e2866]:
+                                  - generic [ref=e2869]:
+                                    - generic [ref=e2870]: "["
+                                    - generic [ref=e2872]:
+                                      - generic [ref=e2878]:
+                                        - generic [ref=e2879]: 𝐶
+                                        - generic [ref=e2880]: 𝐿
+                                      - generic [ref=e2886]:
+                                        - generic [ref=e2887]: 𝐶
+                                        - generic [ref=e2888]: 𝑀
+                                      - generic [ref=e2894]:
+                                        - generic [ref=e2895]: 𝐶
+                                        - generic [ref=e2897]: 𝑁
+                                    - generic [ref=e2899]: "]"
+                                  - generic [ref=e2901]: 𝑇
+                                - text: ","
+                              - math [ref=e2903]:
+                                - generic [ref=e2905]:
+                                  - generic [ref=e2906]:
+                                    - generic [ref=e2907]: M
+                                    - generic [ref=e2908]: A
+                                  - generic [ref=e2909]: =
+                                  - generic [ref=e2910]:
+                                    - generic [ref=e2911]: q
+                                    - generic [ref=e2912]: ¯
+                                  - generic [ref=e2913]: S
+                                  - generic [ref=e2914]: d
+                                  - generic [ref=e2915]:
+                                    - generic [ref=e2920]:
+                                      - generic [ref=e2923]:
+                                        - generic [ref=e2924]: C
+                                        - generic [ref=e2925]: L
+                                      - generic [ref=e2928]:
+                                        - generic [ref=e2929]: C
+                                        - generic [ref=e2930]: M
+                                      - generic [ref=e2933]:
+                                        - generic [ref=e2934]: C
+                                        - generic [ref=e2935]: "N"
+                                    - generic [ref=e2936]: T
+                                  - generic [ref=e2937]: ","
+                            - generic [ref=e2939]: (11)
+                          - text: where
+                          - generic [ref=e2940]:
+                            - generic [ref=e2947]:
+                              - generic [ref=e2948]: 𝑞
+                              - generic [ref=e2950]:
+                                - generic [ref=e2951]: −
+                                - generic [ref=e2952]: −
+                            - math [ref=e2953]:
+                              - generic [ref=e2956]:
+                                - generic [ref=e2957]: q
+                                - generic [ref=e2958]: ˉ
+                          - text: is the dynamic pressure of the free stream,
+                          - generic [ref=e2959]:
+                            - generic [ref=e2964]: 𝑆
+                            - math [ref=e2965]:
+                              - generic [ref=e2967]: S
+                          - text: and
+                          - generic [ref=e2968]:
+                            - generic [ref=e2973]: 𝑑
+                            - math [ref=e2974]:
+                              - generic [ref=e2976]: d
+                          - text: are the reference area and length respectively,
+                          - generic [ref=e2977]:
+                            - generic [ref=e2984]:
+                              - generic [ref=e2985]: 𝐶
+                              - generic [ref=e2987]: 𝑋
+                            - math [ref=e2989]:
+                              - generic [ref=e2992]:
+                                - generic [ref=e2993]: C
+                                - generic [ref=e2994]: X
+                          - text: is the fuselage drag force coefficient, and
+                          - generic [ref=e2995]:
+                            - generic [ref=e3001]:
+                              - generic [ref=e3002]:
+                                - generic [ref=e3003]: 𝐶
+                                - generic [ref=e3004]: 𝐿
+                              - text: ","
+                              - generic [ref=e3005]:
+                                - generic [ref=e3006]: 𝐶
+                                - generic [ref=e3007]: 𝑀
+                              - text: ","
+                              - generic [ref=e3008]:
+                                - generic [ref=e3009]: 𝐶
+                                - generic [ref=e3011]: 𝑁
+                            - math [ref=e3013]:
+                              - generic [ref=e3015]:
+                                - generic [ref=e3016]:
+                                  - generic [ref=e3017]: C
+                                  - generic [ref=e3018]: L
+                                - generic [ref=e3019]: ","
+                                - generic [ref=e3020]:
+                                  - generic [ref=e3021]: C
+                                  - generic [ref=e3022]: M
+                                - generic [ref=e3023]: ","
+                                - generic [ref=e3024]:
+                                  - generic [ref=e3025]: C
+                                  - generic [ref=e3026]: "N"
+                          - text: are aerodynamic rolling, pitching, and yawing moment coefficients respectively.
+                        - generic [ref=e3027]:
+                          - text: The drone airspeed
+                          - generic [ref=e3028]:
+                            - generic [ref=e3035]:
+                              - generic [ref=e3037]: 𝑉
+                              - generic [ref=e3040]: 𝑡𝑜𝑡
+                            - math [ref=e3041]:
+                              - generic [ref=e3044]:
+                                - generic [ref=e3045]: V
+                                - generic [ref=e3046]:
+                                  - generic [ref=e3047]: t
+                                  - generic [ref=e3048]: o
+                                  - generic [ref=e3049]: t
+                          - text: "is:"
+                          - generic [ref=e3050]:
+                            - generic [ref=e3053]:
+                              - generic [ref=e3059]:
+                                - generic [ref=e3060]:
+                                  - generic [ref=e3062]: 𝑉
+                                  - generic [ref=e3065]: 𝑡𝑜𝑡
+                                - text: =
+                                - generic [ref=e3066]:
+                                  - generic [ref=e3069]:
+                                    - generic [ref=e3070]:
+                                      - generic [ref=e3071]: (
+                                      - generic [ref=e3072]:
+                                        - generic [ref=e3073]: 𝑈
+                                        - text: −
+                                        - generic [ref=e3075]:
+                                          - generic [ref=e3077]: 𝑈
+                                          - generic [ref=e3080]: 𝑊
+                                      - generic [ref=e3082]: )
+                                    - generic [ref=e3085]: "2"
+                                    - text: +
+                                    - generic [ref=e3086]:
+                                      - generic [ref=e3089]:
+                                        - generic [ref=e3090]: (
+                                        - generic [ref=e3091]:
+                                          - generic [ref=e3092]: 𝑉
+                                          - text: −
+                                          - generic [ref=e3094]:
+                                            - generic [ref=e3096]: 𝑉
+                                            - generic [ref=e3099]: 𝑊
+                                        - generic [ref=e3101]: )
+                                      - generic [ref=e3102]: "2"
+                                    - text: +
+                                    - generic [ref=e3103]:
+                                      - generic [ref=e3106]:
+                                        - generic [ref=e3107]: (
+                                        - generic [ref=e3108]:
+                                          - generic [ref=e3109]: 𝑊
+                                          - text: −
+                                          - generic [ref=e3111]:
+                                            - generic [ref=e3113]: 𝑊
+                                            - generic [ref=e3116]: 𝑊
+                                        - generic [ref=e3118]: )
+                                      - generic [ref=e3119]: "2"
+                                  - generic [ref=e3120]:
+                                    - generic [ref=e3121]: −
+                                    - generic [ref=e3122]: −
+                                    - generic [ref=e3123]: −
+                                    - generic [ref=e3124]: −
+                                    - generic [ref=e3125]: −
+                                    - generic [ref=e3126]: −
+                                    - generic [ref=e3127]: −
+                                    - generic [ref=e3128]: −
+                                    - generic [ref=e3129]: −
+                                    - generic [ref=e3130]: −
+                                    - generic [ref=e3131]: −
+                                    - generic [ref=e3132]: −
+                                    - generic [ref=e3133]: −
+                                    - generic [ref=e3134]: −
+                                    - generic [ref=e3135]: −
+                                    - generic [ref=e3136]: −
+                                    - generic [ref=e3137]: −
+                                    - generic [ref=e3138]: −
+                                    - generic [ref=e3139]: −
+                                    - generic [ref=e3140]: −
+                                    - generic [ref=e3141]: −
+                                    - generic [ref=e3142]: −
+                                    - generic [ref=e3143]: −
+                                    - generic [ref=e3144]: −
+                                    - generic [ref=e3145]: −
+                                    - generic [ref=e3146]: −
+                                    - generic [ref=e3147]: −
+                                    - generic [ref=e3148]: −
+                                    - generic [ref=e3149]: −
+                                    - generic [ref=e3150]: −
+                                    - generic [ref=e3151]: −
+                                    - generic [ref=e3152]: −
+                                  - generic [ref=e3153]: √
+                                - text: .
+                              - math [ref=e3154]:
+                                - generic [ref=e3156]:
+                                  - generic [ref=e3157]:
+                                    - generic [ref=e3158]: V
+                                    - generic [ref=e3159]:
+                                      - generic [ref=e3160]: t
+                                      - generic [ref=e3161]: o
+                                      - generic [ref=e3162]: t
+                                  - generic [ref=e3163]: =
+                                  - generic [ref=e3165]:
+                                    - generic [ref=e3167]:
+                                      - generic [ref=e3168]: U
+                                      - generic [ref=e3169]: −
+                                      - generic [ref=e3170]:
+                                        - generic [ref=e3171]: U
+                                        - generic [ref=e3172]: W
+                                    - generic [ref=e3174]: "2"
+                                    - generic [ref=e3175]: +
+                                    - generic [ref=e3176]:
+                                      - generic [ref=e3179]:
+                                        - generic [ref=e3180]: V
+                                        - generic [ref=e3181]: −
+                                        - generic [ref=e3182]:
+                                          - generic [ref=e3183]: V
+                                          - generic [ref=e3184]: W
+                                      - generic [ref=e3185]: "2"
+                                    - generic [ref=e3186]: +
+                                    - generic [ref=e3187]:
+                                      - generic [ref=e3190]:
+                                        - generic [ref=e3191]: W
+                                        - generic [ref=e3192]: −
+                                        - generic [ref=e3193]:
+                                          - generic [ref=e3194]: W
+                                          - generic [ref=e3195]: W
+                                      - generic [ref=e3196]: "2"
+                                  - generic [ref=e3197]: .
+                            - generic [ref=e3199]: (12)
+                          - text: where
+                          - generic [ref=e3200]:
+                            - generic [ref=e3206]:
+                              - generic [ref=e3207]:
+                                - generic [ref=e3209]: 𝑈
+                                - generic [ref=e3212]: 𝑊
+                              - text: ","
+                              - generic [ref=e3214]:
+                                - generic [ref=e3216]: 𝑉
+                                - generic [ref=e3219]: 𝑊
+                              - text: ","
+                              - generic [ref=e3221]:
+                                - generic [ref=e3223]: 𝑊
+                                - generic [ref=e3226]: 𝑊
+                            - math [ref=e3228]:
+                              - generic [ref=e3230]:
+                                - generic [ref=e3231]:
+                                  - generic [ref=e3232]: U
+                                  - generic [ref=e3233]: W
+                                - generic [ref=e3234]: ","
+                                - generic [ref=e3235]:
+                                  - generic [ref=e3236]: V
+                                  - generic [ref=e3237]: W
+                                - generic [ref=e3238]: ","
+                                - generic [ref=e3239]:
+                                  - generic [ref=e3240]: W
+                                  - generic [ref=e3241]: W
+                          - text: are wind velocity components in
+                          - generic [ref=e3242]:
+                            - generic [ref=e3248]:
+                              - generic [ref=e3249]:
+                                - generic [ref=e3250]: 𝑂
+                                - generic [ref=e3251]: 𝑏
+                              - generic [ref=e3252]:
+                                - generic [ref=e3253]: 𝑥
+                                - generic [ref=e3254]: 𝑏
+                              - generic [ref=e3255]:
+                                - generic [ref=e3256]: 𝑦
+                                - generic [ref=e3257]: 𝑏
+                              - generic [ref=e3258]:
+                                - generic [ref=e3259]: 𝑧
+                                - generic [ref=e3260]: 𝑏
+                            - math [ref=e3261]:
+                              - generic [ref=e3263]:
+                                - generic [ref=e3264]:
+                                  - generic [ref=e3265]: O
+                                  - generic [ref=e3266]: b
+                                - generic [ref=e3267]:
+                                  - generic [ref=e3268]: x
+                                  - generic [ref=e3269]: b
+                                - generic [ref=e3270]:
+                                  - generic [ref=e3271]: "y"
+                                  - generic [ref=e3272]: b
+                                - generic [ref=e3273]:
+                                  - generic [ref=e3274]: z
+                                  - generic [ref=e3275]: b
+                          - text: frame. The angle of attack
+                          - generic [ref=e3276]:
+                            - generic [ref=e3281]: 𝛼
+                            - math [ref=e3282]:
+                              - generic [ref=e3284]: α
+                          - text: is defined as [
+                          - link "48" [ref=e3285] [cursor=pointer]:
+                            - /url: "#B48-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e3286]:
+                            - generic [ref=e3289]:
+                              - generic [ref=e3295]:
+                                - text: 𝛼=atan
+                                - generic [ref=e3296]:
+                                  - generic [ref=e3298]:
+                                    - generic [ref=e3299]: 𝑊
+                                    - text: −
+                                    - generic [ref=e3301]:
+                                      - generic [ref=e3303]: 𝑊
+                                      - generic [ref=e3306]: 𝑊
+                                  - generic [ref=e3309]:
+                                    - generic [ref=e3310]: 𝑈
+                                    - text: −
+                                    - generic [ref=e3312]:
+                                      - generic [ref=e3314]: 𝑈
+                                      - generic [ref=e3317]: 𝑊
+                                - text: ","
+                              - math [ref=e3321]:
+                                - generic [ref=e3323]:
+                                  - generic [ref=e3324]: α
+                                  - generic [ref=e3325]: =
+                                  - generic [ref=e3326]: atan
+                                  - generic [ref=e3327]:
+                                    - generic [ref=e3328]:
+                                      - generic [ref=e3329]: W
+                                      - generic [ref=e3330]: −
+                                      - generic [ref=e3331]:
+                                        - generic [ref=e3332]: W
+                                        - generic [ref=e3333]: W
+                                    - generic [ref=e3334]:
+                                      - generic [ref=e3335]: U
+                                      - generic [ref=e3336]: −
+                                      - generic [ref=e3337]:
+                                        - generic [ref=e3338]: U
+                                        - generic [ref=e3339]: W
+                                  - generic [ref=e3340]: ","
+                            - generic [ref=e3342]: (13)
+                        - generic [ref=e3343]:
+                          - text: In the numerical simulation, the function
+                          - generic [ref=e3344]:
+                            - generic [ref=e3350]:
+                              - text: atan2
+                              - generic [ref=e3351]:
+                                - generic [ref=e3352]: (
+                                - generic [ref=e3353]:
+                                  - generic [ref=e3354]: 𝑊
+                                  - text: −
+                                  - generic [ref=e3356]:
+                                    - generic [ref=e3358]: 𝑊
+                                    - generic [ref=e3361]: 𝑊
+                                  - text: ","
+                                  - generic [ref=e3363]: 𝑈
+                                  - text: −
+                                  - generic [ref=e3365]:
+                                    - generic [ref=e3367]: 𝑈
+                                    - generic [ref=e3370]: 𝑊
+                                - generic [ref=e3372]: )
+                            - math [ref=e3373]:
+                              - generic [ref=e3375]:
+                                - generic [ref=e3376]: atan
+                                - generic [ref=e3377]: "2"
+                                - generic [ref=e3379]:
+                                  - generic [ref=e3380]: W
+                                  - generic [ref=e3381]: −
+                                  - generic [ref=e3382]:
+                                    - generic [ref=e3383]: W
+                                    - generic [ref=e3384]: W
+                                  - generic [ref=e3385]: ","
+                                  - generic [ref=e3386]: U
+                                  - generic [ref=e3387]: −
+                                  - generic [ref=e3388]:
+                                    - generic [ref=e3389]: U
+                                    - generic [ref=e3390]: W
+                          - text: was used to ensure the values of
+                          - generic [ref=e3391]:
+                            - generic [ref=e3396]: 𝛼
+                            - math [ref=e3397]:
+                              - generic [ref=e3399]: α
+                          - text: from −180° up to 180°. The angle of sideslip
+                          - generic [ref=e3400]:
+                            - generic [ref=e3405]: 𝛽
+                            - math [ref=e3406]:
+                              - generic [ref=e3408]: β
+                          - text: is [
+                          - link "48" [ref=e3409] [cursor=pointer]:
+                            - /url: "#B48-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e3410]:
+                            - generic [ref=e3413]:
+                              - generic [ref=e3419]:
+                                - text: 𝛽=asin
+                                - generic [ref=e3420]:
+                                  - generic [ref=e3422]:
+                                    - generic [ref=e3423]: 𝑉
+                                    - text: −
+                                    - generic [ref=e3425]:
+                                      - generic [ref=e3427]: 𝑉
+                                      - generic [ref=e3430]: 𝑊
+                                  - generic [ref=e3434]:
+                                    - generic [ref=e3436]: 𝑉
+                                    - generic [ref=e3439]: 𝑡𝑜𝑡
+                                - text: .
+                              - math [ref=e3442]:
+                                - generic [ref=e3444]:
+                                  - generic [ref=e3445]: β
+                                  - generic [ref=e3446]: =
+                                  - generic [ref=e3447]: asin
+                                  - generic [ref=e3448]:
+                                    - generic [ref=e3449]:
+                                      - generic [ref=e3450]: V
+                                      - generic [ref=e3451]: −
+                                      - generic [ref=e3452]:
+                                        - generic [ref=e3453]: V
+                                        - generic [ref=e3454]: W
+                                    - generic [ref=e3456]:
+                                      - generic [ref=e3457]: V
+                                      - generic [ref=e3458]:
+                                        - generic [ref=e3459]: t
+                                        - generic [ref=e3460]: o
+                                        - generic [ref=e3461]: t
+                                  - generic [ref=e3462]: .
+                            - generic [ref=e3464]: (14)
+                        - generic [ref=e3465]:
+                          - text: The four independent rotors produce the load vector
+                          - generic [ref=e3466]:
+                            - generic [ref=e3473]:
+                              - generic [ref=e3475]: 𝒇
+                              - generic [ref=e3477]: 𝑹
+                            - math [ref=e3478]:
+                              - generic [ref=e3481]:
+                                - generic [ref=e3482]: f
+                                - generic [ref=e3483]: R
+                          - text: "that consists of rotor force and moment vectors:"
+                          - generic [ref=e3484]:
+                            - generic [ref=e3487]:
+                              - generic [ref=e3493]:
+                                - generic [ref=e3494]:
+                                  - generic [ref=e3496]: 𝒇
+                                  - generic [ref=e3498]: 𝑹
+                                - generic [ref=e3499]:
+                                  - generic [ref=e3500]: (
+                                  - generic [ref=e3501]:
+                                    - text: 𝒙,𝒚,
+                                    - generic [ref=e3502]:
+                                      - generic [ref=e3503]: 𝜴
+                                      - generic [ref=e3504]: 𝑹
+                                  - generic [ref=e3505]: )
+                                - text: =
+                                - generic [ref=e3506]:
+                                  - generic [ref=e3509]:
+                                    - generic [ref=e3510]: "["
+                                    - generic [ref=e3512]:
+                                      - generic [ref=e3518]:
+                                        - generic [ref=e3520]: 𝑭
+                                        - generic [ref=e3522]: 𝑹
+                                      - generic [ref=e3528]:
+                                        - generic [ref=e3530]: 𝑴
+                                        - generic [ref=e3532]: 𝑹
+                                    - generic [ref=e3533]: "]"
+                                  - generic [ref=e3535]: 𝑇
+                                - text: ","
+                              - math [ref=e3537]:
+                                - generic [ref=e3539]:
+                                  - generic [ref=e3540]:
+                                    - generic [ref=e3541]: f
+                                    - generic [ref=e3542]: R
+                                  - generic [ref=e3544]:
+                                    - generic [ref=e3545]: x
+                                    - generic [ref=e3546]: ","
+                                    - generic [ref=e3547]: "y"
+                                    - generic [ref=e3548]: ","
+                                    - generic [ref=e3549]:
+                                      - generic [ref=e3550]: Ω
+                                      - generic [ref=e3551]: R
+                                  - generic [ref=e3552]: =
+                                  - generic [ref=e3553]:
+                                    - generic [ref=e3558]:
+                                      - generic [ref=e3561]:
+                                        - generic [ref=e3562]: F
+                                        - generic [ref=e3563]: R
+                                      - generic [ref=e3566]:
+                                        - generic [ref=e3567]: M
+                                        - generic [ref=e3568]: R
+                                    - generic [ref=e3569]: T
+                                  - generic [ref=e3570]: ","
+                            - generic [ref=e3572]: (15)
+                        - generic [ref=e3573]:
+                          - text: The rotors were arranged in the X (
+                          - link "Figure 4" [ref=e3574] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f004"
+                          - text: ) configuration where rotors 2 and 4 rotate clockwise and rotors 1 and 3 counterclockwise.
+                        - generic [ref=e3575]:
+                          - generic [ref=e3577] [cursor=pointer]:
+                            - img "Energies 15 07136 g004" [ref=e3578]
+                            - link [ref=e3579]:
+                              - /url: "#fig_body_display_energies-15-07136-f004"
+                          - generic [ref=e3580]: Figure 4. Rotors configuration (top view).
+                        - generic [ref=e3581]:
+                          - text: "The total force and moment produced by the rotors are a sum of the forces and moments produced by those of the individual rotors:"
+                          - generic [ref=e3582]:
+                            - generic [ref=e3585]:
+                              - generic [ref=e3591]:
+                                - generic [ref=e3592]:
+                                  - generic [ref=e3594]: 𝑭
+                                  - generic [ref=e3596]: 𝑹
+                                - text: =
+                                - generic [ref=e3599]:
+                                  - generic [ref=e3602]: ∑
+                                  - generic [ref=e3604]: 𝑖=1
+                                  - generic [ref=e3605]: "4"
+                                - generic [ref=e3606]:
+                                  - generic [ref=e3608]: 𝑭
+                                  - generic [ref=e3611]: 𝑹𝒊
+                                - text: =
+                                - generic [ref=e3614]:
+                                  - generic [ref=e3617]: ∑
+                                  - generic [ref=e3619]: 𝑖=1
+                                  - generic [ref=e3620]: "4"
+                                - generic [ref=e3621]:
+                                  - generic [ref=e3624]:
+                                    - generic [ref=e3625]: "["
+                                    - generic [ref=e3627]:
+                                      - generic [ref=e3632]:
+                                        - text: Δ
+                                        - generic [ref=e3633]:
+                                          - generic [ref=e3635]: 𝑋
+                                          - generic [ref=e3638]: 𝑅𝑖
+                                      - generic [ref=e3642]: "0"
+                                      - generic [ref=e3647]:
+                                        - text: −
+                                        - generic [ref=e3648]:
+                                          - generic [ref=e3650]: 𝑇
+                                          - generic [ref=e3652]: 𝑖
+                                        - text: +Δ
+                                        - generic [ref=e3653]:
+                                          - generic [ref=e3655]: 𝑇
+                                          - generic [ref=e3657]: 𝑖
+                                    - generic [ref=e3658]: "]"
+                                  - generic [ref=e3660]: 𝑇
+                                - text: ","
+                              - math [ref=e3662]:
+                                - generic [ref=e3664]:
+                                  - generic [ref=e3665]:
+                                    - generic [ref=e3666]: F
+                                    - generic [ref=e3667]: R
+                                  - generic [ref=e3668]: =
+                                  - generic [ref=e3670]:
+                                    - generic [ref=e3672]: ∑
+                                    - generic [ref=e3673]:
+                                      - generic [ref=e3674]: i
+                                      - generic [ref=e3675]: =
+                                      - generic [ref=e3676]: "1"
+                                    - generic [ref=e3677]: "4"
+                                  - generic [ref=e3678]:
+                                    - generic [ref=e3679]: F
+                                    - generic [ref=e3680]:
+                                      - generic [ref=e3681]: R
+                                      - generic [ref=e3682]: i
+                                  - generic [ref=e3683]: =
+                                  - generic [ref=e3685]:
+                                    - generic [ref=e3687]: ∑
+                                    - generic [ref=e3688]:
+                                      - generic [ref=e3689]: i
+                                      - generic [ref=e3690]: =
+                                      - generic [ref=e3691]: "1"
+                                    - generic [ref=e3692]: "4"
+                                  - generic [ref=e3693]:
+                                    - generic [ref=e3698]:
+                                      - generic [ref=e3700]:
+                                        - generic [ref=e3701]: Δ
+                                        - generic [ref=e3702]:
+                                          - generic [ref=e3703]: X
+                                          - generic [ref=e3704]:
+                                            - generic [ref=e3705]: R
+                                            - generic [ref=e3706]: i
+                                      - generic [ref=e3708]: "0"
+                                      - generic [ref=e3710]:
+                                        - generic [ref=e3711]: −
+                                        - generic [ref=e3712]:
+                                          - generic [ref=e3713]: T
+                                          - generic [ref=e3714]: i
+                                        - generic [ref=e3715]: +
+                                        - generic [ref=e3716]: Δ
+                                        - generic [ref=e3717]:
+                                          - generic [ref=e3718]: T
+                                          - generic [ref=e3719]: i
+                                    - generic [ref=e3720]: T
+                                  - generic [ref=e3721]: ","
+                            - generic [ref=e3723]: (16)
+                          - text: and
+                          - generic [ref=e3724]:
+                            - generic [ref=e3727]:
+                              - generic [ref=e3733]:
+                                - generic [ref=e3734]:
+                                  - generic [ref=e3736]: 𝑴
+                                  - generic [ref=e3738]: 𝑹
+                                - text: =
+                                - generic [ref=e3741]:
+                                  - generic [ref=e3744]: ∑
+                                  - generic [ref=e3746]: 𝑖=1
+                                  - generic [ref=e3747]: "4"
+                                - generic [ref=e3748]:
+                                  - generic [ref=e3750]: 𝑴
+                                  - generic [ref=e3753]: 𝑹𝒊
+                                - text: =
+                                - generic [ref=e3756]:
+                                  - generic [ref=e3759]: ∑
+                                  - generic [ref=e3761]: 𝑖=1
+                                  - generic [ref=e3762]: "4"
+                                - generic [ref=e3763]:
+                                  - generic [ref=e3765]: 𝒓
+                                  - generic [ref=e3768]: 𝑹𝒊
+                                - text: ×
+                                - generic [ref=e3769]:
+                                  - generic [ref=e3771]: 𝑭
+                                  - generic [ref=e3774]: 𝑹𝒊
+                                - text: +
+                                - generic [ref=e3775]:
+                                  - generic [ref=e3778]:
+                                    - generic [ref=e3779]: (
+                                    - generic [ref=e3780]: −1
+                                    - generic [ref=e3781]: )
+                                  - generic [ref=e3782]: 𝑖
+                                - generic [ref=e3783]:
+                                  - generic [ref=e3786]:
+                                    - generic [ref=e3787]: "["
+                                    - generic [ref=e3789]:
+                                      - generic [ref=e3793]: "0"
+                                      - generic [ref=e3797]: "0"
+                                      - generic [ref=e3802]:
+                                        - text: −
+                                        - generic [ref=e3803]:
+                                          - generic [ref=e3804]: 𝑀
+                                          - generic [ref=e3805]: 𝑖
+                                        - text: +Δ
+                                        - generic [ref=e3806]:
+                                          - generic [ref=e3807]: 𝑀
+                                          - generic [ref=e3808]: 𝑖
+                                    - generic [ref=e3809]: "]"
+                                  - generic [ref=e3811]: 𝑇
+                                - text: ","
+                              - math [ref=e3813]:
+                                - generic [ref=e3815]:
+                                  - generic [ref=e3816]:
+                                    - generic [ref=e3817]: M
+                                    - generic [ref=e3818]: R
+                                  - generic [ref=e3819]: =
+                                  - generic [ref=e3821]:
+                                    - generic [ref=e3823]: ∑
+                                    - generic [ref=e3824]:
+                                      - generic [ref=e3825]: i
+                                      - generic [ref=e3826]: =
+                                      - generic [ref=e3827]: "1"
+                                    - generic [ref=e3828]: "4"
+                                  - generic [ref=e3829]:
+                                    - generic [ref=e3830]: M
+                                    - generic [ref=e3831]:
+                                      - generic [ref=e3832]: R
+                                      - generic [ref=e3833]: i
+                                  - generic [ref=e3834]: =
+                                  - generic [ref=e3836]:
+                                    - generic [ref=e3838]: ∑
+                                    - generic [ref=e3839]:
+                                      - generic [ref=e3840]: i
+                                      - generic [ref=e3841]: =
+                                      - generic [ref=e3842]: "1"
+                                    - generic [ref=e3843]: "4"
+                                  - generic [ref=e3844]:
+                                    - generic [ref=e3845]: r
+                                    - generic [ref=e3846]:
+                                      - generic [ref=e3847]: R
+                                      - generic [ref=e3848]: i
+                                  - generic [ref=e3849]: ×
+                                  - generic [ref=e3850]:
+                                    - generic [ref=e3851]: F
+                                    - generic [ref=e3852]:
+                                      - generic [ref=e3853]: R
+                                      - generic [ref=e3854]: i
+                                  - generic [ref=e3855]: +
+                                  - generic [ref=e3856]:
+                                    - generic [ref=e3859]:
+                                      - generic [ref=e3860]: −
+                                      - generic [ref=e3861]: "1"
+                                    - generic [ref=e3862]: i
+                                  - generic [ref=e3863]:
+                                    - generic [ref=e3868]:
+                                      - generic [ref=e3870]: "0"
+                                      - generic [ref=e3872]: "0"
+                                      - generic [ref=e3874]:
+                                        - generic [ref=e3875]: −
+                                        - generic [ref=e3876]:
+                                          - generic [ref=e3877]: M
+                                          - generic [ref=e3878]: i
+                                        - generic [ref=e3879]: +
+                                        - generic [ref=e3880]: Δ
+                                        - generic [ref=e3881]:
+                                          - generic [ref=e3882]: M
+                                          - generic [ref=e3883]: i
+                                    - generic [ref=e3884]: T
+                                  - generic [ref=e3885]: ","
+                            - generic [ref=e3887]: (17)
+                          - text: where
+                          - generic [ref=e3888]:
+                            - generic [ref=e3895]:
+                              - generic [ref=e3897]: 𝒓
+                              - generic [ref=e3900]: 𝑹𝒊
+                            - math [ref=e3901]:
+                              - generic [ref=e3904]:
+                                - generic [ref=e3905]: r
+                                - generic [ref=e3906]:
+                                  - generic [ref=e3907]: R
+                                  - generic [ref=e3908]: i
+                          - text: is a position vector of the rotor in the
+                          - generic [ref=e3909]:
+                            - generic [ref=e3915]:
+                              - generic [ref=e3916]:
+                                - generic [ref=e3917]: 𝑂
+                                - generic [ref=e3918]: 𝑏
+                              - generic [ref=e3919]:
+                                - generic [ref=e3920]: 𝑥
+                                - generic [ref=e3921]: 𝑏
+                              - generic [ref=e3922]:
+                                - generic [ref=e3923]: 𝑦
+                                - generic [ref=e3924]: 𝑏
+                              - generic [ref=e3925]:
+                                - generic [ref=e3926]: 𝑧
+                                - generic [ref=e3927]: 𝑏
+                            - math [ref=e3928]:
+                              - generic [ref=e3930]:
+                                - generic [ref=e3931]:
+                                  - generic [ref=e3932]: O
+                                  - generic [ref=e3933]: b
+                                - generic [ref=e3934]:
+                                  - generic [ref=e3935]: x
+                                  - generic [ref=e3936]: b
+                                - generic [ref=e3937]:
+                                  - generic [ref=e3938]: "y"
+                                  - generic [ref=e3939]: b
+                                - generic [ref=e3940]:
+                                  - generic [ref=e3941]: z
+                                  - generic [ref=e3942]: b
+                          - text: frame,
+                          - generic [ref=e3943]:
+                            - generic [ref=e3950]:
+                              - generic [ref=e3952]: 𝑇
+                              - generic [ref=e3954]: 𝑖
+                            - math [ref=e3955]:
+                              - generic [ref=e3958]:
+                                - generic [ref=e3959]: T
+                                - generic [ref=e3960]: i
+                          - text: and
+                          - generic [ref=e3961]:
+                            - generic [ref=e3968]:
+                              - generic [ref=e3969]: 𝑀
+                              - generic [ref=e3970]: 𝑖
+                            - math [ref=e3971]:
+                              - generic [ref=e3974]:
+                                - generic [ref=e3975]: M
+                                - generic [ref=e3976]: i
+                          - text: are the thrust and torque produced by the
+                          - generic [ref=e3977]:
+                            - generic [ref=e3982]: 𝑖
+                            - math [ref=e3983]:
+                              - generic [ref=e3985]: i
+                          - text: "-th rotor ("
+                          - generic [ref=e3986]:
+                            - generic [ref=e3992]:
+                              - text: 𝑖∈
+                              - generic [ref=e3993]:
+                                - generic [ref=e3994]: "{"
+                                - generic [ref=e3995]: 1,2,3,4
+                                - generic [ref=e3996]: "}"
+                            - math [ref=e3997]:
+                              - generic [ref=e3999]:
+                                - generic [ref=e4000]: i
+                                - generic [ref=e4001]: ∈
+                                - generic [ref=e4003]:
+                                  - generic [ref=e4004]: "1"
+                                  - generic [ref=e4005]: ","
+                                  - generic [ref=e4006]: "2"
+                                  - generic [ref=e4007]: ","
+                                  - generic [ref=e4008]: "3"
+                                  - generic [ref=e4009]: ","
+                                  - generic [ref=e4010]: "4"
+                          - text: ),
+                          - generic [ref=e4011]:
+                            - generic [ref=e4017]:
+                              - text: Δ
+                              - generic [ref=e4018]:
+                                - generic [ref=e4020]: 𝑇
+                                - generic [ref=e4022]: 𝑖
+                            - math [ref=e4023]:
+                              - generic [ref=e4025]:
+                                - generic [ref=e4026]: Δ
+                                - generic [ref=e4027]:
+                                  - generic [ref=e4028]: T
+                                  - generic [ref=e4029]: i
+                          - text: and
+                          - generic [ref=e4030]:
+                            - generic [ref=e4036]:
+                              - text: Δ
+                              - generic [ref=e4037]:
+                                - generic [ref=e4038]: 𝑀
+                                - generic [ref=e4039]: 𝑖
+                            - math [ref=e4040]:
+                              - generic [ref=e4042]:
+                                - generic [ref=e4043]: Δ
+                                - generic [ref=e4044]:
+                                  - generic [ref=e4045]: M
+                                  - generic [ref=e4046]: i
+                          - text: are the velocity correction function of the thrust and torque, and
+                          - generic [ref=e4047]:
+                            - generic [ref=e4053]:
+                              - text: Δ
+                              - generic [ref=e4054]:
+                                - generic [ref=e4056]: 𝑋
+                                - generic [ref=e4059]: 𝑅𝑖
+                            - math [ref=e4060]:
+                              - generic [ref=e4062]:
+                                - generic [ref=e4063]: Δ
+                                - generic [ref=e4064]:
+                                  - generic [ref=e4065]: X
+                                  - generic [ref=e4066]:
+                                    - generic [ref=e4067]: R
+                                    - generic [ref=e4068]: i
+                          - text: is the drag force produced by the
+                          - generic [ref=e4069]:
+                            - generic [ref=e4074]: 𝑖
+                            - math [ref=e4075]:
+                              - generic [ref=e4077]: i
+                          - text: "-th rotor during forward flight. The horizontal force and banking and pitching moments produced by the rotors were neglected due to their low values and the symmetry of the rotor pairs."
+                        - generic [ref=e4078]:
+                          - text: The rotors’ thrust and torque are described by the following equations [
+                          - link "2" [ref=e4079] [cursor=pointer]:
+                            - /url: "#B2-energies-15-07136"
+                          - text: ","
+                          - link "49" [ref=e4080] [cursor=pointer]:
+                            - /url: "#B49-energies-15-07136"
+                          - text: ","
+                          - link "50" [ref=e4081] [cursor=pointer]:
+                            - /url: "#B50-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e4082]:
+                            - generic [ref=e4085]:
+                              - generic [ref=e4091]:
+                                - generic [ref=e4092]:
+                                  - generic [ref=e4094]: 𝑇
+                                  - generic [ref=e4096]: 𝑖
+                                - text: =𝜌
+                                - generic [ref=e4097]:
+                                  - generic [ref=e4098]: 𝑆
+                                  - generic [ref=e4099]: 𝑝
+                                - generic [ref=e4100]:
+                                  - generic [ref=e4101]: 𝑅
+                                  - generic [ref=e4102]: 𝑝
+                                - generic [ref=e4104]: "2"
+                                - generic [ref=e4105]:
+                                  - generic [ref=e4107]: 𝑘
+                                  - generic [ref=e4110]: 𝑓
+                                - generic [ref=e4112]:
+                                  - generic [ref=e4113]: 𝛺
+                                  - generic [ref=e4114]: 𝑖
+                                - generic [ref=e4116]: "2"
+                                - text: ","
+                              - math [ref=e4117]:
+                                - generic [ref=e4119]:
+                                  - generic [ref=e4120]:
+                                    - generic [ref=e4121]: T
+                                    - generic [ref=e4122]: i
+                                  - generic [ref=e4123]: =
+                                  - generic [ref=e4124]: ρ
+                                  - generic [ref=e4125]:
+                                    - generic [ref=e4126]: S
+                                    - generic [ref=e4127]: p
+                                  - generic [ref=e4128]:
+                                    - generic [ref=e4129]: R
+                                    - generic [ref=e4130]: p
+                                  - generic [ref=e4132]: "2"
+                                  - generic [ref=e4133]:
+                                    - generic [ref=e4134]: k
+                                    - generic [ref=e4135]: f
+                                  - generic [ref=e4136]:
+                                    - generic [ref=e4137]: Ω
+                                    - generic [ref=e4138]: i
+                                  - generic [ref=e4140]: "2"
+                                  - generic [ref=e4141]: ","
+                            - generic [ref=e4143]: (18)
+                          - text: and [
+                          - link "2" [ref=e4144] [cursor=pointer]:
+                            - /url: "#B2-energies-15-07136"
+                          - text: ","
+                          - link "49" [ref=e4145] [cursor=pointer]:
+                            - /url: "#B49-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e4146]:
+                            - generic [ref=e4149]:
+                              - generic [ref=e4155]:
+                                - generic [ref=e4156]:
+                                  - generic [ref=e4157]: 𝑀
+                                  - generic [ref=e4158]: 𝑖
+                                - text: =𝜌
+                                - generic [ref=e4159]:
+                                  - generic [ref=e4160]: 𝑆
+                                  - generic [ref=e4161]: 𝑝
+                                - generic [ref=e4162]:
+                                  - generic [ref=e4163]: 𝑅
+                                  - generic [ref=e4164]: 𝑝
+                                - generic [ref=e4166]: "3"
+                                - generic [ref=e4167]:
+                                  - generic [ref=e4169]: 𝑘
+                                  - generic [ref=e4171]: 𝑚
+                                - generic [ref=e4172]:
+                                  - generic [ref=e4173]: 𝛺
+                                  - generic [ref=e4174]: 𝑖
+                                - generic [ref=e4176]: "2"
+                                - text: ","
+                              - math [ref=e4177]:
+                                - generic [ref=e4179]:
+                                  - generic [ref=e4180]:
+                                    - generic [ref=e4181]: M
+                                    - generic [ref=e4182]: i
+                                  - generic [ref=e4183]: =
+                                  - generic [ref=e4184]: ρ
+                                  - generic [ref=e4185]:
+                                    - generic [ref=e4186]: S
+                                    - generic [ref=e4187]: p
+                                  - generic [ref=e4188]:
+                                    - generic [ref=e4189]: R
+                                    - generic [ref=e4190]: p
+                                  - generic [ref=e4192]: "3"
+                                  - generic [ref=e4193]:
+                                    - generic [ref=e4194]: k
+                                    - generic [ref=e4195]: m
+                                  - generic [ref=e4196]:
+                                    - generic [ref=e4197]: Ω
+                                    - generic [ref=e4198]: i
+                                  - generic [ref=e4200]: "2"
+                                  - generic [ref=e4201]: ","
+                            - generic [ref=e4203]: (19)
+                          - text: where
+                          - generic [ref=e4204]:
+                            - generic [ref=e4209]: 𝜌
+                            - math [ref=e4210]:
+                              - generic [ref=e4212]: ρ
+                          - text: is the air density,
+                          - generic [ref=e4213]:
+                            - generic [ref=e4220]:
+                              - generic [ref=e4221]: 𝑅
+                              - generic [ref=e4222]: 𝑝
+                            - math [ref=e4223]:
+                              - generic [ref=e4226]:
+                                - generic [ref=e4227]: R
+                                - generic [ref=e4228]: p
+                          - text: is the radius of the rotor,
+                          - generic [ref=e4229]:
+                            - generic [ref=e4235]:
+                              - generic [ref=e4236]:
+                                - generic [ref=e4237]: 𝑆
+                                - generic [ref=e4238]: 𝑝
+                              - text: =
+                              - generic [ref=e4239]: 𝜋
+                              - generic [ref=e4241]:
+                                - generic [ref=e4242]: 𝑅
+                                - generic [ref=e4243]: "2"
+                                - generic [ref=e4244]: 𝑝
+                            - math [ref=e4245]:
+                              - generic [ref=e4247]:
+                                - generic [ref=e4248]:
+                                  - generic [ref=e4249]: S
+                                  - generic [ref=e4250]: p
+                                - generic [ref=e4251]: =
+                                - generic [ref=e4252]: π
+                                - generic [ref=e4253]:
+                                  - generic [ref=e4254]: R
+                                  - generic [ref=e4255]: p
+                                  - generic [ref=e4256]: "2"
+                          - text: is the rotor’s disc area,
+                          - generic [ref=e4257]:
+                            - generic [ref=e4264]:
+                              - generic [ref=e4266]: 𝑘
+                              - generic [ref=e4269]: 𝑓
+                            - math [ref=e4271]:
+                              - generic [ref=e4274]:
+                                - generic [ref=e4275]: k
+                                - generic [ref=e4276]: f
+                          - text: and
+                          - generic [ref=e4277]:
+                            - generic [ref=e4284]:
+                              - generic [ref=e4286]: 𝑘
+                              - generic [ref=e4288]: 𝑚
+                            - math [ref=e4289]:
+                              - generic [ref=e4292]:
+                                - generic [ref=e4293]: k
+                                - generic [ref=e4294]: m
+                          - text: are the rotor’s thrust and torque coefficients respectively, and
+                          - generic [ref=e4295]:
+                            - generic [ref=e4302]:
+                              - generic [ref=e4303]: 𝛺
+                              - generic [ref=e4304]: 𝑖
+                            - math [ref=e4305]:
+                              - generic [ref=e4308]:
+                                - generic [ref=e4309]: Ω
+                                - generic [ref=e4310]: i
+                          - text: is the rotor’s angular rate.
+                        - generic [ref=e4311]:
+                          - text: The rotor-induced velocity and interaction between rotors has a significant impact on the produced aerodynamic loads, which affect the energy consumption. That is why the rotor thrust and torque correction factors and drag force were obtained using the FLIGHTLAB software for the rotor model, which included the aerodynamic effects from the quadrotor’s configuration. FLIGHTLAB is a world-class software used by leading rotorcraft manufacturers and R&D institutions to model, analyze, and simulate rotors and propellers. In the modeling of the quadrotor propeller, the T-Motor 18” ×6 twin-blade propeller geometric data were used. Due to the lack of manufacturer information on the blade twist distribution and airfoils, the data from a similar propeller were used. The aerodynamic characteristics were taken for the DAE51 airfoil and modeled as linear quasi-steady. The induced velocity was modeled with the Peters-He 3-state model [
+                          - link "51" [ref=e4312] [cursor=pointer]:
+                            - /url: "#B51-energies-15-07136"
+                          - text: "]. During the validation, the blades’ root pitch angles were modified to match the modeled and manufacturer characteristics of thrust and torque for the hover. The resulting geometric parameters of the propeller blades are shown in"
+                          - link "Table 2" [ref=e4313] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t002"
+                          - text: . Results of the simulation compared with the manufacturer data are presented in
+                          - link "Figure 5" [ref=e4314] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f005"
+                          - text: . The developed model was used to analyze the loads in flight states other than hover.
+                        - generic [ref=e4315]:
+                          - generic [ref=e4317] [cursor=pointer]:
+                            - img "Energies 15 07136 g005" [ref=e4318]
+                            - link [ref=e4319]:
+                              - /url: "#fig_body_display_energies-15-07136-f005"
+                          - generic [ref=e4320]: Figure 5. Modeled and manufacturer thrust and torque comparison for hover conditions.
+                        - generic [ref=e4321]:
+                          - generic [ref=e4322]: Table 2. Rotor chord, chord center shift, and blade twist distribution along the rotor span.
+                          - generic [ref=e4324] [cursor=pointer]:
+                            - img [ref=e4325]
+                            - link [ref=e4326]:
+                              - /url: "#table_body_display_energies-15-07136-t002"
+                        - generic [ref=e4327]:
+                          - text: The analysis showed some differences between the characteristics of the front and rear rotors but the means were taken into account in this study. The approximated models of the corrections factors can be formed as polynomial functions (
+                          - link "Figure 6" [ref=e4328] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f006"
+                          - text: "):"
+                          - generic [ref=e4329]:
+                            - generic [ref=e4332]:
+                              - generic [ref=e4338]:
+                                - text: Δ
+                                - generic [ref=e4339]: 𝑇
+                                - text: =2.698⋅
+                                - generic [ref=e4341]:
+                                  - generic [ref=e4343]: "10"
+                                  - generic [ref=e4345]: −3
+                                - generic [ref=e4346]:
+                                  - generic [ref=e4348]: 𝑉
+                                  - generic [ref=e4350]: "3"
+                                  - generic [ref=e4352]: 𝑡𝑜𝑡
+                                - text: −3.636⋅
+                                - generic [ref=e4353]:
+                                  - generic [ref=e4355]: "10"
+                                  - generic [ref=e4357]: −2
+                                - generic [ref=e4358]:
+                                  - generic [ref=e4360]: 𝑉
+                                  - generic [ref=e4362]: "2"
+                                  - generic [ref=e4364]: 𝑡𝑜𝑡
+                                - text: −2.499⋅
+                                - generic [ref=e4365]:
+                                  - generic [ref=e4367]: "10"
+                                  - generic [ref=e4369]: −2
+                                - generic [ref=e4370]:
+                                  - generic [ref=e4372]: 𝑉
+                                  - generic [ref=e4375]: 𝑡𝑜𝑡
+                                - text: ","
+                              - math [ref=e4376]:
+                                - generic [ref=e4378]:
+                                  - generic [ref=e4379]: Δ
+                                  - generic [ref=e4380]: T
+                                  - generic [ref=e4381]: =
+                                  - generic [ref=e4382]: "2.698"
+                                  - generic [ref=e4383]: ⋅
+                                  - generic [ref=e4384]:
+                                    - generic [ref=e4386]: "10"
+                                    - generic [ref=e4387]:
+                                      - generic [ref=e4388]: −
+                                      - generic [ref=e4389]: "3"
+                                  - generic [ref=e4390]:
+                                    - generic [ref=e4391]: V
+                                    - generic [ref=e4392]:
+                                      - generic [ref=e4393]: t
+                                      - generic [ref=e4394]: o
+                                      - generic [ref=e4395]: t
+                                    - generic [ref=e4396]: "3"
+                                  - generic [ref=e4397]: −
+                                  - generic [ref=e4398]: "3.636"
+                                  - generic [ref=e4399]: ⋅
+                                  - generic [ref=e4400]:
+                                    - generic [ref=e4402]: "10"
+                                    - generic [ref=e4403]:
+                                      - generic [ref=e4404]: −
+                                      - generic [ref=e4405]: "2"
+                                  - generic [ref=e4406]:
+                                    - generic [ref=e4407]: V
+                                    - generic [ref=e4408]:
+                                      - generic [ref=e4409]: t
+                                      - generic [ref=e4410]: o
+                                      - generic [ref=e4411]: t
+                                    - generic [ref=e4412]: "2"
+                                  - generic [ref=e4413]: −
+                                  - generic [ref=e4414]: "2.499"
+                                  - generic [ref=e4415]: ⋅
+                                  - generic [ref=e4416]:
+                                    - generic [ref=e4418]: "10"
+                                    - generic [ref=e4419]:
+                                      - generic [ref=e4420]: −
+                                      - generic [ref=e4421]: "2"
+                                  - generic [ref=e4422]:
+                                    - generic [ref=e4423]: V
+                                    - generic [ref=e4424]:
+                                      - generic [ref=e4425]: t
+                                      - generic [ref=e4426]: o
+                                      - generic [ref=e4427]: t
+                                  - generic [ref=e4428]: ","
+                            - generic [ref=e4430]: (20)
+                          - text: and
+                          - generic [ref=e4431]:
+                            - generic [ref=e4434]:
+                              - generic [ref=e4440]:
+                                - text: Δ𝑀=3.702⋅
+                                - generic [ref=e4441]:
+                                  - generic [ref=e4443]: "10"
+                                  - generic [ref=e4445]: −7
+                                - generic [ref=e4446]:
+                                  - generic [ref=e4448]: 𝑉
+                                  - generic [ref=e4450]: "5"
+                                  - generic [ref=e4452]: 𝑡𝑜𝑡
+                                - text: −1.043⋅
+                                - generic [ref=e4453]:
+                                  - generic [ref=e4455]: "10"
+                                  - generic [ref=e4457]: −5
+                                - generic [ref=e4458]:
+                                  - generic [ref=e4460]: 𝑉
+                                  - generic [ref=e4462]: "4"
+                                  - generic [ref=e4464]: 𝑡𝑜𝑡
+                                - text: +6.307⋅
+                                - generic [ref=e4465]:
+                                  - generic [ref=e4467]: "10"
+                                  - generic [ref=e4469]: −5
+                                - generic [ref=e4470]:
+                                  - generic [ref=e4472]: 𝑉
+                                  - generic [ref=e4474]: "3"
+                                  - generic [ref=e4476]: 𝑡𝑜𝑡
+                                - text: +8.792⋅
+                                - generic [ref=e4477]:
+                                  - generic [ref=e4479]: "10"
+                                  - generic [ref=e4481]: −5
+                                - generic [ref=e4482]:
+                                  - generic [ref=e4484]: 𝑉
+                                  - generic [ref=e4486]: "2"
+                                  - generic [ref=e4488]: 𝑡𝑜𝑡
+                                - text: +3.363⋅
+                                - generic [ref=e4489]:
+                                  - generic [ref=e4491]: "10"
+                                  - generic [ref=e4493]: −4
+                                - generic [ref=e4494]:
+                                  - generic [ref=e4496]: 𝑉
+                                  - generic [ref=e4499]: 𝑡𝑜𝑡
+                                - text: ","
+                              - math [ref=e4500]:
+                                - generic [ref=e4502]:
+                                  - generic [ref=e4503]: Δ
+                                  - generic [ref=e4504]: M
+                                  - generic [ref=e4505]: =
+                                  - generic [ref=e4506]: "3.702"
+                                  - generic [ref=e4507]: ⋅
+                                  - generic [ref=e4508]:
+                                    - generic [ref=e4510]: "10"
+                                    - generic [ref=e4511]:
+                                      - generic [ref=e4512]: −
+                                      - generic [ref=e4513]: "7"
+                                  - generic [ref=e4514]:
+                                    - generic [ref=e4515]: V
+                                    - generic [ref=e4516]:
+                                      - generic [ref=e4517]: t
+                                      - generic [ref=e4518]: o
+                                      - generic [ref=e4519]: t
+                                    - generic [ref=e4520]: "5"
+                                  - generic [ref=e4521]: −
+                                  - generic [ref=e4522]: "1.043"
+                                  - generic [ref=e4523]: ⋅
+                                  - generic [ref=e4524]:
+                                    - generic [ref=e4526]: "10"
+                                    - generic [ref=e4527]:
+                                      - generic [ref=e4528]: −
+                                      - generic [ref=e4529]: "5"
+                                  - generic [ref=e4530]:
+                                    - generic [ref=e4531]: V
+                                    - generic [ref=e4532]:
+                                      - generic [ref=e4533]: t
+                                      - generic [ref=e4534]: o
+                                      - generic [ref=e4535]: t
+                                    - generic [ref=e4536]: "4"
+                                  - generic [ref=e4537]: +
+                                  - generic [ref=e4538]: "6.307"
+                                  - generic [ref=e4539]: ⋅
+                                  - generic [ref=e4540]:
+                                    - generic [ref=e4542]: "10"
+                                    - generic [ref=e4543]:
+                                      - generic [ref=e4544]: −
+                                      - generic [ref=e4545]: "5"
+                                  - generic [ref=e4546]:
+                                    - generic [ref=e4547]: V
+                                    - generic [ref=e4548]:
+                                      - generic [ref=e4549]: t
+                                      - generic [ref=e4550]: o
+                                      - generic [ref=e4551]: t
+                                    - generic [ref=e4552]: "3"
+                                  - generic [ref=e4553]: +
+                                  - generic [ref=e4554]: "8.792"
+                                  - generic [ref=e4555]: ⋅
+                                  - generic [ref=e4556]:
+                                    - generic [ref=e4558]: "10"
+                                    - generic [ref=e4559]:
+                                      - generic [ref=e4560]: −
+                                      - generic [ref=e4561]: "5"
+                                  - generic [ref=e4562]:
+                                    - generic [ref=e4563]: V
+                                    - generic [ref=e4564]:
+                                      - generic [ref=e4565]: t
+                                      - generic [ref=e4566]: o
+                                      - generic [ref=e4567]: t
+                                    - generic [ref=e4568]: "2"
+                                  - generic [ref=e4569]: +
+                                  - generic [ref=e4570]: "3.363"
+                                  - generic [ref=e4571]: ⋅
+                                  - generic [ref=e4572]:
+                                    - generic [ref=e4574]: "10"
+                                    - generic [ref=e4575]:
+                                      - generic [ref=e4576]: −
+                                      - generic [ref=e4577]: "4"
+                                  - generic [ref=e4578]:
+                                    - generic [ref=e4579]: V
+                                    - generic [ref=e4580]:
+                                      - generic [ref=e4581]: t
+                                      - generic [ref=e4582]: o
+                                      - generic [ref=e4583]: t
+                                  - generic [ref=e4584]: ","
+                            - generic [ref=e4586]: (21)
+                          - text: and
+                          - generic [ref=e4587]:
+                            - generic [ref=e4590]:
+                              - generic [ref=e4596]:
+                                - text: Δ
+                                - generic [ref=e4597]: 𝑋
+                                - text: =1.207⋅
+                                - generic [ref=e4599]:
+                                  - generic [ref=e4601]: "10"
+                                  - generic [ref=e4603]: −4
+                                - generic [ref=e4604]:
+                                  - generic [ref=e4606]: 𝑉
+                                  - generic [ref=e4608]: "3"
+                                  - generic [ref=e4610]: 𝑡𝑜𝑡
+                                - text: −2.507⋅
+                                - generic [ref=e4611]:
+                                  - generic [ref=e4613]: "10"
+                                  - generic [ref=e4615]: −3
+                                - generic [ref=e4616]:
+                                  - generic [ref=e4618]: 𝑉
+                                  - generic [ref=e4620]: "2"
+                                  - generic [ref=e4622]: 𝑡𝑜𝑡
+                                - text: +4.553⋅
+                                - generic [ref=e4623]:
+                                  - generic [ref=e4625]: "10"
+                                  - generic [ref=e4627]: −2
+                                - generic [ref=e4628]:
+                                  - generic [ref=e4630]: 𝑉
+                                  - generic [ref=e4633]: 𝑡𝑜𝑡
+                                - text: ","
+                              - math [ref=e4634]:
+                                - generic [ref=e4636]:
+                                  - generic [ref=e4637]: Δ
+                                  - generic [ref=e4638]: X
+                                  - generic [ref=e4639]: =
+                                  - generic [ref=e4640]: "1.207"
+                                  - generic [ref=e4641]: ⋅
+                                  - generic [ref=e4642]:
+                                    - generic [ref=e4644]: "10"
+                                    - generic [ref=e4645]:
+                                      - generic [ref=e4646]: −
+                                      - generic [ref=e4647]: "4"
+                                  - generic [ref=e4648]:
+                                    - generic [ref=e4649]: V
+                                    - generic [ref=e4650]:
+                                      - generic [ref=e4651]: t
+                                      - generic [ref=e4652]: o
+                                      - generic [ref=e4653]: t
+                                    - generic [ref=e4654]: "3"
+                                  - generic [ref=e4655]: −
+                                  - generic [ref=e4656]: "2.507"
+                                  - generic [ref=e4657]: ⋅
+                                  - generic [ref=e4658]:
+                                    - generic [ref=e4660]: "10"
+                                    - generic [ref=e4661]:
+                                      - generic [ref=e4662]: −
+                                      - generic [ref=e4663]: "3"
+                                  - generic [ref=e4664]:
+                                    - generic [ref=e4665]: V
+                                    - generic [ref=e4666]:
+                                      - generic [ref=e4667]: t
+                                      - generic [ref=e4668]: o
+                                      - generic [ref=e4669]: t
+                                    - generic [ref=e4670]: "2"
+                                  - generic [ref=e4671]: +
+                                  - generic [ref=e4672]: "4.553"
+                                  - generic [ref=e4673]: ⋅
+                                  - generic [ref=e4674]:
+                                    - generic [ref=e4676]: "10"
+                                    - generic [ref=e4677]:
+                                      - generic [ref=e4678]: −
+                                      - generic [ref=e4679]: "2"
+                                  - generic [ref=e4680]:
+                                    - generic [ref=e4681]: V
+                                    - generic [ref=e4682]:
+                                      - generic [ref=e4683]: t
+                                      - generic [ref=e4684]: o
+                                      - generic [ref=e4685]: t
+                                  - generic [ref=e4686]: ","
+                            - generic [ref=e4688]: (22)
+                          - text: where
+                          - generic [ref=e4689]:
+                            - generic [ref=e4696]:
+                              - generic [ref=e4698]: 𝑉
+                              - generic [ref=e4701]: 𝑡𝑜𝑡
+                            - math [ref=e4702]:
+                              - generic [ref=e4705]:
+                                - generic [ref=e4706]: V
+                                - generic [ref=e4707]:
+                                  - generic [ref=e4708]: t
+                                  - generic [ref=e4709]: o
+                                  - generic [ref=e4710]: t
+                          - text: is the drone airspeed given by (12).
+                        - generic [ref=e4711]:
+                          - generic [ref=e4713] [cursor=pointer]:
+                            - img "Energies 15 07136 g006" [ref=e4714]
+                            - link [ref=e4715]:
+                              - /url: "#fig_body_display_energies-15-07136-f006"
+                          - generic [ref=e4716]: Figure 6. Correction factors of (a) thrust, (b) torque, and (c) drag.
+                      - generic [ref=e4717]:
+                        - heading "2.3. Wind Model" [level=3] [ref=e4718]
+                        - generic [ref=e4719]:
+                          - text: "The wind field model that was used in the presented study was composed of two submodels: uniform inflow and Dryden wind turbulence model ["
+                          - link "52" [ref=e4720] [cursor=pointer]:
+                            - /url: "#B52-energies-15-07136"
+                          - text: "]. The presence of wind gusts was neglected. Total wind velocities"
+                          - generic [ref=e4721]:
+                            - generic [ref=e4727]:
+                              - generic [ref=e4728]:
+                                - generic [ref=e4730]: 𝑈
+                                - generic [ref=e4733]:
+                                  - generic [ref=e4734]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e4736]:
+                                - generic [ref=e4738]: 𝑉
+                                - generic [ref=e4741]:
+                                  - generic [ref=e4742]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e4744]:
+                                - generic [ref=e4746]: 𝑊
+                                - generic [ref=e4749]:
+                                  - generic [ref=e4750]: 𝑊
+                                  - text: 𝑛
+                            - math [ref=e4752]:
+                              - generic [ref=e4754]:
+                                - generic [ref=e4755]:
+                                  - generic [ref=e4756]: U
+                                  - generic [ref=e4757]:
+                                    - generic [ref=e4758]: W
+                                    - generic [ref=e4759]: "n"
+                                - generic [ref=e4760]: ","
+                                - generic [ref=e4761]:
+                                  - generic [ref=e4762]: V
+                                  - generic [ref=e4763]:
+                                    - generic [ref=e4764]: W
+                                    - generic [ref=e4765]: "n"
+                                - generic [ref=e4766]: ","
+                                - generic [ref=e4767]:
+                                  - generic [ref=e4768]: W
+                                  - generic [ref=e4769]:
+                                    - generic [ref=e4770]: W
+                                    - generic [ref=e4771]: "n"
+                          - text: in the
+                          - generic [ref=e4772]:
+                            - generic [ref=e4778]:
+                              - generic [ref=e4779]:
+                                - generic [ref=e4780]: 𝑂
+                                - generic [ref=e4781]: 𝑛
+                              - generic [ref=e4782]:
+                                - generic [ref=e4783]: 𝑥
+                                - generic [ref=e4784]: 𝑛
+                              - generic [ref=e4785]:
+                                - generic [ref=e4786]: 𝑦
+                                - generic [ref=e4787]: 𝑛
+                              - generic [ref=e4788]:
+                                - generic [ref=e4789]: 𝑧
+                                - generic [ref=e4790]: 𝑛
+                            - math [ref=e4791]:
+                              - generic [ref=e4793]:
+                                - generic [ref=e4794]:
+                                  - generic [ref=e4795]: O
+                                  - generic [ref=e4796]: "n"
+                                - generic [ref=e4797]:
+                                  - generic [ref=e4798]: x
+                                  - generic [ref=e4799]: "n"
+                                - generic [ref=e4800]:
+                                  - generic [ref=e4801]: "y"
+                                  - generic [ref=e4802]: "n"
+                                - generic [ref=e4803]:
+                                  - generic [ref=e4804]: z
+                                  - generic [ref=e4805]: "n"
+                          - text: "coordinate system are:"
+                          - generic [ref=e4806]:
+                            - generic [ref=e4809]:
+                              - generic [ref=e4815]:
+                                - generic [ref=e4816]:
+                                  - generic [ref=e4817]:
+                                    - generic [ref=e4818]: ⎡
+                                    - generic [ref=e4819]: ⎣
+                                    - generic [ref=e4820]: ⎢
+                                    - generic [ref=e4821]: ⎢
+                                  - generic [ref=e4824]:
+                                    - generic [ref=e4829]:
+                                      - generic [ref=e4831]: 𝑈
+                                      - generic [ref=e4834]:
+                                        - generic [ref=e4835]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e4841]:
+                                      - generic [ref=e4843]: 𝑉
+                                      - generic [ref=e4846]:
+                                        - generic [ref=e4847]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e4853]:
+                                      - generic [ref=e4855]: 𝑊
+                                      - generic [ref=e4858]:
+                                        - generic [ref=e4859]: 𝑊
+                                        - text: 𝑛
+                                  - generic [ref=e4861]:
+                                    - generic [ref=e4862]: ⎤
+                                    - generic [ref=e4863]: ⎦
+                                    - generic [ref=e4864]: ⎥
+                                    - generic [ref=e4865]: ⎥
+                                - text: =
+                                - generic [ref=e4866]:
+                                  - generic [ref=e4867]:
+                                    - generic [ref=e4868]: ⎡
+                                    - generic [ref=e4869]: ⎣
+                                    - generic [ref=e4870]: ⎢
+                                    - generic [ref=e4871]: ⎢
+                                    - generic [ref=e4872]: ⎢
+                                  - generic [ref=e4875]:
+                                    - generic [ref=e4880]:
+                                      - generic [ref=e4882]: 𝑈
+                                      - generic [ref=e4884]: 𝑢
+                                      - generic [ref=e4886]:
+                                        - generic [ref=e4887]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e4893]:
+                                      - generic [ref=e4895]: 𝑉
+                                      - generic [ref=e4897]: 𝑢
+                                      - generic [ref=e4899]:
+                                        - generic [ref=e4900]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e4906]:
+                                      - generic [ref=e4908]: 𝑊
+                                      - generic [ref=e4910]: 𝑢
+                                      - generic [ref=e4912]:
+                                        - generic [ref=e4913]: 𝑊
+                                        - text: 𝑛
+                                  - generic [ref=e4915]:
+                                    - generic [ref=e4916]: ⎤
+                                    - generic [ref=e4917]: ⎦
+                                    - generic [ref=e4918]: ⎥
+                                    - generic [ref=e4919]: ⎥
+                                    - generic [ref=e4920]: ⎥
+                                - text: +
+                                - generic [ref=e4921]:
+                                  - generic [ref=e4922]:
+                                    - generic [ref=e4923]: ⎡
+                                    - generic [ref=e4924]: ⎣
+                                    - generic [ref=e4925]: ⎢
+                                    - generic [ref=e4926]: ⎢
+                                    - generic [ref=e4927]: ⎢
+                                  - generic [ref=e4930]:
+                                    - generic [ref=e4935]:
+                                      - generic [ref=e4937]: 𝑈
+                                      - generic [ref=e4939]: 𝑡
+                                      - generic [ref=e4941]:
+                                        - generic [ref=e4942]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e4948]:
+                                      - generic [ref=e4950]: 𝑉
+                                      - generic [ref=e4952]: 𝑡
+                                      - generic [ref=e4954]:
+                                        - generic [ref=e4955]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e4961]:
+                                      - generic [ref=e4963]: 𝑊
+                                      - generic [ref=e4965]: 𝑡
+                                      - generic [ref=e4967]:
+                                        - generic [ref=e4968]: 𝑊
+                                        - text: 𝑛
+                                  - generic [ref=e4970]:
+                                    - generic [ref=e4971]: ⎤
+                                    - generic [ref=e4972]: ⎦
+                                    - generic [ref=e4973]: ⎥
+                                    - generic [ref=e4974]: ⎥
+                                    - generic [ref=e4975]: ⎥
+                                - text: ","
+                              - math [ref=e4976]:
+                                - generic [ref=e4978]:
+                                  - generic [ref=e4981]:
+                                    - generic [ref=e4985]:
+                                      - generic [ref=e4986]: U
+                                      - generic [ref=e4987]:
+                                        - generic [ref=e4988]: W
+                                        - generic [ref=e4989]: "n"
+                                    - generic [ref=e4993]:
+                                      - generic [ref=e4994]: V
+                                      - generic [ref=e4995]:
+                                        - generic [ref=e4996]: W
+                                        - generic [ref=e4997]: "n"
+                                    - generic [ref=e5001]:
+                                      - generic [ref=e5002]: W
+                                      - generic [ref=e5003]:
+                                        - generic [ref=e5004]: W
+                                        - generic [ref=e5005]: "n"
+                                  - generic [ref=e5006]: =
+                                  - generic [ref=e5009]:
+                                    - generic [ref=e5013]:
+                                      - generic [ref=e5014]: U
+                                      - generic [ref=e5015]:
+                                        - generic [ref=e5016]: W
+                                        - generic [ref=e5017]: "n"
+                                      - generic [ref=e5018]: u
+                                    - generic [ref=e5022]:
+                                      - generic [ref=e5023]: V
+                                      - generic [ref=e5024]:
+                                        - generic [ref=e5025]: W
+                                        - generic [ref=e5026]: "n"
+                                      - generic [ref=e5027]: u
+                                    - generic [ref=e5031]:
+                                      - generic [ref=e5032]: W
+                                      - generic [ref=e5033]:
+                                        - generic [ref=e5034]: W
+                                        - generic [ref=e5035]: "n"
+                                      - generic [ref=e5036]: u
+                                  - generic [ref=e5037]: +
+                                  - generic [ref=e5040]:
+                                    - generic [ref=e5044]:
+                                      - generic [ref=e5045]: U
+                                      - generic [ref=e5046]:
+                                        - generic [ref=e5047]: W
+                                        - generic [ref=e5048]: "n"
+                                      - generic [ref=e5049]: t
+                                    - generic [ref=e5053]:
+                                      - generic [ref=e5054]: V
+                                      - generic [ref=e5055]:
+                                        - generic [ref=e5056]: W
+                                        - generic [ref=e5057]: "n"
+                                      - generic [ref=e5058]: t
+                                    - generic [ref=e5062]:
+                                      - generic [ref=e5063]: W
+                                      - generic [ref=e5064]:
+                                        - generic [ref=e5065]: W
+                                        - generic [ref=e5066]: "n"
+                                      - generic [ref=e5067]: t
+                                  - generic [ref=e5068]: ","
+                            - generic [ref=e5070]: (23)
+                          - text: where
+                          - generic [ref=e5071]:
+                            - generic [ref=e5077]:
+                              - generic [ref=e5078]:
+                                - generic [ref=e5080]: 𝑈
+                                - generic [ref=e5082]: 𝑢
+                                - generic [ref=e5084]:
+                                  - generic [ref=e5085]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e5087]:
+                                - generic [ref=e5089]: 𝑉
+                                - generic [ref=e5091]: 𝑢
+                                - generic [ref=e5093]:
+                                  - generic [ref=e5094]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e5096]:
+                                - generic [ref=e5098]: 𝑊
+                                - generic [ref=e5100]: 𝑢
+                                - generic [ref=e5102]:
+                                  - generic [ref=e5103]: 𝑊
+                                  - text: 𝑛
+                            - math [ref=e5105]:
+                              - generic [ref=e5107]:
+                                - generic [ref=e5108]:
+                                  - generic [ref=e5109]: U
+                                  - generic [ref=e5110]:
+                                    - generic [ref=e5111]: W
+                                    - generic [ref=e5112]: "n"
+                                  - generic [ref=e5113]: u
+                                - generic [ref=e5114]: ","
+                                - generic [ref=e5115]:
+                                  - generic [ref=e5116]: V
+                                  - generic [ref=e5117]:
+                                    - generic [ref=e5118]: W
+                                    - generic [ref=e5119]: "n"
+                                  - generic [ref=e5120]: u
+                                - generic [ref=e5121]: ","
+                                - generic [ref=e5122]:
+                                  - generic [ref=e5123]: W
+                                  - generic [ref=e5124]:
+                                    - generic [ref=e5125]: W
+                                    - generic [ref=e5126]: "n"
+                                  - generic [ref=e5127]: u
+                          - text: are the uniform wind velocities and
+                          - generic [ref=e5128]:
+                            - generic [ref=e5134]:
+                              - generic [ref=e5135]:
+                                - generic [ref=e5137]: 𝑈
+                                - generic [ref=e5139]: 𝑡
+                                - generic [ref=e5141]:
+                                  - generic [ref=e5142]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e5144]:
+                                - generic [ref=e5146]: 𝑉
+                                - generic [ref=e5148]: 𝑡
+                                - generic [ref=e5150]:
+                                  - generic [ref=e5151]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e5153]:
+                                - generic [ref=e5155]: 𝑊
+                                - generic [ref=e5157]: 𝑡
+                                - generic [ref=e5159]:
+                                  - generic [ref=e5160]: 𝑊
+                                  - text: 𝑛
+                            - math [ref=e5162]:
+                              - generic [ref=e5164]:
+                                - generic [ref=e5165]:
+                                  - generic [ref=e5166]: U
+                                  - generic [ref=e5167]:
+                                    - generic [ref=e5168]: W
+                                    - generic [ref=e5169]: "n"
+                                  - generic [ref=e5170]: t
+                                - generic [ref=e5171]: ","
+                                - generic [ref=e5172]:
+                                  - generic [ref=e5173]: V
+                                  - generic [ref=e5174]:
+                                    - generic [ref=e5175]: W
+                                    - generic [ref=e5176]: "n"
+                                  - generic [ref=e5177]: t
+                                - generic [ref=e5178]: ","
+                                - generic [ref=e5179]:
+                                  - generic [ref=e5180]: W
+                                  - generic [ref=e5181]:
+                                    - generic [ref=e5182]: W
+                                    - generic [ref=e5183]: "n"
+                                  - generic [ref=e5184]: t
+                          - text: are turbulence velocities.
+                        - generic [ref=e5185]:
+                          - text: The uniform wind speed expressed in the
+                          - generic [ref=e5186]:
+                            - generic [ref=e5192]:
+                              - generic [ref=e5193]:
+                                - generic [ref=e5194]: 𝑂
+                                - generic [ref=e5195]: 𝑛
+                              - generic [ref=e5196]:
+                                - generic [ref=e5197]: 𝑥
+                                - generic [ref=e5198]: 𝑛
+                              - generic [ref=e5199]:
+                                - generic [ref=e5200]: 𝑦
+                                - generic [ref=e5201]: 𝑛
+                              - generic [ref=e5202]:
+                                - generic [ref=e5203]: 𝑧
+                                - generic [ref=e5204]: 𝑛
+                            - math [ref=e5205]:
+                              - generic [ref=e5207]:
+                                - generic [ref=e5208]:
+                                  - generic [ref=e5209]: O
+                                  - generic [ref=e5210]: "n"
+                                - generic [ref=e5211]:
+                                  - generic [ref=e5212]: x
+                                  - generic [ref=e5213]: "n"
+                                - generic [ref=e5214]:
+                                  - generic [ref=e5215]: "y"
+                                  - generic [ref=e5216]: "n"
+                                - generic [ref=e5217]:
+                                  - generic [ref=e5218]: z
+                                  - generic [ref=e5219]: "n"
+                          - text: coordinate frame is
+                          - generic [ref=e5220]:
+                            - generic [ref=e5227]:
+                              - generic [ref=e5229]: 𝑉
+                              - generic [ref=e5232]:
+                                - generic [ref=e5233]: 𝑊
+                                - text: 𝑡𝑜𝑡
+                            - math [ref=e5235]:
+                              - generic [ref=e5238]:
+                                - generic [ref=e5239]: V
+                                - generic [ref=e5240]:
+                                  - generic [ref=e5241]: W
+                                  - generic [ref=e5242]: t
+                                  - generic [ref=e5243]: o
+                                  - generic [ref=e5244]: t
+                          - text: . This means wind speed describes the low frequency variations and is averaged over a specific time interval (for simplicity it was assumed that
+                          - generic [ref=e5245]:
+                            - generic [ref=e5252]:
+                              - generic [ref=e5254]: 𝑉
+                              - generic [ref=e5257]:
+                                - generic [ref=e5258]: 𝑊
+                                - text: 𝑡𝑜𝑡
+                            - math [ref=e5260]:
+                              - generic [ref=e5263]:
+                                - generic [ref=e5264]: V
+                                - generic [ref=e5265]:
+                                  - generic [ref=e5266]: W
+                                  - generic [ref=e5267]: t
+                                  - generic [ref=e5268]: o
+                                  - generic [ref=e5269]: t
+                          - text: is constant). The direction of the oncoming wind was defined by the angle
+                          - generic [ref=e5270]:
+                            - generic [ref=e5277]:
+                              - generic [ref=e5279]: Ψ
+                              - generic [ref=e5281]: 𝑊
+                            - math [ref=e5283]:
+                              - generic [ref=e5286]:
+                                - generic [ref=e5287]: Ψ
+                                - generic [ref=e5288]: W
+                          - text: (clockwise when looking from above, for example 0°, wind from the north, 90°, from the east). The wind velocities of the uniform wind field in the
+                          - generic [ref=e5289]:
+                            - generic [ref=e5295]:
+                              - generic [ref=e5296]:
+                                - generic [ref=e5297]: 𝑂
+                                - generic [ref=e5298]: 𝑛
+                              - generic [ref=e5299]:
+                                - generic [ref=e5300]: 𝑥
+                                - generic [ref=e5301]: 𝑛
+                              - generic [ref=e5302]:
+                                - generic [ref=e5303]: 𝑦
+                                - generic [ref=e5304]: 𝑛
+                              - generic [ref=e5305]:
+                                - generic [ref=e5306]: 𝑧
+                                - generic [ref=e5307]: 𝑛
+                            - math [ref=e5308]:
+                              - generic [ref=e5310]:
+                                - generic [ref=e5311]:
+                                  - generic [ref=e5312]: O
+                                  - generic [ref=e5313]: "n"
+                                - generic [ref=e5314]:
+                                  - generic [ref=e5315]: x
+                                  - generic [ref=e5316]: "n"
+                                - generic [ref=e5317]:
+                                  - generic [ref=e5318]: "y"
+                                  - generic [ref=e5319]: "n"
+                                - generic [ref=e5320]:
+                                  - generic [ref=e5321]: z
+                                  - generic [ref=e5322]: "n"
+                          - text: "frame are:"
+                          - generic [ref=e5323]:
+                            - generic [ref=e5326]:
+                              - generic [ref=e5332]:
+                                - generic [ref=e5333]:
+                                  - generic [ref=e5334]:
+                                    - generic [ref=e5335]: ⎡
+                                    - generic [ref=e5336]: ⎣
+                                    - generic [ref=e5337]: ⎢
+                                    - generic [ref=e5338]: ⎢
+                                    - generic [ref=e5339]: ⎢
+                                  - generic [ref=e5342]:
+                                    - generic [ref=e5347]:
+                                      - generic [ref=e5349]: 𝑈
+                                      - generic [ref=e5351]: 𝑢
+                                      - generic [ref=e5353]:
+                                        - generic [ref=e5354]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e5360]:
+                                      - generic [ref=e5362]: 𝑉
+                                      - generic [ref=e5364]: 𝑢
+                                      - generic [ref=e5366]:
+                                        - generic [ref=e5367]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e5373]:
+                                      - generic [ref=e5375]: 𝑊
+                                      - generic [ref=e5377]: 𝑢
+                                      - generic [ref=e5379]:
+                                        - generic [ref=e5380]: 𝑊
+                                        - text: 𝑛
+                                  - generic [ref=e5382]:
+                                    - generic [ref=e5383]: ⎤
+                                    - generic [ref=e5384]: ⎦
+                                    - generic [ref=e5385]: ⎥
+                                    - generic [ref=e5386]: ⎥
+                                    - generic [ref=e5387]: ⎥
+                                - text: =
+                                - generic [ref=e5388]:
+                                  - generic [ref=e5389]:
+                                    - generic [ref=e5390]: ⎡
+                                    - generic [ref=e5391]: ⎣
+                                    - generic [ref=e5392]: ⎢
+                                    - generic [ref=e5393]: ⎢
+                                  - generic [ref=e5396]:
+                                    - generic [ref=e5400]:
+                                      - text: −
+                                      - generic [ref=e5401]:
+                                        - generic [ref=e5403]: 𝑉
+                                        - generic [ref=e5406]:
+                                          - generic [ref=e5407]: 𝑊
+                                          - text: 𝑡𝑜𝑡
+                                      - text: cos
+                                      - generic [ref=e5409]:
+                                        - generic [ref=e5411]: Ψ
+                                        - generic [ref=e5412]: W
+                                    - generic [ref=e5416]:
+                                      - text: −
+                                      - generic [ref=e5417]:
+                                        - generic [ref=e5419]: 𝑉
+                                        - generic [ref=e5422]:
+                                          - generic [ref=e5423]: 𝑊
+                                          - text: 𝑡𝑜𝑡
+                                      - text: sin
+                                      - generic [ref=e5425]:
+                                        - generic [ref=e5427]: Ψ
+                                        - generic [ref=e5428]: W
+                                    - generic [ref=e5431]: "0"
+                                  - generic [ref=e5432]:
+                                    - generic [ref=e5433]: ⎤
+                                    - generic [ref=e5434]: ⎦
+                                    - generic [ref=e5435]: ⎥
+                                    - generic [ref=e5436]: ⎥
+                                - text: ","
+                              - math [ref=e5437]:
+                                - generic [ref=e5439]:
+                                  - generic [ref=e5442]:
+                                    - generic [ref=e5446]:
+                                      - generic [ref=e5447]: U
+                                      - generic [ref=e5448]:
+                                        - generic [ref=e5449]: W
+                                        - generic [ref=e5450]: "n"
+                                      - generic [ref=e5451]: u
+                                    - generic [ref=e5455]:
+                                      - generic [ref=e5456]: V
+                                      - generic [ref=e5457]:
+                                        - generic [ref=e5458]: W
+                                        - generic [ref=e5459]: "n"
+                                      - generic [ref=e5460]: u
+                                    - generic [ref=e5464]:
+                                      - generic [ref=e5465]: W
+                                      - generic [ref=e5466]:
+                                        - generic [ref=e5467]: W
+                                        - generic [ref=e5468]: "n"
+                                      - generic [ref=e5469]: u
+                                  - generic [ref=e5470]: =
+                                  - generic [ref=e5473]:
+                                    - generic [ref=e5476]:
+                                      - generic [ref=e5477]: −
+                                      - generic [ref=e5478]:
+                                        - generic [ref=e5479]: V
+                                        - generic [ref=e5480]:
+                                          - generic [ref=e5481]: W
+                                          - generic [ref=e5482]: t
+                                          - generic [ref=e5483]: o
+                                          - generic [ref=e5484]: t
+                                      - generic [ref=e5485]: cos
+                                      - generic [ref=e5486]:
+                                        - generic [ref=e5487]: Ψ
+                                        - generic [ref=e5488]: W
+                                    - generic [ref=e5491]:
+                                      - generic [ref=e5492]: −
+                                      - generic [ref=e5493]:
+                                        - generic [ref=e5494]: V
+                                        - generic [ref=e5495]:
+                                          - generic [ref=e5496]: W
+                                          - generic [ref=e5497]: t
+                                          - generic [ref=e5498]: o
+                                          - generic [ref=e5499]: t
+                                      - generic [ref=e5500]: sin
+                                      - generic [ref=e5501]:
+                                        - generic [ref=e5502]: Ψ
+                                        - generic [ref=e5503]: W
+                                    - generic [ref=e5506]: "0"
+                                  - generic [ref=e5507]: ","
+                            - generic [ref=e5509]: (24)
+                        - generic [ref=e5510]:
+                          - text: Turbulence is a stochastic process that is difficult to model. The continuous representation of Dryden velocity spectra with positive vertical and lateral angular rates spectra (q+ r+) were used (details could be found in [
+                          - link "53" [ref=e5511] [cursor=pointer]:
+                            - /url: "#B53-energies-15-07136"
+                          - text: "], though herein only a brief description is presented for brevity). This model is based on the pseudorandom white noise that is passed through band-limited filters. This approach is standard in modeling wind in the case of large aircrafts but Watkins and Vino ["
+                          - link "54" [ref=e5512] [cursor=pointer]:
+                            - /url: "#B54-energies-15-07136"
+                          - text: "] showed that such kind of model could be applied to small UAVs. The transfer functions that were used to calculate turbulence velocities"
+                          - generic [ref=e5513]:
+                            - generic [ref=e5519]:
+                              - generic [ref=e5520]:
+                                - generic [ref=e5522]: 𝑈
+                                - generic [ref=e5524]: 𝑡
+                                - generic [ref=e5526]:
+                                  - generic [ref=e5527]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e5529]:
+                                - generic [ref=e5531]: 𝑉
+                                - generic [ref=e5533]: 𝑡
+                                - generic [ref=e5535]:
+                                  - generic [ref=e5536]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e5538]:
+                                - generic [ref=e5540]: 𝑊
+                                - generic [ref=e5542]: 𝑡
+                                - generic [ref=e5544]:
+                                  - generic [ref=e5545]: 𝑊
+                                  - text: 𝑛
+                            - math [ref=e5547]:
+                              - generic [ref=e5549]:
+                                - generic [ref=e5550]:
+                                  - generic [ref=e5551]: U
+                                  - generic [ref=e5552]:
+                                    - generic [ref=e5553]: W
+                                    - generic [ref=e5554]: "n"
+                                  - generic [ref=e5555]: t
+                                - generic [ref=e5556]: ","
+                                - generic [ref=e5557]:
+                                  - generic [ref=e5558]: V
+                                  - generic [ref=e5559]:
+                                    - generic [ref=e5560]: W
+                                    - generic [ref=e5561]: "n"
+                                  - generic [ref=e5562]: t
+                                - generic [ref=e5563]: ","
+                                - generic [ref=e5564]:
+                                  - generic [ref=e5565]: W
+                                  - generic [ref=e5566]:
+                                    - generic [ref=e5567]: W
+                                    - generic [ref=e5568]: "n"
+                                  - generic [ref=e5569]: t
+                          - text: are as follows [
+                          - link "53" [ref=e5570] [cursor=pointer]:
+                            - /url: "#B53-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e5571]:
+                            - generic [ref=e5574]:
+                              - generic [ref=e5580]:
+                                - generic [ref=e5581]:
+                                  - generic [ref=e5583]: 𝐻
+                                  - generic [ref=e5585]: 𝑢
+                                - generic [ref=e5586]:
+                                  - generic [ref=e5587]: (
+                                  - text: 𝑠
+                                  - generic [ref=e5588]: )
+                                - text: =
+                                - generic [ref=e5589]:
+                                  - generic [ref=e5591]: 𝜎
+                                  - generic [ref=e5593]: 𝑢
+                                - generic [ref=e5594]:
+                                  - generic [ref=e5598]:
+                                    - generic [ref=e5600]:
+                                      - text: "2"
+                                      - generic [ref=e5601]:
+                                        - generic [ref=e5602]: 𝐿
+                                        - generic [ref=e5603]: 𝑢
+                                    - generic [ref=e5605]:
+                                      - generic [ref=e5606]: 𝜋
+                                      - generic [ref=e5608]:
+                                        - generic [ref=e5610]: 𝑉
+                                        - generic [ref=e5613]: 𝑡𝑜𝑡
+                                  - generic [ref=e5616]:
+                                    - generic [ref=e5617]: −
+                                    - generic [ref=e5618]: −
+                                    - generic [ref=e5619]: −
+                                    - generic [ref=e5620]: −
+                                    - generic [ref=e5621]: −
+                                  - generic [ref=e5622]: √
+                                - generic [ref=e5623]:
+                                  - generic [ref=e5624]: "1"
+                                  - generic [ref=e5626]:
+                                    - text: 1+
+                                    - generic [ref=e5627]:
+                                      - generic [ref=e5630]:
+                                        - generic [ref=e5631]: 𝐿
+                                        - generic [ref=e5632]: 𝑢
+                                      - generic [ref=e5635]:
+                                        - generic [ref=e5637]: 𝑉
+                                        - generic [ref=e5640]: 𝑡𝑜𝑡
+                                    - text: 𝑠
+                              - math [ref=e5645]:
+                                - generic [ref=e5647]:
+                                  - generic [ref=e5648]:
+                                    - generic [ref=e5649]: H
+                                    - generic [ref=e5650]: u
+                                  - generic [ref=e5652]: s
+                                  - generic [ref=e5653]: =
+                                  - generic [ref=e5654]:
+                                    - generic [ref=e5655]: σ
+                                    - generic [ref=e5656]: u
+                                  - generic [ref=e5659]:
+                                    - generic [ref=e5660]:
+                                      - generic [ref=e5661]: "2"
+                                      - generic [ref=e5662]:
+                                        - generic [ref=e5663]: L
+                                        - generic [ref=e5664]: u
+                                    - generic [ref=e5665]:
+                                      - generic [ref=e5666]: π
+                                      - generic [ref=e5667]:
+                                        - generic [ref=e5668]: V
+                                        - generic [ref=e5669]:
+                                          - generic [ref=e5670]: t
+                                          - generic [ref=e5671]: o
+                                          - generic [ref=e5672]: t
+                                  - generic [ref=e5673]:
+                                    - generic [ref=e5674]: "1"
+                                    - generic [ref=e5675]:
+                                      - generic [ref=e5676]: "1"
+                                      - generic [ref=e5677]: +
+                                      - generic [ref=e5678]:
+                                        - generic [ref=e5680]:
+                                          - generic [ref=e5681]: L
+                                          - generic [ref=e5682]: u
+                                        - generic [ref=e5684]:
+                                          - generic [ref=e5685]: V
+                                          - generic [ref=e5686]:
+                                            - generic [ref=e5687]: t
+                                            - generic [ref=e5688]: o
+                                            - generic [ref=e5689]: t
+                                      - generic [ref=e5690]: s
+                            - generic [ref=e5692]: (25)
+                          - generic [ref=e5693]:
+                            - generic [ref=e5696]:
+                              - generic [ref=e5702]:
+                                - generic [ref=e5703]:
+                                  - generic [ref=e5705]: 𝐻
+                                  - generic [ref=e5707]: 𝑣
+                                - generic [ref=e5708]:
+                                  - generic [ref=e5709]: (
+                                  - text: 𝑠
+                                  - generic [ref=e5710]: )
+                                - text: =
+                                - generic [ref=e5711]:
+                                  - generic [ref=e5713]: 𝜎
+                                  - generic [ref=e5715]: 𝑢
+                                - generic [ref=e5716]:
+                                  - generic [ref=e5720]:
+                                    - generic [ref=e5723]:
+                                      - generic [ref=e5724]: 𝐿
+                                      - generic [ref=e5725]: 𝑣
+                                    - generic [ref=e5727]:
+                                      - generic [ref=e5728]: 𝜋
+                                      - generic [ref=e5730]:
+                                        - generic [ref=e5732]: 𝑉
+                                        - generic [ref=e5735]: 𝑡𝑜𝑡
+                                  - generic [ref=e5738]:
+                                    - generic [ref=e5739]: −
+                                    - generic [ref=e5740]: −
+                                    - generic [ref=e5741]: −
+                                    - generic [ref=e5742]: −
+                                    - generic [ref=e5743]: −
+                                  - generic [ref=e5744]: √
+                                - generic [ref=e5745]:
+                                  - generic [ref=e5747]:
+                                    - text: 1+
+                                    - generic [ref=e5748]:
+                                      - generic [ref=e5750]:
+                                        - generic [ref=e5751]:
+                                          - generic [ref=e5753]: "3"
+                                          - generic [ref=e5757]: √
+                                        - generic [ref=e5758]:
+                                          - generic [ref=e5759]: 𝐿
+                                          - generic [ref=e5760]: 𝑣
+                                      - generic [ref=e5762]: 𝑉
+                                    - text: 𝑠
+                                  - generic [ref=e5768]:
+                                    - generic [ref=e5771]:
+                                      - generic [ref=e5772]: (
+                                      - generic [ref=e5773]:
+                                        - text: 1+
+                                        - generic [ref=e5774]:
+                                          - generic [ref=e5777]:
+                                            - generic [ref=e5778]: 𝐿
+                                            - generic [ref=e5779]: 𝑢
+                                          - generic [ref=e5782]:
+                                            - generic [ref=e5784]: 𝑉
+                                            - generic [ref=e5787]: 𝑡𝑜𝑡
+                                        - text: 𝑠
+                                      - generic [ref=e5790]: )
+                                    - generic [ref=e5791]: "2"
+                              - math [ref=e5794]:
+                                - generic [ref=e5796]:
+                                  - generic [ref=e5797]:
+                                    - generic [ref=e5798]: H
+                                    - generic [ref=e5799]: v
+                                  - generic [ref=e5801]: s
+                                  - generic [ref=e5802]: =
+                                  - generic [ref=e5803]:
+                                    - generic [ref=e5804]: σ
+                                    - generic [ref=e5805]: u
+                                  - generic [ref=e5808]:
+                                    - generic [ref=e5810]:
+                                      - generic [ref=e5811]: L
+                                      - generic [ref=e5812]: v
+                                    - generic [ref=e5813]:
+                                      - generic [ref=e5814]: π
+                                      - generic [ref=e5815]:
+                                        - generic [ref=e5816]: V
+                                        - generic [ref=e5817]:
+                                          - generic [ref=e5818]: t
+                                          - generic [ref=e5819]: o
+                                          - generic [ref=e5820]: t
+                                  - generic [ref=e5821]:
+                                    - generic [ref=e5822]:
+                                      - generic [ref=e5823]: "1"
+                                      - generic [ref=e5824]: +
+                                      - generic [ref=e5825]:
+                                        - generic [ref=e5826]:
+                                          - generic [ref=e5828]: "3"
+                                          - generic [ref=e5829]:
+                                            - generic [ref=e5830]: L
+                                            - generic [ref=e5831]: v
+                                        - generic [ref=e5832]: V
+                                      - generic [ref=e5833]: s
+                                    - generic [ref=e5835]:
+                                      - generic [ref=e5838]:
+                                        - generic [ref=e5839]: "1"
+                                        - generic [ref=e5840]: +
+                                        - generic [ref=e5841]:
+                                          - generic [ref=e5843]:
+                                            - generic [ref=e5844]: L
+                                            - generic [ref=e5845]: u
+                                          - generic [ref=e5847]:
+                                            - generic [ref=e5848]: V
+                                            - generic [ref=e5849]:
+                                              - generic [ref=e5850]: t
+                                              - generic [ref=e5851]: o
+                                              - generic [ref=e5852]: t
+                                        - generic [ref=e5853]: s
+                                      - generic [ref=e5854]: "2"
+                            - generic [ref=e5856]: (26)
+                          - generic [ref=e5857]:
+                            - generic [ref=e5860]:
+                              - generic [ref=e5866]:
+                                - generic [ref=e5867]:
+                                  - generic [ref=e5869]: 𝐻
+                                  - generic [ref=e5871]: 𝑤
+                                - generic [ref=e5872]:
+                                  - generic [ref=e5873]: (
+                                  - text: 𝑠
+                                  - generic [ref=e5874]: )
+                                - text: =
+                                - generic [ref=e5875]:
+                                  - generic [ref=e5877]: 𝜎
+                                  - generic [ref=e5879]: 𝑢
+                                - generic [ref=e5880]:
+                                  - generic [ref=e5884]:
+                                    - generic [ref=e5886]:
+                                      - text: "2"
+                                      - generic [ref=e5887]:
+                                        - generic [ref=e5888]: 𝐿
+                                        - generic [ref=e5889]: 𝑤
+                                    - generic [ref=e5891]:
+                                      - generic [ref=e5892]: 𝜋
+                                      - generic [ref=e5894]:
+                                        - generic [ref=e5896]: 𝑉
+                                        - generic [ref=e5899]: 𝑡𝑜𝑡
+                                  - generic [ref=e5902]:
+                                    - generic [ref=e5903]: −
+                                    - generic [ref=e5904]: −
+                                    - generic [ref=e5905]: −
+                                    - generic [ref=e5906]: −
+                                    - generic [ref=e5907]: −
+                                  - generic [ref=e5908]: √
+                                - generic [ref=e5909]:
+                                  - generic [ref=e5911]:
+                                    - text: 1+
+                                    - generic [ref=e5912]:
+                                      - generic [ref=e5914]:
+                                        - generic [ref=e5915]:
+                                          - generic [ref=e5917]: "3"
+                                          - generic [ref=e5921]: √
+                                        - generic [ref=e5922]:
+                                          - generic [ref=e5923]: 𝐿
+                                          - generic [ref=e5924]: 𝑤
+                                      - generic [ref=e5926]: 𝑉
+                                    - text: 𝑠
+                                  - generic [ref=e5932]:
+                                    - generic [ref=e5935]:
+                                      - generic [ref=e5936]: (
+                                      - generic [ref=e5937]:
+                                        - text: 1+
+                                        - generic [ref=e5938]:
+                                          - generic [ref=e5941]:
+                                            - generic [ref=e5942]: 𝐿
+                                            - generic [ref=e5943]: 𝑢
+                                          - generic [ref=e5946]:
+                                            - generic [ref=e5948]: 𝑉
+                                            - generic [ref=e5951]: 𝑡𝑜𝑡
+                                        - text: 𝑠
+                                      - generic [ref=e5954]: )
+                                    - generic [ref=e5955]: "2"
+                              - math [ref=e5958]:
+                                - generic [ref=e5960]:
+                                  - generic [ref=e5961]:
+                                    - generic [ref=e5962]: H
+                                    - generic [ref=e5963]: w
+                                  - generic [ref=e5965]: s
+                                  - generic [ref=e5966]: =
+                                  - generic [ref=e5967]:
+                                    - generic [ref=e5968]: σ
+                                    - generic [ref=e5969]: u
+                                  - generic [ref=e5972]:
+                                    - generic [ref=e5973]:
+                                      - generic [ref=e5974]: "2"
+                                      - generic [ref=e5975]:
+                                        - generic [ref=e5976]: L
+                                        - generic [ref=e5977]: w
+                                    - generic [ref=e5978]:
+                                      - generic [ref=e5979]: π
+                                      - generic [ref=e5980]:
+                                        - generic [ref=e5981]: V
+                                        - generic [ref=e5982]:
+                                          - generic [ref=e5983]: t
+                                          - generic [ref=e5984]: o
+                                          - generic [ref=e5985]: t
+                                  - generic [ref=e5986]:
+                                    - generic [ref=e5987]:
+                                      - generic [ref=e5988]: "1"
+                                      - generic [ref=e5989]: +
+                                      - generic [ref=e5990]:
+                                        - generic [ref=e5991]:
+                                          - generic [ref=e5993]: "3"
+                                          - generic [ref=e5994]:
+                                            - generic [ref=e5995]: L
+                                            - generic [ref=e5996]: w
+                                        - generic [ref=e5997]: V
+                                      - generic [ref=e5998]: s
+                                    - generic [ref=e6000]:
+                                      - generic [ref=e6003]:
+                                        - generic [ref=e6004]: "1"
+                                        - generic [ref=e6005]: +
+                                        - generic [ref=e6006]:
+                                          - generic [ref=e6008]:
+                                            - generic [ref=e6009]: L
+                                            - generic [ref=e6010]: u
+                                          - generic [ref=e6012]:
+                                            - generic [ref=e6013]: V
+                                            - generic [ref=e6014]:
+                                              - generic [ref=e6015]: t
+                                              - generic [ref=e6016]: o
+                                              - generic [ref=e6017]: t
+                                        - generic [ref=e6018]: s
+                                      - generic [ref=e6019]: "2"
+                            - generic [ref=e6021]: (27)
+                          - text: where
+                          - generic [ref=e6022]:
+                            - generic [ref=e6028]:
+                              - generic [ref=e6029]:
+                                - generic [ref=e6030]: 𝐿
+                                - generic [ref=e6031]: 𝑢
+                              - text: ","
+                              - generic [ref=e6032]:
+                                - generic [ref=e6033]: 𝐿
+                                - generic [ref=e6034]: 𝑣
+                              - text: ","
+                              - generic [ref=e6035]:
+                                - generic [ref=e6036]: 𝐿
+                                - generic [ref=e6037]: 𝑤
+                            - math [ref=e6038]:
+                              - generic [ref=e6040]:
+                                - generic [ref=e6041]:
+                                  - generic [ref=e6042]: L
+                                  - generic [ref=e6043]: u
+                                - generic [ref=e6044]: ","
+                                - generic [ref=e6045]:
+                                  - generic [ref=e6046]: L
+                                  - generic [ref=e6047]: v
+                                - generic [ref=e6048]: ","
+                                - generic [ref=e6049]:
+                                  - generic [ref=e6050]: L
+                                  - generic [ref=e6051]: w
+                          - text: are turbulence scale lengths and
+                          - generic [ref=e6052]:
+                            - generic [ref=e6058]:
+                              - generic [ref=e6059]:
+                                - generic [ref=e6061]: 𝜎
+                                - generic [ref=e6063]: 𝑢
+                              - text: ","
+                              - generic [ref=e6064]:
+                                - generic [ref=e6066]: 𝜎
+                                - generic [ref=e6068]: 𝑣
+                              - text: ","
+                              - generic [ref=e6069]:
+                                - generic [ref=e6071]: 𝜎
+                                - generic [ref=e6073]: 𝑤
+                            - math [ref=e6074]:
+                              - generic [ref=e6076]:
+                                - generic [ref=e6077]:
+                                  - generic [ref=e6078]: σ
+                                  - generic [ref=e6079]: u
+                                - generic [ref=e6080]: ","
+                                - generic [ref=e6081]:
+                                  - generic [ref=e6082]: σ
+                                  - generic [ref=e6083]: v
+                                - generic [ref=e6084]: ","
+                                - generic [ref=e6085]:
+                                  - generic [ref=e6086]: σ
+                                  - generic [ref=e6087]: w
+                          - text: "are the turbulence intensities. For altitudes under 1000 feet, the scale lengths of the turbulence are calculated as follows:"
+                          - generic [ref=e6088]:
+                            - generic [ref=e6091]:
+                              - generic [ref=e6097]:
+                                - generic [ref=e6098]:
+                                  - generic [ref=e6099]: 𝐿
+                                  - generic [ref=e6100]: 𝑤
+                                - text: =ℎ
+                              - math [ref=e6101]:
+                                - generic [ref=e6103]:
+                                  - generic [ref=e6104]:
+                                    - generic [ref=e6105]: L
+                                    - generic [ref=e6106]: w
+                                  - generic [ref=e6107]: =
+                                  - generic [ref=e6108]: h
+                            - generic [ref=e6110]: (28)
+                          - generic [ref=e6111]:
+                            - generic [ref=e6114]:
+                              - generic [ref=e6120]:
+                                - generic [ref=e6121]:
+                                  - generic [ref=e6122]: 𝐿
+                                  - generic [ref=e6123]: 𝑢
+                                - text: =
+                                - generic [ref=e6124]:
+                                  - generic [ref=e6125]: 𝐿
+                                  - generic [ref=e6126]: 𝑣
+                                - text: =
+                                - generic [ref=e6127]:
+                                  - generic [ref=e6128]: ℎ
+                                  - generic [ref=e6131]:
+                                    - generic [ref=e6134]:
+                                      - generic [ref=e6135]: (
+                                      - generic [ref=e6136]: 0.177+0.000823ℎ
+                                      - generic [ref=e6137]: )
+                                    - generic [ref=e6139]: "1.2"
+                              - math [ref=e6142]:
+                                - generic [ref=e6144]:
+                                  - generic [ref=e6145]:
+                                    - generic [ref=e6146]: L
+                                    - generic [ref=e6147]: u
+                                  - generic [ref=e6148]: =
+                                  - generic [ref=e6149]:
+                                    - generic [ref=e6150]: L
+                                    - generic [ref=e6151]: v
+                                  - generic [ref=e6152]: =
+                                  - generic [ref=e6153]:
+                                    - generic [ref=e6154]: h
+                                    - generic [ref=e6156]:
+                                      - generic [ref=e6159]:
+                                        - generic [ref=e6160]: "0.177"
+                                        - generic [ref=e6161]: +
+                                        - generic [ref=e6162]: "0.000823"
+                                        - generic [ref=e6163]: h
+                                      - generic [ref=e6165]: "1.2"
+                            - generic [ref=e6167]: (29)
+                          - text: where
+                          - generic [ref=e6168]:
+                            - generic [ref=e6173]: ℎ
+                            - math [ref=e6174]:
+                              - generic [ref=e6176]: h
+                          - text: "is flight altitude (must be expressed in feets). The turbulence intensities (for low altitude only) are as follows:"
+                          - generic [ref=e6177]:
+                            - generic [ref=e6180]:
+                              - generic [ref=e6186]:
+                                - generic [ref=e6187]:
+                                  - generic [ref=e6189]: 𝜎
+                                  - generic [ref=e6191]: 𝑤
+                                - text: =0.1
+                                - generic [ref=e6192]:
+                                  - generic [ref=e6194]: 𝑊
+                                  - generic [ref=e6197]: "20"
+                              - math [ref=e6198]:
+                                - generic [ref=e6200]:
+                                  - generic [ref=e6201]:
+                                    - generic [ref=e6202]: σ
+                                    - generic [ref=e6203]: w
+                                  - generic [ref=e6204]: =
+                                  - generic [ref=e6205]: "0.1"
+                                  - generic [ref=e6206]:
+                                    - generic [ref=e6207]: W
+                                    - generic [ref=e6209]: "20"
+                            - generic [ref=e6211]: (30)
+                          - generic [ref=e6212]:
+                            - generic [ref=e6215]:
+                              - generic [ref=e6221]:
+                                - generic [ref=e6222]:
+                                  - generic [ref=e6225]:
+                                    - generic [ref=e6227]: 𝜎
+                                    - generic [ref=e6229]: 𝑢
+                                  - generic [ref=e6232]:
+                                    - generic [ref=e6234]: 𝜎
+                                    - generic [ref=e6236]: 𝑤
+                                - text: =
+                                - generic [ref=e6239]:
+                                  - generic [ref=e6242]:
+                                    - generic [ref=e6244]: 𝜎
+                                    - generic [ref=e6246]: 𝑣
+                                  - generic [ref=e6249]:
+                                    - generic [ref=e6251]: 𝜎
+                                    - generic [ref=e6253]: 𝑤
+                                - text: =
+                                - generic [ref=e6256]:
+                                  - generic [ref=e6257]: "1"
+                                  - generic [ref=e6260]:
+                                    - generic [ref=e6263]:
+                                      - generic [ref=e6264]: (
+                                      - generic [ref=e6265]: 0.177+0.000823ℎ
+                                      - generic [ref=e6266]: )
+                                    - generic [ref=e6268]: "0.4"
+                              - math [ref=e6271]:
+                                - generic [ref=e6273]:
+                                  - generic [ref=e6274]:
+                                    - generic [ref=e6276]:
+                                      - generic [ref=e6277]: σ
+                                      - generic [ref=e6278]: u
+                                    - generic [ref=e6280]:
+                                      - generic [ref=e6281]: σ
+                                      - generic [ref=e6282]: w
+                                  - generic [ref=e6283]: =
+                                  - generic [ref=e6284]:
+                                    - generic [ref=e6286]:
+                                      - generic [ref=e6287]: σ
+                                      - generic [ref=e6288]: v
+                                    - generic [ref=e6290]:
+                                      - generic [ref=e6291]: σ
+                                      - generic [ref=e6292]: w
+                                  - generic [ref=e6293]: =
+                                  - generic [ref=e6294]:
+                                    - generic [ref=e6295]: "1"
+                                    - generic [ref=e6297]:
+                                      - generic [ref=e6300]:
+                                        - generic [ref=e6301]: "0.177"
+                                        - generic [ref=e6302]: +
+                                        - generic [ref=e6303]: "0.000823"
+                                        - generic [ref=e6304]: h
+                                      - generic [ref=e6306]: "0.4"
+                            - generic [ref=e6308]: (31)
+                          - text: where
+                          - generic [ref=e6309]:
+                            - generic [ref=e6316]:
+                              - generic [ref=e6318]: 𝑊
+                              - generic [ref=e6321]: "20"
+                            - math [ref=e6322]:
+                              - generic [ref=e6325]:
+                                - generic [ref=e6326]: W
+                                - generic [ref=e6328]: "20"
+                          - text: is wind speed at altitude 6 m (expressed in knots; this parameter was set according to results from the flight trials, please see section “Results”). The probability of exceeding the high-altitude intensity was 0.01. The random noise seeds used to generate three turbulence velocities were 23,341, 23,342, and 23,343, respectively.
+                        - generic [ref=e6329]:
+                          - text: Next, the total wind velocities
+                          - generic [ref=e6330]:
+                            - generic [ref=e6336]:
+                              - generic [ref=e6337]:
+                                - generic [ref=e6339]: 𝑈
+                                - generic [ref=e6342]:
+                                  - generic [ref=e6343]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e6345]:
+                                - generic [ref=e6347]: 𝑉
+                                - generic [ref=e6350]:
+                                  - generic [ref=e6351]: 𝑊
+                                  - text: 𝑛
+                              - text: ","
+                              - generic [ref=e6353]:
+                                - generic [ref=e6355]: 𝑊
+                                - generic [ref=e6358]:
+                                  - generic [ref=e6359]: 𝑊
+                                  - text: 𝑛
+                            - math [ref=e6361]:
+                              - generic [ref=e6363]:
+                                - generic [ref=e6364]:
+                                  - generic [ref=e6365]: U
+                                  - generic [ref=e6366]:
+                                    - generic [ref=e6367]: W
+                                    - generic [ref=e6368]: "n"
+                                - generic [ref=e6369]: ","
+                                - generic [ref=e6370]:
+                                  - generic [ref=e6371]: V
+                                  - generic [ref=e6372]:
+                                    - generic [ref=e6373]: W
+                                    - generic [ref=e6374]: "n"
+                                - generic [ref=e6375]: ","
+                                - generic [ref=e6376]:
+                                  - generic [ref=e6377]: W
+                                  - generic [ref=e6378]:
+                                    - generic [ref=e6379]: W
+                                    - generic [ref=e6380]: "n"
+                          - text: given by (23) were transformed from
+                          - generic [ref=e6381]:
+                            - generic [ref=e6387]:
+                              - generic [ref=e6388]:
+                                - generic [ref=e6389]: 𝑂
+                                - generic [ref=e6390]: 𝑛
+                              - generic [ref=e6391]:
+                                - generic [ref=e6392]: 𝑥
+                                - generic [ref=e6393]: 𝑛
+                              - generic [ref=e6394]:
+                                - generic [ref=e6395]: 𝑦
+                                - generic [ref=e6396]: 𝑛
+                              - generic [ref=e6397]:
+                                - generic [ref=e6398]: 𝑧
+                                - generic [ref=e6399]: 𝑛
+                            - math [ref=e6400]:
+                              - generic [ref=e6402]:
+                                - generic [ref=e6403]:
+                                  - generic [ref=e6404]: O
+                                  - generic [ref=e6405]: "n"
+                                - generic [ref=e6406]:
+                                  - generic [ref=e6407]: x
+                                  - generic [ref=e6408]: "n"
+                                - generic [ref=e6409]:
+                                  - generic [ref=e6410]: "y"
+                                  - generic [ref=e6411]: "n"
+                                - generic [ref=e6412]:
+                                  - generic [ref=e6413]: z
+                                  - generic [ref=e6414]: "n"
+                          - text: to the body-fixed coordinate system
+                          - generic [ref=e6415]:
+                            - generic [ref=e6421]:
+                              - generic [ref=e6422]:
+                                - generic [ref=e6423]: 𝑂
+                                - generic [ref=e6424]: 𝑏
+                              - generic [ref=e6425]:
+                                - generic [ref=e6426]: 𝑥
+                                - generic [ref=e6427]: 𝑏
+                              - generic [ref=e6428]:
+                                - generic [ref=e6429]: 𝑦
+                                - generic [ref=e6430]: 𝑏
+                              - generic [ref=e6431]:
+                                - generic [ref=e6432]: 𝑧
+                                - generic [ref=e6433]: 𝑏
+                            - math [ref=e6434]:
+                              - generic [ref=e6436]:
+                                - generic [ref=e6437]:
+                                  - generic [ref=e6438]: O
+                                  - generic [ref=e6439]: b
+                                - generic [ref=e6440]:
+                                  - generic [ref=e6441]: x
+                                  - generic [ref=e6442]: b
+                                - generic [ref=e6443]:
+                                  - generic [ref=e6444]: "y"
+                                  - generic [ref=e6445]: b
+                                - generic [ref=e6446]:
+                                  - generic [ref=e6447]: z
+                                  - generic [ref=e6448]: b
+                          - text: ":"
+                          - generic [ref=e6449]:
+                            - generic [ref=e6452]:
+                              - generic [ref=e6458]:
+                                - generic [ref=e6459]:
+                                  - generic [ref=e6460]:
+                                    - generic [ref=e6461]: ⎡
+                                    - generic [ref=e6462]: ⎣
+                                    - generic [ref=e6463]: ⎢
+                                    - generic [ref=e6464]: ⎢
+                                  - generic [ref=e6467]:
+                                    - generic [ref=e6472]:
+                                      - generic [ref=e6474]: 𝑈
+                                      - generic [ref=e6477]: 𝑊
+                                    - generic [ref=e6483]:
+                                      - generic [ref=e6485]: 𝑉
+                                      - generic [ref=e6488]: 𝑊
+                                    - generic [ref=e6494]:
+                                      - generic [ref=e6495]: W
+                                      - generic [ref=e6496]: W
+                                  - generic [ref=e6497]:
+                                    - generic [ref=e6498]: ⎤
+                                    - generic [ref=e6499]: ⎦
+                                    - generic [ref=e6500]: ⎥
+                                    - generic [ref=e6501]: ⎥
+                                - text: =
+                                - generic [ref=e6502]:
+                                  - generic [ref=e6503]:
+                                    - generic [ref=e6504]: ⎡
+                                    - generic [ref=e6505]: ⎣
+                                    - generic [ref=e6506]: ⎢
+                                    - generic [ref=e6507]: ⎢
+                                  - generic [ref=e6509]:
+                                    - generic [ref=e6510]:
+                                      - generic [ref=e6515]:
+                                        - text: cos
+                                        - generic [ref=e6516]: Θ
+                                        - text: cos
+                                        - generic [ref=e6517]: Ψ
+                                      - generic [ref=e6521]:
+                                        - text: sin
+                                        - generic [ref=e6522]: Φ
+                                        - text: sin
+                                        - generic [ref=e6523]: Θ
+                                        - text: cos
+                                        - generic [ref=e6524]: Ψ
+                                        - text: −cos
+                                        - generic [ref=e6525]: Φ
+                                        - text: sin
+                                        - generic [ref=e6526]: Ψ
+                                      - generic [ref=e6530]:
+                                        - text: cos
+                                        - generic [ref=e6531]: Φ
+                                        - text: sin
+                                        - generic [ref=e6532]: Θ
+                                        - text: cos
+                                        - generic [ref=e6533]: Ψ
+                                        - text: +sin
+                                        - generic [ref=e6534]: Φ
+                                        - text: sin
+                                        - generic [ref=e6535]: Ψ
+                                    - generic [ref=e6536]:
+                                      - generic [ref=e6540]:
+                                        - text: cos
+                                        - generic [ref=e6541]: Θ
+                                        - text: sin
+                                        - generic [ref=e6542]: Ψ
+                                      - generic [ref=e6546]:
+                                        - text: sin
+                                        - generic [ref=e6547]: Φ
+                                        - text: sin
+                                        - generic [ref=e6548]: Θ
+                                        - text: sin
+                                        - generic [ref=e6549]: Ψ
+                                        - text: +cos
+                                        - generic [ref=e6550]: Φ
+                                        - text: cos
+                                        - generic [ref=e6551]: Ψ
+                                      - generic [ref=e6555]:
+                                        - text: cos
+                                        - generic [ref=e6556]: Φ
+                                        - text: sin
+                                        - generic [ref=e6557]: Θ
+                                        - text: sin
+                                        - generic [ref=e6558]: Ψ
+                                        - text: −sin
+                                        - generic [ref=e6559]: Φ
+                                        - text: cos
+                                        - generic [ref=e6560]: Ψ
+                                    - generic [ref=e6561]:
+                                      - generic [ref=e6565]:
+                                        - text: −sin
+                                        - generic [ref=e6566]: Θ
+                                      - generic [ref=e6570]:
+                                        - text: sin
+                                        - generic [ref=e6571]: Φ
+                                        - text: cos
+                                        - generic [ref=e6572]: Θ
+                                      - generic [ref=e6576]:
+                                        - text: cos
+                                        - generic [ref=e6577]: Φ
+                                        - text: cos
+                                        - generic [ref=e6578]: Θ
+                                  - generic [ref=e6579]:
+                                    - generic [ref=e6580]: ⎤
+                                    - generic [ref=e6581]: ⎦
+                                    - generic [ref=e6582]: ⎥
+                                    - generic [ref=e6583]: ⎥
+                                - generic [ref=e6584]:
+                                  - generic [ref=e6585]:
+                                    - generic [ref=e6586]: ⎡
+                                    - generic [ref=e6587]: ⎣
+                                    - generic [ref=e6588]: ⎢
+                                    - generic [ref=e6589]: ⎢
+                                  - generic [ref=e6592]:
+                                    - generic [ref=e6597]:
+                                      - generic [ref=e6599]: 𝑈
+                                      - generic [ref=e6602]:
+                                        - generic [ref=e6603]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e6609]:
+                                      - generic [ref=e6611]: 𝑉
+                                      - generic [ref=e6614]:
+                                        - generic [ref=e6615]: 𝑊
+                                        - text: 𝑛
+                                    - generic [ref=e6621]:
+                                      - generic [ref=e6623]: 𝑊
+                                      - generic [ref=e6626]:
+                                        - generic [ref=e6627]: 𝑊
+                                        - text: 𝑛
+                                  - generic [ref=e6629]:
+                                    - generic [ref=e6630]: ⎤
+                                    - generic [ref=e6631]: ⎦
+                                    - generic [ref=e6632]: ⎥
+                                    - generic [ref=e6633]: ⎥
+                                - text: .
+                              - math [ref=e6634]:
+                                - generic [ref=e6636]:
+                                  - generic [ref=e6639]:
+                                    - generic [ref=e6643]:
+                                      - generic [ref=e6644]: U
+                                      - generic [ref=e6645]: W
+                                    - generic [ref=e6649]:
+                                      - generic [ref=e6650]: V
+                                      - generic [ref=e6651]: W
+                                    - generic [ref=e6655]:
+                                      - generic [ref=e6656]: W
+                                      - generic [ref=e6657]: W
+                                  - generic [ref=e6658]: =
+                                  - generic [ref=e6661]:
+                                    - generic [ref=e6662]:
+                                      - generic [ref=e6665]:
+                                        - generic [ref=e6666]: cos
+                                        - generic [ref=e6667]: Θ
+                                        - generic [ref=e6668]: cos
+                                        - generic [ref=e6669]: Ψ
+                                      - generic [ref=e6671]:
+                                        - generic [ref=e6672]: cos
+                                        - generic [ref=e6673]: Θ
+                                        - generic [ref=e6674]: sin
+                                        - generic [ref=e6675]: Ψ
+                                      - generic [ref=e6677]:
+                                        - generic [ref=e6678]: −
+                                        - generic [ref=e6679]: sin
+                                        - generic [ref=e6680]: Θ
+                                    - generic [ref=e6681]:
+                                      - generic [ref=e6683]:
+                                        - generic [ref=e6684]: sin
+                                        - generic [ref=e6685]: Φ
+                                        - generic [ref=e6686]: sin
+                                        - generic [ref=e6687]: Θ
+                                        - generic [ref=e6688]: cos
+                                        - generic [ref=e6689]: Ψ
+                                        - generic [ref=e6690]: −
+                                        - generic [ref=e6691]: cos
+                                        - generic [ref=e6692]: Φ
+                                        - generic [ref=e6693]: sin
+                                        - generic [ref=e6694]: Ψ
+                                      - generic [ref=e6696]:
+                                        - generic [ref=e6697]: sin
+                                        - generic [ref=e6698]: Φ
+                                        - generic [ref=e6699]: sin
+                                        - generic [ref=e6700]: Θ
+                                        - generic [ref=e6701]: sin
+                                        - generic [ref=e6702]: Ψ
+                                        - generic [ref=e6703]: +
+                                        - generic [ref=e6704]: cos
+                                        - generic [ref=e6705]: Φ
+                                        - generic [ref=e6706]: cos
+                                        - generic [ref=e6707]: Ψ
+                                      - generic [ref=e6709]:
+                                        - generic [ref=e6710]: sin
+                                        - generic [ref=e6711]: Φ
+                                        - generic [ref=e6712]: cos
+                                        - generic [ref=e6713]: Θ
+                                    - generic [ref=e6714]:
+                                      - generic [ref=e6716]:
+                                        - generic [ref=e6717]: cos
+                                        - generic [ref=e6718]: Φ
+                                        - generic [ref=e6719]: sin
+                                        - generic [ref=e6720]: Θ
+                                        - generic [ref=e6721]: cos
+                                        - generic [ref=e6722]: Ψ
+                                        - generic [ref=e6723]: +
+                                        - generic [ref=e6724]: sin
+                                        - generic [ref=e6725]: Φ
+                                        - generic [ref=e6726]: sin
+                                        - generic [ref=e6727]: Ψ
+                                      - generic [ref=e6729]:
+                                        - generic [ref=e6730]: cos
+                                        - generic [ref=e6731]: Φ
+                                        - generic [ref=e6732]: sin
+                                        - generic [ref=e6733]: Θ
+                                        - generic [ref=e6734]: sin
+                                        - generic [ref=e6735]: Ψ
+                                        - generic [ref=e6736]: −
+                                        - generic [ref=e6737]: sin
+                                        - generic [ref=e6738]: Φ
+                                        - generic [ref=e6739]: cos
+                                        - generic [ref=e6740]: Ψ
+                                      - generic [ref=e6742]:
+                                        - generic [ref=e6743]: cos
+                                        - generic [ref=e6744]: Φ
+                                        - generic [ref=e6745]: cos
+                                        - generic [ref=e6746]: Θ
+                                  - generic [ref=e6749]:
+                                    - generic [ref=e6753]:
+                                      - generic [ref=e6754]: U
+                                      - generic [ref=e6755]:
+                                        - generic [ref=e6756]: W
+                                        - generic [ref=e6757]: "n"
+                                    - generic [ref=e6761]:
+                                      - generic [ref=e6762]: V
+                                      - generic [ref=e6763]:
+                                        - generic [ref=e6764]: W
+                                        - generic [ref=e6765]: "n"
+                                    - generic [ref=e6769]:
+                                      - generic [ref=e6770]: W
+                                      - generic [ref=e6771]:
+                                        - generic [ref=e6772]: W
+                                        - generic [ref=e6773]: "n"
+                                  - generic [ref=e6774]: .
+                            - generic [ref=e6776]: (32)
+                        - generic [ref=e6777]: Finally, these values could be inserted in (12)–(14).
+                      - generic [ref=e6778]:
+                        - heading "2.4. Quadrotor Control System Model" [level=3] [ref=e6779]
+                        - generic [ref=e6780]:
+                          - heading "2.4.1. Autopilot Structure" [level=4] [ref=e6781]
+                          - generic [ref=e6782]:
+                            - text: "The quadrotor is an underactuated object (six degrees of freedom and four independent inputs). The quadrotor attitude, velocity and attitude are controlled by differentiating the rotors’ angular rates. The propagation of the control signals to individual rotors is described by the equation:"
+                            - generic [ref=e6783]:
+                              - generic [ref=e6786]:
+                                - generic [ref=e6792]:
+                                  - generic [ref=e6793]:
+                                    - generic [ref=e6794]:
+                                      - generic [ref=e6795]: ⎡
+                                      - generic [ref=e6796]: ⎣
+                                      - generic [ref=e6797]: ⎢
+                                      - generic [ref=e6798]: ⎢
+                                      - generic [ref=e6799]: ⎢
+                                      - generic [ref=e6800]: ⎢
+                                    - generic [ref=e6803]:
+                                      - generic [ref=e6808]:
+                                        - generic [ref=e6809]: 𝛺
+                                        - generic [ref=e6811]: 𝑐1
+                                      - generic [ref=e6816]:
+                                        - generic [ref=e6817]: 𝛺
+                                        - generic [ref=e6819]: 𝑐2
+                                      - generic [ref=e6824]:
+                                        - generic [ref=e6825]: 𝛺
+                                        - generic [ref=e6827]: 𝑐3
+                                      - generic [ref=e6832]:
+                                        - generic [ref=e6833]: 𝛺
+                                        - generic [ref=e6835]: 𝑐4
+                                    - generic [ref=e6836]:
+                                      - generic [ref=e6837]: ⎤
+                                      - generic [ref=e6838]: ⎦
+                                      - generic [ref=e6839]: ⎥
+                                      - generic [ref=e6840]: ⎥
+                                      - generic [ref=e6841]: ⎥
+                                      - generic [ref=e6842]: ⎥
+                                  - text: =
+                                  - generic [ref=e6843]:
+                                    - generic [ref=e6844]:
+                                      - generic [ref=e6845]: ⎡
+                                      - generic [ref=e6846]: ⎣
+                                      - generic [ref=e6847]: ⎢
+                                      - generic [ref=e6848]: ⎢
+                                      - generic [ref=e6849]: ⎢
+                                      - generic [ref=e6850]: ⎢
+                                    - generic [ref=e6852]:
+                                      - generic [ref=e6853]:
+                                        - generic [ref=e6856]: "1"
+                                        - generic [ref=e6859]: "1"
+                                        - generic [ref=e6862]: "1"
+                                        - generic [ref=e6865]: "1"
+                                      - generic [ref=e6866]:
+                                        - generic [ref=e6869]: "1"
+                                        - generic [ref=e6872]: "1"
+                                        - generic [ref=e6876]: −1
+                                        - generic [ref=e6880]: −1
+                                      - generic [ref=e6881]:
+                                        - generic [ref=e6884]: "1"
+                                        - generic [ref=e6888]: −1
+                                        - generic [ref=e6892]: −1
+                                        - generic [ref=e6895]: "1"
+                                      - generic [ref=e6896]:
+                                        - generic [ref=e6899]: "1"
+                                        - generic [ref=e6903]: −1
+                                        - generic [ref=e6906]: "1"
+                                        - generic [ref=e6910]: −1
+                                    - generic [ref=e6911]:
+                                      - generic [ref=e6912]: ⎤
+                                      - generic [ref=e6913]: ⎦
+                                      - generic [ref=e6914]: ⎥
+                                      - generic [ref=e6915]: ⎥
+                                      - generic [ref=e6916]: ⎥
+                                      - generic [ref=e6917]: ⎥
+                                  - generic [ref=e6918]:
+                                    - generic [ref=e6919]:
+                                      - generic [ref=e6920]: ⎡
+                                      - generic [ref=e6921]: ⎣
+                                      - generic [ref=e6922]: ⎢
+                                      - generic [ref=e6923]: ⎢
+                                      - generic [ref=e6924]: ⎢
+                                      - generic [ref=e6925]: ⎢
+                                    - generic [ref=e6928]:
+                                      - generic [ref=e6933]:
+                                        - generic [ref=e6934]: 𝑢
+                                        - generic [ref=e6935]: "1"
+                                      - generic [ref=e6940]:
+                                        - generic [ref=e6941]: 𝑢
+                                        - generic [ref=e6942]: "2"
+                                      - generic [ref=e6947]:
+                                        - generic [ref=e6948]: 𝑢
+                                        - generic [ref=e6949]: "3"
+                                      - generic [ref=e6954]:
+                                        - generic [ref=e6955]: 𝑢
+                                        - generic [ref=e6956]: "4"
+                                    - generic [ref=e6957]:
+                                      - generic [ref=e6958]: ⎤
+                                      - generic [ref=e6959]: ⎦
+                                      - generic [ref=e6960]: ⎥
+                                      - generic [ref=e6961]: ⎥
+                                      - generic [ref=e6962]: ⎥
+                                      - generic [ref=e6963]: ⎥
+                                  - text: ","
+                                - math [ref=e6964]:
+                                  - generic [ref=e6966]:
+                                    - generic [ref=e6969]:
+                                      - generic [ref=e6973]:
+                                        - generic [ref=e6974]: Ω
+                                        - generic [ref=e6975]:
+                                          - generic [ref=e6976]: c
+                                          - generic [ref=e6977]: "1"
+                                      - generic [ref=e6981]:
+                                        - generic [ref=e6982]: Ω
+                                        - generic [ref=e6983]:
+                                          - generic [ref=e6984]: c
+                                          - generic [ref=e6985]: "2"
+                                      - generic [ref=e6989]:
+                                        - generic [ref=e6990]: Ω
+                                        - generic [ref=e6991]:
+                                          - generic [ref=e6992]: c
+                                          - generic [ref=e6993]: "3"
+                                      - generic [ref=e6997]:
+                                        - generic [ref=e6998]: Ω
+                                        - generic [ref=e6999]:
+                                          - generic [ref=e7000]: c
+                                          - generic [ref=e7001]: "4"
+                                    - generic [ref=e7002]: =
+                                    - generic [ref=e7005]:
+                                      - generic [ref=e7006]:
+                                        - generic [ref=e7008]: "1"
+                                        - generic [ref=e7010]: "1"
+                                        - generic [ref=e7012]: "1"
+                                        - generic [ref=e7014]: "1"
+                                      - generic [ref=e7015]:
+                                        - generic [ref=e7017]: "1"
+                                        - generic [ref=e7019]: "1"
+                                        - generic [ref=e7021]:
+                                          - generic [ref=e7022]: −
+                                          - generic [ref=e7023]: "1"
+                                        - generic [ref=e7025]:
+                                          - generic [ref=e7026]: −
+                                          - generic [ref=e7027]: "1"
+                                      - generic [ref=e7028]:
+                                        - generic [ref=e7030]: "1"
+                                        - generic [ref=e7032]:
+                                          - generic [ref=e7033]: −
+                                          - generic [ref=e7034]: "1"
+                                        - generic [ref=e7036]:
+                                          - generic [ref=e7037]: −
+                                          - generic [ref=e7038]: "1"
+                                        - generic [ref=e7040]: "1"
+                                      - generic [ref=e7041]:
+                                        - generic [ref=e7043]: "1"
+                                        - generic [ref=e7045]:
+                                          - generic [ref=e7046]: −
+                                          - generic [ref=e7047]: "1"
+                                        - generic [ref=e7049]: "1"
+                                        - generic [ref=e7051]:
+                                          - generic [ref=e7052]: −
+                                          - generic [ref=e7053]: "1"
+                                    - generic [ref=e7056]:
+                                      - generic [ref=e7060]:
+                                        - generic [ref=e7061]: u
+                                        - generic [ref=e7062]: "1"
+                                      - generic [ref=e7066]:
+                                        - generic [ref=e7067]: u
+                                        - generic [ref=e7068]: "2"
+                                      - generic [ref=e7072]:
+                                        - generic [ref=e7073]: u
+                                        - generic [ref=e7074]: "3"
+                                      - generic [ref=e7078]:
+                                        - generic [ref=e7079]: u
+                                        - generic [ref=e7080]: "4"
+                                    - generic [ref=e7081]: ","
+                              - generic [ref=e7083]: (33)
+                            - text: where
+                            - generic [ref=e7084]:
+                              - generic [ref=e7091]:
+                                - generic [ref=e7092]: 𝛺
+                                - generic [ref=e7094]: 𝑐𝑖
+                              - math [ref=e7095]:
+                                - generic [ref=e7098]:
+                                  - generic [ref=e7099]: Ω
+                                  - generic [ref=e7100]:
+                                    - generic [ref=e7101]: c
+                                    - generic [ref=e7102]: i
+                            - text: is the
+                            - generic [ref=e7103]:
+                              - generic [ref=e7108]: 𝑖
+                              - math [ref=e7109]:
+                                - generic [ref=e7111]: i
+                            - text: "-th rotor-demanded value of angular rates, and"
+                            - generic [ref=e7112]:
+                              - generic [ref=e7118]:
+                                - generic [ref=e7119]:
+                                  - generic [ref=e7120]: 𝑢
+                                  - generic [ref=e7121]: "1"
+                                - text: ","
+                                - generic [ref=e7122]:
+                                  - generic [ref=e7123]: 𝑢
+                                  - generic [ref=e7124]: "2"
+                                - text: ","
+                                - generic [ref=e7125]:
+                                  - generic [ref=e7126]: 𝑢
+                                  - generic [ref=e7127]: "3"
+                                - text: ","
+                                - generic [ref=e7128]:
+                                  - generic [ref=e7129]: 𝑢
+                                  - generic [ref=e7130]: "4"
+                              - math [ref=e7131]:
+                                - generic [ref=e7133]:
+                                  - generic [ref=e7134]:
+                                    - generic [ref=e7135]: u
+                                    - generic [ref=e7136]: "1"
+                                  - generic [ref=e7137]: ","
+                                  - generic [ref=e7138]:
+                                    - generic [ref=e7139]: u
+                                    - generic [ref=e7140]: "2"
+                                  - generic [ref=e7141]: ","
+                                  - generic [ref=e7142]:
+                                    - generic [ref=e7143]: u
+                                    - generic [ref=e7144]: "3"
+                                  - generic [ref=e7145]: ","
+                                  - generic [ref=e7146]:
+                                    - generic [ref=e7147]: u
+                                    - generic [ref=e7148]: "4"
+                            - text: are control signals for climb rate, roll rate, pitch rate, and yaw rate control respectively. The change in quadrotor altitude was obtained by increasing or decreasing the rotational speed of all four propellers simultaneously.
+                          - generic [ref=e7149]:
+                            - text: The rotor and electric engine dynamics were modeled as the linear first order system with
+                            - generic [ref=e7150]:
+                              - generic [ref=e7157]:
+                                - generic [ref=e7159]: 𝑇
+                                - generic [ref=e7161]: 𝑒
+                              - math [ref=e7162]:
+                                - generic [ref=e7165]:
+                                  - generic [ref=e7166]: T
+                                  - generic [ref=e7167]: e
+                            - text: "time constant:"
+                            - generic [ref=e7168]:
+                              - generic [ref=e7171]:
+                                - generic [ref=e7177]:
+                                  - generic [ref=e7178]:
+                                    - generic [ref=e7180]: 𝑇
+                                    - generic [ref=e7182]: 𝑒
+                                  - generic [ref=e7183]:
+                                    - generic [ref=e7185]:
+                                      - text: 𝑑
+                                      - generic [ref=e7186]:
+                                        - generic [ref=e7187]: 𝛺
+                                        - generic [ref=e7188]: 𝑖
+                                      - generic [ref=e7189]:
+                                        - generic [ref=e7190]: (
+                                        - text: 𝑡
+                                        - generic [ref=e7191]: )
+                                    - generic [ref=e7193]: 𝑑𝑡
+                                  - text: +
+                                  - generic [ref=e7196]:
+                                    - generic [ref=e7197]: 𝛺
+                                    - generic [ref=e7198]: 𝑖
+                                  - generic [ref=e7199]:
+                                    - generic [ref=e7200]: (
+                                    - text: 𝑡
+                                    - generic [ref=e7201]: )
+                                  - text: =
+                                  - generic [ref=e7202]:
+                                    - generic [ref=e7203]: 𝛺
+                                    - generic [ref=e7205]: 𝑐𝑖
+                                  - generic [ref=e7206]:
+                                    - generic [ref=e7207]: (
+                                    - text: 𝑡
+                                    - generic [ref=e7208]: )
+                                  - text: ","
+                                - math [ref=e7209]:
+                                  - generic [ref=e7211]:
+                                    - generic [ref=e7212]:
+                                      - generic [ref=e7213]: T
+                                      - generic [ref=e7214]: e
+                                    - generic [ref=e7215]:
+                                      - generic [ref=e7216]:
+                                        - generic [ref=e7217]: d
+                                        - generic [ref=e7218]:
+                                          - generic [ref=e7219]: Ω
+                                          - generic [ref=e7220]: i
+                                        - generic [ref=e7222]: t
+                                      - generic [ref=e7223]:
+                                        - generic [ref=e7224]: d
+                                        - generic [ref=e7225]: t
+                                    - generic [ref=e7226]: +
+                                    - generic [ref=e7227]:
+                                      - generic [ref=e7228]: Ω
+                                      - generic [ref=e7229]: i
+                                    - generic [ref=e7231]: t
+                                    - generic [ref=e7232]: =
+                                    - generic [ref=e7233]:
+                                      - generic [ref=e7234]: Ω
+                                      - generic [ref=e7235]:
+                                        - generic [ref=e7236]: c
+                                        - generic [ref=e7237]: i
+                                    - generic [ref=e7239]: t
+                                    - generic [ref=e7240]: ","
+                              - generic [ref=e7242]: (34)
+                          - generic [ref=e7243]:
+                            - text: Parameter
+                            - generic [ref=e7244]:
+                              - generic [ref=e7251]:
+                                - generic [ref=e7253]: 𝑇
+                                - generic [ref=e7255]: 𝑒
+                              - math [ref=e7256]:
+                                - generic [ref=e7259]:
+                                  - generic [ref=e7260]: T
+                                  - generic [ref=e7261]: e
+                            - text: was assumed to be 0.05 (s) (according to ref. [
+                            - link "49" [ref=e7262] [cursor=pointer]:
+                              - /url: "#B49-energies-15-07136"
+                            - text: "]). A simple automatic flight control system was utilized to validate the quadrotor dynamic model. The control system consists of four independent control paths for each control signal ["
+                            - link "55" [ref=e7263] [cursor=pointer]:
+                              - /url: "#B55-energies-15-07136"
+                            - text: "]. Each control path (roll, pitch, yaw angles, and altitude) forms a double-cascade control system with PID (proportional-integral-derivative) control laws. The inputs to the system are position coordinates."
+                            - link "Figure 7" [ref=e7264] [cursor=pointer]:
+                              - /url: "#fig_body_display_energies-15-07136-f007"
+                            - text: shows the overall structure of the automatic flight control system.
+                          - generic [ref=e7265]:
+                            - generic [ref=e7267] [cursor=pointer]:
+                              - img "Energies 15 07136 g007" [ref=e7268]
+                              - link [ref=e7269]:
+                                - /url: "#fig_body_display_energies-15-07136-f007"
+                            - generic [ref=e7270]: Figure 7. Automatic flight control system structure.
+                          - generic [ref=e7271]: The anti-windup clamping method was used to prevent the controllers from performance degradation. Simulink built-in tools were used to properly tune the PID settings.
+                        - generic [ref=e7272]:
+                          - heading "2.4.2. Attitude Channel Autopilot" [level=4] [ref=e7273]
+                          - generic [ref=e7274]:
+                            - text: The control signal
+                            - generic [ref=e7275]:
+                              - generic [ref=e7282]:
+                                - generic [ref=e7284]: 𝑈
+                                - generic [ref=e7286]: "1"
+                              - math [ref=e7287]:
+                                - generic [ref=e7290]:
+                                  - generic [ref=e7291]: U
+                                  - generic [ref=e7292]: "1"
+                            - text: "was obtained from the following equation:"
+                            - generic [ref=e7293]:
+                              - generic [ref=e7296]:
+                                - generic [ref=e7302]:
+                                  - generic [ref=e7303]:
+                                    - generic [ref=e7305]: 𝑈
+                                    - generic [ref=e7307]: "1"
+                                  - text: =
+                                  - generic [ref=e7308]:
+                                    - generic [ref=e7310]: 𝐾
+                                    - generic [ref=e7314]:
+                                      - generic [ref=e7316]: 𝑊
+                                      - generic [ref=e7319]: 𝑛𝑒
+                                    - generic [ref=e7320]: 𝑃
+                                  - generic [ref=e7321]:
+                                    - generic [ref=e7323]: 𝑊
+                                    - generic [ref=e7326]: 𝑛𝑒
+                                  - text: +
+                                  - generic [ref=e7327]:
+                                    - generic [ref=e7329]: 𝐾
+                                    - generic [ref=e7333]:
+                                      - generic [ref=e7335]: 𝑊
+                                      - generic [ref=e7338]: 𝑛𝑒
+                                    - generic [ref=e7340]: 𝐼
+                                  - generic [ref=e7342]:
+                                    - generic [ref=e7346]: ∫
+                                    - generic [ref=e7348]: "0"
+                                    - generic [ref=e7349]: 𝑡
+                                  - generic [ref=e7350]:
+                                    - generic [ref=e7352]: 𝑊
+                                    - generic [ref=e7355]: 𝑛𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e7356]:
+                                    - generic [ref=e7358]: 𝐾
+                                    - generic [ref=e7362]:
+                                      - generic [ref=e7364]: 𝑊
+                                      - generic [ref=e7367]: 𝑛𝑒
+                                    - generic [ref=e7368]: 𝐷
+                                  - generic [ref=e7369]:
+                                    - generic [ref=e7371]:
+                                      - text: d
+                                      - generic [ref=e7372]:
+                                        - generic [ref=e7374]: 𝑊
+                                        - generic [ref=e7377]: 𝑛𝑒
+                                    - generic [ref=e7379]: d𝑡
+                                - math [ref=e7382]:
+                                  - generic [ref=e7384]:
+                                    - generic [ref=e7385]:
+                                      - generic [ref=e7386]: U
+                                      - generic [ref=e7387]: "1"
+                                    - generic [ref=e7388]: =
+                                    - generic [ref=e7389]:
+                                      - generic [ref=e7390]: K
+                                      - generic [ref=e7391]: P
+                                      - generic [ref=e7393]:
+                                        - generic [ref=e7394]: W
+                                        - generic [ref=e7395]:
+                                          - generic [ref=e7396]: "n"
+                                          - generic [ref=e7397]: e
+                                    - generic [ref=e7398]:
+                                      - generic [ref=e7399]: W
+                                      - generic [ref=e7400]:
+                                        - generic [ref=e7401]: "n"
+                                        - generic [ref=e7402]: e
+                                    - generic [ref=e7403]: +
+                                    - generic [ref=e7404]:
+                                      - generic [ref=e7405]: K
+                                      - generic [ref=e7406]: I
+                                      - generic [ref=e7408]:
+                                        - generic [ref=e7409]: W
+                                        - generic [ref=e7410]:
+                                          - generic [ref=e7411]: "n"
+                                          - generic [ref=e7412]: e
+                                    - generic [ref=e7413]:
+                                      - generic [ref=e7415]: ∫
+                                      - generic [ref=e7416]: "0"
+                                      - generic [ref=e7417]: t
+                                    - generic [ref=e7418]:
+                                      - generic [ref=e7419]: W
+                                      - generic [ref=e7420]:
+                                        - generic [ref=e7421]: "n"
+                                        - generic [ref=e7422]: e
+                                    - generic [ref=e7423]: d
+                                    - generic [ref=e7424]: t
+                                    - generic [ref=e7425]: +
+                                    - generic [ref=e7426]:
+                                      - generic [ref=e7427]: K
+                                      - generic [ref=e7428]: D
+                                      - generic [ref=e7430]:
+                                        - generic [ref=e7431]: W
+                                        - generic [ref=e7432]:
+                                          - generic [ref=e7433]: "n"
+                                          - generic [ref=e7434]: e
+                                    - generic [ref=e7435]:
+                                      - generic [ref=e7436]:
+                                        - generic [ref=e7437]: d
+                                        - generic [ref=e7438]:
+                                          - generic [ref=e7439]: W
+                                          - generic [ref=e7440]:
+                                            - generic [ref=e7441]: "n"
+                                            - generic [ref=e7442]: e
+                                      - generic [ref=e7443]:
+                                        - generic [ref=e7444]: d
+                                        - generic [ref=e7445]: t
+                              - generic [ref=e7447]: (35)
+                            - text: where
+                            - generic [ref=e7448]:
+                              - generic [ref=e7454]:
+                                - generic [ref=e7455]:
+                                  - generic [ref=e7457]: 𝑊
+                                  - generic [ref=e7460]: 𝑛𝑒
+                                - text: =
+                                - generic [ref=e7461]:
+                                  - generic [ref=e7463]: 𝑊
+                                  - generic [ref=e7466]: 𝑛𝑐
+                                - text: −
+                                - generic [ref=e7467]:
+                                  - generic [ref=e7469]: 𝑊
+                                  - generic [ref=e7471]: 𝑛
+                              - math [ref=e7472]:
+                                - generic [ref=e7474]:
+                                  - generic [ref=e7475]:
+                                    - generic [ref=e7476]: W
+                                    - generic [ref=e7477]:
+                                      - generic [ref=e7478]: "n"
+                                      - generic [ref=e7479]: e
+                                  - generic [ref=e7480]: =
+                                  - generic [ref=e7481]:
+                                    - generic [ref=e7482]: W
+                                    - generic [ref=e7483]:
+                                      - generic [ref=e7484]: "n"
+                                      - generic [ref=e7485]: c
+                                  - generic [ref=e7486]: −
+                                  - generic [ref=e7487]:
+                                    - generic [ref=e7488]: W
+                                    - generic [ref=e7489]: "n"
+                            - text: (the difference between commanded and actual vertical velocity) and
+                            - generic [ref=e7490]:
+                              - generic [ref=e7497]:
+                                - generic [ref=e7499]: 𝐾
+                                - generic [ref=e7503]:
+                                  - generic [ref=e7505]: 𝑊
+                                  - generic [ref=e7508]: 𝑛𝑒
+                                - generic [ref=e7509]: 𝑃
+                              - math [ref=e7510]:
+                                - generic [ref=e7513]:
+                                  - generic [ref=e7514]: K
+                                  - generic [ref=e7515]: P
+                                  - generic [ref=e7517]:
+                                    - generic [ref=e7518]: W
+                                    - generic [ref=e7519]:
+                                      - generic [ref=e7520]: "n"
+                                      - generic [ref=e7521]: e
+                            - text: ","
+                            - generic [ref=e7522]:
+                              - generic [ref=e7529]:
+                                - generic [ref=e7531]: 𝐾
+                                - generic [ref=e7535]:
+                                  - generic [ref=e7537]: 𝑊
+                                  - generic [ref=e7540]: 𝑛𝑒
+                                - generic [ref=e7542]: 𝐼
+                              - math [ref=e7544]:
+                                - generic [ref=e7547]:
+                                  - generic [ref=e7548]: K
+                                  - generic [ref=e7549]: I
+                                  - generic [ref=e7551]:
+                                    - generic [ref=e7552]: W
+                                    - generic [ref=e7553]:
+                                      - generic [ref=e7554]: "n"
+                                      - generic [ref=e7555]: e
+                            - text: ","
+                            - generic [ref=e7556]:
+                              - generic [ref=e7563]:
+                                - generic [ref=e7565]: 𝐾
+                                - generic [ref=e7569]:
+                                  - generic [ref=e7571]: 𝑊
+                                  - generic [ref=e7574]: 𝑛𝑒
+                                - generic [ref=e7575]: 𝐷
+                              - math [ref=e7576]:
+                                - generic [ref=e7579]:
+                                  - generic [ref=e7580]: K
+                                  - generic [ref=e7581]: D
+                                  - generic [ref=e7583]:
+                                    - generic [ref=e7584]: W
+                                    - generic [ref=e7585]:
+                                      - generic [ref=e7586]: "n"
+                                      - generic [ref=e7587]: e
+                            - text: "are PID settings (−3556.149, −538.572, and −112.917, respectively). The commanded vertical velocity is calculated as:"
+                            - generic [ref=e7588]:
+                              - generic [ref=e7591]:
+                                - generic [ref=e7597]:
+                                  - generic [ref=e7598]:
+                                    - generic [ref=e7600]: 𝑊
+                                    - generic [ref=e7603]: 𝑛𝑐
+                                  - text: =
+                                  - generic [ref=e7604]:
+                                    - generic [ref=e7606]: 𝐾
+                                    - generic [ref=e7610]:
+                                      - generic [ref=e7611]: 𝑧
+                                      - generic [ref=e7613]: 𝑛𝑒
+                                    - generic [ref=e7614]: 𝑃
+                                  - generic [ref=e7615]:
+                                    - generic [ref=e7616]: 𝑧
+                                    - generic [ref=e7618]: 𝑛𝑒
+                                  - text: +
+                                  - generic [ref=e7619]:
+                                    - generic [ref=e7621]: 𝐾
+                                    - generic [ref=e7625]:
+                                      - generic [ref=e7626]: 𝑧
+                                      - generic [ref=e7628]: 𝑛𝑒
+                                    - generic [ref=e7630]: 𝐼
+                                  - generic [ref=e7632]:
+                                    - generic [ref=e7636]: ∫
+                                    - generic [ref=e7638]: "0"
+                                    - generic [ref=e7639]: 𝑡
+                                  - generic [ref=e7640]:
+                                    - generic [ref=e7641]: 𝑧
+                                    - generic [ref=e7643]: 𝑛𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e7644]:
+                                    - generic [ref=e7646]: 𝐾
+                                    - generic [ref=e7650]:
+                                      - generic [ref=e7651]: 𝑧
+                                      - generic [ref=e7653]: 𝑛𝑒
+                                    - generic [ref=e7654]: 𝐷
+                                  - generic [ref=e7655]:
+                                    - generic [ref=e7657]:
+                                      - text: d
+                                      - generic [ref=e7658]:
+                                        - generic [ref=e7659]: 𝑧
+                                        - generic [ref=e7661]: 𝑛𝑒
+                                    - generic [ref=e7663]: d𝑡
+                                - math [ref=e7666]:
+                                  - generic [ref=e7668]:
+                                    - generic [ref=e7669]:
+                                      - generic [ref=e7670]: W
+                                      - generic [ref=e7671]:
+                                        - generic [ref=e7672]: "n"
+                                        - generic [ref=e7673]: c
+                                    - generic [ref=e7674]: =
+                                    - generic [ref=e7675]:
+                                      - generic [ref=e7676]: K
+                                      - generic [ref=e7677]: P
+                                      - generic [ref=e7679]:
+                                        - generic [ref=e7680]: z
+                                        - generic [ref=e7681]:
+                                          - generic [ref=e7682]: "n"
+                                          - generic [ref=e7683]: e
+                                    - generic [ref=e7684]:
+                                      - generic [ref=e7685]: z
+                                      - generic [ref=e7686]:
+                                        - generic [ref=e7687]: "n"
+                                        - generic [ref=e7688]: e
+                                    - generic [ref=e7689]: +
+                                    - generic [ref=e7690]:
+                                      - generic [ref=e7691]: K
+                                      - generic [ref=e7692]: I
+                                      - generic [ref=e7694]:
+                                        - generic [ref=e7695]: z
+                                        - generic [ref=e7696]:
+                                          - generic [ref=e7697]: "n"
+                                          - generic [ref=e7698]: e
+                                    - generic [ref=e7699]:
+                                      - generic [ref=e7701]: ∫
+                                      - generic [ref=e7702]: "0"
+                                      - generic [ref=e7703]: t
+                                    - generic [ref=e7704]:
+                                      - generic [ref=e7705]: z
+                                      - generic [ref=e7706]:
+                                        - generic [ref=e7707]: "n"
+                                        - generic [ref=e7708]: e
+                                    - generic [ref=e7709]: d
+                                    - generic [ref=e7710]: t
+                                    - generic [ref=e7711]: +
+                                    - generic [ref=e7712]:
+                                      - generic [ref=e7713]: K
+                                      - generic [ref=e7714]: D
+                                      - generic [ref=e7716]:
+                                        - generic [ref=e7717]: z
+                                        - generic [ref=e7718]:
+                                          - generic [ref=e7719]: "n"
+                                          - generic [ref=e7720]: e
+                                    - generic [ref=e7721]:
+                                      - generic [ref=e7722]:
+                                        - generic [ref=e7723]: d
+                                        - generic [ref=e7724]:
+                                          - generic [ref=e7725]: z
+                                          - generic [ref=e7726]:
+                                            - generic [ref=e7727]: "n"
+                                            - generic [ref=e7728]: e
+                                      - generic [ref=e7729]:
+                                        - generic [ref=e7730]: d
+                                        - generic [ref=e7731]: t
+                              - generic [ref=e7733]: (36)
+                            - text: where
+                            - generic [ref=e7734]:
+                              - generic [ref=e7740]:
+                                - generic [ref=e7741]:
+                                  - generic [ref=e7742]: 𝑧
+                                  - generic [ref=e7744]: 𝑛𝑒
+                                - text: =
+                                - generic [ref=e7745]:
+                                  - generic [ref=e7746]: 𝑧
+                                  - generic [ref=e7748]: 𝑛𝑐
+                                - text: −
+                                - generic [ref=e7749]:
+                                  - generic [ref=e7750]: 𝑧
+                                  - generic [ref=e7751]: 𝑛
+                              - math [ref=e7752]:
+                                - generic [ref=e7754]:
+                                  - generic [ref=e7755]:
+                                    - generic [ref=e7756]: z
+                                    - generic [ref=e7757]:
+                                      - generic [ref=e7758]: "n"
+                                      - generic [ref=e7759]: e
+                                  - generic [ref=e7760]: =
+                                  - generic [ref=e7761]:
+                                    - generic [ref=e7762]: z
+                                    - generic [ref=e7763]:
+                                      - generic [ref=e7764]: "n"
+                                      - generic [ref=e7765]: c
+                                  - generic [ref=e7766]: −
+                                  - generic [ref=e7767]:
+                                    - generic [ref=e7768]: z
+                                    - generic [ref=e7769]: "n"
+                            - text: (difference between commanded and actual vertical position)
+                            - generic [ref=e7770]:
+                              - generic [ref=e7777]:
+                                - generic [ref=e7779]: 𝐾
+                                - generic [ref=e7783]:
+                                  - generic [ref=e7784]: 𝑧
+                                  - generic [ref=e7786]: 𝑛𝑒
+                                - generic [ref=e7787]: 𝑃
+                              - math [ref=e7788]:
+                                - generic [ref=e7791]:
+                                  - generic [ref=e7792]: K
+                                  - generic [ref=e7793]: P
+                                  - generic [ref=e7795]:
+                                    - generic [ref=e7796]: z
+                                    - generic [ref=e7797]:
+                                      - generic [ref=e7798]: "n"
+                                      - generic [ref=e7799]: e
+                            - text: ","
+                            - generic [ref=e7800]:
+                              - generic [ref=e7807]:
+                                - generic [ref=e7809]: 𝐾
+                                - generic [ref=e7813]:
+                                  - generic [ref=e7814]: 𝑧
+                                  - generic [ref=e7816]: 𝑛𝑒
+                                - generic [ref=e7818]: 𝐼
+                              - math [ref=e7820]:
+                                - generic [ref=e7823]:
+                                  - generic [ref=e7824]: K
+                                  - generic [ref=e7825]: I
+                                  - generic [ref=e7827]:
+                                    - generic [ref=e7828]: z
+                                    - generic [ref=e7829]:
+                                      - generic [ref=e7830]: "n"
+                                      - generic [ref=e7831]: e
+                            - text: ","
+                            - generic [ref=e7832]:
+                              - generic [ref=e7839]:
+                                - generic [ref=e7841]: 𝐾
+                                - generic [ref=e7845]:
+                                  - generic [ref=e7846]: 𝑧
+                                  - generic [ref=e7848]: 𝑛𝑒
+                                - generic [ref=e7849]: 𝐷
+                              - math [ref=e7850]:
+                                - generic [ref=e7853]:
+                                  - generic [ref=e7854]: K
+                                  - generic [ref=e7855]: D
+                                  - generic [ref=e7857]:
+                                    - generic [ref=e7858]: z
+                                    - generic [ref=e7859]:
+                                      - generic [ref=e7860]: "n"
+                                      - generic [ref=e7861]: e
+                            - text: are PID controller constants (2.122, 0.035, and −0.387).
+                        - generic [ref=e7862]:
+                          - heading "2.4.3. Roll Channel Autopilot" [level=4] [ref=e7863]
+                          - generic [ref=e7864]:
+                            - text: The output control signal
+                            - generic [ref=e7865]:
+                              - generic [ref=e7872]:
+                                - generic [ref=e7874]: 𝑈
+                                - generic [ref=e7876]: "2"
+                              - math [ref=e7877]:
+                                - generic [ref=e7880]:
+                                  - generic [ref=e7881]: U
+                                  - generic [ref=e7882]: "2"
+                            - text: "from the roll channel was calculated as:"
+                            - generic [ref=e7883]:
+                              - generic [ref=e7886]:
+                                - generic [ref=e7892]:
+                                  - generic [ref=e7893]:
+                                    - generic [ref=e7895]: 𝑈
+                                    - generic [ref=e7897]: "2"
+                                  - text: =
+                                  - generic [ref=e7898]:
+                                    - generic [ref=e7900]: 𝐾
+                                    - generic [ref=e7904]:
+                                      - generic [ref=e7905]: 𝑃
+                                      - generic [ref=e7906]: 𝑒
+                                    - generic [ref=e7907]: 𝑃
+                                  - generic [ref=e7908]:
+                                    - generic [ref=e7909]: 𝑃
+                                    - generic [ref=e7910]: 𝑒
+                                  - text: +
+                                  - generic [ref=e7911]:
+                                    - generic [ref=e7913]: 𝐾
+                                    - generic [ref=e7917]:
+                                      - generic [ref=e7918]: 𝑃
+                                      - generic [ref=e7919]: 𝑒
+                                    - generic [ref=e7921]: 𝐼
+                                  - generic [ref=e7923]:
+                                    - generic [ref=e7927]: ∫
+                                    - generic [ref=e7929]: "0"
+                                    - generic [ref=e7930]: 𝑡
+                                  - generic [ref=e7931]:
+                                    - generic [ref=e7932]: 𝑃
+                                    - generic [ref=e7933]: 𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e7934]:
+                                    - generic [ref=e7936]: 𝐾
+                                    - generic [ref=e7940]:
+                                      - generic [ref=e7941]: 𝑃
+                                      - generic [ref=e7942]: 𝑒
+                                    - generic [ref=e7943]: 𝐷
+                                  - generic [ref=e7944]:
+                                    - generic [ref=e7946]:
+                                      - text: d
+                                      - generic [ref=e7947]:
+                                        - generic [ref=e7948]: 𝑃
+                                        - generic [ref=e7949]: 𝑒
+                                    - generic [ref=e7951]: d𝑡
+                                - math [ref=e7954]:
+                                  - generic [ref=e7956]:
+                                    - generic [ref=e7957]:
+                                      - generic [ref=e7958]: U
+                                      - generic [ref=e7959]: "2"
+                                    - generic [ref=e7960]: =
+                                    - generic [ref=e7961]:
+                                      - generic [ref=e7962]: K
+                                      - generic [ref=e7963]: P
+                                      - generic [ref=e7965]:
+                                        - generic [ref=e7966]: P
+                                        - generic [ref=e7967]: e
+                                    - generic [ref=e7968]:
+                                      - generic [ref=e7969]: P
+                                      - generic [ref=e7970]: e
+                                    - generic [ref=e7971]: +
+                                    - generic [ref=e7972]:
+                                      - generic [ref=e7973]: K
+                                      - generic [ref=e7974]: I
+                                      - generic [ref=e7976]:
+                                        - generic [ref=e7977]: P
+                                        - generic [ref=e7978]: e
+                                    - generic [ref=e7979]:
+                                      - generic [ref=e7981]: ∫
+                                      - generic [ref=e7982]: "0"
+                                      - generic [ref=e7983]: t
+                                    - generic [ref=e7984]:
+                                      - generic [ref=e7985]: P
+                                      - generic [ref=e7986]: e
+                                    - generic [ref=e7987]: d
+                                    - generic [ref=e7988]: t
+                                    - generic [ref=e7989]: +
+                                    - generic [ref=e7990]:
+                                      - generic [ref=e7991]: K
+                                      - generic [ref=e7992]: D
+                                      - generic [ref=e7994]:
+                                        - generic [ref=e7995]: P
+                                        - generic [ref=e7996]: e
+                                    - generic [ref=e7997]:
+                                      - generic [ref=e7998]:
+                                        - generic [ref=e7999]: d
+                                        - generic [ref=e8000]:
+                                          - generic [ref=e8001]: P
+                                          - generic [ref=e8002]: e
+                                      - generic [ref=e8003]:
+                                        - generic [ref=e8004]: d
+                                        - generic [ref=e8005]: t
+                              - generic [ref=e8007]: (37)
+                            - text: where
+                            - generic [ref=e8008]:
+                              - generic [ref=e8014]:
+                                - generic [ref=e8015]:
+                                  - generic [ref=e8016]: 𝑃
+                                  - generic [ref=e8017]: 𝑒
+                                - text: =
+                                - generic [ref=e8018]:
+                                  - generic [ref=e8019]: 𝑃
+                                  - generic [ref=e8020]: 𝑐
+                                - text: −𝑃
+                              - math [ref=e8021]:
+                                - generic [ref=e8023]:
+                                  - generic [ref=e8024]:
+                                    - generic [ref=e8025]: P
+                                    - generic [ref=e8026]: e
+                                  - generic [ref=e8027]: =
+                                  - generic [ref=e8028]:
+                                    - generic [ref=e8029]: P
+                                    - generic [ref=e8030]: c
+                                  - generic [ref=e8031]: −
+                                  - generic [ref=e8032]: P
+                            - text: (commanded roll rate and actual roll rate) and
+                            - generic [ref=e8033]:
+                              - generic [ref=e8040]:
+                                - generic [ref=e8042]: 𝐾
+                                - generic [ref=e8046]:
+                                  - generic [ref=e8047]: 𝑃
+                                  - generic [ref=e8048]: 𝑒
+                                - generic [ref=e8049]: 𝑃
+                              - math [ref=e8050]:
+                                - generic [ref=e8053]:
+                                  - generic [ref=e8054]: K
+                                  - generic [ref=e8055]: P
+                                  - generic [ref=e8057]:
+                                    - generic [ref=e8058]: P
+                                    - generic [ref=e8059]: e
+                            - text: ","
+                            - generic [ref=e8060]:
+                              - generic [ref=e8067]:
+                                - generic [ref=e8069]: 𝐾
+                                - generic [ref=e8073]:
+                                  - generic [ref=e8074]: 𝑃
+                                  - generic [ref=e8075]: 𝑒
+                                - generic [ref=e8077]: 𝐼
+                              - math [ref=e8079]:
+                                - generic [ref=e8082]:
+                                  - generic [ref=e8083]: K
+                                  - generic [ref=e8084]: I
+                                  - generic [ref=e8086]:
+                                    - generic [ref=e8087]: P
+                                    - generic [ref=e8088]: e
+                            - text: ","
+                            - generic [ref=e8089]:
+                              - generic [ref=e8096]:
+                                - generic [ref=e8098]: 𝐾
+                                - generic [ref=e8102]:
+                                  - generic [ref=e8103]: 𝑃
+                                  - generic [ref=e8104]: 𝑒
+                                - generic [ref=e8105]: 𝐷
+                              - math [ref=e8106]:
+                                - generic [ref=e8109]:
+                                  - generic [ref=e8110]: K
+                                  - generic [ref=e8111]: D
+                                  - generic [ref=e8113]:
+                                    - generic [ref=e8114]: P
+                                    - generic [ref=e8115]: e
+                            - text: are PID settings (−6.249, −0.904, and −0.219). The commanded roll rate
+                            - generic [ref=e8116]:
+                              - generic [ref=e8123]:
+                                - generic [ref=e8124]: 𝑃
+                                - generic [ref=e8125]: 𝑐
+                              - math [ref=e8126]:
+                                - generic [ref=e8129]:
+                                  - generic [ref=e8130]: P
+                                  - generic [ref=e8131]: c
+                            - text: "was obtained from the following equation:"
+                            - generic [ref=e8132]:
+                              - generic [ref=e8135]:
+                                - generic [ref=e8141]:
+                                  - generic [ref=e8142]:
+                                    - generic [ref=e8143]: 𝑃
+                                    - generic [ref=e8144]: 𝑐
+                                  - text: =
+                                  - generic [ref=e8145]:
+                                    - generic [ref=e8147]: 𝐾
+                                    - generic [ref=e8151]:
+                                      - generic [ref=e8153]: Φ
+                                      - generic [ref=e8154]: 𝑒
+                                    - generic [ref=e8155]: 𝑃
+                                  - generic [ref=e8156]:
+                                    - generic [ref=e8158]: Φ
+                                    - generic [ref=e8159]: 𝑒
+                                  - text: +
+                                  - generic [ref=e8160]:
+                                    - generic [ref=e8162]: 𝐾
+                                    - generic [ref=e8166]:
+                                      - generic [ref=e8168]: Φ
+                                      - generic [ref=e8169]: 𝑒
+                                    - generic [ref=e8171]: 𝐼
+                                  - generic [ref=e8173]:
+                                    - generic [ref=e8177]: ∫
+                                    - generic [ref=e8179]: "0"
+                                    - generic [ref=e8180]: 𝑡
+                                  - generic [ref=e8181]:
+                                    - generic [ref=e8183]: Φ
+                                    - generic [ref=e8184]: 𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e8185]:
+                                    - generic [ref=e8187]: 𝐾
+                                    - generic [ref=e8191]:
+                                      - generic [ref=e8193]: Φ
+                                      - generic [ref=e8194]: 𝑒
+                                    - generic [ref=e8195]: 𝐷
+                                  - generic [ref=e8196]:
+                                    - generic [ref=e8199]:
+                                      - generic [ref=e8202]:
+                                        - text: d
+                                        - generic [ref=e8203]: Φ
+                                      - generic [ref=e8204]: 𝑒
+                                    - generic [ref=e8206]: d𝑡
+                                - math [ref=e8209]:
+                                  - generic [ref=e8211]:
+                                    - generic [ref=e8212]:
+                                      - generic [ref=e8213]: P
+                                      - generic [ref=e8214]: c
+                                    - generic [ref=e8215]: =
+                                    - generic [ref=e8216]:
+                                      - generic [ref=e8217]: K
+                                      - generic [ref=e8218]: P
+                                      - generic [ref=e8220]:
+                                        - generic [ref=e8221]: Φ
+                                        - generic [ref=e8222]: e
+                                    - generic [ref=e8223]:
+                                      - generic [ref=e8224]: Φ
+                                      - generic [ref=e8225]: e
+                                    - generic [ref=e8226]: +
+                                    - generic [ref=e8227]:
+                                      - generic [ref=e8228]: K
+                                      - generic [ref=e8229]: I
+                                      - generic [ref=e8231]:
+                                        - generic [ref=e8232]: Φ
+                                        - generic [ref=e8233]: e
+                                    - generic [ref=e8234]:
+                                      - generic [ref=e8236]: ∫
+                                      - generic [ref=e8237]: "0"
+                                      - generic [ref=e8238]: t
+                                    - generic [ref=e8239]:
+                                      - generic [ref=e8240]: Φ
+                                      - generic [ref=e8241]: e
+                                    - generic [ref=e8242]: d
+                                    - generic [ref=e8243]: t
+                                    - generic [ref=e8244]: +
+                                    - generic [ref=e8245]:
+                                      - generic [ref=e8246]: K
+                                      - generic [ref=e8247]: D
+                                      - generic [ref=e8249]:
+                                        - generic [ref=e8250]: Φ
+                                        - generic [ref=e8251]: e
+                                    - generic [ref=e8252]:
+                                      - generic [ref=e8254]:
+                                        - generic [ref=e8256]:
+                                          - generic [ref=e8257]: d
+                                          - generic [ref=e8258]: Φ
+                                        - generic [ref=e8259]: e
+                                      - generic [ref=e8260]:
+                                        - generic [ref=e8261]: d
+                                        - generic [ref=e8262]: t
+                              - generic [ref=e8264]: (38)
+                            - text: where
+                            - generic [ref=e8265]:
+                              - generic [ref=e8271]:
+                                - generic [ref=e8272]:
+                                  - generic [ref=e8274]: Φ
+                                  - generic [ref=e8275]: 𝑒
+                                - text: =
+                                - generic [ref=e8276]:
+                                  - generic [ref=e8278]: Φ
+                                  - generic [ref=e8279]: 𝑐
+                                - text: −
+                                - generic [ref=e8280]: Φ
+                              - math [ref=e8281]:
+                                - generic [ref=e8283]:
+                                  - generic [ref=e8284]:
+                                    - generic [ref=e8285]: Φ
+                                    - generic [ref=e8286]: e
+                                  - generic [ref=e8287]: =
+                                  - generic [ref=e8288]:
+                                    - generic [ref=e8289]: Φ
+                                    - generic [ref=e8290]: c
+                                  - generic [ref=e8291]: −
+                                  - generic [ref=e8292]: Φ
+                            - text: and
+                            - generic [ref=e8293]:
+                              - generic [ref=e8300]:
+                                - generic [ref=e8302]: 𝐾
+                                - generic [ref=e8306]:
+                                  - generic [ref=e8308]: Φ
+                                  - generic [ref=e8309]: 𝑒
+                                - generic [ref=e8310]: 𝑃
+                              - math [ref=e8311]:
+                                - generic [ref=e8314]:
+                                  - generic [ref=e8315]: K
+                                  - generic [ref=e8316]: P
+                                  - generic [ref=e8318]:
+                                    - generic [ref=e8319]: Φ
+                                    - generic [ref=e8320]: e
+                            - text: ","
+                            - generic [ref=e8321]:
+                              - generic [ref=e8328]:
+                                - generic [ref=e8330]: 𝐾
+                                - generic [ref=e8334]:
+                                  - generic [ref=e8336]: Φ
+                                  - generic [ref=e8337]: 𝑒
+                                - generic [ref=e8339]: 𝐼
+                              - math [ref=e8341]:
+                                - generic [ref=e8344]:
+                                  - generic [ref=e8345]: K
+                                  - generic [ref=e8346]: I
+                                  - generic [ref=e8348]:
+                                    - generic [ref=e8349]: Φ
+                                    - generic [ref=e8350]: e
+                            - text: ","
+                            - generic [ref=e8351]:
+                              - generic [ref=e8358]:
+                                - generic [ref=e8360]: 𝐾
+                                - generic [ref=e8364]:
+                                  - generic [ref=e8366]: Φ
+                                  - generic [ref=e8367]: 𝑒
+                                - generic [ref=e8368]: 𝐷
+                              - math [ref=e8369]:
+                                - generic [ref=e8372]:
+                                  - generic [ref=e8373]: K
+                                  - generic [ref=e8374]: D
+                                  - generic [ref=e8376]:
+                                    - generic [ref=e8377]: Φ
+                                    - generic [ref=e8378]: e
+                            - text: are the PID settings (9.584, 0.798, and 0.192 respectively).
+                        - generic [ref=e8379]:
+                          - heading "2.4.4. Pitch Channel Autopilot" [level=4] [ref=e8380]
+                          - generic [ref=e8381]:
+                            - text: Control signal
+                            - generic [ref=e8382]:
+                              - generic [ref=e8389]:
+                                - generic [ref=e8391]: 𝑈
+                                - generic [ref=e8393]: "3"
+                              - math [ref=e8394]:
+                                - generic [ref=e8397]:
+                                  - generic [ref=e8398]: U
+                                  - generic [ref=e8399]: "3"
+                            - text: "was obtained as follows:"
+                            - generic [ref=e8400]:
+                              - generic [ref=e8403]:
+                                - generic [ref=e8409]:
+                                  - generic [ref=e8410]:
+                                    - generic [ref=e8412]: 𝑈
+                                    - generic [ref=e8414]: "3"
+                                  - text: =
+                                  - generic [ref=e8415]:
+                                    - generic [ref=e8417]: 𝐾
+                                    - generic [ref=e8421]:
+                                      - generic [ref=e8422]: 𝑄
+                                      - generic [ref=e8423]: 𝑒
+                                    - generic [ref=e8424]: 𝑃
+                                  - generic [ref=e8425]:
+                                    - generic [ref=e8426]: 𝑄
+                                    - generic [ref=e8427]: 𝑒
+                                  - text: +
+                                  - generic [ref=e8428]:
+                                    - generic [ref=e8430]: 𝐾
+                                    - generic [ref=e8434]:
+                                      - generic [ref=e8435]: 𝑄
+                                      - generic [ref=e8436]: 𝑒
+                                    - generic [ref=e8438]: 𝐼
+                                  - generic [ref=e8440]:
+                                    - generic [ref=e8444]: ∫
+                                    - generic [ref=e8446]: "0"
+                                    - generic [ref=e8447]: 𝑡
+                                  - generic [ref=e8448]:
+                                    - generic [ref=e8449]: 𝑄
+                                    - generic [ref=e8450]: 𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e8451]:
+                                    - generic [ref=e8453]: 𝐾
+                                    - generic [ref=e8457]:
+                                      - generic [ref=e8458]: 𝑄
+                                      - generic [ref=e8459]: 𝑒
+                                    - generic [ref=e8460]: 𝐷
+                                  - generic [ref=e8461]:
+                                    - generic [ref=e8463]:
+                                      - text: d
+                                      - generic [ref=e8464]:
+                                        - generic [ref=e8465]: 𝑄
+                                        - generic [ref=e8466]: 𝑒
+                                    - generic [ref=e8468]: d𝑡
+                                - math [ref=e8471]:
+                                  - generic [ref=e8473]:
+                                    - generic [ref=e8474]:
+                                      - generic [ref=e8475]: U
+                                      - generic [ref=e8476]: "3"
+                                    - generic [ref=e8477]: =
+                                    - generic [ref=e8478]:
+                                      - generic [ref=e8479]: K
+                                      - generic [ref=e8480]: P
+                                      - generic [ref=e8482]:
+                                        - generic [ref=e8483]: Q
+                                        - generic [ref=e8484]: e
+                                    - generic [ref=e8485]:
+                                      - generic [ref=e8486]: Q
+                                      - generic [ref=e8487]: e
+                                    - generic [ref=e8488]: +
+                                    - generic [ref=e8489]:
+                                      - generic [ref=e8490]: K
+                                      - generic [ref=e8491]: I
+                                      - generic [ref=e8493]:
+                                        - generic [ref=e8494]: Q
+                                        - generic [ref=e8495]: e
+                                    - generic [ref=e8496]:
+                                      - generic [ref=e8498]: ∫
+                                      - generic [ref=e8499]: "0"
+                                      - generic [ref=e8500]: t
+                                    - generic [ref=e8501]:
+                                      - generic [ref=e8502]: Q
+                                      - generic [ref=e8503]: e
+                                    - generic [ref=e8504]: d
+                                    - generic [ref=e8505]: t
+                                    - generic [ref=e8506]: +
+                                    - generic [ref=e8507]:
+                                      - generic [ref=e8508]: K
+                                      - generic [ref=e8509]: D
+                                      - generic [ref=e8511]:
+                                        - generic [ref=e8512]: Q
+                                        - generic [ref=e8513]: e
+                                    - generic [ref=e8514]:
+                                      - generic [ref=e8515]:
+                                        - generic [ref=e8516]: d
+                                        - generic [ref=e8517]:
+                                          - generic [ref=e8518]: Q
+                                          - generic [ref=e8519]: e
+                                      - generic [ref=e8520]:
+                                        - generic [ref=e8521]: d
+                                        - generic [ref=e8522]: t
+                              - generic [ref=e8524]: (39)
+                            - text: where
+                            - generic [ref=e8525]:
+                              - generic [ref=e8531]:
+                                - generic [ref=e8532]:
+                                  - generic [ref=e8533]: 𝑄
+                                  - generic [ref=e8534]: 𝑒
+                                - text: =
+                                - generic [ref=e8535]:
+                                  - generic [ref=e8536]: 𝑄
+                                  - generic [ref=e8537]: 𝑐
+                                - text: −𝑄
+                              - math [ref=e8538]:
+                                - generic [ref=e8540]:
+                                  - generic [ref=e8541]:
+                                    - generic [ref=e8542]: Q
+                                    - generic [ref=e8543]: e
+                                  - generic [ref=e8544]: =
+                                  - generic [ref=e8545]:
+                                    - generic [ref=e8546]: Q
+                                    - generic [ref=e8547]: c
+                                  - generic [ref=e8548]: −
+                                  - generic [ref=e8549]: Q
+                            - text: and
+                            - generic [ref=e8550]:
+                              - generic [ref=e8557]:
+                                - generic [ref=e8559]: 𝐾
+                                - generic [ref=e8563]:
+                                  - generic [ref=e8564]: 𝑄
+                                  - generic [ref=e8565]: 𝑒
+                                - generic [ref=e8566]: 𝑃
+                              - math [ref=e8567]:
+                                - generic [ref=e8570]:
+                                  - generic [ref=e8571]: K
+                                  - generic [ref=e8572]: P
+                                  - generic [ref=e8574]:
+                                    - generic [ref=e8575]: Q
+                                    - generic [ref=e8576]: e
+                            - text: ","
+                            - generic [ref=e8577]:
+                              - generic [ref=e8584]:
+                                - generic [ref=e8586]: 𝐾
+                                - generic [ref=e8590]:
+                                  - generic [ref=e8591]: 𝑄
+                                  - generic [ref=e8592]: 𝑒
+                                - generic [ref=e8594]: 𝐼
+                              - math [ref=e8596]:
+                                - generic [ref=e8599]:
+                                  - generic [ref=e8600]: K
+                                  - generic [ref=e8601]: I
+                                  - generic [ref=e8603]:
+                                    - generic [ref=e8604]: Q
+                                    - generic [ref=e8605]: e
+                            - text: ","
+                            - generic [ref=e8606]:
+                              - generic [ref=e8613]:
+                                - generic [ref=e8615]: 𝐾
+                                - generic [ref=e8619]:
+                                  - generic [ref=e8620]: 𝑄
+                                  - generic [ref=e8621]: 𝑒
+                                - generic [ref=e8622]: 𝐷
+                              - math [ref=e8623]:
+                                - generic [ref=e8626]:
+                                  - generic [ref=e8627]: K
+                                  - generic [ref=e8628]: D
+                                  - generic [ref=e8630]:
+                                    - generic [ref=e8631]: Q
+                                    - generic [ref=e8632]: e
+                            - text: are PID settings (6.304, 1.174, and 0.433 respectively). Commanded pitch rate
+                            - generic [ref=e8633]:
+                              - generic [ref=e8640]:
+                                - generic [ref=e8641]: 𝑃
+                                - generic [ref=e8642]: 𝑐
+                              - math [ref=e8643]:
+                                - generic [ref=e8646]:
+                                  - generic [ref=e8647]: P
+                                  - generic [ref=e8648]: c
+                            - text: "is calculated as follows:"
+                            - generic [ref=e8649]:
+                              - generic [ref=e8652]:
+                                - generic [ref=e8658]:
+                                  - generic [ref=e8659]:
+                                    - generic [ref=e8660]: 𝑄
+                                    - generic [ref=e8661]: 𝑐
+                                  - text: =
+                                  - generic [ref=e8662]:
+                                    - generic [ref=e8664]: 𝐾
+                                    - generic [ref=e8668]:
+                                      - generic [ref=e8670]: Θ
+                                      - generic [ref=e8671]: 𝑒
+                                    - generic [ref=e8672]: 𝑃
+                                  - generic [ref=e8673]:
+                                    - generic [ref=e8675]: Θ
+                                    - generic [ref=e8676]: 𝑒
+                                  - text: +
+                                  - generic [ref=e8677]:
+                                    - generic [ref=e8679]: 𝐾
+                                    - generic [ref=e8683]:
+                                      - generic [ref=e8685]: Θ
+                                      - generic [ref=e8686]: 𝑒
+                                    - generic [ref=e8688]: 𝐼
+                                  - generic [ref=e8690]:
+                                    - generic [ref=e8694]: ∫
+                                    - generic [ref=e8696]: "0"
+                                    - generic [ref=e8697]: 𝑡
+                                  - generic [ref=e8698]:
+                                    - generic [ref=e8700]: Θ
+                                    - generic [ref=e8701]: 𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e8702]:
+                                    - generic [ref=e8704]: 𝐾
+                                    - generic [ref=e8708]:
+                                      - generic [ref=e8710]: Θ
+                                      - generic [ref=e8711]: 𝑒
+                                    - generic [ref=e8712]: 𝐷
+                                  - generic [ref=e8713]:
+                                    - generic [ref=e8716]:
+                                      - generic [ref=e8719]:
+                                        - text: d
+                                        - generic [ref=e8720]: Θ
+                                      - generic [ref=e8721]: 𝑒
+                                    - generic [ref=e8723]: d𝑡
+                                - math [ref=e8726]:
+                                  - generic [ref=e8728]:
+                                    - generic [ref=e8729]:
+                                      - generic [ref=e8730]: Q
+                                      - generic [ref=e8731]: c
+                                    - generic [ref=e8732]: =
+                                    - generic [ref=e8733]:
+                                      - generic [ref=e8734]: K
+                                      - generic [ref=e8735]: P
+                                      - generic [ref=e8737]:
+                                        - generic [ref=e8738]: Θ
+                                        - generic [ref=e8739]: e
+                                    - generic [ref=e8740]:
+                                      - generic [ref=e8741]: Θ
+                                      - generic [ref=e8742]: e
+                                    - generic [ref=e8743]: +
+                                    - generic [ref=e8744]:
+                                      - generic [ref=e8745]: K
+                                      - generic [ref=e8746]: I
+                                      - generic [ref=e8748]:
+                                        - generic [ref=e8749]: Θ
+                                        - generic [ref=e8750]: e
+                                    - generic [ref=e8751]:
+                                      - generic [ref=e8753]: ∫
+                                      - generic [ref=e8754]: "0"
+                                      - generic [ref=e8755]: t
+                                    - generic [ref=e8756]:
+                                      - generic [ref=e8757]: Θ
+                                      - generic [ref=e8758]: e
+                                    - generic [ref=e8759]: d
+                                    - generic [ref=e8760]: t
+                                    - generic [ref=e8761]: +
+                                    - generic [ref=e8762]:
+                                      - generic [ref=e8763]: K
+                                      - generic [ref=e8764]: D
+                                      - generic [ref=e8766]:
+                                        - generic [ref=e8767]: Θ
+                                        - generic [ref=e8768]: e
+                                    - generic [ref=e8769]:
+                                      - generic [ref=e8771]:
+                                        - generic [ref=e8773]:
+                                          - generic [ref=e8774]: d
+                                          - generic [ref=e8775]: Θ
+                                        - generic [ref=e8776]: e
+                                      - generic [ref=e8777]:
+                                        - generic [ref=e8778]: d
+                                        - generic [ref=e8779]: t
+                              - generic [ref=e8781]: (40)
+                            - text: where
+                            - generic [ref=e8782]:
+                              - generic [ref=e8788]:
+                                - generic [ref=e8789]:
+                                  - generic [ref=e8791]: Θ
+                                  - generic [ref=e8792]: 𝑒
+                                - text: =
+                                - generic [ref=e8793]:
+                                  - generic [ref=e8795]: Θ
+                                  - generic [ref=e8796]: 𝑐
+                                - text: −
+                                - generic [ref=e8797]: Θ
+                              - math [ref=e8798]:
+                                - generic [ref=e8800]:
+                                  - generic [ref=e8801]:
+                                    - generic [ref=e8802]: Θ
+                                    - generic [ref=e8803]: e
+                                  - generic [ref=e8804]: =
+                                  - generic [ref=e8805]:
+                                    - generic [ref=e8806]: Θ
+                                    - generic [ref=e8807]: c
+                                  - generic [ref=e8808]: −
+                                  - generic [ref=e8809]: Θ
+                            - text: and
+                            - generic [ref=e8810]:
+                              - generic [ref=e8817]:
+                                - generic [ref=e8819]: 𝐾
+                                - generic [ref=e8823]:
+                                  - generic [ref=e8825]: Θ
+                                  - generic [ref=e8826]: 𝑒
+                                - generic [ref=e8827]: 𝑃
+                              - math [ref=e8828]:
+                                - generic [ref=e8831]:
+                                  - generic [ref=e8832]: K
+                                  - generic [ref=e8833]: P
+                                  - generic [ref=e8835]:
+                                    - generic [ref=e8836]: Θ
+                                    - generic [ref=e8837]: e
+                            - text: ","
+                            - generic [ref=e8838]:
+                              - generic [ref=e8845]:
+                                - generic [ref=e8847]: 𝐾
+                                - generic [ref=e8851]:
+                                  - generic [ref=e8853]: Θ
+                                  - generic [ref=e8854]: 𝑒
+                                - generic [ref=e8856]: 𝐼
+                              - math [ref=e8858]:
+                                - generic [ref=e8861]:
+                                  - generic [ref=e8862]: K
+                                  - generic [ref=e8863]: I
+                                  - generic [ref=e8865]:
+                                    - generic [ref=e8866]: Θ
+                                    - generic [ref=e8867]: e
+                            - text: ","
+                            - generic [ref=e8868]:
+                              - generic [ref=e8875]:
+                                - generic [ref=e8877]: 𝐾
+                                - generic [ref=e8881]:
+                                  - generic [ref=e8883]: Θ
+                                  - generic [ref=e8884]: 𝑒
+                                - generic [ref=e8885]: 𝐷
+                              - math [ref=e8886]:
+                                - generic [ref=e8889]:
+                                  - generic [ref=e8890]: K
+                                  - generic [ref=e8891]: D
+                                  - generic [ref=e8893]:
+                                    - generic [ref=e8894]: Θ
+                                    - generic [ref=e8895]: e
+                            - text: are PID settings (5.191, 0.228, and 0.127).
+                        - generic [ref=e8896]:
+                          - heading "2.4.5. Yaw Channel Autopilot" [level=4] [ref=e8897]
+                          - generic [ref=e8898]:
+                            - text: The control signal
+                            - generic [ref=e8899]:
+                              - generic [ref=e8906]:
+                                - generic [ref=e8908]: 𝑈
+                                - generic [ref=e8910]: "4"
+                              - math [ref=e8911]:
+                                - generic [ref=e8914]:
+                                  - generic [ref=e8915]: U
+                                  - generic [ref=e8916]: "4"
+                            - text: "for yaw autopilot is as follows:"
+                            - generic [ref=e8917]:
+                              - generic [ref=e8920]:
+                                - generic [ref=e8926]:
+                                  - generic [ref=e8927]:
+                                    - generic [ref=e8929]: 𝑈
+                                    - generic [ref=e8931]: "4"
+                                  - text: =
+                                  - generic [ref=e8932]:
+                                    - generic [ref=e8934]: 𝐾
+                                    - generic [ref=e8938]:
+                                      - generic [ref=e8939]: 𝑅
+                                      - generic [ref=e8940]: 𝑒
+                                    - generic [ref=e8941]: 𝑃
+                                  - generic [ref=e8942]:
+                                    - generic [ref=e8943]: 𝑅
+                                    - generic [ref=e8944]: 𝑒
+                                  - text: +
+                                  - generic [ref=e8945]:
+                                    - generic [ref=e8947]: 𝐾
+                                    - generic [ref=e8951]:
+                                      - generic [ref=e8952]: 𝑅
+                                      - generic [ref=e8953]: 𝑒
+                                    - generic [ref=e8955]: 𝐼
+                                  - generic [ref=e8957]:
+                                    - generic [ref=e8961]: ∫
+                                    - generic [ref=e8963]: "0"
+                                    - generic [ref=e8964]: 𝑡
+                                  - generic [ref=e8965]:
+                                    - generic [ref=e8966]: 𝑅
+                                    - generic [ref=e8967]: 𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e8968]:
+                                    - generic [ref=e8970]: 𝐾
+                                    - generic [ref=e8974]:
+                                      - generic [ref=e8975]: 𝑅
+                                      - generic [ref=e8976]: 𝑒
+                                    - generic [ref=e8977]: 𝐷
+                                  - generic [ref=e8978]:
+                                    - generic [ref=e8980]:
+                                      - text: d
+                                      - generic [ref=e8981]:
+                                        - generic [ref=e8982]: 𝑅
+                                        - generic [ref=e8983]: 𝑒
+                                    - generic [ref=e8985]: d𝑡
+                                - math [ref=e8988]:
+                                  - generic [ref=e8990]:
+                                    - generic [ref=e8991]:
+                                      - generic [ref=e8992]: U
+                                      - generic [ref=e8993]: "4"
+                                    - generic [ref=e8994]: =
+                                    - generic [ref=e8995]:
+                                      - generic [ref=e8996]: K
+                                      - generic [ref=e8997]: P
+                                      - generic [ref=e8999]:
+                                        - generic [ref=e9000]: R
+                                        - generic [ref=e9001]: e
+                                    - generic [ref=e9002]:
+                                      - generic [ref=e9003]: R
+                                      - generic [ref=e9004]: e
+                                    - generic [ref=e9005]: +
+                                    - generic [ref=e9006]:
+                                      - generic [ref=e9007]: K
+                                      - generic [ref=e9008]: I
+                                      - generic [ref=e9010]:
+                                        - generic [ref=e9011]: R
+                                        - generic [ref=e9012]: e
+                                    - generic [ref=e9013]:
+                                      - generic [ref=e9015]: ∫
+                                      - generic [ref=e9016]: "0"
+                                      - generic [ref=e9017]: t
+                                    - generic [ref=e9018]:
+                                      - generic [ref=e9019]: R
+                                      - generic [ref=e9020]: e
+                                    - generic [ref=e9021]: d
+                                    - generic [ref=e9022]: t
+                                    - generic [ref=e9023]: +
+                                    - generic [ref=e9024]:
+                                      - generic [ref=e9025]: K
+                                      - generic [ref=e9026]: D
+                                      - generic [ref=e9028]:
+                                        - generic [ref=e9029]: R
+                                        - generic [ref=e9030]: e
+                                    - generic [ref=e9031]:
+                                      - generic [ref=e9032]:
+                                        - generic [ref=e9033]: d
+                                        - generic [ref=e9034]:
+                                          - generic [ref=e9035]: R
+                                          - generic [ref=e9036]: e
+                                      - generic [ref=e9037]:
+                                        - generic [ref=e9038]: d
+                                        - generic [ref=e9039]: t
+                              - generic [ref=e9041]: (41)
+                            - text: where
+                            - generic [ref=e9042]:
+                              - generic [ref=e9048]:
+                                - generic [ref=e9049]:
+                                  - generic [ref=e9050]: 𝑅
+                                  - generic [ref=e9051]: 𝑒
+                                - text: =
+                                - generic [ref=e9052]:
+                                  - generic [ref=e9053]: 𝑅
+                                  - generic [ref=e9054]: 𝑐
+                                - text: −𝑅
+                              - math [ref=e9055]:
+                                - generic [ref=e9057]:
+                                  - generic [ref=e9058]:
+                                    - generic [ref=e9059]: R
+                                    - generic [ref=e9060]: e
+                                  - generic [ref=e9061]: =
+                                  - generic [ref=e9062]:
+                                    - generic [ref=e9063]: R
+                                    - generic [ref=e9064]: c
+                                  - generic [ref=e9065]: −
+                                  - generic [ref=e9066]: R
+                            - text: (error between the commanded yaw rate and actual yaw rate) and
+                            - generic [ref=e9067]:
+                              - generic [ref=e9074]:
+                                - generic [ref=e9076]: 𝐾
+                                - generic [ref=e9080]:
+                                  - generic [ref=e9081]: 𝑅
+                                  - generic [ref=e9082]: 𝑒
+                                - generic [ref=e9083]: 𝑃
+                              - math [ref=e9084]:
+                                - generic [ref=e9087]:
+                                  - generic [ref=e9088]: K
+                                  - generic [ref=e9089]: P
+                                  - generic [ref=e9091]:
+                                    - generic [ref=e9092]: R
+                                    - generic [ref=e9093]: e
+                            - text: ","
+                            - generic [ref=e9094]:
+                              - generic [ref=e9101]:
+                                - generic [ref=e9103]: 𝐾
+                                - generic [ref=e9107]:
+                                  - generic [ref=e9108]: 𝑅
+                                  - generic [ref=e9109]: 𝑒
+                                - generic [ref=e9111]: 𝐼
+                              - math [ref=e9113]:
+                                - generic [ref=e9116]:
+                                  - generic [ref=e9117]: K
+                                  - generic [ref=e9118]: I
+                                  - generic [ref=e9120]:
+                                    - generic [ref=e9121]: R
+                                    - generic [ref=e9122]: e
+                            - text: ","
+                            - generic [ref=e9123]:
+                              - generic [ref=e9130]:
+                                - generic [ref=e9132]: 𝐾
+                                - generic [ref=e9136]:
+                                  - generic [ref=e9137]: 𝑅
+                                  - generic [ref=e9138]: 𝑒
+                                - generic [ref=e9139]: 𝐷
+                              - math [ref=e9140]:
+                                - generic [ref=e9143]:
+                                  - generic [ref=e9144]: K
+                                  - generic [ref=e9145]: D
+                                  - generic [ref=e9147]:
+                                    - generic [ref=e9148]: R
+                                    - generic [ref=e9149]: e
+                            - text: are PID coefficients (112.662, 22.778, and 3.419). Commanded yaw angular rate
+                            - generic [ref=e9150]:
+                              - generic [ref=e9157]:
+                                - generic [ref=e9158]: 𝑅
+                                - generic [ref=e9159]: 𝑐
+                              - math [ref=e9160]:
+                                - generic [ref=e9163]:
+                                  - generic [ref=e9164]: R
+                                  - generic [ref=e9165]: c
+                            - text: "was obtained as follows:"
+                            - generic [ref=e9166]:
+                              - generic [ref=e9169]:
+                                - generic [ref=e9175]:
+                                  - generic [ref=e9176]:
+                                    - generic [ref=e9177]: 𝑅
+                                    - generic [ref=e9178]: 𝑐
+                                  - text: =
+                                  - generic [ref=e9179]:
+                                    - generic [ref=e9181]: 𝐾
+                                    - generic [ref=e9185]:
+                                      - generic [ref=e9187]: Ψ
+                                      - generic [ref=e9188]: 𝑒
+                                    - generic [ref=e9189]: 𝑃
+                                  - generic [ref=e9190]:
+                                    - generic [ref=e9192]: Ψ
+                                    - generic [ref=e9193]: 𝑒
+                                  - text: +
+                                  - generic [ref=e9194]:
+                                    - generic [ref=e9196]: 𝐾
+                                    - generic [ref=e9200]:
+                                      - generic [ref=e9202]: Ψ
+                                      - generic [ref=e9203]: 𝑒
+                                    - generic [ref=e9205]: 𝐼
+                                  - generic [ref=e9207]:
+                                    - generic [ref=e9211]: ∫
+                                    - generic [ref=e9213]: "0"
+                                    - generic [ref=e9214]: 𝑡
+                                  - generic [ref=e9215]:
+                                    - generic [ref=e9217]: Ψ
+                                    - generic [ref=e9218]: 𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e9219]:
+                                    - generic [ref=e9221]: 𝐾
+                                    - generic [ref=e9225]:
+                                      - generic [ref=e9227]: Ψ
+                                      - generic [ref=e9228]: 𝑒
+                                    - generic [ref=e9229]: 𝐷
+                                  - generic [ref=e9230]:
+                                    - generic [ref=e9233]:
+                                      - generic [ref=e9236]:
+                                        - text: d
+                                        - generic [ref=e9237]: Ψ
+                                      - generic [ref=e9238]: 𝑒
+                                    - generic [ref=e9240]: d𝑡
+                                - math [ref=e9243]:
+                                  - generic [ref=e9245]:
+                                    - generic [ref=e9246]:
+                                      - generic [ref=e9247]: R
+                                      - generic [ref=e9248]: c
+                                    - generic [ref=e9249]: =
+                                    - generic [ref=e9250]:
+                                      - generic [ref=e9251]: K
+                                      - generic [ref=e9252]: P
+                                      - generic [ref=e9254]:
+                                        - generic [ref=e9255]: Ψ
+                                        - generic [ref=e9256]: e
+                                    - generic [ref=e9257]:
+                                      - generic [ref=e9258]: Ψ
+                                      - generic [ref=e9259]: e
+                                    - generic [ref=e9260]: +
+                                    - generic [ref=e9261]:
+                                      - generic [ref=e9262]: K
+                                      - generic [ref=e9263]: I
+                                      - generic [ref=e9265]:
+                                        - generic [ref=e9266]: Ψ
+                                        - generic [ref=e9267]: e
+                                    - generic [ref=e9268]:
+                                      - generic [ref=e9270]: ∫
+                                      - generic [ref=e9271]: "0"
+                                      - generic [ref=e9272]: t
+                                    - generic [ref=e9273]:
+                                      - generic [ref=e9274]: Ψ
+                                      - generic [ref=e9275]: e
+                                    - generic [ref=e9276]: d
+                                    - generic [ref=e9277]: t
+                                    - generic [ref=e9278]: +
+                                    - generic [ref=e9279]:
+                                      - generic [ref=e9280]: K
+                                      - generic [ref=e9281]: D
+                                      - generic [ref=e9283]:
+                                        - generic [ref=e9284]: Ψ
+                                        - generic [ref=e9285]: e
+                                    - generic [ref=e9286]:
+                                      - generic [ref=e9288]:
+                                        - generic [ref=e9290]:
+                                          - generic [ref=e9291]: d
+                                          - generic [ref=e9292]: Ψ
+                                        - generic [ref=e9293]: e
+                                      - generic [ref=e9294]:
+                                        - generic [ref=e9295]: d
+                                        - generic [ref=e9296]: t
+                              - generic [ref=e9298]: (42)
+                            - text: where
+                            - generic [ref=e9299]:
+                              - generic [ref=e9305]:
+                                - generic [ref=e9306]:
+                                  - generic [ref=e9308]: Ψ
+                                  - generic [ref=e9309]: 𝑒
+                                - text: =
+                                - generic [ref=e9310]:
+                                  - generic [ref=e9312]: Ψ
+                                  - generic [ref=e9313]: 𝑐
+                                - text: −
+                                - generic [ref=e9314]: Ψ
+                              - math [ref=e9315]:
+                                - generic [ref=e9317]:
+                                  - generic [ref=e9318]:
+                                    - generic [ref=e9319]: Ψ
+                                    - generic [ref=e9320]: e
+                                  - generic [ref=e9321]: =
+                                  - generic [ref=e9322]:
+                                    - generic [ref=e9323]: Ψ
+                                    - generic [ref=e9324]: c
+                                  - generic [ref=e9325]: −
+                                  - generic [ref=e9326]: Ψ
+                            - text: and
+                            - generic [ref=e9327]:
+                              - generic [ref=e9334]:
+                                - generic [ref=e9336]: 𝐾
+                                - generic [ref=e9340]:
+                                  - generic [ref=e9342]: Ψ
+                                  - generic [ref=e9343]: 𝑒
+                                - generic [ref=e9344]: 𝑃
+                              - math [ref=e9345]:
+                                - generic [ref=e9348]:
+                                  - generic [ref=e9349]: K
+                                  - generic [ref=e9350]: P
+                                  - generic [ref=e9352]:
+                                    - generic [ref=e9353]: Ψ
+                                    - generic [ref=e9354]: e
+                            - text: ","
+                            - generic [ref=e9355]:
+                              - generic [ref=e9362]:
+                                - generic [ref=e9364]: 𝐾
+                                - generic [ref=e9368]:
+                                  - generic [ref=e9370]: Ψ
+                                  - generic [ref=e9371]: 𝑒
+                                - generic [ref=e9373]: 𝐼
+                              - math [ref=e9375]:
+                                - generic [ref=e9378]:
+                                  - generic [ref=e9379]: K
+                                  - generic [ref=e9380]: I
+                                  - generic [ref=e9382]:
+                                    - generic [ref=e9383]: Ψ
+                                    - generic [ref=e9384]: e
+                            - text: ","
+                            - generic [ref=e9385]:
+                              - generic [ref=e9392]:
+                                - generic [ref=e9394]: 𝐾
+                                - generic [ref=e9398]:
+                                  - generic [ref=e9400]: Ψ
+                                  - generic [ref=e9401]: 𝑒
+                                - generic [ref=e9402]: 𝐷
+                              - math [ref=e9403]:
+                                - generic [ref=e9406]:
+                                  - generic [ref=e9407]: K
+                                  - generic [ref=e9408]: D
+                                  - generic [ref=e9410]:
+                                    - generic [ref=e9411]: Ψ
+                                    - generic [ref=e9412]: e
+                            - text: are PID settings (5.288, 0.230, and −0.151 respectively).
+                        - generic [ref=e9413]:
+                          - heading "2.4.6. Position Controller" [level=4] [ref=e9414]
+                          - generic [ref=e9415]:
+                            - text: The roll and pitch angles in the
+                            - generic [ref=e9416]:
+                              - generic [ref=e9422]:
+                                - generic [ref=e9423]:
+                                  - generic [ref=e9424]: 𝑂
+                                  - generic [ref=e9425]: 𝑛
+                                - generic [ref=e9426]:
+                                  - generic [ref=e9427]: 𝑥
+                                  - generic [ref=e9428]: 𝑛
+                                - generic [ref=e9429]:
+                                  - generic [ref=e9430]: 𝑦
+                                  - generic [ref=e9431]: 𝑛
+                                - generic [ref=e9432]:
+                                  - generic [ref=e9433]: 𝑧
+                                  - generic [ref=e9434]: 𝑛
+                              - math [ref=e9435]:
+                                - generic [ref=e9437]:
+                                  - generic [ref=e9438]:
+                                    - generic [ref=e9439]: O
+                                    - generic [ref=e9440]: "n"
+                                  - generic [ref=e9441]:
+                                    - generic [ref=e9442]: x
+                                    - generic [ref=e9443]: "n"
+                                  - generic [ref=e9444]:
+                                    - generic [ref=e9445]: "y"
+                                    - generic [ref=e9446]: "n"
+                                  - generic [ref=e9447]:
+                                    - generic [ref=e9448]: z
+                                    - generic [ref=e9449]: "n"
+                            - text: "frame are calculated as follows:"
+                            - generic [ref=e9450]:
+                              - generic [ref=e9453]:
+                                - generic [ref=e9459]:
+                                  - generic [ref=e9460]:
+                                    - generic [ref=e9462]: Φ
+                                    - generic [ref=e9463]: ∗
+                                    - generic [ref=e9464]: 𝑐
+                                  - text: =
+                                  - generic [ref=e9465]:
+                                    - generic [ref=e9467]: 𝐾
+                                    - generic [ref=e9471]:
+                                      - generic [ref=e9473]: 𝑈
+                                      - generic [ref=e9476]: 𝑛𝑒
+                                    - generic [ref=e9477]: 𝑃
+                                  - generic [ref=e9478]:
+                                    - generic [ref=e9480]: 𝑈
+                                    - generic [ref=e9483]: 𝑛𝑒
+                                  - text: +
+                                  - generic [ref=e9484]:
+                                    - generic [ref=e9486]: 𝐾
+                                    - generic [ref=e9490]:
+                                      - generic [ref=e9492]: 𝑈
+                                      - generic [ref=e9495]: 𝑛𝑒
+                                    - generic [ref=e9497]: 𝐼
+                                  - generic [ref=e9499]:
+                                    - generic [ref=e9503]: ∫
+                                    - generic [ref=e9505]: "0"
+                                    - generic [ref=e9506]: 𝑡
+                                  - generic [ref=e9507]:
+                                    - generic [ref=e9509]: 𝑈
+                                    - generic [ref=e9512]: 𝑛𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e9513]:
+                                    - generic [ref=e9515]: 𝐾
+                                    - generic [ref=e9519]:
+                                      - generic [ref=e9521]: 𝑈
+                                      - generic [ref=e9524]: 𝑛𝑒
+                                    - generic [ref=e9525]: 𝐷
+                                  - generic [ref=e9526]:
+                                    - generic [ref=e9528]:
+                                      - text: d
+                                      - generic [ref=e9529]:
+                                        - generic [ref=e9531]: 𝑈
+                                        - generic [ref=e9534]: 𝑛𝑒
+                                    - generic [ref=e9536]: d𝑡
+                                - math [ref=e9539]:
+                                  - generic [ref=e9541]:
+                                    - generic [ref=e9542]:
+                                      - generic [ref=e9543]: Φ
+                                      - generic [ref=e9544]: c
+                                      - generic [ref=e9545]: "*"
+                                    - generic [ref=e9546]: =
+                                    - generic [ref=e9547]:
+                                      - generic [ref=e9548]: K
+                                      - generic [ref=e9549]: P
+                                      - generic [ref=e9551]:
+                                        - generic [ref=e9552]: U
+                                        - generic [ref=e9553]:
+                                          - generic [ref=e9554]: "n"
+                                          - generic [ref=e9555]: e
+                                    - generic [ref=e9556]:
+                                      - generic [ref=e9557]: U
+                                      - generic [ref=e9558]:
+                                        - generic [ref=e9559]: "n"
+                                        - generic [ref=e9560]: e
+                                    - generic [ref=e9561]: +
+                                    - generic [ref=e9562]:
+                                      - generic [ref=e9563]: K
+                                      - generic [ref=e9564]: I
+                                      - generic [ref=e9566]:
+                                        - generic [ref=e9567]: U
+                                        - generic [ref=e9568]:
+                                          - generic [ref=e9569]: "n"
+                                          - generic [ref=e9570]: e
+                                    - generic [ref=e9571]:
+                                      - generic [ref=e9573]: ∫
+                                      - generic [ref=e9574]: "0"
+                                      - generic [ref=e9575]: t
+                                    - generic [ref=e9576]:
+                                      - generic [ref=e9577]: U
+                                      - generic [ref=e9578]:
+                                        - generic [ref=e9579]: "n"
+                                        - generic [ref=e9580]: e
+                                    - generic [ref=e9581]: d
+                                    - generic [ref=e9582]: t
+                                    - generic [ref=e9583]: +
+                                    - generic [ref=e9584]:
+                                      - generic [ref=e9585]: K
+                                      - generic [ref=e9586]: D
+                                      - generic [ref=e9588]:
+                                        - generic [ref=e9589]: U
+                                        - generic [ref=e9590]:
+                                          - generic [ref=e9591]: "n"
+                                          - generic [ref=e9592]: e
+                                    - generic [ref=e9593]:
+                                      - generic [ref=e9594]:
+                                        - generic [ref=e9595]: d
+                                        - generic [ref=e9596]:
+                                          - generic [ref=e9597]: U
+                                          - generic [ref=e9598]:
+                                            - generic [ref=e9599]: "n"
+                                            - generic [ref=e9600]: e
+                                      - generic [ref=e9601]:
+                                        - generic [ref=e9602]: d
+                                        - generic [ref=e9603]: t
+                              - generic [ref=e9605]: (43)
+                            - generic [ref=e9606]:
+                              - generic [ref=e9609]:
+                                - generic [ref=e9615]:
+                                  - generic [ref=e9616]:
+                                    - generic [ref=e9618]: Θ
+                                    - generic [ref=e9619]: ∗
+                                    - generic [ref=e9620]: 𝑐
+                                  - text: =
+                                  - generic [ref=e9621]:
+                                    - generic [ref=e9623]: 𝐾
+                                    - generic [ref=e9627]:
+                                      - generic [ref=e9629]: 𝑉
+                                      - generic [ref=e9632]: 𝑛𝑒
+                                    - generic [ref=e9633]: 𝑃
+                                  - generic [ref=e9634]:
+                                    - generic [ref=e9636]: 𝑉
+                                    - generic [ref=e9639]: 𝑛𝑒
+                                  - text: +
+                                  - generic [ref=e9640]:
+                                    - generic [ref=e9642]: 𝐾
+                                    - generic [ref=e9646]:
+                                      - generic [ref=e9648]: 𝑉
+                                      - generic [ref=e9651]: 𝑛𝑒
+                                    - generic [ref=e9653]: 𝐼
+                                  - generic [ref=e9655]:
+                                    - generic [ref=e9659]: ∫
+                                    - generic [ref=e9661]: "0"
+                                    - generic [ref=e9662]: 𝑡
+                                  - generic [ref=e9663]:
+                                    - generic [ref=e9665]: 𝑉
+                                    - generic [ref=e9668]: 𝑛𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e9669]:
+                                    - generic [ref=e9671]: 𝐾
+                                    - generic [ref=e9675]:
+                                      - generic [ref=e9677]: 𝑉
+                                      - generic [ref=e9680]: 𝑛𝑒
+                                    - generic [ref=e9681]: 𝐷
+                                  - generic [ref=e9682]:
+                                    - generic [ref=e9684]:
+                                      - text: d
+                                      - generic [ref=e9685]:
+                                        - generic [ref=e9687]: 𝑉
+                                        - generic [ref=e9690]: 𝑛𝑒
+                                    - generic [ref=e9692]: d𝑡
+                                - math [ref=e9695]:
+                                  - generic [ref=e9697]:
+                                    - generic [ref=e9698]:
+                                      - generic [ref=e9699]: Θ
+                                      - generic [ref=e9700]: c
+                                      - generic [ref=e9701]: "*"
+                                    - generic [ref=e9702]: =
+                                    - generic [ref=e9703]:
+                                      - generic [ref=e9704]: K
+                                      - generic [ref=e9705]: P
+                                      - generic [ref=e9707]:
+                                        - generic [ref=e9708]: V
+                                        - generic [ref=e9709]:
+                                          - generic [ref=e9710]: "n"
+                                          - generic [ref=e9711]: e
+                                    - generic [ref=e9712]:
+                                      - generic [ref=e9713]: V
+                                      - generic [ref=e9714]:
+                                        - generic [ref=e9715]: "n"
+                                        - generic [ref=e9716]: e
+                                    - generic [ref=e9717]: +
+                                    - generic [ref=e9718]:
+                                      - generic [ref=e9719]: K
+                                      - generic [ref=e9720]: I
+                                      - generic [ref=e9722]:
+                                        - generic [ref=e9723]: V
+                                        - generic [ref=e9724]:
+                                          - generic [ref=e9725]: "n"
+                                          - generic [ref=e9726]: e
+                                    - generic [ref=e9727]:
+                                      - generic [ref=e9729]: ∫
+                                      - generic [ref=e9730]: "0"
+                                      - generic [ref=e9731]: t
+                                    - generic [ref=e9732]:
+                                      - generic [ref=e9733]: V
+                                      - generic [ref=e9734]:
+                                        - generic [ref=e9735]: "n"
+                                        - generic [ref=e9736]: e
+                                    - generic [ref=e9737]: d
+                                    - generic [ref=e9738]: t
+                                    - generic [ref=e9739]: +
+                                    - generic [ref=e9740]:
+                                      - generic [ref=e9741]: K
+                                      - generic [ref=e9742]: D
+                                      - generic [ref=e9744]:
+                                        - generic [ref=e9745]: V
+                                        - generic [ref=e9746]:
+                                          - generic [ref=e9747]: "n"
+                                          - generic [ref=e9748]: e
+                                    - generic [ref=e9749]:
+                                      - generic [ref=e9750]:
+                                        - generic [ref=e9751]: d
+                                        - generic [ref=e9752]:
+                                          - generic [ref=e9753]: V
+                                          - generic [ref=e9754]:
+                                            - generic [ref=e9755]: "n"
+                                            - generic [ref=e9756]: e
+                                      - generic [ref=e9757]:
+                                        - generic [ref=e9758]: d
+                                        - generic [ref=e9759]: t
+                              - generic [ref=e9761]: (44)
+                            - text: where
+                            - generic [ref=e9762]:
+                              - generic [ref=e9769]:
+                                - generic [ref=e9771]: 𝐾
+                                - generic [ref=e9775]:
+                                  - generic [ref=e9777]: 𝑈
+                                  - generic [ref=e9780]: 𝑛𝑒
+                                - generic [ref=e9781]: 𝑃
+                              - math [ref=e9782]:
+                                - generic [ref=e9785]:
+                                  - generic [ref=e9786]: K
+                                  - generic [ref=e9787]: P
+                                  - generic [ref=e9789]:
+                                    - generic [ref=e9790]: U
+                                    - generic [ref=e9791]:
+                                      - generic [ref=e9792]: "n"
+                                      - generic [ref=e9793]: e
+                            - text: ","
+                            - generic [ref=e9794]:
+                              - generic [ref=e9801]:
+                                - generic [ref=e9803]: 𝐾
+                                - generic [ref=e9807]:
+                                  - generic [ref=e9809]: 𝑈
+                                  - generic [ref=e9812]: 𝑛𝑒
+                                - generic [ref=e9814]: 𝐼
+                              - math [ref=e9816]:
+                                - generic [ref=e9819]:
+                                  - generic [ref=e9820]: K
+                                  - generic [ref=e9821]: I
+                                  - generic [ref=e9823]:
+                                    - generic [ref=e9824]: U
+                                    - generic [ref=e9825]:
+                                      - generic [ref=e9826]: "n"
+                                      - generic [ref=e9827]: e
+                            - text: ","
+                            - generic [ref=e9828]:
+                              - generic [ref=e9835]:
+                                - generic [ref=e9837]: 𝐾
+                                - generic [ref=e9841]:
+                                  - generic [ref=e9843]: 𝑈
+                                  - generic [ref=e9846]: 𝑛𝑒
+                                - generic [ref=e9847]: 𝐷
+                              - math [ref=e9848]:
+                                - generic [ref=e9851]:
+                                  - generic [ref=e9852]: K
+                                  - generic [ref=e9853]: D
+                                  - generic [ref=e9855]:
+                                    - generic [ref=e9856]: U
+                                    - generic [ref=e9857]:
+                                      - generic [ref=e9858]: "n"
+                                      - generic [ref=e9859]: e
+                            - text: ","
+                            - generic [ref=e9860]:
+                              - generic [ref=e9867]:
+                                - generic [ref=e9869]: 𝐾
+                                - generic [ref=e9873]:
+                                  - generic [ref=e9875]: 𝑉
+                                  - generic [ref=e9878]: 𝑛𝑒
+                                - generic [ref=e9879]: 𝑃
+                              - math [ref=e9880]:
+                                - generic [ref=e9883]:
+                                  - generic [ref=e9884]: K
+                                  - generic [ref=e9885]: P
+                                  - generic [ref=e9887]:
+                                    - generic [ref=e9888]: V
+                                    - generic [ref=e9889]:
+                                      - generic [ref=e9890]: "n"
+                                      - generic [ref=e9891]: e
+                            - text: ","
+                            - generic [ref=e9892]:
+                              - generic [ref=e9899]:
+                                - generic [ref=e9901]: 𝐾
+                                - generic [ref=e9905]:
+                                  - generic [ref=e9907]: 𝑉
+                                  - generic [ref=e9910]: 𝑛𝑒
+                                - generic [ref=e9912]: 𝐼
+                              - math [ref=e9914]:
+                                - generic [ref=e9917]:
+                                  - generic [ref=e9918]: K
+                                  - generic [ref=e9919]: I
+                                  - generic [ref=e9921]:
+                                    - generic [ref=e9922]: V
+                                    - generic [ref=e9923]:
+                                      - generic [ref=e9924]: "n"
+                                      - generic [ref=e9925]: e
+                            - text: ","
+                            - generic [ref=e9926]:
+                              - generic [ref=e9933]:
+                                - generic [ref=e9935]: 𝐾
+                                - generic [ref=e9939]:
+                                  - generic [ref=e9941]: 𝑉
+                                  - generic [ref=e9944]: 𝑛𝑒
+                                - generic [ref=e9945]: 𝐷
+                              - math [ref=e9946]:
+                                - generic [ref=e9949]:
+                                  - generic [ref=e9950]: K
+                                  - generic [ref=e9951]: D
+                                  - generic [ref=e9953]:
+                                    - generic [ref=e9954]: V
+                                    - generic [ref=e9955]:
+                                      - generic [ref=e9956]: "n"
+                                      - generic [ref=e9957]: e
+                            - text: "(−118.004, −189.289, −17.433, 44.373, 2.774, and 2.398) are as follows:"
+                            - generic [ref=e9958]:
+                              - generic [ref=e9961]:
+                                - generic [ref=e9967]:
+                                  - generic [ref=e9968]:
+                                    - generic [ref=e9970]: 𝑈
+                                    - generic [ref=e9973]: 𝑛𝑒
+                                  - text: =
+                                  - generic [ref=e9974]:
+                                    - generic [ref=e9976]: 𝑈
+                                    - generic [ref=e9979]: 𝑛𝑐
+                                  - text: −
+                                  - generic [ref=e9980]:
+                                    - generic [ref=e9982]: 𝑈
+                                    - generic [ref=e9984]: 𝑛
+                                - math [ref=e9985]:
+                                  - generic [ref=e9987]:
+                                    - generic [ref=e9988]:
+                                      - generic [ref=e9989]: U
+                                      - generic [ref=e9990]:
+                                        - generic [ref=e9991]: "n"
+                                        - generic [ref=e9992]: e
+                                    - generic [ref=e9993]: =
+                                    - generic [ref=e9994]:
+                                      - generic [ref=e9995]: U
+                                      - generic [ref=e9996]:
+                                        - generic [ref=e9997]: "n"
+                                        - generic [ref=e9998]: c
+                                    - generic [ref=e9999]: −
+                                    - generic [ref=e10000]:
+                                      - generic [ref=e10001]: U
+                                      - generic [ref=e10002]: "n"
+                              - generic [ref=e10004]: (45)
+                            - generic [ref=e10005]:
+                              - generic [ref=e10008]:
+                                - generic [ref=e10014]:
+                                  - generic [ref=e10015]:
+                                    - generic [ref=e10017]: 𝑉
+                                    - generic [ref=e10020]: 𝑛𝑒
+                                  - text: =
+                                  - generic [ref=e10021]:
+                                    - generic [ref=e10023]: 𝑉
+                                    - generic [ref=e10026]: 𝑛𝑐
+                                  - text: −
+                                  - generic [ref=e10027]:
+                                    - generic [ref=e10029]: 𝑉
+                                    - generic [ref=e10031]: 𝑛
+                                - math [ref=e10032]:
+                                  - generic [ref=e10034]:
+                                    - generic [ref=e10035]:
+                                      - generic [ref=e10036]: V
+                                      - generic [ref=e10037]:
+                                        - generic [ref=e10038]: "n"
+                                        - generic [ref=e10039]: e
+                                    - generic [ref=e10040]: =
+                                    - generic [ref=e10041]:
+                                      - generic [ref=e10042]: V
+                                      - generic [ref=e10043]:
+                                        - generic [ref=e10044]: "n"
+                                        - generic [ref=e10045]: c
+                                    - generic [ref=e10046]: −
+                                    - generic [ref=e10047]:
+                                      - generic [ref=e10048]: V
+                                      - generic [ref=e10049]: "n"
+                              - generic [ref=e10051]: (46)
+                            - text: where
+                            - generic [ref=e10052]:
+                              - generic [ref=e10059]:
+                                - generic [ref=e10061]: 𝑈
+                                - generic [ref=e10064]: 𝑛𝑐
+                              - math [ref=e10065]:
+                                - generic [ref=e10068]:
+                                  - generic [ref=e10069]: U
+                                  - generic [ref=e10070]:
+                                    - generic [ref=e10071]: "n"
+                                    - generic [ref=e10072]: c
+                            - text: and
+                            - generic [ref=e10073]:
+                              - generic [ref=e10080]:
+                                - generic [ref=e10082]: 𝑉
+                                - generic [ref=e10085]: 𝑛𝑐
+                              - math [ref=e10086]:
+                                - generic [ref=e10089]:
+                                  - generic [ref=e10090]: V
+                                  - generic [ref=e10091]:
+                                    - generic [ref=e10092]: "n"
+                                    - generic [ref=e10093]: c
+                            - text: commanded velocities in the
+                            - generic [ref=e10094]:
+                              - generic [ref=e10100]:
+                                - generic [ref=e10101]:
+                                  - generic [ref=e10102]: 𝑂
+                                  - generic [ref=e10103]: 𝑛
+                                - generic [ref=e10104]:
+                                  - generic [ref=e10105]: 𝑥
+                                  - generic [ref=e10106]: 𝑛
+                                - generic [ref=e10107]:
+                                  - generic [ref=e10108]: 𝑦
+                                  - generic [ref=e10109]: 𝑛
+                                - generic [ref=e10110]:
+                                  - generic [ref=e10111]: 𝑧
+                                  - generic [ref=e10112]: 𝑛
+                              - math [ref=e10113]:
+                                - generic [ref=e10115]:
+                                  - generic [ref=e10116]:
+                                    - generic [ref=e10117]: O
+                                    - generic [ref=e10118]: "n"
+                                  - generic [ref=e10119]:
+                                    - generic [ref=e10120]: x
+                                    - generic [ref=e10121]: "n"
+                                  - generic [ref=e10122]:
+                                    - generic [ref=e10123]: "y"
+                                    - generic [ref=e10124]: "n"
+                                  - generic [ref=e10125]:
+                                    - generic [ref=e10126]: z
+                                    - generic [ref=e10127]: "n"
+                            - text: frame (in
+                            - generic [ref=e10128]:
+                              - generic [ref=e10134]:
+                                - generic [ref=e10135]:
+                                  - generic [ref=e10136]: 𝑂
+                                  - generic [ref=e10137]: 𝑛
+                                - generic [ref=e10138]:
+                                  - generic [ref=e10139]: 𝑥
+                                  - generic [ref=e10140]: 𝑛
+                              - math [ref=e10141]:
+                                - generic [ref=e10143]:
+                                  - generic [ref=e10144]:
+                                    - generic [ref=e10145]: O
+                                    - generic [ref=e10146]: "n"
+                                  - generic [ref=e10147]:
+                                    - generic [ref=e10148]: x
+                                    - generic [ref=e10149]: "n"
+                            - text: and
+                            - generic [ref=e10150]:
+                              - generic [ref=e10156]:
+                                - generic [ref=e10157]:
+                                  - generic [ref=e10158]: 𝑂
+                                  - generic [ref=e10159]: 𝑛
+                                - generic [ref=e10160]:
+                                  - generic [ref=e10161]: 𝑦
+                                  - generic [ref=e10162]: 𝑛
+                              - math [ref=e10163]:
+                                - generic [ref=e10165]:
+                                  - generic [ref=e10166]:
+                                    - generic [ref=e10167]: O
+                                    - generic [ref=e10168]: "n"
+                                  - generic [ref=e10169]:
+                                    - generic [ref=e10170]: "y"
+                                    - generic [ref=e10171]: "n"
+                            - text: "directions, respectively) are as follows:"
+                            - generic [ref=e10172]:
+                              - generic [ref=e10175]:
+                                - generic [ref=e10181]:
+                                  - generic [ref=e10182]:
+                                    - generic [ref=e10184]: 𝑈
+                                    - generic [ref=e10187]: 𝑛𝑐
+                                  - text: =
+                                  - generic [ref=e10188]:
+                                    - generic [ref=e10190]: 𝐾
+                                    - generic [ref=e10194]:
+                                      - generic [ref=e10195]: 𝑥
+                                      - generic [ref=e10197]: 𝑛𝑒
+                                    - generic [ref=e10198]: 𝑃
+                                  - generic [ref=e10199]:
+                                    - generic [ref=e10200]: 𝑥
+                                    - generic [ref=e10202]: 𝑛𝑒
+                                  - text: +
+                                  - generic [ref=e10203]:
+                                    - generic [ref=e10205]: 𝐾
+                                    - generic [ref=e10209]:
+                                      - generic [ref=e10210]: 𝑥
+                                      - generic [ref=e10212]: 𝑛𝑒
+                                    - generic [ref=e10214]: 𝐼
+                                  - generic [ref=e10216]:
+                                    - generic [ref=e10220]: ∫
+                                    - generic [ref=e10222]: "0"
+                                    - generic [ref=e10223]: 𝑡
+                                  - generic [ref=e10224]:
+                                    - generic [ref=e10225]: 𝑥
+                                    - generic [ref=e10227]: 𝑛𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e10228]:
+                                    - generic [ref=e10230]: 𝐾
+                                    - generic [ref=e10234]:
+                                      - generic [ref=e10235]: 𝑥
+                                      - generic [ref=e10237]: 𝑛𝑒
+                                    - generic [ref=e10238]: 𝐷
+                                  - generic [ref=e10239]:
+                                    - generic [ref=e10241]:
+                                      - text: d
+                                      - generic [ref=e10242]:
+                                        - generic [ref=e10243]: 𝑥
+                                        - generic [ref=e10245]: 𝑛𝑒
+                                    - generic [ref=e10247]: d𝑡
+                                - math [ref=e10250]:
+                                  - generic [ref=e10252]:
+                                    - generic [ref=e10253]:
+                                      - generic [ref=e10254]: U
+                                      - generic [ref=e10255]:
+                                        - generic [ref=e10256]: "n"
+                                        - generic [ref=e10257]: c
+                                    - generic [ref=e10258]: =
+                                    - generic [ref=e10259]:
+                                      - generic [ref=e10260]: K
+                                      - generic [ref=e10261]: P
+                                      - generic [ref=e10263]:
+                                        - generic [ref=e10264]: x
+                                        - generic [ref=e10265]:
+                                          - generic [ref=e10266]: "n"
+                                          - generic [ref=e10267]: e
+                                    - generic [ref=e10268]:
+                                      - generic [ref=e10269]: x
+                                      - generic [ref=e10270]:
+                                        - generic [ref=e10271]: "n"
+                                        - generic [ref=e10272]: e
+                                    - generic [ref=e10273]: +
+                                    - generic [ref=e10274]:
+                                      - generic [ref=e10275]: K
+                                      - generic [ref=e10276]: I
+                                      - generic [ref=e10278]:
+                                        - generic [ref=e10279]: x
+                                        - generic [ref=e10280]:
+                                          - generic [ref=e10281]: "n"
+                                          - generic [ref=e10282]: e
+                                    - generic [ref=e10283]:
+                                      - generic [ref=e10285]: ∫
+                                      - generic [ref=e10286]: "0"
+                                      - generic [ref=e10287]: t
+                                    - generic [ref=e10288]:
+                                      - generic [ref=e10289]: x
+                                      - generic [ref=e10290]:
+                                        - generic [ref=e10291]: "n"
+                                        - generic [ref=e10292]: e
+                                    - generic [ref=e10293]: d
+                                    - generic [ref=e10294]: t
+                                    - generic [ref=e10295]: +
+                                    - generic [ref=e10296]:
+                                      - generic [ref=e10297]: K
+                                      - generic [ref=e10298]: D
+                                      - generic [ref=e10300]:
+                                        - generic [ref=e10301]: x
+                                        - generic [ref=e10302]:
+                                          - generic [ref=e10303]: "n"
+                                          - generic [ref=e10304]: e
+                                    - generic [ref=e10305]:
+                                      - generic [ref=e10306]:
+                                        - generic [ref=e10307]: d
+                                        - generic [ref=e10308]:
+                                          - generic [ref=e10309]: x
+                                          - generic [ref=e10310]:
+                                            - generic [ref=e10311]: "n"
+                                            - generic [ref=e10312]: e
+                                      - generic [ref=e10313]:
+                                        - generic [ref=e10314]: d
+                                        - generic [ref=e10315]: t
+                              - generic [ref=e10317]: (47)
+                            - generic [ref=e10318]:
+                              - generic [ref=e10321]:
+                                - generic [ref=e10327]:
+                                  - generic [ref=e10328]:
+                                    - generic [ref=e10330]: 𝑉
+                                    - generic [ref=e10333]: 𝑛𝑐
+                                  - text: =
+                                  - generic [ref=e10334]:
+                                    - generic [ref=e10336]: 𝐾
+                                    - generic [ref=e10340]:
+                                      - generic [ref=e10341]: 𝑦
+                                      - generic [ref=e10343]: 𝑛𝑒
+                                    - generic [ref=e10344]: 𝑃
+                                  - generic [ref=e10345]:
+                                    - generic [ref=e10346]: 𝑦
+                                    - generic [ref=e10348]: 𝑛𝑒
+                                  - text: +
+                                  - generic [ref=e10349]:
+                                    - generic [ref=e10351]: 𝐾
+                                    - generic [ref=e10355]:
+                                      - generic [ref=e10356]: 𝑦
+                                      - generic [ref=e10358]: 𝑛𝑒
+                                    - generic [ref=e10360]: 𝐼
+                                  - generic [ref=e10362]:
+                                    - generic [ref=e10366]: ∫
+                                    - generic [ref=e10368]: "0"
+                                    - generic [ref=e10369]: 𝑡
+                                  - generic [ref=e10370]:
+                                    - generic [ref=e10371]: 𝑦
+                                    - generic [ref=e10373]: 𝑛𝑒
+                                  - text: 𝑑𝑡+
+                                  - generic [ref=e10374]:
+                                    - generic [ref=e10376]: 𝐾
+                                    - generic [ref=e10380]:
+                                      - generic [ref=e10381]: 𝑦
+                                      - generic [ref=e10383]: 𝑛𝑒
+                                    - generic [ref=e10384]: 𝐷
+                                  - generic [ref=e10385]:
+                                    - generic [ref=e10387]:
+                                      - text: d
+                                      - generic [ref=e10388]:
+                                        - generic [ref=e10389]: 𝑦
+                                        - generic [ref=e10391]: 𝑛𝑒
+                                    - generic [ref=e10393]: d𝑡
+                                - math [ref=e10396]:
+                                  - generic [ref=e10398]:
+                                    - generic [ref=e10399]:
+                                      - generic [ref=e10400]: V
+                                      - generic [ref=e10401]:
+                                        - generic [ref=e10402]: "n"
+                                        - generic [ref=e10403]: c
+                                    - generic [ref=e10404]: =
+                                    - generic [ref=e10405]:
+                                      - generic [ref=e10406]: K
+                                      - generic [ref=e10407]: P
+                                      - generic [ref=e10409]:
+                                        - generic [ref=e10410]: "y"
+                                        - generic [ref=e10411]:
+                                          - generic [ref=e10412]: "n"
+                                          - generic [ref=e10413]: e
+                                    - generic [ref=e10414]:
+                                      - generic [ref=e10415]: "y"
+                                      - generic [ref=e10416]:
+                                        - generic [ref=e10417]: "n"
+                                        - generic [ref=e10418]: e
+                                    - generic [ref=e10419]: +
+                                    - generic [ref=e10420]:
+                                      - generic [ref=e10421]: K
+                                      - generic [ref=e10422]: I
+                                      - generic [ref=e10424]:
+                                        - generic [ref=e10425]: "y"
+                                        - generic [ref=e10426]:
+                                          - generic [ref=e10427]: "n"
+                                          - generic [ref=e10428]: e
+                                    - generic [ref=e10429]:
+                                      - generic [ref=e10431]: ∫
+                                      - generic [ref=e10432]: "0"
+                                      - generic [ref=e10433]: t
+                                    - generic [ref=e10434]:
+                                      - generic [ref=e10435]: "y"
+                                      - generic [ref=e10436]:
+                                        - generic [ref=e10437]: "n"
+                                        - generic [ref=e10438]: e
+                                    - generic [ref=e10439]: d
+                                    - generic [ref=e10440]: t
+                                    - generic [ref=e10441]: +
+                                    - generic [ref=e10442]:
+                                      - generic [ref=e10443]: K
+                                      - generic [ref=e10444]: D
+                                      - generic [ref=e10446]:
+                                        - generic [ref=e10447]: "y"
+                                        - generic [ref=e10448]:
+                                          - generic [ref=e10449]: "n"
+                                          - generic [ref=e10450]: e
+                                    - generic [ref=e10451]:
+                                      - generic [ref=e10452]:
+                                        - generic [ref=e10453]: d
+                                        - generic [ref=e10454]:
+                                          - generic [ref=e10455]: "y"
+                                          - generic [ref=e10456]:
+                                            - generic [ref=e10457]: "n"
+                                            - generic [ref=e10458]: e
+                                      - generic [ref=e10459]:
+                                        - generic [ref=e10460]: d
+                                        - generic [ref=e10461]: t
+                              - generic [ref=e10463]: (48)
+                            - text: "where:"
+                            - generic [ref=e10464]:
+                              - generic [ref=e10471]:
+                                - generic [ref=e10473]: 𝐾
+                                - generic [ref=e10477]:
+                                  - generic [ref=e10478]: 𝑥
+                                  - generic [ref=e10480]: 𝑛𝑒
+                                - generic [ref=e10481]: 𝑃
+                              - math [ref=e10482]:
+                                - generic [ref=e10485]:
+                                  - generic [ref=e10486]: K
+                                  - generic [ref=e10487]: P
+                                  - generic [ref=e10489]:
+                                    - generic [ref=e10490]: x
+                                    - generic [ref=e10491]:
+                                      - generic [ref=e10492]: "n"
+                                      - generic [ref=e10493]: e
+                            - text: ","
+                            - generic [ref=e10494]:
+                              - generic [ref=e10501]:
+                                - generic [ref=e10503]: 𝐾
+                                - generic [ref=e10507]:
+                                  - generic [ref=e10508]: 𝑥
+                                  - generic [ref=e10510]: 𝑛𝑒
+                                - generic [ref=e10512]: 𝐼
+                              - math [ref=e10514]:
+                                - generic [ref=e10517]:
+                                  - generic [ref=e10518]: K
+                                  - generic [ref=e10519]: I
+                                  - generic [ref=e10521]:
+                                    - generic [ref=e10522]: x
+                                    - generic [ref=e10523]:
+                                      - generic [ref=e10524]: "n"
+                                      - generic [ref=e10525]: e
+                            - text: ","
+                            - generic [ref=e10526]:
+                              - generic [ref=e10533]:
+                                - generic [ref=e10535]: 𝐾
+                                - generic [ref=e10539]:
+                                  - generic [ref=e10540]: 𝑥
+                                  - generic [ref=e10542]: 𝑛𝑒
+                                - generic [ref=e10543]: 𝐷
+                              - math [ref=e10544]:
+                                - generic [ref=e10547]:
+                                  - generic [ref=e10548]: K
+                                  - generic [ref=e10549]: D
+                                  - generic [ref=e10551]:
+                                    - generic [ref=e10552]: x
+                                    - generic [ref=e10553]:
+                                      - generic [ref=e10554]: "n"
+                                      - generic [ref=e10555]: e
+                            - text: ","
+                            - generic [ref=e10556]:
+                              - generic [ref=e10563]:
+                                - generic [ref=e10565]: 𝐾
+                                - generic [ref=e10569]:
+                                  - generic [ref=e10570]: 𝑦
+                                  - generic [ref=e10572]: 𝑛𝑒
+                                - generic [ref=e10573]: 𝑃
+                              - math [ref=e10574]:
+                                - generic [ref=e10577]:
+                                  - generic [ref=e10578]: K
+                                  - generic [ref=e10579]: P
+                                  - generic [ref=e10581]:
+                                    - generic [ref=e10582]: "y"
+                                    - generic [ref=e10583]:
+                                      - generic [ref=e10584]: "n"
+                                      - generic [ref=e10585]: e
+                            - text: ","
+                            - generic [ref=e10586]:
+                              - generic [ref=e10593]:
+                                - generic [ref=e10595]: 𝐾
+                                - generic [ref=e10599]:
+                                  - generic [ref=e10600]: 𝑦
+                                  - generic [ref=e10602]: 𝑛𝑒
+                                - generic [ref=e10604]: 𝐼
+                              - math [ref=e10606]:
+                                - generic [ref=e10609]:
+                                  - generic [ref=e10610]: K
+                                  - generic [ref=e10611]: I
+                                  - generic [ref=e10613]:
+                                    - generic [ref=e10614]: "y"
+                                    - generic [ref=e10615]:
+                                      - generic [ref=e10616]: "n"
+                                      - generic [ref=e10617]: e
+                            - text: ","
+                            - generic [ref=e10618]:
+                              - generic [ref=e10625]:
+                                - generic [ref=e10627]: 𝐾
+                                - generic [ref=e10631]:
+                                  - generic [ref=e10632]: 𝑦
+                                  - generic [ref=e10634]: 𝑛𝑒
+                                - generic [ref=e10635]: 𝐷
+                              - math [ref=e10636]:
+                                - generic [ref=e10639]:
+                                  - generic [ref=e10640]: K
+                                  - generic [ref=e10641]: D
+                                  - generic [ref=e10643]:
+                                    - generic [ref=e10644]: "y"
+                                    - generic [ref=e10645]:
+                                      - generic [ref=e10646]: "n"
+                                      - generic [ref=e10647]: e
+                            - text: "are controller settings (0.762, 0.005, 0.014, 0.664, 0.003, and 0.001). The position errors were defined as follows:"
+                            - generic [ref=e10648]:
+                              - generic [ref=e10651]:
+                                - generic [ref=e10657]:
+                                  - generic [ref=e10658]:
+                                    - generic [ref=e10659]: 𝑥
+                                    - generic [ref=e10661]: 𝑛𝑒
+                                  - text: =
+                                  - generic [ref=e10662]:
+                                    - generic [ref=e10663]: 𝑥
+                                    - generic [ref=e10665]: 𝑛𝑐
+                                  - text: −
+                                  - generic [ref=e10666]:
+                                    - generic [ref=e10667]: 𝑥
+                                    - generic [ref=e10668]: 𝑛
+                                - math [ref=e10669]:
+                                  - generic [ref=e10671]:
+                                    - generic [ref=e10672]:
+                                      - generic [ref=e10673]: x
+                                      - generic [ref=e10674]:
+                                        - generic [ref=e10675]: "n"
+                                        - generic [ref=e10676]: e
+                                    - generic [ref=e10677]: =
+                                    - generic [ref=e10678]:
+                                      - generic [ref=e10679]: x
+                                      - generic [ref=e10680]:
+                                        - generic [ref=e10681]: "n"
+                                        - generic [ref=e10682]: c
+                                    - generic [ref=e10683]: −
+                                    - generic [ref=e10684]:
+                                      - generic [ref=e10685]: x
+                                      - generic [ref=e10686]: "n"
+                              - generic [ref=e10688]: (49)
+                            - generic [ref=e10689]:
+                              - generic [ref=e10692]:
+                                - generic [ref=e10698]:
+                                  - generic [ref=e10699]:
+                                    - generic [ref=e10700]: 𝑦
+                                    - generic [ref=e10702]: 𝑛𝑒
+                                  - text: =
+                                  - generic [ref=e10703]:
+                                    - generic [ref=e10704]: 𝑦
+                                    - generic [ref=e10706]: 𝑛𝑐
+                                  - text: −
+                                  - generic [ref=e10707]:
+                                    - generic [ref=e10708]: 𝑦
+                                    - generic [ref=e10709]: 𝑛
+                                - math [ref=e10710]:
+                                  - generic [ref=e10712]:
+                                    - generic [ref=e10713]:
+                                      - generic [ref=e10714]: "y"
+                                      - generic [ref=e10715]:
+                                        - generic [ref=e10716]: "n"
+                                        - generic [ref=e10717]: e
+                                    - generic [ref=e10718]: =
+                                    - generic [ref=e10719]:
+                                      - generic [ref=e10720]: "y"
+                                      - generic [ref=e10721]:
+                                        - generic [ref=e10722]: "n"
+                                        - generic [ref=e10723]: c
+                                    - generic [ref=e10724]: −
+                                    - generic [ref=e10725]:
+                                      - generic [ref=e10726]: "y"
+                                      - generic [ref=e10727]: "n"
+                              - generic [ref=e10729]: (50)
+                            - text: where
+                            - generic [ref=e10730]:
+                              - generic [ref=e10737]:
+                                - generic [ref=e10738]: 𝑥
+                                - generic [ref=e10740]: 𝑛𝑐
+                              - math [ref=e10741]:
+                                - generic [ref=e10744]:
+                                  - generic [ref=e10745]: x
+                                  - generic [ref=e10746]:
+                                    - generic [ref=e10747]: "n"
+                                    - generic [ref=e10748]: c
+                            - text: and
+                            - generic [ref=e10749]:
+                              - generic [ref=e10756]:
+                                - generic [ref=e10757]: 𝑦
+                                - generic [ref=e10759]: 𝑛𝑐
+                              - math [ref=e10760]:
+                                - generic [ref=e10763]:
+                                  - generic [ref=e10764]: "y"
+                                  - generic [ref=e10765]:
+                                    - generic [ref=e10766]: "n"
+                                    - generic [ref=e10767]: c
+                            - text: are demanded position coordinates in the
+                            - generic [ref=e10768]:
+                              - generic [ref=e10774]:
+                                - generic [ref=e10775]:
+                                  - generic [ref=e10776]: 𝑂
+                                  - generic [ref=e10777]: 𝑛
+                                - generic [ref=e10778]:
+                                  - generic [ref=e10779]: 𝑥
+                                  - generic [ref=e10780]: 𝑛
+                                - generic [ref=e10781]:
+                                  - generic [ref=e10782]: 𝑦
+                                  - generic [ref=e10783]: 𝑛
+                                - generic [ref=e10784]:
+                                  - generic [ref=e10785]: 𝑧
+                                  - generic [ref=e10786]: 𝑛
+                              - math [ref=e10787]:
+                                - generic [ref=e10789]:
+                                  - generic [ref=e10790]:
+                                    - generic [ref=e10791]: O
+                                    - generic [ref=e10792]: "n"
+                                  - generic [ref=e10793]:
+                                    - generic [ref=e10794]: x
+                                    - generic [ref=e10795]: "n"
+                                  - generic [ref=e10796]:
+                                    - generic [ref=e10797]: "y"
+                                    - generic [ref=e10798]: "n"
+                                  - generic [ref=e10799]:
+                                    - generic [ref=e10800]: z
+                                    - generic [ref=e10801]: "n"
+                            - text: frame. The roll
+                            - generic [ref=e10802]:
+                              - generic [ref=e10809]:
+                                - generic [ref=e10811]: Φ
+                                - generic [ref=e10812]: ∗
+                                - generic [ref=e10813]: 𝑐
+                              - math [ref=e10814]:
+                                - generic [ref=e10817]:
+                                  - generic [ref=e10818]: Φ
+                                  - generic [ref=e10819]: c
+                                  - generic [ref=e10820]: "*"
+                            - text: and pitch
+                            - generic [ref=e10821]:
+                              - generic [ref=e10828]:
+                                - generic [ref=e10830]: Θ
+                                - generic [ref=e10831]: ∗
+                                - generic [ref=e10832]: 𝑐
+                              - math [ref=e10833]:
+                                - generic [ref=e10836]:
+                                  - generic [ref=e10837]: Θ
+                                  - generic [ref=e10838]: c
+                                  - generic [ref=e10839]: "*"
+                            - text: angles were transformed from the
+                            - generic [ref=e10840]:
+                              - generic [ref=e10846]:
+                                - generic [ref=e10847]:
+                                  - generic [ref=e10848]: 𝑂
+                                  - generic [ref=e10849]: 𝑛
+                                - generic [ref=e10850]:
+                                  - generic [ref=e10851]: 𝑥
+                                  - generic [ref=e10852]: 𝑛
+                                - generic [ref=e10853]:
+                                  - generic [ref=e10854]: 𝑦
+                                  - generic [ref=e10855]: 𝑛
+                                - generic [ref=e10856]:
+                                  - generic [ref=e10857]: 𝑧
+                                  - generic [ref=e10858]: 𝑛
+                              - math [ref=e10859]:
+                                - generic [ref=e10861]:
+                                  - generic [ref=e10862]:
+                                    - generic [ref=e10863]: O
+                                    - generic [ref=e10864]: "n"
+                                  - generic [ref=e10865]:
+                                    - generic [ref=e10866]: x
+                                    - generic [ref=e10867]: "n"
+                                  - generic [ref=e10868]:
+                                    - generic [ref=e10869]: "y"
+                                    - generic [ref=e10870]: "n"
+                                  - generic [ref=e10871]:
+                                    - generic [ref=e10872]: z
+                                    - generic [ref=e10873]: "n"
+                            - text: coordinate system to
+                            - generic [ref=e10874]:
+                              - generic [ref=e10880]:
+                                - generic [ref=e10881]:
+                                  - generic [ref=e10882]: 𝑂
+                                  - generic [ref=e10883]: 𝑏
+                                - generic [ref=e10884]:
+                                  - generic [ref=e10885]: 𝑥
+                                  - generic [ref=e10886]: 𝑏
+                                - generic [ref=e10887]:
+                                  - generic [ref=e10888]: 𝑦
+                                  - generic [ref=e10889]: 𝑏
+                                - generic [ref=e10890]:
+                                  - generic [ref=e10891]: 𝑧
+                                  - generic [ref=e10892]: 𝑏
+                              - math [ref=e10893]:
+                                - generic [ref=e10895]:
+                                  - generic [ref=e10896]:
+                                    - generic [ref=e10897]: O
+                                    - generic [ref=e10898]: b
+                                  - generic [ref=e10899]:
+                                    - generic [ref=e10900]: x
+                                    - generic [ref=e10901]: b
+                                  - generic [ref=e10902]:
+                                    - generic [ref=e10903]: "y"
+                                    - generic [ref=e10904]: b
+                                  - generic [ref=e10905]:
+                                    - generic [ref=e10906]: z
+                                    - generic [ref=e10907]: b
+                            - text: ":"
+                            - generic [ref=e10908]:
+                              - generic [ref=e10911]:
+                                - generic [ref=e10917]:
+                                  - generic [ref=e10918]:
+                                    - generic [ref=e10919]:
+                                      - generic [ref=e10920]: ⎡
+                                      - generic [ref=e10921]: ⎣
+                                      - generic [ref=e10922]: ⎢
+                                      - generic [ref=e10923]: ⎢
+                                    - generic [ref=e10926]:
+                                      - generic [ref=e10931]:
+                                        - generic [ref=e10933]: Θ
+                                        - generic [ref=e10934]: 𝑐
+                                      - generic [ref=e10939]:
+                                        - generic [ref=e10941]: Φ
+                                        - generic [ref=e10942]: 𝑐
+                                      - generic [ref=e10945]: "0"
+                                    - generic [ref=e10946]:
+                                      - generic [ref=e10947]: ⎤
+                                      - generic [ref=e10948]: ⎦
+                                      - generic [ref=e10949]: ⎥
+                                      - generic [ref=e10950]: ⎥
+                                  - text: =
+                                  - generic [ref=e10951]:
+                                    - generic [ref=e10952]:
+                                      - generic [ref=e10953]: ⎡
+                                      - generic [ref=e10954]: ⎣
+                                      - generic [ref=e10955]: ⎢
+                                      - generic [ref=e10956]: ⎢
+                                    - generic [ref=e10958]:
+                                      - generic [ref=e10959]:
+                                        - generic [ref=e10963]:
+                                          - text: cos
+                                          - generic [ref=e10964]: Ψ
+                                        - generic [ref=e10968]:
+                                          - text: sin
+                                          - generic [ref=e10969]: Ψ
+                                        - generic [ref=e10972]: "0"
+                                      - generic [ref=e10973]:
+                                        - generic [ref=e10977]:
+                                          - text: −sin
+                                          - generic [ref=e10978]: Ψ
+                                        - generic [ref=e10982]:
+                                          - text: cos
+                                          - generic [ref=e10983]: Ψ
+                                        - generic [ref=e10986]: "0"
+                                      - generic [ref=e10987]:
+                                        - generic [ref=e10990]: "0"
+                                        - generic [ref=e10993]: "0"
+                                        - generic [ref=e10996]: "1"
+                                    - generic [ref=e10997]:
+                                      - generic [ref=e10998]: ⎤
+                                      - generic [ref=e10999]: ⎦
+                                      - generic [ref=e11000]: ⎥
+                                      - generic [ref=e11001]: ⎥
+                                  - generic [ref=e11002]:
+                                    - generic [ref=e11003]:
+                                      - generic [ref=e11004]: ⎡
+                                      - generic [ref=e11005]: ⎣
+                                      - generic [ref=e11006]: ⎢
+                                      - generic [ref=e11007]: ⎢
+                                    - generic [ref=e11010]:
+                                      - generic [ref=e11015]:
+                                        - generic [ref=e11017]: Θ
+                                        - generic [ref=e11018]: ∗
+                                        - generic [ref=e11019]: 𝑐
+                                      - generic [ref=e11024]:
+                                        - generic [ref=e11026]: Φ
+                                        - generic [ref=e11027]: ∗
+                                        - generic [ref=e11028]: 𝑐
+                                      - generic [ref=e11031]: "0"
+                                    - generic [ref=e11032]:
+                                      - generic [ref=e11033]: ⎤
+                                      - generic [ref=e11034]: ⎦
+                                      - generic [ref=e11035]: ⎥
+                                      - generic [ref=e11036]: ⎥
+                                  - text: .
+                                - math [ref=e11037]:
+                                  - generic [ref=e11039]:
+                                    - generic [ref=e11042]:
+                                      - generic [ref=e11046]:
+                                        - generic [ref=e11047]: Θ
+                                        - generic [ref=e11048]: c
+                                      - generic [ref=e11052]:
+                                        - generic [ref=e11053]: Φ
+                                        - generic [ref=e11054]: c
+                                      - generic [ref=e11057]: "0"
+                                    - generic [ref=e11058]: =
+                                    - generic [ref=e11061]:
+                                      - generic [ref=e11062]:
+                                        - generic [ref=e11064]:
+                                          - generic [ref=e11065]: cos
+                                          - generic [ref=e11066]: Ψ
+                                        - generic [ref=e11068]:
+                                          - generic [ref=e11069]: −
+                                          - generic [ref=e11070]: sin
+                                          - generic [ref=e11071]: Ψ
+                                        - generic [ref=e11073]: "0"
+                                      - generic [ref=e11074]:
+                                        - generic [ref=e11076]:
+                                          - generic [ref=e11077]: sin
+                                          - generic [ref=e11078]: Ψ
+                                        - generic [ref=e11080]:
+                                          - generic [ref=e11081]: cos
+                                          - generic [ref=e11082]: Ψ
+                                        - generic [ref=e11084]: "0"
+                                      - generic [ref=e11085]:
+                                        - generic [ref=e11087]: "0"
+                                        - generic [ref=e11089]: "0"
+                                        - generic [ref=e11091]: "1"
+                                    - generic [ref=e11094]:
+                                      - generic [ref=e11098]:
+                                        - generic [ref=e11099]: Θ
+                                        - generic [ref=e11100]: c
+                                        - generic [ref=e11101]: "*"
+                                      - generic [ref=e11105]:
+                                        - generic [ref=e11106]: Φ
+                                        - generic [ref=e11107]: c
+                                        - generic [ref=e11108]: "*"
+                                      - generic [ref=e11111]: "0"
+                                    - generic [ref=e11112]: .
+                              - generic [ref=e11114]: (51)
+                          - generic [ref=e11115]:
+                            - text: The “Waypoint Follower” block from the SIMULINK UAV Toolbox library was used to follow the quadrotor path. It requires a set of predefined waypoints, current drone position, and lookahead distance as inputs. This block calculates the coordinates of lookahead point in the
+                            - generic [ref=e11116]:
+                              - generic [ref=e11122]:
+                                - generic [ref=e11123]:
+                                  - generic [ref=e11124]: 𝑂
+                                  - generic [ref=e11125]: 𝑛
+                                - generic [ref=e11126]:
+                                  - generic [ref=e11127]: 𝑥
+                                  - generic [ref=e11128]: 𝑛
+                                - generic [ref=e11129]:
+                                  - generic [ref=e11130]: 𝑦
+                                  - generic [ref=e11131]: 𝑛
+                                - generic [ref=e11132]:
+                                  - generic [ref=e11133]: 𝑧
+                                  - generic [ref=e11134]: 𝑛
+                              - math [ref=e11135]:
+                                - generic [ref=e11137]:
+                                  - generic [ref=e11138]:
+                                    - generic [ref=e11139]: O
+                                    - generic [ref=e11140]: "n"
+                                  - generic [ref=e11141]:
+                                    - generic [ref=e11142]: x
+                                    - generic [ref=e11143]: "n"
+                                  - generic [ref=e11144]:
+                                    - generic [ref=e11145]: "y"
+                                    - generic [ref=e11146]: "n"
+                                  - generic [ref=e11147]:
+                                    - generic [ref=e11148]: z
+                                    - generic [ref=e11149]: "n"
+                            - text: coordinate frame and desired yaw angle. To increase the simulation speed significantly, the path follower was executed using generated C code.
+                      - generic [ref=e11150]:
+                        - heading "2.5. Coverage Path Planning Method" [level=3] [ref=e11151]
+                        - generic [ref=e11152]:
+                          - text: The goal of the mission is to scan a given single region and take a series of photos. The drone is equipped with a stabilized, gimbaled camera so it is reasonable to assume that the camera principal axis is pointed vertically down during the flight. The search should be realized at a constant altitude. The path should totally cover the predefined zone. It was assumed that the region of interest is approximately rectangular and could be defined by the four vertices. Moreover, the environment is known, and there are no obstacles or no-fly zones inside the area of interest (this assumption is suggested, for example, in refs. [
+                          - link "56" [ref=e11153] [cursor=pointer]:
+                            - /url: "#B56-energies-15-07136"
+                          - text: ","
+                          - link "57" [ref=e11154] [cursor=pointer]:
+                            - /url: "#B57-energies-15-07136"
+                          - text: "])."
+                        - generic [ref=e11155]:
+                          - text: Many methods have been reported to calculate the most appropriate path [
+                          - link "58" [ref=e11156] [cursor=pointer]:
+                            - /url: "#B58-energies-15-07136"
+                          - text: ","
+                          - link "59" [ref=e11157] [cursor=pointer]:
+                            - /url: "#B59-energies-15-07136"
+                          - text: "]. Several search patterns might be used to inspect the predefined area: parallel track, creeping line search, expanding square, sector search, etc. ["
+                          - link "60" [ref=e11158] [cursor=pointer]:
+                            - /url: "#B60-energies-15-07136"
+                          - text: ","
+                          - link "61" [ref=e11159] [cursor=pointer]:
+                            - /url: "#B61-energies-15-07136"
+                          - text: ","
+                          - link "62" [ref=e11160] [cursor=pointer]:
+                            - /url: "#B62-energies-15-07136"
+                          - text: "]. The trajectory was defined by a set of waypoints. After visiting all waypoints the drone should return to its initial point."
+                        - generic [ref=e11161]:
+                          - text: At first, the quadrotor realized creeping line search and then the parallel track. In the creeping line search the search legs are perpendicular to the major axis of the search area. This method is preferred when location of the target is more probable at one end of the region of interest. In the parallel track, the search legs were parallel to the longer axis of the area. In this way, the area was scanned two times. Algorithms presented by Andersen [
+                          - link "63" [ref=e11162] [cursor=pointer]:
+                            - /url: "#B63-energies-15-07136"
+                          - text: "] were used to calculate the waypoint locations. The obtained waypoints were implemented manually in the Mission Planner software. The example of the trajectory generator (MATLAB code) is included in “"
+                          - link "Supplementary Materials" [ref=e11163] [cursor=pointer]:
+                            - /url: "#app1-energies-15-07136"
+                          - text: ”.
+                      - generic [ref=e11164]:
+                        - heading "2.6. Quadrotor Energy Consumption Model" [level=3] [ref=e11165]
+                        - generic [ref=e11166]:
+                          - text: The total amount of the energy
+                          - generic [ref=e11167]:
+                            - generic [ref=e11174]:
+                              - generic [ref=e11175]: 𝐸
+                              - generic [ref=e11177]: 𝑇
+                            - math [ref=e11179]:
+                              - generic [ref=e11182]:
+                                - generic [ref=e11183]: E
+                                - generic [ref=e11184]: T
+                          - text: "consumed by the quadrotor might be divided into two parts: the energy spent on propulsion"
+                          - generic [ref=e11185]:
+                            - generic [ref=e11192]:
+                              - generic [ref=e11193]: 𝐸
+                              - generic [ref=e11194]: 𝑅
+                            - math [ref=e11195]:
+                              - generic [ref=e11198]:
+                                - generic [ref=e11199]: E
+                                - generic [ref=e11200]: R
+                          - text: and the energy consumed by the onboard electronics (e.g., sensors, autopilot, and other circuits)
+                          - generic [ref=e11201]:
+                            - generic [ref=e11208]:
+                              - generic [ref=e11209]: 𝐸
+                              - generic [ref=e11210]: 𝐸
+                            - math [ref=e11211]:
+                              - generic [ref=e11214]:
+                                - generic [ref=e11215]: E
+                                - generic [ref=e11216]: E
+                          - text: "["
+                          - link "14" [ref=e11217] [cursor=pointer]:
+                            - /url: "#B14-energies-15-07136"
+                          - text: ","
+                          - link "64" [ref=e11218] [cursor=pointer]:
+                            - /url: "#B64-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e11219]:
+                            - generic [ref=e11222]:
+                              - generic [ref=e11228]:
+                                - generic [ref=e11229]:
+                                  - generic [ref=e11230]: 𝐸
+                                  - generic [ref=e11232]: 𝑇
+                                - text: =
+                                - generic [ref=e11234]:
+                                  - generic [ref=e11235]: 𝐸
+                                  - generic [ref=e11236]: 𝑅
+                                - text: +
+                                - generic [ref=e11237]:
+                                  - generic [ref=e11238]: 𝐸
+                                  - generic [ref=e11239]: 𝐸
+                                - text: ","
+                              - math [ref=e11240]:
+                                - generic [ref=e11242]:
+                                  - generic [ref=e11243]:
+                                    - generic [ref=e11244]: E
+                                    - generic [ref=e11245]: T
+                                  - generic [ref=e11246]: =
+                                  - generic [ref=e11247]:
+                                    - generic [ref=e11248]: E
+                                    - generic [ref=e11249]: R
+                                  - generic [ref=e11250]: +
+                                  - generic [ref=e11251]:
+                                    - generic [ref=e11252]: E
+                                    - generic [ref=e11253]: E
+                                  - generic [ref=e11254]: ","
+                            - generic [ref=e11256]: (52)
+                        - generic [ref=e11257]:
+                          - text: The total energy consumed by the four electric motors could be estimated as follows [
+                          - link "4" [ref=e11258] [cursor=pointer]:
+                            - /url: "#B4-energies-15-07136"
+                          - text: ","
+                          - link "20" [ref=e11259] [cursor=pointer]:
+                            - /url: "#B20-energies-15-07136"
+                          - text: ","
+                          - link "22" [ref=e11260] [cursor=pointer]:
+                            - /url: "#B22-energies-15-07136"
+                          - text: ","
+                          - link "65" [ref=e11261] [cursor=pointer]:
+                            - /url: "#B65-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e11262]:
+                            - generic [ref=e11265]:
+                              - generic [ref=e11271]:
+                                - generic [ref=e11272]:
+                                  - generic [ref=e11273]: 𝐸
+                                  - generic [ref=e11274]: 𝑅
+                                - text: =
+                                - generic [ref=e11275]:
+                                  - generic [ref=e11279]: ∫
+                                  - generic [ref=e11283]:
+                                    - generic [ref=e11284]: 𝑡
+                                    - generic [ref=e11285]: "0"
+                                  - generic [ref=e11288]:
+                                    - generic [ref=e11289]: 𝑡
+                                    - generic [ref=e11291]: 𝑓
+                                - generic [ref=e11293]:
+                                  - generic [ref=e11296]: ∑
+                                  - generic [ref=e11298]: 𝑖=1
+                                  - generic [ref=e11299]: "4"
+                                - generic [ref=e11300]:
+                                  - generic [ref=e11302]: 𝑈
+                                  - generic [ref=e11304]: 𝑖
+                                - generic [ref=e11305]:
+                                  - generic [ref=e11306]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11307]: )
+                                - generic [ref=e11308]:
+                                  - generic [ref=e11310]: 𝐼
+                                  - generic [ref=e11312]: 𝑖
+                                - generic [ref=e11313]:
+                                  - generic [ref=e11314]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11315]: )
+                                - text: 𝑑𝑡,
+                              - math [ref=e11316]:
+                                - generic [ref=e11318]:
+                                  - generic [ref=e11319]:
+                                    - generic [ref=e11320]: E
+                                    - generic [ref=e11321]: R
+                                  - generic [ref=e11322]: =
+                                  - generic [ref=e11323]:
+                                    - generic [ref=e11325]: ∫
+                                    - generic [ref=e11327]:
+                                      - generic [ref=e11328]: t
+                                      - generic [ref=e11329]: "0"
+                                    - generic [ref=e11331]:
+                                      - generic [ref=e11332]: t
+                                      - generic [ref=e11333]: f
+                                  - generic [ref=e11334]:
+                                    - generic [ref=e11336]: ∑
+                                    - generic [ref=e11337]:
+                                      - generic [ref=e11338]: i
+                                      - generic [ref=e11339]: =
+                                      - generic [ref=e11340]: "1"
+                                    - generic [ref=e11341]: "4"
+                                  - generic [ref=e11342]:
+                                    - generic [ref=e11343]: U
+                                    - generic [ref=e11344]: i
+                                  - generic [ref=e11346]: t
+                                  - generic [ref=e11347]:
+                                    - generic [ref=e11348]: I
+                                    - generic [ref=e11349]: i
+                                  - generic [ref=e11351]: t
+                                  - generic [ref=e11352]: d
+                                  - generic [ref=e11353]: t
+                                  - generic [ref=e11354]: ","
+                            - generic [ref=e11356]: (53)
+                          - text: where
+                          - generic [ref=e11357]:
+                            - generic [ref=e11364]:
+                              - generic [ref=e11366]: 𝑈
+                              - generic [ref=e11368]: 𝑖
+                            - math [ref=e11369]:
+                              - generic [ref=e11372]:
+                                - generic [ref=e11373]: U
+                                - generic [ref=e11374]: i
+                          - text: and
+                          - generic [ref=e11375]:
+                            - generic [ref=e11382]:
+                              - generic [ref=e11384]: 𝐼
+                              - generic [ref=e11386]: 𝑖
+                            - math [ref=e11387]:
+                              - generic [ref=e11390]:
+                                - generic [ref=e11391]: I
+                                - generic [ref=e11392]: i
+                          - text: are the voltage and current of the
+                          - generic [ref=e11393]:
+                            - generic [ref=e11398]: 𝑖
+                            - math [ref=e11399]:
+                              - generic [ref=e11401]: i
+                          - text: "-th motor, and"
+                          - generic [ref=e11402]:
+                            - generic [ref=e11409]:
+                              - generic [ref=e11410]: 𝑡
+                              - generic [ref=e11412]: 𝑓
+                            - math [ref=e11414]:
+                              - generic [ref=e11417]:
+                                - generic [ref=e11418]: t
+                                - generic [ref=e11419]: f
+                          - text: is the time of flight. This model can also be rewritten in the form of mechanical parameters of the motor as follows [
+                          - link "8" [ref=e11420] [cursor=pointer]:
+                            - /url: "#B8-energies-15-07136"
+                          - text: ","
+                          - link "66" [ref=e11421] [cursor=pointer]:
+                            - /url: "#B66-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e11422]:
+                            - generic [ref=e11425]:
+                              - generic [ref=e11431]:
+                                - generic [ref=e11432]:
+                                  - generic [ref=e11433]: 𝐸
+                                  - generic [ref=e11434]: 𝑅
+                                - text: =
+                                - generic [ref=e11435]:
+                                  - generic [ref=e11439]: ∫
+                                  - generic [ref=e11443]:
+                                    - generic [ref=e11444]: 𝑡
+                                    - generic [ref=e11445]: "0"
+                                  - generic [ref=e11448]:
+                                    - generic [ref=e11449]: 𝑡
+                                    - generic [ref=e11451]: 𝑓
+                                - generic [ref=e11453]:
+                                  - generic [ref=e11456]: ∑
+                                  - generic [ref=e11458]: 𝑖=1
+                                  - generic [ref=e11459]: "4"
+                                - generic [ref=e11460]:
+                                  - generic [ref=e11462]: 𝜏
+                                  - generic [ref=e11464]: 𝑖
+                                - generic [ref=e11465]:
+                                  - generic [ref=e11466]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11467]: )
+                                - generic [ref=e11468]:
+                                  - generic [ref=e11469]: 𝛺
+                                  - generic [ref=e11470]: 𝑖
+                                - generic [ref=e11471]:
+                                  - generic [ref=e11472]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11473]: )
+                                - text: 𝑑𝑡,
+                              - math [ref=e11474]:
+                                - generic [ref=e11476]:
+                                  - generic [ref=e11477]:
+                                    - generic [ref=e11478]: E
+                                    - generic [ref=e11479]: R
+                                  - generic [ref=e11480]: =
+                                  - generic [ref=e11481]:
+                                    - generic [ref=e11483]: ∫
+                                    - generic [ref=e11485]:
+                                      - generic [ref=e11486]: t
+                                      - generic [ref=e11487]: "0"
+                                    - generic [ref=e11489]:
+                                      - generic [ref=e11490]: t
+                                      - generic [ref=e11491]: f
+                                  - generic [ref=e11492]:
+                                    - generic [ref=e11494]: ∑
+                                    - generic [ref=e11495]:
+                                      - generic [ref=e11496]: i
+                                      - generic [ref=e11497]: =
+                                      - generic [ref=e11498]: "1"
+                                    - generic [ref=e11499]: "4"
+                                  - generic [ref=e11500]:
+                                    - generic [ref=e11501]: τ
+                                    - generic [ref=e11502]: i
+                                  - generic [ref=e11504]: t
+                                  - generic [ref=e11505]:
+                                    - generic [ref=e11506]: Ω
+                                    - generic [ref=e11507]: i
+                                  - generic [ref=e11509]: t
+                                  - generic [ref=e11510]: d
+                                  - generic [ref=e11511]: t
+                                  - generic [ref=e11512]: ","
+                            - generic [ref=e11514]: (54)
+                          - text: where
+                          - generic [ref=e11515]:
+                            - generic [ref=e11522]:
+                              - generic [ref=e11524]: 𝜏
+                              - generic [ref=e11526]: 𝑖
+                            - math [ref=e11527]:
+                              - generic [ref=e11530]:
+                                - generic [ref=e11531]: τ
+                                - generic [ref=e11532]: i
+                          - text: is the torque and
+                          - generic [ref=e11533]:
+                            - generic [ref=e11540]:
+                              - generic [ref=e11541]: 𝛺
+                              - generic [ref=e11542]: 𝑖
+                            - math [ref=e11543]:
+                              - generic [ref=e11546]:
+                                - generic [ref=e11547]: Ω
+                                - generic [ref=e11548]: i
+                          - text: is the angular rate of the
+                          - generic [ref=e11549]:
+                            - generic [ref=e11554]: 𝑖
+                            - math [ref=e11555]:
+                              - generic [ref=e11557]: i
+                          - text: "-th motor. The dynamics of the electric motor were modeled as follows:"
+                          - generic [ref=e11558]:
+                            - generic [ref=e11561]:
+                              - generic [ref=e11567]:
+                                - generic [ref=e11568]:
+                                  - generic [ref=e11570]: 𝐼
+                                  - generic [ref=e11573]: 𝑧𝑝
+                                - generic [ref=e11574]:
+                                  - generic [ref=e11577]:
+                                    - generic [ref=e11578]: 𝛺
+                                    - generic [ref=e11579]: ˙
+                                  - generic [ref=e11580]: 𝑖
+                                - generic [ref=e11581]:
+                                  - generic [ref=e11582]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11583]: )
+                                - text: =
+                                - generic [ref=e11584]:
+                                  - generic [ref=e11586]: 𝜏
+                                  - generic [ref=e11588]: 𝑖
+                                - generic [ref=e11589]:
+                                  - generic [ref=e11590]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11591]: )
+                                - text: −
+                                - generic [ref=e11592]:
+                                  - generic [ref=e11594]: 𝑘
+                                  - generic [ref=e11596]: 𝑚
+                                - generic [ref=e11597]:
+                                  - generic [ref=e11598]: 𝛺
+                                  - generic [ref=e11599]: "2"
+                                  - generic [ref=e11600]: 𝑖
+                                - generic [ref=e11601]:
+                                  - generic [ref=e11602]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11603]: )
+                                - text: −
+                                - generic [ref=e11604]:
+                                  - generic [ref=e11605]: 𝐷
+                                  - generic [ref=e11606]: 𝑣
+                                - generic [ref=e11607]:
+                                  - generic [ref=e11608]: 𝛺
+                                  - generic [ref=e11609]: 𝑖
+                                - generic [ref=e11610]:
+                                  - generic [ref=e11611]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11612]: )
+                                - text: ","
+                              - math [ref=e11613]:
+                                - generic [ref=e11615]:
+                                  - generic [ref=e11616]:
+                                    - generic [ref=e11617]: I
+                                    - generic [ref=e11618]:
+                                      - generic [ref=e11619]: z
+                                      - generic [ref=e11620]: p
+                                  - generic [ref=e11621]:
+                                    - generic [ref=e11623]:
+                                      - generic [ref=e11624]: Ω
+                                      - generic [ref=e11625]: ˙
+                                    - generic [ref=e11626]: i
+                                  - generic [ref=e11628]: t
+                                  - generic [ref=e11629]: =
+                                  - generic [ref=e11630]:
+                                    - generic [ref=e11631]: τ
+                                    - generic [ref=e11632]: i
+                                  - generic [ref=e11634]: t
+                                  - generic [ref=e11635]: −
+                                  - generic [ref=e11636]:
+                                    - generic [ref=e11637]: k
+                                    - generic [ref=e11638]: m
+                                  - generic [ref=e11639]:
+                                    - generic [ref=e11640]: Ω
+                                    - generic [ref=e11641]: i
+                                    - generic [ref=e11642]: "2"
+                                  - generic [ref=e11644]: t
+                                  - generic [ref=e11645]: −
+                                  - generic [ref=e11646]:
+                                    - generic [ref=e11647]: D
+                                    - generic [ref=e11648]: v
+                                  - generic [ref=e11649]:
+                                    - generic [ref=e11650]: Ω
+                                    - generic [ref=e11651]: i
+                                  - generic [ref=e11653]: t
+                                  - generic [ref=e11654]: ","
+                            - generic [ref=e11656]: (55)
+                          - text: where
+                          - generic [ref=e11657]:
+                            - generic [ref=e11664]:
+                              - generic [ref=e11666]: 𝐼
+                              - generic [ref=e11669]: 𝑧𝑝
+                            - math [ref=e11670]:
+                              - generic [ref=e11673]:
+                                - generic [ref=e11674]: I
+                                - generic [ref=e11675]:
+                                  - generic [ref=e11676]: z
+                                  - generic [ref=e11677]: p
+                          - text: is the moment of inertia of the rotating parts (propeller + motor shaft) and
+                          - generic [ref=e11678]:
+                            - generic [ref=e11685]:
+                              - generic [ref=e11686]: 𝐷
+                              - generic [ref=e11687]: 𝑣
+                            - math [ref=e11688]:
+                              - generic [ref=e11691]:
+                                - generic [ref=e11692]: D
+                                - generic [ref=e11693]: v
+                          - text: is the viscous damping coefficient of the motor.
+                        - generic [ref=e11694]:
+                          - text: The efficiency
+                          - generic [ref=e11695]:
+                            - generic [ref=e11701]:
+                              - generic [ref=e11702]:
+                                - generic [ref=e11704]: 𝑓
+                                - generic [ref=e11707]: 𝑟,𝑖
+                              - generic [ref=e11708]:
+                                - generic [ref=e11709]: (
+                                - generic [ref=e11710]:
+                                  - generic [ref=e11711]:
+                                    - generic [ref=e11713]: 𝜏
+                                    - generic [ref=e11715]: 𝑖
+                                  - generic [ref=e11716]:
+                                    - generic [ref=e11717]: (
+                                    - text: 𝑡
+                                    - generic [ref=e11718]: )
+                                  - text: ","
+                                  - generic [ref=e11719]:
+                                    - generic [ref=e11720]: 𝛺
+                                    - generic [ref=e11721]: 𝑖
+                                  - generic [ref=e11722]:
+                                    - generic [ref=e11723]: (
+                                    - text: 𝑡
+                                    - generic [ref=e11724]: )
+                                - generic [ref=e11725]: )
+                            - math [ref=e11726]:
+                              - generic [ref=e11728]:
+                                - generic [ref=e11729]:
+                                  - generic [ref=e11730]: f
+                                  - generic [ref=e11731]:
+                                    - generic [ref=e11732]: r
+                                    - generic [ref=e11733]: ","
+                                    - generic [ref=e11734]: i
+                                - generic [ref=e11736]:
+                                  - generic [ref=e11737]:
+                                    - generic [ref=e11738]: τ
+                                    - generic [ref=e11739]: i
+                                  - generic [ref=e11741]: t
+                                  - generic [ref=e11742]: ","
+                                  - generic [ref=e11743]:
+                                    - generic [ref=e11744]: Ω
+                                    - generic [ref=e11745]: i
+                                  - generic [ref=e11747]: t
+                          - text: of the
+                          - generic [ref=e11748]:
+                            - generic [ref=e11753]: 𝑖
+                            - math [ref=e11754]:
+                              - generic [ref=e11756]: i
+                          - text: "-th motor is included in the model to make it more reliable ["
+                          - link "8" [ref=e11757] [cursor=pointer]:
+                            - /url: "#B8-energies-15-07136"
+                          - text: ","
+                          - link "66" [ref=e11758] [cursor=pointer]:
+                            - /url: "#B66-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e11759]:
+                            - generic [ref=e11762]:
+                              - generic [ref=e11768]:
+                                - generic [ref=e11769]:
+                                  - generic [ref=e11770]: 𝐸
+                                  - generic [ref=e11771]: 𝑅
+                                - text: =
+                                - generic [ref=e11772]:
+                                  - generic [ref=e11776]: ∫
+                                  - generic [ref=e11780]:
+                                    - generic [ref=e11781]: 𝑡
+                                    - generic [ref=e11782]: "0"
+                                  - generic [ref=e11785]:
+                                    - generic [ref=e11786]: 𝑡
+                                    - generic [ref=e11788]: 𝑓
+                                - generic [ref=e11790]:
+                                  - generic [ref=e11793]: ∑
+                                  - generic [ref=e11795]: 𝑖=1
+                                  - generic [ref=e11796]: "4"
+                                - generic [ref=e11797]:
+                                  - generic [ref=e11799]:
+                                    - generic [ref=e11800]:
+                                      - generic [ref=e11802]: 𝐼
+                                      - generic [ref=e11805]: 𝑝𝑒
+                                    - generic [ref=e11806]:
+                                      - generic [ref=e11809]:
+                                        - generic [ref=e11810]: 𝛺
+                                        - generic [ref=e11811]: ˙
+                                      - generic [ref=e11812]: 𝑖
+                                    - generic [ref=e11813]:
+                                      - generic [ref=e11814]: (
+                                      - text: 𝑡
+                                      - generic [ref=e11815]: )
+                                    - text: +
+                                    - generic [ref=e11816]:
+                                      - generic [ref=e11818]: 𝑘
+                                      - generic [ref=e11820]: 𝑚
+                                    - generic [ref=e11821]:
+                                      - generic [ref=e11822]: 𝛺
+                                      - generic [ref=e11823]: "2"
+                                      - generic [ref=e11824]: 𝑖
+                                    - generic [ref=e11825]:
+                                      - generic [ref=e11826]: (
+                                      - text: 𝑡
+                                      - generic [ref=e11827]: )
+                                    - text: +
+                                    - generic [ref=e11828]:
+                                      - generic [ref=e11829]: 𝐷
+                                      - generic [ref=e11830]: 𝑣
+                                    - generic [ref=e11831]:
+                                      - generic [ref=e11832]: 𝛺
+                                      - generic [ref=e11833]: 𝑖
+                                    - generic [ref=e11834]:
+                                      - generic [ref=e11835]: (
+                                      - text: 𝑡
+                                      - generic [ref=e11836]: )
+                                  - generic [ref=e11838]:
+                                    - generic [ref=e11839]:
+                                      - generic [ref=e11841]: 𝑓
+                                      - generic [ref=e11844]: 𝑟,𝑖
+                                    - generic [ref=e11845]:
+                                      - generic [ref=e11846]: (
+                                      - generic [ref=e11847]:
+                                        - generic [ref=e11848]:
+                                          - generic [ref=e11850]: 𝜏
+                                          - generic [ref=e11852]: 𝑖
+                                        - generic [ref=e11853]:
+                                          - generic [ref=e11854]: (
+                                          - text: 𝑡
+                                          - generic [ref=e11855]: )
+                                        - text: ","
+                                        - generic [ref=e11856]:
+                                          - generic [ref=e11857]: 𝛺
+                                          - generic [ref=e11858]: 𝑖
+                                        - generic [ref=e11859]:
+                                          - generic [ref=e11860]: (
+                                          - text: 𝑡
+                                          - generic [ref=e11861]: )
+                                      - generic [ref=e11862]: )
+                                - generic [ref=e11865]:
+                                  - generic [ref=e11866]: 𝛺
+                                  - generic [ref=e11867]: 𝑖
+                                - generic [ref=e11868]:
+                                  - generic [ref=e11869]: (
+                                  - text: 𝑡
+                                  - generic [ref=e11870]: )
+                                - text: 𝑑𝑡.
+                              - math [ref=e11871]:
+                                - generic [ref=e11873]:
+                                  - generic [ref=e11874]:
+                                    - generic [ref=e11875]: E
+                                    - generic [ref=e11876]: R
+                                  - generic [ref=e11877]: =
+                                  - generic [ref=e11878]:
+                                    - generic [ref=e11880]: ∫
+                                    - generic [ref=e11882]:
+                                      - generic [ref=e11883]: t
+                                      - generic [ref=e11884]: "0"
+                                    - generic [ref=e11886]:
+                                      - generic [ref=e11887]: t
+                                      - generic [ref=e11888]: f
+                                  - generic [ref=e11889]:
+                                    - generic [ref=e11891]: ∑
+                                    - generic [ref=e11892]:
+                                      - generic [ref=e11893]: i
+                                      - generic [ref=e11894]: =
+                                      - generic [ref=e11895]: "1"
+                                    - generic [ref=e11896]: "4"
+                                  - generic [ref=e11897]:
+                                    - generic [ref=e11898]:
+                                      - generic [ref=e11899]:
+                                        - generic [ref=e11900]: I
+                                        - generic [ref=e11901]:
+                                          - generic [ref=e11902]: p
+                                          - generic [ref=e11903]: e
+                                      - generic [ref=e11904]:
+                                        - generic [ref=e11906]:
+                                          - generic [ref=e11907]: Ω
+                                          - generic [ref=e11908]: ˙
+                                        - generic [ref=e11909]: i
+                                      - generic [ref=e11911]: t
+                                      - generic [ref=e11912]: +
+                                      - generic [ref=e11913]:
+                                        - generic [ref=e11914]: k
+                                        - generic [ref=e11915]: m
+                                      - generic [ref=e11916]:
+                                        - generic [ref=e11917]: Ω
+                                        - generic [ref=e11918]: i
+                                        - generic [ref=e11919]: "2"
+                                      - generic [ref=e11921]: t
+                                      - generic [ref=e11922]: +
+                                      - generic [ref=e11923]:
+                                        - generic [ref=e11924]: D
+                                        - generic [ref=e11925]: v
+                                      - generic [ref=e11926]:
+                                        - generic [ref=e11927]: Ω
+                                        - generic [ref=e11928]: i
+                                      - generic [ref=e11930]: t
+                                    - generic [ref=e11931]:
+                                      - generic [ref=e11932]:
+                                        - generic [ref=e11933]: f
+                                        - generic [ref=e11934]:
+                                          - generic [ref=e11935]: r
+                                          - generic [ref=e11936]: ","
+                                          - generic [ref=e11937]: i
+                                      - generic [ref=e11939]:
+                                        - generic [ref=e11940]:
+                                          - generic [ref=e11941]: τ
+                                          - generic [ref=e11942]: i
+                                        - generic [ref=e11944]: t
+                                        - generic [ref=e11945]: ","
+                                        - generic [ref=e11946]:
+                                          - generic [ref=e11947]: Ω
+                                          - generic [ref=e11948]: i
+                                        - generic [ref=e11950]: t
+                                  - generic [ref=e11951]:
+                                    - generic [ref=e11952]: Ω
+                                    - generic [ref=e11953]: i
+                                  - generic [ref=e11955]: t
+                                  - generic [ref=e11956]: d
+                                  - generic [ref=e11957]: t
+                                  - generic [ref=e11958]: .
+                            - generic [ref=e11960]: (56)
+                        - generic [ref=e11961]:
+                          - text: "The efficiency function was obtained using polynomial fitting and is described by the following formula:"
+                          - generic [ref=e11962]:
+                            - generic [ref=e11965]:
+                              - generic [ref=e11971]:
+                                - generic [ref=e11972]:
+                                  - generic [ref=e11974]: 𝑓
+                                  - generic [ref=e11977]: 𝑟,𝑖
+                                - generic [ref=e11978]:
+                                  - generic [ref=e11979]: (
+                                  - generic [ref=e11980]:
+                                    - generic [ref=e11981]:
+                                      - generic [ref=e11983]: 𝜏
+                                      - generic [ref=e11985]: 𝑖
+                                    - generic [ref=e11986]:
+                                      - generic [ref=e11987]: (
+                                      - text: 𝑡
+                                      - generic [ref=e11988]: )
+                                    - text: ","
+                                    - generic [ref=e11989]:
+                                      - generic [ref=e11990]: 𝛺
+                                      - generic [ref=e11991]: 𝑖
+                                    - generic [ref=e11992]:
+                                      - generic [ref=e11993]: (
+                                      - text: 𝑡
+                                      - generic [ref=e11994]: )
+                                  - generic [ref=e11995]: )
+                                - text: =
+                                - generic [ref=e11996]:
+                                  - generic [ref=e11997]: 𝑎
+                                  - generic [ref=e11998]: "5"
+                                - generic [ref=e11999]:
+                                  - generic [ref=e12000]: 𝛺
+                                  - generic [ref=e12001]: "5"
+                                  - generic [ref=e12002]: 𝑖
+                                - generic [ref=e12003]:
+                                  - generic [ref=e12004]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12005]: )
+                                - text: +
+                                - generic [ref=e12006]:
+                                  - generic [ref=e12007]: 𝑎
+                                  - generic [ref=e12008]: "4"
+                                - generic [ref=e12009]:
+                                  - generic [ref=e12010]: 𝛺
+                                  - generic [ref=e12011]: "4"
+                                  - generic [ref=e12012]: 𝑖
+                                - generic [ref=e12013]:
+                                  - generic [ref=e12014]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12015]: )
+                                - text: +
+                                - generic [ref=e12016]:
+                                  - generic [ref=e12017]: 𝑎
+                                  - generic [ref=e12018]: "3"
+                                - generic [ref=e12019]:
+                                  - generic [ref=e12020]: 𝛺
+                                  - generic [ref=e12021]: "3"
+                                  - generic [ref=e12022]: 𝑖
+                                - generic [ref=e12023]:
+                                  - generic [ref=e12024]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12025]: )
+                                - text: +
+                                - generic [ref=e12026]:
+                                  - generic [ref=e12027]: 𝑎
+                                  - generic [ref=e12028]: "2"
+                                - generic [ref=e12029]:
+                                  - generic [ref=e12030]: 𝛺
+                                  - generic [ref=e12031]: "2"
+                                  - generic [ref=e12032]: 𝑖
+                                - generic [ref=e12033]:
+                                  - generic [ref=e12034]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12035]: )
+                                - text: +
+                                - generic [ref=e12036]:
+                                  - generic [ref=e12037]: 𝑎
+                                  - generic [ref=e12038]: "1"
+                                - generic [ref=e12039]:
+                                  - generic [ref=e12040]: 𝛺
+                                  - generic [ref=e12041]: 𝑖
+                                - generic [ref=e12042]:
+                                  - generic [ref=e12043]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12044]: )
+                                - text: +
+                                - generic [ref=e12045]:
+                                  - generic [ref=e12046]: 𝑎
+                                  - generic [ref=e12047]: "0"
+                                - text: ","
+                              - math [ref=e12048]:
+                                - generic [ref=e12050]:
+                                  - generic [ref=e12051]:
+                                    - generic [ref=e12052]: f
+                                    - generic [ref=e12053]:
+                                      - generic [ref=e12054]: r
+                                      - generic [ref=e12055]: ","
+                                      - generic [ref=e12056]: i
+                                  - generic [ref=e12058]:
+                                    - generic [ref=e12059]:
+                                      - generic [ref=e12060]: τ
+                                      - generic [ref=e12061]: i
+                                    - generic [ref=e12063]: t
+                                    - generic [ref=e12064]: ","
+                                    - generic [ref=e12065]:
+                                      - generic [ref=e12066]: Ω
+                                      - generic [ref=e12067]: i
+                                    - generic [ref=e12069]: t
+                                  - generic [ref=e12070]: =
+                                  - generic [ref=e12071]:
+                                    - generic [ref=e12072]: a
+                                    - generic [ref=e12073]: "5"
+                                  - generic [ref=e12074]:
+                                    - generic [ref=e12075]: Ω
+                                    - generic [ref=e12076]: i
+                                    - generic [ref=e12077]: "5"
+                                  - generic [ref=e12079]: t
+                                  - generic [ref=e12080]: +
+                                  - generic [ref=e12081]:
+                                    - generic [ref=e12082]: a
+                                    - generic [ref=e12083]: "4"
+                                  - generic [ref=e12084]:
+                                    - generic [ref=e12085]: Ω
+                                    - generic [ref=e12086]: i
+                                    - generic [ref=e12087]: "4"
+                                  - generic [ref=e12089]: t
+                                  - generic [ref=e12090]: +
+                                  - generic [ref=e12091]:
+                                    - generic [ref=e12092]: a
+                                    - generic [ref=e12093]: "3"
+                                  - generic [ref=e12094]:
+                                    - generic [ref=e12095]: Ω
+                                    - generic [ref=e12096]: i
+                                    - generic [ref=e12097]: "3"
+                                  - generic [ref=e12099]: t
+                                  - generic [ref=e12100]: +
+                                  - generic [ref=e12101]:
+                                    - generic [ref=e12102]: a
+                                    - generic [ref=e12103]: "2"
+                                  - generic [ref=e12104]:
+                                    - generic [ref=e12105]: Ω
+                                    - generic [ref=e12106]: i
+                                    - generic [ref=e12107]: "2"
+                                  - generic [ref=e12109]: t
+                                  - generic [ref=e12110]: +
+                                  - generic [ref=e12111]:
+                                    - generic [ref=e12112]: a
+                                    - generic [ref=e12113]: "1"
+                                  - generic [ref=e12114]:
+                                    - generic [ref=e12115]: Ω
+                                    - generic [ref=e12116]: i
+                                  - generic [ref=e12118]: t
+                                  - generic [ref=e12119]: +
+                                  - generic [ref=e12120]:
+                                    - generic [ref=e12121]: a
+                                    - generic [ref=e12122]: "0"
+                                  - generic [ref=e12123]: ","
+                            - generic [ref=e12125]: (57)
+                          - text: where
+                          - generic [ref=e12126]:
+                            - generic [ref=e12133]:
+                              - generic [ref=e12134]: 𝑎
+                              - generic [ref=e12135]: "5"
+                            - math [ref=e12136]:
+                              - generic [ref=e12139]:
+                                - generic [ref=e12140]: a
+                                - generic [ref=e12141]: "5"
+                          - text: = −7.349·10
+                          - superscript [ref=e12142]: –19
+                          - text: ","
+                          - generic [ref=e12143]:
+                            - generic [ref=e12150]:
+                              - generic [ref=e12151]: 𝑎
+                              - generic [ref=e12152]: "4"
+                            - math [ref=e12153]:
+                              - generic [ref=e12156]:
+                                - generic [ref=e12157]: a
+                                - generic [ref=e12158]: "4"
+                          - text: = 1.173·10
+                          - superscript [ref=e12159]: –14
+                          - text: ","
+                          - generic [ref=e12160]:
+                            - generic [ref=e12167]:
+                              - generic [ref=e12168]: 𝑎
+                              - generic [ref=e12169]: "3"
+                            - math [ref=e12170]:
+                              - generic [ref=e12173]:
+                                - generic [ref=e12174]: a
+                                - generic [ref=e12175]: "3"
+                          - text: = −5.824·10
+                          - superscript [ref=e12176]: –11
+                          - text: ","
+                          - generic [ref=e12177]:
+                            - generic [ref=e12184]:
+                              - generic [ref=e12185]: 𝑎
+                              - generic [ref=e12186]: "2"
+                            - math [ref=e12187]:
+                              - generic [ref=e12190]:
+                                - generic [ref=e12191]: a
+                                - generic [ref=e12192]: "2"
+                          - text: = 3.328·10
+                          - superscript [ref=e12193]: –8
+                          - text: ","
+                          - generic [ref=e12194]:
+                            - generic [ref=e12201]:
+                              - generic [ref=e12202]: 𝑎
+                              - generic [ref=e12203]: "1"
+                            - math [ref=e12204]:
+                              - generic [ref=e12207]:
+                                - generic [ref=e12208]: a
+                                - generic [ref=e12209]: "1"
+                          - text: = 0.0004759,
+                          - generic [ref=e12210]:
+                            - generic [ref=e12217]:
+                              - generic [ref=e12218]: 𝑎
+                              - generic [ref=e12219]: "1"
+                            - math [ref=e12220]:
+                              - generic [ref=e12223]:
+                                - generic [ref=e12224]: a
+                                - generic [ref=e12225]: "1"
+                          - text: = −0.006304, and
+                          - generic [ref=e12226]:
+                            - generic [ref=e12232]:
+                              - text: 0≤
+                              - generic [ref=e12233]:
+                                - generic [ref=e12234]: 𝛺
+                                - generic [ref=e12235]: 𝑖
+                              - generic [ref=e12236]:
+                                - generic [ref=e12237]: (
+                                - text: 𝑡
+                                - generic [ref=e12238]: )
+                              - text: ≤6000
+                            - math [ref=e12239]:
+                              - generic [ref=e12241]:
+                                - generic [ref=e12242]: "0"
+                                - generic [ref=e12243]: ≤
+                                - generic [ref=e12244]:
+                                  - generic [ref=e12245]: Ω
+                                  - generic [ref=e12246]: i
+                                - generic [ref=e12248]: t
+                                - generic [ref=e12249]: ≤
+                                - generic [ref=e12250]: "6000"
+                          - text: "[RPM]."
+                        - generic [ref=e12251]:
+                          - text: The torque generated by the electric motor is proportional to the electric current that flows though the motor [
+                          - link "22" [ref=e12252] [cursor=pointer]:
+                            - /url: "#B22-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e12253]:
+                            - generic [ref=e12256]:
+                              - generic [ref=e12262]:
+                                - generic [ref=e12263]:
+                                  - generic [ref=e12265]: 𝜏
+                                  - generic [ref=e12267]: 𝑖
+                                - generic [ref=e12268]:
+                                  - generic [ref=e12269]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12270]: )
+                                - text: =
+                                - generic [ref=e12271]:
+                                  - generic [ref=e12273]: 𝐾
+                                  - generic [ref=e12276]: 𝑇
+                                - generic [ref=e12278]:
+                                  - generic [ref=e12280]: 𝐼
+                                  - generic [ref=e12282]: 𝑖
+                                - generic [ref=e12283]:
+                                  - generic [ref=e12284]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12285]: )
+                                - text: ","
+                              - math [ref=e12286]:
+                                - generic [ref=e12288]:
+                                  - generic [ref=e12289]:
+                                    - generic [ref=e12290]: τ
+                                    - generic [ref=e12291]: i
+                                  - generic [ref=e12293]: t
+                                  - generic [ref=e12294]: =
+                                  - generic [ref=e12295]:
+                                    - generic [ref=e12296]: K
+                                    - generic [ref=e12297]: T
+                                  - generic [ref=e12298]:
+                                    - generic [ref=e12299]: I
+                                    - generic [ref=e12300]: i
+                                  - generic [ref=e12302]: t
+                                  - generic [ref=e12303]: ","
+                            - generic [ref=e12305]: (58)
+                          - text: where
+                          - generic [ref=e12306]:
+                            - generic [ref=e12313]:
+                              - generic [ref=e12315]: 𝐾
+                              - generic [ref=e12318]: 𝑇
+                            - math [ref=e12320]:
+                              - generic [ref=e12323]:
+                                - generic [ref=e12324]: K
+                                - generic [ref=e12325]: T
+                          - text: is the torque constant of the electric motor. The electric current consumed by the
+                          - generic [ref=e12326]:
+                            - generic [ref=e12331]: 𝑖
+                            - math [ref=e12332]:
+                              - generic [ref=e12334]: i
+                          - text: "-th motor was calculated as follows ["
+                          - link "2" [ref=e12335] [cursor=pointer]:
+                            - /url: "#B2-energies-15-07136"
+                          - text: ","
+                          - link "67" [ref=e12336] [cursor=pointer]:
+                            - /url: "#B67-energies-15-07136"
+                          - text: ","
+                          - link "68" [ref=e12337] [cursor=pointer]:
+                            - /url: "#B68-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e12338]:
+                            - generic [ref=e12341]:
+                              - generic [ref=e12347]:
+                                - generic [ref=e12348]:
+                                  - generic [ref=e12350]: 𝐼
+                                  - generic [ref=e12352]: 𝑖
+                                - generic [ref=e12353]:
+                                  - generic [ref=e12354]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12355]: )
+                                - text: =
+                                - generic [ref=e12356]:
+                                  - generic [ref=e12358]:
+                                    - generic [ref=e12359]:
+                                      - generic [ref=e12361]: 𝜏
+                                      - generic [ref=e12363]: 𝑖
+                                    - generic [ref=e12364]:
+                                      - generic [ref=e12365]: (
+                                      - text: 𝑡
+                                      - generic [ref=e12366]: )
+                                  - generic [ref=e12369]:
+                                    - generic [ref=e12371]: 𝐾
+                                    - generic [ref=e12374]: 𝑇
+                                - text: =
+                                - generic [ref=e12378]:
+                                  - generic [ref=e12379]: "1"
+                                  - generic [ref=e12382]:
+                                    - generic [ref=e12384]: 𝐾
+                                    - generic [ref=e12387]: 𝑇
+                                - generic [ref=e12391]:
+                                  - generic [ref=e12392]: "["
+                                  - generic [ref=e12393]:
+                                    - generic [ref=e12394]:
+                                      - generic [ref=e12396]: 𝐼
+                                      - generic [ref=e12399]: 𝑝𝑒
+                                    - generic [ref=e12400]:
+                                      - generic [ref=e12403]:
+                                        - generic [ref=e12404]: 𝛺
+                                        - generic [ref=e12405]: ˙
+                                      - generic [ref=e12406]: 𝑖
+                                    - generic [ref=e12407]:
+                                      - generic [ref=e12408]: (
+                                      - text: 𝑡
+                                      - generic [ref=e12409]: )
+                                    - text: +
+                                    - generic [ref=e12410]:
+                                      - generic [ref=e12412]: 𝑘
+                                      - generic [ref=e12414]: 𝑚
+                                    - generic [ref=e12415]:
+                                      - generic [ref=e12416]: 𝛺
+                                      - generic [ref=e12417]: "2"
+                                      - generic [ref=e12418]: 𝑖
+                                    - generic [ref=e12419]:
+                                      - generic [ref=e12420]: (
+                                      - text: 𝑡
+                                      - generic [ref=e12421]: )
+                                    - text: +
+                                    - generic [ref=e12422]:
+                                      - generic [ref=e12423]: 𝐷
+                                      - generic [ref=e12424]: 𝑣
+                                    - generic [ref=e12425]:
+                                      - generic [ref=e12426]: 𝛺
+                                      - generic [ref=e12427]: 𝑖
+                                    - generic [ref=e12428]:
+                                      - generic [ref=e12429]: (
+                                      - text: 𝑡
+                                      - generic [ref=e12430]: )
+                                  - generic [ref=e12431]: "]"
+                                - text: ","
+                              - math [ref=e12432]:
+                                - generic [ref=e12434]:
+                                  - generic [ref=e12435]:
+                                    - generic [ref=e12436]: I
+                                    - generic [ref=e12437]: i
+                                  - generic [ref=e12439]: t
+                                  - generic [ref=e12440]: =
+                                  - generic [ref=e12441]:
+                                    - generic [ref=e12442]:
+                                      - generic [ref=e12443]:
+                                        - generic [ref=e12444]: τ
+                                        - generic [ref=e12445]: i
+                                      - generic [ref=e12447]: t
+                                    - generic [ref=e12449]:
+                                      - generic [ref=e12450]: K
+                                      - generic [ref=e12451]: T
+                                  - generic [ref=e12452]: =
+                                  - generic [ref=e12453]:
+                                    - generic [ref=e12454]: "1"
+                                    - generic [ref=e12456]:
+                                      - generic [ref=e12457]: K
+                                      - generic [ref=e12458]: T
+                                  - generic [ref=e12460]:
+                                    - generic [ref=e12461]:
+                                      - generic [ref=e12462]: I
+                                      - generic [ref=e12463]:
+                                        - generic [ref=e12464]: p
+                                        - generic [ref=e12465]: e
+                                    - generic [ref=e12466]:
+                                      - generic [ref=e12468]:
+                                        - generic [ref=e12469]: Ω
+                                        - generic [ref=e12470]: ˙
+                                      - generic [ref=e12471]: i
+                                    - generic [ref=e12473]: t
+                                    - generic [ref=e12474]: +
+                                    - generic [ref=e12475]:
+                                      - generic [ref=e12476]: k
+                                      - generic [ref=e12477]: m
+                                    - generic [ref=e12478]:
+                                      - generic [ref=e12479]: Ω
+                                      - generic [ref=e12480]: i
+                                      - generic [ref=e12481]: "2"
+                                    - generic [ref=e12483]: t
+                                    - generic [ref=e12484]: +
+                                    - generic [ref=e12485]:
+                                      - generic [ref=e12486]: D
+                                      - generic [ref=e12487]: v
+                                    - generic [ref=e12488]:
+                                      - generic [ref=e12489]: Ω
+                                      - generic [ref=e12490]: i
+                                    - generic [ref=e12492]: t
+                                  - generic [ref=e12493]: ","
+                            - generic [ref=e12495]: (59)
+                        - generic [ref=e12496]:
+                          - text: Assuming that the electric power required to operate the onboard systems
+                          - generic [ref=e12497]:
+                            - generic [ref=e12504]:
+                              - generic [ref=e12505]: 𝐸
+                              - generic [ref=e12507]: 𝑠𝑢𝑏
+                            - math [ref=e12508]:
+                              - generic [ref=e12511]:
+                                - generic [ref=e12512]: E
+                                - generic [ref=e12513]:
+                                  - generic [ref=e12514]: s
+                                  - generic [ref=e12515]: u
+                                  - generic [ref=e12516]: b
+                          - text: "is constant during the flight, the energy consumed by the electronics (other than motors) is calculated using the following formula:"
+                          - generic [ref=e12517]:
+                            - generic [ref=e12520]:
+                              - generic [ref=e12526]:
+                                - generic [ref=e12527]:
+                                  - generic [ref=e12528]: 𝐸
+                                  - generic [ref=e12529]: 𝐸
+                                - text: =
+                                - generic [ref=e12530]:
+                                  - generic [ref=e12534]: ∫
+                                  - generic [ref=e12538]:
+                                    - generic [ref=e12539]: 𝑡
+                                    - generic [ref=e12540]: "0"
+                                  - generic [ref=e12543]:
+                                    - generic [ref=e12544]: 𝑡
+                                    - generic [ref=e12546]: 𝑓
+                                - generic [ref=e12548]:
+                                  - generic [ref=e12549]: 𝐸
+                                  - generic [ref=e12551]: 𝑠𝑢𝑏
+                                - text: 𝑑𝑡,
+                              - math [ref=e12552]:
+                                - generic [ref=e12554]:
+                                  - generic [ref=e12555]:
+                                    - generic [ref=e12556]: E
+                                    - generic [ref=e12557]: E
+                                  - generic [ref=e12558]: =
+                                  - generic [ref=e12559]:
+                                    - generic [ref=e12561]: ∫
+                                    - generic [ref=e12563]:
+                                      - generic [ref=e12564]: t
+                                      - generic [ref=e12565]: "0"
+                                    - generic [ref=e12567]:
+                                      - generic [ref=e12568]: t
+                                      - generic [ref=e12569]: f
+                                  - generic [ref=e12570]:
+                                    - generic [ref=e12571]: E
+                                    - generic [ref=e12572]:
+                                      - generic [ref=e12573]: s
+                                      - generic [ref=e12574]: u
+                                      - generic [ref=e12575]: b
+                                  - generic [ref=e12576]: d
+                                  - generic [ref=e12577]: t
+                                  - generic [ref=e12578]: ","
+                            - generic [ref=e12580]: (60)
+                        - generic [ref=e12581]:
+                          - text: The value of
+                          - generic [ref=e12582]:
+                            - generic [ref=e12589]:
+                              - generic [ref=e12590]: 𝐸
+                              - generic [ref=e12592]: 𝑠𝑢𝑏
+                            - math [ref=e12593]:
+                              - generic [ref=e12596]:
+                                - generic [ref=e12597]: E
+                                - generic [ref=e12598]:
+                                  - generic [ref=e12599]: s
+                                  - generic [ref=e12600]: u
+                                  - generic [ref=e12601]: b
+                          - text: was obtained in stationary laboratory experiments. The experimental setup is presented in
+                          - link "Figure 8" [ref=e12602] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f008"
+                          - text: .
+                        - generic [ref=e12603]:
+                          - generic [ref=e12605] [cursor=pointer]:
+                            - img "Energies 15 07136 g008" [ref=e12606]
+                            - link [ref=e12607]:
+                              - /url: "#fig_body_display_energies-15-07136-f008"
+                          - generic [ref=e12608]: Figure 8. Laboratory tests of the battery discharge.
+                        - generic [ref=e12609]: Initially, the battery was fully charged. During the test, the electric motors were switched off. Only the onboard electronic subsystems were powered and consumed energy from the battery. The energy meter was connected between the quadrotor and the battery. Data (time, voltage, current) were analyzed online on a laptop computer and logged on a memory card.
+                        - generic [ref=e12610]:
+                          - text: The model parameters are listed in
+                          - link "Table 3" [ref=e12611] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t003"
+                          - text: .
+                        - generic [ref=e12612]:
+                          - generic [ref=e12613]: Table 3. Motor model parameters used in the numerical simulation.
+                          - generic [ref=e12615] [cursor=pointer]:
+                            - img [ref=e12616]
+                            - link [ref=e12617]:
+                              - /url: "#table_body_display_energies-15-07136-t003"
+                      - generic [ref=e12618]:
+                        - heading "2.7. Battery Model" [level=3] [ref=e12619]
+                        - generic [ref=e12620]:
+                          - text: The battery voltage during a flight was predicted using the modified Shepherd model [
+                          - link "69" [ref=e12621] [cursor=pointer]:
+                            - /url: "#B69-energies-15-07136"
+                          - text: ","
+                          - link "70" [ref=e12622] [cursor=pointer]:
+                            - /url: "#B70-energies-15-07136"
+                          - text: ","
+                          - link "71" [ref=e12623] [cursor=pointer]:
+                            - /url: "#B71-energies-15-07136"
+                          - text: ","
+                          - link "72" [ref=e12624] [cursor=pointer]:
+                            - /url: "#B72-energies-15-07136"
+                          - text: ","
+                          - link "73" [ref=e12625] [cursor=pointer]:
+                            - /url: "#B73-energies-15-07136"
+                          - text: "]. This model requires only a few parameters that could be obtained from laboratory tests and the datasheet."
+                        - generic [ref=e12626]: It was assumed that the battery’s internal resistance is constant during the discharge process. The Peukert effect was not present (meaning that the capacity of the battery did not change with the amplitude of the electric current). Battery ageing, temperature effects, and self-discharge phenomena were not included in the presented model. The battery memory effect was omitted.
+                        - generic [ref=e12627]:
+                          - text: The battery voltage during discharge changed with time and was calculated as follows [
+                          - link "70" [ref=e12628] [cursor=pointer]:
+                            - /url: "#B70-energies-15-07136"
+                          - text: ","
+                          - link "72" [ref=e12629] [cursor=pointer]:
+                            - /url: "#B72-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e12630]:
+                            - generic [ref=e12633]:
+                              - generic [ref=e12639]:
+                                - generic [ref=e12640]:
+                                  - generic [ref=e12642]: 𝑈
+                                  - generic [ref=e12645]: 𝑏𝑎𝑡
+                                - text: =
+                                - generic [ref=e12646]:
+                                  - generic [ref=e12647]: 𝐸
+                                  - generic [ref=e12648]: "0"
+                                - text: −
+                                - generic [ref=e12649]: 𝐾
+                                - generic [ref=e12651]:
+                                  - generic [ref=e12652]: 𝑄
+                                  - generic [ref=e12654]:
+                                    - text: 𝑄−
+                                    - generic [ref=e12657]:
+                                      - generic [ref=e12661]: ∫
+                                      - generic [ref=e12665]:
+                                        - generic [ref=e12666]: 𝑡
+                                        - generic [ref=e12668]: 𝑘
+                                      - generic [ref=e12672]:
+                                        - generic [ref=e12673]: 𝑡
+                                        - generic [ref=e12674]: "0"
+                                    - generic [ref=e12675]: 𝐼
+                                    - text: 𝑑𝑡
+                                - generic [ref=e12679]:
+                                  - generic [ref=e12681]: 𝐼
+                                  - generic [ref=e12683]: ∗
+                                - text: −
+                                - generic [ref=e12684]: 𝐾
+                                - generic [ref=e12686]:
+                                  - generic [ref=e12687]: 𝑄
+                                  - generic [ref=e12689]:
+                                    - text: 𝑄−
+                                    - generic [ref=e12692]:
+                                      - generic [ref=e12696]: ∫
+                                      - generic [ref=e12700]:
+                                        - generic [ref=e12701]: 𝑡
+                                        - generic [ref=e12703]: 𝑘
+                                      - generic [ref=e12707]:
+                                        - generic [ref=e12708]: 𝑡
+                                        - generic [ref=e12709]: "0"
+                                    - generic [ref=e12710]: 𝐼
+                                    - text: 𝑑𝑡
+                                - generic [ref=e12714]: 𝐼
+                                - text: +𝐴
+                                - generic [ref=e12716]:
+                                  - generic [ref=e12717]: 𝑒
+                                  - generic [ref=e12719]:
+                                    - text: −𝐵
+                                    - generic [ref=e12722]:
+                                      - generic [ref=e12726]: ∫
+                                      - generic [ref=e12730]:
+                                        - generic [ref=e12731]: 𝑡
+                                        - generic [ref=e12733]: 𝑘
+                                      - generic [ref=e12737]:
+                                        - generic [ref=e12738]: 𝑡
+                                        - generic [ref=e12739]: "0"
+                                    - generic [ref=e12740]: 𝐼
+                                    - text: 𝑑𝑡
+                                - text: −𝑅
+                                - generic [ref=e12742]: 𝐼
+                                - text: ","
+                              - math [ref=e12744]:
+                                - generic [ref=e12746]:
+                                  - generic [ref=e12747]:
+                                    - generic [ref=e12748]: U
+                                    - generic [ref=e12749]:
+                                      - generic [ref=e12750]: b
+                                      - generic [ref=e12751]: a
+                                      - generic [ref=e12752]: t
+                                  - generic [ref=e12753]: =
+                                  - generic [ref=e12754]:
+                                    - generic [ref=e12755]: E
+                                    - generic [ref=e12756]: "0"
+                                  - generic [ref=e12757]: −
+                                  - generic [ref=e12758]: K
+                                  - generic [ref=e12759]:
+                                    - generic [ref=e12760]: Q
+                                    - generic [ref=e12761]:
+                                      - generic [ref=e12762]: Q
+                                      - generic [ref=e12763]: −
+                                      - generic [ref=e12765]:
+                                        - generic [ref=e12767]: ∫
+                                        - generic [ref=e12769]:
+                                          - generic [ref=e12770]: t
+                                          - generic [ref=e12771]: "0"
+                                        - generic [ref=e12773]:
+                                          - generic [ref=e12774]: t
+                                          - generic [ref=e12775]: k
+                                      - generic [ref=e12776]: I
+                                      - generic [ref=e12777]: d
+                                      - generic [ref=e12778]: t
+                                  - generic [ref=e12779]:
+                                    - generic [ref=e12780]: I
+                                    - generic [ref=e12781]: "*"
+                                  - generic [ref=e12782]: −
+                                  - generic [ref=e12783]: K
+                                  - generic [ref=e12784]:
+                                    - generic [ref=e12785]: Q
+                                    - generic [ref=e12786]:
+                                      - generic [ref=e12787]: Q
+                                      - generic [ref=e12788]: −
+                                      - generic [ref=e12790]:
+                                        - generic [ref=e12792]: ∫
+                                        - generic [ref=e12794]:
+                                          - generic [ref=e12795]: t
+                                          - generic [ref=e12796]: "0"
+                                        - generic [ref=e12798]:
+                                          - generic [ref=e12799]: t
+                                          - generic [ref=e12800]: k
+                                      - generic [ref=e12801]: I
+                                      - generic [ref=e12802]: d
+                                      - generic [ref=e12803]: t
+                                  - generic [ref=e12804]: I
+                                  - generic [ref=e12805]: +
+                                  - generic [ref=e12806]: A
+                                  - generic [ref=e12807]:
+                                    - generic [ref=e12808]: e
+                                    - generic [ref=e12809]:
+                                      - generic [ref=e12810]: −
+                                      - generic [ref=e12811]: B
+                                      - generic [ref=e12813]:
+                                        - generic [ref=e12815]: ∫
+                                        - generic [ref=e12817]:
+                                          - generic [ref=e12818]: t
+                                          - generic [ref=e12819]: "0"
+                                        - generic [ref=e12821]:
+                                          - generic [ref=e12822]: t
+                                          - generic [ref=e12823]: k
+                                      - generic [ref=e12824]: I
+                                      - generic [ref=e12825]: d
+                                      - generic [ref=e12826]: t
+                                  - generic [ref=e12827]: −
+                                  - generic [ref=e12828]: R
+                                  - generic [ref=e12829]: I
+                                  - generic [ref=e12830]: ","
+                            - generic [ref=e12832]: (61)
+                          - text: where
+                          - generic [ref=e12833]:
+                            - generic [ref=e12840]:
+                              - generic [ref=e12841]: 𝐸
+                              - generic [ref=e12842]: "0"
+                            - math [ref=e12843]:
+                              - generic [ref=e12846]:
+                                - generic [ref=e12847]: E
+                                - generic [ref=e12848]: "0"
+                          - text: is the open-circuit battery voltage [V] (when no external load is connected),
+                          - generic [ref=e12849]:
+                            - generic [ref=e12855]: 𝐾
+                            - math [ref=e12857]:
+                              - generic [ref=e12859]: K
+                          - text: is the polarization constant (V/Ah),
+                          - generic [ref=e12860]:
+                            - generic [ref=e12865]: 𝑄
+                            - math [ref=e12866]:
+                              - generic [ref=e12868]: Q
+                          - text: is the battery capacity (Ah),
+                          - generic [ref=e12869]:
+                            - generic [ref=e12876]:
+                              - generic [ref=e12878]: 𝐼
+                              - generic [ref=e12880]: ∗
+                            - math [ref=e12881]:
+                              - generic [ref=e12884]:
+                                - generic [ref=e12885]: I
+                                - generic [ref=e12886]: "*"
+                          - text: represents the low-frequency current dynamics (A),
+                          - generic [ref=e12887]:
+                            - generic [ref=e12893]: 𝐼
+                            - math [ref=e12895]:
+                              - generic [ref=e12897]: I
+                          - text: is the current (A),
+                          - generic [ref=e12898]:
+                            - generic [ref=e12903]: 𝐴
+                            - math [ref=e12904]:
+                              - generic [ref=e12906]: A
+                          - text: is the exponential voltage (V),
+                          - generic [ref=e12907]:
+                            - generic [ref=e12912]: 𝐵
+                            - math [ref=e12913]:
+                              - generic [ref=e12915]: B
+                          - text: is the exponential capacity (Ah)
+                          - superscript [ref=e12916]: −1
+                          - text: ", and"
+                          - generic [ref=e12917]:
+                            - generic [ref=e12922]: 𝑅
+                            - math [ref=e12923]:
+                              - generic [ref=e12925]: R
+                          - text: is internal battery resistance [Ω].
+                        - generic [ref=e12926]:
+                          - text: The internal resistance during discharge was obtained from the flight logs. To obtain the
+                          - generic [ref=e12927]:
+                            - generic [ref=e12934]:
+                              - generic [ref=e12936]: 𝐼
+                              - generic [ref=e12938]: ∗
+                            - math [ref=e12939]:
+                              - generic [ref=e12942]:
+                                - generic [ref=e12943]: I
+                                - generic [ref=e12944]: "*"
+                          - text: ", the first-order transfer function was used for filtration. The time constant that is required for calculating the filtered current was difficult to estimate from the manufacturer data. Due to this reason, it was assumed to be 30 s. The detailed tests of the battery were also used to fit the model parameters to the existing data. The values of the abovementioned battery model parameters are presented in"
+                          - link "Table 4" [ref=e12945] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t004"
+                          - text: .
+                        - generic [ref=e12946]:
+                          - generic [ref=e12947]: Table 4. Battery model parameters used in the numerical experiment.
+                          - generic [ref=e12949] [cursor=pointer]:
+                            - img [ref=e12950]
+                            - link [ref=e12951]:
+                              - /url: "#table_body_display_energies-15-07136-t004"
+                        - generic [ref=e12952]:
+                          - text: The state of the battery charge was estimated using formula [
+                          - link "22" [ref=e12953] [cursor=pointer]:
+                            - /url: "#B22-energies-15-07136"
+                          - text: ","
+                          - link "71" [ref=e12954] [cursor=pointer]:
+                            - /url: "#B71-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e12955]:
+                            - generic [ref=e12958]:
+                              - generic [ref=e12964]:
+                                - text: 𝑆𝑂𝐶
+                                - generic [ref=e12965]:
+                                  - generic [ref=e12966]: (
+                                  - text: 𝑡
+                                  - generic [ref=e12967]: )
+                                - text: =100
+                                - generic [ref=e12968]:
+                                  - generic [ref=e12969]:
+                                    - generic [ref=e12970]: ⎛
+                                    - generic [ref=e12971]: ⎝
+                                    - generic [ref=e12972]: ⎜
+                                    - generic [ref=e12973]: ⎜
+                                    - generic [ref=e12974]: ⎜
+                                    - generic [ref=e12975]: ⎜
+                                    - generic [ref=e12976]: ⎜
+                                    - generic [ref=e12977]: ⎜
+                                    - generic [ref=e12978]: ⎜
+                                  - generic [ref=e12979]:
+                                    - text: 𝑆𝑂
+                                    - generic [ref=e12980]:
+                                      - generic [ref=e12981]: 𝐶
+                                      - generic [ref=e12982]: "0"
+                                    - text: −
+                                    - generic [ref=e12983]:
+                                      - generic [ref=e12987]: ∫
+                                      - generic [ref=e12989]: "0"
+                                      - generic [ref=e12990]: 𝑡
+                                    - generic [ref=e12991]:
+                                      - generic [ref=e12993]: 𝐼
+                                      - generic [ref=e12995]: 𝑄
+                                    - text: 𝑑𝑡
+                                  - generic [ref=e12998]:
+                                    - generic [ref=e12999]: ⎞
+                                    - generic [ref=e13000]: ⎠
+                                    - generic [ref=e13001]: ⎟
+                                    - generic [ref=e13002]: ⎟
+                                    - generic [ref=e13003]: ⎟
+                                    - generic [ref=e13004]: ⎟
+                                    - generic [ref=e13005]: ⎟
+                                    - generic [ref=e13006]: ⎟
+                                    - generic [ref=e13007]: ⎟
+                                - text: ","
+                              - math [ref=e13008]:
+                                - generic [ref=e13010]:
+                                  - generic [ref=e13011]: S
+                                  - generic [ref=e13012]: O
+                                  - generic [ref=e13013]: C
+                                  - generic [ref=e13015]: t
+                                  - generic [ref=e13016]: =
+                                  - generic [ref=e13017]: "100"
+                                  - generic [ref=e13019]:
+                                    - generic [ref=e13020]: S
+                                    - generic [ref=e13021]: O
+                                    - generic [ref=e13022]:
+                                      - generic [ref=e13023]: C
+                                      - generic [ref=e13024]: "0"
+                                    - generic [ref=e13025]: −
+                                    - generic [ref=e13026]:
+                                      - generic [ref=e13028]: ∫
+                                      - generic [ref=e13029]: "0"
+                                      - generic [ref=e13030]: t
+                                    - generic [ref=e13031]:
+                                      - generic [ref=e13032]: I
+                                      - generic [ref=e13033]: Q
+                                    - generic [ref=e13034]: d
+                                    - generic [ref=e13035]: t
+                                  - generic [ref=e13036]: ","
+                            - generic [ref=e13038]: (62)
+                          - text: where
+                          - generic [ref=e13039]:
+                            - generic [ref=e13045]:
+                              - text: 𝑆𝑂
+                              - generic [ref=e13046]:
+                                - generic [ref=e13047]: 𝐶
+                                - generic [ref=e13048]: "0"
+                            - math [ref=e13049]:
+                              - generic [ref=e13051]:
+                                - generic [ref=e13052]: S
+                                - generic [ref=e13053]: O
+                                - generic [ref=e13054]:
+                                  - generic [ref=e13055]: C
+                                  - generic [ref=e13056]: "0"
+                          - text: is the initial state of charge, and
+                          - generic [ref=e13057]:
+                            - generic [ref=e13062]: 𝑄
+                            - math [ref=e13063]:
+                              - generic [ref=e13065]: Q
+                          - text: is the battery capacity (Ah).
+                          - generic [ref=e13066]:
+                            - generic [ref=e13072]: 𝑆𝑂𝐶
+                            - math [ref=e13073]:
+                              - generic [ref=e13075]:
+                                - generic [ref=e13076]: S
+                                - generic [ref=e13077]: O
+                                - generic [ref=e13078]: C
+                          - text: = 100% for a fully charged and 0% for a discharged battery. Simscape Electrical library that is available in Simulink was used to model the battery behavior [
+                          - link "74" [ref=e13079] [cursor=pointer]:
+                            - /url: "#B74-energies-15-07136"
+                          - text: "]."
+                    - generic [ref=e13080]:
+                      - heading "3. Results" [level=2] [ref=e13081]
+                      - generic [ref=e13082]:
+                        - heading "3.1. Model Implementation" [level=3] [ref=e13083]
+                        - generic [ref=e13084]: The developed mathematical model of the quadrotor was implemented in MATLAB/Simulink R2020b. Simulations were evaluated on a laptop computer with an Intel(R) Core(TM) i7-8750H CPU @ 2.20 GHz, 16 GB RAM, and Windows 10 operating system. The equations of motion were integrated numerically using the fourth-order Runge–Kutta (RK4) fixed-step solver. The time step size of the simulation was set to 0.001 s. Simulink Accelerator mode option was used to speed up the model execution. The inertial measurement model was also included (the details are beyond the scope of the current study).
+                      - generic [ref=e13085]:
+                        - heading "3.2. Flight Test Methodology" [level=3] [ref=e13086]
+                        - generic [ref=e13087]:
+                          - text: Next, flight tests in the outdoor environment were performed to acquire appropriate data (
+                          - link "Figure 9" [ref=e13088] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f009"
+                          - text: ).
+                        - generic [ref=e13089]:
+                          - generic [ref=e13091] [cursor=pointer]:
+                            - img "Energies 15 07136 g009" [ref=e13092]
+                            - link [ref=e13093]:
+                              - /url: "#fig_body_display_energies-15-07136-f009"
+                          - generic [ref=e13094]: "Figure 9. Quadrotor during the flight tests: (a) drone ready to fly and (b) take-off."
+                        - generic [ref=e13095]: The test plans consisted of plenty of visual line-of-sight flights in various flight conditions, including forward flight, climbing and descending, and turns. Each flight scenario was realized at least twice to achieve data repeatability. The test results were used to fit the simulation model of the quadrotor. Finally, a study was conducted to investigate the suitability of the simulation model for energy consumption analysis. The tests of the flight along predefined trajectories were performed, and the results were compared with the simulation cases.
+                        - generic [ref=e13096]: Autopilot settings limited the drone’s maneuverability. Roll and pitch angle saturations were set to ±15°. The maximum allowed yaw rate was ±90°/s. Ascent speed was limited to 2 m/s and descent speed to 2.4 m/s.
+                        - generic [ref=e13097]:
+                          - text: "Before each flight, it was ensured that the drone was airworthy, and the measurement system was properly calibrated. The onboard batteries were new to intentionally remove the influence of battery ageing effects on the results. After each flight, two kinds of data logs were available: onboard logs and telemetry data (the structures of these logs are explained in refs. ["
+                          - link "75" [ref=e13098] [cursor=pointer]:
+                            - /url: "#B75-energies-15-07136"
+                          - text: ","
+                          - link "76" [ref=e13099] [cursor=pointer]:
+                            - /url: "#B76-energies-15-07136"
+                          - text: "], respectively). The trajectory waypoints and the information about control system configuration were logged on the memory card. The data logging frequency was 10 Hz. After the experiments, the collected data were analyzed offline using UAV Log Viewer ["
+                          - link "77" [ref=e13100] [cursor=pointer]:
+                            - /url: "#B77-energies-15-07136"
+                          - text: "] and Mission Planner software ["
+                          - link "78" [ref=e13101] [cursor=pointer]:
+                            - /url: "#B78-energies-15-07136"
+                          - text: "]. The data were divided into two sets: the first one was used to fit the model parameters and the second one was used to validate the model. Next, the data were imported using a custom developed library to MATLAB and then compared with the results of the numerical simulation."
+                      - generic [ref=e13102]:
+                        - heading "3.3. Case 1 (Short Duration Trajectory)" [level=3] [ref=e13103]
+                        - generic [ref=e13104]:
+                          - text: At first, the quadrotor model was validated for relatively simple short-duration trajectories. An example of such a triangular trajectory is presented in
+                          - link "Figure 10" [ref=e13105] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f010"
+                          - text: . The route was defined manually by 10 waypoints. The waypoint radius was set to 2 m. The drone started vertically, moved between the waypoints, and returned to the initial location. The initial conditions for the simulation (linear velocity, angular rates, position, and attitude) were taken from the flight logs of the drone. The mean wind velocity estimated during the flight test with use of a ground-based, digital anemometer was 4.5 m/s and azimuth 220° (the direction the wind is coming from). These values were also used in the numerical flight simulation.
+                        - generic [ref=e13106]:
+                          - generic [ref=e13108] [cursor=pointer]:
+                            - img "Energies 15 07136 g010" [ref=e13109]
+                            - link [ref=e13110]:
+                              - /url: "#fig_body_display_energies-15-07136-f010"
+                          - generic [ref=e13111]: "Figure 10. The comparison between the real and simulated trajectories: (a) 3D view of the trajectory and (b) 2D plot of the drone trajectory."
+                        - generic [ref=e13112]:
+                          - text: The linear velocities (expressed in the
+                          - generic [ref=e13113]:
+                            - generic [ref=e13119]:
+                              - generic [ref=e13120]:
+                                - generic [ref=e13121]: 𝑂
+                                - generic [ref=e13122]: 𝑛
+                              - generic [ref=e13123]:
+                                - generic [ref=e13124]: 𝑥
+                                - generic [ref=e13125]: 𝑛
+                              - generic [ref=e13126]:
+                                - generic [ref=e13127]: 𝑦
+                                - generic [ref=e13128]: 𝑛
+                              - generic [ref=e13129]:
+                                - generic [ref=e13130]: 𝑧
+                                - generic [ref=e13131]: 𝑛
+                            - math [ref=e13132]:
+                              - generic [ref=e13134]:
+                                - generic [ref=e13135]:
+                                  - generic [ref=e13136]: O
+                                  - generic [ref=e13137]: "n"
+                                - generic [ref=e13138]:
+                                  - generic [ref=e13139]: x
+                                  - generic [ref=e13140]: "n"
+                                - generic [ref=e13141]:
+                                  - generic [ref=e13142]: "y"
+                                  - generic [ref=e13143]: "n"
+                                - generic [ref=e13144]:
+                                  - generic [ref=e13145]: z
+                                  - generic [ref=e13146]: "n"
+                          - text: frame) are presented in
+                          - link "Figure 11" [ref=e13147] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f011"
+                          - text: ", the angular rates (measured in the body-fixed"
+                          - generic [ref=e13148]:
+                            - generic [ref=e13154]:
+                              - generic [ref=e13155]:
+                                - generic [ref=e13156]: 𝑂
+                                - generic [ref=e13157]: 𝑏
+                              - generic [ref=e13158]:
+                                - generic [ref=e13159]: 𝑥
+                                - generic [ref=e13160]: 𝑏
+                              - generic [ref=e13161]:
+                                - generic [ref=e13162]: 𝑦
+                                - generic [ref=e13163]: 𝑏
+                              - generic [ref=e13164]:
+                                - generic [ref=e13165]: 𝑧
+                                - generic [ref=e13166]: 𝑏
+                            - math [ref=e13167]:
+                              - generic [ref=e13169]:
+                                - generic [ref=e13170]:
+                                  - generic [ref=e13171]: O
+                                  - generic [ref=e13172]: b
+                                - generic [ref=e13173]:
+                                  - generic [ref=e13174]: x
+                                  - generic [ref=e13175]: b
+                                - generic [ref=e13176]:
+                                  - generic [ref=e13177]: "y"
+                                  - generic [ref=e13178]: b
+                                - generic [ref=e13179]:
+                                  - generic [ref=e13180]: z
+                                  - generic [ref=e13181]: b
+                          - text: frame) in
+                          - link "Figure 12" [ref=e13182] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f012"
+                          - text: ", the quadrotor position in"
+                          - link "Figure 13" [ref=e13183] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f013"
+                          - text: ", and the Euler angles in"
+                          - link "Figure 14" [ref=e13184] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f014"
+                          - text: .
+                        - generic [ref=e13185]:
+                          - generic [ref=e13187] [cursor=pointer]:
+                            - img "Energies 15 07136 g011" [ref=e13188]
+                            - link [ref=e13189]:
+                              - /url: "#fig_body_display_energies-15-07136-f011"
+                          - generic [ref=e13190]: "Figure 11. Linear velocities: (a) north–south, (b) west–east, and (c) vertical."
+                        - generic [ref=e13191]:
+                          - generic [ref=e13193] [cursor=pointer]:
+                            - img "Energies 15 07136 g012" [ref=e13194]
+                            - link [ref=e13195]:
+                              - /url: "#fig_body_display_energies-15-07136-f012"
+                          - generic [ref=e13196]: "Figure 12. Angular rates: (a) roll, (b) pitch, and (c) yaw."
+                        - generic [ref=e13197]:
+                          - generic [ref=e13199] [cursor=pointer]:
+                            - img "Energies 15 07136 g013" [ref=e13200]
+                            - link [ref=e13201]:
+                              - /url: "#fig_body_display_energies-15-07136-f013"
+                          - generic [ref=e13202]: "Figure 13. Quadrotor position: (a) north–south, (b) west–east, and (c) altitude."
+                        - generic [ref=e13203]:
+                          - generic [ref=e13205] [cursor=pointer]:
+                            - img "Energies 15 07136 g014" [ref=e13206]
+                            - link [ref=e13207]:
+                              - /url: "#fig_body_display_energies-15-07136-f014"
+                          - generic [ref=e13208]: "Figure 14. Euler angles: (a) roll, (b) pitch, and (c) yaw."
+                        - generic [ref=e13209]:
+                          - text: The maximum flight attitude was 30 m (
+                          - link "Figure 13" [ref=e13210] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f013"
+                          - text: c).
+                        - generic [ref=e13211]:
+                          - text: Small inconsistencies between the roll and pitch angles (
+                          - link "Figure 14" [ref=e13212] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f014"
+                          - text: a,b) resulted from model simplifications (e.g., uniform wind was assumed). In
+                          - link "Figure 14" [ref=e13213] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f014"
+                          - text: c the line that represents the model output was nearly indistinguishable from the line representing the real data.
+                        - generic [ref=e13214]:
+                          - text: The comparison of energetic parameters is presented in
+                          - link "Figure 15" [ref=e13215] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f015"
+                          - text: .
+                        - generic [ref=e13216]:
+                          - generic [ref=e13218] [cursor=pointer]:
+                            - img "Energies 15 07136 g015" [ref=e13219]
+                            - link [ref=e13220]:
+                              - /url: "#fig_body_display_energies-15-07136-f015"
+                          - generic [ref=e13221]: "Figure 15. Energetic model: (a) total energy consumed by the drone, (b) battery state of charge, (c) voltage, and (d) current."
+                        - generic [ref=e13222]:
+                          - text: The consumed energy increased linearly. The initial battery state of charge was 99.8% and during the flight it decreased to approximately 97%. In
+                          - link "Figure 15" [ref=e13223] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f015"
+                          - text: c,d some disparities were observed. In reality, the internal battery resistance also changes with time. This effect could also be included in the presented model. Load generated a voltage drop of the battery. This voltage drop was predicted correctly.
+                      - generic [ref=e13224]:
+                        - heading "3.4. Case 2 (Long Duration Trajectory)" [level=3] [ref=e13225]
+                        - generic [ref=e13226]:
+                          - text: Next, the robustness of the model against different input data was checked. In this way, one might ensure that the model parameters are tuned properly not only for a single trajectory, but the model is also able to produce reliable results for a wide range of flight scenarios. A more complicated example of the validation result is presented in
+                          - link "Figure 16" [ref=e13227] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f016"
+                          - text: ","
+                          - link "Figure 17" [ref=e13228] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f017"
+                          - text: and
+                          - link "Figure 18" [ref=e13229] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f018"
+                          - text: . The quadrotor flew along the trajectory that was defined by the 47 waypoints (
+                          - link "Figure 16" [ref=e13230] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f016"
+                          - text: ) and it performed flight along a mixed parallel track and a creeping line search pattern. The mission was realized autonomously. The flight started on the ground. Next, the drone took off, climbed to the altitude of 30 m, and carried out the planed mission. Finally, it returned to the initial point.
+                        - generic [ref=e13231]:
+                          - generic [ref=e13233] [cursor=pointer]:
+                            - img "Energies 15 07136 g016" [ref=e13234]
+                            - link [ref=e13235]:
+                              - /url: "#fig_body_display_energies-15-07136-f016"
+                          - generic [ref=e13236]: "Figure 16. The comparison of trajectories between reality and simulation: (a) 3D view of the trajectory and (b) 2D plot of the drone trajectory."
+                        - generic [ref=e13237]:
+                          - generic [ref=e13239] [cursor=pointer]:
+                            - img "Energies 15 07136 g017" [ref=e13240]
+                            - link [ref=e13241]:
+                              - /url: "#fig_body_display_energies-15-07136-f017"
+                          - generic [ref=e13242]: "Figure 17. Linear velocities: (a) north–south, (b) west–east, and (c) vertical."
+                        - generic [ref=e13243]:
+                          - generic [ref=e13245] [cursor=pointer]:
+                            - img "Energies 15 07136 g018" [ref=e13246]
+                            - link [ref=e13247]:
+                              - /url: "#fig_body_display_energies-15-07136-f018"
+                          - generic [ref=e13248]: "Figure 18. Angular rates: (a) roll, (b) pitch, and (c) yaw."
+                        - generic [ref=e13249]:
+                          - text: The mean wind speed and direction measured during the flight test were 7 m/s and 225° and these values were adopted for the simulation test. The map of the flight trajectory used in both real flight and simulation is shown in
+                          - link "Figure 16" [ref=e13250] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f016"
+                          - text: .
+                        - generic [ref=e13251]:
+                          - text: The comparison of the quadrotor velocity (with respect to the ground), angular rates, position, and attitude for the test flight and simulation are presented in
+                          - link "Figure 17" [ref=e13252] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f017"
+                          - text: ","
+                          - link "Figure 18" [ref=e13253] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f018"
+                          - text: ","
+                          - link "Figure 19" [ref=e13254] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f019"
+                          - text: and
+                          - link "Figure 20" [ref=e13255] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f020"
+                          - text: .
+                        - generic [ref=e13256]:
+                          - generic [ref=e13258] [cursor=pointer]:
+                            - img "Energies 15 07136 g019" [ref=e13259]
+                            - link [ref=e13260]:
+                              - /url: "#fig_body_display_energies-15-07136-f019"
+                          - generic [ref=e13261]: "Figure 19. Quadrotor position: (a) north–south, (b) west–east, and (c) altitude."
+                        - generic [ref=e13262]:
+                          - generic [ref=e13264] [cursor=pointer]:
+                            - img "Energies 15 07136 g020" [ref=e13265]
+                            - link [ref=e13266]:
+                              - /url: "#fig_body_display_energies-15-07136-f020"
+                          - generic [ref=e13267]: "Figure 20. Euler angles: (a) roll, (b) pitch, and (c) yaw."
+                        - generic [ref=e13268]: The total flight time was 1271.55 [s]. Autopilot settings limited the maximum speed in the horizontal and vertical directions.
+                        - generic [ref=e13269]:
+                          - text: The drone started from the ground and the vertical coordinate changed to −30 m (
+                          - link "Figure 19" [ref=e13270] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f019"
+                          - text: c). Most of the mission was realized at a constant altitude of 30 m.
+                        - generic [ref=e13271]:
+                          - text: The results showed the good fit of the quadrotor dynamic model. The small differences resulted from the quality of the onboard sensors used in the test flight, simulation model of the autopilot, and estimated constant wind conditions in the simulation [
+                          - link "79" [ref=e13272] [cursor=pointer]:
+                            - /url: "#B79-energies-15-07136"
+                          - text: "]."
+                        - generic [ref=e13273]:
+                          - text: The results of the comparison of the energy consumption, battery state of charge, voltage, and current are presented in
+                          - link "Figure 21" [ref=e13274] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f021"
+                          - text: .
+                        - generic [ref=e13275]:
+                          - generic [ref=e13277] [cursor=pointer]:
+                            - img "Energies 15 07136 g021a" [ref=e13278]
+                            - img "Energies 15 07136 g021b" [ref=e13279]
+                            - link [ref=e13280]:
+                              - /url: "#fig_body_display_energies-15-07136-f021"
+                          - generic [ref=e13281]: "Figure 21. Energetic model: (a) total energy consumed by the drone (b) battery state of charge, (c) voltage, and (d) current."
+                        - generic [ref=e13282]:
+                          - text: The energy consumption is nearly a linear function of flight time. At the end of the flight the SOC was 65%. The total amount of energy consumed in the real test was 537.063 × 10
+                          - superscript [ref=e13283]: "3"
+                          - text: Ws and in the simulation was 549.711 × 10
+                          - superscript [ref=e13284]: "3"
+                          - text: Ws, which proves the good fit of the simulation model. The battery state was not measured during the test flight, but its time plot seems to be correct according to the authors’ knowledge. The maximum current did not exceed 50 A. The battery voltage decreased slowly with time. The results of the simulation are close enough to the results from the flight tests.
+                        - generic [ref=e13285]:
+                          - text: The trajectory pattern consists of 22 legs (13 in E–W and 9 in N–S directions) and 20 turns. The statistical analysis of real energy consumption for each pattern portion was evaluated. The histograms and fitted probability distribution plots are shown in
+                          - link "Figure 22" [ref=e13286] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f022"
+                          - text: . It was assumed that the distribution for the N–S leg and turn is normal, since for the E–W leg the Weibull distribution was used.
+                        - generic [ref=e13287]:
+                          - generic [ref=e13289] [cursor=pointer]:
+                            - img "Energies 15 07136 g022" [ref=e13290]
+                            - link [ref=e13291]:
+                              - /url: "#fig_body_display_energies-15-07136-f022"
+                          - generic [ref=e13292]: Figure 22. Histogram and probability distribution fit of (a) the N–S leg (b), the E–W leg, and (c) turn (real data).
+                        - generic [ref=e13293]:
+                          - text: The two-sided 95% confidence intervals are presented in
+                          - link "Table 5" [ref=e13294] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t005"
+                          - text: . The values of the consumed energy in each pattern type obtained in the simulation were 15.123 kWs for the N–S leg, 22.033 kWs for the E–W leg, and 4.843 kWs for turn. All results are included in corresponding confidence intervals; therefore, it can be assumed that the model of energy consumption works properly.
+                        - generic [ref=e13295]:
+                          - generic [ref=e13296]: Table 5. Energy consumed by the drone in various maneuvers (real data).
+                          - generic [ref=e13298] [cursor=pointer]:
+                            - img [ref=e13299]
+                            - link [ref=e13300]:
+                              - /url: "#table_body_display_energies-15-07136-t005"
+                        - generic [ref=e13301]:
+                          - text: The root mean square errors (RMSE) were used as a measure of similarity between the model and the real flight (
+                          - link "Table 6" [ref=e13302] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t006"
+                          - text: ).
+                        - generic [ref=e13303]:
+                          - generic [ref=e13304]: Table 6. Root mean square errors.
+                          - generic [ref=e13306] [cursor=pointer]:
+                            - img [ref=e13307]
+                            - link [ref=e13308]:
+                              - /url: "#table_body_display_energies-15-07136-t006"
+                        - generic [ref=e13309]:
+                          - text: Additionally, Theil’s Inequality Coefficient (TIC) was applied to check the model reliability [
+                          - link "80" [ref=e13310] [cursor=pointer]:
+                            - /url: "#B80-energies-15-07136"
+                          - text: "]. TIC is a measure of degree of conformance between two time series ["
+                          - link "81" [ref=e13311] [cursor=pointer]:
+                            - /url: "#B81-energies-15-07136"
+                          - text: "]:"
+                          - generic [ref=e13312]:
+                            - generic [ref=e13315]:
+                              - generic [ref=e13321]:
+                                - generic [ref=e13322]: 𝑇
+                                - generic [ref=e13324]: 𝐼
+                                - generic [ref=e13326]:
+                                  - generic [ref=e13327]: 𝐶
+                                  - generic [ref=e13328]: 𝑖
+                                - text: =
+                                - generic [ref=e13329]:
+                                  - generic [ref=e13332]:
+                                    - generic [ref=e13335]:
+                                      - generic [ref=e13336]:
+                                        - generic [ref=e13337]: "1"
+                                        - generic [ref=e13339]: 𝑁
+                                      - generic [ref=e13343]:
+                                        - generic [ref=e13346]: ∑
+                                        - generic [ref=e13348]: 𝑁
+                                        - generic [ref=e13351]:
+                                          - generic [ref=e13352]: 𝑘
+                                          - text: =1
+                                      - generic [ref=e13354]:
+                                        - generic [ref=e13357]:
+                                          - generic [ref=e13358]: "["
+                                          - generic [ref=e13359]:
+                                            - generic [ref=e13360]:
+                                              - generic [ref=e13361]: 𝑧
+                                              - generic [ref=e13362]: 𝑖
+                                            - generic [ref=e13363]:
+                                              - generic [ref=e13364]: (
+                                              - generic [ref=e13366]:
+                                                - generic [ref=e13367]: 𝑡
+                                                - generic [ref=e13369]: 𝑘
+                                              - generic [ref=e13371]: )
+                                            - text: −
+                                            - generic [ref=e13372]:
+                                              - generic [ref=e13373]: 𝑦
+                                              - generic [ref=e13374]: 𝑖
+                                            - generic [ref=e13375]:
+                                              - generic [ref=e13376]: (
+                                              - generic [ref=e13378]:
+                                                - generic [ref=e13379]: 𝑡
+                                                - generic [ref=e13381]: 𝑘
+                                              - generic [ref=e13383]: )
+                                          - generic [ref=e13384]: "]"
+                                        - generic [ref=e13385]: "2"
+                                    - generic [ref=e13386]:
+                                      - generic [ref=e13387]: −
+                                      - generic [ref=e13388]: −
+                                      - generic [ref=e13389]: −
+                                      - generic [ref=e13390]: −
+                                      - generic [ref=e13391]: −
+                                      - generic [ref=e13392]: −
+                                      - generic [ref=e13393]: −
+                                      - generic [ref=e13394]: −
+                                      - generic [ref=e13395]: −
+                                      - generic [ref=e13396]: −
+                                      - generic [ref=e13397]: −
+                                      - generic [ref=e13398]: −
+                                      - generic [ref=e13399]: −
+                                      - generic [ref=e13400]: −
+                                      - generic [ref=e13401]: −
+                                      - generic [ref=e13402]: −
+                                      - generic [ref=e13403]: −
+                                      - generic [ref=e13404]: −
+                                      - generic [ref=e13405]: −
+                                      - generic [ref=e13406]: −
+                                    - generic [ref=e13407]: √
+                                  - generic [ref=e13409]:
+                                    - generic [ref=e13410]:
+                                      - generic [ref=e13413]:
+                                        - generic [ref=e13414]:
+                                          - generic [ref=e13415]: "1"
+                                          - generic [ref=e13417]: 𝑁
+                                        - generic [ref=e13421]:
+                                          - generic [ref=e13424]: ∑
+                                          - generic [ref=e13426]: 𝑁
+                                          - generic [ref=e13429]:
+                                            - generic [ref=e13430]: 𝑘
+                                            - text: =1
+                                        - generic [ref=e13432]:
+                                          - generic [ref=e13435]:
+                                            - generic [ref=e13436]: "["
+                                            - generic [ref=e13437]:
+                                              - generic [ref=e13438]:
+                                                - generic [ref=e13439]: 𝑧
+                                                - generic [ref=e13440]: 𝑖
+                                              - generic [ref=e13441]:
+                                                - generic [ref=e13442]: (
+                                                - generic [ref=e13444]:
+                                                  - generic [ref=e13445]: 𝑡
+                                                  - generic [ref=e13447]: 𝑘
+                                                - generic [ref=e13449]: )
+                                            - generic [ref=e13450]: "]"
+                                          - generic [ref=e13451]: "2"
+                                      - generic [ref=e13452]:
+                                        - generic [ref=e13453]: −
+                                        - generic [ref=e13454]: −
+                                        - generic [ref=e13455]: −
+                                        - generic [ref=e13456]: −
+                                        - generic [ref=e13457]: −
+                                        - generic [ref=e13458]: −
+                                        - generic [ref=e13459]: −
+                                        - generic [ref=e13460]: −
+                                        - generic [ref=e13461]: −
+                                        - generic [ref=e13462]: −
+                                        - generic [ref=e13463]: −
+                                        - generic [ref=e13464]: −
+                                        - generic [ref=e13465]: −
+                                      - generic [ref=e13466]: √
+                                    - text: +
+                                    - generic [ref=e13467]:
+                                      - generic [ref=e13470]:
+                                        - generic [ref=e13471]:
+                                          - generic [ref=e13472]: "1"
+                                          - generic [ref=e13474]: 𝑁
+                                        - generic [ref=e13478]:
+                                          - generic [ref=e13481]: ∑
+                                          - generic [ref=e13483]: 𝑁
+                                          - generic [ref=e13486]:
+                                            - generic [ref=e13487]: 𝑘
+                                            - text: =1
+                                        - generic [ref=e13489]:
+                                          - generic [ref=e13492]:
+                                            - generic [ref=e13493]: "["
+                                            - generic [ref=e13494]:
+                                              - generic [ref=e13495]:
+                                                - generic [ref=e13496]: 𝑦
+                                                - generic [ref=e13497]: 𝑖
+                                              - generic [ref=e13498]:
+                                                - generic [ref=e13499]: (
+                                                - generic [ref=e13501]:
+                                                  - generic [ref=e13502]: 𝑡
+                                                  - generic [ref=e13504]: 𝑘
+                                                - generic [ref=e13506]: )
+                                            - generic [ref=e13507]: "]"
+                                          - generic [ref=e13508]: "2"
+                                      - generic [ref=e13509]:
+                                        - generic [ref=e13510]: −
+                                        - generic [ref=e13511]: −
+                                        - generic [ref=e13512]: −
+                                        - generic [ref=e13513]: −
+                                        - generic [ref=e13514]: −
+                                        - generic [ref=e13515]: −
+                                        - generic [ref=e13516]: −
+                                        - generic [ref=e13517]: −
+                                        - generic [ref=e13518]: −
+                                        - generic [ref=e13519]: −
+                                        - generic [ref=e13520]: −
+                                        - generic [ref=e13521]: −
+                                        - generic [ref=e13522]: −
+                                      - generic [ref=e13523]: √
+                                - text: ", 𝑖=1…"
+                                - generic [ref=e13526]:
+                                  - generic [ref=e13527]: 𝑛
+                                  - generic [ref=e13528]: 𝑦
+                              - math [ref=e13529]:
+                                - generic [ref=e13531]:
+                                  - generic [ref=e13532]: T
+                                  - generic [ref=e13533]: I
+                                  - generic [ref=e13534]:
+                                    - generic [ref=e13535]: C
+                                    - generic [ref=e13536]: i
+                                  - generic [ref=e13537]: =
+                                  - generic [ref=e13538]:
+                                    - generic [ref=e13541]:
+                                      - generic [ref=e13542]:
+                                        - generic [ref=e13543]: "1"
+                                        - generic [ref=e13544]: "N"
+                                      - generic [ref=e13545]:
+                                        - generic [ref=e13547]: ∑
+                                        - generic [ref=e13548]:
+                                          - generic [ref=e13549]: k
+                                          - generic [ref=e13550]: =
+                                          - generic [ref=e13551]: "1"
+                                        - generic [ref=e13552]: "N"
+                                      - generic [ref=e13553]:
+                                        - generic [ref=e13556]:
+                                          - generic [ref=e13557]:
+                                            - generic [ref=e13558]: z
+                                            - generic [ref=e13559]: i
+                                          - generic [ref=e13562]:
+                                            - generic [ref=e13563]: t
+                                            - generic [ref=e13564]: k
+                                          - generic [ref=e13565]: −
+                                          - generic [ref=e13566]:
+                                            - generic [ref=e13567]: "y"
+                                            - generic [ref=e13568]: i
+                                          - generic [ref=e13571]:
+                                            - generic [ref=e13572]: t
+                                            - generic [ref=e13573]: k
+                                        - generic [ref=e13574]: "2"
+                                    - generic [ref=e13575]:
+                                      - generic [ref=e13577]:
+                                        - generic [ref=e13578]:
+                                          - generic [ref=e13579]: "1"
+                                          - generic [ref=e13580]: "N"
+                                        - generic [ref=e13581]:
+                                          - generic [ref=e13583]: ∑
+                                          - generic [ref=e13584]:
+                                            - generic [ref=e13585]: k
+                                            - generic [ref=e13586]: =
+                                            - generic [ref=e13587]: "1"
+                                          - generic [ref=e13588]: "N"
+                                        - generic [ref=e13589]:
+                                          - generic [ref=e13592]:
+                                            - generic [ref=e13593]:
+                                              - generic [ref=e13594]: z
+                                              - generic [ref=e13595]: i
+                                            - generic [ref=e13598]:
+                                              - generic [ref=e13599]: t
+                                              - generic [ref=e13600]: k
+                                          - generic [ref=e13601]: "2"
+                                      - generic [ref=e13602]: +
+                                      - generic [ref=e13604]:
+                                        - generic [ref=e13605]:
+                                          - generic [ref=e13606]: "1"
+                                          - generic [ref=e13607]: "N"
+                                        - generic [ref=e13608]:
+                                          - generic [ref=e13610]: ∑
+                                          - generic [ref=e13611]:
+                                            - generic [ref=e13612]: k
+                                            - generic [ref=e13613]: =
+                                            - generic [ref=e13614]: "1"
+                                          - generic [ref=e13615]: "N"
+                                        - generic [ref=e13616]:
+                                          - generic [ref=e13619]:
+                                            - generic [ref=e13620]:
+                                              - generic [ref=e13621]: "y"
+                                              - generic [ref=e13622]: i
+                                            - generic [ref=e13625]:
+                                              - generic [ref=e13626]: t
+                                              - generic [ref=e13627]: k
+                                          - generic [ref=e13628]: "2"
+                                  - generic [ref=e13629]: ","
+                                  - generic [ref=e13630]: i
+                                  - generic [ref=e13631]: =
+                                  - generic [ref=e13632]: "1"
+                                  - generic [ref=e13633]: …
+                                  - generic [ref=e13634]:
+                                    - generic [ref=e13635]: "n"
+                                    - generic [ref=e13636]: "y"
+                            - generic [ref=e13638]: (63)
+                          - text: where
+                          - generic [ref=e13639]:
+                            - generic [ref=e13644]: 𝑦
+                            - math [ref=e13645]:
+                              - generic [ref=e13647]: "y"
+                          - text: is a time history of data obtained from simulation,
+                          - generic [ref=e13648]:
+                            - generic [ref=e13653]: 𝑧
+                            - math [ref=e13654]:
+                              - generic [ref=e13656]: z
+                          - text: is a vector of samples from the experiment,
+                          - generic [ref=e13657]:
+                            - generic [ref=e13663]: 𝑁
+                            - math [ref=e13665]:
+                              - generic [ref=e13667]: "N"
+                          - text: is the number of data points,
+                          - generic [ref=e13668]:
+                            - generic [ref=e13675]:
+                              - generic [ref=e13676]: 𝑛
+                              - generic [ref=e13677]: 𝑦
+                            - math [ref=e13678]:
+                              - generic [ref=e13681]:
+                                - generic [ref=e13682]: "n"
+                                - generic [ref=e13683]: "y"
+                          - text: is the number of outputs, and
+                          - generic [ref=e13684]:
+                            - generic [ref=e13691]:
+                              - generic [ref=e13692]: 𝑡
+                              - generic [ref=e13694]: 𝑘
+                            - math [ref=e13696]:
+                              - generic [ref=e13699]:
+                                - generic [ref=e13700]: t
+                                - generic [ref=e13701]: k
+                          - text: is the
+                          - generic [ref=e13702]:
+                            - generic [ref=e13708]: 𝑘
+                            - math [ref=e13710]:
+                              - generic [ref=e13712]: k
+                          - text: "-th discrete data point. In this way, Equation (63) provides"
+                          - generic [ref=e13713]:
+                            - generic [ref=e13720]:
+                              - generic [ref=e13721]: 𝑛
+                              - generic [ref=e13722]: 𝑦
+                            - math [ref=e13723]:
+                              - generic [ref=e13726]:
+                                - generic [ref=e13727]: "n"
+                                - generic [ref=e13728]: "y"
+                          - text: separate TIC coefficients. Values of TIC remained between 0 and 1. TIC = 0 means that a strong correlation between data and model existed. On the other hand, TIC = 1 when the model did not represent the reality. For practical purposes, TIC < 0.25 is preferred [
+                          - link "80" [ref=e13729] [cursor=pointer]:
+                            - /url: "#B80-energies-15-07136"
+                          - text: "]. As mentioned before, TIC was calculated for several (12) flight parameters separately ("
+                          - link "Table 6" [ref=e13730] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t006"
+                          - text: ).
+                        - generic [ref=e13731]:
+                          - text: The largest disparities were obtained for quadrotor roll and pitch angular rates (TIC > 0.7). The model predictions for vertical position
+                          - generic [ref=e13732]:
+                            - generic [ref=e13739]:
+                              - generic [ref=e13740]: 𝑧
+                              - generic [ref=e13741]: 𝑛
+                            - math [ref=e13742]:
+                              - generic [ref=e13745]:
+                                - generic [ref=e13746]: z
+                                - generic [ref=e13747]: "n"
+                          - text: were very close to the experimental results.
+                      - generic [ref=e13748]:
+                        - heading "3.5. Monte-Carlo Validation of the Energy Consumption" [level=3] [ref=e13749]
+                        - generic [ref=e13750]:
+                          - text: "The model parameters were obtained with some uncertainty. Next, to investigate the model sensitivity on the abovementioned parameter’s uncertainties, the Monte-Carlo simulation was evaluated. Quadrotor mass, moments of inertia, initial conditions, wind speed, and azimuth were taken into consideration. Each parameter was calculated as a sum of two components: nominal value"
+                          - generic [ref=e13751]:
+                            - generic [ref=e13756]: 𝜇
+                            - math [ref=e13757]:
+                              - generic [ref=e13759]: μ
+                          - text: and normally distributed pseudorandom disturbance with zero mean and standard deviation
+                          - generic [ref=e13760]:
+                            - generic [ref=e13766]: 𝜎
+                            - math [ref=e13768]:
+                              - generic [ref=e13770]: σ
+                          - text: "["
+                          - link "82" [ref=e13771] [cursor=pointer]:
+                            - /url: "#B82-energies-15-07136"
+                          - text: ","
+                          - link "83" [ref=e13772] [cursor=pointer]:
+                            - /url: "#B83-energies-15-07136"
+                          - text: ","
+                          - link "84" [ref=e13773] [cursor=pointer]:
+                            - /url: "#B84-energies-15-07136"
+                          - text: "]. The input data to the simulation are presented in"
+                          - link "Table 7" [ref=e13774] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t007"
+                          - text: .
+                        - generic [ref=e13775]:
+                          - generic [ref=e13776]: Table 7. Input parameters for the Monte-Carlo simulation.
+                          - generic [ref=e13778] [cursor=pointer]:
+                            - img [ref=e13779]
+                            - link [ref=e13780]:
+                              - /url: "#table_body_display_energies-15-07136-t007"
+                        - generic [ref=e13781]:
+                          - text: The values of standard deviations were obtained by laboratory experiments. To generate pseudorandom input data, the Marsenne–Twister algorithm [
+                          - link "85" [ref=e13782] [cursor=pointer]:
+                            - /url: "#B85-energies-15-07136"
+                          - text: "] was used (initial seed was set to 0). For each case, 100 runs were evaluated. The average time of a single simulation run for case 1 was 14.9 s and for case 2 was approximately 179.8 s."
+                        - generic [ref=e13783]:
+                          - text: The obtained trajectories are presented in
+                          - link "Figure 23" [ref=e13784] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f023"
+                          - text: .
+                        - generic [ref=e13785]:
+                          - generic [ref=e13787] [cursor=pointer]:
+                            - img "Energies 15 07136 g023" [ref=e13788]
+                            - link [ref=e13789]:
+                              - /url: "#fig_body_display_energies-15-07136-f023"
+                          - generic [ref=e13790]: "Figure 23. Quadrotor trajectories: (a) case 1 and (b) case 2."
+                        - generic [ref=e13791]:
+                          - text: The mean, minimum, and maximum values of consumed energy are presented in
+                          - link "Table 8" [ref=e13792] [cursor=pointer]:
+                            - /url: "#table_body_display_energies-15-07136-t008"
+                          - text: .
+                        - generic [ref=e13793]:
+                          - generic [ref=e13794]: Table 8. Statistics for the obtained data.
+                          - generic [ref=e13796] [cursor=pointer]:
+                            - img [ref=e13797]
+                            - link [ref=e13798]:
+                              - /url: "#table_body_display_energies-15-07136-t008"
+                        - generic [ref=e13799]:
+                          - text: At first, the influence of all disturbances was tested. In
+                          - link "Figure 24" [ref=e13800] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: a,b the kernel density estimators of the total consumed energy are presented.
+                        - generic [ref=e13801]:
+                          - generic [ref=e13803] [cursor=pointer]:
+                            - img "Energies 15 07136 g024" [ref=e13804]
+                            - link [ref=e13805]:
+                              - /url: "#fig_body_display_energies-15-07136-f024"
+                          - generic [ref=e13806]: "Figure 24. Kernel density estimators of consumed energy: (a) case 1: all disturbances, (b) case 2: all disturbances, (c) case 1: wind disturbances, (d) case 2: wind disturbances, (e) case 1: mass disturbances, and (f) case 2: mass disturbances."
+                        - generic [ref=e13807]:
+                          - text: Next, the same scenarios were repeated but only with disturbances in wind conditions
+                          - generic [ref=e13808]:
+                            - generic [ref=e13815]:
+                              - generic [ref=e13817]: 𝑉
+                              - generic [ref=e13820]:
+                                - generic [ref=e13821]: 𝑊
+                                - text: 𝑡𝑜𝑡
+                            - math [ref=e13823]:
+                              - generic [ref=e13826]:
+                                - generic [ref=e13827]: V
+                                - generic [ref=e13828]:
+                                  - generic [ref=e13829]: W
+                                  - generic [ref=e13830]: t
+                                  - generic [ref=e13831]: o
+                                  - generic [ref=e13832]: t
+                          - text: and
+                          - generic [ref=e13833]:
+                            - generic [ref=e13840]:
+                              - generic [ref=e13842]: 𝛹
+                              - generic [ref=e13845]: 𝑊
+                            - math [ref=e13847]:
+                              - generic [ref=e13850]:
+                                - generic [ref=e13851]: Ψ
+                                - generic [ref=e13852]: W
+                          - text: (
+                          - link "Figure 24" [ref=e13853] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: c,d). Later, only the disturbances in mass
+                          - generic [ref=e13854]:
+                            - generic [ref=e13859]: 𝑚
+                            - math [ref=e13860]:
+                              - generic [ref=e13862]: m
+                          - text: and moments of inertia
+                          - generic [ref=e13863]:
+                            - generic [ref=e13869]:
+                              - generic [ref=e13870]:
+                                - generic [ref=e13872]: 𝐼
+                                - generic [ref=e13875]: 𝑥𝑥
+                              - text: ","
+                              - generic [ref=e13876]:
+                                - generic [ref=e13878]: 𝐼
+                                - generic [ref=e13881]: 𝑦𝑦
+                              - text: ","
+                              - generic [ref=e13882]:
+                                - generic [ref=e13884]: 𝐼
+                                - generic [ref=e13887]: 𝑧𝑧
+                            - math [ref=e13888]:
+                              - generic [ref=e13890]:
+                                - generic [ref=e13891]:
+                                  - generic [ref=e13892]: I
+                                  - generic [ref=e13893]:
+                                    - generic [ref=e13894]: x
+                                    - generic [ref=e13895]: x
+                                - generic [ref=e13896]: ","
+                                - generic [ref=e13897]:
+                                  - generic [ref=e13898]: I
+                                  - generic [ref=e13899]:
+                                    - generic [ref=e13900]: "y"
+                                    - generic [ref=e13901]: "y"
+                                - generic [ref=e13902]: ","
+                                - generic [ref=e13903]:
+                                  - generic [ref=e13904]: I
+                                  - generic [ref=e13905]:
+                                    - generic [ref=e13906]: z
+                                    - generic [ref=e13907]: z
+                          - text: were tested (
+                          - link "Figure 24" [ref=e13908] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: e,f). Wind speed and direction are some of the major factors that could affect the drone dynamics and energy consumption. Additionally, the energy consumed in the real flight was marked by a vertical line as a reference.
+                        - generic [ref=e13909]:
+                          - text: The uncertainty of parameters could influence the prediction of total consumed energy. For case 1 (
+                          - link "Figure 24" [ref=e13910] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: a) the minimum consumed energy was between 46 × 10
+                          - superscript [ref=e13911]: "3"
+                          - text: Ws and 51 × 10
+                          - superscript [ref=e13912]: "3"
+                          - text: Ws. The model underestimated the total energy consumption. The opposite situation was obtained in case 2 (
+                          - link "Figure 24" [ref=e13913] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: b). The consumed energy fell into the range from 520 × 10
+                          - superscript [ref=e13914]: "3"
+                          - text: Ws to 570 × 10
+                          - superscript [ref=e13915]: "3"
+                          - text: Ws and the model overestimated the results.
+                        - generic [ref=e13916]:
+                          - text: Considering only wind disturbances resulted in quantitatively different results. The curve presented in
+                          - link "Figure 24" [ref=e13917] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: c is tall and narrow. The predicted amount of energy was smaller than in reality. The curves presented in
+                          - link "Figure 24" [ref=e13918] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: e,f are very similar for all disturbances (
+                          - link "Figure 24" [ref=e13919] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f024"
+                          - text: a,b). The obtained results qualitatively agree well with the analysis presented in ref. [
+                          - link "86" [ref=e13920] [cursor=pointer]:
+                            - /url: "#B86-energies-15-07136"
+                          - text: "]."
+                      - generic [ref=e13921]:
+                        - 'heading "3.6. Wind Influence on the Energy Consumption: Practical Example" [level=3] [ref=e13922]'
+                        - generic [ref=e13923]:
+                          - text: "Finally, a practical example of the model use is presented. To investigate the effect of wind on the amount of consumed energy, four simulation scenarios were considered: headwind and tailwind combined with two different wind velocities. Initially, the quadrotor was at hover at altitude 40 m above the ground. Next, the quadrotor moved from point (0, 0, −40) to (200, 0, −40) along a straight line at a constant altitude. In the first and second scenarios (headwind), the mean wind azimuth was 0°, but in the third and fourth scenarios (tailwind) this angle was set to 180°. The standard deviation of wind azimuth was the same for both analyzed cases and equal to 15°. Wind speed was set to 4.5 m/s and 9 m/s, respectively. All other disturbances were omitted (standard deviations for them were set to 0). For each scenario 100 Monte-Carlo runs were evaluated (total number of runs was 400). The obtained results are presented in"
+                          - link "Figure 25" [ref=e13924] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f025"
+                          - text: .
+                        - generic [ref=e13925]:
+                          - generic [ref=e13927] [cursor=pointer]:
+                            - img "Energies 15 07136 g025" [ref=e13928]
+                            - link [ref=e13929]:
+                              - /url: "#fig_body_display_energies-15-07136-f025"
+                          - generic [ref=e13930]: "Figure 25. Histograms of consumed energy: (a) mean wind azimuth 0°, wind speed 4.5 m/s, (b) mean wind azimuth 180°, wind speed 4.5 m/s, (c) mean wind azimuth 0°, wind speed 9 m/s, and (d) mean wind azimuth 180°, wind speed 9 m/s."
+                        - generic [ref=e13931]:
+                          - text: For headwind, the right-skewed histograms were obtained. When the wind azimuth was disturbed then the drone had to roll to eliminate the lateral drift effect and keep a proper, straight flight direction. The consumed energy in the first scenario was higher than in the second case. On the other hand, for tailwind the left-skewed plots were generated. For headwind and wind speed 4.5 m/s (
+                          - link "Figure 25" [ref=e13932] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f025"
+                          - text: a) the consumed energy was lower than for 9 m/s (
+                          - link "Figure 25" [ref=e13933] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f025"
+                          - text: c). For tailwind and wind speed 4.5 m/s (
+                          - link "Figure 25" [ref=e13934] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f025"
+                          - text: b) the total amount of energy was higher than for 9 m/s (
+                          - link "Figure 25" [ref=e13935] [cursor=pointer]:
+                            - /url: "#fig_body_display_energies-15-07136-f025"
+                          - text: d). This simple example illustrates how the model might be used in energy analysis.
+                    - generic [ref=e13936]:
+                      - heading "4. Conclusions" [level=2] [ref=e13937]
+                      - generic [ref=e13938]: The methodology of the quadrotor dynamics model design was presented. The nonlinear quadrotor dynamic model was validated using real flight data and laboratory tests. Several contributions of this paper might be mentioned.
+                      - generic [ref=e13939]: First, the rotor thrust, torque, and drag force correction factors were used to model the quadrotor dynamics correctly in forward flight. FLIGHTLAB software was used to calculate abovementioned coefficients. In this way, the model might predict the drone behavior for a wide range of flight conditions.
+                      - generic [ref=e13940]: Second, an analysis of energy consumption estimation during a long duration outdoor flight was performed as well. This partially fills the gap in the literature, because such validation results for several minutes of flight are not commonly available.
+                      - generic [ref=e13941]: Third, the simulation model was tuned using the data of real quadrotor obtained in laboratory experiments and flight tests.
+                      - generic [ref=e13942]:
+                        - text: Fourth, the energy consumed by the onboard electronics was taken into account. In this way, the presented study also extends the energy consumption models presented by Yacef et al. [
+                        - link "14" [ref=e13943] [cursor=pointer]:
+                          - /url: "#B14-energies-15-07136"
+                        - text: ","
+                        - link "21" [ref=e13944] [cursor=pointer]:
+                          - /url: "#B21-energies-15-07136"
+                        - text: ","
+                        - link "22" [ref=e13945] [cursor=pointer]:
+                          - /url: "#B22-energies-15-07136"
+                        - text: ","
+                        - link "55" [ref=e13946] [cursor=pointer]:
+                          - /url: "#B55-energies-15-07136"
+                        - text: "] and Morbidi ["
+                        - link "4" [ref=e13947] [cursor=pointer]:
+                          - /url: "#B4-energies-15-07136"
+                        - text: ","
+                        - link "20" [ref=e13948] [cursor=pointer]:
+                          - /url: "#B20-energies-15-07136"
+                        - text: "]. The obtained results confirm conclusions presented by Cabreira et al. ["
+                        - link "87" [ref=e13949] [cursor=pointer]:
+                          - /url: "#B87-energies-15-07136"
+                        - text: "]."
+                      - generic [ref=e13950]: Fifth, the results of Monte-Carlo simulation indicated that model parameter uncertainties might influence the predicted amount of consumed energy. This method is not commonly used in the existing literature for validation quadrotor energy models. However, it allows understanding the impact of parameters on the model output. The uncertainty in the predicted amount of energy increases with the flight duration.
+                      - generic [ref=e13951]:
+                        - text: Sixth, the raw data from the flight trials are included as an
+                        - link "Appendix A" [ref=e13952] [cursor=pointer]:
+                          - /url: "#app2-energies-15-07136"
+                        - text: to the presented study. This dataset might be useful for other researchers.
+                      - generic [ref=e13953]: The time domain analysis of the simulation and flight tests results indicated its good capability for estimating quadrotor energy consumption and usefulness for mission plan optimization. Scientific significance of this work is that this model might be adopted for other quadrotors and used for energy estimating purposes.
+                      - generic [ref=e13954]: Further research might concentrate on flight tests in various flight conditions to gather more data and increase model reliability. Wind tunnel tests of the fuselage and isolated propellers could be performed to obtain aerodynamic coefficients that are used in the simulation model. A detailed model of rotors might be also used. Battery ageing effects might be included into the simulation to make it even more realistic. The developed model could be used for optimal coverage path planning, taking consumed energy as a performance metric.
+                  - generic [ref=e13955]:
+                    - generic [ref=e13957]:
+                      - heading "Supplementary Materials" [level=2] [ref=e13958]
+                      - generic [ref=e13959]:
+                        - text: "The following supporting information can be downloaded at:"
+                        - link "https://www.mdpi.com/article/10.3390/en15197136/s1" [ref=e13960] [cursor=pointer]:
+                          - /url: https://www.mdpi.com/article/10.3390/en15197136/s1
+                        - text: ", flight data that have been used to produce"
+                        - link "Figure 10" [ref=e13961] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f010"
+                        - text: ","
+                        - link "Figure 11" [ref=e13962] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f011"
+                        - text: ","
+                        - link "Figure 12" [ref=e13963] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f012"
+                        - text: ","
+                        - link "Figure 13" [ref=e13964] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f013"
+                        - text: ","
+                        - link "Figure 14" [ref=e13965] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f014"
+                        - text: ","
+                        - link "Figure 15" [ref=e13966] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f015"
+                        - text: ","
+                        - link "Figure 16" [ref=e13967] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f016"
+                        - text: ","
+                        - link "Figure 17" [ref=e13968] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f017"
+                        - text: ","
+                        - link "Figure 18" [ref=e13969] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f018"
+                        - text: ","
+                        - link "Figure 19" [ref=e13970] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f019"
+                        - text: ","
+                        - link "Figure 20" [ref=e13971] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f020"
+                        - text: and
+                        - link "Figure 21" [ref=e13972] [cursor=pointer]:
+                          - /url: "#fig_body_display_energies-15-07136-f021"
+                        - text: .
+                    - generic [ref=e13973]:
+                      - heading "Author Contributions" [level=2] [ref=e13974]
+                      - generic [ref=e13975]: Conceptualization, R.G., P.B. and M.Ż.; methodology, M.Ż.; software, M.J.; validation, M.J., M.Ż.; formal analysis, M.Ż.; investigation, M.J., P.B.; resources, R.G.; data curation, M.J.; writing—original draft preparation, M.J. and M.Ż.; writing—review and editing, M.J.; visualization, M.J. and M.Ż.; supervision, M.Ż.; project administration, R.G.; funding acquisition, R.G. All authors have read and agreed to the published version of the manuscript.
+                    - generic [ref=e13976]:
+                      - heading "Funding" [level=2] [ref=e13977]
+                      - generic [ref=e13978]: This research was funded by National Center for Research and Development (NCBiR), grant number 4/1.1.1/2020 “Renewable Energy Sources (RES) in transport”.
+                    - generic [ref=e13979]:
+                      - heading "Data Availability Statement" [level=2] [ref=e13980]
+                      - generic [ref=e13981]:
+                        - text: Flight data are available as
+                        - link "Supplementary Materials" [ref=e13982] [cursor=pointer]:
+                          - /url: "#app1-energies-15-07136"
+                        - text: . Simulation information will be available on request to the corresponding author’s email with appropriate justification.
+                    - generic [ref=e13983]:
+                      - heading "Acknowledgments" [level=2] [ref=e13984]
+                      - generic [ref=e13985]: Special thanks to Marcin Kasprzyk for conducting the flight trials.
+                    - generic [ref=e13986]:
+                      - heading "Conflicts of Interest" [level=2] [ref=e13987]
+                      - generic [ref=e13988]: The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.
+                    - generic [ref=e13989]:
+                      - heading "Nomenclature" [level=2] [ref=e13990]
+                      - generic [ref=e13991]:
+                        - text: "The following abbreviations and symbols are used in this manuscript:"
+                        - table [ref=e13992]:
+                          - rowgroup [ref=e13993]:
+                            - row "Latin symbols" [ref=e13994]:
+                              - cell "Latin symbols" [ref=e13995]
+                              - cell [ref=e13996]
+                            - row "exponential voltage, (V)" [ref=e13997]:
+                              - cell [ref=e13998]:
+                                - generic [ref=e13999]:
+                                  - generic [ref=e14004]: 𝐴
+                                  - math [ref=e14005]:
+                                    - generic [ref=e14007]: A
+                              - cell "exponential voltage, (V)" [ref=e14008]
+                            - row "aircraft inertia matrix" [ref=e14009]:
+                              - cell [ref=e14010]:
+                                - generic [ref=e14011]:
+                                  - generic [ref=e14016]: 𝑨
+                                  - math [ref=e14017]:
+                                    - generic [ref=e14019]: A
+                              - cell "aircraft inertia matrix" [ref=e14020]
+                            - row "exponential capacity, (Ah)–1" [ref=e14021]:
+                              - cell [ref=e14022]:
+                                - generic [ref=e14023]:
+                                  - generic [ref=e14028]: 𝐵
+                                  - math [ref=e14029]:
+                                    - generic [ref=e14031]: B
+                              - cell "exponential capacity, (Ah)–1" [ref=e14032]:
+                                - text: exponential capacity, (Ah)
+                                - superscript [ref=e14033]: –1
+                            - row "gyroscopic matrix" [ref=e14034]:
+                              - cell [ref=e14035]:
+                                - generic [ref=e14036]:
+                                  - generic [ref=e14041]: 𝑩
+                                  - math [ref=e14042]:
+                                    - generic [ref=e14044]: B
+                              - cell "gyroscopic matrix" [ref=e14045]
+                            - row "propeller chord, (mm)" [ref=e14046]:
+                              - cell [ref=e14047]:
+                                - generic [ref=e14048]:
+                                  - generic [ref=e14053]: 𝑐
+                                  - math [ref=e14054]:
+                                    - generic [ref=e14056]: c
+                              - cell "propeller chord, (mm)" [ref=e14057]
+                            - row "rolling, pitching and yawing moment coefficients, (–)" [ref=e14058]:
+                              - cell [ref=e14059]:
+                                - generic [ref=e14060]:
+                                  - generic [ref=e14066]:
+                                    - generic [ref=e14067]:
+                                      - generic [ref=e14068]: 𝐶
+                                      - generic [ref=e14069]: 𝐿
+                                    - text: ","
+                                    - generic [ref=e14070]:
+                                      - generic [ref=e14071]: 𝐶
+                                      - generic [ref=e14072]: 𝑀
+                                    - text: ","
+                                    - generic [ref=e14073]:
+                                      - generic [ref=e14074]: 𝐶
+                                      - generic [ref=e14076]: 𝑁
+                                  - math [ref=e14078]:
+                                    - generic [ref=e14080]:
+                                      - generic [ref=e14081]:
+                                        - generic [ref=e14082]: C
+                                        - generic [ref=e14083]: L
+                                      - generic [ref=e14084]: ","
+                                      - generic [ref=e14085]:
+                                        - generic [ref=e14086]: C
+                                        - generic [ref=e14087]: M
+                                      - generic [ref=e14088]: ","
+                                      - generic [ref=e14089]:
+                                        - generic [ref=e14090]: C
+                                        - generic [ref=e14091]: "N"
+                              - cell "rolling, pitching and yawing moment coefficients, (–)" [ref=e14092]
+                            - row "drag, side and lift force coefficients, (–)" [ref=e14093]:
+                              - cell [ref=e14094]:
+                                - generic [ref=e14095]:
+                                  - generic [ref=e14101]:
+                                    - generic [ref=e14102]:
+                                      - generic [ref=e14103]: 𝐶
+                                      - generic [ref=e14105]: 𝑋
+                                    - text: ","
+                                    - generic [ref=e14107]:
+                                      - generic [ref=e14108]: 𝐶
+                                      - generic [ref=e14110]: 𝑌
+                                    - text: ","
+                                    - generic [ref=e14112]:
+                                      - generic [ref=e14113]: 𝐶
+                                      - generic [ref=e14114]: 𝑍
+                                  - math [ref=e14115]:
+                                    - generic [ref=e14117]:
+                                      - generic [ref=e14118]:
+                                        - generic [ref=e14119]: C
+                                        - generic [ref=e14120]: X
+                                      - generic [ref=e14121]: ","
+                                      - generic [ref=e14122]:
+                                        - generic [ref=e14123]: C
+                                        - generic [ref=e14124]: "Y"
+                                      - generic [ref=e14125]: ","
+                                      - generic [ref=e14126]:
+                                        - generic [ref=e14127]: C
+                                        - generic [ref=e14128]: Z
+                              - cell "drag, side and lift force coefficients, (–)" [ref=e14129]
+                            - row "reference linear dimension, (m)" [ref=e14130]:
+                              - cell [ref=e14131]:
+                                - generic [ref=e14132]:
+                                  - generic [ref=e14137]: 𝑑
+                                  - math [ref=e14138]:
+                                    - generic [ref=e14140]: d
+                              - cell "reference linear dimension, (m)" [ref=e14141]
+                            - row "diameter of the rotor, (m)" [ref=e14142]:
+                              - cell [ref=e14143]:
+                                - generic [ref=e14144]:
+                                  - generic [ref=e14151]:
+                                    - generic [ref=e14152]: 𝐷
+                                    - generic [ref=e14153]: 𝑝
+                                  - math [ref=e14154]:
+                                    - generic [ref=e14157]:
+                                      - generic [ref=e14158]: D
+                                      - generic [ref=e14159]: p
+                              - cell "diameter of the rotor, (m)" [ref=e14160]
+                            - row "viscous damping coefficient of the motor, (Nm·s/rad)" [ref=e14161]:
+                              - cell [ref=e14162]:
+                                - generic [ref=e14163]:
+                                  - generic [ref=e14170]:
+                                    - generic [ref=e14171]: 𝐷
+                                    - generic [ref=e14172]: 𝑣
+                                  - math [ref=e14173]:
+                                    - generic [ref=e14176]:
+                                      - generic [ref=e14177]: D
+                                      - generic [ref=e14178]: v
+                              - cell "viscous damping coefficient of the motor, (Nm·s/rad)" [ref=e14179]
+                            - row "open circuit battery voltage, (V)" [ref=e14180]:
+                              - cell [ref=e14181]:
+                                - generic [ref=e14182]:
+                                  - generic [ref=e14189]:
+                                    - generic [ref=e14190]: 𝐸
+                                    - generic [ref=e14191]: "0"
+                                  - math [ref=e14192]:
+                                    - generic [ref=e14195]:
+                                      - generic [ref=e14196]: E
+                                      - generic [ref=e14197]: "0"
+                              - cell "open circuit battery voltage, (V)" [ref=e14198]
+                            - row "energy consumed by the onboard electronics, (J)" [ref=e14199]:
+                              - cell [ref=e14200]:
+                                - generic [ref=e14201]:
+                                  - generic [ref=e14208]:
+                                    - generic [ref=e14209]: 𝐸
+                                    - generic [ref=e14210]: 𝐸
+                                  - math [ref=e14211]:
+                                    - generic [ref=e14214]:
+                                      - generic [ref=e14215]: E
+                                      - generic [ref=e14216]: E
+                              - cell "energy consumed by the onboard electronics, (J)" [ref=e14217]
+                            - row "total amount of energy consumed by the quadrotor, (J)" [ref=e14218]:
+                              - cell [ref=e14219]:
+                                - generic [ref=e14220]:
+                                  - generic [ref=e14227]:
+                                    - generic [ref=e14228]: 𝐸
+                                    - generic [ref=e14230]: 𝑇
+                                  - math [ref=e14232]:
+                                    - generic [ref=e14235]:
+                                      - generic [ref=e14236]: E
+                                      - generic [ref=e14237]: T
+                              - cell "total amount of energy consumed by the quadrotor, (J)" [ref=e14238]
+                            - row "energy spent on propulsion, (J)" [ref=e14239]:
+                              - cell [ref=e14240]:
+                                - generic [ref=e14241]:
+                                  - generic [ref=e14248]:
+                                    - generic [ref=e14249]: 𝐸
+                                    - generic [ref=e14250]: 𝑅
+                                  - math [ref=e14251]:
+                                    - generic [ref=e14254]:
+                                      - generic [ref=e14255]: E
+                                      - generic [ref=e14256]: R
+                              - cell "energy spent on propulsion, (J)" [ref=e14257]
+                            - row "electric power required by the onboard subsystems, (J/s)" [ref=e14258]:
+                              - cell [ref=e14259]:
+                                - generic [ref=e14260]:
+                                  - generic [ref=e14267]:
+                                    - generic [ref=e14268]: 𝐸
+                                    - generic [ref=e14270]: 𝑠𝑢𝑏
+                                  - math [ref=e14271]:
+                                    - generic [ref=e14274]:
+                                      - generic [ref=e14275]: E
+                                      - generic [ref=e14276]:
+                                        - generic [ref=e14277]: s
+                                        - generic [ref=e14278]: u
+                                        - generic [ref=e14279]: b
+                              - cell "electric power required by the onboard subsystems, (J/s)" [ref=e14280]
+                            - row "efficiency of the -th electric motor, (–)" [ref=e14281]:
+                              - cell [ref=e14282]:
+                                - generic [ref=e14283]:
+                                  - generic [ref=e14289]:
+                                    - generic [ref=e14290]:
+                                      - generic [ref=e14292]: 𝑓
+                                      - generic [ref=e14295]: 𝑟,𝑖
+                                    - generic [ref=e14296]:
+                                      - generic [ref=e14297]: (
+                                      - generic [ref=e14298]:
+                                        - generic [ref=e14299]:
+                                          - generic [ref=e14301]: 𝜏
+                                          - generic [ref=e14303]: 𝑖
+                                        - generic [ref=e14304]:
+                                          - generic [ref=e14305]: (
+                                          - text: 𝑡
+                                          - generic [ref=e14306]: )
+                                        - text: ","
+                                        - generic [ref=e14307]:
+                                          - generic [ref=e14308]: 𝛺
+                                          - generic [ref=e14309]: 𝑖
+                                        - generic [ref=e14310]:
+                                          - generic [ref=e14311]: (
+                                          - text: 𝑡
+                                          - generic [ref=e14312]: )
+                                      - generic [ref=e14313]: )
+                                  - math [ref=e14314]:
+                                    - generic [ref=e14316]:
+                                      - generic [ref=e14317]:
+                                        - generic [ref=e14318]: f
+                                        - generic [ref=e14319]:
+                                          - generic [ref=e14320]: r
+                                          - generic [ref=e14321]: ","
+                                          - generic [ref=e14322]: i
+                                      - generic [ref=e14324]:
+                                        - generic [ref=e14325]:
+                                          - generic [ref=e14326]: τ
+                                          - generic [ref=e14327]: i
+                                        - generic [ref=e14329]: t
+                                        - generic [ref=e14330]: ","
+                                        - generic [ref=e14331]:
+                                          - generic [ref=e14332]: Ω
+                                          - generic [ref=e14333]: i
+                                        - generic [ref=e14335]: t
+                              - cell "efficiency of the -th electric motor, (–)" [ref=e14336]:
+                                - text: efficiency of the
+                                - generic [ref=e14337]:
+                                  - generic [ref=e14342]: 𝑖
+                                  - math [ref=e14343]:
+                                    - generic [ref=e14345]: i
+                                - text: "-th electric motor, (–)"
+                            - row "vector of aerodynamic loads," [ref=e14346]:
+                              - cell [ref=e14347]:
+                                - generic [ref=e14348]:
+                                  - generic [ref=e14355]:
+                                    - generic [ref=e14357]: 𝒇
+                                    - generic [ref=e14359]: 𝑨
+                                  - math [ref=e14360]:
+                                    - generic [ref=e14363]:
+                                      - generic [ref=e14364]: f
+                                      - generic [ref=e14365]: A
+                              - cell "vector of aerodynamic loads," [ref=e14366]
+                            - row "vector of gravity loads," [ref=e14367]:
+                              - cell [ref=e14368]:
+                                - generic [ref=e14369]:
+                                  - generic [ref=e14376]:
+                                    - generic [ref=e14378]: 𝒇
+                                    - generic [ref=e14380]: 𝑮
+                                  - math [ref=e14381]:
+                                    - generic [ref=e14384]:
+                                      - generic [ref=e14385]: f
+                                      - generic [ref=e14386]: G
+                              - cell "vector of gravity loads," [ref=e14387]
+                            - row "vector of propulsion loads," [ref=e14388]:
+                              - cell [ref=e14389]:
+                                - generic [ref=e14390]:
+                                  - generic [ref=e14397]:
+                                    - generic [ref=e14399]: 𝒇
+                                    - generic [ref=e14401]: 𝑹
+                                  - math [ref=e14402]:
+                                    - generic [ref=e14405]:
+                                      - generic [ref=e14406]: f
+                                      - generic [ref=e14407]: R
+                              - cell "vector of propulsion loads," [ref=e14408]
+                            - row "vector of gravity forces, (N)" [ref=e14409]:
+                              - cell [ref=e14410]:
+                                - generic [ref=e14411]:
+                                  - generic [ref=e14418]:
+                                    - generic [ref=e14420]: 𝑭
+                                    - generic [ref=e14422]: 𝑮
+                                  - math [ref=e14423]:
+                                    - generic [ref=e14426]:
+                                      - generic [ref=e14427]: F
+                                      - generic [ref=e14428]: G
+                              - cell "vector of gravity forces, (N)" [ref=e14429]
+                            - row "vector of aerodynamic forces, (N)" [ref=e14430]:
+                              - cell [ref=e14431]:
+                                - generic [ref=e14432]:
+                                  - generic [ref=e14439]:
+                                    - generic [ref=e14441]: 𝑭
+                                    - generic [ref=e14443]: 𝑨
+                                  - math [ref=e14444]:
+                                    - generic [ref=e14447]:
+                                      - generic [ref=e14448]: F
+                                      - generic [ref=e14449]: A
+                              - cell "vector of aerodynamic forces, (N)" [ref=e14450]
+                            - row "vector of propulsion forces, (N)" [ref=e14451]:
+                              - cell [ref=e14452]:
+                                - generic [ref=e14453]:
+                                  - generic [ref=e14460]:
+                                    - generic [ref=e14462]: 𝑭
+                                    - generic [ref=e14464]: 𝑹
+                                  - math [ref=e14465]:
+                                    - generic [ref=e14468]:
+                                      - generic [ref=e14469]: F
+                                      - generic [ref=e14470]: R
+                              - cell "vector of propulsion forces, (N)" [ref=e14471]
+                            - row "gravity acceleration, (m/s2)" [ref=e14472]:
+                              - cell [ref=e14473]:
+                                - generic [ref=e14474]:
+                                  - generic [ref=e14479]: 𝑔
+                                  - math [ref=e14480]:
+                                    - generic [ref=e14482]: g
+                              - cell "gravity acceleration, (m/s2)" [ref=e14483]:
+                                - text: gravity acceleration, (m/s
+                                - superscript [ref=e14484]: "2"
+                                - text: )
+                            - row "flight altitude, (m)" [ref=e14485]:
+                              - cell [ref=e14486]:
+                                - generic [ref=e14487]:
+                                  - generic [ref=e14492]: ℎ
+                                  - math [ref=e14493]:
+                                    - generic [ref=e14495]: h
+                              - cell "flight altitude, (m)" [ref=e14496]
+                            - row "transfer functions for Dryden wind model," [ref=e14497]:
+                              - cell [ref=e14498]:
+                                - generic [ref=e14499]:
+                                  - generic [ref=e14505]:
+                                    - generic [ref=e14506]:
+                                      - generic [ref=e14508]: 𝐻
+                                      - generic [ref=e14510]: 𝑢
+                                    - generic [ref=e14511]:
+                                      - generic [ref=e14512]: (
+                                      - text: 𝑠
+                                      - generic [ref=e14513]: )
+                                    - text: ","
+                                    - generic [ref=e14514]:
+                                      - generic [ref=e14516]: 𝐻
+                                      - generic [ref=e14518]: 𝑣
+                                    - generic [ref=e14519]:
+                                      - generic [ref=e14520]: (
+                                      - text: 𝑠
+                                      - generic [ref=e14521]: )
+                                    - text: ","
+                                    - generic [ref=e14522]:
+                                      - generic [ref=e14524]: 𝐻
+                                      - generic [ref=e14526]: 𝑤
+                                    - generic [ref=e14527]:
+                                      - generic [ref=e14528]: (
+                                      - text: 𝑠
+                                      - generic [ref=e14529]: )
+                                  - math [ref=e14530]:
+                                    - generic [ref=e14532]:
+                                      - generic [ref=e14533]:
+                                        - generic [ref=e14534]: H
+                                        - generic [ref=e14535]: u
+                                      - generic [ref=e14537]: s
+                                      - generic [ref=e14538]: ","
+                                      - generic [ref=e14539]:
+                                        - generic [ref=e14540]: H
+                                        - generic [ref=e14541]: v
+                                      - generic [ref=e14543]: s
+                                      - generic [ref=e14544]: ","
+                                      - generic [ref=e14545]:
+                                        - generic [ref=e14546]: H
+                                        - generic [ref=e14547]: w
+                                      - generic [ref=e14549]: s
+                              - cell "transfer functions for Dryden wind model," [ref=e14550]
+                            - row "current of the -th electric motor, (A)" [ref=e14551]:
+                              - cell [ref=e14552]:
+                                - generic [ref=e14553]:
+                                  - generic [ref=e14560]:
+                                    - generic [ref=e14562]: 𝐼
+                                    - generic [ref=e14564]: 𝑖
+                                  - math [ref=e14565]:
+                                    - generic [ref=e14568]:
+                                      - generic [ref=e14569]: I
+                                      - generic [ref=e14570]: i
+                              - cell "current of the -th electric motor, (A)" [ref=e14571]:
+                                - text: current of the
+                                - generic [ref=e14572]:
+                                  - generic [ref=e14577]: 𝑖
+                                  - math [ref=e14578]:
+                                    - generic [ref=e14580]: i
+                                - text: "-th electric motor, (A)"
+                            - row "quadrotor moments of inertia, (kg·m2)" [ref=e14581]:
+                              - cell [ref=e14582]:
+                                - generic [ref=e14583]:
+                                  - generic [ref=e14589]:
+                                    - generic [ref=e14590]:
+                                      - generic [ref=e14592]: 𝐼
+                                      - generic [ref=e14594]: 𝑥
+                                    - text: ","
+                                    - generic [ref=e14595]:
+                                      - generic [ref=e14597]: 𝐼
+                                      - generic [ref=e14599]: 𝑦
+                                    - text: ","
+                                    - generic [ref=e14600]:
+                                      - generic [ref=e14602]: 𝐼
+                                      - generic [ref=e14604]: 𝑧
+                                  - math [ref=e14605]:
+                                    - generic [ref=e14607]:
+                                      - generic [ref=e14608]:
+                                        - generic [ref=e14609]: I
+                                        - generic [ref=e14610]: x
+                                      - generic [ref=e14611]: ","
+                                      - generic [ref=e14612]:
+                                        - generic [ref=e14613]: I
+                                        - generic [ref=e14614]: "y"
+                                      - generic [ref=e14615]: ","
+                                      - generic [ref=e14616]:
+                                        - generic [ref=e14617]: I
+                                        - generic [ref=e14618]: z
+                              - cell "quadrotor moments of inertia, (kg·m2)" [ref=e14619]:
+                                - text: quadrotor moments of inertia, (kg·m
+                                - superscript [ref=e14620]: "2"
+                                - text: )
+                            - row "quadrotor products of inertia, (kg·m2)" [ref=e14621]:
+                              - cell [ref=e14622]:
+                                - generic [ref=e14623]:
+                                  - generic [ref=e14629]:
+                                    - generic [ref=e14630]:
+                                      - generic [ref=e14632]: 𝐼
+                                      - generic [ref=e14635]: 𝑥𝑦
+                                    - text: ","
+                                    - generic [ref=e14636]:
+                                      - generic [ref=e14638]: 𝐼
+                                      - generic [ref=e14641]: 𝑦𝑧
+                                    - text: ","
+                                    - generic [ref=e14642]:
+                                      - generic [ref=e14644]: 𝐼
+                                      - generic [ref=e14647]: 𝑥𝑧
+                                  - math [ref=e14648]:
+                                    - generic [ref=e14650]:
+                                      - generic [ref=e14651]:
+                                        - generic [ref=e14652]: I
+                                        - generic [ref=e14653]:
+                                          - generic [ref=e14654]: x
+                                          - generic [ref=e14655]: "y"
+                                      - generic [ref=e14656]: ","
+                                      - generic [ref=e14657]:
+                                        - generic [ref=e14658]: I
+                                        - generic [ref=e14659]:
+                                          - generic [ref=e14660]: "y"
+                                          - generic [ref=e14661]: z
+                                      - generic [ref=e14662]: ","
+                                      - generic [ref=e14663]:
+                                        - generic [ref=e14664]: I
+                                        - generic [ref=e14665]:
+                                          - generic [ref=e14666]: x
+                                          - generic [ref=e14667]: z
+                              - cell "quadrotor products of inertia, (kg·m2)" [ref=e14668]:
+                                - text: quadrotor products of inertia, (kg·m
+                                - superscript [ref=e14669]: "2"
+                                - text: )
+                            - row "moment of inertia of the of the rotating parts (propeller + motor shaft), (kg·m2)" [ref=e14670]:
+                              - cell [ref=e14671]:
+                                - generic [ref=e14672]:
+                                  - generic [ref=e14679]:
+                                    - generic [ref=e14681]: 𝐼
+                                    - generic [ref=e14684]: 𝑧𝑝
+                                  - math [ref=e14685]:
+                                    - generic [ref=e14688]:
+                                      - generic [ref=e14689]: I
+                                      - generic [ref=e14690]:
+                                        - generic [ref=e14691]: z
+                                        - generic [ref=e14692]: p
+                              - cell "moment of inertia of the of the rotating parts (propeller + motor shaft), (kg·m2)" [ref=e14693]:
+                                - text: moment of inertia of the of the rotating parts (propeller + motor shaft), (kg·m
+                                - superscript [ref=e14694]: "2"
+                                - text: )
+                            - row "rotor thrust coefficient, (N/RPM2)" [ref=e14695]:
+                              - cell [ref=e14696]:
+                                - generic [ref=e14697]:
+                                  - generic [ref=e14704]:
+                                    - generic [ref=e14706]: 𝑘
+                                    - generic [ref=e14709]: 𝑓
+                                  - math [ref=e14711]:
+                                    - generic [ref=e14714]:
+                                      - generic [ref=e14715]: k
+                                      - generic [ref=e14716]: f
+                              - cell "rotor thrust coefficient, (N/RPM2)" [ref=e14717]:
+                                - text: rotor thrust coefficient, (N/RPM
+                                - superscript [ref=e14718]: "2"
+                                - text: )
+                            - row "rotor torque coefficient, (Nm/RPM2)" [ref=e14719]:
+                              - cell [ref=e14720]:
+                                - generic [ref=e14721]:
+                                  - generic [ref=e14728]:
+                                    - generic [ref=e14730]: 𝑘
+                                    - generic [ref=e14732]: 𝑚
+                                  - math [ref=e14733]:
+                                    - generic [ref=e14736]:
+                                      - generic [ref=e14737]: k
+                                      - generic [ref=e14738]: m
+                              - cell "rotor torque coefficient, (Nm/RPM2)" [ref=e14739]:
+                                - text: rotor torque coefficient, (Nm/RPM
+                                - superscript [ref=e14740]: "2"
+                                - text: )
+                            - row "battery polarization constant, (V/Ah)" [ref=e14741]:
+                              - cell [ref=e14742]:
+                                - generic [ref=e14743]:
+                                  - generic [ref=e14749]: 𝐾
+                                  - math [ref=e14751]:
+                                    - generic [ref=e14753]: K
+                              - cell "battery polarization constant, (V/Ah)" [ref=e14754]
+                            - row ", , vertical speed controller settings," [ref=e14755]:
+                              - cell ", ," [ref=e14756]:
+                                - generic [ref=e14757]:
+                                  - generic [ref=e14764]:
+                                    - generic [ref=e14766]: 𝐾
+                                    - generic [ref=e14770]:
+                                      - generic [ref=e14772]: 𝑊
+                                      - generic [ref=e14775]: 𝑛𝑒
+                                    - generic [ref=e14776]: 𝑃
+                                  - math [ref=e14777]:
+                                    - generic [ref=e14780]:
+                                      - generic [ref=e14781]: K
+                                      - generic [ref=e14782]: P
+                                      - generic [ref=e14784]:
+                                        - generic [ref=e14785]: W
+                                        - generic [ref=e14786]:
+                                          - generic [ref=e14787]: "n"
+                                          - generic [ref=e14788]: e
+                                - text: ","
+                                - generic [ref=e14789]:
+                                  - generic [ref=e14796]:
+                                    - generic [ref=e14798]: 𝐾
+                                    - generic [ref=e14802]:
+                                      - generic [ref=e14804]: 𝑊
+                                      - generic [ref=e14807]: 𝑛𝑒
+                                    - generic [ref=e14809]: 𝐼
+                                  - math [ref=e14811]:
+                                    - generic [ref=e14814]:
+                                      - generic [ref=e14815]: K
+                                      - generic [ref=e14816]: I
+                                      - generic [ref=e14818]:
+                                        - generic [ref=e14819]: W
+                                        - generic [ref=e14820]:
+                                          - generic [ref=e14821]: "n"
+                                          - generic [ref=e14822]: e
+                                - text: ","
+                                - generic [ref=e14823]:
+                                  - generic [ref=e14830]:
+                                    - generic [ref=e14832]: 𝐾
+                                    - generic [ref=e14836]:
+                                      - generic [ref=e14838]: 𝑊
+                                      - generic [ref=e14841]: 𝑛𝑒
+                                    - generic [ref=e14842]: 𝐷
+                                  - math [ref=e14843]:
+                                    - generic [ref=e14846]:
+                                      - generic [ref=e14847]: K
+                                      - generic [ref=e14848]: D
+                                      - generic [ref=e14850]:
+                                        - generic [ref=e14851]: W
+                                        - generic [ref=e14852]:
+                                          - generic [ref=e14853]: "n"
+                                          - generic [ref=e14854]: e
+                              - cell "vertical speed controller settings," [ref=e14855]
+                            - row ", , altitude controller settings," [ref=e14856]:
+                              - cell ", ," [ref=e14857]:
+                                - generic [ref=e14858]:
+                                  - generic [ref=e14865]:
+                                    - generic [ref=e14867]: 𝐾
+                                    - generic [ref=e14871]:
+                                      - generic [ref=e14872]: 𝑧
+                                      - generic [ref=e14874]: 𝑛𝑒
+                                    - generic [ref=e14875]: 𝑃
+                                  - math [ref=e14876]:
+                                    - generic [ref=e14879]:
+                                      - generic [ref=e14880]: K
+                                      - generic [ref=e14881]: P
+                                      - generic [ref=e14883]:
+                                        - generic [ref=e14884]: z
+                                        - generic [ref=e14885]:
+                                          - generic [ref=e14886]: "n"
+                                          - generic [ref=e14887]: e
+                                - text: ","
+                                - generic [ref=e14888]:
+                                  - generic [ref=e14895]:
+                                    - generic [ref=e14897]: 𝐾
+                                    - generic [ref=e14901]:
+                                      - generic [ref=e14902]: 𝑧
+                                      - generic [ref=e14904]: 𝑛𝑒
+                                    - generic [ref=e14906]: 𝐼
+                                  - math [ref=e14908]:
+                                    - generic [ref=e14911]:
+                                      - generic [ref=e14912]: K
+                                      - generic [ref=e14913]: I
+                                      - generic [ref=e14915]:
+                                        - generic [ref=e14916]: z
+                                        - generic [ref=e14917]:
+                                          - generic [ref=e14918]: "n"
+                                          - generic [ref=e14919]: e
+                                - text: ","
+                                - generic [ref=e14920]:
+                                  - generic [ref=e14927]:
+                                    - generic [ref=e14929]: 𝐾
+                                    - generic [ref=e14933]:
+                                      - generic [ref=e14934]: 𝑧
+                                      - generic [ref=e14936]: 𝑛𝑒
+                                    - generic [ref=e14937]: 𝐷
+                                  - math [ref=e14938]:
+                                    - generic [ref=e14941]:
+                                      - generic [ref=e14942]: K
+                                      - generic [ref=e14943]: D
+                                      - generic [ref=e14945]:
+                                        - generic [ref=e14946]: z
+                                        - generic [ref=e14947]:
+                                          - generic [ref=e14948]: "n"
+                                          - generic [ref=e14949]: e
+                              - cell "altitude controller settings," [ref=e14950]
+                            - row ", , roll rate controller settings," [ref=e14951]:
+                              - cell ", ," [ref=e14952]:
+                                - generic [ref=e14953]:
+                                  - generic [ref=e14960]:
+                                    - generic [ref=e14962]: 𝐾
+                                    - generic [ref=e14966]:
+                                      - generic [ref=e14967]: 𝑃
+                                      - generic [ref=e14968]: 𝑒
+                                    - generic [ref=e14969]: 𝑃
+                                  - math [ref=e14970]:
+                                    - generic [ref=e14973]:
+                                      - generic [ref=e14974]: K
+                                      - generic [ref=e14975]: P
+                                      - generic [ref=e14977]:
+                                        - generic [ref=e14978]: P
+                                        - generic [ref=e14979]: e
+                                - text: ","
+                                - generic [ref=e14980]:
+                                  - generic [ref=e14987]:
+                                    - generic [ref=e14989]: 𝐾
+                                    - generic [ref=e14993]:
+                                      - generic [ref=e14994]: 𝑃
+                                      - generic [ref=e14995]: 𝑒
+                                    - generic [ref=e14997]: 𝐼
+                                  - math [ref=e14999]:
+                                    - generic [ref=e15002]:
+                                      - generic [ref=e15003]: K
+                                      - generic [ref=e15004]: I
+                                      - generic [ref=e15006]:
+                                        - generic [ref=e15007]: P
+                                        - generic [ref=e15008]: e
+                                - text: ","
+                                - generic [ref=e15009]:
+                                  - generic [ref=e15016]:
+                                    - generic [ref=e15018]: 𝐾
+                                    - generic [ref=e15022]:
+                                      - generic [ref=e15023]: 𝑃
+                                      - generic [ref=e15024]: 𝑒
+                                    - generic [ref=e15025]: 𝐷
+                                  - math [ref=e15026]:
+                                    - generic [ref=e15029]:
+                                      - generic [ref=e15030]: K
+                                      - generic [ref=e15031]: D
+                                      - generic [ref=e15033]:
+                                        - generic [ref=e15034]: P
+                                        - generic [ref=e15035]: e
+                              - cell "roll rate controller settings," [ref=e15036]
+                            - row ", , roll angle controller settings," [ref=e15037]:
+                              - cell ", ," [ref=e15038]:
+                                - generic [ref=e15039]:
+                                  - generic [ref=e15046]:
+                                    - generic [ref=e15048]: 𝐾
+                                    - generic [ref=e15052]:
+                                      - generic [ref=e15054]: Φ
+                                      - generic [ref=e15055]: 𝑒
+                                    - generic [ref=e15056]: 𝑃
+                                  - math [ref=e15057]:
+                                    - generic [ref=e15060]:
+                                      - generic [ref=e15061]: K
+                                      - generic [ref=e15062]: P
+                                      - generic [ref=e15064]:
+                                        - generic [ref=e15065]: Φ
+                                        - generic [ref=e15066]: e
+                                - text: ","
+                                - generic [ref=e15067]:
+                                  - generic [ref=e15074]:
+                                    - generic [ref=e15076]: 𝐾
+                                    - generic [ref=e15080]:
+                                      - generic [ref=e15082]: Φ
+                                      - generic [ref=e15083]: 𝑒
+                                    - generic [ref=e15085]: 𝐼
+                                  - math [ref=e15087]:
+                                    - generic [ref=e15090]:
+                                      - generic [ref=e15091]: K
+                                      - generic [ref=e15092]: I
+                                      - generic [ref=e15094]:
+                                        - generic [ref=e15095]: Φ
+                                        - generic [ref=e15096]: e
+                                - text: ","
+                                - generic [ref=e15097]:
+                                  - generic [ref=e15104]:
+                                    - generic [ref=e15106]: 𝐾
+                                    - generic [ref=e15110]:
+                                      - generic [ref=e15112]: Φ
+                                      - generic [ref=e15113]: 𝑒
+                                    - generic [ref=e15114]: 𝐷
+                                  - math [ref=e15115]:
+                                    - generic [ref=e15118]:
+                                      - generic [ref=e15119]: K
+                                      - generic [ref=e15120]: D
+                                      - generic [ref=e15122]:
+                                        - generic [ref=e15123]: Φ
+                                        - generic [ref=e15124]: e
+                              - cell "roll angle controller settings," [ref=e15125]
+                            - row ", , pitch rate controller settings," [ref=e15126]:
+                              - cell ", ," [ref=e15127]:
+                                - generic [ref=e15128]:
+                                  - generic [ref=e15135]:
+                                    - generic [ref=e15137]: 𝐾
+                                    - generic [ref=e15141]:
+                                      - generic [ref=e15142]: 𝑄
+                                      - generic [ref=e15143]: 𝑒
+                                    - generic [ref=e15144]: 𝑃
+                                  - math [ref=e15145]:
+                                    - generic [ref=e15148]:
+                                      - generic [ref=e15149]: K
+                                      - generic [ref=e15150]: P
+                                      - generic [ref=e15152]:
+                                        - generic [ref=e15153]: Q
+                                        - generic [ref=e15154]: e
+                                - text: ","
+                                - generic [ref=e15155]:
+                                  - generic [ref=e15162]:
+                                    - generic [ref=e15164]: 𝐾
+                                    - generic [ref=e15168]:
+                                      - generic [ref=e15169]: 𝑄
+                                      - generic [ref=e15170]: 𝑒
+                                    - generic [ref=e15172]: 𝐼
+                                  - math [ref=e15174]:
+                                    - generic [ref=e15177]:
+                                      - generic [ref=e15178]: K
+                                      - generic [ref=e15179]: I
+                                      - generic [ref=e15181]:
+                                        - generic [ref=e15182]: Q
+                                        - generic [ref=e15183]: e
+                                - text: ","
+                                - generic [ref=e15184]:
+                                  - generic [ref=e15191]:
+                                    - generic [ref=e15193]: 𝐾
+                                    - generic [ref=e15197]:
+                                      - generic [ref=e15198]: 𝑄
+                                      - generic [ref=e15199]: 𝑒
+                                    - generic [ref=e15200]: 𝐷
+                                  - math [ref=e15201]:
+                                    - generic [ref=e15204]:
+                                      - generic [ref=e15205]: K
+                                      - generic [ref=e15206]: D
+                                      - generic [ref=e15208]:
+                                        - generic [ref=e15209]: Q
+                                        - generic [ref=e15210]: e
+                              - cell "pitch rate controller settings," [ref=e15211]
+                            - row ", , pitch angle controller settings," [ref=e15212]:
+                              - cell ", ," [ref=e15213]:
+                                - generic [ref=e15214]:
+                                  - generic [ref=e15221]:
+                                    - generic [ref=e15223]: 𝐾
+                                    - generic [ref=e15227]:
+                                      - generic [ref=e15229]: Θ
+                                      - generic [ref=e15230]: 𝑒
+                                    - generic [ref=e15231]: 𝑃
+                                  - math [ref=e15232]:
+                                    - generic [ref=e15235]:
+                                      - generic [ref=e15236]: K
+                                      - generic [ref=e15237]: P
+                                      - generic [ref=e15239]:
+                                        - generic [ref=e15240]: Θ
+                                        - generic [ref=e15241]: e
+                                - text: ","
+                                - generic [ref=e15242]:
+                                  - generic [ref=e15249]:
+                                    - generic [ref=e15251]: 𝐾
+                                    - generic [ref=e15255]:
+                                      - generic [ref=e15257]: Θ
+                                      - generic [ref=e15258]: 𝑒
+                                    - generic [ref=e15260]: 𝐼
+                                  - math [ref=e15262]:
+                                    - generic [ref=e15265]:
+                                      - generic [ref=e15266]: K
+                                      - generic [ref=e15267]: I
+                                      - generic [ref=e15269]:
+                                        - generic [ref=e15270]: Θ
+                                        - generic [ref=e15271]: e
+                                - text: ","
+                                - generic [ref=e15272]:
+                                  - generic [ref=e15279]:
+                                    - generic [ref=e15281]: 𝐾
+                                    - generic [ref=e15285]:
+                                      - generic [ref=e15287]: Θ
+                                      - generic [ref=e15288]: 𝑒
+                                    - generic [ref=e15289]: 𝐷
+                                  - math [ref=e15290]:
+                                    - generic [ref=e15293]:
+                                      - generic [ref=e15294]: K
+                                      - generic [ref=e15295]: D
+                                      - generic [ref=e15297]:
+                                        - generic [ref=e15298]: Θ
+                                        - generic [ref=e15299]: e
+                              - cell "pitch angle controller settings," [ref=e15300]
+                            - row ", , yaw rate controller settings," [ref=e15301]:
+                              - cell ", ," [ref=e15302]:
+                                - generic [ref=e15303]:
+                                  - generic [ref=e15310]:
+                                    - generic [ref=e15312]: 𝐾
+                                    - generic [ref=e15316]:
+                                      - generic [ref=e15317]: 𝑅
+                                      - generic [ref=e15318]: 𝑒
+                                    - generic [ref=e15319]: 𝑃
+                                  - math [ref=e15320]:
+                                    - generic [ref=e15323]:
+                                      - generic [ref=e15324]: K
+                                      - generic [ref=e15325]: P
+                                      - generic [ref=e15327]:
+                                        - generic [ref=e15328]: R
+                                        - generic [ref=e15329]: e
+                                - text: ","
+                                - generic [ref=e15330]:
+                                  - generic [ref=e15337]:
+                                    - generic [ref=e15339]: 𝐾
+                                    - generic [ref=e15343]:
+                                      - generic [ref=e15344]: 𝑅
+                                      - generic [ref=e15345]: 𝑒
+                                    - generic [ref=e15347]: 𝐼
+                                  - math [ref=e15349]:
+                                    - generic [ref=e15352]:
+                                      - generic [ref=e15353]: K
+                                      - generic [ref=e15354]: I
+                                      - generic [ref=e15356]:
+                                        - generic [ref=e15357]: R
+                                        - generic [ref=e15358]: e
+                                - text: ","
+                                - generic [ref=e15359]:
+                                  - generic [ref=e15366]:
+                                    - generic [ref=e15368]: 𝐾
+                                    - generic [ref=e15372]:
+                                      - generic [ref=e15373]: 𝑅
+                                      - generic [ref=e15374]: 𝑒
+                                    - generic [ref=e15375]: 𝐷
+                                  - math [ref=e15376]:
+                                    - generic [ref=e15379]:
+                                      - generic [ref=e15380]: K
+                                      - generic [ref=e15381]: D
+                                      - generic [ref=e15383]:
+                                        - generic [ref=e15384]: R
+                                        - generic [ref=e15385]: e
+                              - cell "yaw rate controller settings," [ref=e15386]
+                            - row ", , yaw angle controller settings," [ref=e15387]:
+                              - cell ", ," [ref=e15388]:
+                                - generic [ref=e15389]:
+                                  - generic [ref=e15396]:
+                                    - generic [ref=e15398]: 𝐾
+                                    - generic [ref=e15402]:
+                                      - generic [ref=e15404]: Ψ
+                                      - generic [ref=e15405]: 𝑒
+                                    - generic [ref=e15406]: 𝑃
+                                  - math [ref=e15407]:
+                                    - generic [ref=e15410]:
+                                      - generic [ref=e15411]: K
+                                      - generic [ref=e15412]: P
+                                      - generic [ref=e15414]:
+                                        - generic [ref=e15415]: Ψ
+                                        - generic [ref=e15416]: e
+                                - text: ","
+                                - generic [ref=e15417]:
+                                  - generic [ref=e15424]:
+                                    - generic [ref=e15426]: 𝐾
+                                    - generic [ref=e15430]:
+                                      - generic [ref=e15432]: Ψ
+                                      - generic [ref=e15433]: 𝑒
+                                    - generic [ref=e15435]: 𝐼
+                                  - math [ref=e15437]:
+                                    - generic [ref=e15440]:
+                                      - generic [ref=e15441]: K
+                                      - generic [ref=e15442]: I
+                                      - generic [ref=e15444]:
+                                        - generic [ref=e15445]: Ψ
+                                        - generic [ref=e15446]: e
+                                - text: ","
+                                - generic [ref=e15447]:
+                                  - generic [ref=e15454]:
+                                    - generic [ref=e15456]: 𝐾
+                                    - generic [ref=e15460]:
+                                      - generic [ref=e15462]: Ψ
+                                      - generic [ref=e15463]: 𝑒
+                                    - generic [ref=e15464]: 𝐷
+                                  - math [ref=e15465]:
+                                    - generic [ref=e15468]:
+                                      - generic [ref=e15469]: K
+                                      - generic [ref=e15470]: D
+                                      - generic [ref=e15472]:
+                                        - generic [ref=e15473]: Ψ
+                                        - generic [ref=e15474]: e
+                              - cell "yaw angle controller settings," [ref=e15475]
+                            - row ", , speed controller settings," [ref=e15476]:
+                              - cell ", ," [ref=e15477]:
+                                - generic [ref=e15478]:
+                                  - generic [ref=e15485]:
+                                    - generic [ref=e15487]: 𝐾
+                                    - generic [ref=e15491]:
+                                      - generic [ref=e15493]: 𝑈
+                                      - generic [ref=e15496]: 𝑛𝑒
+                                    - generic [ref=e15497]: 𝑃
+                                  - math [ref=e15498]:
+                                    - generic [ref=e15501]:
+                                      - generic [ref=e15502]: K
+                                      - generic [ref=e15503]: P
+                                      - generic [ref=e15505]:
+                                        - generic [ref=e15506]: U
+                                        - generic [ref=e15507]:
+                                          - generic [ref=e15508]: "n"
+                                          - generic [ref=e15509]: e
+                                - text: ","
+                                - generic [ref=e15510]:
+                                  - generic [ref=e15517]:
+                                    - generic [ref=e15519]: 𝐾
+                                    - generic [ref=e15523]:
+                                      - generic [ref=e15525]: 𝑈
+                                      - generic [ref=e15528]: 𝑛𝑒
+                                    - generic [ref=e15530]: 𝐼
+                                  - math [ref=e15532]:
+                                    - generic [ref=e15535]:
+                                      - generic [ref=e15536]: K
+                                      - generic [ref=e15537]: I
+                                      - generic [ref=e15539]:
+                                        - generic [ref=e15540]: U
+                                        - generic [ref=e15541]:
+                                          - generic [ref=e15542]: "n"
+                                          - generic [ref=e15543]: e
+                                - text: ","
+                                - generic [ref=e15544]:
+                                  - generic [ref=e15551]:
+                                    - generic [ref=e15553]: 𝐾
+                                    - generic [ref=e15557]:
+                                      - generic [ref=e15559]: 𝑈
+                                      - generic [ref=e15562]: 𝑛𝑒
+                                    - generic [ref=e15563]: 𝐷
+                                  - math [ref=e15564]:
+                                    - generic [ref=e15567]:
+                                      - generic [ref=e15568]: K
+                                      - generic [ref=e15569]: D
+                                      - generic [ref=e15571]:
+                                        - generic [ref=e15572]: U
+                                        - generic [ref=e15573]:
+                                          - generic [ref=e15574]: "n"
+                                          - generic [ref=e15575]: e
+                              - cell "speed controller settings," [ref=e15576]:
+                                - generic [ref=e15577]:
+                                  - generic [ref=e15584]:
+                                    - generic [ref=e15586]: 𝑈
+                                    - generic [ref=e15588]: 𝑛
+                                  - math [ref=e15589]:
+                                    - generic [ref=e15592]:
+                                      - generic [ref=e15593]: U
+                                      - generic [ref=e15594]: "n"
+                                - text: speed controller settings,
+                            - row ", , speed controller settings," [ref=e15595]:
+                              - cell ", ," [ref=e15596]:
+                                - generic [ref=e15597]:
+                                  - generic [ref=e15604]:
+                                    - generic [ref=e15606]: 𝐾
+                                    - generic [ref=e15610]:
+                                      - generic [ref=e15611]: V
+                                      - generic [ref=e15613]: 𝑛𝑒
+                                    - generic [ref=e15614]: 𝑃
+                                  - math [ref=e15615]:
+                                    - generic [ref=e15618]:
+                                      - generic [ref=e15619]: K
+                                      - generic [ref=e15620]: P
+                                      - generic [ref=e15622]:
+                                        - generic [ref=e15623]: V
+                                        - generic [ref=e15624]:
+                                          - generic [ref=e15625]: "n"
+                                          - generic [ref=e15626]: e
+                                - text: ","
+                                - generic [ref=e15627]:
+                                  - generic [ref=e15634]:
+                                    - generic [ref=e15636]: 𝐾
+                                    - generic [ref=e15640]:
+                                      - generic [ref=e15641]: V
+                                      - generic [ref=e15643]: 𝑛𝑒
+                                    - generic [ref=e15645]: 𝐼
+                                  - math [ref=e15647]:
+                                    - generic [ref=e15650]:
+                                      - generic [ref=e15651]: K
+                                      - generic [ref=e15652]: I
+                                      - generic [ref=e15654]:
+                                        - generic [ref=e15655]: V
+                                        - generic [ref=e15656]:
+                                          - generic [ref=e15657]: "n"
+                                          - generic [ref=e15658]: e
+                                - text: ","
+                                - generic [ref=e15659]:
+                                  - generic [ref=e15666]:
+                                    - generic [ref=e15668]: 𝐾
+                                    - generic [ref=e15672]:
+                                      - generic [ref=e15673]: V
+                                      - generic [ref=e15675]: 𝑛𝑒
+                                    - generic [ref=e15676]: 𝐷
+                                  - math [ref=e15677]:
+                                    - generic [ref=e15680]:
+                                      - generic [ref=e15681]: K
+                                      - generic [ref=e15682]: D
+                                      - generic [ref=e15684]:
+                                        - generic [ref=e15685]: V
+                                        - generic [ref=e15686]:
+                                          - generic [ref=e15687]: "n"
+                                          - generic [ref=e15688]: e
+                              - cell "speed controller settings," [ref=e15689]:
+                                - generic [ref=e15690]:
+                                  - generic [ref=e15697]:
+                                    - generic [ref=e15699]: 𝑉
+                                    - generic [ref=e15701]: 𝑛
+                                  - math [ref=e15702]:
+                                    - generic [ref=e15705]:
+                                      - generic [ref=e15706]: V
+                                      - generic [ref=e15707]: "n"
+                                - text: speed controller settings,
+                            - row ", , position controller settings," [ref=e15708]:
+                              - cell ", ," [ref=e15709]:
+                                - generic [ref=e15710]:
+                                  - generic [ref=e15717]:
+                                    - generic [ref=e15719]: 𝐾
+                                    - generic [ref=e15723]:
+                                      - generic [ref=e15724]: 𝑥
+                                      - generic [ref=e15726]: 𝑛𝑒
+                                    - generic [ref=e15727]: 𝑃
+                                  - math [ref=e15728]:
+                                    - generic [ref=e15731]:
+                                      - generic [ref=e15732]: K
+                                      - generic [ref=e15733]: P
+                                      - generic [ref=e15735]:
+                                        - generic [ref=e15736]: x
+                                        - generic [ref=e15737]:
+                                          - generic [ref=e15738]: "n"
+                                          - generic [ref=e15739]: e
+                                - text: ","
+                                - generic [ref=e15740]:
+                                  - generic [ref=e15747]:
+                                    - generic [ref=e15749]: 𝐾
+                                    - generic [ref=e15753]:
+                                      - generic [ref=e15754]: 𝑥
+                                      - generic [ref=e15756]: 𝑛𝑒
+                                    - generic [ref=e15758]: 𝐼
+                                  - math [ref=e15760]:
+                                    - generic [ref=e15763]:
+                                      - generic [ref=e15764]: K
+                                      - generic [ref=e15765]: I
+                                      - generic [ref=e15767]:
+                                        - generic [ref=e15768]: x
+                                        - generic [ref=e15769]:
+                                          - generic [ref=e15770]: "n"
+                                          - generic [ref=e15771]: e
+                                - text: ","
+                                - generic [ref=e15772]:
+                                  - generic [ref=e15779]:
+                                    - generic [ref=e15781]: 𝐾
+                                    - generic [ref=e15785]:
+                                      - generic [ref=e15786]: 𝑥
+                                      - generic [ref=e15788]: 𝑛𝑒
+                                    - generic [ref=e15789]: 𝐷
+                                  - math [ref=e15790]:
+                                    - generic [ref=e15793]:
+                                      - generic [ref=e15794]: K
+                                      - generic [ref=e15795]: D
+                                      - generic [ref=e15797]:
+                                        - generic [ref=e15798]: x
+                                        - generic [ref=e15799]:
+                                          - generic [ref=e15800]: "n"
+                                          - generic [ref=e15801]: e
+                              - cell "position controller settings," [ref=e15802]:
+                                - generic [ref=e15803]:
+                                  - generic [ref=e15810]:
+                                    - generic [ref=e15811]: 𝑥
+                                    - generic [ref=e15812]: 𝑛
+                                  - math [ref=e15813]:
+                                    - generic [ref=e15816]:
+                                      - generic [ref=e15817]: x
+                                      - generic [ref=e15818]: "n"
+                                - text: position controller settings,
+                            - row ", , position controller settings," [ref=e15819]:
+                              - cell ", ," [ref=e15820]:
+                                - generic [ref=e15821]:
+                                  - generic [ref=e15828]:
+                                    - generic [ref=e15830]: 𝐾
+                                    - generic [ref=e15834]:
+                                      - generic [ref=e15835]: 𝑦
+                                      - generic [ref=e15837]: 𝑛𝑒
+                                    - generic [ref=e15838]: 𝑃
+                                  - math [ref=e15839]:
+                                    - generic [ref=e15842]:
+                                      - generic [ref=e15843]: K
+                                      - generic [ref=e15844]: P
+                                      - generic [ref=e15846]:
+                                        - generic [ref=e15847]: "y"
+                                        - generic [ref=e15848]:
+                                          - generic [ref=e15849]: "n"
+                                          - generic [ref=e15850]: e
+                                - text: ","
+                                - generic [ref=e15851]:
+                                  - generic [ref=e15858]:
+                                    - generic [ref=e15860]: 𝐾
+                                    - generic [ref=e15864]:
+                                      - generic [ref=e15865]: 𝑦
+                                      - generic [ref=e15867]: 𝑛𝑒
+                                    - generic [ref=e15869]: 𝐼
+                                  - math [ref=e15871]:
+                                    - generic [ref=e15874]:
+                                      - generic [ref=e15875]: K
+                                      - generic [ref=e15876]: I
+                                      - generic [ref=e15878]:
+                                        - generic [ref=e15879]: "y"
+                                        - generic [ref=e15880]:
+                                          - generic [ref=e15881]: "n"
+                                          - generic [ref=e15882]: e
+                                - text: ","
+                                - generic [ref=e15883]:
+                                  - generic [ref=e15890]:
+                                    - generic [ref=e15892]: 𝐾
+                                    - generic [ref=e15896]:
+                                      - generic [ref=e15897]: 𝑦
+                                      - generic [ref=e15899]: 𝑛𝑒
+                                    - generic [ref=e15900]: 𝐷
+                                  - math [ref=e15901]:
+                                    - generic [ref=e15904]:
+                                      - generic [ref=e15905]: K
+                                      - generic [ref=e15906]: D
+                                      - generic [ref=e15908]:
+                                        - generic [ref=e15909]: "y"
+                                        - generic [ref=e15910]:
+                                          - generic [ref=e15911]: "n"
+                                          - generic [ref=e15912]: e
+                              - cell "position controller settings," [ref=e15913]:
+                                - generic [ref=e15914]:
+                                  - generic [ref=e15921]:
+                                    - generic [ref=e15922]: 𝑦
+                                    - generic [ref=e15923]: 𝑛
+                                  - math [ref=e15924]:
+                                    - generic [ref=e15927]:
+                                      - generic [ref=e15928]: "y"
+                                      - generic [ref=e15929]: "n"
+                                - text: position controller settings,
+                            - row "turbulence scale lengths, (m)" [ref=e15930]:
+                              - cell [ref=e15931]:
+                                - generic [ref=e15932]:
+                                  - generic [ref=e15938]:
+                                    - generic [ref=e15939]:
+                                      - generic [ref=e15940]: 𝐿
+                                      - generic [ref=e15941]: 𝑢
+                                    - text: ","
+                                    - generic [ref=e15942]:
+                                      - generic [ref=e15943]: 𝐿
+                                      - generic [ref=e15944]: 𝑣
+                                    - text: ","
+                                    - generic [ref=e15945]:
+                                      - generic [ref=e15946]: 𝐿
+                                      - generic [ref=e15947]: 𝑤
+                                  - math [ref=e15948]:
+                                    - generic [ref=e15950]:
+                                      - generic [ref=e15951]:
+                                        - generic [ref=e15952]: L
+                                        - generic [ref=e15953]: u
+                                      - generic [ref=e15954]: ","
+                                      - generic [ref=e15955]:
+                                        - generic [ref=e15956]: L
+                                        - generic [ref=e15957]: v
+                                      - generic [ref=e15958]: ","
+                                      - generic [ref=e15959]:
+                                        - generic [ref=e15960]: L
+                                        - generic [ref=e15961]: w
+                              - cell "turbulence scale lengths, (m)" [ref=e15962]
+                            - row "drone mass, (kg)" [ref=e15963]:
+                              - cell [ref=e15964]:
+                                - generic [ref=e15965]:
+                                  - generic [ref=e15970]: 𝑚
+                                  - math [ref=e15971]:
+                                    - generic [ref=e15973]: m
+                              - cell "drone mass, (kg)" [ref=e15974]
+                            - row "vector of aerodynamic moments, (Nm)" [ref=e15975]:
+                              - cell [ref=e15976]:
+                                - generic [ref=e15977]:
+                                  - generic [ref=e15984]:
+                                    - generic [ref=e15986]: 𝑴
+                                    - generic [ref=e15988]: 𝑨
+                                  - math [ref=e15989]:
+                                    - generic [ref=e15992]:
+                                      - generic [ref=e15993]: M
+                                      - generic [ref=e15994]: A
+                              - cell "vector of aerodynamic moments, (Nm)" [ref=e15995]
+                            - row "torque produced by the -th rotor, (Nm)" [ref=e15996]:
+                              - cell [ref=e15997]:
+                                - generic [ref=e15998]:
+                                  - generic [ref=e16005]:
+                                    - generic [ref=e16006]: 𝑀
+                                    - generic [ref=e16007]: 𝑖
+                                  - math [ref=e16008]:
+                                    - generic [ref=e16011]:
+                                      - generic [ref=e16012]: M
+                                      - generic [ref=e16013]: i
+                              - cell "torque produced by the -th rotor, (Nm)" [ref=e16014]:
+                                - text: torque produced by the
+                                - generic [ref=e16015]:
+                                  - generic [ref=e16020]: 𝑖
+                                  - math [ref=e16021]:
+                                    - generic [ref=e16023]: i
+                                - text: "-th rotor, (Nm)"
+                            - row "vector of moments generated by propellers, (Nm)" [ref=e16024]:
+                              - cell [ref=e16025]:
+                                - generic [ref=e16026]:
+                                  - generic [ref=e16033]:
+                                    - generic [ref=e16035]: 𝑴
+                                    - generic [ref=e16037]: 𝑹
+                                  - math [ref=e16038]:
+                                    - generic [ref=e16041]:
+                                      - generic [ref=e16042]: M
+                                      - generic [ref=e16043]: R
+                              - cell "vector of moments generated by propellers, (Nm)" [ref=e16044]
+                            - row "number of discrete sample points," [ref=e16045]:
+                              - cell [ref=e16046]:
+                                - generic [ref=e16047]:
+                                  - generic [ref=e16053]: 𝑁
+                                  - math [ref=e16055]:
+                                    - generic [ref=e16057]: "N"
+                              - cell "number of discrete sample points," [ref=e16058]
+                            - row "quadrotor angular velocities in reference frame, (rad/s)" [ref=e16059]:
+                              - cell [ref=e16060]:
+                                - generic [ref=e16061]:
+                                  - generic [ref=e16067]: 𝑃, 𝑄, 𝑅
+                                  - math [ref=e16068]:
+                                    - generic [ref=e16070]:
+                                      - generic [ref=e16071]: P
+                                      - generic [ref=e16072]: ","
+                                      - generic [ref=e16073]: Q
+                                      - generic [ref=e16074]: ","
+                                      - generic [ref=e16075]: R
+                              - cell "quadrotor angular velocities in reference frame, (rad/s)" [ref=e16076]:
+                                - text: quadrotor angular velocities in
+                                - generic [ref=e16077]:
+                                  - generic [ref=e16083]:
+                                    - generic [ref=e16084]:
+                                      - generic [ref=e16085]: 𝑂
+                                      - generic [ref=e16086]: 𝑏
+                                    - generic [ref=e16087]:
+                                      - generic [ref=e16088]: 𝑥
+                                      - generic [ref=e16089]: 𝑏
+                                    - generic [ref=e16090]:
+                                      - generic [ref=e16091]: 𝑦
+                                      - generic [ref=e16092]: 𝑏
+                                    - generic [ref=e16093]:
+                                      - generic [ref=e16094]: 𝑧
+                                      - generic [ref=e16095]: 𝑏
+                                  - math [ref=e16096]:
+                                    - generic [ref=e16098]:
+                                      - generic [ref=e16099]:
+                                        - generic [ref=e16100]: O
+                                        - generic [ref=e16101]: b
+                                      - generic [ref=e16102]:
+                                        - generic [ref=e16103]: x
+                                        - generic [ref=e16104]: b
+                                      - generic [ref=e16105]:
+                                        - generic [ref=e16106]: "y"
+                                        - generic [ref=e16107]: b
+                                      - generic [ref=e16108]:
+                                        - generic [ref=e16109]: z
+                                        - generic [ref=e16110]: b
+                                - text: reference frame, (rad/s)
+                            - row "dynamic pressure, (kg/(m·s2))" [ref=e16111]:
+                              - cell [ref=e16112]:
+                                - generic [ref=e16113]:
+                                  - generic [ref=e16120]:
+                                    - generic [ref=e16121]: 𝑞
+                                    - generic [ref=e16123]:
+                                      - generic [ref=e16124]: −
+                                      - generic [ref=e16125]: −
+                                  - math [ref=e16126]:
+                                    - generic [ref=e16129]:
+                                      - generic [ref=e16130]: q
+                                      - generic [ref=e16131]: ˉ
+                              - cell "dynamic pressure, (kg/(m·s2))" [ref=e16132]:
+                                - text: dynamic pressure, (kg/(m·s
+                                - superscript [ref=e16133]: "2"
+                                - text: ))
+                            - row "battery capacity, (Ah)" [ref=e16134]:
+                              - cell [ref=e16135]:
+                                - generic [ref=e16136]:
+                                  - generic [ref=e16141]: 𝑄
+                                  - math [ref=e16142]:
+                                    - generic [ref=e16144]: Q
+                              - cell "battery capacity, (Ah)" [ref=e16145]
+                            - row "radial distance from the propeller axis of rotation, (mm)" [ref=e16146]:
+                              - cell [ref=e16147]:
+                                - generic [ref=e16148]:
+                                  - generic [ref=e16153]: 𝑟
+                                  - math [ref=e16154]:
+                                    - generic [ref=e16156]: r
+                              - cell "radial distance from the propeller axis of rotation, (mm)" [ref=e16157]
+                            - row "vector of the quadrotor position in the frame, (m)" [ref=e16158]:
+                              - cell [ref=e16159]:
+                                - generic [ref=e16160]:
+                                  - generic [ref=e16166]:
+                                    - generic [ref=e16167]:
+                                      - generic [ref=e16169]: 𝒓
+                                      - generic [ref=e16171]: 𝒏
+                                    - text: =
+                                    - generic [ref=e16172]:
+                                      - generic [ref=e16175]:
+                                        - generic [ref=e16176]: "["
+                                        - generic [ref=e16178]:
+                                          - generic [ref=e16184]:
+                                            - generic [ref=e16185]: 𝑥
+                                            - generic [ref=e16186]: 𝑛
+                                          - generic [ref=e16192]:
+                                            - generic [ref=e16193]: 𝑦
+                                            - generic [ref=e16194]: 𝑛
+                                          - generic [ref=e16200]:
+                                            - generic [ref=e16201]: 𝑧
+                                            - generic [ref=e16202]: 𝑛
+                                        - generic [ref=e16203]: "]"
+                                      - generic [ref=e16205]: 𝑇
+                                  - math [ref=e16207]:
+                                    - generic [ref=e16209]:
+                                      - generic [ref=e16210]:
+                                        - generic [ref=e16211]: r
+                                        - generic [ref=e16212]: "n"
+                                      - generic [ref=e16213]: =
+                                      - generic [ref=e16214]:
+                                        - generic [ref=e16219]:
+                                          - generic [ref=e16222]:
+                                            - generic [ref=e16223]: x
+                                            - generic [ref=e16224]: "n"
+                                          - generic [ref=e16227]:
+                                            - generic [ref=e16228]: "y"
+                                            - generic [ref=e16229]: "n"
+                                          - generic [ref=e16232]:
+                                            - generic [ref=e16233]: z
+                                            - generic [ref=e16234]: "n"
+                                        - generic [ref=e16235]: T
+                              - cell "vector of the quadrotor position in the frame, (m)" [ref=e16236]:
+                                - text: vector of the quadrotor position in the
+                                - generic [ref=e16237]:
+                                  - generic [ref=e16243]:
+                                    - generic [ref=e16244]:
+                                      - generic [ref=e16245]: 𝑂
+                                      - generic [ref=e16246]: 𝑛
+                                    - generic [ref=e16247]:
+                                      - generic [ref=e16248]: 𝑥
+                                      - generic [ref=e16249]: 𝑛
+                                    - generic [ref=e16250]:
+                                      - generic [ref=e16251]: 𝑦
+                                      - generic [ref=e16252]: 𝑛
+                                    - generic [ref=e16253]:
+                                      - generic [ref=e16254]: 𝑧
+                                      - generic [ref=e16255]: 𝑛
+                                  - math [ref=e16256]:
+                                    - generic [ref=e16258]:
+                                      - generic [ref=e16259]:
+                                        - generic [ref=e16260]: O
+                                        - generic [ref=e16261]: "n"
+                                      - generic [ref=e16262]:
+                                        - generic [ref=e16263]: x
+                                        - generic [ref=e16264]: "n"
+                                      - generic [ref=e16265]:
+                                        - generic [ref=e16266]: "y"
+                                        - generic [ref=e16267]: "n"
+                                      - generic [ref=e16268]:
+                                        - generic [ref=e16269]: z
+                                        - generic [ref=e16270]: "n"
+                                - text: frame, (m)
+                            - row "position vector of the -th rotor in the frame, (m)" [ref=e16271]:
+                              - cell [ref=e16272]:
+                                - generic [ref=e16273]:
+                                  - generic [ref=e16280]:
+                                    - generic [ref=e16282]: 𝒓
+                                    - generic [ref=e16285]: 𝑹𝒊
+                                  - math [ref=e16286]:
+                                    - generic [ref=e16289]:
+                                      - generic [ref=e16290]: r
+                                      - generic [ref=e16291]:
+                                        - generic [ref=e16292]: R
+                                        - generic [ref=e16293]: i
+                              - cell "position vector of the -th rotor in the frame, (m)" [ref=e16294]:
+                                - text: position vector of the
+                                - generic [ref=e16295]:
+                                  - generic [ref=e16300]: 𝑖
+                                  - math [ref=e16301]:
+                                    - generic [ref=e16303]: i
+                                - text: "-th rotor in the"
+                                - generic [ref=e16304]:
+                                  - generic [ref=e16310]:
+                                    - generic [ref=e16311]:
+                                      - generic [ref=e16312]: 𝑂
+                                      - generic [ref=e16313]: 𝑏
+                                    - generic [ref=e16314]:
+                                      - generic [ref=e16315]: 𝑥
+                                      - generic [ref=e16316]: 𝑏
+                                    - generic [ref=e16317]:
+                                      - generic [ref=e16318]: 𝑦
+                                      - generic [ref=e16319]: 𝑏
+                                    - generic [ref=e16320]:
+                                      - generic [ref=e16321]: 𝑧
+                                      - generic [ref=e16322]: 𝑏
+                                  - math [ref=e16323]:
+                                    - generic [ref=e16325]:
+                                      - generic [ref=e16326]:
+                                        - generic [ref=e16327]: O
+                                        - generic [ref=e16328]: b
+                                      - generic [ref=e16329]:
+                                        - generic [ref=e16330]: x
+                                        - generic [ref=e16331]: b
+                                      - generic [ref=e16332]:
+                                        - generic [ref=e16333]: "y"
+                                        - generic [ref=e16334]: b
+                                      - generic [ref=e16335]:
+                                        - generic [ref=e16336]: z
+                                        - generic [ref=e16337]: b
+                                - text: frame, (m)
+                            - row "battery internal resistance, (Ω)" [ref=e16338]:
+                              - cell [ref=e16339]:
+                                - generic [ref=e16340]:
+                                  - generic [ref=e16345]: 𝑅
+                                  - math [ref=e16346]:
+                                    - generic [ref=e16348]: R
+                              - cell "battery internal resistance, (Ω)" [ref=e16349]
+                            - row "radius of the rotor, (m)" [ref=e16350]:
+                              - cell [ref=e16351]:
+                                - generic [ref=e16352]:
+                                  - generic [ref=e16359]:
+                                    - generic [ref=e16360]: 𝑅
+                                    - generic [ref=e16361]: 𝑝
+                                  - math [ref=e16362]:
+                                    - generic [ref=e16365]:
+                                      - generic [ref=e16366]: R
+                                      - generic [ref=e16367]: p
+                              - cell "radius of the rotor, (m)" [ref=e16368]
+                            - row "reference area, (m2)" [ref=e16369]:
+                              - cell [ref=e16370]:
+                                - generic [ref=e16371]:
+                                  - generic [ref=e16376]: 𝑆
+                                  - math [ref=e16377]:
+                                    - generic [ref=e16379]: S
+                              - cell "reference area, (m2)" [ref=e16380]:
+                                - text: reference area, (m
+                                - superscript [ref=e16381]: "2"
+                                - text: )
+                            - row "rotor disc area, (m2)" [ref=e16382]:
+                              - cell [ref=e16383]:
+                                - generic [ref=e16384]:
+                                  - generic [ref=e16391]:
+                                    - generic [ref=e16392]: 𝑆
+                                    - generic [ref=e16393]: 𝑝
+                                  - math [ref=e16394]:
+                                    - generic [ref=e16397]:
+                                      - generic [ref=e16398]: S
+                                      - generic [ref=e16399]: p
+                              - cell "rotor disc area, (m2)" [ref=e16400]:
+                                - text: rotor disc area, (m
+                                - superscript [ref=e16401]: "2"
+                                - text: )
+                            - row "time, (s)" [ref=e16402]:
+                              - cell [ref=e16403]:
+                                - generic [ref=e16404]:
+                                  - generic [ref=e16409]: 𝑡
+                                  - math [ref=e16410]:
+                                    - generic [ref=e16412]: t
+                              - cell "time, (s)" [ref=e16413]
+                            - row "initial time, (s)" [ref=e16414]:
+                              - cell [ref=e16415]:
+                                - generic [ref=e16416]:
+                                  - generic [ref=e16423]:
+                                    - generic [ref=e16424]: 𝑡
+                                    - generic [ref=e16425]: "0"
+                                  - math [ref=e16426]:
+                                    - generic [ref=e16429]:
+                                      - generic [ref=e16430]: t
+                                      - generic [ref=e16431]: "0"
+                              - cell "initial time, (s)" [ref=e16432]
+                            - row "final time, (s)" [ref=e16433]:
+                              - cell [ref=e16434]:
+                                - generic [ref=e16435]:
+                                  - generic [ref=e16442]:
+                                    - generic [ref=e16443]: 𝑡
+                                    - generic [ref=e16445]: 𝑓
+                                  - math [ref=e16447]:
+                                    - generic [ref=e16450]:
+                                      - generic [ref=e16451]: t
+                                      - generic [ref=e16452]: f
+                              - cell "final time, (s)" [ref=e16453]
+                            - row "-th discrete time step, (s)" [ref=e16454]:
+                              - cell [ref=e16455]:
+                                - generic [ref=e16456]:
+                                  - generic [ref=e16463]:
+                                    - generic [ref=e16464]: 𝑡
+                                    - generic [ref=e16466]: 𝑘
+                                  - math [ref=e16468]:
+                                    - generic [ref=e16471]:
+                                      - generic [ref=e16472]: t
+                                      - generic [ref=e16473]: k
+                              - cell "-th discrete time step, (s)" [ref=e16474]:
+                                - generic [ref=e16475]:
+                                  - generic [ref=e16481]: 𝑘
+                                  - math [ref=e16483]:
+                                    - generic [ref=e16485]: k
+                                - text: "-th discrete time step, (s)"
+                            - row "time constant, (s)" [ref=e16486]:
+                              - cell [ref=e16487]:
+                                - generic [ref=e16488]:
+                                  - generic [ref=e16495]:
+                                    - generic [ref=e16497]: 𝑇
+                                    - generic [ref=e16499]: 𝑒
+                                  - math [ref=e16500]:
+                                    - generic [ref=e16503]:
+                                      - generic [ref=e16504]: T
+                                      - generic [ref=e16505]: e
+                              - cell "time constant, (s)" [ref=e16506]
+                            - row "thrust produced by the -th rotor, (N)" [ref=e16507]:
+                              - cell [ref=e16508]:
+                                - generic [ref=e16509]:
+                                  - generic [ref=e16516]:
+                                    - generic [ref=e16518]: 𝑇
+                                    - generic [ref=e16520]: 𝑖
+                                  - math [ref=e16521]:
+                                    - generic [ref=e16524]:
+                                      - generic [ref=e16525]: T
+                                      - generic [ref=e16526]: i
+                              - cell "thrust produced by the -th rotor, (N)" [ref=e16527]:
+                                - text: thrust produced by the
+                                - generic [ref=e16528]:
+                                  - generic [ref=e16533]: 𝑖
+                                  - math [ref=e16534]:
+                                    - generic [ref=e16536]: i
+                                - text: "-th rotor, (N)"
+                            - row "matrix of linear velocities and angular rates" [ref=e16537]:
+                              - cell [ref=e16538]:
+                                - generic [ref=e16539]:
+                                  - generic [ref=e16545]: 𝑻
+                                  - math [ref=e16547]:
+                                    - generic [ref=e16549]: T
+                              - cell "matrix of linear velocities and angular rates" [ref=e16550]
+                            - row "velocity transformation matrix" [ref=e16551]:
+                              - cell [ref=e16552]:
+                                - generic [ref=e16553]:
+                                  - generic [ref=e16560]:
+                                    - generic [ref=e16562]: 𝑻
+                                    - generic [ref=e16565]: 𝑽
+                                  - math [ref=e16567]:
+                                    - generic [ref=e16570]:
+                                      - generic [ref=e16571]: T
+                                      - generic [ref=e16572]: V
+                              - cell "velocity transformation matrix" [ref=e16573]
+                            - row "angle transformation matrix" [ref=e16574]:
+                              - cell [ref=e16575]:
+                                - generic [ref=e16576]:
+                                  - generic [ref=e16583]:
+                                    - generic [ref=e16585]: 𝑻
+                                    - generic [ref=e16587]: 𝜴
+                                  - math [ref=e16588]:
+                                    - generic [ref=e16591]:
+                                      - generic [ref=e16592]: T
+                                      - generic [ref=e16593]: Ω
+                              - cell "angle transformation matrix" [ref=e16594]
+                            - row "control signals for climb rate, roll rate, pitch rate and yaw rate control respectively, (rad/s)" [ref=e16595]:
+                              - cell [ref=e16596]:
+                                - generic [ref=e16597]:
+                                  - generic [ref=e16603]:
+                                    - generic [ref=e16604]:
+                                      - generic [ref=e16605]: 𝑢
+                                      - generic [ref=e16606]: "1"
+                                    - text: ","
+                                    - generic [ref=e16607]:
+                                      - generic [ref=e16608]: 𝑢
+                                      - generic [ref=e16609]: "2"
+                                    - text: ","
+                                    - generic [ref=e16610]:
+                                      - generic [ref=e16611]: 𝑢
+                                      - generic [ref=e16612]: "3"
+                                    - text: ","
+                                    - generic [ref=e16613]:
+                                      - generic [ref=e16614]: 𝑢
+                                      - generic [ref=e16615]: "4"
+                                  - math [ref=e16616]:
+                                    - generic [ref=e16618]:
+                                      - generic [ref=e16619]:
+                                        - generic [ref=e16620]: u
+                                        - generic [ref=e16621]: "1"
+                                      - generic [ref=e16622]: ","
+                                      - generic [ref=e16623]:
+                                        - generic [ref=e16624]: u
+                                        - generic [ref=e16625]: "2"
+                                      - generic [ref=e16626]: ","
+                                      - generic [ref=e16627]:
+                                        - generic [ref=e16628]: u
+                                        - generic [ref=e16629]: "3"
+                                      - generic [ref=e16630]: ","
+                                      - generic [ref=e16631]:
+                                        - generic [ref=e16632]: u
+                                        - generic [ref=e16633]: "4"
+                              - cell "control signals for climb rate, roll rate, pitch rate and yaw rate control respectively, (rad/s)" [ref=e16634]
+                            - row "components of linear velocity in reference frame, (m/s)" [ref=e16635]:
+                              - cell [ref=e16636]:
+                                - generic [ref=e16637]:
+                                  - generic [ref=e16643]:
+                                    - generic [ref=e16644]: 𝑈
+                                    - text: ","
+                                    - generic [ref=e16646]: 𝑉
+                                    - text: ","
+                                    - generic [ref=e16648]: 𝑊
+                                  - math [ref=e16650]:
+                                    - generic [ref=e16652]:
+                                      - generic [ref=e16653]: U
+                                      - generic [ref=e16654]: ","
+                                      - generic [ref=e16655]: V
+                                      - generic [ref=e16656]: ","
+                                      - generic [ref=e16657]: W
+                              - cell "components of linear velocity in reference frame, (m/s)" [ref=e16658]:
+                                - text: components of linear velocity in
+                                - generic [ref=e16659]:
+                                  - generic [ref=e16665]:
+                                    - generic [ref=e16666]:
+                                      - generic [ref=e16667]: 𝑂
+                                      - generic [ref=e16668]: 𝑏
+                                    - generic [ref=e16669]:
+                                      - generic [ref=e16670]: 𝑥
+                                      - generic [ref=e16671]: 𝑏
+                                    - generic [ref=e16672]:
+                                      - generic [ref=e16673]: 𝑦
+                                      - generic [ref=e16674]: 𝑏
+                                    - generic [ref=e16675]:
+                                      - generic [ref=e16676]: 𝑧
+                                      - generic [ref=e16677]: 𝑏
+                                  - math [ref=e16678]:
+                                    - generic [ref=e16680]:
+                                      - generic [ref=e16681]:
+                                        - generic [ref=e16682]: O
+                                        - generic [ref=e16683]: b
+                                      - generic [ref=e16684]:
+                                        - generic [ref=e16685]: x
+                                        - generic [ref=e16686]: b
+                                      - generic [ref=e16687]:
+                                        - generic [ref=e16688]: "y"
+                                        - generic [ref=e16689]: b
+                                      - generic [ref=e16690]:
+                                        - generic [ref=e16691]: z
+                                        - generic [ref=e16692]: b
+                                - text: reference frame, (m/s)
+                            - row "components of linear velocity in reference frame, (m/s)" [ref=e16693]:
+                              - cell [ref=e16694]:
+                                - generic [ref=e16695]:
+                                  - generic [ref=e16701]:
+                                    - generic [ref=e16702]:
+                                      - generic [ref=e16704]: 𝑈
+                                      - generic [ref=e16706]: 𝑛
+                                    - text: ","
+                                    - generic [ref=e16707]:
+                                      - generic [ref=e16709]: 𝑉
+                                      - generic [ref=e16711]: 𝑛
+                                    - text: ","
+                                    - generic [ref=e16712]:
+                                      - generic [ref=e16714]: 𝑊
+                                      - generic [ref=e16716]: 𝑛
+                                  - math [ref=e16717]:
+                                    - generic [ref=e16719]:
+                                      - generic [ref=e16720]:
+                                        - generic [ref=e16721]: U
+                                        - generic [ref=e16722]: "n"
+                                      - generic [ref=e16723]: ","
+                                      - generic [ref=e16724]:
+                                        - generic [ref=e16725]: V
+                                        - generic [ref=e16726]: "n"
+                                      - generic [ref=e16727]: ","
+                                      - generic [ref=e16728]:
+                                        - generic [ref=e16729]: W
+                                        - generic [ref=e16730]: "n"
+                              - cell "components of linear velocity in reference frame, (m/s)" [ref=e16731]:
+                                - text: components of linear velocity in
+                                - generic [ref=e16732]:
+                                  - generic [ref=e16738]:
+                                    - generic [ref=e16739]:
+                                      - generic [ref=e16740]: 𝑂
+                                      - generic [ref=e16741]: 𝑛
+                                    - generic [ref=e16742]:
+                                      - generic [ref=e16743]: 𝑥
+                                      - generic [ref=e16744]: 𝑛
+                                    - generic [ref=e16745]:
+                                      - generic [ref=e16746]: 𝑦
+                                      - generic [ref=e16747]: 𝑛
+                                    - generic [ref=e16748]:
+                                      - generic [ref=e16749]: 𝑧
+                                      - generic [ref=e16750]: 𝑛
+                                  - math [ref=e16751]:
+                                    - generic [ref=e16753]:
+                                      - generic [ref=e16754]:
+                                        - generic [ref=e16755]: O
+                                        - generic [ref=e16756]: "n"
+                                      - generic [ref=e16757]:
+                                        - generic [ref=e16758]: x
+                                        - generic [ref=e16759]: "n"
+                                      - generic [ref=e16760]:
+                                        - generic [ref=e16761]: "y"
+                                        - generic [ref=e16762]: "n"
+                                      - generic [ref=e16763]:
+                                        - generic [ref=e16764]: z
+                                        - generic [ref=e16765]: "n"
+                                - text: reference frame, (m/s)
+                            - row "components of wind velocity in reference frame, (m/s)" [ref=e16766]:
+                              - cell [ref=e16767]:
+                                - generic [ref=e16768]:
+                                  - generic [ref=e16774]:
+                                    - generic [ref=e16775]:
+                                      - generic [ref=e16777]: 𝑈
+                                      - generic [ref=e16780]: 𝑊
+                                    - text: ","
+                                    - generic [ref=e16782]:
+                                      - generic [ref=e16784]: 𝑉
+                                      - generic [ref=e16787]: 𝑊
+                                    - text: ","
+                                    - generic [ref=e16789]:
+                                      - generic [ref=e16791]: 𝑊
+                                      - generic [ref=e16794]: 𝑊
+                                  - math [ref=e16796]:
+                                    - generic [ref=e16798]:
+                                      - generic [ref=e16799]:
+                                        - generic [ref=e16800]: U
+                                        - generic [ref=e16801]: W
+                                      - generic [ref=e16802]: ","
+                                      - generic [ref=e16803]:
+                                        - generic [ref=e16804]: V
+                                        - generic [ref=e16805]: W
+                                      - generic [ref=e16806]: ","
+                                      - generic [ref=e16807]:
+                                        - generic [ref=e16808]: W
+                                        - generic [ref=e16809]: W
+                              - cell "components of wind velocity in reference frame, (m/s)" [ref=e16810]:
+                                - text: components of wind velocity in
+                                - generic [ref=e16811]:
+                                  - generic [ref=e16817]:
+                                    - generic [ref=e16818]:
+                                      - generic [ref=e16819]: 𝑂
+                                      - generic [ref=e16820]: 𝑏
+                                    - generic [ref=e16821]:
+                                      - generic [ref=e16822]: 𝑥
+                                      - generic [ref=e16823]: 𝑏
+                                    - generic [ref=e16824]:
+                                      - generic [ref=e16825]: 𝑦
+                                      - generic [ref=e16826]: 𝑏
+                                    - generic [ref=e16827]:
+                                      - generic [ref=e16828]: 𝑧
+                                      - generic [ref=e16829]: 𝑏
+                                  - math [ref=e16830]:
+                                    - generic [ref=e16832]:
+                                      - generic [ref=e16833]:
+                                        - generic [ref=e16834]: O
+                                        - generic [ref=e16835]: b
+                                      - generic [ref=e16836]:
+                                        - generic [ref=e16837]: x
+                                        - generic [ref=e16838]: b
+                                      - generic [ref=e16839]:
+                                        - generic [ref=e16840]: "y"
+                                        - generic [ref=e16841]: b
+                                      - generic [ref=e16842]:
+                                        - generic [ref=e16843]: z
+                                        - generic [ref=e16844]: b
+                                - text: reference frame, (m/s)
+                            - row "components of uniform wind velocity in reference frame, (m/s)" [ref=e16845]:
+                              - cell [ref=e16846]:
+                                - generic [ref=e16847]:
+                                  - generic [ref=e16853]:
+                                    - generic [ref=e16854]:
+                                      - generic [ref=e16856]: 𝑈
+                                      - generic [ref=e16858]: 𝑢
+                                      - generic [ref=e16860]:
+                                        - generic [ref=e16861]: 𝑊
+                                        - text: 𝑛
+                                    - text: ","
+                                    - generic [ref=e16863]:
+                                      - generic [ref=e16865]: 𝑉
+                                      - generic [ref=e16867]: 𝑢
+                                      - generic [ref=e16869]:
+                                        - generic [ref=e16870]: 𝑊
+                                        - text: 𝑛
+                                    - text: ","
+                                    - generic [ref=e16872]:
+                                      - generic [ref=e16874]: 𝑊
+                                      - generic [ref=e16876]: 𝑢
+                                      - generic [ref=e16878]:
+                                        - generic [ref=e16879]: 𝑊
+                                        - text: 𝑛
+                                  - math [ref=e16881]:
+                                    - generic [ref=e16883]:
+                                      - generic [ref=e16884]:
+                                        - generic [ref=e16885]: U
+                                        - generic [ref=e16886]:
+                                          - generic [ref=e16887]: W
+                                          - generic [ref=e16888]: "n"
+                                        - generic [ref=e16889]: u
+                                      - generic [ref=e16890]: ","
+                                      - generic [ref=e16891]:
+                                        - generic [ref=e16892]: V
+                                        - generic [ref=e16893]:
+                                          - generic [ref=e16894]: W
+                                          - generic [ref=e16895]: "n"
+                                        - generic [ref=e16896]: u
+                                      - generic [ref=e16897]: ","
+                                      - generic [ref=e16898]:
+                                        - generic [ref=e16899]: W
+                                        - generic [ref=e16900]:
+                                          - generic [ref=e16901]: W
+                                          - generic [ref=e16902]: "n"
+                                        - generic [ref=e16903]: u
+                              - cell "components of uniform wind velocity in reference frame, (m/s)" [ref=e16904]:
+                                - text: components of uniform wind velocity in
+                                - generic [ref=e16905]:
+                                  - generic [ref=e16911]:
+                                    - generic [ref=e16912]:
+                                      - generic [ref=e16913]: 𝑂
+                                      - generic [ref=e16914]: 𝑛
+                                    - generic [ref=e16915]:
+                                      - generic [ref=e16916]: 𝑥
+                                      - generic [ref=e16917]: 𝑛
+                                    - generic [ref=e16918]:
+                                      - generic [ref=e16919]: 𝑦
+                                      - generic [ref=e16920]: 𝑛
+                                    - generic [ref=e16921]:
+                                      - generic [ref=e16922]: 𝑧
+                                      - generic [ref=e16923]: 𝑛
+                                  - math [ref=e16924]:
+                                    - generic [ref=e16926]:
+                                      - generic [ref=e16927]:
+                                        - generic [ref=e16928]: O
+                                        - generic [ref=e16929]: "n"
+                                      - generic [ref=e16930]:
+                                        - generic [ref=e16931]: x
+                                        - generic [ref=e16932]: "n"
+                                      - generic [ref=e16933]:
+                                        - generic [ref=e16934]: "y"
+                                        - generic [ref=e16935]: "n"
+                                      - generic [ref=e16936]:
+                                        - generic [ref=e16937]: z
+                                        - generic [ref=e16938]: "n"
+                                - text: reference frame, (m/s)
+                            - row "components of turbulence velocity in reference frame, (m/s)" [ref=e16939]:
+                              - cell [ref=e16940]:
+                                - generic [ref=e16941]:
+                                  - generic [ref=e16947]:
+                                    - generic [ref=e16948]:
+                                      - generic [ref=e16950]: 𝑈
+                                      - generic [ref=e16952]: 𝑡
+                                      - generic [ref=e16954]:
+                                        - generic [ref=e16955]: 𝑊
+                                        - text: 𝑛
+                                    - text: ","
+                                    - generic [ref=e16957]:
+                                      - generic [ref=e16959]: 𝑉
+                                      - generic [ref=e16961]: 𝑡
+                                      - generic [ref=e16963]:
+                                        - generic [ref=e16964]: 𝑊
+                                        - text: 𝑛
+                                    - text: ","
+                                    - generic [ref=e16966]:
+                                      - generic [ref=e16968]: 𝑊
+                                      - generic [ref=e16970]: 𝑡
+                                      - generic [ref=e16972]:
+                                        - generic [ref=e16973]: 𝑊
+                                        - text: 𝑛
+                                  - math [ref=e16975]:
+                                    - generic [ref=e16977]:
+                                      - generic [ref=e16978]:
+                                        - generic [ref=e16979]: U
+                                        - generic [ref=e16980]:
+                                          - generic [ref=e16981]: W
+                                          - generic [ref=e16982]: "n"
+                                        - generic [ref=e16983]: t
+                                      - generic [ref=e16984]: ","
+                                      - generic [ref=e16985]:
+                                        - generic [ref=e16986]: V
+                                        - generic [ref=e16987]:
+                                          - generic [ref=e16988]: W
+                                          - generic [ref=e16989]: "n"
+                                        - generic [ref=e16990]: t
+                                      - generic [ref=e16991]: ","
+                                      - generic [ref=e16992]:
+                                        - generic [ref=e16993]: W
+                                        - generic [ref=e16994]:
+                                          - generic [ref=e16995]: W
+                                          - generic [ref=e16996]: "n"
+                                        - generic [ref=e16997]: t
+                              - cell "components of turbulence velocity in reference frame, (m/s)" [ref=e16998]:
+                                - text: components of turbulence velocity in
+                                - generic [ref=e16999]:
+                                  - generic [ref=e17005]:
+                                    - generic [ref=e17006]:
+                                      - generic [ref=e17007]: 𝑂
+                                      - generic [ref=e17008]: 𝑛
+                                    - generic [ref=e17009]:
+                                      - generic [ref=e17010]: 𝑥
+                                      - generic [ref=e17011]: 𝑛
+                                    - generic [ref=e17012]:
+                                      - generic [ref=e17013]: 𝑦
+                                      - generic [ref=e17014]: 𝑛
+                                    - generic [ref=e17015]:
+                                      - generic [ref=e17016]: 𝑧
+                                      - generic [ref=e17017]: 𝑛
+                                  - math [ref=e17018]:
+                                    - generic [ref=e17020]:
+                                      - generic [ref=e17021]:
+                                        - generic [ref=e17022]: O
+                                        - generic [ref=e17023]: "n"
+                                      - generic [ref=e17024]:
+                                        - generic [ref=e17025]: x
+                                        - generic [ref=e17026]: "n"
+                                      - generic [ref=e17027]:
+                                        - generic [ref=e17028]: "y"
+                                        - generic [ref=e17029]: "n"
+                                      - generic [ref=e17030]:
+                                        - generic [ref=e17031]: z
+                                        - generic [ref=e17032]: "n"
+                                - text: reference frame, (m/s)
+                            - row "components of wind velocity in reference frame, (m/s)" [ref=e17033]:
+                              - cell [ref=e17034]:
+                                - generic [ref=e17035]:
+                                  - generic [ref=e17041]:
+                                    - generic [ref=e17042]:
+                                      - generic [ref=e17044]: 𝑈
+                                      - generic [ref=e17047]:
+                                        - generic [ref=e17048]: 𝑊
+                                        - text: 𝑛
+                                    - text: ","
+                                    - generic [ref=e17050]:
+                                      - generic [ref=e17052]: 𝑉
+                                      - generic [ref=e17055]:
+                                        - generic [ref=e17056]: 𝑊
+                                        - text: 𝑛
+                                    - text: ","
+                                    - generic [ref=e17058]:
+                                      - generic [ref=e17060]: 𝑊
+                                      - generic [ref=e17063]:
+                                        - generic [ref=e17064]: 𝑊
+                                        - text: 𝑛
+                                  - math [ref=e17066]:
+                                    - generic [ref=e17068]:
+                                      - generic [ref=e17069]:
+                                        - generic [ref=e17070]: U
+                                        - generic [ref=e17071]:
+                                          - generic [ref=e17072]: W
+                                          - generic [ref=e17073]: "n"
+                                      - generic [ref=e17074]: ","
+                                      - generic [ref=e17075]:
+                                        - generic [ref=e17076]: V
+                                        - generic [ref=e17077]:
+                                          - generic [ref=e17078]: W
+                                          - generic [ref=e17079]: "n"
+                                      - generic [ref=e17080]: ","
+                                      - generic [ref=e17081]:
+                                        - generic [ref=e17082]: W
+                                        - generic [ref=e17083]:
+                                          - generic [ref=e17084]: W
+                                          - generic [ref=e17085]: "n"
+                              - cell "components of wind velocity in reference frame, (m/s)" [ref=e17086]:
+                                - text: components of wind velocity in
+                                - generic [ref=e17087]:
+                                  - generic [ref=e17093]:
+                                    - generic [ref=e17094]:
+                                      - generic [ref=e17095]: 𝑂
+                                      - generic [ref=e17096]: 𝑛
+                                    - generic [ref=e17097]:
+                                      - generic [ref=e17098]: 𝑥
+                                      - generic [ref=e17099]: 𝑛
+                                    - generic [ref=e17100]:
+                                      - generic [ref=e17101]: 𝑦
+                                      - generic [ref=e17102]: 𝑛
+                                    - generic [ref=e17103]:
+                                      - generic [ref=e17104]: 𝑧
+                                      - generic [ref=e17105]: 𝑛
+                                  - math [ref=e17106]:
+                                    - generic [ref=e17108]:
+                                      - generic [ref=e17109]:
+                                        - generic [ref=e17110]: O
+                                        - generic [ref=e17111]: "n"
+                                      - generic [ref=e17112]:
+                                        - generic [ref=e17113]: x
+                                        - generic [ref=e17114]: "n"
+                                      - generic [ref=e17115]:
+                                        - generic [ref=e17116]: "y"
+                                        - generic [ref=e17117]: "n"
+                                      - generic [ref=e17118]:
+                                        - generic [ref=e17119]: z
+                                        - generic [ref=e17120]: "n"
+                                - text: reference frame, (m/s)
+                            - row "battery voltage, (V)" [ref=e17121]:
+                              - cell [ref=e17122]:
+                                - generic [ref=e17123]:
+                                  - generic [ref=e17130]:
+                                    - generic [ref=e17132]: 𝑈
+                                    - generic [ref=e17135]: 𝑏𝑎𝑡
+                                  - math [ref=e17136]:
+                                    - generic [ref=e17139]:
+                                      - generic [ref=e17140]: U
+                                      - generic [ref=e17141]:
+                                        - generic [ref=e17142]: b
+                                        - generic [ref=e17143]: a
+                                        - generic [ref=e17144]: t
+                              - cell "battery voltage, (V)" [ref=e17145]
+                            - row "voltage of the -th motor, (V)" [ref=e17146]:
+                              - cell [ref=e17147]:
+                                - generic [ref=e17148]:
+                                  - generic [ref=e17155]:
+                                    - generic [ref=e17157]: 𝑈
+                                    - generic [ref=e17159]: 𝑖
+                                  - math [ref=e17160]:
+                                    - generic [ref=e17163]:
+                                      - generic [ref=e17164]: U
+                                      - generic [ref=e17165]: i
+                              - cell "voltage of the -th motor, (V)" [ref=e17166]:
+                                - text: voltage of the
+                                - generic [ref=e17167]:
+                                  - generic [ref=e17172]: 𝑖
+                                  - math [ref=e17173]:
+                                    - generic [ref=e17175]: i
+                                - text: "-th motor, (V)"
+                            - row "airspeed, (m/s)" [ref=e17176]:
+                              - cell [ref=e17177]:
+                                - generic [ref=e17178]:
+                                  - generic [ref=e17185]:
+                                    - generic [ref=e17187]: 𝑉
+                                    - generic [ref=e17190]: 𝑡𝑜𝑡
+                                  - math [ref=e17191]:
+                                    - generic [ref=e17194]:
+                                      - generic [ref=e17195]: V
+                                      - generic [ref=e17196]:
+                                        - generic [ref=e17197]: t
+                                        - generic [ref=e17198]: o
+                                        - generic [ref=e17199]: t
+                              - cell "airspeed, (m/s)" [ref=e17200]
+                            - row "linear velocity vector in reference frame, (m/s)" [ref=e17201]:
+                              - cell [ref=e17202]:
+                                - generic [ref=e17203]:
+                                  - generic [ref=e17209]:
+                                    - text: 𝑣=
+                                    - generic [ref=e17210]:
+                                      - generic [ref=e17212]:
+                                        - text: "["
+                                        - generic [ref=e17213]: 𝑈
+                                        - text: ","
+                                        - generic [ref=e17215]: 𝑉
+                                        - text: ","
+                                        - generic [ref=e17217]: 𝑊
+                                        - text: "]"
+                                      - generic [ref=e17220]: 𝑇
+                                  - math [ref=e17222]:
+                                    - generic [ref=e17224]:
+                                      - generic [ref=e17225]: v
+                                      - generic [ref=e17226]: =
+                                      - generic [ref=e17227]:
+                                        - generic [ref=e17228]:
+                                          - generic [ref=e17229]: "["
+                                          - generic [ref=e17230]: U
+                                          - generic [ref=e17231]: ","
+                                          - generic [ref=e17232]: V
+                                          - generic [ref=e17233]: ","
+                                          - generic [ref=e17234]: W
+                                          - generic [ref=e17235]: "]"
+                                        - generic [ref=e17236]: T
+                              - cell "linear velocity vector in reference frame, (m/s)" [ref=e17237]:
+                                - text: linear velocity vector in
+                                - generic [ref=e17238]:
+                                  - generic [ref=e17244]:
+                                    - generic [ref=e17245]:
+                                      - generic [ref=e17246]: 𝑂
+                                      - generic [ref=e17247]: 𝑏
+                                    - generic [ref=e17248]:
+                                      - generic [ref=e17249]: 𝑥
+                                      - generic [ref=e17250]: 𝑏
+                                    - generic [ref=e17251]:
+                                      - generic [ref=e17252]: 𝑦
+                                      - generic [ref=e17253]: 𝑏
+                                    - generic [ref=e17254]:
+                                      - generic [ref=e17255]: 𝑧
+                                      - generic [ref=e17256]: 𝑏
+                                  - math [ref=e17257]:
+                                    - generic [ref=e17259]:
+                                      - generic [ref=e17260]:
+                                        - generic [ref=e17261]: O
+                                        - generic [ref=e17262]: b
+                                      - generic [ref=e17263]:
+                                        - generic [ref=e17264]: x
+                                        - generic [ref=e17265]: b
+                                      - generic [ref=e17266]:
+                                        - generic [ref=e17267]: "y"
+                                        - generic [ref=e17268]: b
+                                      - generic [ref=e17269]:
+                                        - generic [ref=e17270]: z
+                                        - generic [ref=e17271]: b
+                                - text: reference frame, (m/s)
+                            - row "drone airspeed, (m/s)" [ref=e17272]:
+                              - cell [ref=e17273]:
+                                - generic [ref=e17274]:
+                                  - generic [ref=e17281]:
+                                    - generic [ref=e17283]: 𝑉
+                                    - generic [ref=e17286]: 𝑡𝑜𝑡
+                                  - math [ref=e17287]:
+                                    - generic [ref=e17290]:
+                                      - generic [ref=e17291]: V
+                                      - generic [ref=e17292]:
+                                        - generic [ref=e17293]: t
+                                        - generic [ref=e17294]: o
+                                        - generic [ref=e17295]: t
+                              - cell "drone airspeed, (m/s)" [ref=e17296]
+                            - row "total wind speed, (m/s)" [ref=e17297]:
+                              - cell [ref=e17298]:
+                                - generic [ref=e17299]:
+                                  - generic [ref=e17306]:
+                                    - generic [ref=e17308]: 𝑉
+                                    - generic [ref=e17311]:
+                                      - generic [ref=e17312]: 𝑊
+                                      - text: 𝑡𝑜𝑡
+                                  - math [ref=e17314]:
+                                    - generic [ref=e17317]:
+                                      - generic [ref=e17318]: V
+                                      - generic [ref=e17319]:
+                                        - generic [ref=e17320]: W
+                                        - generic [ref=e17321]: t
+                                        - generic [ref=e17322]: o
+                                        - generic [ref=e17323]: t
+                              - cell "total wind speed, (m/s)" [ref=e17324]
+                            - row "wind speed at altitude 6 m, (kts)" [ref=e17325]:
+                              - cell [ref=e17326]:
+                                - generic [ref=e17327]:
+                                  - generic [ref=e17334]:
+                                    - generic [ref=e17336]: 𝑊
+                                    - generic [ref=e17339]: "20"
+                                  - math [ref=e17340]:
+                                    - generic [ref=e17343]:
+                                      - generic [ref=e17344]: W
+                                      - generic [ref=e17346]: "20"
+                              - cell "wind speed at altitude 6 m, (kts)" [ref=e17347]
+                            - row "state vector" [ref=e17348]:
+                              - cell [ref=e17349]:
+                                - generic [ref=e17350]:
+                                  - generic [ref=e17355]: 𝒙
+                                  - math [ref=e17356]:
+                                    - generic [ref=e17358]: x
+                              - cell "state vector" [ref=e17359]
+                            - row "coordinates of aircraft position in reference frame, (m)" [ref=e17360]:
+                              - cell [ref=e17361]:
+                                - generic [ref=e17362]:
+                                  - generic [ref=e17368]:
+                                    - generic [ref=e17369]:
+                                      - generic [ref=e17370]: 𝑥
+                                      - generic [ref=e17371]: 𝑛
+                                    - text: ","
+                                    - generic [ref=e17372]:
+                                      - generic [ref=e17373]: 𝑦
+                                      - generic [ref=e17374]: 𝑛
+                                    - text: ","
+                                    - generic [ref=e17375]:
+                                      - generic [ref=e17376]: 𝑧
+                                      - generic [ref=e17377]: 𝑛
+                                  - math [ref=e17378]:
+                                    - generic [ref=e17380]:
+                                      - generic [ref=e17381]:
+                                        - generic [ref=e17382]: x
+                                        - generic [ref=e17383]: "n"
+                                      - generic [ref=e17384]: ","
+                                      - generic [ref=e17385]:
+                                        - generic [ref=e17386]: "y"
+                                        - generic [ref=e17387]: "n"
+                                      - generic [ref=e17388]: ","
+                                      - generic [ref=e17389]:
+                                        - generic [ref=e17390]: z
+                                        - generic [ref=e17391]: "n"
+                              - cell "coordinates of aircraft position in reference frame, (m)" [ref=e17392]:
+                                - text: coordinates of aircraft position in
+                                - generic [ref=e17393]:
+                                  - generic [ref=e17399]:
+                                    - generic [ref=e17400]:
+                                      - generic [ref=e17401]: 𝑂
+                                      - generic [ref=e17402]: 𝑛
+                                    - generic [ref=e17403]:
+                                      - generic [ref=e17404]: 𝑥
+                                      - generic [ref=e17405]: 𝑛
+                                    - generic [ref=e17406]:
+                                      - generic [ref=e17407]: 𝑦
+                                      - generic [ref=e17408]: 𝑛
+                                    - generic [ref=e17409]:
+                                      - generic [ref=e17410]: 𝑧
+                                      - generic [ref=e17411]: 𝑛
+                                  - math [ref=e17412]:
+                                    - generic [ref=e17414]:
+                                      - generic [ref=e17415]:
+                                        - generic [ref=e17416]: O
+                                        - generic [ref=e17417]: "n"
+                                      - generic [ref=e17418]:
+                                        - generic [ref=e17419]: x
+                                        - generic [ref=e17420]: "n"
+                                      - generic [ref=e17421]:
+                                        - generic [ref=e17422]: "y"
+                                        - generic [ref=e17423]: "n"
+                                      - generic [ref=e17424]:
+                                        - generic [ref=e17425]: z
+                                        - generic [ref=e17426]: "n"
+                                - text: reference frame, (m)
+                            - row "model output vector" [ref=e17427]:
+                              - cell [ref=e17428]:
+                                - generic [ref=e17429]:
+                                  - generic [ref=e17434]: 𝑦
+                                  - math [ref=e17435]:
+                                    - generic [ref=e17437]: "y"
+                              - cell "model output vector" [ref=e17438]
+                            - row "aircraft position and attitude vector" [ref=e17439]:
+                              - cell [ref=e17440]:
+                                - generic [ref=e17441]:
+                                  - generic [ref=e17446]: 𝒚
+                                  - math [ref=e17447]:
+                                    - generic [ref=e17449]: "y"
+                              - cell "aircraft position and attitude vector" [ref=e17450]
+                            - row "measurement vector" [ref=e17451]:
+                              - cell [ref=e17452]:
+                                - generic [ref=e17453]:
+                                  - generic [ref=e17458]: 𝑧
+                                  - math [ref=e17459]:
+                                    - generic [ref=e17461]: z
+                              - cell "measurement vector" [ref=e17462]
+                            - row "Greek symbols" [ref=e17463]:
+                              - cell "Greek symbols" [ref=e17464]
+                              - cell [ref=e17465]
+                            - row "angle of attack, (rad)" [ref=e17466]:
+                              - cell [ref=e17467]:
+                                - generic [ref=e17468]:
+                                  - generic [ref=e17473]: 𝛼
+                                  - math [ref=e17474]:
+                                    - generic [ref=e17476]: α
+                              - cell "angle of attack, (rad)" [ref=e17477]
+                            - row "angle of sideslip, (rad)" [ref=e17478]:
+                              - cell [ref=e17479]:
+                                - generic [ref=e17480]:
+                                  - generic [ref=e17485]: 𝛽
+                                  - math [ref=e17486]:
+                                    - generic [ref=e17488]: β
+                              - cell "angle of sideslip, (rad)" [ref=e17489]
+                            - row "rotor blade twist, (rad)" [ref=e17490]:
+                              - cell [ref=e17491]:
+                                - generic [ref=e17492]:
+                                  - generic [ref=e17498]: 𝛾
+                                  - math [ref=e17500]:
+                                    - generic [ref=e17502]: γ
+                              - cell "rotor blade twist, (rad)" [ref=e17503]
+                            - row "chord center shift distribution along the rotor span, (mm)" [ref=e17504]:
+                              - cell [ref=e17505]:
+                                - generic [ref=e17506]:
+                                  - generic [ref=e17513]:
+                                    - generic [ref=e17514]: Δ
+                                    - generic [ref=e17515]: 𝑐
+                                  - math [ref=e17516]:
+                                    - generic [ref=e17519]:
+                                      - generic [ref=e17520]: Δ
+                                      - generic [ref=e17521]: c
+                              - cell "chord center shift distribution along the rotor span, (mm)" [ref=e17522]
+                            - row "velocity correction function of the thrust, (N)" [ref=e17523]:
+                              - cell [ref=e17524]:
+                                - generic [ref=e17525]:
+                                  - generic [ref=e17531]:
+                                    - text: Δ
+                                    - generic [ref=e17532]:
+                                      - generic [ref=e17534]: 𝑇
+                                      - generic [ref=e17536]: 𝑖
+                                  - math [ref=e17537]:
+                                    - generic [ref=e17539]:
+                                      - generic [ref=e17540]: Δ
+                                      - generic [ref=e17541]:
+                                        - generic [ref=e17542]: T
+                                        - generic [ref=e17543]: i
+                              - cell "velocity correction function of the thrust, (N)" [ref=e17544]
+                            - row "velocity correction function of the torque, (Nm)" [ref=e17545]:
+                              - cell [ref=e17546]:
+                                - generic [ref=e17547]:
+                                  - generic [ref=e17553]:
+                                    - text: Δ
+                                    - generic [ref=e17554]:
+                                      - generic [ref=e17555]: 𝑀
+                                      - generic [ref=e17556]: 𝑖
+                                  - math [ref=e17557]:
+                                    - generic [ref=e17559]:
+                                      - generic [ref=e17560]: Δ
+                                      - generic [ref=e17561]:
+                                        - generic [ref=e17562]: M
+                                        - generic [ref=e17563]: i
+                              - cell "velocity correction function of the torque, (Nm)" [ref=e17564]
+                            - row "nominal value of the parameter" [ref=e17565]:
+                              - cell [ref=e17566]:
+                                - generic [ref=e17567]:
+                                  - generic [ref=e17572]: 𝜇
+                                  - math [ref=e17573]:
+                                    - generic [ref=e17575]: μ
+                              - cell "nominal value of the parameter" [ref=e17576]
+                            - row "air density, (kg/m3)" [ref=e17577]:
+                              - cell [ref=e17578]:
+                                - generic [ref=e17579]:
+                                  - generic [ref=e17584]: 𝜌
+                                  - math [ref=e17585]:
+                                    - generic [ref=e17587]: ρ
+                              - cell "air density, (kg/m3)" [ref=e17588]:
+                                - text: air density, (kg/m
+                                - superscript [ref=e17589]: "3"
+                                - text: )
+                            - row "standard deviation of the pseudorandom disturbance" [ref=e17590]:
+                              - cell [ref=e17591]:
+                                - generic [ref=e17592]:
+                                  - generic [ref=e17598]: 𝜎
+                                  - math [ref=e17600]:
+                                    - generic [ref=e17602]: σ
+                              - cell "standard deviation of the pseudorandom disturbance" [ref=e17603]
+                            - row "turbulence intensities," [ref=e17604]:
+                              - cell [ref=e17605]:
+                                - generic [ref=e17606]:
+                                  - generic [ref=e17612]:
+                                    - generic [ref=e17613]:
+                                      - generic [ref=e17615]: 𝜎
+                                      - generic [ref=e17617]: 𝑢
+                                    - text: ","
+                                    - generic [ref=e17618]:
+                                      - generic [ref=e17620]: 𝜎
+                                      - generic [ref=e17622]: 𝑣
+                                    - text: ","
+                                    - generic [ref=e17623]:
+                                      - generic [ref=e17625]: 𝜎
+                                      - generic [ref=e17627]: 𝑤
+                                  - math [ref=e17628]:
+                                    - generic [ref=e17630]:
+                                      - generic [ref=e17631]:
+                                        - generic [ref=e17632]: σ
+                                        - generic [ref=e17633]: u
+                                      - generic [ref=e17634]: ","
+                                      - generic [ref=e17635]:
+                                        - generic [ref=e17636]: σ
+                                        - generic [ref=e17637]: v
+                                      - generic [ref=e17638]: ","
+                                      - generic [ref=e17639]:
+                                        - generic [ref=e17640]: σ
+                                        - generic [ref=e17641]: w
+                              - cell "turbulence intensities," [ref=e17642]
+                            - row "torque generated by the -th motor, (Nm)" [ref=e17643]:
+                              - cell [ref=e17644]:
+                                - generic [ref=e17645]:
+                                  - generic [ref=e17652]:
+                                    - generic [ref=e17654]: 𝜏
+                                    - generic [ref=e17656]: 𝑖
+                                  - math [ref=e17657]:
+                                    - generic [ref=e17660]:
+                                      - generic [ref=e17661]: τ
+                                      - generic [ref=e17662]: i
+                              - cell "torque generated by the -th motor, (Nm)" [ref=e17663]:
+                                - text: torque generated by the
+                                - generic [ref=e17664]:
+                                  - generic [ref=e17669]: 𝑖
+                                  - math [ref=e17670]:
+                                    - generic [ref=e17672]: i
+                                - text: "-th motor, (Nm)"
+                            - row "quadrotor attitude angles, (rad)" [ref=e17673]:
+                              - cell [ref=e17674]:
+                                - generic [ref=e17675]:
+                                  - generic [ref=e17681]:
+                                    - generic [ref=e17682]: Φ
+                                    - text: ","
+                                    - generic [ref=e17683]: Θ
+                                    - text: ","
+                                    - generic [ref=e17684]: Ψ
+                                  - math [ref=e17685]:
+                                    - generic [ref=e17687]:
+                                      - generic [ref=e17688]: Φ
+                                      - generic [ref=e17689]: ","
+                                      - generic [ref=e17690]: Θ
+                                      - generic [ref=e17691]: ","
+                                      - generic [ref=e17692]: Ψ
+                              - cell "quadrotor attitude angles, (rad)" [ref=e17693]
+                            - row "wind direction (direction of oncoming flow), (rad)" [ref=e17694]:
+                              - cell [ref=e17695]:
+                                - generic [ref=e17696]:
+                                  - generic [ref=e17703]:
+                                    - generic [ref=e17705]: Ψ
+                                    - generic [ref=e17707]: 𝑊
+                                  - math [ref=e17709]:
+                                    - generic [ref=e17712]:
+                                      - generic [ref=e17713]: Ψ
+                                      - generic [ref=e17714]: W
+                              - cell "wind direction (direction of oncoming flow), (rad)" [ref=e17715]
+                            - row "vector of angular velocity, (rad/s)" [ref=e17716]:
+                              - cell [ref=e17717]:
+                                - generic [ref=e17718]:
+                                  - generic [ref=e17724]:
+                                    - text: 𝝎=
+                                    - generic [ref=e17725]:
+                                      - generic [ref=e17727]:
+                                        - text: "["
+                                        - generic [ref=e17728]:
+                                          - generic [ref=e17732]: 𝑃
+                                          - generic [ref=e17736]: 𝑄
+                                          - generic [ref=e17740]: 𝑅
+                                        - text: "]"
+                                      - generic [ref=e17742]: 𝑇
+                                  - math [ref=e17744]:
+                                    - generic [ref=e17746]:
+                                      - generic [ref=e17747]: ω
+                                      - generic [ref=e17748]: =
+                                      - generic [ref=e17749]:
+                                        - generic [ref=e17750]:
+                                          - generic [ref=e17751]: "["
+                                          - generic [ref=e17753]:
+                                            - generic [ref=e17755]: P
+                                            - generic [ref=e17757]: Q
+                                            - generic [ref=e17759]: R
+                                          - generic [ref=e17760]: "]"
+                                        - generic [ref=e17761]: T
+                              - cell "vector of angular velocity, (rad/s)" [ref=e17762]
+                            - row "angular rate of -th motor, (rad/s)" [ref=e17763]:
+                              - cell [ref=e17764]:
+                                - generic [ref=e17765]:
+                                  - generic [ref=e17772]:
+                                    - generic [ref=e17773]: 𝛺
+                                    - generic [ref=e17774]: 𝑖
+                                  - math [ref=e17775]:
+                                    - generic [ref=e17778]:
+                                      - generic [ref=e17779]: Ω
+                                      - generic [ref=e17780]: i
+                              - cell "angular rate of -th motor, (rad/s)" [ref=e17781]:
+                                - text: angular rate of
+                                - generic [ref=e17782]:
+                                  - generic [ref=e17787]: 𝑖
+                                  - math [ref=e17788]:
+                                    - generic [ref=e17790]: i
+                                - text: "-th motor, (rad/s)"
+                            - row "-th rotor demanded value of angular rates, (rad/s)" [ref=e17791]:
+                              - cell [ref=e17792]:
+                                - generic [ref=e17793]:
+                                  - generic [ref=e17800]:
+                                    - generic [ref=e17801]: 𝛺
+                                    - generic [ref=e17803]: 𝑐𝑖
+                                  - math [ref=e17804]:
+                                    - generic [ref=e17807]:
+                                      - generic [ref=e17808]: Ω
+                                      - generic [ref=e17809]:
+                                        - generic [ref=e17810]: c
+                                        - generic [ref=e17811]: i
+                              - cell "-th rotor demanded value of angular rates, (rad/s)" [ref=e17812]:
+                                - generic [ref=e17813]:
+                                  - generic [ref=e17818]: 𝑖
+                                  - math [ref=e17819]:
+                                    - generic [ref=e17821]: i
+                                - text: "-th rotor demanded value of angular rates, (rad/s)"
+                            - row "the vector of the angular velocity of the rotors, (rad/s)" [ref=e17822]:
+                              - cell [ref=e17823]:
+                                - generic [ref=e17824]:
+                                  - generic [ref=e17831]:
+                                    - generic [ref=e17832]: 𝜴
+                                    - generic [ref=e17833]: 𝑹
+                                  - math [ref=e17834]:
+                                    - generic [ref=e17837]:
+                                      - generic [ref=e17838]: Ω
+                                      - generic [ref=e17839]: R
+                              - cell "the vector of the angular velocity of the rotors, (rad/s)" [ref=e17840]
+                            - row "Abbreviations" [ref=e17841]:
+                              - cell "Abbreviations" [ref=e17842]
+                              - cell [ref=e17843]
+                            - row "BLDC Brushless Direct Current" [ref=e17844]:
+                              - cell "BLDC" [ref=e17845]
+                              - cell "Brushless Direct Current" [ref=e17846]
+                            - row "CAD Computer Aided-design" [ref=e17847]:
+                              - cell "CAD" [ref=e17848]
+                              - cell "Computer Aided-design" [ref=e17849]
+                            - row "GPS Global Positioning System" [ref=e17850]:
+                              - cell "GPS" [ref=e17851]
+                              - cell "Global Positioning System" [ref=e17852]
+                            - row "GNSS Global Navigation Satellite System" [ref=e17853]:
+                              - cell "GNSS" [ref=e17854]
+                              - cell "Global Navigation Satellite System" [ref=e17855]
+                            - row "IMU Inertial Measurement Unit" [ref=e17856]:
+                              - cell "IMU" [ref=e17857]
+                              - cell "Inertial Measurement Unit" [ref=e17858]
+                            - row "UAV Unmanned Aerial Vehicle" [ref=e17859]:
+                              - cell "UAV" [ref=e17860]
+                              - cell "Unmanned Aerial Vehicle" [ref=e17861]
+                            - row "PID proportional-integral-derivative" [ref=e17862]:
+                              - cell "PID" [ref=e17863]
+                              - cell "proportional-integral-derivative" [ref=e17864]
+                            - row "RMSE Root Mean Square Errors" [ref=e17865]:
+                              - cell "RMSE" [ref=e17866]
+                              - cell "Root Mean Square Errors" [ref=e17867]
+                            - row "RPM revolutions per minute" [ref=e17868]:
+                              - cell "RPM" [ref=e17869]
+                              - cell "revolutions per minute" [ref=e17870]
+                            - row "battery State Of Charge, (%)" [ref=e17871]:
+                              - cell [ref=e17872]:
+                                - generic [ref=e17873]:
+                                  - generic [ref=e17879]: 𝑆𝑂𝐶
+                                  - math [ref=e17880]:
+                                    - generic [ref=e17882]:
+                                      - generic [ref=e17883]: S
+                                      - generic [ref=e17884]: O
+                                      - generic [ref=e17885]: C
+                              - cell "battery State Of Charge, (%)" [ref=e17886]
+                            - row "initial battery State Of Charge, (%)" [ref=e17887]:
+                              - cell [ref=e17888]:
+                                - generic [ref=e17889]:
+                                  - generic [ref=e17895]:
+                                    - text: 𝑆𝑂
+                                    - generic [ref=e17896]:
+                                      - generic [ref=e17897]: 𝐶
+                                      - generic [ref=e17898]: "0"
+                                  - math [ref=e17899]:
+                                    - generic [ref=e17901]:
+                                      - generic [ref=e17902]: S
+                                      - generic [ref=e17903]: O
+                                      - generic [ref=e17904]:
+                                        - generic [ref=e17905]: C
+                                        - generic [ref=e17906]: "0"
+                              - cell "initial battery State Of Charge, (%)" [ref=e17907]
+                            - row "TIC Theil’s Inequality Coefficient" [ref=e17908]:
+                              - cell "TIC" [ref=e17909]
+                              - cell "Theil’s Inequality Coefficient" [ref=e17910]
+                    - generic [ref=e17912]:
+                      - heading "Appendix A. Flight Data and MATLAB Scripts" [level=2] [ref=e17913]
+                      - generic [ref=e17914]:
+                        - text: The folder “
+                        - link "Supplementary Materials" [ref=e17915] [cursor=pointer]:
+                          - /url: "#app1-energies-15-07136"
+                        - text: "” includes the two subfolders “Case 1” and “Case 2” with flight data logs in “TLOG” and “BIN” formats. These data could be viewed using UAV Log Viewer online service that is available at:"
+                      - generic [ref=e17916]:
+                        - link "https://plot.ardupilot.org/#/" [ref=e17917] [cursor=pointer]:
+                          - /url: https://plot.ardupilot.org/#/
+                        - text: (accessed on 13 September 2022).
+                      - generic [ref=e17918]: "and Mission Planner software:"
+                      - generic [ref=e17919]:
+                        - link "https://ardupilot.org/copter/docs/common-downloading-and-analyzing-data-logs-in-mission-planner.html" [ref=e17920] [cursor=pointer]:
+                          - /url: https://ardupilot.org/copter/docs/common-downloading-and-analyzing-data-logs-in-mission-planner.html
+                        - text: (accessed on 13 September 2022).
+                      - generic [ref=e17921]: Additionally, files with “*.log” extension includes data about quadrotor configuration. Files with “*.waypoints” extension include the coordinates of trajectory waypoints.
+                      - generic [ref=e17922]: In “Trajectory” there are MATLAB scripts that could be used to reproduce similar trajectory as presented in “Case 2” (the user could change some parameters).
+                    - generic [ref=e17923]:
+                      - heading "References" [level=2] [ref=e17924]
+                      - list [ref=e17925]:
+                        - listitem [ref=e17926]:
+                          - text: 1.Bibik, P.; Narkiewicz, J.; Zasuwa, M.; Żugaj, M. Modeling of Quadrotor Dynamics for Research and Training Simulator. In Proceedings of the 39th European Rotorcraft Forum, Moscow, Russia, 3–6 September 2013. [
+                          - link "Google Scholar" [ref=e17927] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Modeling+of+Quadrotor+Dynamics+for+Research+and+Training+Simulator&conference=Proceedings+of+the+39th+European+Rotorcraft+Forum&author=Bibik,+P.&author=Narkiewicz,+J.&author=Zasuwa,+M.&author=%C5%BBugaj,+M.&publication_year=2013
+                          - text: "]"
+                        - listitem [ref=e17928]:
+                          - text: 2.Lu, H.; Chen, K.; Zhai, X.B.; Chen, B.; Zhao, Y. Tradeoff between Duration and Energy Optimization for Speed Control of Quadrotor Unmanned Aerial Vehicle. In Proceedings of the ISPCE-CN 2018—IEEE International Symposium on Product Compliance Engineering—Asia, Shenzhen, China, 5–7 December 2018. [
+                          - link "Google Scholar" [ref=e17929] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Tradeoff+between+Duration+and+Energy+Optimization+for+Speed+Control+of+Quadrotor+Unmanned+Aerial+Vehicle&conference=Proceedings+of+the+ISPCE-CN+2018%E2%80%94IEEE+International+Symposium+on+Product+Compliance+Engineering%E2%80%94Asia&author=Lu,+H.&author=Chen,+K.&author=Zhai,+X.B.&author=Chen,+B.&author=Zhao,+Y.&publication_year=2018
+                          - text: "]"
+                        - listitem [ref=e17930]:
+                          - text: 3.Aleksandrov, D.; Penkov, I. Energy Consumption of Mini UAV Helicopters with Different Number of Rotors. In Proceedings of the 11th International Symposium Topical Problems in the Field of Electrical and Power Engineering, Pärnu, Estonia, 16–21 January 2012; pp. 259–262. [
+                          - link "Google Scholar" [ref=e17931] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Consumption+of+Mini+UAV+Helicopters+with+Different+Number+of+Rotors&conference=Proceedings+of+the+11th+International+Symposium+Topical+Problems+in+the+Field+of+Electrical+and+Power+Engineering&author=Aleksandrov,+D.&author=Penkov,+I.&publication_year=2012&pages=259%E2%80%93262
+                          - text: "]"
+                        - listitem [ref=e17932]:
+                          - text: 4.Morbidi, F.; Pisarski, D. Practical and Accurate Generation of Energy-Optimal Trajectories for a Planar Quadrotor. In Proceedings of the IEEE International Conference on Robotics and Automation, Xi’an, China, 30 May 2021–5 June2021; pp. 355–361. [
+                          - link "Google Scholar" [ref=e17933] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Practical+and+Accurate+Generation+of+Energy-Optimal+Trajectories+for+a+Planar+Quadrotor&conference=Proceedings+of+the+IEEE+International+Conference+on+Robotics+and+Automation&author=Morbidi,+F.&author=Pisarski,+D.&publication_year=2021&pages=355%E2%80%93361
+                          - text: "]"
+                        - listitem [ref=e17934]:
+                          - text: "5.Bibik, P.; Narkiewicz, J.; Zasuwa, M.; Żugaj, M.; Górski, T.; Komorniczak, W. Development of an Unmanned Quadrotor: System and Simulator. Available online:"
+                          - link "https://5dok.net/document/ozlrv66z-development-of-an-unmanned-quadrotor-system-and-simulator.html" [ref=e17935] [cursor=pointer]:
+                            - /url: https://5dok.net/document/ozlrv66z-development-of-an-unmanned-quadrotor-system-and-simulator.html
+                          - text: (accessed on 18 August 2022).
+                        - listitem [ref=e17936]:
+                          - text: 6.Gandolfo, D.C.; Salinas, L.R.; Brandao, A.; Toibero, J.M. Stable Path-Following Control for a Quadrotor Helicopter Considering Energy Consumption. IEEE Trans. Control Syst. Technol. 2017, 25, 1423–1430. [
+                          - link "Google Scholar" [ref=e17937] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Stable+Path-Following+Control+for+a+Quadrotor+Helicopter+Considering+Energy+Consumption&author=Gandolfo,+D.C.&author=Salinas,+L.R.&author=Brandao,+A.&author=Toibero,+J.M.&publication_year=2017&journal=IEEE+Trans.+Control+Syst.+Technol.&volume=25&pages=1423%E2%80%931430&doi=10.1109/TCST.2016.2601288
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17938] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/TCST.2016.2601288
+                          - text: "]"
+                        - listitem [ref=e17939]:
+                          - text: 7.Roberts, J.F.; Zufferey, J.C.; Floreano, D. Energy Management for Indoor Hovering Robots. In Proceedings of the 2008 IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS, Nice, France, 22–26 September 2008; pp. 1242–1247. [
+                          - link "Google Scholar" [ref=e17940] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Management+for+Indoor+Hovering+Robots&conference=Proceedings+of+the+2008+IEEE/RSJ+International+Conference+on+Intelligent+Robots+and+Systems,+IROS&author=Roberts,+J.F.&author=Zufferey,+J.C.&author=Floreano,+D.&publication_year=2008&pages=1242%E2%80%931247
+                          - text: "]"
+                        - listitem [ref=e17941]:
+                          - text: 8.Chan, C.W.; Kam, T.Y. A Procedure for Power Consumption Estimation of Multi-Rotor Unmanned Aerial Vehicle. J. Phys. Conf. Ser. 2020, 1509, 012015. [
+                          - link "Google Scholar" [ref=e17942] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=A+Procedure+for+Power+Consumption+Estimation+of+Multi-Rotor+Unmanned+Aerial+Vehicle&author=Chan,+C.W.&author=Kam,+T.Y.&publication_year=2020&journal=J.+Phys.+Conf.+Ser.&volume=1509&pages=012015&doi=10.1088/1742-6596/1509/1/012015
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17943] [cursor=pointer]:
+                            - /url: https://doi.org/10.1088/1742-6596/1509/1/012015
+                          - text: "]"
+                        - listitem [ref=e17944]:
+                          - text: 9.Penkov, I.; Aleksandrov, D. Analysis and Study of the Influence of the Geometrical Parameters of Mini Unmanned Quad-Rotor Helicopters to Optimise Energy Saving. Int. J. Automot. Mech. Eng. 2017, 14, 4730–4746. [
+                          - link "Google Scholar" [ref=e17945] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Analysis+and+Study+of+the+Influence+of+the+Geometrical+Parameters+of+Mini+Unmanned+Quad-Rotor+Helicopters+to+Optimise+Energy+Saving&author=Penkov,+I.&author=Aleksandrov,+D.&publication_year=2017&journal=Int.+J.+Automot.+Mech.+Eng.&volume=14&pages=4730%E2%80%934746&doi=10.15282/ijame.14.4.2017.11.0372
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17946] [cursor=pointer]:
+                            - /url: https://doi.org/10.15282/ijame.14.4.2017.11.0372
+                          - text: "]"
+                        - listitem [ref=e17947]:
+                          - text: "10.Henninger, H.C.; Von Ellenrieder, K.D.; Licht, S.C. Energy-Minimal Target Retrieval for Quadrotor UAVs: Trajectory Generation and Tracking. In Proceedings of the 2020 28th Mediterranean Conference on Control and Automation, MED 2020, Saint-Raphaël, France, 15–18 September 2020; pp. 727–732. ["
+                          - link "Google Scholar" [ref=e17948] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy-Minimal+Target+Retrieval+for+Quadrotor+UAVs:+Trajectory+Generation+and+Tracking&conference=Proceedings+of+the+2020+28th+Mediterranean+Conference+on+Control+and+Automation,+MED+2020&author=Henninger,+H.C.&author=Von+Ellenrieder,+K.D.&author=Licht,+S.C.&publication_year=2020&pages=727%E2%80%93732
+                          - text: "]"
+                        - listitem [ref=e17949]:
+                          - text: 11.Korneyev, A.; Gorobetz, M.; Alps, I.; Ribickis, L. Adaptive Traction Drive Control Algorithm for Electrical Energy Consumption Minimisation of Autonomous Unmanned Aerial Vehicle. Electr. Control Commun. Eng. 2019, 15, 62–70. [
+                          - link "Google Scholar" [ref=e17950] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Adaptive+Traction+Drive+Control+Algorithm+for+Electrical+Energy+Consumption+Minimisation+of+Autonomous+Unmanned+Aerial+Vehicle&author=Korneyev,+A.&author=Gorobetz,+M.&author=Alps,+I.&author=Ribickis,+L.&publication_year=2019&journal=Electr.+Control+Commun.+Eng.&volume=15&pages=62%E2%80%9370&doi=10.2478/ecce-2019-0009
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17951] [cursor=pointer]:
+                            - /url: https://doi.org/10.2478/ecce-2019-0009
+                          - text: "]"
+                        - listitem [ref=e17952]:
+                          - text: 12.Thu, A.; Lupin, S.; Oo, T.M.; Khaing, M.T. Comparing a Quadrotor Energy Consumption for Different Flight Trajectories in Windy Conditions. In Proceedings of the 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering, ElConRus 2021, St. Petersburg, Moscow, Russia, 26–29 January 2021; pp. 2064–2066. [
+                          - link "Google Scholar" [ref=e17953] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Comparing+a+Quadrotor+Energy+Consumption+for+Different+Flight+Trajectories+in+Windy+Conditions&conference=Proceedings+of+the+2021+IEEE+Conference+of+Russian+Young+Researchers+in+Electrical+and+Electronic+Engineering,+ElConRus+2021&author=Thu,+A.&author=Lupin,+S.&author=Oo,+T.M.&author=Khaing,+M.T.&publication_year=2021&pages=2064%E2%80%932066
+                          - text: "]"
+                        - listitem [ref=e17954]:
+                          - text: 13.Shivgan, R.; Dong, Z. Energy-Efficient Drone Coverage Path Planning Using Genetic Algorithm. In Proceedings of the IEEE International Conference on High Performance Switching and Routing, HPSR, Newark, NJ, USA, 11–14 May 2020. [
+                          - link "Google Scholar" [ref=e17955] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy-Efficient+Drone+Coverage+Path+Planning+Using+Genetic+Algorithm&conference=Proceedings+of+the+IEEE+International+Conference+on+High+Performance+Switching+and+Routing,+HPSR&author=Shivgan,+R.&author=Dong,+Z.&publication_year=2020
+                          - text: "]"
+                        - listitem [ref=e17956]:
+                          - text: 14.Yacef, F.; Rizoug, N.; Degaa, L.; Hamerlain, M. Energy-Efficiency Path Planning for Quadrotor UAV under Wind Conditions. In Proceedings of the 7th International Conference on Control, Decision and Information Technologies, CoDIT 2020, Prague, Czech Republic, 29 June–2 July 2020; pp. 1133–1138. [
+                          - link "Google Scholar" [ref=e17957] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy-Efficiency+Path+Planning+for+Quadrotor+UAV+under+Wind+Conditions&conference=Proceedings+of+the+7th+International+Conference+on+Control,+Decision+and+Information+Technologies,+CoDIT+2020&author=Yacef,+F.&author=Rizoug,+N.&author=Degaa,+L.&author=Hamerlain,+M.&publication_year=2020&pages=1133%E2%80%931138
+                          - text: "]"
+                        - listitem [ref=e17958]:
+                          - text: 15.Dietrich, T.; Krug, S.; Zimmermann, A. An Empirical Study on Generic Multicopter Energy Consumption Profiles. In Proceedings of the 11th Annual IEEE International Systems Conference, SysCon 2017—Proceedings, Montreal, QC, Canada, 24–27 April 2017; pp. 406–411. [
+                          - link "Google Scholar" [ref=e17959] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=An+Empirical+Study+on+Generic+Multicopter+Energy+Consumption+Profiles&conference=Proceedings+of+the+11th+Annual+IEEE+International+Systems+Conference,+SysCon+2017%E2%80%94Proceedings&author=Dietrich,+T.&author=Krug,+S.&author=Zimmermann,+A.&publication_year=2017&pages=406%E2%80%93411
+                          - text: "]"
+                        - listitem [ref=e17960]:
+                          - text: 16.Chen, Y.; Baek, D.; Bocca, A.; Macii, A.; Macii, E.; Poncino, M. A Case for a Battery-Aware Model of Drone Energy Consumption. In Proceedings of the INTELEC, International Telecommunications Energy Conference (Proceedings), Turin, Italy, 7–11 October 2019. [
+                          - link "Google Scholar" [ref=e17961] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=A+Case+for+a+Battery-Aware+Model+of+Drone+Energy+Consumption&conference=Proceedings+of+the+INTELEC,+International+Telecommunications+Energy+Conference+(Proceedings)&author=Chen,+Y.&author=Baek,+D.&author=Bocca,+A.&author=Macii,+A.&author=Macii,+E.&author=Poncino,+M.&publication_year=2019
+                          - text: "]"
+                        - listitem [ref=e17962]:
+                          - text: "17.Lee, C.; Son, J.J.; Lee, H.; Han, S. Energy Consumption Analysis of Downward-Tethered Quadcopter. In Proceedings of the 21st International Conference on Control, Automation and Systems (ICCAS 2021), ICROS: Ramada Plaza Hotel, Jeju, Korea, 12–15 October 2021; pp. 1212–1215. ["
+                          - link "Google Scholar" [ref=e17963] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Consumption+Analysis+of+Downward-Tethered+Quadcopter&conference=Proceedings+of+the+21st+International+Conference+on+Control,+Automation+and+Systems+(ICCAS+2021),+ICROS:+Ramada+Plaza+Hotel&author=Lee,+C.&author=Son,+J.J.&author=Lee,+H.&author=Han,+S.&publication_year=2021&pages=1212%E2%80%931215
+                          - text: "]"
+                        - listitem [ref=e17964]:
+                          - text: "18.Zhang, J.; Campbell, J.F.; Sweeney, D.C.; Hupman, A.C. Energy Consumption Models for Delivery Drones: A Comparison and Assessment. Transp. Res. Part D Transp. Environ. 2021, 90, 102668. ["
+                          - link "Google Scholar" [ref=e17965] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Consumption+Models+for+Delivery+Drones:+A+Comparison+and+Assessment&author=Zhang,+J.&author=Campbell,+J.F.&author=Sweeney,+D.C.&author=Hupman,+A.C.&publication_year=2021&journal=Transp.+Res.+Part+D+Transp.+Environ.&volume=90&pages=102668&doi=10.1016/j.trd.2020.102668
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17966] [cursor=pointer]:
+                            - /url: https://doi.org/10.1016/j.trd.2020.102668
+                          - text: "]"
+                        - listitem [ref=e17967]:
+                          - text: 19.Beigi, P.; Rajabi, M.S.; Aghakhani, S. An Overview of Drone Energy Consumption Factors and Models. arXiv 2022, arXiv:2206.10775. [
+                          - link "Google Scholar" [ref=e17968] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=An+Overview+of+Drone+Energy+Consumption+Factors+and+Models&author=Beigi,+P.&author=Rajabi,+M.S.&author=Aghakhani,+S.&publication_year=2022&journal=arXiv
+                          - text: "]"
+                        - listitem [ref=e17969]:
+                          - text: 20.Morbidi, F.; Cano, R.; Lara, D.; Morbidi, F.; Cano, R.; Lara, D.; Generation, M.P.; Morbidi, F.; Cano, R.; Lara, D. Minimum-Energy Path Generation for a Quadrotor UAV. In Proceedings of the International Conference on Robotics and Automation, Stockholm, Sweden, 16–21 May 2016; pp. 2–8. [
+                          - link "Google Scholar" [ref=e17970] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Minimum-Energy+Path+Generation+for+a+Quadrotor+UAV&conference=Proceedings+of+the+International+Conference+on+Robotics+and+Automation&author=Morbidi,+F.&author=Cano,+R.&author=Lara,+D.&author=Morbidi,+F.&author=Cano,+R.&author=Lara,+D.&author=Generation,+M.P.&author=Morbidi,+F.&author=Cano,+R.&author=Lara,+D.&publication_year=2016&pages=2%E2%80%938
+                          - text: "]"
+                        - listitem [ref=e17971]:
+                          - text: 21.Yacef, F.; Rizoug, N.; Degaa, L.; Bouhali, O.; Hamerlain, M. Trajectory Optimisation for a Quadrotor Helicopter Considering Energy Consumption. In Proceedings of the 2017 4th International Conference on Control, Decision and Information Technologies, CoDIT 2017, Barcelona, Spain, 5–7 April 2017; pp. 1030–1035. [
+                          - link "Google Scholar" [ref=e17972] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Trajectory+Optimisation+for+a+Quadrotor+Helicopter+Considering+Energy+Consumption&conference=Proceedings+of+the+2017+4th+International+Conference+on+Control,+Decision+and+Information+Technologies,+CoDIT+2017&author=Yacef,+F.&author=Rizoug,+N.&author=Degaa,+L.&author=Bouhali,+O.&author=Hamerlain,+M.&publication_year=2017&pages=1030%E2%80%931035
+                          - text: "]"
+                        - listitem [ref=e17973]:
+                          - text: 22.Fouad, Y.; Rizoug, N.; Bouhali, O.; Hamerlain, M. Optimization of Energy Consumption for Quadrotor UAV. In Proceedings of the International Micro Air Vehicle Conference and Flight Competition (IMAV) 2017, Toulouse, France, 18–21 September 2017; pp. 215–222. [
+                          - link "Google Scholar" [ref=e17974] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Optimization+of+Energy+Consumption+for+Quadrotor+UAV&conference=Proceedings+of+the+International+Micro+Air+Vehicle+Conference+and+Flight+Competition+(IMAV)+2017&author=Fouad,+Y.&author=Rizoug,+N.&author=Bouhali,+O.&author=Hamerlain,+M.&publication_year=2017&pages=215%E2%80%93222
+                          - text: "]"
+                        - listitem [ref=e17975]:
+                          - text: 23.Jee, S.; Cho, H. Comparing Energy Consumption Following Flight Pattern for Quadrotor. J. IKEEE 2018, 22, 747–753. [
+                          - link "Google Scholar" [ref=e17976] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Comparing+Energy+Consumption+Following+Flight+Pattern+for+Quadrotor&author=Jee,+S.&author=Cho,+H.&publication_year=2018&journal=J.+IKEEE&volume=22&pages=747%E2%80%93753&doi=10.7471/ikeee.2018.22.3.747
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17977] [cursor=pointer]:
+                            - /url: https://doi.org/10.7471/ikeee.2018.22.3.747
+                          - text: "]"
+                        - listitem [ref=e17978]:
+                          - text: "24.Li, B.; Li, Q.; Zeng, Y.; Rong, Y.; Zhang, R. 3D Trajectory Optimization for Energy-Efficient UAV Communication: A Control Design Perspective. IEEE Trans. Wirel. Commun. 2022, 21, 4579–4593. ["
+                          - link "Google Scholar" [ref=e17979] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=3D+Trajectory+Optimization+for+Energy-Efficient+UAV+Communication:+A+Control+Design+Perspective&author=Li,+B.&author=Li,+Q.&author=Zeng,+Y.&author=Rong,+Y.&author=Zhang,+R.&publication_year=2022&journal=IEEE+Trans.+Wirel.+Commun.&volume=21&pages=4579%E2%80%934593&doi=10.1109/TWC.2021.3131384
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17980] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/TWC.2021.3131384
+                          - text: "]"
+                        - listitem [ref=e17981]:
+                          - text: 25.Wang, Y.; Wang, Y.; Ren, B. Energy Saving Quadrotor Control for Field Inspections. IEEE Trans. Syst. Man, Cybern. Syst. 2022, 52, 1768–1777. [
+                          - link "Google Scholar" [ref=e17982] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Saving+Quadrotor+Control+for+Field+Inspections&author=Wang,+Y.&author=Wang,+Y.&author=Ren,+B.&publication_year=2022&journal=IEEE+Trans.+Syst.+Man,+Cybern.+Syst.&volume=52&pages=1768%E2%80%931777&doi=10.1109/TSMC.2020.3037071
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17983] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/TSMC.2020.3037071
+                          - text: "]"
+                        - listitem [ref=e17984]:
+                          - text: 26.Salameh, I.M.; Ammar, E.M.; Tutunji, T.A. Identification of Quadcopter Hovering Using Experimental Data. In Proceedings of the 2015 IEEE Jordan Conference on Applied Electrical Engineering and Computing Technologies, AEECT 2015, Amman, Jordan, 3–5 November 2015. [
+                          - link "Google Scholar" [ref=e17985] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Identification+of+Quadcopter+Hovering+Using+Experimental+Data&conference=Proceedings+of+the+2015+IEEE+Jordan+Conference+on+Applied+Electrical+Engineering+and+Computing+Technologies,+AEECT+2015&author=Salameh,+I.M.&author=Ammar,+E.M.&author=Tutunji,+T.A.&publication_year=2015
+                          - text: "]"
+                        - listitem [ref=e17986]:
+                          - text: "27.Gao, N.; Zeng, Y.; Wang, J.; Wu, D.; Zhang, C.; Song, Q.; Qian, J.; Jin, S. Energy Model for UAV Communications: Experimental Validation and Model Generalization. China Commun. 2021, 18, 253–264. ["
+                          - link "Google Scholar" [ref=e17987] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Model+for+UAV+Communications:+Experimental+Validation+and+Model+Generalization&author=Gao,+N.&author=Zeng,+Y.&author=Wang,+J.&author=Wu,+D.&author=Zhang,+C.&author=Song,+Q.&author=Qian,+J.&author=Jin,+S.&publication_year=2021&journal=China+Commun.&volume=18&pages=253%E2%80%93264&doi=10.23919/JCC.2021.07.020
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17988] [cursor=pointer]:
+                            - /url: https://doi.org/10.23919/JCC.2021.07.020
+                          - text: "]"
+                        - listitem [ref=e17989]:
+                          - text: 28.Aguilar-Lopez, J.M.; Garcia, R.A.; Bordons, C.; Camacho, E.F. Development of the Energy Consumption Model of a Quadrotor Using Voltage Data from Experimental Flights. In Proceedings of the 2022 IEEE 17th International Conference on Control & Automation (ICCA), Naples, Italy, 27–30 June 2022; pp. 432–437. [
+                          - link "Google Scholar" [ref=e17990] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Development+of+the+Energy+Consumption+Model+of+a+Quadrotor+Using+Voltage+Data+from+Experimental+Flights&conference=Proceedings+of+the+2022+IEEE+17th+International+Conference+on+Control+&+Automation+(ICCA)&author=Aguilar-Lopez,+J.M.&author=Garcia,+R.A.&author=Bordons,+C.&author=Camacho,+E.F.&publication_year=2022&pages=432%E2%80%93437&doi=10.1109/ICCA54724.2022.9831847
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17991] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/ICCA54724.2022.9831847
+                          - text: "]"
+                        - listitem [ref=e17992]:
+                          - text: 29.Alyassi, R.; Khonji, M.; Karapetyan, A.; Chau, S.C.-K.; Elbassioni, K.; Tseng, C.-M. Autonomous Recharging and Flight Mission Planning for Battery-Operated Autonomous Drones. IEEE Trans. Autom. Sci. Eng. 2022, 1–13. [
+                          - link "Google Scholar" [ref=e17993] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Autonomous+Recharging+and+Flight+Mission+Planning+for+Battery-Operated+Autonomous+Drones&author=Alyassi,+R.&author=Khonji,+M.&author=Karapetyan,+A.&author=Chau,+S.C.-K.&author=Elbassioni,+K.&author=Tseng,+C.-M.&publication_year=2022&journal=IEEE+Trans.+Autom.+Sci.+Eng.&pages=1%E2%80%9313&doi=10.1109/TASE.2022.3175565
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17994] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/TASE.2022.3175565
+                          - text: "]"
+                        - listitem [ref=e17995]:
+                          - text: 30.Abeywickrama, H.V.; Jayawickrama, B.A.; He, Y.; Dutkiewicz, E. Empirical Power Consumption Model for UAVs. In Proceedings of the IEEE Vehicular Technology Conference, Chicago, IL, USA, 27–30 August 2018; pp. 1–5. [
+                          - link "Google Scholar" [ref=e17996] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Empirical+Power+Consumption+Model+for+UAVs&conference=Proceedings+of+the+IEEE+Vehicular+Technology+Conference&author=Abeywickrama,+H.V.&author=Jayawickrama,+B.A.&author=He,+Y.&author=Dutkiewicz,+E.&publication_year=2018&pages=1%E2%80%935
+                          - text: "]"
+                        - listitem [ref=e17997]:
+                          - text: 31.Abeywickrama, H.V.; Jayawickrama, B.A.; He, Y.; Dutkiewicz, E. Comprehensive Energy Consumption Model for Unmanned Aerial Vehicles, Based on Empirical Studies of Battery Performance. IEEE Access 2018, 6, 58383–58394. [
+                          - link "Google Scholar" [ref=e17998] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Comprehensive+Energy+Consumption+Model+for+Unmanned+Aerial+Vehicles,+Based+on+Empirical+Studies+of+Battery+Performance&author=Abeywickrama,+H.V.&author=Jayawickrama,+B.A.&author=He,+Y.&author=Dutkiewicz,+E.&publication_year=2018&journal=IEEE+Access&volume=6&pages=58383%E2%80%9358394&doi=10.1109/ACCESS.2018.2875040
+                          - text: "] ["
+                          - link "CrossRef" [ref=e17999] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/ACCESS.2018.2875040
+                          - text: "]"
+                        - listitem [ref=e18000]:
+                          - text: 32.Steup, C.; Parlow, S.; Mai, S.; Mostaghim, S. Generic Component-Based Mission-Centric Energy Model for Micro-Scale Unmanned Aerial Vehicles. Drones 2020, 4, 63. [
+                          - link "Google Scholar" [ref=e18001] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Generic+Component-Based+Mission-Centric+Energy+Model+for+Micro-Scale+Unmanned+Aerial+Vehicles&author=Steup,+C.&author=Parlow,+S.&author=Mai,+S.&author=Mostaghim,+S.&publication_year=2020&journal=Drones&volume=4&pages=63&doi=10.3390/drones4040063
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18002] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/drones4040063
+                          - text: "]"
+                        - listitem [ref=e18003]:
+                          - text: 33.Kreciglowa, N.; Karydis, K.; Kumar, V. Energy Efficiency of Trajectory Generation Methods for Stop-and-Go Aerial Robot Navigation. In Proceedings of the 2017 International Conference on Unmanned Aircraft Systems, ICUAS 2017, Miami, FL, USA, 13–16 June 2017; pp. 656–662. [
+                          - link "Google Scholar" [ref=e18004] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Efficiency+of+Trajectory+Generation+Methods+for+Stop-and-Go+Aerial+Robot+Navigation&conference=Proceedings+of+the+2017+International+Conference+on+Unmanned+Aircraft+Systems,+ICUAS+2017&author=Kreciglowa,+N.&author=Karydis,+K.&author=Kumar,+V.&publication_year=2017&pages=656%E2%80%93662
+                          - text: "]"
+                        - listitem [ref=e18005]:
+                          - text: "34.Rodrigues, T.A.; Patrikar, J.; Wagner, B.; Scherer, S.; Samaras, C. Development of an Energy Model for Quadcopter Package Delivery Drones. Available online:"
+                          - link "https://www.microstrain.com/sites/default/files/energy_model_for_quadcopter_drones_lord-compressed.pdf" [ref=e18006] [cursor=pointer]:
+                            - /url: https://www.microstrain.com/sites/default/files/energy_model_for_quadcopter_drones_lord-compressed.pdf
+                          - text: (accessed on 13 August 2022).
+                        - listitem [ref=e18007]:
+                          - text: 35.Wu, F.; Yang, D.; Xiao, L.; Cuthbert, L. Energy Consumption and Completion Time Tradeoff in Rotary-Wing UAV Enabled WPCN. IEEE Access 2019, 7, 79617–79635. [
+                          - link "Google Scholar" [ref=e18008] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Consumption+and+Completion+Time+Tradeoff+in+Rotary-Wing+UAV+Enabled+WPCN&author=Wu,+F.&author=Yang,+D.&author=Xiao,+L.&author=Cuthbert,+L.&publication_year=2019&journal=IEEE+Access&volume=7&pages=79617%E2%80%9379635&doi=10.1109/ACCESS.2019.2922651
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18009] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/ACCESS.2019.2922651
+                          - text: "]"
+                        - listitem [ref=e18010]:
+                          - text: 36.Zeng, Y.; Xu, J.; Zhang, R. Energy Minimization for Wireless Communication with Rotary-Wing UAV. IEEE Trans. Wirel. Commun. 2019, 18, 2329–2345. [
+                          - link "Google Scholar" [ref=e18011] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Minimization+for+Wireless+Communication+with+Rotary-Wing+UAV&author=Zeng,+Y.&author=Xu,+J.&author=Zhang,+R.&publication_year=2019&journal=IEEE+Trans.+Wirel.+Commun.&volume=18&pages=2329%E2%80%932345&doi=10.1109/TWC.2019.2902559
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18012] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/TWC.2019.2902559
+                          - text: "]"
+                        - listitem [ref=e18013]:
+                          - text: 37.Pradeep, P.; Park, S.G.; Wei, P. Trajectory Optimization of Multirotor Agricultural UAVs. In Proceedings of the 2018 IEEE Aerospace Conference, Big Sky, MT, USA, 3–10 March 2018; pp. 1–7. [
+                          - link "Google Scholar" [ref=e18014] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Trajectory+Optimization+of+Multirotor+Agricultural+UAVs&conference=Proceedings+of+the+2018+IEEE+Aerospace+Conference&author=Pradeep,+P.&author=Park,+S.G.&author=Wei,+P.&publication_year=2018&pages=1%E2%80%937
+                          - text: "]"
+                        - listitem [ref=e18015]:
+                          - text: 38.Sekander, S.; Tabassum, H.; Hossain, E. On the Performance of Renewable Energy-Powered UAV-Assisted Wireless Communications. arXiv 2019, arXiv:1907.07158. [
+                          - link "Google Scholar" [ref=e18016] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=On+the+Performance+of+Renewable+Energy-Powered+UAV-Assisted+Wireless+Communications&author=Sekander,+S.&author=Tabassum,+H.&author=Hossain,+E.&publication_year=2019&journal=arXiv
+                          - text: "]"
+                        - listitem [ref=e18017]:
+                          - text: 39.Bangura, M.; Mahony, R. Nonlinear Dynamic Modeling for High Performance Control of a Quadrotor. In Proceedings of the Australasian Conference on Robotics and Automation 2012, Wellington, New Zealand, 3–5 December 2012; pp. 1–10. [
+                          - link "Google Scholar" [ref=e18018] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Nonlinear+Dynamic+Modeling+for+High+Performance+Control+of+a+Quadrotor&conference=Proceedings+of+the+Australasian+Conference+on+Robotics+and+Automation+2012&author=Bangura,+M.&author=Mahony,+R.&publication_year=2012&pages=1%E2%80%9310
+                          - text: "]"
+                        - listitem [ref=e18019]:
+                          - text: 40.Huang, H.; Hoffmann, G.M.; Waslander, S.L.; Tomlin, C.J. Aerodynamics and Control of Autonomous Quadrotor Helicopters in Aggressive Maneuvering. In Proceedings of the IEEE International Conference on Robotics and Automation, Kobe, Japan, 12–17 May 2009; pp. 3277–3282. [
+                          - link "Google Scholar" [ref=e18020] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Aerodynamics+and+Control+of+Autonomous+Quadrotor+Helicopters+in+Aggressive+Maneuvering&conference=Proceedings+of+the+IEEE+International+Conference+on+Robotics+and+Automation&author=Huang,+H.&author=Hoffmann,+G.M.&author=Waslander,+S.L.&author=Tomlin,+C.J.&publication_year=2009&pages=3277%E2%80%933282
+                          - text: "]"
+                        - listitem [ref=e18021]:
+                          - text: 41.Liu, Z.; Sengupta, R.; Kurzhanskiy, A. A Power Consumption Model for Multi-Rotor Small Unmanned Aircraft Systems. In Proceedings of the 2017 International Conference on Unmanned Aircraft Systems, ICUAS 2017, Miami, FL, USA, 13–16 June 2017; pp. 310–315. [
+                          - link "Google Scholar" [ref=e18022] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=A+Power+Consumption+Model+for+Multi-Rotor+Small+Unmanned+Aircraft+Systems&conference=Proceedings+of+the+2017+International+Conference+on+Unmanned+Aircraft+Systems,+ICUAS+2017&author=Liu,+Z.&author=Sengupta,+R.&author=Kurzhanskiy,+A.&publication_year=2017&pages=310%E2%80%93315
+                          - text: "]"
+                        - listitem [ref=e18023]:
+                          - text: 42.Stolaroff, J.K.; Samaras, C.; O’Neill, E.R.; Lubers, A.; Mitchell, A.S.; Ceperley, D. Energy Use and Life Cycle Greenhouse Gas Emissions of Drones for Commercial Package Delivery. Nat. Commun. 2018, 9, 1–13. [
+                          - link "Google Scholar" [ref=e18024] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Use+and+Life+Cycle+Greenhouse+Gas+Emissions+of+Drones+for+Commercial+Package+Delivery&author=Stolaroff,+J.K.&author=Samaras,+C.&author=O%E2%80%99Neill,+E.R.&author=Lubers,+A.&author=Mitchell,+A.S.&author=Ceperley,+D.&publication_year=2018&journal=Nat.+Commun.&volume=9&pages=1%E2%80%9313&doi=10.1038/s41467-017-02411-5
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18025] [cursor=pointer]:
+                            - /url: https://doi.org/10.1038/s41467-017-02411-5
+                          - text: "]"
+                        - listitem [ref=e18026]:
+                          - text: 43.Ware, J.; Roy, N. An Analysis of Wind Field Estimation and Exploitation for Quadrotor Flight in the Urban Canopy Layer. In Proceedings of the 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, 16–21 May 2016; pp. 1507–1514. [
+                          - link "Google Scholar" [ref=e18027] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=An+Analysis+of+Wind+Field+Estimation+and+Exploitation+for+Quadrotor+Flight+in+the+Urban+Canopy+Layer&conference=Proceedings+of+the+2016+IEEE+International+Conference+on+Robotics+and+Automation+(ICRA)&author=Ware,+J.&author=Roy,+N.&publication_year=2016&pages=1507%E2%80%931514&doi=10.1109/ICRA.2016.7487287
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18028] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/ICRA.2016.7487287
+                          - text: "]"
+                        - listitem [ref=e18029]:
+                          - text: 44.Rodrigues, T.A.; Patrikar, J.; Choudhry, A.; Feldgoise, J.; Arcot, V.; Gahlaut, A.; Lau, S.; Moon, B.; Wagner, B.; Matthews, H.S.; et al. In-Flight Positional and Energy Use Data Set of a DJI Matrice 100 Quadcopter for Small Package Delivery. Sci. Data 2021, 8, 6–13. [
+                          - link "Google Scholar" [ref=e18030] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=In-Flight+Positional+and+Energy+Use+Data+Set+of+a+DJI+Matrice+100+Quadcopter+for+Small+Package+Delivery&author=Rodrigues,+T.A.&author=Patrikar,+J.&author=Choudhry,+A.&author=Feldgoise,+J.&author=Arcot,+V.&author=Gahlaut,+A.&author=Lau,+S.&author=Moon,+B.&author=Wagner,+B.&author=Matthews,+H.S.&author=et+al.&publication_year=2021&journal=Sci.+Data&volume=8&pages=6%E2%80%9313&doi=10.1038/s41597-021-00930-x
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18031] [cursor=pointer]:
+                            - /url: https://doi.org/10.1038/s41597-021-00930-x
+                          - text: "]"
+                        - listitem [ref=e18032]:
+                          - text: "45.The Cube Orange. Available online:"
+                          - link "https://docs.px4.io/master/en/flight_controller/cubepilot_cube_orange.html" [ref=e18033] [cursor=pointer]:
+                            - /url: https://docs.px4.io/master/en/flight_controller/cubepilot_cube_orange.html
+                          - text: (accessed on 18 August 2022).
+                        - listitem [ref=e18034]:
+                          - text: 46.Benic, Z.; Piljek, P.; Kotarski, D. Mathematical Modelling of Unmanned Aerial Vehicles with Four Rotors. Interdiscip. Descr. Complex Syst. 2016, 14, 88–100. [
+                          - link "Google Scholar" [ref=e18035] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Mathematical+Modelling+of+Unmanned+Aerial+Vehicles+with+Four+Rotors&author=Benic,+Z.&author=Piljek,+P.&author=Kotarski,+D.&publication_year=2016&journal=Interdiscip.+Descr.+Complex+Syst.&volume=14&pages=88%E2%80%93100&doi=10.7906/indecs.14.1.9
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18036] [cursor=pointer]:
+                            - /url: https://doi.org/10.7906/indecs.14.1.9
+                          - text: "]"
+                        - listitem [ref=e18037]:
+                          - text: 47.Żugaj, M.; Bibik, P.; Jacewicz, M. UAV Aircraft Model for Control System Failures Analysis. J. Theor. Appl. Mech. 2016, 54, 1405–1415. [
+                          - link "Google Scholar" [ref=e18038] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=UAV+Aircraft+Model+for+Control+System+Failures+Analysis&author=%C5%BBugaj,+M.&author=Bibik,+P.&author=Jacewicz,+M.&publication_year=2016&journal=J.+Theor.+Appl.+Mech.&volume=54&pages=1405%E2%80%931415&doi=10.15632/jtam-pl.54.4.1405
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18039] [cursor=pointer]:
+                            - /url: https://doi.org/10.15632/jtam-pl.54.4.1405
+                          - text: "]"
+                        - listitem [ref=e18040]:
+                          - text: "48.Zipfel, P. Modeling and Simulation of Aerospace Vehicle Dynamics; American Institute of Aeronautics and Astronautics, Inc.: Reston, VA, USA, 2000. ["
+                          - link "Google Scholar" [ref=e18041] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Modeling+and+Simulation+of+Aerospace+Vehicle+Dynamics&author=Zipfel,+P.&publication_year=2000
+                          - text: "]"
+                        - listitem [ref=e18042]:
+                          - text: 49.Pounds, P.; Mahony, R.; Corke, P. Modelling and Control of a Large Quadrotor Robot. Control Eng. Pract. 2010, 18, 691–699. [
+                          - link "Google Scholar" [ref=e18043] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Modelling+and+Control+of+a+Large+Quadrotor+Robot&author=Pounds,+P.&author=Mahony,+R.&author=Corke,+P.&publication_year=2010&journal=Control+Eng.+Pract.&volume=18&pages=691%E2%80%93699&doi=10.1016/j.conengprac.2010.02.008
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18044] [cursor=pointer]:
+                            - /url: https://doi.org/10.1016/j.conengprac.2010.02.008
+                          - text: "]"
+                        - listitem [ref=e18045]:
+                          - text: 50.Bezzo, N.; Mohta, K.; Nowzari, C.; Lee, I.; Kumar, V.; Pappas, G. Online Planning for Energy-Efficient and Disturbance-Aware UAV Operations. In Proceedings of the IEEE International Conference on Intelligent Robots and Systems, Daejeon, Korea, 9–14 October 2016; pp. 5027–5033. [
+                          - link "Google Scholar" [ref=e18046] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Online+Planning+for+Energy-Efficient+and+Disturbance-Aware+UAV+Operations&conference=Proceedings+of+the+IEEE+International+Conference+on+Intelligent+Robots+and+Systems&author=Bezzo,+N.&author=Mohta,+K.&author=Nowzari,+C.&author=Lee,+I.&author=Kumar,+V.&author=Pappas,+G.&publication_year=2016&pages=5027%E2%80%935033
+                          - text: "]"
+                        - listitem [ref=e18047]:
+                          - text: 51.Peters, D.A.; He, C.J. Finite State Induced Flow Models. II—Three-Dimensional Rotor Disk. J. Aircr. 2012, 32, 323–333. [
+                          - link "Google Scholar" [ref=e18048] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Finite+State+Induced+Flow+Models.+II%E2%80%94Three-Dimensional+Rotor+Disk&author=Peters,+D.A.&author=He,+C.J.&publication_year=2012&journal=J.+Aircr.&volume=32&pages=323%E2%80%93333&doi=10.2514/3.46719
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18049] [cursor=pointer]:
+                            - /url: https://doi.org/10.2514/3.46719
+                          - text: "]"
+                        - listitem [ref=e18050]:
+                          - text: "52.MIL-F-8785C Military Specification. Flying Qualities of Piloted Airplanes. Available online:"
+                          - link "http://everyspec.com/MIL-SPECS/MIL-SPECS-MIL-F/MIL-F-8785C_5295/" [ref=e18051] [cursor=pointer]:
+                            - /url: http://everyspec.com/MIL-SPECS/MIL-SPECS-MIL-F/MIL-F-8785C_5295/
+                          - text: (accessed on 11 September 2022).
+                        - listitem [ref=e18052]:
+                          - text: "53.Dryden Wind Turbulence Model (Continuous). Available online:"
+                          - link "https://www.mathworks.com/help/aeroblks/drydenwindturbulencemodelcontinuous.html" [ref=e18053] [cursor=pointer]:
+                            - /url: https://www.mathworks.com/help/aeroblks/drydenwindturbulencemodelcontinuous.html
+                          - text: (accessed on 13 September 2022).
+                        - listitem [ref=e18054]:
+                          - text: 54.Watkins, S.; Vino, G. The Turbulent Wind Environment of Birds, Insects and MAVs. In Proceedings of the 15th Australasian Fluid Mechanics Conference, Sydney, Australia, 13–17 December 2004. [
+                          - link "Google Scholar" [ref=e18055] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=The+Turbulent+Wind+Environment+of+Birds,+Insects+and+MAVs&conference=Proceedings+of+the+15th+Australasian+Fluid+Mechanics+Conference&author=Watkins,+S.&author=Vino,+G.&publication_year=2004
+                          - text: "]"
+                        - listitem [ref=e18056]:
+                          - text: 55.Yacef, F.; Bouhali, O.; Hamerlain, M.; Rizoug, N. Observer-Based Adaptive Fuzzy Backstepping Tracking Control of Quadrotor Unmanned Aerial Vehicle Powered by Li-Ion Battery. J. Intell. Robot. Syst. Theory Appl. 2016, 84, 179–197. [
+                          - link "Google Scholar" [ref=e18057] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Observer-Based+Adaptive+Fuzzy+Backstepping+Tracking+Control+of+Quadrotor+Unmanned+Aerial+Vehicle+Powered+by+Li-Ion+Battery&author=Yacef,+F.&author=Bouhali,+O.&author=Hamerlain,+M.&author=Rizoug,+N.&publication_year=2016&journal=J.+Intell.+Robot.+Syst.+Theory+Appl.&volume=84&pages=179%E2%80%93197&doi=10.1007/s10846-016-0345-0
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18058] [cursor=pointer]:
+                            - /url: https://doi.org/10.1007/s10846-016-0345-0
+                          - text: "]"
+                        - listitem [ref=e18059]:
+                          - text: "56.Tang, G.; Tang, C.; Zhou, H.; Claramunt, C.; Men, S. R-Dfs: A Coverage Path Planning Approach Based on Region Optimal Decomposition. Remote Sens. 2021, 13, 1525. ["
+                          - link "Google Scholar" [ref=e18060] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=R-Dfs:+A+Coverage+Path+Planning+Approach+Based+on+Region+Optimal+Decomposition&author=Tang,+G.&author=Tang,+C.&author=Zhou,+H.&author=Claramunt,+C.&author=Men,+S.&publication_year=2021&journal=Remote+Sens.&volume=13&pages=1525&doi=10.3390/rs13081525
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18061] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/rs13081525
+                          - text: "]"
+                        - listitem [ref=e18062]:
+                          - text: 57.Di Franco, C.; Buttazzo, G. Coverage Path Planning for UAVs Photogrammetry with Energy and Resolution Constraints. J. Intell. Robot. Syst. Theory Appl. 2016, 83, 445–462. [
+                          - link "Google Scholar" [ref=e18063] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Coverage+Path+Planning+for+UAVs+Photogrammetry+with+Energy+and+Resolution+Constraints&author=Di+Franco,+C.&author=Buttazzo,+G.&publication_year=2016&journal=J.+Intell.+Robot.+Syst.+Theory+Appl.&volume=83&pages=445%E2%80%93462&doi=10.1007/s10846-016-0348-x
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18064] [cursor=pointer]:
+                            - /url: https://doi.org/10.1007/s10846-016-0348-x
+                          - text: "]"
+                        - listitem [ref=e18065]:
+                          - text: 58.Majeed, A.; Hwang, S.O. A Multi-Objective Coverage Path Planning Algorithm for Uavs to Cover Spatially Distributed Regions in Urban Environments. Aerospace 2021, 8, 343. [
+                          - link "Google Scholar" [ref=e18066] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=A+Multi-Objective+Coverage+Path+Planning+Algorithm+for+Uavs+to+Cover+Spatially+Distributed+Regions+in+Urban+Environments&author=Majeed,+A.&author=Hwang,+S.O.&publication_year=2021&journal=Aerospace&volume=8&pages=343&doi=10.3390/aerospace8110343
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18067] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/aerospace8110343
+                          - text: "]"
+                        - listitem [ref=e18068]:
+                          - text: 59.Fevgas, G.; Lagkas, T.; Argyriou, V.; Sarigiannidis, P. Coverage Path Planning Methods Focusing on Energy Efficient and Cooperative Strategies for Unmanned Aerial Vehicles. Sensors 2022, 22, 1235. [
+                          - link "Google Scholar" [ref=e18069] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Coverage+Path+Planning+Methods+Focusing+on+Energy+Efficient+and+Cooperative+Strategies+for+Unmanned+Aerial+Vehicles&author=Fevgas,+G.&author=Lagkas,+T.&author=Argyriou,+V.&author=Sarigiannidis,+P.&publication_year=2022&journal=Sensors&volume=22&pages=1235&doi=10.3390/s22031235&pmid=35161979
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18070] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/s22031235
+                          - text: "] ["
+                          - link "PubMed" [ref=e18071] [cursor=pointer]:
+                            - /url: https://www.ncbi.nlm.nih.gov/pubmed/35161979
+                          - text: "]"
+                        - listitem [ref=e18072]:
+                          - text: 60.Otote, D.A.; Li, B.; Ai, B.; Gao, S.; Xu, J.; Chen, X.; Lv, G. A Decision-Making Algorithm for Maritime Search and Rescue Plan. Sustainability 2019, 11, 2084. [
+                          - link "Google Scholar" [ref=e18073] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=A+Decision-Making+Algorithm+for+Maritime+Search+and+Rescue+Plan&author=Otote,+D.A.&author=Li,+B.&author=Ai,+B.&author=Gao,+S.&author=Xu,+J.&author=Chen,+X.&author=Lv,+G.&publication_year=2019&journal=Sustainability&volume=11&pages=2084&doi=10.3390/su11072084
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18074] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/su11072084
+                          - text: "]"
+                        - listitem [ref=e18075]:
+                          - text: 61.Cabreira, T.M.; Brisolara, L.B.; Ferreira Paulo, R. Survey on Coverage Path Planning with Unmanned Aerial Vehicles. Drones 2019, 3, 4. [
+                          - link "Google Scholar" [ref=e18076] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Survey+on+Coverage+Path+Planning+with+Unmanned+Aerial+Vehicles&author=Cabreira,+T.M.&author=Brisolara,+L.B.&author=Ferreira+Paulo,+R.&publication_year=2019&journal=Drones&volume=3&pages=4&doi=10.3390/drones3010004
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18077] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/drones3010004
+                          - text: "]"
+                        - listitem [ref=e18078]:
+                          - text: 62.Choutri, K.; Lagha, M.; Dala, L. A Fully Autonomous Search and Rescue System Using Quadrotor UAV. Int. J. Comput. Digit. Syst. 2021, 10, 403–414. [
+                          - link "Google Scholar" [ref=e18079] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=A+Fully+Autonomous+Search+and+Rescue+System+Using+Quadrotor+UAV&author=Choutri,+K.&author=Lagha,+M.&author=Dala,+L.&publication_year=2021&journal=Int.+J.+Comput.+Digit.+Syst.&volume=10&pages=403%E2%80%93414&doi=10.12785/ijcds/100140
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18080] [cursor=pointer]:
+                            - /url: https://doi.org/10.12785/ijcds/100140
+                          - text: "]"
+                        - listitem [ref=e18081]:
+                          - text: 63.Andersen, H. Path Planning for Search and Rescue Mission Using Multicopters. Master’s Thesis, Norwegian University of Science and Technology, Trondheim, Norway, 2014. [
+                          - link "Google Scholar" [ref=e18082] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Path+Planning+for+Search+and+Rescue+Mission+Using+Multicopters&author=Andersen,+H.&publication_year=2014
+                          - text: "]"
+                        - listitem [ref=e18083]:
+                          - text: "64.Jaafar, W.; Yanikomeroglu, H. Dynamics of Quadrotor UAVs for Aerial Networks: An Energy Perspective. arXiv 2019, arXiv:1905.06703. ["
+                          - link "Google Scholar" [ref=e18084] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Dynamics+of+Quadrotor+UAVs+for+Aerial+Networks:+An+Energy+Perspective&author=Jaafar,+W.&author=Yanikomeroglu,+H.&publication_year=2019&journal=arXiv
+                          - text: "]"
+                        - listitem [ref=e18085]:
+                          - text: 65.Pradeep, P.; Wei, P. Energy-Efficient Arrival with RTA Constraint for Multirotor EVToL in Urban Air Mobility. J. Aerosp. Inf. Syst. 2019, 16, 263–277. [
+                          - link "Google Scholar" [ref=e18086] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy-Efficient+Arrival+with+RTA+Constraint+for+Multirotor+EVToL+in+Urban+Air+Mobility&author=Pradeep,+P.&author=Wei,+P.&publication_year=2019&journal=J.+Aerosp.+Inf.+Syst.&volume=16&pages=263%E2%80%93277&doi=10.2514/1.I010710
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18087] [cursor=pointer]:
+                            - /url: https://doi.org/10.2514/1.I010710
+                          - text: "]"
+                        - listitem [ref=e18088]:
+                          - text: 66.Prasetia, A.S.; Wai, R.J.; Wen, Y.L.; Wang, Y.K. Mission-Based Energy Consumption Prediction of Multirotor Uav. IEEE Access 2019, 7, 33055–33063. [
+                          - link "Google Scholar" [ref=e18089] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Mission-Based+Energy+Consumption+Prediction+of+Multirotor+Uav&author=Prasetia,+A.S.&author=Wai,+R.J.&author=Wen,+Y.L.&author=Wang,+Y.K.&publication_year=2019&journal=IEEE+Access&volume=7&pages=33055%E2%80%9333063&doi=10.1109/ACCESS.2019.2903644
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18090] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/ACCESS.2019.2903644
+                          - text: "]"
+                        - listitem [ref=e18091]:
+                          - text: 67.Li, M.; Jia, G.; Gong, S.; Guo, R. Energy Consumption Model of BLDC Quadrotor UAVs for Mobile Communication Trajectory Planning. TechRxiv 2022, arXiv:19181228.v1. [
+                          - link "Google Scholar" [ref=e18092] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy+Consumption+Model+of+BLDC+Quadrotor+UAVs+for+Mobile+Communication+Trajectory+Planning&author=Li,+M.&author=Jia,+G.&author=Gong,+S.&author=Guo,+R.&publication_year=2022&journal=TechRxiv
+                          - text: "]"
+                        - listitem [ref=e18093]:
+                          - text: 68.Aoun, C.; Daher, N.; Shammas, E. An Energy Optimal Path-Planning Scheme for Quadcopters in Forests. In Proceedings of the IEEE Conference on Decision and Control, Nice, France, 11–13 December 2019; pp. 8323–8328. [
+                          - link "Google Scholar" [ref=e18094] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=An+Energy+Optimal+Path-Planning+Scheme+for+Quadcopters+in+Forests&conference=Proceedings+of+the+IEEE+Conference+on+Decision+and+Control&author=Aoun,+C.&author=Daher,+N.&author=Shammas,+E.&publication_year=2019&pages=8323%E2%80%938328
+                          - text: "]"
+                        - listitem [ref=e18095]:
+                          - text: 69.Tremblay, O.; Dessaint, L.A. Experimental Validation of a Battery Dynamic Model for EV Applications. World Electr. Veh. J. 2009, 2, 289–298. [
+                          - link "Google Scholar" [ref=e18096] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Experimental+Validation+of+a+Battery+Dynamic+Model+for+EV+Applications&author=Tremblay,+O.&author=Dessaint,+L.A.&publication_year=2009&journal=World+Electr.+Veh.+J.&volume=2&pages=289%E2%80%93298&doi=10.3390/wevj3020289
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18097] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/wevj3020289
+                          - text: "]"
+                        - listitem [ref=e18098]:
+                          - text: 70.Mousavi, G.S.M.; Nikdel, M. Various Battery Models for Various Simulation Studies and Applications. Renew. Sustain. Energy Rev. 2014, 32, 477–485. [
+                          - link "Google Scholar" [ref=e18099] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Various+Battery+Models+for+Various+Simulation+Studies+and+Applications&author=Mousavi,+G.S.M.&author=Nikdel,+M.&publication_year=2014&journal=Renew.+Sustain.+Energy+Rev.&volume=32&pages=477%E2%80%93485&doi=10.1016/j.rser.2014.01.048
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18100] [cursor=pointer]:
+                            - /url: https://doi.org/10.1016/j.rser.2014.01.048
+                          - text: "]"
+                        - listitem [ref=e18101]:
+                          - text: 71.Azam, S.M. Battery Identification, Prediction and Modelling. Master’s Thesis, Colorado State University, Fort Collins, CO, USA, 2018. [
+                          - link "Google Scholar" [ref=e18102] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Battery+Identification,+Prediction+and+Modelling&author=Azam,+S.M.&publication_year=2018
+                          - text: "]"
+                        - listitem [ref=e18103]:
+                          - text: 72.Raszmann, E.; Baker, K.; Shi, Y.; Christensen, D. Modeling Stationary Lithium-Ion Batteries for Optimization and Predictive Control. In Proceedings of the 2017 IEEE Power and Energy Conference at Illinois (PECI), Champaign, IL, USA, 23–24 February 2017. [
+                          - link "Google Scholar" [ref=e18104] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Modeling+Stationary+Lithium-Ion+Batteries+for+Optimization+and+Predictive+Control&conference=Proceedings+of+the+2017+IEEE+Power+and+Energy+Conference+at+Illinois+(PECI)&author=Raszmann,+E.&author=Baker,+K.&author=Shi,+Y.&author=Christensen,+D.&publication_year=2017&doi=10.1109/PECI.2017.7935755
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18105] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/PECI.2017.7935755
+                          - text: "]"
+                        - listitem [ref=e18106]:
+                          - text: 73.Hemi, H.; M’sirdi, N.K.; Naamane, A. A New Proposed Shepherd Model of a Li-Ion Open Circuit Battery Based on Data Fitting. In Proceedings of the International Conference on Integrated Modeling and Analysis in Applied Control and Automation, Lisbon, Portugal, 18–20 September 2019; pp. 83–92. [
+                          - link "Google Scholar" [ref=e18107] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=A+New+Proposed+Shepherd+Model+of+a+Li-Ion+Open+Circuit+Battery+Based+on+Data+Fitting&conference=Proceedings+of+the+International+Conference+on+Integrated+Modeling+and+Analysis+in+Applied+Control+and+Automation&author=Hemi,+H.&author=M%E2%80%99sirdi,+N.K.&author=Naamane,+A.&publication_year=2019&pages=83%E2%80%9392
+                          - text: "]"
+                        - listitem [ref=e18108]:
+                          - text: "74.Simulink Generic Battery Model. Available online:"
+                          - link "https://www.mathworks.com/help/physmod/sps/powersys/ref/battery.html" [ref=e18109] [cursor=pointer]:
+                            - /url: https://www.mathworks.com/help/physmod/sps/powersys/ref/battery.html
+                          - text: (accessed on 16 August 2022).
+                        - listitem [ref=e18110]:
+                          - text: "75.Onboard Message Log Messages. Available online:"
+                          - link "https://ardupilot.org/copter/docs/logmessages.html" [ref=e18111] [cursor=pointer]:
+                            - /url: https://ardupilot.org/copter/docs/logmessages.html
+                          - text: (accessed on 18 August 2022).
+                        - listitem [ref=e18112]:
+                          - text: "76.MAVLink Messages. Available online:"
+                          - link "https://mavlink.io/en/messages/ardupilotmega.html#messages" [ref=e18113] [cursor=pointer]:
+                            - /url: https://mavlink.io/en/messages/ardupilotmega.html#messages
+                          - text: (accessed on 13 August 2022).
+                        - listitem [ref=e18114]:
+                          - text: "77.UAV Log Viewer. Available online:"
+                          - link "https://plot.ardupilot.org/#/" [ref=e18115] [cursor=pointer]:
+                            - /url: https://plot.ardupilot.org/#/
+                          - text: (accessed on 13 August 2022).
+                        - listitem [ref=e18116]:
+                          - text: "78.Mission Planner Home. Available online:"
+                          - link "https://ardupilot.org/planner/" [ref=e18117] [cursor=pointer]:
+                            - /url: https://ardupilot.org/planner/
+                          - text: (accessed on 16 August 2022).
+                        - listitem [ref=e18118]:
+                          - text: 79.Jimenez, P.; Lichota, P.; Agudelo, D.; Rogowski, K. Experimental Validation of Total Energy Control System for UAVs. Energies 2020, 13, 14. [
+                          - link "Google Scholar" [ref=e18119] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Experimental+Validation+of+Total+Energy+Control+System+for+UAVs&author=Jimenez,+P.&author=Lichota,+P.&author=Agudelo,+D.&author=Rogowski,+K.&publication_year=2020&journal=Energies&volume=13&pages=14&doi=10.3390/en13010014
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18120] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/en13010014
+                          - text: "]"
+                        - listitem [ref=e18121]:
+                          - text: 80.Dorobantu, A.; Seiler, P.J.; Balas, G.J. Validating Uncertain Aircraft Simulation Models Using Flight Test Data. In Proceedings of the AIAA Atmospheric Flight Mechanics (AFM) Conference, Boston, MA, USA, 19–22 August 2013. [
+                          - link "Google Scholar" [ref=e18122] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Validating+Uncertain+Aircraft+Simulation+Models+Using+Flight+Test+Data&conference=Proceedings+of+the+AIAA+Atmospheric+Flight+Mechanics+(AFM)+Conference&author=Dorobantu,+A.&author=Seiler,+P.J.&author=Balas,+G.J.&publication_year=2013
+                          - text: "]"
+                        - listitem [ref=e18123]:
+                          - text: "81.Jategaonkar, R.V. Flight Vehicle System Identification: A Time-Domain Methodology, 2nd ed.; American Institute of Aeronautics and Astronautics: Reston, VA, USA, 2015. ["
+                          - link "Google Scholar" [ref=e18124] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Flight+Vehicle+System+Identification:+A+Time-Domain+Methodology&author=Jategaonkar,+R.V.&publication_year=2015
+                          - text: "]"
+                        - listitem [ref=e18125]:
+                          - text: "82.Jacewicz, M.; Głębocki, R.; Ożóg, R. Monte-Carlo Based Lateral Thruster Parameters Optimization for 122 mm Rocket. In Proceedings of the Automation 2020: Towards Industry of the Future. AUTOMATION 2020, Warsaw, Poland, 18–20 March 2020; Advances in Intelligent Systems and Computing. Springer: Berlin/Heidelberg, Germany, 2020. ["
+                          - link "Google Scholar" [ref=e18126] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Monte-Carlo+Based+Lateral+Thruster+Parameters+Optimization+for+122+mm+Rocket&conference=Proceedings+of+the+Automation+2020:+Towards+Industry+of+the+Future.+AUTOMATION+2020&author=Jacewicz,+M.&author=G%C5%82%C4%99bocki,+R.&author=O%C5%BC%C3%B3g,+R.&publication_year=2020
+                          - text: "]"
+                        - listitem [ref=e18127]:
+                          - text: 83.Głębocki, R.; Jacewicz, M. Parametric Study of Guidance of a 160-Mm Projectile Steered with Lateral Thrusters. Aerospace 2020, 7, 61. [
+                          - link "Google Scholar" [ref=e18128] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Parametric+Study+of+Guidance+of+a+160-Mm+Projectile+Steered+with+Lateral+Thrusters&author=G%C5%82%C4%99bocki,+R.&author=Jacewicz,+M.&publication_year=2020&journal=Aerospace&volume=7&pages=61&doi=10.3390/aerospace7050061
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18129] [cursor=pointer]:
+                            - /url: https://doi.org/10.3390/aerospace7050061
+                          - text: "]"
+                        - listitem [ref=e18130]:
+                          - text: 84.Szklarski, A.; Głębocki, R.; Jacewicz, M. Impact Point Prediction Guidance Parametric Study for 155 mm Rocket Assisted Artillery Projectile with Lateral Thrusters. Arch. Mech. Eng. 2020, 67, 31–56. [
+                          - link "Google Scholar" [ref=e18131] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Impact+Point+Prediction+Guidance+Parametric+Study+for+155+mm+Rocket+Assisted+Artillery+Projectile+with+Lateral+Thrusters&author=Szklarski,+A.&author=G%C5%82%C4%99bocki,+R.&author=Jacewicz,+M.&publication_year=2020&journal=Arch.+Mech.+Eng.&volume=67&pages=31%E2%80%9356&doi=10.24425/ame.2020.131682
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18132] [cursor=pointer]:
+                            - /url: https://doi.org/10.24425/ame.2020.131682
+                          - text: "]"
+                        - listitem [ref=e18133]:
+                          - text: 85.Matsumoto, M.; Nishimura, T. Mersenne Twister. ACM Trans. Model. Comput. Simul. 1998, 8, 3–30. [
+                          - link "Google Scholar" [ref=e18134] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Mersenne+Twister&author=Matsumoto,+M.&author=Nishimura,+T.&publication_year=1998&journal=ACM+Trans.+Model.+Comput.+Simul.&volume=8&pages=3%E2%80%9330&doi=10.1145/272991.272995
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18135] [cursor=pointer]:
+                            - /url: https://doi.org/10.1145/272991.272995
+                          - text: "]"
+                        - listitem [ref=e18136]:
+                          - text: 86.Charles, C.; Jean-Francois, G.; Abolfazl, M.; Ugo, C.; Sofiane, A. Applying Robust Design Methodology to a Quadrotor Drone. In Proceedings of the 21st International Conference on Engineering Design, ICED 17, Vancouver, BC, Canada, 21–25 August 2017. [
+                          - link "Google Scholar" [ref=e18137] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Applying+Robust+Design+Methodology+to+a+Quadrotor+Drone&conference=Proceedings+of+the+21st+International+Conference+on+Engineering+Design,+ICED+17&author=Charles,+C.&author=Jean-Francois,+G.&author=Abolfazl,+M.&author=Ugo,+C.&author=Sofiane,+A.&publication_year=2017
+                          - text: "]"
+                        - listitem [ref=e18138]:
+                          - text: 87.Cabreira, T.M.; Franco, C.D.; Ferreira, P.R.; Buttazzo, G.C. Energy-Aware Spiral Coverage Path Planning for UAV Photogrammetric Applications. IEEE Robot. Autom. Lett. 2018, 3, 3662–3668. [
+                          - link "Google Scholar" [ref=e18139] [cursor=pointer]:
+                            - /url: https://scholar.google.com/scholar_lookup?title=Energy-Aware+Spiral+Coverage+Path+Planning+for+UAV+Photogrammetric+Applications&author=Cabreira,+T.M.&author=Franco,+C.D.&author=Ferreira,+P.R.&author=Buttazzo,+G.C.&publication_year=2018&journal=IEEE+Robot.+Autom.+Lett.&volume=3&pages=3662%E2%80%933668&doi=10.1109/LRA.2018.2854967
+                          - text: "] ["
+                          - link "CrossRef" [ref=e18140] [cursor=pointer]:
+                            - /url: https://doi.org/10.1109/LRA.2018.2854967
+                          - text: "]"
+                    - table [ref=e18142]:
+                      - rowgroup [ref=e18143]:
+                        - 'row "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations." [ref=e18144]':
+                          - cell [ref=e18145]
+                          - 'cell "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations." [ref=e18146]':
+                            - generic [ref=e18147]: "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+                    - generic [ref=e18148]:
+                      - text: © 2022 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+                      - link "https://creativecommons.org/licenses/by/4.0/" [ref=e18149] [cursor=pointer]:
+                        - /url: https://creativecommons.org/licenses/by/4.0/
+                      - text: ).
+                - generic [ref=e18150]:
+                  - heading "Share and Cite" [level=2] [ref=e18151]: Share and Cite
+                  - generic [ref=e18152]:
+                    - link "" [ref=e18153] [cursor=pointer]:
+                      - /url: mailto:?&subject=From%20MDPI%3A%20%22Quadrotor%20Model%20for%20Energy%20Consumption%20Analysis"&body=https://www.mdpi.com/1856484%3A%0A%0AQuadrotor%20Model%20for%20Energy%20Consumption%20Analysis%0A%0AAbstract%3A%20In%20this%20paper%2C%20a%20quadrotor%20dynamic%20model%26rsquo%3Bs%20energy%20efficiency%20was%20investigated.%20A%20method%20for%20the%20design%20of%20the%20dynamic%20model%20which%20assures%20energy%20consumption%20estimation%20was%20presented.%20This%20model%20was%20developed%20to%20analyze%20the%20energy%20efficiency%20of%20the%20quadrotor%20during%20each%20maneuver.%20A%20medium-class%20quadrotor%20%284.689%20kg%29%20was%20used%20as%20a%20test%20platform.%20Thrust%20force%20correction%20factors%20obtained%20with%20FLIGHTLAB%20software%20were%20used%20to%20predict%20object%20behavior%20in%20forward%20flight.%20Model%20validation%20and%20long-duration%20flight%20tests%20in%20outdoor%20windy%20conditions%20are%20also%20presented.%20Monte-Carlo%20simulation%20was%20used%20to%20study%20the%20influence%20of%20uncertainties%20in%20model%20parameters%20on%20the%20simulation%20reliability.%20The%20developed%20model%20might%20be%20used%20for%20practical%20purposes%20%28for%20example%2C%20energy-efficient%20coverage%20path%20planning%29.
+                      - generic [ref=e18154]: 
+                    - link [ref=e18155] [cursor=pointer]:
+                      - /url: https://x.com/intent/tweet?text=Quadrotor+Model+for+Energy+Consumption+Analysis&hashtags=mdpienergies&url=https%3A%2F%2Fwww.mdpi.com%2F1856484&via=energies_mdpi
+                    - link "" [ref=e18157] [cursor=pointer]:
+                      - /url: "\t                    http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mdpi.com%2F1856484&title=Quadrotor%20Model%20for%20Energy%20Consumption%20Analysis%26source%3Dhttps%3A%2F%2Fwww.mdpi.com%26summary%3DIn%20this%20paper%2C%20a%20quadrotor%20dynamic%20model%E2%80%99s%20energy%20efficiency%20was%20investigated.%20A%20method%20for%20the%20design%20of%20the%20dynamic%20model%20which%20assures%20energy%20consumption%20estimation%20was%20presented.%20This%20model%20was%20developed%20to%20analyze%20the%20energy%20efficiency%20of%20the%20%5B...%5D"
+                      - generic [ref=e18158]: 
+                    - link "" [ref=e18159] [cursor=pointer]:
+                      - /url: http://www.facebook.com/sharer.php?u=https://www.mdpi.com/1856484
+                      - generic [ref=e18160]: 
+                    - link "Wechat" [ref=e18161] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                    - link "" [ref=e18163] [cursor=pointer]:
+                      - /url: http://www.reddit.com/submit?url=https://www.mdpi.com/1856484
+                      - generic [ref=e18164]: 
+                    - link "Mendeley" [ref=e18165] [cursor=pointer]:
+                      - /url: http://www.mendeley.com/import/?url=https://www.mdpi.com/1856484
+                  - generic [ref=e18167]:
+                    - generic [ref=e18168]: MDPI and ACS Style
+                    - paragraph [ref=e18169]:
+                      - text: Jacewicz, M.; Żugaj, M.; Głębocki, R.; Bibik, P. Quadrotor Model for Energy Consumption Analysis.
+                      - emphasis [ref=e18170]: Energies
+                      - text: 2022,
+                      - emphasis [ref=e18171]: "15"
+                      - text: ", 7136. https://doi.org/10.3390/en15197136"
+                    - generic [ref=e18172]:
+                      - text: AMA Style
+                      - paragraph [ref=e18173]:
+                        - text: Jacewicz M, Żugaj M, Głębocki R, Bibik P. Quadrotor Model for Energy Consumption Analysis.
+                        - emphasis [ref=e18174]: Energies
+                        - text: . 2022; 15(19):7136. https://doi.org/10.3390/en15197136
+                      - text: Chicago/Turabian Style
+                      - paragraph [ref=e18175]:
+                        - text: Jacewicz, Mariusz, Marcin Żugaj, Robert Głębocki, and Przemysław Bibik. 2022. "Quadrotor Model for Energy Consumption Analysis"
+                        - emphasis [ref=e18176]: Energies
+                        - text: "15, no. 19: 7136. https://doi.org/10.3390/en15197136"
+                      - text: APA Style
+                      - paragraph [ref=e18177]:
+                        - text: Jacewicz, M., Żugaj, M., Głębocki, R., & Bibik, P. (2022). Quadrotor Model for Energy Consumption Analysis.
+                        - emphasis [ref=e18178]: Energies
+                        - text: ","
+                        - emphasis [ref=e18179]: "15"
+                        - text: (19), 7136. https://doi.org/10.3390/en15197136
+                  - generic [ref=e18180]:
+                    - text: error_outline Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details
+                    - link "here" [ref=e18181] [cursor=pointer]:
+                      - /url: https://www.mdpi.com/about/announcements/784
+                    - text: .
+                  - heading "Article Metrics" [level=2] [ref=e18182]: Article Metrics
+                  - generic [ref=e18183]:
+                    - generic [ref=e18185]:
+                      - heading "Citations" [level=3] [ref=e18186]
+                      - generic [ref=e18188]:
+                        - generic [ref=e18189]: Crossref
+                        - link "25" [ref=e18193] [cursor=pointer]:
+                          - /url: "#"
+                      - generic [ref=e18195]:
+                        - generic [ref=e18196]: Scopus
+                        - link "27" [ref=e18200] [cursor=pointer]:
+                          - /url: https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85139933859&origin=inward
+                      - generic [ref=e18202]:
+                        - generic [ref=e18203]: Web of Science
+                        - link "21" [ref=e18207] [cursor=pointer]:
+                          - /url: https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000866861100001&DestLinkType=FullRecord&DestApp=ALL_WOS&UsrCustomerID=7e717b028bc90856e7c55c7029afc773
+                      - generic [ref=e18209]:
+                        - generic [ref=e18210]: Google Scholar
+                        - link "[click to view]" [ref=e18213] [cursor=pointer]:
+                          - /url: https://scholar.google.com/scholar_lookup?title=Quadrotor+Model+for+Energy+Consumption+Analysis&volume=15&doi=10.3390%2Fen15197136&journal=Energies&publication_year=2022&author=Mariusz+Jacewicz&author=Marcin+%C5%BBugaj&author=Robert+G%C5%82%C4%99bocki&author=Przemys%C5%82aw+Bibik
+                    - generic [ref=e18215]:
+                      - heading "Article Access Statistics" [level=3] [ref=e18216]
+                      - img [ref=e18219]:
+                        - generic "Chart context menu" [ref=e18221]
+                        - generic [ref=e18230]: Article access statistics
+                        - generic [ref=e18236] [cursor=pointer]: Article Views
+                        - generic [ref=e18237]:
+                          - generic [ref=e18238]: 12. Dec
+                          - generic [ref=e18239]: 13. Dec
+                          - generic [ref=e18240]: 14. Dec
+                          - generic [ref=e18241]: 15. Dec
+                          - generic [ref=e18242]: 16. Dec
+                          - generic [ref=e18243]: 17. Dec
+                          - generic [ref=e18244]: 18. Dec
+                          - generic [ref=e18245]: 19. Dec
+                          - generic [ref=e18246]: 20. Dec
+                          - generic [ref=e18247]: 21. Dec
+                          - generic [ref=e18248]: 22. Dec
+                          - generic [ref=e18249]: 23. Dec
+                          - generic [ref=e18250]: 24. Dec
+                          - generic [ref=e18251]: 25. Dec
+                          - generic [ref=e18252]: 26. Dec
+                          - generic [ref=e18253]: 27. Dec
+                          - generic [ref=e18254]: 28. Dec
+                          - generic [ref=e18255]: 29. Dec
+                          - generic [ref=e18256]: 30. Dec
+                          - generic [ref=e18257]: 31. Dec
+                          - generic [ref=e18258]: 1. Jan
+                          - generic [ref=e18259]: 2. Jan
+                          - generic [ref=e18260]: 3. Jan
+                          - generic [ref=e18261]: 4. Jan
+                          - generic [ref=e18262]: 5. Jan
+                          - generic [ref=e18263]: 6. Jan
+                          - generic [ref=e18264]: 7. Jan
+                          - generic [ref=e18265]: 8. Jan
+                          - generic [ref=e18266]: 9. Jan
+                          - generic [ref=e18267]: 10. Jan
+                          - generic [ref=e18268]: 11. Jan
+                          - generic [ref=e18269]: 12. Jan
+                          - generic [ref=e18270]: 13. Jan
+                          - generic [ref=e18271]: 14. Jan
+                          - generic [ref=e18272]: 15. Jan
+                          - generic [ref=e18273]: 16. Jan
+                          - generic [ref=e18274]: 17. Jan
+                          - generic [ref=e18275]: 18. Jan
+                          - generic [ref=e18276]: 19. Jan
+                          - generic [ref=e18277]: 20. Jan
+                          - generic [ref=e18278]: 21. Jan
+                          - generic [ref=e18279]: 22. Jan
+                          - generic [ref=e18280]: 23. Jan
+                          - generic [ref=e18281]: 24. Jan
+                          - generic [ref=e18282]: 25. Jan
+                          - generic [ref=e18283]: 26. Jan
+                          - generic [ref=e18284]: 27. Jan
+                          - generic [ref=e18285]: 28. Jan
+                          - generic [ref=e18286]: 29. Jan
+                          - generic [ref=e18287]: 30. Jan
+                          - generic [ref=e18288]: 31. Jan
+                          - generic [ref=e18289]: 1. Feb
+                          - generic [ref=e18290]: 2. Feb
+                          - generic [ref=e18291]: 3. Feb
+                          - generic [ref=e18292]: 4. Feb
+                          - generic [ref=e18293]: 5. Feb
+                          - generic [ref=e18294]: 6. Feb
+                          - generic [ref=e18295]: 7. Feb
+                          - generic [ref=e18296]: 8. Feb
+                          - generic [ref=e18297]: 9. Feb
+                          - generic [ref=e18298]: 10. Feb
+                          - generic [ref=e18299]: 11. Feb
+                          - generic [ref=e18300]: 12. Feb
+                          - generic [ref=e18301]: 13. Feb
+                          - generic [ref=e18302]: 14. Feb
+                          - generic [ref=e18303]: 15. Feb
+                          - generic [ref=e18304]: 16. Feb
+                          - generic [ref=e18305]: 17. Feb
+                          - generic [ref=e18306]: 18. Feb
+                          - generic [ref=e18307]: 19. Feb
+                          - generic [ref=e18308]: 20. Feb
+                          - generic [ref=e18309]: 21. Feb
+                          - generic [ref=e18310]: 22. Feb
+                          - generic [ref=e18311]: 23. Feb
+                          - generic [ref=e18312]: 24. Feb
+                          - generic [ref=e18313]: 25. Feb
+                          - generic [ref=e18314]: 26. Feb
+                          - generic [ref=e18315]: 27. Feb
+                          - generic [ref=e18316]: 28. Feb
+                          - generic [ref=e18317]: 1. Mar
+                          - generic [ref=e18318]: 2. Mar
+                          - generic [ref=e18319]: 3. Mar
+                          - generic [ref=e18320]: 4. Mar
+                          - generic [ref=e18321]: 5. Mar
+                          - generic [ref=e18322]: 6. Mar
+                          - generic [ref=e18323]: 7. Mar
+                          - generic [ref=e18324]: 8. Mar
+                          - generic [ref=e18325]: 9. Mar
+                          - generic [ref=e18326]: 10. Mar
+                          - generic [ref=e18327]: 11. Mar
+                        - generic [ref=e18328]:
+                          - generic [ref=e18329]: 0k
+                          - generic [ref=e18330]: 10k
+                          - generic [ref=e18331]: 2.5k
+                          - generic [ref=e18332]: 5k
+                          - generic [ref=e18333]: 7.5k
+                          - generic [ref=e18334]: 12.5k
+                      - text: For more information on the journal statistics, click
+                      - link "here" [ref=e18340] [cursor=pointer]:
+                        - /url: /journal/energies/stats
+                      - text: .
+                      - generic [ref=e18341]: error_outline Multiple requests from the same IP address are counted as one view.
+    - generic [ref=e18342]:
+      - generic [ref=e18343]:
+        - generic [ref=e18344]:
+          - emphasis [ref=e18345]:
+            - link "Energies" [ref=e18346] [cursor=pointer]:
+              - /url: /journal/energies
+          - text: ", EISSN 1996-1073, Published by MDPI"
+        - generic [ref=e18347]:
+          - link "RSS" [ref=e18349] [cursor=pointer]:
+            - /url: /rss/journal/energies
+          - link "Content Alert" [ref=e18351] [cursor=pointer]:
+            - /url: /journal/energies/toc-alert
+      - generic [ref=e18352]:
+        - generic [ref=e18353]:
+          - heading "Further Information" [level=3] [ref=e18354]
+          - link "Article Processing Charges" [ref=e18355] [cursor=pointer]:
+            - /url: /apc
+          - link "Pay an Invoice" [ref=e18356] [cursor=pointer]:
+            - /url: /about/payment
+          - link "Open Access Policy" [ref=e18357] [cursor=pointer]:
+            - /url: /openaccess
+          - link "Contact MDPI" [ref=e18358] [cursor=pointer]:
+            - /url: /about/contact
+          - link "Jobs at MDPI" [ref=e18359] [cursor=pointer]:
+            - /url: https://careers.mdpi.com
+        - generic [ref=e18360]:
+          - heading "Guidelines" [level=3] [ref=e18361]
+          - link "For Authors" [ref=e18362] [cursor=pointer]:
+            - /url: /authors
+          - link "For Reviewers" [ref=e18363] [cursor=pointer]:
+            - /url: /reviewers
+          - link "For Editors" [ref=e18364] [cursor=pointer]:
+            - /url: /editors
+          - link "For Librarians" [ref=e18365] [cursor=pointer]:
+            - /url: /librarians
+          - link "For Publishers" [ref=e18366] [cursor=pointer]:
+            - /url: /publishing_services
+          - link "For Societies" [ref=e18367] [cursor=pointer]:
+            - /url: /societies
+          - link "For Conference Organizers" [ref=e18368] [cursor=pointer]:
+            - /url: /conference_organizers
+        - generic [ref=e18369]:
+          - heading "MDPI Initiatives" [level=3] [ref=e18370]
+          - link "Sciforum" [ref=e18371] [cursor=pointer]:
+            - /url: https://sciforum.net
+          - link "MDPI Books" [ref=e18372] [cursor=pointer]:
+            - /url: https://www.mdpi.com/books
+          - link "Preprints.org" [ref=e18373] [cursor=pointer]:
+            - /url: https://www.preprints.org
+          - link "Scilit" [ref=e18374] [cursor=pointer]:
+            - /url: https://www.scilit.com
+          - link "SciProfiles" [ref=e18375] [cursor=pointer]:
+            - /url: https://sciprofiles.com?utm_source=mpdi.com&utm_medium=bottom_menu&utm_campaign=initiative
+          - link "Encyclopedia" [ref=e18376] [cursor=pointer]:
+            - /url: https://encyclopedia.pub
+          - link "JAMS" [ref=e18377] [cursor=pointer]:
+            - /url: https://jams.pub
+          - link "Proceedings Series" [ref=e18378] [cursor=pointer]:
+            - /url: /about/proceedings
+        - generic [ref=e18379]:
+          - heading "Follow MDPI" [level=3] [ref=e18380]
+          - link "LinkedIn" [ref=e18381] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/mdpi
+          - link "Facebook" [ref=e18382] [cursor=pointer]:
+            - /url: https://www.facebook.com/MDPIOpenAccessPublishing
+          - link "X" [ref=e18383] [cursor=pointer]:
+            - /url: https://x.com/MDPIOpenAccess
+        - generic [ref=e18385]:
+          - img "MDPI" [ref=e18386]
+          - generic [ref=e18387]:
+            - paragraph [ref=e18388]: Subscribe to receive issue release notifications and newsletters from MDPI journals
+            - button "Select options" [ref=e18390] [cursor=pointer]
+            - textbox "Enter your email address..." [ref=e18391]
+            - button "Subscribe" [ref=e18392] [cursor=pointer]
+      - generic [ref=e18394]:
+        - generic [ref=e18395]: © 1996-2026 MDPI (Basel, Switzerland) unless otherwise stated
+        - generic [ref=e18396]:
+          - generic [ref=e18397]: Disclaimer
+          - link "Terms and Conditions" [ref=e18398] [cursor=pointer]:
+            - /url: /about/terms-and-conditions
+          - link "Privacy Policy" [ref=e18399] [cursor=pointer]:
+            - /url: /about/privacy
+  - complementary:
+    - dialog "Privacy Settings" [ref=e18400]:
+      - button "Privacy Settings" [ref=e18401] [cursor=pointer]
+  - log [ref=e18402]
+  - log [ref=e18403]
+  - log [ref=e18404]
+  - log [ref=e18405]
+  - log [ref=e18406]
+  - log [ref=e18407]
+  - log [ref=e18408]
+  - log [ref=e18409]
+  - log [ref=e18410]
+  - log [ref=e18411]
+  - log [ref=e18412]
+  - log [ref=e18413]
+  - log [ref=e18414]
+  - log [ref=e18415]
+  - log [ref=e18416]
+  - log [ref=e18417]
+  - log [ref=e18418]
+  - log [ref=e18419]
+  - log [ref=e18420]
+  - log [ref=e18421]
+  - log [ref=e18422]
+  - log [ref=e18423]
+  - log [ref=e18424]
+  - log [ref=e18425]
+  - log [ref=e18426]
+  - log [ref=e18427]
+  - log [ref=e18428]
+  - log [ref=e18429]
+  - log [ref=e18430]
+  - log [ref=e18431]
+  - log [ref=e18432]
+  - log [ref=e18433]
+  - log [ref=e18434]
+  - log [ref=e18435]
+  - log [ref=e18436]
+  - log [ref=e18437]
+  - log [ref=e18438]
+  - log [ref=e18439]
+  - log [ref=e18440]
+  - log [ref=e18441]
+  - log [ref=e18442]
+  - log [ref=e18443]
+  - log [ref=e18444]
+  - log [ref=e18445]
+  - log [ref=e18446]
+  - log [ref=e18447]
+  - log [ref=e18448]
+  - log [ref=e18449]
+  - log [ref=e18450]
+  - log [ref=e18451]
+  - log [ref=e18452]
+  - log [ref=e18453]
+  - log [ref=e18454]
+  - log [ref=e18455]
+  - log [ref=e18456]
+  - log [ref=e18457]
+  - log [ref=e18458]
+  - log [ref=e18459]
+  - log [ref=e18460]
+  - log [ref=e18461]
+  - log [ref=e18462]
+  - log [ref=e18463]
+  - log [ref=e18464]
+  - log [ref=e18465]
+  - log [ref=e18466]
+  - log [ref=e18467]
+  - log [ref=e18468]
+  - log [ref=e18469]
+  - log [ref=e18470]
+  - log [ref=e18471]
+  - log [ref=e18472]
+  - log [ref=e18473]
+  - log [ref=e18474]
+  - log [ref=e18475]
+  - log [ref=e18476]
+  - log [ref=e18477]
+  - log [ref=e18478]
+  - log [ref=e18479]
+  - log [ref=e18480]
+  - log [ref=e18481]
+  - log [ref=e18482]
+  - log [ref=e18483]
+  - log [ref=e18484]
+  - log [ref=e18485]
+  - log [ref=e18486]
+  - log [ref=e18487]
+  - log [ref=e18488]
+  - log [ref=e18489]
+  - log [ref=e18490]
+  - log [ref=e18491]
+  - log [ref=e18492]
+  - log [ref=e18493]
+  - log [ref=e18494]
+  - log [ref=e18495]
+  - log [ref=e18496]
+  - log [ref=e18497]
+  - log [ref=e18498]
+  - log [ref=e18499]
+  - log [ref=e18500]
+  - log [ref=e18501]
+  - log [ref=e18502]
+  - log [ref=e18503]
+  - log [ref=e18504]
+  - log [ref=e18505]
+  - log [ref=e18506]
+  - log [ref=e18507]
+  - log [ref=e18508]
+  - log [ref=e18509]
+  - log [ref=e18510]
+  - log [ref=e18511]
+  - log [ref=e18512]
+  - log [ref=e18513]
+  - log [ref=e18514]
+  - log [ref=e18515]
+  - log [ref=e18516]
+  - log [ref=e18517]
+  - log [ref=e18518]
+  - log [ref=e18519]
+  - log [ref=e18520]
+  - log [ref=e18521]
+  - log [ref=e18522]
+  - log [ref=e18523]
+  - log [ref=e18524]

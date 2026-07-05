@@ -1,0 +1,40 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\bibstyle{naturemag-doi}
+\citation{stolaroff2018energy}
+\citation{zhang2020energy,liu2017power}
+\citation{liu2017power,bezzo2016,troudi2018,abdilla2015,FIGLIOZZI2017251}
+\citation{abeywickrama2018empirical,maekawa2017power,prasetia2019mission}
+\citation{zhang2020energy}
+\HyPL@Entry{0<</S/D>>}
+\babel@aux{english}{}
+\citation{DJI}
+\citation{djiCAD}
+\citation{djiCAD}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Onboard sensor suite with the complete setup}}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:schematic}{{1}{2}{Onboard sensor suite with the complete setup}{figure.caption.1}{}}
+\citation{FTTechnologies}
+\citation{Lord2018}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces a) Front view, b) Side view, and c) Top view of the DJI Matrice 100 with our payload, sensors and onboard computer. Additional details can be found on the DJI 3D CAD file \cite  {djiCAD}}}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:dji_pics}{{2}{3}{a) Front view, b) Side view, and c) Top view of the DJI Matrice 100 with our payload, sensors and onboard computer. Additional details can be found on the DJI 3D CAD file \cite {djiCAD}}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Data acquisition hardware setup. a) DJI Matrice 100 with the anemometer and sensor box attached, b) Top-down view of the platform and sensor box with the 3DM-GX5-45 GNSS INS visible, sensor pack}}{3}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:airframe}{{3}{3}{Data acquisition hardware setup. a) DJI Matrice 100 with the anemometer and sensor box attached, b) Top-down view of the platform and sensor box with the 3DM-GX5-45 GNSS INS visible, sensor pack}{figure.caption.3}{}}
+\citation{MAUCH}
+\citation{Foundation2010}
+\citation{part107}
+\citation{Rodrigues}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces GPS route and sample data outputs from the onboard sensor array.}}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:snippet}{{4}{5}{GPS route and sample data outputs from the onboard sensor array}{figure.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  Variable description for the data record}}{6}{table.caption.5}\protected@file@percent }
+\newlabel{tab:variables}{{1}{6}{Variable description for the data record}{table.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces a) Altitude and b) Ground Speed from 3 individual flights operating at cruise speed of 4 m/s, altitude of 25 m and payload of 250 g}}{7}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:altitude}{{5}{7}{a) Altitude and b) Ground Speed from 3 individual flights operating at cruise speed of 4 m/s, altitude of 25 m and payload of 250 g}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces a) Air Speed and b) Power from 3 individual flights operating at cruise speed of 4 m/s, altitude of 25 m and payload of 250 g}}{7}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:airspeed}{{6}{7}{a) Air Speed and b) Power from 3 individual flights operating at cruise speed of 4 m/s, altitude of 25 m and payload of 250 g}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Euler angles from 3 individual flights operating at cruise speed of 4 m/s, altitude of 25 m and payload of 250 g: a) Yaw, b) Pitch and c) Roll}}{8}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:euler}{{7}{8}{Euler angles from 3 individual flights operating at cruise speed of 4 m/s, altitude of 25 m and payload of 250 g: a) Yaw, b) Pitch and c) Roll}{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Variation in control variables commanded a) altitude and b)

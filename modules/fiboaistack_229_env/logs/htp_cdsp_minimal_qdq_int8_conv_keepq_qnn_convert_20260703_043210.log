@@ -1,0 +1,42 @@
+[sudo] password for fibo: 2026-07-03 12:32:21,298 - 235 - INFO - Input shape info 
+WARNING: The argument `input_shapes` is deprecated. Please use 
+`overwrite_input_shapes` and/or `test_input_shapes` instead. An error will be 
+raised in the future.
+2026-07-03 12:33:05,407 - 240 - WARNING - Onnx model simplification failed due to: Your model ir_version is higher than the checker's.
+2026-07-03 12:33:05,422 - 240 - WARNING - Simplified model validation failed
+WARNING: The argument `input_shapes` is deprecated. Please use 
+`overwrite_input_shapes` and/or `test_input_shapes` instead. An error will be 
+raised in the future.
+2026-07-03 12:33:18,923 - 240 - WARNING - Onnx model simplification failed due to: Your model ir_version is higher than the checker's.
+2026-07-03 12:33:18,938 - 240 - WARNING - Simplified model validation failed
+2026-07-03 12:33:19,761 - 240 - WARNING - The model is invalid: Your model ir_version is higher than the checker's.
+2026-07-03 12:33:19,774 - 235 - INFO - user_provided_output is same as graph_output..skipping update_output_names call
+2026-07-03 12:33:20,189 - 230 - ERROR - Encountered Error: validateQnnOpConfig: Failed QNN validation for input_quant with error
+Validating Output[0] of ID 2.
+Output[0] has incorrect Datatype 0x232.
+Op specific validation failed.
+
+Traceback (most recent call last):
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-onnx-converter", line 78, in main
+    backend.save(optimized_graph)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/backend/ir_to_qnn.py", line 537, in save
+    ir_graph = self.get_ir_graph(graph)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/qnn_backend/qnn_backend_base.py", line 556, in get_ir_graph
+    raise e
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/qnn_backend/qnn_backend_base.py", line 547, in get_ir_graph
+    QnnTranslations.apply_method_to_all_ops(BackendTranslationBase.ADD_OP_TO_BACKEND, graph, self)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/common/converter_ir/translation.py", line 71, in apply_method_to_all_ops
+    self.apply_method_to_op(node.op.type, method_name, node, graph, *args, **kwargs)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/common/converter_ir/translation.py", line 51, in apply_method_to_op
+    return translation.apply_method(method_name, *args, **kwargs)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/common/converter_ir/translation.py", line 18, in apply_method
+    return self.indexed_methods[method_name](*args, **kwargs)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/qnn_backend/qnn_translations.py", line 2468, in add_op_to_backend
+    backend.add_node(node.op.name, qnn_definitions.QNN_OP_QUANTIZE, node.input_names, outputs_info)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/backend/ir_to_qnn.py", line 253, in add_node
+    if not self.model.add_node(node_name, node_type, node_package_name, tensor_params, scalar_params,
+RuntimeError: validateQnnOpConfig: Failed QNN validation for input_quant with error
+Validating Output[0] of ID 2.
+Output[0] has incorrect Datatype 0x232.
+Op specific validation failed.
+

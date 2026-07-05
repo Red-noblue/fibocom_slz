@@ -1,0 +1,15 @@
+# Fdb version 4
+["pdflatex"] 1773242890.93665 "main.tex" "main.pdf" "main" 1773242891.22971 2
+  "/Users/zhangyansong/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls" 1748806692 20144 b966087dda3b194755eb460d32e2ef75 ""
+  "/Users/zhangyansong/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo" 1748806692 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
+  "/Users/zhangyansong/Library/TinyTeX/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
+  "/Users/zhangyansong/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1773201284 2236213 a5b5254f50bde0ebcc1e56ab69414a6c ""
+  "/Users/zhangyansong/Library/TinyTeX/texmf.cnf" 1773201232 637 edd806fb06a89761a6034e1968af9017 ""
+  "blindtext.sty" 0 -1 0 ""
+  "main.aux" 1773242882.93632 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1637607699 33482 28a4ac45f3196e64c790c64493af3b2a ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)

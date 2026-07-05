@@ -1,0 +1,26 @@
+{
+  "devices": [
+    {
+      "id": "wind-direction-1",
+      "name": "风向计",
+      "type": "wind_direction",
+      "port": "/dev/ttyUSB0",
+      "address": 1,
+      "baudrate": 4800,
+      "data_bits": 8,
+      "parity": "N",
+      "stop_bits": 1
+    },
+    {
+      "id": "wind-speed-1",
+      "name": "风速计",
+      "type": "wind_speed",
+      "port": "/dev/ttyUSB1",
+      "address": 1,
+      "baudrate": 4800,
+      "data_bits": 8,
+      "parity": "N",
+      "stop_bits": 1
+    }
+  ]
+}

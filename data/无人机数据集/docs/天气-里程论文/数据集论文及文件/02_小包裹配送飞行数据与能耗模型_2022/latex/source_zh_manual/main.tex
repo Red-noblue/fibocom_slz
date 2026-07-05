@@ -1,0 +1,327 @@
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage{geometry}
+\geometry{a4paper, portrait, margin = 0.8in}
+\usepackage{seqsplit}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{breqn}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{xeCJK}
+\setCJKmainfont{PingFang SC}
+\setCJKsansfont{PingFang SC}
+\setCJKmonofont{PingFang SC}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{doi}
+%\usepackage{mathpazo}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{cite}
+\usepackage{doi}
+\usepackage{url}
+%\usepackage{breakurl}
+%\usepackage[left]{lineno}
+%\linenumbers
+\newcommand{\doiprefix}{}
+\def\UrlBreaks{\do\/\do-}
+\usepackage[
+    backend=biber,
+    style=numeric,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false, 
+    sorting=none
+]{biblatex}
+\addbibresource{references.bib}
+\usepackage{hyperref}
+\renewcommand{\abstractname}{摘要}
+
+
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
+\newcommand{\notateThiago}[1]{\textcolor{blue}{\textbf{[#1]}}}
+
+
+\title{用于小包裹配送的无人机飞行数据揭示了能源与温室气体排放的节约潜力}
+\author{Thiago A. Rodrigues\thanks{卡内基梅隆大学土木与环境工程系，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213} \textsuperscript{,}\thanks{通讯作者：{\tt\small{tarodrig@andrew.cmu.edu}} 和 {\tt\small{csamaras@cmu.edu}}}, \;Jay Patrikar\thanks{卡内基梅隆大学机器人研究所，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213}, \;Natalia L. Oliveira\thanks{卡内基梅隆大学统计与数据科学系，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213} \textsuperscript{,}\thanks{卡内基梅隆大学机器学习系，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213}, \\H. Scott Matthews\footnotemark[1], \;Sebastian Scherer\footnotemark[3], \;Constantine Samaras \footnotemark[1] \textsuperscript{,} \footnotemark[2]
+}
+
+\date{}
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+无人驾驶飞行器（UAV）在末端配送中的采用，将影响包裹配送的能源生产率，并需要新的方法来理解相关能耗与温室气体（GHG）排放。本文结合 187 架次四旋翼飞行的经验测试与第一性原理分析，构建了一个可用于无人机包裹配送的能量模型。我们开发了一种机器学习算法，用于评估三种不同飞行阶段中的能量使用情况：起飞、巡航和着陆。模型表明，在美国，一架载荷为 1 kg 的小型电动四旋翼无人机，其单位距离能耗约为 0.05 MJ/km，每个包裹对应约 41 g 的 CO$_{2}$e 排放。按单个包裹计，无人机的能耗（0.19 MJ/package）最多可比传统运输方式低 96\%。我们公开的模型及其可泛化系数，可帮助相关方理解并改进无人机包裹配送的能源使用。
+\end{abstract}
+
+关键词：四旋翼无人机，末端配送，能量消耗，温室气体排放，机器人配送，自主配送。
+
+\section{引言}
+
+在货运运输部门中显著提升能源生产率极具挑战，尤其是在美国这个以石油燃料为主的运输体系中，中型和重型卡车占运输能源使用的 24\%。该部门贡献了与运输相关温室气体（GHG）排放的 37\%，而轻型车辆则占运输 GHG 排放的 57\% 和运输能源使用的 64\%。此外，交通运输仍是氮氧化物（NOx）及其他空气污染物的重要来源 \cite{Davis2021Transportation39}。然而，美国消费者获取商品的方式正在迅速变化 \cite{Dost2018}。
+
+甚至在 COVID-19 爆发之前，市场对快速、无接触配送不断增长的需求，就已推动企业尝试自动化包裹配送工具，例如能够避开城市交通、并快速到达原本难以服务的农村地区的无人驾驶飞行器（UAV）\cite{Mims2020, Lee2020TheFuture}。Pani 等人 \cite{Pani2020EvaluatingPandemic} 对俄勒冈州波特兰 483 名消费者的初步调查显示，COVID-19 正在促成这样一种环境：超过 60\% 的线上消费者愿意为使用自主配送机器人收件支付额外费用。尽管如此，除了技术和政策挑战之外，运输成本上升仍是自主配送工具大规模采用的主要限制之一 \cite{Kapser2020AcceptancePerceptions}。
+
+配送机器人之所以具有吸引力，也与减少商品配送中冠状病毒传播的新型物理隔离需求有关 \cite{Abrar2020AnSystem}。随着自主配送技术不断进步，新的企业也不断涌现，争夺这一细分市场 \cite{Joerss2016HowMcKinsey, Bensinger2016AmazonsFedEx, Gross2013, Murphy2016, UPS2017}。与此同时，电动货运自行车等替代运输方式，正逐渐成为短距离配送中对货车更具成本效益的替代方案 \cite{Sheth2019MeasuringAreas}，并在高密度都市区域显著降低末端配送的 $CO_2$ 排放 \cite{McLeod2020QuantifyingDelivery}。随着配送车辆电动化程度不断提高，运输部门的能耗和环境影响预计将在未来几年发生显著变化 \cite{Gebeloff2017, Dominkovic2018TheTransition}，而技术进步和需求变化都是主要驱动因素。若 UAV 被广泛用于替代部分首末公里卡车取送任务，这一行业可能会因需求模式变化以及燃料需求由化石燃料转向电力而被重塑。自主配送机器人正进入运输领域，但如何设计这些车辆与系统以最大化能源生产率，目前仍不够清晰。
+
+迄今已有少量研究对四旋翼飞行器的能量消耗进行了估计，但不同方法给出的能耗估计差异很大 \cite{Zhang2021EnergyAssessment}。有些研究基于理论原理建立模型 \cite{DAndrea2014GuestDeliver, Figliozzi2017LifecycleEmissions, Dorling2016VehicleDelivery, Liu2017, Lohn2018TheBuzz, Stolaroff2018EnergyDelivery, Jeong2019Truck-droneZones,Torabbeigi2019, Kirschstein2020ComparisonServices}，也有研究基于少量飞行样本构建回归模型 \cite{Dorling2016VehicleDelivery, Tseng2017AutonomousDrones, Tseng2017FlightDrones, Jeong2019Truck-droneZones}。此外，也有一些研究估计了包裹配送 UAV 与不同运输方式之间的能耗和温室气体（GHG）排放差异 \cite{Stolaroff2018EnergyDelivery, Figliozzi2020CarbonVehicles, Goodchild2018DeliveryIndustry, Borlaug2021Heavy-dutySystems}，但其中通常没有纳入电动货运自行车等新兴替代配送方式。 
+
+
+本文旨在帮助相关方和研究人员理解无人驾驶航空包裹配送无人机的能量使用特征。我们基于四旋翼无人机 DJI Matrice 100 的 187 架次飞行经验数据，建立了一个能量模型，并据此形成了一个新的高分辨率包裹配送无人机能耗数据集 \cite{Rodrigues2020a}。我们还开发了一种能够自动识别起飞、巡航和着陆三个飞行阶段的算法。本文展示了巡航速度和载荷质量对无人机航程的影响，给出了具有可泛化能力的能耗系数，并在单个包裹尺度上，将小型四旋翼无人机的能耗和 GHG 排放与其他末端配送方式进行了比较。      
+
+
+\section{结果与讨论}
+
+我们采集了 187 架次飞行的数据，用于评估在给定运行参数（载荷、飞行高度以及巡航速度）条件下，包裹配送无人机的功率变化特征。实验细节可参见数据集本身 \cite{Rodrigues2020a} 以及配套的数据描述论文 \cite{Rodrigues2021In-flightDelivery}。此外，我们开发了一种算法，可将数据划分为起飞、巡航和着陆三个不同飞行阶段，以更好地理解飞行过程中的能量消耗特征，详见补充图 S1 至 S4。 
+
+随后，我们进行了第一性原理分析，并建立了一个用于估算四旋翼供能需求的模型。三个飞行阶段分别建模，也就是说，每一种能量模型都被视为一个模型类别，并从中为每个飞行阶段各选出一个最优模型。为了公平比较各模型类别的性能并避免过拟合，我们按照飞行编号分层的策略，将数据划分为训练集和测试集。其中 120 架次飞行作为训练集，用于估计各模型参数；随后再将这些模型应用于测试集中的其余 67 架次飞行，以评估能量模型在未见数据上的表现。  
+
+\subsection{能量模型}
+我们的能量（E）模型使用诱导功率（Induced Power，$P_{i}$）作为飞行全过程平均功率的参数估计量。诱导功率指的是在无风悬停状态下，为克服重力所需的功率。
+
+\begin{equation}
+    E = (b_{1}P_{i} + b_{0})t
+    \label{eq:linearModel}
+\end{equation}
+其中，$t$ 为飞行持续时间，$b_{1}$ 和 $b_{0}$ 是将 $P_{i}$ 与整个飞行过程中的平均功率建立线性关联的系数。
+式 \ref{eq:linearModel} 中所使用的诱导功率计算如下：
+\begin{equation}
+    P_{i} = \frac{\left(mg\right)^{1.5}}{\sqrt{2\rho A}}
+\end{equation}
+其中，$m$ 为无人机总质量（包含载荷），$g$ 为重力加速度，$\rho$ 为空气密度，$A$ 为所有螺旋桨覆盖的总面积。 
+
+估计得到的系数及其标准误见表 \ref{Tab:coefficients_Method1}。 
+
+\begin{table}[H]
+\centering
+\caption{估计系数及其自助法标准误（$\pm$）}
+\begin{tabular}{llll}
+\textbf{系数} & \textbf{起飞} & \textbf{巡航} & \textbf{着陆} \\ \hline
+$b_1$ &	1.97 $\pm$ 0.08 &	1.69 $\pm$ 0.06 &	1.62 $\pm$ 0.14\\
+$b_0$ &	13.8 $\pm$ 0.01 &	16.8 $\pm$ 0.01 &	-4.7 $\pm$ 0.01\\  \hline
+\end{tabular}
+\label{Tab:coefficients_Method1}
+\end{table}
+
+表 \ref{Tab:coefficients_Method1} 中的系数，是通过对 120 架次飞行的 $P_{i}$ 与相应平均功率进行线性回归得到的。随后将这些结果应用于剩余飞行任务时，平均绝对相对误差为 3\%，说明该能量模型在估计能耗方面具有较高准确性。
+
+在验证该能量模型之后，我们估算了一架小型四旋翼无人机投递单个包裹时的能量消耗。图 \ref{fig:dist}a 展示了在巡航速度为 4 m/s 和 12 m/s、巡航高度为 100 m 条件下，双程配送任务（去程配送与返程回收）总能耗随配送距离和无人机总重量（含载荷）变化的情况。我们的分析还表明，巡航速度的变化会显著影响单次任务总能耗，并进而影响无人机航程（图 \ref{fig:dist}a）。随着速度提升，总飞行时间缩短，因此在相同可用能量下可覆盖更长距离。
+此外，我们还基于美国电网、上游发电过程以及电池全生命周期排放，按照配送距离计算了每个包裹对应的 GHG 排放（图 \ref{fig:dist}b）。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/figure1.pdf}
+    \caption{（a）在不同载荷质量和巡航速度条件下，配送距离对应的总能耗；（b）在不同电网排放因子和电池生命周期排放条件下，配送距离对应的 CO$_{2}$e 排放。图中的总能耗和 CO$_{2}$e 均对应于：满载起飞、从起点巡航至终点并着陆，以及空载起飞、从终点巡航返回起点并着陆。作为能量约束，LiPO TB48D 电池的标称容量为 130 Wh \cite{DJI}。巡航高度为 100 m，起飞速度为 2.5 m/s，着陆速度为 2 m/s。\label{fig:dist}}
+\end{figure}
+
+\subsection{不同运输方式之间的比较}
+我们将四旋翼无人机的能量消耗与柴油和电动中型卡车、小型货车以及电动货运自行车进行了比较。 
+   
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/figure2.pdf}
+    \caption{不同运输方式的能量消耗。误差棒分别表示：（a）驾驶风格和车辆特性的变化；（b）单位距离投递包裹数量的变化。}
+    \label{fig:f2}
+\end{figure}   
+   
+按单位距离计，小型四旋翼无人机的总能耗在多种运输方式中处于最低水平之一，这是因为其本体较小、重量较轻且载荷能力较低（图 \ref{fig:f2}a）。但图 \ref{fig:f2}b 展示的是“无人机等效配送”下的单包裹能耗，即假设其他运输方式所配送的全部包裹都满足小型四旋翼无人机的载重和空间限制 \cite{Guglielmo2013TurnsPounds}。从单个包裹能耗的角度来看，小型四旋翼无人机同样属于能效最高的配送方式之一。每公里停靠次数以及每次停靠投递的包裹数量，会随着运输方式和配送密度而变化（高密度地区通常意味着每公里有更多停靠点和更多投递包裹）。        
+
+类似地，对各运输方式燃料温室气体（GHG）排放的分析表明，四旋翼无人机在单位公里 CO$_{2}$e 排放方面同样属于效率最高的车辆之一（图 \ref{fig:f3}a），并且在单个包裹的 GHG 排放层面也是一种具有竞争力的选择（图 \ref{fig:f3}b）。另一方面，需要指出的是，小型无人机在可运输包裹的重量和体积方面存在明显限制。因此，若按吨公里尺度分析能量消耗和 GHG 排放（补充图 S5），小型无人机反而是最耗能的运输工具。此外，本研究未考虑的本地低空空域监管要求，若导致配送路径更长，也可能会增加无人机的能耗和 GHG 排放 \cite{Elsayed2020TheOperation}。最后，诸如“移动仓库” \cite{SrivatsaSrinivas2021MovingBeyond} 这样的替代方案，能够通过将无人机与配送卡车结合，成为缓解当前限制、纳入无人机配送的一种有效方式。   
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/figure3.pdf}
+    \caption{不同运输方式的温室气体（GHG）排放。误差棒表示由燃料碳强度、电池生命周期排放以及单位距离投递包裹数量变化带来的不确定性。}
+    \label{fig:f3}
+\end{figure}
+
+我们将本研究结果与联合包裹服务公司（UPS）提供的数据进行了比较。UPS 在 2019 年报告称，美国国内包裹业务的能耗强度为 28 MJ/package，其中地面车辆约占 9.5 MJ/package，即 34\%（航空燃料、设施采暖燃料和间接能耗分别占 60\%、3\% 和 3\%），对应的温室气体（CO$_{2}$e）排放强度为 1 kg/package \cite{UPS20192019Index}。需要指出的是，这些数值覆盖的是整个地面车队，而不仅仅是末端配送环节。
+
+我们估计，一架载荷为 1 kg、巡航速度为 12 m/s、巡航高度为 100 m 的小型四旋翼无人机，在采用美国平均电力结构充电时，其单位距离能耗约为 0.05 MJ/km，每个包裹对应的 CO$_{2}$e 排放约为 41 g。我们的能量模型具有简洁、可泛化且精度较高的系数，可为速度低于 12 m/s 的工况提供能耗估计。然而，在更高速度下，或者面对旋翼盘面积更大的无人机时，更完整的能量剖面方法可能会给出更准确的预测。
+
+当总运载质量不是首要考量因素时，小型四旋翼无人机的能耗表现可与能效最高的末端配送方式相媲美。例如，在需要投递高附加值、体积小且重量轻的物品（如小型电子设备和药品）时，无人机可能成为降低大城市运输排放的有力工具 \cite{Isik2021TransportationRates}。在这些场景中，我们发现，相较于柴油卡车和电动货车，无人机在单个包裹尺度下可分别将能耗降低 96\% 和 60\%，并将 GHG 排放分别降低 91\% 和 59\%。我们还发现，配送强度（即每公里投递的包裹数量）和燃料碳强度，是决定无人机能源与环境表现的主要因素。还需指出的是，用于采集数据的无人机本身并未针对最低能耗进行专门优化，因此其能效仍有进一步提升空间。  
+
+\section{方法}
+
+\subsection{实验}
+我们开展了一系列飞行实验，以经验方式测量四旋翼 UAV 的能量消耗。为确保数据采集方法可靠，我们制定并执行了系统的实验流程 \cite{Rodrigues2021In-flightDelivery}。 
+
+一架 DJI\textsuperscript{\textregistered} Matrice 100（M100）四旋翼无人机搭载了风速计、电流与电压监测器、GPS 和加速度计，用于采集风速与风向、电池电流与电压需求，以及位置、姿态、速度和加速度等数据。飞行按照预设航线执行，并改变高度（25 m、50 m、75 m 和 100 m）、速度（4 m/s、6 m/s、8 m/s、10 m/s 和 12 m/s）以及载荷质量（无载荷、250 g 和 500 g）。每种组合至少重复三次，总计 187 架次飞行。各传感器输出的数据通过机器人操作系统（ROS）的 ApproximateTime \cite{Foundation2010} 消息过滤策略同步到约 5 Hz 的频率。
+
+为了更好地理解每次飞行的能量消耗特征，我们创建了一种算法，可自动将数据划分为起飞、巡航和着陆三个不同飞行阶段（见补充图 S1 至 S4）。
+
+\subsection{第一性原理分析}
+为估算 UAV 所需功率，我们采用了基于直升机空气动力学的第一性原理分析方法 \cite{Rotaru2017a}。首先，我们定义了四旋翼无人机的工作坐标系（见补充图 S6 至 S8）。随后，我们评估了无人机在稳定悬停状态下维持飞行所需的功率。最后，我们将功率分析扩展至其他功率需求。
+
+无人机的主要功率需求表现为诱导功率（$P_{i}$）。诱导功率表示无人机为克服重力、维持飞行所需的功率，并且会随着飞行动作不同而变化 \cite{Rotaru2017a}。估计 $P_{i}$ 的最基本方法，是考虑无风悬停条件（图 \ref{fig:hover}）。 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 8 cm]{Figures/figure4.pdf}
+    \caption{无风悬停条件。}
+    \label{fig:hover}
+\end{figure}
+
+在该情况下，作用在无人机上的唯一外力为其重力，因此推力（$T$）等于其重量（$W = mg$）\cite{Rotaru2017a}，于是 $P_{i}$ 可表示为
+\begin{equation}
+    P_{i} = T v_{i}
+    \label{eqn:Pi}
+\end{equation}
+其中 $v_{i}$ 为诱导速度。
+
+在悬停条件下，$v_{i}$ 可简化为
+\begin{equation}
+    v_{i} = \sqrt{\frac{T}{2 \rho A}}
+    \label{eqn:vi_hover}
+\end{equation}
+其中 $\rho$ 为空气密度，$A$ 为四个螺旋桨覆盖的总面积。 
+
+结合式 \ref{eqn:vi_hover} 和 \ref{eqn:Pi}，
+\begin{equation}
+    P_{i} = \frac{(T)^{3/2}}{\sqrt{2 \rho A}} =\frac{(m g)^{1.5}}{\sqrt{2 \rho A}}
+    \label{pi_hover}
+\end{equation}
+其中 $m$ 为无人机总质量，$g$ 为重力加速度。  
+
+关于第一性原理分析及其扩展能量模型的更多细节，可参见补充材料（见补充图 S9 至 S11）。  
+
+\subsection{能量模型}
+我们的能量模型关注的问题是：$P_{i}$ 能在多大程度上作为包裹配送飞行期间能量消耗的估计量。在这种设定下，整个飞行过程中的平均功率（$\Bar{P}$）被表示为诱导功率的线性回归：
+\begin{equation}
+    \Bar{P} = b_{1}P_{i} + b_{0}
+    \label{eqn:E_1}
+\end{equation}
+其中 $b_{1}$ 和 $b_{0}$ 分别是线性回归的斜率和截距。  
+
+式 \ref{eqn:E_1} 可进一步扩展，以计入三个飞行阶段的总和（图 \ref{fig:LN}），则总能耗（$E$）可估计为
+\begin{equation}
+    E = \sum_{r\in\mathcal{R},\; l\in\mathcal{L}}(b_{1}^{(r,\;l)}P_{i}^{(l)} + b_{0}^{(r,\;l)})t^{(r,\;l)}
+    \label{eqn:E_sum}
+\end{equation}
+其中 $\mathcal{R} = \{takeoff,cruise,landing\}$，$\mathcal{L} = \{loaded, unloaded\}$。 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 8 cm]{Figures/figure5.pdf}
+    \caption{按飞行阶段划分后的飞行数据线性回归结果。}
+    \label{fig:LN}
+\end{figure}
+
+\subsection{机器学习方法} 
+然而，仅凭模型自身表现，并不能判断在现有测量条件下它的性能是否足够好。因此，我们将能量模型的预测能力与编程环境 \texttt{R} 中的一种灵活非线性算法 \cite{xgboostRpackage}，即 \texttt{XGBoost} 进行比较。该提升树算法更强调预测能力而非可解释性，因此适合在现有特征条件下作为高预测性能基线。如果我们的能量模型与 \texttt{XGBoost} 具有相近的精度，则说明在能量模型开发中施加的参数和函数形式约束是合理的。 
+
+我们拟合了梯度提升树算法 \texttt{XBGoost} \cite{xgboostRpackage}。该算法针对每一种飞行阶段分别训练，采用二次损失函数；对于所有阶段，每棵树都使用 75\% 的特征子采样比例和 75\% 的样本子采样比例。超参数调优采用网格搜索，搜索的参数包括学习率、最大树深度以及正则化参数 $\gamma$。 
+误差估计使用 5 折交叉验证；在调参阶段，我们使用绝对相对误差（ARE，见式 \ref{eq:relativeerror}）而不是二次误差进行比较。调优完成后，模型在整个训练集上以最优超参数重新训练，并在测试集飞行任务上计算 ARE。 
+
+\paragraph{标准误} 
+为了获得估计系数的标准误，我们采用了非参数 bootstrap 方法 \cite{EfroTibs93}。具体而言，对 120 架次训练集飞行进行有放回重采样，共执行 1000 次 bootstrap 重复，并在每个 bootstrap 样本上重新拟合三个飞行阶段对应的两类能量模型。最终，系数标准误由其抽样分布得到。 
+
+\paragraph{模型预测能力} 
+为了评估模型的预测能力，我们将按飞行阶段拟合得到的模型应用到测试集飞行任务上，并以飞行粒度计算绝对相对误差（ARE）进行比较。也就是说，对测试集中的每一架次飞行，我们通过对功率随时间积分得到其实测能耗 $E_{measured}$；而 $E_{estimated}^m$ 则表示采用方法 $m$ 时，对三个飞行阶段的估计功率分别积分后再求和得到的估计能耗：
+\begin{equation}
+\label{eq:relativeerror}
+    ARE(m) = \left | \frac{E_{measured}-E_{estimated}^m}{E_{measured}} \right|
+\end{equation}
+其中，$m \in \{\textit{能量模型}, \textit{XBGoost}\}$。
+
+\subsection{无人机航程}
+我们的分析还展示了运行参数（速度、高度和载荷）变化对无人机航程的影响。考虑巡航速度时，双程无人机航程（d）可写为
+\begin{equation}
+    E = \sum(b_{1}P_{i} + b_{0})t = \sum E_{\,takeoff} + \sum E_{\,landing} + \sum (b_{1}P_{i} + b_{0}) \frac{d}{V_{cr}}
+\end{equation}
+将其扩展到双程任务并对 d 求解，可得
+
+\begin{equation}
+    d = \frac{
+    \left[E_{max} - \left(E_{\,takeoff}^{\,l} + E_{\,takeoff}^{\,u} + E_{\,landing}^{\,l} + E_{\,landing}^{\,u} \right)\right]V_{cr}}{b_{1} \left(P_{i}^{\,l}+P_{i}^{\,u}\right)  + 2b_{0} }
+\end{equation}
+其中，$E_{max}$ 为电池可用能量；$E_{takeoff}$ 和 $E_{landing}$ 分别为配送去程（loaded = $l$）和返回空载（unloaded = $u$）时起飞与着陆所消耗的能量；$P_{i}$ 为诱导功率，按照式 \ref{pi_hover} 分别计算去程（loaded = $l$）和返程（unloaded = $u$）的取值；$b_{1}$ 和 $b_{0}$ 是表 \ref{Tab:coefficients_Method1} 中巡航阶段对应的系数；$V_{cr}$ 为平均惯性巡航速度。
+
+起飞和着陆阶段的能量可表示为
+\begin{equation}
+    E = \left(b_{1}P_{i} + b_{0}\right)\frac{h}{V}
+\end{equation}
+其中 h 为巡航高度，V 为起飞和着陆阶段的平均速度。 
+
+例如，一架小型四旋翼在 $V_{cr}$ = 12 m/s、载荷 = 1000 g、h = 100 m、平均起飞速度 ($V_{tk}$) = 2.5 m/s、平均着陆速度 $V_{ld}$ = 2.0 m/s 的条件下运行，其总航程约为 11 km（配送单程航程为 5.7 km），每次往返配送约消耗 120 Wh。 
+因此，在这些条件下飞行的四旋翼无人机，其单位距离能耗约为 0.039 MJ/km（未计入充电和传输损耗）。其中，起飞和着陆阶段的能耗约占总能耗的 $17\%$（即每次往返约 19.4 Wh）。如果起飞高度仅为 5 m，这部分能耗可减少 95\%（即每次任务从 19.4 Wh 降至约 0.97 Wh），例如当无人机从建筑物顶部起飞时便可能实现这一点。这样可使总任务能耗降低 15\%（从 120 Wh 降至 102 Wh），或将单程配送航程从 5.7 km 提升到 6.7 km。  
+
+\subsection{运输方式对比}
+我们从能量消耗和 CO$_{2}$e 排放两个角度，将小型四旋翼无人机与不同运输方式进行比较，并将结果与 UPS 2019 年的自上而下可持续性报告进行校验。中型柴油卡车的能耗取 11 MJ/km \cite{Prohaska2016FieldTrucks}；中型电动卡车的能耗为 1.4 kWh/mile \cite{Prohaska2016FieldTrucks}，即 3.13 MJ/km。柴油货车平均油耗为 18.4 MPG \cite{AdvantageOutfitters2019BestMore}，折合 4.9 MJ/km（换算关系：1 加仑柴油 = 137,381 Btu \cite{U.S.EnergyInformationAdministrationEIA2020EnergyExplained}，1 MJ = 947.817 Btu，1 mile = 1.60934 km）。相比之下，电动货车的能耗为 0.38 kWh/km \cite{Fiori2018ModellingDataset}，即 1.36 MJ/km。最后，电动货运自行车的能耗为 0.023 kWh/km \cite{Erlandsson2017TheVan}，即 0.08 MJ/km（换算关系：1 kWh = 3.6 MJ）。此外，驾驶风格的不同还可能带来约 40\% 的能耗变化 \cite{FuelEconomyManyMPG}。 
+根据我们的能量模型，在满载投递（1 kg 载荷、返程空载）、巡航速度为 12 m/s 的条件下，一架小型四旋翼无人机在单程 5.5 km（总里程 11 km）的配送任务中约消耗 120 Wh，即 0.039 MJ/km。对于电动车辆，我们在能耗中计入了 6.5\% 的输电损耗和 88\% 的充电效率 \cite{ArgonneGREETPublication2016Cradle-to-GraveTechnologies,Shiau2009ImpactVehicles, USEPA2019EmissionseGRID, U.S.EnergyInformationAdministrationEIA2021HowStates}（见表 \ref{tab:energy_ghg_pack}）。补充表 S1 汇总了各运输方式的名义能耗，并给出了相应的载荷能力。 
+
+电力对应的 CO$_{2}$e 排放取 2019 年美国平均值 182 g/MJ（656 g/kWh）；其中下限为新英格兰地区的 107 g/MJ（384 g/kWh），上限为美国中西部中部地区反映非基荷排放水平的 249 g/MJ（896 g/kWh）\cite{USEPA2019EmissionseGRID}。柴油燃烧产生的 CO$_{2}$e 排放取 $1.61x10^{-4}$ lb/Btu \cite{U.S.EnergyInformationAdministrationEIA2020HowBurned}，即 69.35 g/MJ。柴油和电力生产上游的 GHG 排放分别取 15 g/MJ 和 22 g/MJ \cite{Laboratory2020GREET}。无人机所用 LiPO 电池的生命周期排放被假设与磷酸铁锂电池相近，分别取 2 g/MJ（基准情形）、0.6 g/MJ（低情形）和 4 g/MJ（高情形）\cite{Laboratory2020GREET}。类似地，电动货运自行车的电池生命周期排放分别为 5.1 g/MJ（基准情形）、1.1 g/MJ（低情形）和 16.9 g/MJ（高情形）；电动货车分别为 18.7 g/MJ、5.6 g/MJ 和 37.4 g/MJ；中型电动卡车分别为 32.5 g/MJ、9.7 g/MJ 和 65 g/MJ。
+
+无人机电池（假设与磷酸铁锂电池相似）的生命周期排放折算为 0.76 g/km（基准情形）、0.23 g/MJ（低情形）和 1.52 g/MJ（高情形）。类似地，假设电动货运自行车使用 Li-ion NMC811 电池，则其电池生命周期排放为 1.3 g/km。对于电动货车和中型电动卡车，我们同样假设采用 Li-ion NMC811 电池，则其电池生命周期排放分别为 14.1 g/km 和 24.5 g/km。\cite{Laboratory2020GREET}
+
+单个包裹对应的能耗（$E_{pack}$）计算如下：
+\begin{equation}
+    E_{pack} = \frac{E_{dist}}{S_{freq}\cdot P_{freq}}
+\end{equation}
+其中，$E_{dist}$ 表示单位距离能耗，$S_{freq}$ 表示单位距离内用于投递包裹的停靠次数，$P_{freq}$ 表示平均每次停靠投递的包裹数量。 
+
+类似地，单个包裹对应的温室气体排放（$GHG_{package}$）计算如下： 
+
+\begin{equation}
+    GHG_{pack} = \frac{E_{dist}\cdot GHG_{energy}}{S_{freq}\cdot P_{freq}}
+\end{equation}
+其中，$GHG_{energy}$ 表示单位能量对应的 CO$_{2}$e 质量。
+ 
+表 \ref{tab:energy_ghg_pack} 汇总了按不同车辆类型计算得到的数值。
+
+ 
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+\centering
+\caption{不同车辆在基准情形下的能量消耗和 GHG 排放。}
+\label{tab:energy_ghg_pack}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\textbf{车辆类别} &
+  \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}能量消耗\\ {[}MJ/km{]}\end{tabular}}} &
+  \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}燃料 GHG\\ 排放 {[}g/km{]}\end{tabular}}} &
+  \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}上游 GHG\\ 排放 {[}g/km{]}\end{tabular}}} &
+  \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}电池 GHG\\ 排放 {[}g/km{]}\end{tabular}}} &
+  \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}单包裹能量消耗\\ {[}MJ/package{]}\end{tabular}}} &
+  \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}单包裹 GHG 排放\\ {[}g/package{]}\end{tabular}}} \\ \hline
+中型卡车          & 11.00 & 764.5 & 168.7 &      & 5.24 & 444.4 \\
+小型柴油货车           & 4.90  & 340.6 & 75.2  &      & 1.41 & 119.5 \\
+中型电动卡车 & 3.74  & 681.4 & 82.4  & 24.5 & 1.78 & 375.4 \\
+小型电动货车         & 1.63  & 296.1 & 35.8  & 14.1 & 0.47 & 99.4  \\
+电动货运自行车     & 0.10  & 18.1  & 2.2   & 1.3  & 0.10 & 21.6  \\
+四旋翼无人机          & 0.05  & 8.5   & 1.0   & 0.8  & 0.19 & 41.1  \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+
+\section*{致谢}
+本研究得到美国能源部车辆技术办公室资助，项目编号为 DE-EE0008463。本文在 C.S. 受雇于卡内基梅隆大学期间完成，目前其正处于公共服务假期。本文中表达的观点仅代表作者本人，不代表美国政府或任何其他机构的立场。
+
+\section*{数据可用性}
+所有无人机数据均可在 \href{https://doi.org/10.1184/R1/12683453}{https://doi.org/10.1184/R1/12683453} 获取，所有建模代码均可在 \href{https://github.com/thiago-a-rod/energy\_consumption}{https://github.com/thiago-a-rod/energy\_consumption} 获取。 
+
+\section*{作者贡献声明}
+本研究课题由 C.S、H.M. 和 S.S. 提出。无人机数据采集实验由 J.P. 设计。能量模型由 T.R. 开发。结果由 T.R. 和 N.O. 分析。所有作者均参与了论文撰写。 
+
+\section*{利益冲突声明}
+作者声明不存在竞争性利益。
+
+\section*{补充信息}
+本文附带补充信息材料。
+
+%\bibliographystyle{unsrt}
+%\bibliography{references.bib}
+\printbibliography
+
+
+
+
+\end{document}

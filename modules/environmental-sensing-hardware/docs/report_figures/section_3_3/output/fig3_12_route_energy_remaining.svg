@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1314.289109pt" height="538.456563pt" viewBox="0 0 1314.289109 538.456563" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-05T03:07:58.297861</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 538.456563 
+L 1314.289109 538.456563 
+L 1314.289109 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 49.177109 430.835313 
+L 666.649109 430.835313 
+L 666.649109 96.755313 
+L 49.177109 96.755313 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 147.972629 430.835313 
+L 147.972629 96.755313 
+L 666.649109 96.755313 
+L 666.649109 430.835313 
+z
+" clip-path="url(#p69e1319661)" style="fill: #fdedec; opacity: 0.72; stroke: #fdedec; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m4e097702e8" d="M 0 0 
+L 0 3.5 
+" style="stroke: #1f2937; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4e097702e8" x="49.177109" y="430.835313" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="49.177109" y="446.590625" transform="rotate(-0 49.177109 446.590625)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m4e097702e8" x="172.671509" y="430.835313" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="172.671509" y="446.590625" transform="rotate(-0 172.671509 446.590625)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m4e097702e8" x="296.165909" y="430.835313" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="296.165909" y="446.590625" transform="rotate(-0 296.165909 446.590625)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4e097702e8" x="419.660309" y="430.835313" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="419.660309" y="446.590625" transform="rotate(-0 419.660309 446.590625)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m4e097702e8" x="543.154709" y="430.835313" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="543.154709" y="446.590625" transform="rotate(-0 543.154709 446.590625)">20</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4e097702e8" x="666.649109" y="430.835313" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="666.649109" y="446.590625" transform="rotate(-0 666.649109 446.590625)">25</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="fill: #1f2937; font: 700 12.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="357.913109" y="471.084922" transform="rotate(-0 357.913109 471.084922)">距起点航程距离（km）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <path d="M 49.177109 430.835313 
+L 666.649109 430.835313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <defs>
+       <path id="m8e18ee1227" d="M 0 0 
+L -3.5 0 
+" style="stroke: #174a7e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="430.835313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="435.212969" transform="rotate(-0 42.177109 435.212969)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <path d="M 49.177109 393.715313 
+L 666.649109 393.715313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="393.715313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="398.092969" transform="rotate(-0 42.177109 398.092969)">100</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <path d="M 49.177109 356.595313 
+L 666.649109 356.595313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="356.595313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="360.972969" transform="rotate(-0 42.177109 360.972969)">200</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <path d="M 49.177109 319.475313 
+L 666.649109 319.475313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="319.475313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="323.852969" transform="rotate(-0 42.177109 323.852969)">300</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <path d="M 49.177109 282.355313 
+L 666.649109 282.355313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="282.355313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="286.732969" transform="rotate(-0 42.177109 286.732969)">400</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_17">
+      <path d="M 49.177109 245.235313 
+L 666.649109 245.235313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="245.235313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="249.612969" transform="rotate(-0 42.177109 249.612969)">500</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19">
+      <path d="M 49.177109 208.115313 
+L 666.649109 208.115313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="208.115313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="212.492969" transform="rotate(-0 42.177109 212.492969)">600</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_21">
+      <path d="M 49.177109 170.995313 
+L 666.649109 170.995313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="170.995313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="175.372969" transform="rotate(-0 42.177109 175.372969)">700</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_23">
+      <path d="M 49.177109 133.875313 
+L 666.649109 133.875313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="133.875313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="138.252969" transform="rotate(-0 42.177109 138.252969)">800</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_25">
+      <path d="M 49.177109 96.755313 
+L 666.649109 96.755313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m8e18ee1227" x="49.177109" y="96.755313" style="fill: #174a7e; stroke: #174a7e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="fill: #174a7e; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="42.177109" y="101.132969" transform="rotate(-0 42.177109 101.132969)">900</text>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="fill: #174a7e; font: 700 12.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="17.174609" y="263.795313" transform="rotate(-90 17.174609 263.795313)">累计能耗（Wh）</text>
+    </g>
+   </g>
+   <g id="line2d_27">
+    <path d="M 49.177109 430.835313 
+L 73.875989 419.26275 
+L 98.574869 407.20386 
+L 123.273749 394.954322 
+L 147.972629 382.579313 
+L 172.671509 373.017876 
+L 197.370389 362.36609 
+L 222.069269 351.259864 
+L 246.768149 339.847831 
+L 271.467029 328.202874 
+L 296.165909 316.368867 
+L 320.864789 304.375299 
+L 345.563669 292.243419 
+L 370.262549 279.989304 
+L 394.961429 267.625559 
+L 419.660309 255.162347 
+L 444.359189 242.608043 
+L 469.058069 229.969669 
+L 493.756949 217.253207 
+L 518.455829 204.463812 
+L 543.154709 191.605975 
+L 567.853589 178.683648 
+L 592.552469 165.700332 
+L 617.251349 152.659156 
+L 641.950229 139.56293 
+L 666.649109 126.414193 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke: #174a7e; stroke-width: 2.5; stroke-linecap: square"/>
+    <defs>
+     <path id="mb7001873f1" d="M 0 2.2 
+C 0.583447 2.2 1.143076 1.968194 1.555635 1.555635 
+C 1.968194 1.143076 2.2 0.583447 2.2 0 
+C 2.2 -0.583447 1.968194 -1.143076 1.555635 -1.555635 
+C 1.143076 -1.968194 0.583447 -2.2 0 -2.2 
+C -0.583447 -2.2 -1.143076 -1.968194 -1.555635 -1.555635 
+C -1.968194 -1.143076 -2.2 -0.583447 -2.2 0 
+C -2.2 0.583447 -1.968194 1.143076 -1.555635 1.555635 
+C -1.143076 1.968194 -0.583447 2.2 0 2.2 
+z
+" style="stroke: #174a7e"/>
+    </defs>
+    <g clip-path="url(#p69e1319661)">
+     <use xlink:href="#mb7001873f1" x="49.177109" y="430.835313" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="73.875989" y="419.26275" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="98.574869" y="407.20386" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="123.273749" y="394.954322" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="147.972629" y="382.579313" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="172.671509" y="373.017876" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="197.370389" y="362.36609" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="222.069269" y="351.259864" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="246.768149" y="339.847831" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="271.467029" y="328.202874" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="296.165909" y="316.368867" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="320.864789" y="304.375299" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="345.563669" y="292.243419" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="370.262549" y="279.989304" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="394.961429" y="267.625559" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="419.660309" y="255.162347" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="444.359189" y="242.608043" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="469.058069" y="229.969669" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="493.756949" y="217.253207" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="518.455829" y="204.463812" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="543.154709" y="191.605975" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="567.853589" y="178.683648" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="592.552469" y="165.700332" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="617.251349" y="152.659156" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="641.950229" y="139.56293" style="fill: #174a7e; stroke: #174a7e"/>
+     <use xlink:href="#mb7001873f1" x="666.649109" y="126.414193" style="fill: #174a7e; stroke: #174a7e"/>
+    </g>
+   </g>
+   <g id="line2d_28">
+    <path d="M 147.972629 430.835313 
+L 147.972629 96.755313 
+" clip-path="url(#p69e1319661)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #d94841; stroke-width: 1.8"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 49.177109 430.835313 
+L 49.177109 96.755313 
+" style="fill: none; stroke: #a8b0bb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 49.177109 430.835313 
+L 666.649109 430.835313 
+" style="fill: none; stroke: #a8b0bb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 219.815888 348.361581 
+Q 184.795369 365.041263 151.187999 381.047886 
+" style="fill: none; stroke: #d94841; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 156.195873 381.143813 
+L 151.187999 381.047886 
+L 154.269465 377.099143 
+" style="fill: none; stroke: #d94841; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <g id="patch_7">
+     <path d="M 175.141397 347.003313 
+L 341.340647 347.003313 
+Q 346.044647 347.003313 346.044647 342.299313 
+L 346.044647 317.821363 
+Q 346.044647 313.117363 341.340647 313.117363 
+L 175.141397 313.117363 
+Q 170.437397 313.117363 170.437397 317.821363 
+L 170.437397 342.299313 
+Q 170.437397 347.003313 175.141397 347.003313 
+z
+" style="fill: #fff1f0; stroke: #fca5a5; stroke-linejoin: miter"/>
+    </g>
+    <text style="fill: #d94841; font: 700 11.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(175.141397 326.758613)">剩余电量 = 0 Wh</text>
+    <text style="fill: #d94841; font: 700 11.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(175.141397 339.891313)">理论最远可持续飞行距离 ≈ 4 km</text>
+   </g>
+   <g id="text_20">
+    <g id="patch_8">
+     <path d="M 202.954005 185.896863 
+L 473.354005 185.896863 
+Q 478.034005 185.896863 478.034005 181.216863 
+L 478.034005 145.925763 
+Q 478.034005 141.245763 473.354005 141.245763 
+L 202.954005 141.245763 
+Q 198.274005 141.245763 198.274005 145.925763 
+L 198.274005 181.216863 
+Q 198.274005 185.896863 202.954005 185.896863 
+z
+" style="fill: #fff7f7; opacity: 0.96; stroke: #fca5a5; stroke-linejoin: miter"/>
+    </g>
+    <text style="fill: #991b1b; font: 10.4px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(213.354005 154.203513)">浅红区域：继续按规划路线推演时任务需求仍在增加；</text>
+    <text style="fill: #991b1b; font: 10.4px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(239.354005 166.519063)">但实际飞行中此后已不具备持续飞行条件，</text>
+    <text style="fill: #991b1b; font: 10.4px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(202.954005 178.834613)">该部分仅用于说明任务不可达，不表示飞机还能继续飞行。</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_29">
+     <path d="M 59.077109 111.560625 
+L 70.077109 111.560625 
+L 81.077109 111.560625 
+" style="fill: none; stroke: #174a7e; stroke-width: 2.5; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#mb7001873f1" x="70.077109" y="111.560625" style="fill: #174a7e; stroke: #174a7e"/>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="89.877109" y="115.410625" transform="rotate(-0 89.877109 115.410625)">累计能耗</text>
+    </g>
+    <g id="line2d_30">
+     <path d="M 59.077109 128.335625 
+L 70.077109 128.335625 
+L 81.077109 128.335625 
+" style="fill: none; stroke: #f28e2b; stroke-width: 2.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m0e5f1cd9ce" d="M 0 2.2 
+C 0.583447 2.2 1.143076 1.968194 1.555635 1.555635 
+C 1.968194 1.143076 2.2 0.583447 2.2 0 
+C 2.2 -0.583447 1.968194 -1.143076 1.555635 -1.555635 
+C 1.143076 -1.968194 0.583447 -2.2 0 -2.2 
+C -0.583447 -2.2 -1.143076 -1.968194 -1.555635 -1.555635 
+C -1.968194 -1.143076 -2.2 -0.583447 -2.2 0 
+C -2.2 0.583447 -1.968194 1.143076 -1.555635 1.555635 
+C -1.143076 1.968194 -0.583447 2.2 0 2.2 
+z
+" style="stroke: #f28e2b"/>
+     </defs>
+     <g>
+      <use xlink:href="#m0e5f1cd9ce" x="70.077109" y="128.335625" style="fill: #f28e2b; stroke: #f28e2b"/>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="89.877109" y="132.185625" transform="rotate(-0 89.877109 132.185625)">剩余电量</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="matplotlib.axis_3">
+    <g id="ytick_11">
+     <g id="line2d_31">
+      <defs>
+       <path id="m7045884cf7" d="M 0 0 
+L 3.5 0 
+" style="stroke: #f28e2b; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="435.212969" transform="rotate(-0 673.649109 435.212969)">0</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="384.755313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="389.132969" transform="rotate(-0 673.649109 389.132969)">20</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="338.675313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="343.052969" transform="rotate(-0 673.649109 343.052969)">40</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="292.595313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="296.972969" transform="rotate(-0 673.649109 296.972969)">60</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="246.515313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="250.892969" transform="rotate(-0 673.649109 250.892969)">80</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="200.435313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="204.812969" transform="rotate(-0 673.649109 204.812969)">100</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="154.355313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="158.732969" transform="rotate(-0 673.649109 158.732969)">120</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m7045884cf7" x="666.649109" y="108.275313" style="fill: #f28e2b; stroke: #f28e2b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="fill: #f28e2b; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="673.649109" y="112.652969" transform="rotate(-0 673.649109 112.652969)">140</text>
+     </g>
+    </g>
+    <g id="text_31">
+     <text style="fill: #f28e2b; font: 700 12.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="705.938719" y="263.795313" transform="rotate(-90 705.938719 263.795313)">剩余电量（Wh）</text>
+    </g>
+   </g>
+   <g id="line2d_39">
+    <path d="M 49.177109 131.315313 
+L 73.875989 203.14501 
+L 98.574869 277.993296 
+L 123.273749 354.024908 
+L 147.972629 430.835313 
+L 172.671509 430.835313 
+L 197.370389 430.835313 
+L 222.069269 430.835313 
+L 246.768149 430.835313 
+L 271.467029 430.835313 
+L 296.165909 430.835313 
+L 320.864789 430.835313 
+L 345.563669 430.835313 
+L 370.262549 430.835313 
+L 394.961429 430.835313 
+L 419.660309 430.835313 
+L 444.359189 430.835313 
+L 469.058069 430.835313 
+L 493.756949 430.835313 
+L 518.455829 430.835313 
+L 543.154709 430.835313 
+L 567.853589 430.835313 
+L 592.552469 430.835313 
+L 617.251349 430.835313 
+L 641.950229 430.835313 
+L 666.649109 430.835313 
+" clip-path="url(#p8f877aede6)" style="fill: none; stroke: #f28e2b; stroke-width: 2.5; stroke-linecap: square"/>
+    <g clip-path="url(#p8f877aede6)">
+     <use xlink:href="#m0e5f1cd9ce" x="49.177109" y="131.315313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="73.875989" y="203.14501" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="98.574869" y="277.993296" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="123.273749" y="354.024908" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="147.972629" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="172.671509" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="197.370389" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="222.069269" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="246.768149" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="271.467029" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="296.165909" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="320.864789" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="345.563669" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="370.262549" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="394.961429" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="419.660309" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="444.359189" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="469.058069" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="493.756949" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="518.455829" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="543.154709" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="567.853589" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="592.552469" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="617.251349" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="641.950229" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+     <use xlink:href="#m0e5f1cd9ce" x="666.649109" y="430.835313" style="fill: #f28e2b; stroke: #f28e2b"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 666.649109 430.835313 
+L 666.649109 96.755313 
+" style="fill: none; stroke: #a8b0bb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 49.177109 430.835313 
+L 666.649109 430.835313 
+" style="fill: none; stroke: #9aa4b2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_32">
+   <text style="fill: #1f2937; font: 700 22px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="49.177109" y="24.755312" transform="rotate(-0 49.177109 24.755312)">沿航程累计能耗与剩余电量变化图</text>
+  </g>
+  <g id="text_33">
+   <text style="fill: #4b5563; font: 13.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="49.177109" y="47.795313" transform="rotate(-0 49.177109 47.795313)">双纵轴展示规划航程能量需求与电池可用余额，明确风险首次出现的位置。</text>
+  </g>
+  <g id="text_34">
+   <g id="patch_11">
+    <path d="M 685.083109 160.955622 
+L 1027.123016 160.955622 
+Q 1027.907016 160.955622 1027.907016 160.171622 
+L 1027.907016 97.909312 
+Q 1027.907016 97.125312 1027.123016 97.125312 
+L 685.083109 97.125312 
+Q 684.299109 97.125312 684.299109 97.909312 
+L 684.299109 160.171622 
+Q 684.299109 160.955622 685.083109 160.955622 
+z
+" style="fill: #f7fafc; stroke: #c7d2e0; stroke-linejoin: miter"/>
+   </g>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 110.3155)">场景说明</text>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 124.650603)">本图与图3-11对应同一“压力任务场景”，用于展示风险沿航程如何逐步显现。</text>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 138.985706)"/>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 153.320809)">应用：解释任务不可达、辅助返航阈值、局部重规划和风险告警。</text>
+  </g>
+  <g id="text_35">
+   <g id="patch_12">
+    <path d="M 685.083109 316.605416 
+L 1311.695109 316.605416 
+Q 1312.479109 316.605416 1312.479109 315.821416 
+L 1312.479109 282.229313 
+Q 1312.479109 281.445313 1311.695109 281.445313 
+L 685.083109 281.445313 
+Q 684.299109 281.445313 684.299109 282.229313 
+L 684.299109 315.821416 
+Q 684.299109 316.605416 685.083109 316.605416 
+z
+" style="fill: #eef8fb; stroke: #b8dde8; stroke-linejoin: miter"/>
+   </g>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 294.6355)">指标说明</text>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 308.970603)">累计能耗表示完成当前已规划航段所需的总能量需求；剩余电量表示当前电池约束下的可用能量余额；两曲线结合可定位风险首次出现的位置。</text>
+  </g>
+  <g id="text_36">
+   <g id="patch_13">
+    <path d="M 685.083109 454.845416 
+L 965.315641 454.845416 
+Q 966.099641 454.845416 966.099641 454.061416 
+L 966.099641 420.469313 
+Q 966.099641 419.685313 965.315641 419.685313 
+L 685.083109 419.685313 
+Q 684.299109 419.685313 684.299109 420.469313 
+L 684.299109 454.061416 
+Q 684.299109 454.845416 685.083109 454.845416 
+z
+" style="fill: #fff7ed; stroke: #fdba74; stroke-linejoin: miter"/>
+   </g>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 432.8755)">结论摘要</text>
+   <text style="fill: #1f2937; font: 9.8px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(689.689109 447.210603)">风险不是只在终点出现，而是在约 4 km 处已出现“电量耗尽”。</text>
+  </g>
+  <g id="text_37">
+   <text style="fill: #1f2937; font: 700 13.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="436.249109" y="506.682906" transform="rotate(-0 436.249109 506.682906)">图3-12 沿航程累计能耗与剩余电量变化图</text>
+  </g>
+  <g id="text_38">
+   <text style="fill: #4b5563; font: 10.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="436.249109" y="528.851406" transform="rotate(-0 436.249109 528.851406)">该图定位电量耗尽首次出现的位置，用于说明任务不可达并辅助返航阈值设置。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p69e1319661">
+   <rect x="49.177109" y="96.755313" width="617.472" height="334.08"/>
+  </clipPath>
+  <clipPath id="p8f877aede6">
+   <rect x="49.177109" y="96.755313" width="617.472" height="334.08"/>
+  </clipPath>
+ </defs>
+</svg>

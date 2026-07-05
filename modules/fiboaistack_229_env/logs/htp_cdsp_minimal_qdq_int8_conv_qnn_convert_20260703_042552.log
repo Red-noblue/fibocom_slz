@@ -1,0 +1,18 @@
+2026-07-03 12:26:03,695 - 235 - INFO - Input shape info 
+WARNING: The argument `input_shapes` is deprecated. Please use 
+`overwrite_input_shapes` and/or `test_input_shapes` instead. An error will be 
+raised in the future.
+2026-07-03 12:26:48,501 - 240 - WARNING - Onnx model simplification failed due to: Your model ir_version is higher than the checker's.
+2026-07-03 12:26:48,517 - 240 - WARNING - Simplified model validation failed
+WARNING: The argument `input_shapes` is deprecated. Please use 
+`overwrite_input_shapes` and/or `test_input_shapes` instead. An error will be 
+raised in the future.
+2026-07-03 12:27:02,072 - 240 - WARNING - Onnx model simplification failed due to: Your model ir_version is higher than the checker's.
+2026-07-03 12:27:02,089 - 240 - WARNING - Simplified model validation failed
+2026-07-03 12:27:03,020 - 240 - WARNING - The model is invalid: Your model ir_version is higher than the checker's.
+2026-07-03 12:27:03,033 - 235 - INFO - user_provided_output is same as graph_output..skipping update_output_names call
+2026-07-03 12:27:03,404 - 235 - INFO - Skipping quantization, no input_list provided
+2026-07-03 12:27:03,405 - 235 - INFO - Saving QNN Model...
+2026-07-03 12:27:03,451 - 235 - INFO - Model CPP saved at: /workspace/modules/fiboaistack_229_env/outputs/htp_cdsp_minimal_qnn/qdq_int8_conv/qdq_int8_conv_qnn.cpp 
+2026-07-03 12:27:03,452 - 235 - INFO - Model BIN saved at: /workspace/modules/fiboaistack_229_env/outputs/htp_cdsp_minimal_qnn/qdq_int8_conv/qdq_int8_conv_qnn.bin 
+2026-07-03 12:27:03,472 - 235 - INFO - Conversion complete!

@@ -1,0 +1,1317 @@
+<!-- 环境测量硬件展示页，显示自动识别到的环境传感器、历史趋势和设备文档预览。 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>环境测量硬件面板</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f7fa;
+        --panel: #ffffff;
+        --border: #d7dee7;
+        --text: #16202a;
+        --muted: #5f6b7a;
+        --accent: #1271d8;
+        --accent-soft: #eef5ff;
+        --ok: #16803c;
+        --warn: #bd6a00;
+        --error: #c93a2f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+
+      .page {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto auto auto auto 1fr;
+        gap: 16px;
+        padding: 16px;
+      }
+
+      .header,
+      .section,
+      .docs-layout {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+      }
+
+      .header {
+        padding: 16px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 16px;
+      }
+
+      .title-block h1 {
+        margin: 0 0 6px;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .title-block p,
+      .muted {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .status {
+        min-width: 220px;
+        text-align: right;
+        font-size: 14px;
+      }
+
+      .status strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 16px;
+      }
+
+      .section {
+        padding: 16px;
+      }
+
+      .section h2 {
+        margin: 0 0 12px;
+        font-size: 18px;
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 12px;
+      }
+
+      .system-footnote {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .summary-item {
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 12px;
+        background: #fff;
+      }
+
+      .summary-item .label {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 8px;
+      }
+
+      .summary-item .value {
+        font-size: 22px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      .summary-item .value.time-value {
+        font-size: 20px;
+      }
+
+      .sensor-name {
+        margin: 0 0 8px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .sensor-meta {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 12px;
+      }
+
+      .value-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+        padding: 10px 0;
+        border-top: 1px solid var(--border);
+      }
+
+      .value-row:first-of-type {
+        border-top: none;
+      }
+
+      .value-label {
+        font-size: 14px;
+        color: var(--muted);
+      }
+
+      .value-number {
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .device-values {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
+        margin-top: 12px;
+      }
+
+      .device-value {
+        border-top: 1px solid var(--border);
+        padding-top: 10px;
+      }
+
+      .device-value .label {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+
+      .device-value .number {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .ok {
+        color: var(--ok);
+      }
+
+      .warn {
+        color: var(--warn);
+      }
+
+      .error {
+        color: var(--error);
+      }
+
+      .controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+
+      .control-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .control-group label {
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .segmented {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .control-actions {
+        align-self: end;
+      }
+
+      .segment-button {
+        min-width: 60px;
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: #fff;
+        color: var(--text);
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      .segment-button.active {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .ghost-button {
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: #fff;
+        color: var(--text);
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      .ghost-button:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .history-grid {
+        display: grid;
+        grid-template-columns: repeat(var(--chart-columns, 3), minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 16px;
+      }
+
+      .icon-button {
+        width: 40px;
+        height: 36px;
+        display: inline-grid;
+        place-items: center;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: #fff;
+        cursor: pointer;
+      }
+
+      .icon-button.active {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+
+      .layout-icon {
+        width: 22px;
+        height: 16px;
+        display: grid;
+        gap: 2px;
+      }
+
+      .layout-icon span {
+        border: 1.5px solid currentColor;
+        border-radius: 2px;
+      }
+
+      .layout-icon.columns-1 {
+        grid-template-columns: 1fr;
+      }
+
+      .layout-icon.columns-2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .layout-icon.columns-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .chart-panel {
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 12px;
+        background: #fff;
+      }
+
+      .chart-panel h3 {
+        margin: 0 0 6px;
+        font-size: 16px;
+      }
+
+      .chart-meta {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 8px;
+      }
+
+      .chart-svg {
+        width: 100%;
+        height: 280px;
+        display: block;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      }
+
+      .chart-empty {
+        display: grid;
+        place-items: center;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .chart-stats {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .chart-stat {
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 8px 10px;
+      }
+
+      .chart-stat .label {
+        font-size: 12px;
+        color: var(--muted);
+        margin-bottom: 4px;
+      }
+
+      .chart-stat .value {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .axis-label {
+        fill: #5f6b7a;
+        font-size: 11px;
+      }
+
+      .axis-title {
+        fill: #5f6b7a;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .grid-line {
+        stroke: #e5ebf2;
+        stroke-width: 1;
+      }
+
+      .day-separator-line {
+        stroke: #9aa8b7;
+        stroke-width: 1.2;
+        stroke-dasharray: 4 5;
+        pointer-events: none;
+      }
+
+      .day-separator-label {
+        fill: #5f6b7a;
+        font-size: 11px;
+        font-weight: 600;
+      }
+
+      .chart-hover-line {
+        display: none;
+        stroke: #1271d8;
+        stroke-width: 1.4;
+        stroke-dasharray: 5 4;
+        pointer-events: none;
+      }
+
+      .chart-hover-point {
+        display: none;
+        fill: #ffffff;
+        stroke: #1271d8;
+        stroke-width: 3;
+        pointer-events: none;
+      }
+
+      .chart-hover-label {
+        display: none;
+        pointer-events: none;
+      }
+
+      .chart-hover-label rect {
+        fill: #16202a;
+        rx: 5;
+      }
+
+      .chart-hover-label text {
+        fill: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .chart-hit-area {
+        fill: transparent;
+        cursor: crosshair;
+      }
+
+      .docs-layout {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        min-height: 560px;
+        overflow: hidden;
+      }
+
+      .docs-sidebar {
+        border-right: 1px solid var(--border);
+        padding: 16px;
+        overflow: auto;
+      }
+
+      .docs-sidebar h2,
+      .docs-viewer h2 {
+        margin: 0 0 12px;
+        font-size: 18px;
+      }
+
+      .doc-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .doc-item {
+        width: 100%;
+        text-align: left;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 10px 12px;
+        background: #fff;
+        cursor: pointer;
+      }
+
+      .doc-item.active {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+
+      .doc-item small {
+        display: block;
+        margin-top: 6px;
+        color: var(--muted);
+      }
+
+      .docs-viewer {
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        gap: 12px;
+        padding: 16px;
+      }
+
+      .toolbar {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .toolbar a {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        text-decoration: none;
+        color: var(--text);
+        background: #fff;
+        font-size: 14px;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        min-height: 560px;
+        margin: 0;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: #fff;
+      }
+
+      @media (max-width: 960px) {
+        .docs-layout {
+          grid-template-columns: 1fr;
+        }
+
+        .history-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .status {
+          text-align: left;
+        }
+
+        .header {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <section class="header">
+        <div class="title-block">
+          <h1>环境测量硬件面板</h1>
+          <p>自动识别风向计、风速计、温湿度气压计，支持轮询周期调整、历史趋势查看和文档预览。</p>
+        </div>
+        <div class="status">
+          <strong id="refresh-status">正在初始化</strong>
+          <span class="muted" id="refresh-time">尚未采样</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>服务概览</h2>
+        <div class="summary-grid" id="service-summary"></div>
+      </section>
+
+      <section class="section">
+        <h2>系统压力</h2>
+        <div class="summary-grid" id="system-summary"></div>
+      </section>
+
+      <section class="grid" id="sensor-grid"></section>
+
+      <section class="section">
+        <div class="controls">
+          <div class="control-group">
+            <label>轮询周期</label>
+            <div class="segmented" id="polling-controls"></div>
+          </div>
+          <div class="control-group">
+            <label>历史范围</label>
+            <div class="segmented" id="history-range-controls"></div>
+          </div>
+          <div class="control-group">
+            <label>曲线列数</label>
+            <div class="segmented" id="chart-layout-controls"></div>
+          </div>
+          <div class="control-actions">
+            <button class="ghost-button" id="reset-preferences-button" type="button">重置显示配置</button>
+          </div>
+        </div>
+        <div class="history-grid" id="history-grid"></div>
+      </section>
+
+      <section class="docs-layout">
+        <aside class="docs-sidebar">
+          <h2>设备文档</h2>
+          <p class="muted">当前展示设备文档目录下可预览的文档。</p>
+          <div class="doc-list" id="doc-list"></div>
+        </aside>
+        <div class="docs-viewer">
+          <div>
+            <h2 id="doc-title">请选择文档</h2>
+            <p class="muted" id="doc-subtitle">右侧会显示文档预览。</p>
+          </div>
+          <div class="toolbar">
+            <a id="source-link" href="#" target="_blank" rel="noreferrer">打开原始文档</a>
+            <a id="pdf-link" href="#" target="_blank" rel="noreferrer">单独打开 PDF 预览</a>
+          </div>
+          <iframe id="pdf-frame" title="文档 PDF 预览"></iframe>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const sensorGrid = document.getElementById("sensor-grid");
+      const serviceSummary = document.getElementById("service-summary");
+      const systemSummary = document.getElementById("system-summary");
+      const refreshStatus = document.getElementById("refresh-status");
+      const refreshTime = document.getElementById("refresh-time");
+      const docList = document.getElementById("doc-list");
+      const docTitle = document.getElementById("doc-title");
+      const docSubtitle = document.getElementById("doc-subtitle");
+      const pdfFrame = document.getElementById("pdf-frame");
+      const sourceLink = document.getElementById("source-link");
+      const pdfLink = document.getElementById("pdf-link");
+      const pollingControls = document.getElementById("polling-controls");
+      const historyRangeControls = document.getElementById("history-range-controls");
+      const chartLayoutControls = document.getElementById("chart-layout-controls");
+      const historyGrid = document.getElementById("history-grid");
+      const resetPreferencesButton = document.getElementById("reset-preferences-button");
+
+      const rangeOptions = [
+        { key: "5m", label: "5分钟" },
+        { key: "30m", label: "30分钟" },
+        { key: "6h", label: "6小时" },
+        { key: "24h", label: "24小时" },
+        { key: "3d", label: "3天" },
+      ];
+
+      let currentIntervalSeconds = 3;
+      let pollingOptions = [1, 3, 5, 10, 30];
+      let currentHistoryRange = "30m";
+      let chartColumns = 3;
+      let refreshTimer = null;
+      let latestReadings = [];
+      let latestSampledAt = null;
+      let preferencesLoaded = false;
+
+      function formatDateTime(value) {
+        if (!value) {
+          return "--";
+        }
+        return new Date(value).toLocaleString("zh-CN");
+      }
+
+      function mapHealthClass(status) {
+        if (status === "online") return "ok";
+        if (status === "degraded" || status === "stale") return "warn";
+        if (status === "offline") return "error";
+        return "";
+      }
+
+      function mapServiceStatusText(status) {
+        const mapping = {
+          starting: "启动中",
+          online: "在线",
+          degraded: "部分异常",
+          stale: "采样停滞",
+        };
+        return mapping[status] || status;
+      }
+
+      function formatBytes(bytes) {
+        if (!Number.isFinite(bytes)) return "--";
+        const units = ["B", "KB", "MB", "GB"];
+        let value = bytes;
+        let index = 0;
+        while (value >= 1024 && index < units.length - 1) {
+          value /= 1024;
+          index += 1;
+        }
+        return `${value.toFixed(index === 0 ? 0 : 1)} ${units[index]}`;
+      }
+
+      function renderServiceSummary(health) {
+        latestSampledAt = health.last_sampled_at;
+        const items = [
+          { label: "服务状态", value: mapServiceStatusText(health.status), className: mapHealthClass(health.status) },
+          { label: "轮询周期", value: `${health.interval_seconds} 秒` },
+          { label: "设备数量", value: `${health.ok_devices}/${health.total_devices}` },
+          { label: "异常设备", value: `${health.error_devices}` },
+          { label: "最近周期耗时", value: health.last_cycle_duration_seconds === null ? "--" : `${health.last_cycle_duration_seconds.toFixed(3)} 秒` },
+        ];
+        serviceSummary.innerHTML = items
+          .map(
+            (item) => `
+              <div class="summary-item">
+                <div class="label">${item.label}</div>
+                <div class="value ${item.className || ""}">${item.value}</div>
+              </div>
+            `,
+          )
+          .join("");
+      }
+
+      function renderSensors(items) {
+        sensorGrid.innerHTML = "";
+        latestReadings = items;
+        for (const item of items) {
+          const section = document.createElement("section");
+          section.className = "section";
+          const statusClass = item.status === "ok" ? "ok" : "error";
+          const healthClass = mapHealthClass(item.health.status);
+          const valueItems = displayMetricsForItem(item);
+          const valueRows = valueItems
+            .map((metric) => {
+              const value = metric.value === null || metric.value === undefined ? "--" : Number(metric.value).toFixed(metric.precision);
+              return `
+                <div class="device-value">
+                  <div class="label">${metric.label}</div>
+                  <div class="number">${value} ${metric.unit}</div>
+                </div>
+              `;
+            })
+            .join("");
+          const errorBlock = item.error
+            ? `<div class="value-row"><span class="value-label error">错误</span><span class="value-label error">${item.error}</span></div>`
+            : "";
+          section.innerHTML = `
+            <h2 class="sensor-name">${item.name}</h2>
+            <div class="sensor-meta">
+              端口：${item.port} ｜ 地址：${item.address} ｜ 设备状态：
+              <span class="${statusClass}">${item.status}</span>
+            </div>
+            <div class="device-values">${valueRows}</div>
+            <div class="value-row">
+              <span class="value-label">健康状态</span>
+              <span class="value-label ${healthClass}">${item.health.status}</span>
+            </div>
+            <div class="value-row">
+              <span class="value-label">连续失败</span>
+              <span class="value-label">${item.health.consecutive_failures}</span>
+            </div>
+            <div class="value-row">
+              <span class="value-label">最近成功</span>
+              <span class="value-label">${formatDateTime(item.health.last_success_at)}</span>
+            </div>
+            <div class="value-row">
+              <span class="value-label">最近失败</span>
+              <span class="value-label">${formatDateTime(item.health.last_error_at)}</span>
+            </div>
+            <div class="value-row">
+              <span class="value-label">寄存器</span>
+              <span class="value-label">${item.raw_registers.join(", ") || "--"}</span>
+            </div>
+            <div class="value-row">
+              <span class="value-label">应答帧</span>
+              <span class="value-label">${item.response_hex || "--"}</span>
+            </div>
+            ${item.health.last_error ? `<div class="value-row"><span class="value-label error">最近错误</span><span class="value-label error">${item.health.last_error}</span></div>` : ""}
+            ${errorBlock}
+          `;
+          sensorGrid.appendChild(section);
+        }
+      }
+
+      function renderSystemStatus(payload) {
+        const items = [
+          { label: "服务进程 RSS", value: formatBytes(payload.process?.rss_bytes || 0) },
+          { label: "历史数据库", value: formatBytes(payload.history_db?.bytes || 0) },
+          { label: "模块目录", value: formatBytes(payload.module?.bytes || 0) },
+          { label: "缓存目录", value: formatBytes(payload.cache?.bytes || 0) },
+        ];
+        systemSummary.innerHTML = items
+          .map(
+            (item) => `
+              <div class="summary-item">
+                <div class="label">${item.label}</div>
+                <div class="value">${item.value}</div>
+              </div>
+            `,
+          )
+          .join("");
+      }
+
+      function renderSegmentButtons(container, options, activeValue, onClick) {
+        container.innerHTML = "";
+        options.forEach((option) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = `segment-button${String(activeValue) === String(option.value) ? " active" : ""}`;
+          button.textContent = option.label;
+          button.addEventListener("click", () => onClick(option.value));
+          container.appendChild(button);
+        });
+      }
+
+      function precisionForUnit(unit) {
+        if (unit === "kPa") return 2;
+        if (["℃", "%RH", "m/s", "°"].includes(unit)) return 1;
+        return 0;
+      }
+
+      function displayMetricsForItem(item) {
+        const metrics = [
+          { label: item.primary_label, value: item.primary_value, unit: item.primary_unit, precision: precisionForUnit(item.primary_unit) },
+        ];
+        if (item.type !== "wind_direction") {
+          metrics.push({
+            label: item.secondary_label,
+            value: item.secondary_value,
+            unit: item.secondary_unit,
+            precision: precisionForUnit(item.secondary_unit),
+          });
+        }
+        for (const extra of item.extra_values || []) {
+          metrics.push({
+            label: extra.label,
+            value: extra.value,
+            unit: extra.unit || "",
+            precision: Number.isInteger(extra.precision) ? extra.precision : precisionForUnit(extra.unit || ""),
+          });
+        }
+        return metrics;
+      }
+
+      function formatCompactDateTime(value) {
+        if (!value) {
+          return "--";
+        }
+        const date = new Date(value);
+        const pad = (number) => String(number).padStart(2, "0");
+        return `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()} ${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`;
+      }
+
+      function renderChartLayoutControls() {
+        chartLayoutControls.innerHTML = "";
+        [1, 2, 3].forEach((columns) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = `icon-button${chartColumns === columns ? " active" : ""}`;
+          button.title = `每行 ${columns} 条曲线`;
+          button.setAttribute("aria-label", `每行 ${columns} 条曲线`);
+          const icon = document.createElement("span");
+          icon.className = `layout-icon columns-${columns}`;
+          for (let index = 0; index < columns; index += 1) {
+            icon.appendChild(document.createElement("span"));
+          }
+          button.appendChild(icon);
+          button.addEventListener("click", () => {
+            chartColumns = columns;
+            historyGrid.style.setProperty("--chart-columns", String(chartColumns));
+            renderChartLayoutControls();
+            savePreferences({ chart_columns: chartColumns });
+          });
+          chartLayoutControls.appendChild(button);
+        });
+        historyGrid.style.setProperty("--chart-columns", String(chartColumns));
+      }
+
+      function getChartScale(points, width, height) {
+        const plot = { left: 52, right: 18, top: 18, bottom: 48 };
+        const values = points.map((point) => point.value);
+        const minValue = Math.min(...values);
+        const maxValue = Math.max(...values);
+        const yPadding = Math.max((maxValue - minValue) * 0.08, maxValue === minValue ? 1 : 0);
+        return {
+          plot,
+          minValue: minValue - yPadding,
+          maxValue: maxValue + yPadding,
+          firstTs: points[0].sampled_at,
+          lastTs: points[points.length - 1].sampled_at,
+          width,
+          height,
+        };
+      }
+
+      function scalePoint(point, scale) {
+        const xSpan = Math.max(scale.lastTs - scale.firstTs, 1);
+        const ySpan = Math.max(scale.maxValue - scale.minValue, 1);
+        const plotWidth = scale.width - scale.plot.left - scale.plot.right;
+        const plotHeight = scale.height - scale.plot.top - scale.plot.bottom;
+        const x = scale.plot.left + ((point.sampled_at - scale.firstTs) / xSpan) * plotWidth;
+        const y = scale.height - scale.plot.bottom - ((point.value - scale.minValue) / ySpan) * plotHeight;
+        return { x, y };
+      }
+
+      function buildPolyline(points, scale) {
+        if (!points.length) {
+          return "";
+        }
+        return points
+          .map((point) => {
+            const { x, y } = scalePoint(point, scale);
+            return `${x.toFixed(2)},${y.toFixed(2)}`;
+          })
+          .join(" ");
+      }
+
+      function buildPointPositions(points, scale) {
+        return points.map((point) => ({ ...point, ...scalePoint(point, scale) }));
+      }
+
+      function getDaySeparators(scale) {
+        const separators = [];
+        const startDate = new Date(scale.firstTs * 1000);
+        const endDate = new Date(scale.lastTs * 1000);
+        let cursor = new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + 1);
+        while (cursor <= endDate) {
+          const timestamp = cursor.getTime() / 1000;
+          const { x } = scalePoint({ sampled_at: timestamp, value: scale.minValue }, scale);
+          separators.push({
+            x,
+            label: `${cursor.getMonth() + 1}/${cursor.getDate()}`,
+          });
+          cursor = new Date(cursor.getFullYear(), cursor.getMonth(), cursor.getDate() + 1);
+        }
+        return separators;
+      }
+
+      function buildDaySeparatorMarkup(scale) {
+        return getDaySeparators(scale)
+          .map(
+            (separator) => `
+              <line class="day-separator-line" x1="${separator.x.toFixed(2)}" y1="${scale.plot.top}" x2="${separator.x.toFixed(2)}" y2="${scale.height - scale.plot.bottom}"></line>
+              <text class="day-separator-label" x="${(separator.x + 4).toFixed(2)}" y="${scale.plot.top + 14}">${separator.label}</text>
+            `,
+          )
+          .join("");
+      }
+
+      function findNearestPoint(points, x) {
+        return points.reduce((nearest, point) => {
+          if (!nearest) {
+            return point;
+          }
+          return Math.abs(point.x - x) < Math.abs(nearest.x - x) ? point : nearest;
+        }, null);
+      }
+
+      function updateChartHover(svg, point, scale, item) {
+        const verticalLine = svg.querySelector(".chart-hover-line.vertical");
+        const horizontalLine = svg.querySelector(".chart-hover-line.horizontal");
+        const pointNode = svg.querySelector(".chart-hover-point");
+        const labelGroup = svg.querySelector(".chart-hover-label");
+        const labelRect = labelGroup.querySelector("rect");
+        const labelText = labelGroup.querySelector("text");
+        const valueText = `${point.value.toFixed(item.precision ?? 1)} ${item.primary_unit}`;
+        const timeText = formatTimeOnly(point.sampled_at);
+        const label = `${timeText}  ${valueText}`;
+        const estimatedWidth = Math.max(96, label.length * 7 + 18);
+        const labelHeight = 26;
+        const minX = scale.plot.left + 6;
+        const maxX = scale.width - scale.plot.right - estimatedWidth - 6;
+        const labelX = Math.min(Math.max(point.x + 10, minX), maxX);
+        const labelY = point.y > scale.plot.top + 44 ? point.y - 36 : point.y + 14;
+
+        verticalLine.setAttribute("x1", point.x.toFixed(2));
+        verticalLine.setAttribute("x2", point.x.toFixed(2));
+        verticalLine.setAttribute("y1", String(scale.plot.top));
+        verticalLine.setAttribute("y2", String(scale.height - scale.plot.bottom));
+        horizontalLine.setAttribute("x1", String(scale.plot.left));
+        horizontalLine.setAttribute("x2", String(scale.width - scale.plot.right));
+        horizontalLine.setAttribute("y1", point.y.toFixed(2));
+        horizontalLine.setAttribute("y2", point.y.toFixed(2));
+        pointNode.setAttribute("cx", point.x.toFixed(2));
+        pointNode.setAttribute("cy", point.y.toFixed(2));
+        labelGroup.setAttribute("transform", `translate(${labelX.toFixed(2)} ${labelY.toFixed(2)})`);
+        labelRect.setAttribute("width", String(estimatedWidth));
+        labelRect.setAttribute("height", String(labelHeight));
+        labelText.textContent = label;
+
+        [verticalLine, horizontalLine, pointNode, labelGroup].forEach((node) => {
+          node.style.display = "block";
+        });
+      }
+
+      function hideChartHover(svg) {
+        svg.querySelectorAll(".chart-hover-line, .chart-hover-point, .chart-hover-label").forEach((node) => {
+          node.style.display = "none";
+        });
+      }
+
+      function attachChartHover(svg, pointPositions, scale, item) {
+        const handleMove = (event) => {
+          const rect = svg.getBoundingClientRect();
+          const clientX = event.touches?.[0]?.clientX ?? event.clientX;
+          const x = ((clientX - rect.left) / rect.width) * scale.width;
+          const nearest = findNearestPoint(pointPositions, x);
+          if (nearest) {
+            updateChartHover(svg, nearest, scale, item);
+          }
+        };
+        svg.addEventListener("mousemove", handleMove);
+        svg.addEventListener("touchmove", handleMove, { passive: true });
+        svg.addEventListener("mouseleave", () => hideChartHover(svg));
+        svg.addEventListener("touchend", () => hideChartHover(svg));
+      }
+
+      function buildAxisMarkup(points, scale, unit, precision) {
+        if (!points.length) {
+          return "";
+        }
+        const yTicks = [0, 0.5, 1].map((ratio) => {
+          const value = scale.maxValue - ratio * (scale.maxValue - scale.minValue);
+          const y = scale.plot.top + ratio * (scale.height - scale.plot.top - scale.plot.bottom);
+          return { value, y };
+        });
+        const xTicks = [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]].map((point) => {
+          const { x } = scalePoint(point, scale);
+          return { x, label: formatTimeOnly(point.sampled_at) };
+        });
+        return `
+          ${yTicks
+            .map(
+              (tick) => `
+                <line class="grid-line" x1="${scale.plot.left}" y1="${tick.y.toFixed(2)}" x2="${scale.width - scale.plot.right}" y2="${tick.y.toFixed(2)}"></line>
+                <text class="axis-label" x="${scale.plot.left - 8}" y="${(tick.y + 4).toFixed(2)}" text-anchor="end">${tick.value.toFixed(precision)}</text>
+              `,
+            )
+            .join("")}
+          ${xTicks
+            .map(
+              (tick) => `
+                <line class="grid-line" x1="${tick.x.toFixed(2)}" y1="${scale.plot.top}" x2="${tick.x.toFixed(2)}" y2="${scale.height - scale.plot.bottom}"></line>
+                <text class="axis-label" x="${tick.x.toFixed(2)}" y="${scale.height - 22}" text-anchor="middle">${tick.label}</text>
+              `,
+            )
+            .join("")}
+          <text class="axis-title" x="${scale.plot.left}" y="12">${unit || "数值"}</text>
+          <text class="axis-title" x="${scale.width - scale.plot.right}" y="${scale.height - 6}" text-anchor="end">时间</text>
+        `;
+      }
+
+      function formatTimeOnly(timestampSeconds) {
+        const date = new Date(timestampSeconds * 1000);
+        const pad = (number) => String(number).padStart(2, "0");
+        return `${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`;
+      }
+
+      function renderHistoryCharts(items) {
+        historyGrid.innerHTML = "";
+        for (const item of items) {
+          const panel = document.createElement("section");
+          panel.className = "chart-panel";
+          const points = item.points || [];
+          const values = points.map((point) => point.value);
+          const minValue = values.length ? Math.min(...values) : null;
+          const maxValue = values.length ? Math.max(...values) : null;
+          const latestValue = values.length ? values[values.length - 1] : null;
+          const scale = points.length ? getChartScale(points, 640, 280) : null;
+          const polyline = scale ? buildPolyline(points, scale) : "";
+          const axisMarkup = scale ? buildAxisMarkup(points, scale, item.primary_unit, item.precision ?? 1) : "";
+          const daySeparatorMarkup = scale ? buildDaySeparatorMarkup(scale) : "";
+          const pointPositions = scale ? buildPointPositions(points, scale) : [];
+          const firstTime = points.length ? new Date(points[0].sampled_at * 1000).toLocaleString("zh-CN") : "--";
+          const lastTime = points.length ? new Date(points[points.length - 1].sampled_at * 1000).toLocaleString("zh-CN") : "--";
+
+          panel.innerHTML = `
+            <h3>${item.name} · ${item.primary_label}</h3>
+            <div class="chart-meta">范围：${rangeOptions.find((option) => option.key === currentHistoryRange)?.label || currentHistoryRange}</div>
+            ${
+              points.length
+                ? `
+                  <svg class="chart-svg" viewBox="0 0 640 280" aria-label="${item.name} ${item.primary_label} 历史曲线">
+                    ${axisMarkup}
+                    ${daySeparatorMarkup}
+                    <line x1="52" y1="18" x2="52" y2="232" stroke="#d7dee7" stroke-width="1.3"></line>
+                    <line x1="52" y1="232" x2="622" y2="232" stroke="#d7dee7" stroke-width="1.3"></line>
+                    <polyline
+                      points="${polyline}"
+                      fill="none"
+                      stroke="#1271d8"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></polyline>
+                    <line class="chart-hover-line vertical"></line>
+                    <line class="chart-hover-line horizontal"></line>
+                    <circle class="chart-hover-point" r="5"></circle>
+                    <g class="chart-hover-label">
+                      <rect x="0" y="0"></rect>
+                      <text x="9" y="17"></text>
+                    </g>
+                    <rect class="chart-hit-area" x="52" y="18" width="570" height="214"></rect>
+                  </svg>
+                `
+                : `<div class="chart-svg chart-empty">当前范围内暂无历史数据</div>`
+            }
+            <div class="chart-stats">
+              <div class="chart-stat">
+                <div class="label">最新值</div>
+                <div class="value">${latestValue === null ? "--" : `${latestValue.toFixed(item.precision ?? 1)} ${item.primary_unit}`}</div>
+              </div>
+              <div class="chart-stat">
+                <div class="label">最小值</div>
+                <div class="value">${minValue === null ? "--" : `${minValue.toFixed(item.precision ?? 1)} ${item.primary_unit}`}</div>
+              </div>
+              <div class="chart-stat">
+                <div class="label">最大值</div>
+                <div class="value">${maxValue === null ? "--" : `${maxValue.toFixed(item.precision ?? 1)} ${item.primary_unit}`}</div>
+              </div>
+              <div class="chart-stat">
+                <div class="label">错误点数</div>
+                <div class="value">${item.error_points}</div>
+              </div>
+            </div>
+            <div class="chart-meta">起点：${firstTime} ｜ 终点：${lastTime} ｜ 有效点：${item.ok_points}/${item.total_points}</div>
+          `;
+          historyGrid.appendChild(panel);
+          const svg = panel.querySelector(".chart-svg");
+          if (svg && scale) {
+            attachChartHover(svg, pointPositions, scale, item);
+          }
+        }
+      }
+
+      async function loadReadings() {
+        try {
+          const response = await fetch("/api/readings");
+          const payload = await response.json();
+          renderSensors(payload.items || []);
+          renderServiceSummary(payload.service_health);
+          currentIntervalSeconds = payload.service_health.interval_seconds;
+          pollingOptions = payload.service_health.interval_options || pollingOptions;
+          renderPollingControls();
+          refreshStatus.textContent = mapServiceStatusText(payload.service_health.status);
+          refreshStatus.className = mapHealthClass(payload.service_health.status);
+          refreshTime.textContent = latestSampledAt ? `最近采样：${formatCompactDateTime(latestSampledAt)}` : "尚未采样";
+        } catch (error) {
+          refreshStatus.textContent = "读取失败";
+          refreshStatus.className = "error";
+          refreshTime.textContent = String(error);
+        }
+      }
+
+      async function loadHistory() {
+        try {
+          const response = await fetch(`/api/history?range_key=${encodeURIComponent(currentHistoryRange)}`);
+          const payload = await response.json();
+          renderHistoryCharts(payload.items || []);
+        } catch (error) {
+          historyGrid.innerHTML = `<section class="chart-panel"><div class="chart-empty">历史数据加载失败：${error}</div></section>`;
+        }
+      }
+
+      async function loadSystemStatus() {
+        try {
+          const response = await fetch("/api/system");
+          const payload = await response.json();
+          renderSystemStatus(payload);
+        } catch (error) {
+          systemSummary.innerHTML = `<div class="summary-item"><div class="label">系统压力</div><div class="value error">读取失败</div></div>`;
+          networkHint.textContent = String(error);
+        }
+      }
+
+      async function updatePollingInterval(nextInterval) {
+        if (nextInterval === currentIntervalSeconds) {
+          return;
+        }
+        try {
+          const response = await fetch("/api/settings/polling", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ interval_seconds: nextInterval }),
+          });
+          if (!response.ok) {
+            throw new Error(await response.text());
+          }
+          const payload = await response.json();
+          currentIntervalSeconds = payload.interval_seconds;
+          pollingOptions = payload.interval_options || pollingOptions;
+          renderPollingControls();
+          savePreferences({ polling_interval_seconds: currentIntervalSeconds });
+          resetRefreshTimer();
+          await loadReadings();
+          await loadHistory();
+        } catch (error) {
+          refreshStatus.textContent = "轮询周期更新失败";
+          refreshStatus.className = "error";
+          refreshTime.textContent = String(error);
+        }
+      }
+
+      function renderPollingControls() {
+        renderSegmentButtons(
+          pollingControls,
+          pollingOptions.map((value) => ({ value, label: `${value}秒` })),
+          currentIntervalSeconds,
+          updatePollingInterval,
+        );
+      }
+
+      function renderHistoryRangeControls() {
+        renderSegmentButtons(
+          historyRangeControls,
+          rangeOptions.map((item) => ({ value: item.key, label: item.label })),
+          currentHistoryRange,
+          async (rangeKey) => {
+            currentHistoryRange = rangeKey;
+            renderHistoryRangeControls();
+            await savePreferences({ history_range_key: currentHistoryRange });
+            await loadHistory();
+          },
+        );
+      }
+
+      async function loadPreferences() {
+        try {
+          const response = await fetch("/api/preferences", { cache: "no-store" });
+          const payload = await response.json();
+          currentIntervalSeconds = payload.polling_interval_seconds || currentIntervalSeconds;
+          currentHistoryRange = payload.history_range_key || currentHistoryRange;
+          chartColumns = payload.chart_columns || chartColumns;
+        } catch (error) {
+          const fallback = JSON.parse(localStorage.getItem("environmentalSensingPreferences") || "{}");
+          currentIntervalSeconds = fallback.polling_interval_seconds || currentIntervalSeconds;
+          currentHistoryRange = fallback.history_range_key || currentHistoryRange;
+          chartColumns = fallback.chart_columns || chartColumns;
+        } finally {
+          preferencesLoaded = true;
+        }
+      }
+
+      async function savePreferences(partial) {
+        const next = {
+          polling_interval_seconds: currentIntervalSeconds,
+          history_range_key: currentHistoryRange,
+          chart_columns: chartColumns,
+          ...partial,
+        };
+        localStorage.setItem("environmentalSensingPreferences", JSON.stringify(next));
+        if (!preferencesLoaded) {
+          return;
+        }
+        try {
+          await fetch("/api/preferences", {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(next),
+          });
+        } catch (error) {
+          // 本地缓存已保存，服务端不可用时下次仍能恢复当前浏览器配置。
+        }
+      }
+
+      async function resetPreferences() {
+        localStorage.removeItem("environmentalSensingPreferences");
+        try {
+          const response = await fetch("/api/preferences", { method: "DELETE" });
+          const payload = await response.json();
+          currentIntervalSeconds = payload.polling_interval_seconds;
+          currentHistoryRange = payload.history_range_key;
+          chartColumns = payload.chart_columns;
+        } catch (error) {
+          currentIntervalSeconds = 3;
+          currentHistoryRange = "30m";
+          chartColumns = 3;
+        }
+        renderPollingControls();
+        renderHistoryRangeControls();
+        renderChartLayoutControls();
+        resetRefreshTimer();
+        await loadReadings();
+        await loadHistory();
+        await loadSystemStatus();
+      }
+
+      function activateDocument(button) {
+        for (const node of document.querySelectorAll(".doc-item")) {
+          node.classList.remove("active");
+        }
+        button.classList.add("active");
+      }
+
+      function showDocument(doc, button) {
+        activateDocument(button);
+        docTitle.textContent = doc.name;
+        docSubtitle.textContent = `相对路径：${doc.relative_path}`;
+        pdfFrame.src = doc.pdf_url;
+        sourceLink.href = doc.source_url;
+        pdfLink.href = doc.pdf_url;
+      }
+
+      async function loadDocuments() {
+        const response = await fetch("/api/docs");
+        const payload = await response.json();
+        const items = payload.items || [];
+        docList.innerHTML = "";
+        items.forEach((doc, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "doc-item";
+          button.innerHTML = `${doc.name}<small>${doc.relative_path}</small>`;
+          button.addEventListener("click", () => showDocument(doc, button));
+          docList.appendChild(button);
+          if (index === 0) {
+            showDocument(doc, button);
+          }
+        });
+      }
+
+      function resetRefreshTimer() {
+        if (refreshTimer) {
+          clearInterval(refreshTimer);
+        }
+        refreshTimer = setInterval(async () => {
+          await loadReadings();
+          await loadSystemStatus();
+          await loadHistory();
+        }, currentIntervalSeconds * 1000);
+      }
+
+      async function initializePage() {
+        resetPreferencesButton.addEventListener("click", resetPreferences);
+        await loadPreferences();
+        renderPollingControls();
+        renderHistoryRangeControls();
+        renderChartLayoutControls();
+        await loadReadings();
+        await loadSystemStatus();
+        await loadHistory();
+        await loadDocuments();
+        resetRefreshTimer();
+      }
+
+      initializePage();
+    </script>
+  </body>
+</html>

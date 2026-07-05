@@ -1,0 +1,11 @@
+PWD /Users/zhangyansong/Documents/MyProjects_zys/可报名比赛调查/无人机数据集/docs/天气-里程论文/数据集论文及文件/02_小包裹配送飞行数据与能耗模型_2022/latex/source
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf.cnf
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT main.tex
+OUTPUT main.log
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+INPUT /Users/zhangyansong/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo

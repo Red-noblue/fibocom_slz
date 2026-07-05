@@ -1,0 +1,11 @@
+metric,value,unit,source
+segment_mae,0.4631416583322759,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/real_flight_replay_120s_model_on_120s_segments/summary.json
+segment_rmse,0.590375940480579,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/real_flight_replay_120s_model_on_120s_segments/summary.json
+segment_p90_abs_error,0.8572652693164973,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/real_flight_replay_120s_model_on_120s_segments/summary.json
+flight_mean_abs_energy_error,0.5588505081536445,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/real_flight_replay_120s_model_on_120s_segments/summary.json
+flight_p90_abs_energy_error,1.0193998983299024,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/real_flight_replay_120s_model_on_120s_segments/summary.json
+predicted_total_energy,820.0504858406746,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/predict_preflight_energy_target_120s/summary.json
+battery_capacity,130.0,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/predict_preflight_energy_target_120s/summary.json
+final_remaining_battery,0.0,Wh,fibocom_slz/modules/uav-weather-energy-engine/outputs/predict_preflight_energy_target_120s/timeseries.csv
+planned_flight_time,2824.286231600819,s,fibocom_slz/modules/uav-weather-energy-engine/outputs/predict_preflight_energy_target_120s/summary.json
+predicted_flight_time,459.03805166289527,s,fibocom_slz/modules/uav-weather-energy-engine/outputs/predict_preflight_energy_target_120s/summary.json

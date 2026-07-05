@@ -1,0 +1,18 @@
+{
+  "files.watcherExclude": {
+    "**/__pycache__/**": true,
+    "**/.pytest_cache/**": true,
+    "**/node_modules/**": true,
+    "projects/uav_virtual_validation/outputs/**": true,
+    "projects/web_automation_checks/node_modules/**": true,
+    "tools/codex-project-portable/**": true
+  },
+  "search.exclude": {
+    "**/__pycache__/**": true,
+    "**/.pytest_cache/**": true,
+    "**/node_modules/**": true,
+    "projects/uav_virtual_validation/outputs/**": true,
+    "projects/web_automation_checks/node_modules/**": true,
+    "tools/codex-project-portable/**": true
+  }
+}

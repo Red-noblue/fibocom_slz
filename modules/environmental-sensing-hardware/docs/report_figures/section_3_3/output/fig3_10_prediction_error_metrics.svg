@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1088.179766pt" height="538.456563pt" viewBox="0 0 1088.179766 538.456563" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-05T03:07:51.926027</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 538.456563 
+L 1088.179766 538.456563 
+L 1088.179766 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 46.129766 430.835312 
+L 691.249766 430.835312 
+L 691.249766 96.755313 
+L 46.129766 96.755313 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="ma2f8752829" d="M 0 0 
+L 0 3.5 
+" style="stroke: #1f2937; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma2f8752829" x="112.588138" y="430.835312" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="112.588138" y="446.590625" transform="rotate(-0 112.588138 446.590625)">段级 MAE</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#ma2f8752829" x="240.638952" y="430.835312" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="240.638952" y="446.590625" transform="rotate(-0 240.638952 446.590625)">段级 RMSE</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#ma2f8752829" x="368.689766" y="430.835312" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="368.689766" y="446.590625" transform="rotate(-0 368.689766 446.590625)">段级 P90</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#ma2f8752829" x="496.740579" y="430.835312" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="496.740579" y="446.590625" transform="rotate(-0 496.740579 446.590625)">航次平均绝对误差</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#ma2f8752829" x="624.791393" y="430.835312" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="624.791393" y="446.590625" transform="rotate(-0 624.791393 446.590625)">航次 P90 绝对误差</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="fill: #1f2937; font: 700 12.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="368.689766" y="471.084922" transform="rotate(-0 368.689766 471.084922)">预测误差指标</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <path d="M 46.129766 430.835312 
+L 691.249766 430.835312 
+" clip-path="url(#paa7533d29c)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <defs>
+       <path id="md3c47a0f7e" d="M 0 0 
+L -3.5 0 
+" style="stroke: #1f2937; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md3c47a0f7e" x="46.129766" y="430.835312" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="39.129766" y="435.212969" transform="rotate(-0 39.129766 435.212969)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <path d="M 46.129766 376.068099 
+L 691.249766 376.068099 
+" clip-path="url(#paa7533d29c)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#md3c47a0f7e" x="46.129766" y="376.068099" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="39.129766" y="380.445756" transform="rotate(-0 39.129766 380.445756)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <path d="M 46.129766 321.300886 
+L 691.249766 321.300886 
+" clip-path="url(#paa7533d29c)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#md3c47a0f7e" x="46.129766" y="321.300886" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="39.129766" y="325.678543" transform="rotate(-0 39.129766 325.678543)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <path d="M 46.129766 266.533673 
+L 691.249766 266.533673 
+" clip-path="url(#paa7533d29c)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#md3c47a0f7e" x="46.129766" y="266.533673" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="39.129766" y="270.911329" transform="rotate(-0 39.129766 270.911329)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <path d="M 46.129766 211.76646 
+L 691.249766 211.76646 
+" clip-path="url(#paa7533d29c)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#md3c47a0f7e" x="46.129766" y="211.76646" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="39.129766" y="216.144116" transform="rotate(-0 39.129766 216.144116)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16">
+      <path d="M 46.129766 156.999247 
+L 691.249766 156.999247 
+" clip-path="url(#paa7533d29c)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#md3c47a0f7e" x="46.129766" y="156.999247" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="39.129766" y="161.376903" transform="rotate(-0 39.129766 161.376903)">1.0</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_18">
+      <path d="M 46.129766 102.232034 
+L 691.249766 102.232034 
+" clip-path="url(#paa7533d29c)" style="fill: none; stroke: #d8dee9; stroke-opacity: 0.8; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#md3c47a0f7e" x="46.129766" y="102.232034" style="fill: #1f2937; stroke: #1f2937; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: end" x="39.129766" y="106.60969" transform="rotate(-0 39.129766 106.60969)">1.2</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="fill: #1f2937; font: 700 12.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="17.174609" y="263.795313" transform="rotate(-90 17.174609 263.795313)">误差值（Wh）</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 75.453402 430.835312 
+L 149.722874 430.835312 
+L 149.722874 304.870722 
+L 75.453402 304.870722 
+z
+" clip-path="url(#paa7533d29c)" style="fill: #1f77b4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 203.504216 430.835312 
+L 277.773688 430.835312 
+L 277.773688 269.272034 
+L 203.504216 269.272034 
+z
+" clip-path="url(#paa7533d29c)" style="fill: #1f77b4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 331.55503 430.835312 
+L 405.824502 430.835312 
+L 405.824502 195.336296 
+L 331.55503 195.336296 
+z
+" clip-path="url(#paa7533d29c)" style="fill: #1f77b4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 459.605843 430.835312 
+L 533.875315 430.835312 
+L 533.875315 277.487116 
+L 459.605843 277.487116 
+z
+" clip-path="url(#paa7533d29c)" style="fill: #17a2b8; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 587.656657 430.835312 
+L 661.926129 430.835312 
+L 661.926129 151.522526 
+L 587.656657 151.522526 
+z
+" clip-path="url(#paa7533d29c)" style="fill: #17a2b8; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 46.129766 430.835312 
+L 46.129766 96.755313 
+" style="fill: none; stroke: #a8b0bb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 46.129766 430.835312 
+L 691.249766 430.835312 
+" style="fill: none; stroke: #a8b0bb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="fill: #1f2937; font: 700 10.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="112.588138" y="296.599782" transform="rotate(-0 112.588138 296.599782)">0.46 Wh</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #1f2937; font: 700 10.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="240.638952" y="261.001094" transform="rotate(-0 240.638952 261.001094)">0.59 Wh</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #1f2937; font: 700 10.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="368.689766" y="187.065356" transform="rotate(-0 368.689766 187.065356)">0.86 Wh</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #1f2937; font: 700 10.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="496.740579" y="269.216176" transform="rotate(-0 496.740579 269.216176)">0.56 Wh</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #1f2937; font: 700 10.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="624.791393" y="143.251586" transform="rotate(-0 624.791393 143.251586)">1.02 Wh</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_10">
+     <path d="M 56.029766 115.410625 
+L 78.029766 115.410625 
+L 78.029766 107.710625 
+L 56.029766 107.710625 
+z
+" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="86.829766" y="115.410625" transform="rotate(-0 86.829766 115.410625)">段级指标</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 56.029766 132.185625 
+L 78.029766 132.185625 
+L 78.029766 124.485625 
+L 56.029766 124.485625 
+z
+" style="fill: #17a2b8; stroke: #17a2b8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="fill: #1f2937; font: 11px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="86.829766" y="132.185625" transform="rotate(-0 86.829766 132.185625)">航次级指标</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_22">
+   <text style="fill: #1f2937; font: 700 22px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="46.129766" y="24.755312" transform="rotate(-0 46.129766 24.755312)">预测误差关键指标图</text>
+  </g>
+  <g id="text_23">
+   <text style="fill: #4b5563; font: 13.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start" x="46.129766" y="47.795313" transform="rotate(-0 46.129766 47.795313)">验证集段级与航次级误差指标对比，反映模型平均精度、稳定性与高分位风险。</text>
+  </g>
+  <g id="text_24">
+   <g id="patch_12">
+    <path d="M 709.495766 163.340941 
+L 1085.773766 163.340941 
+Q 1086.589766 163.340941 1086.589766 162.524941 
+L 1086.589766 97.721313 
+Q 1086.589766 96.905313 1085.773766 96.905313 
+L 709.495766 96.905313 
+Q 708.679766 96.905313 708.679766 97.721313 
+L 708.679766 162.524941 
+Q 708.679766 163.340941 709.495766 163.340941 
+z
+" style="fill: #f7fafc; stroke: #c7d2e0; stroke-linejoin: miter"/>
+   </g>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 110.633875)">场景说明</text>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 125.554084)">该图用于评估能耗预测模型在验证集上的精度表现，适用于说明“模型是否可靠”。</text>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 140.474294)"/>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 155.394503)">应用：竞赛答辩、模型性能展示、任务前预测可信度说明。</text>
+  </g>
+  <g id="text_25">
+   <g id="patch_13">
+    <path d="M 709.495766 309.700731 
+L 972.351359 309.700731 
+Q 973.167359 309.700731 973.167359 308.884731 
+L 973.167359 259.001313 
+Q 973.167359 258.185313 972.351359 258.185313 
+L 709.495766 258.185313 
+Q 708.679766 258.185313 708.679766 259.001313 
+L 708.679766 308.884731 
+Q 708.679766 309.700731 709.495766 309.700731 
+z
+" style="fill: #eef8fb; stroke: #b8dde8; stroke-linejoin: miter"/>
+   </g>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 271.913875)">指标说明</text>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 286.834084)">MAE 反映平均误差水平；RMSE 对较大误差更敏感；P90</text>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 301.754294)">反映高分位误差，体现模型稳定性与鲁棒性。</text>
+  </g>
+  <g id="text_26">
+   <g id="patch_14">
+    <path d="M 709.495766 415.740522 
+L 1014.883766 415.740522 
+Q 1015.699766 415.740522 1015.699766 414.924522 
+L 1015.699766 379.961313 
+Q 1015.699766 379.145312 1014.883766 379.145312 
+L 709.495766 379.145312 
+Q 708.679766 379.145312 708.679766 379.961313 
+L 708.679766 414.924522 
+Q 708.679766 415.740522 709.495766 415.740522 
+z
+" style="fill: #fff7ed; stroke: #fdba74; stroke-linejoin: miter"/>
+   </g>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 392.873875)">结论摘要</text>
+   <text style="fill: #1f2937; font: 10.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif" transform="translate(714.289766 407.794084)">误差整体处于较低水平，适合用于候选航线能耗排序与风险提示。</text>
+  </g>
+  <g id="text_27">
+   <text style="fill: #1f2937; font: 700 13.2px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="433.201766" y="506.682906" transform="rotate(-0 433.201766 506.682906)">图3-10 预测误差关键指标图</text>
+  </g>
+  <g id="text_28">
+   <text style="fill: #4b5563; font: 10.5px 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle" x="433.201766" y="528.851406" transform="rotate(-0 433.201766 528.851406)">该图展示模型验证集误差水平，用于支撑预测可信度与航线能耗排序应用。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="paa7533d29c">
+   <rect x="46.129766" y="96.755313" width="645.12" height="334.08"/>
+  </clipPath>
+ </defs>
+</svg>

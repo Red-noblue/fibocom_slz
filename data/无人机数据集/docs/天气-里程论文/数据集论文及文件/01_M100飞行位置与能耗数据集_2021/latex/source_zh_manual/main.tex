@@ -1,0 +1,310 @@
+\documentclass[fleqn,10pt]{wlscirep}
+% 中文手工翻译版副本：先验证 XeLaTeX 中文编译链路，不改原英文源码。
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xeCJK}
+\setCJKmainfont{PingFang SC}
+\setCJKsansfont{PingFang SC}
+\usepackage{float}
+\usepackage{appendix}
+\usepackage{xcolor}
+\usepackage{enumitem,amssymb}
+\usepackage{subcaption}
+\newlist{checklist}{itemize}{2}
+\setlist[checklist]{label=$\square$}
+\usepackage{longtable}
+\usepackage{soul}
+\usepackage{longtable}
+\newcommand{\notateThiago}[1]{\textcolor{blue}{\textbf{[#1]}}}
+\newcommand{\notateJay}[1]{\textcolor{red}{\textbf{[#1]}}}
+\newcommand{\doiprefix}{}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+\ifpdf
+\usepackage{breakurl}
+\fi
+
+
+\title{用于小包裹配送的 DJI Matrice 100 四旋翼无人机飞行位置与能耗数据集} 
+\author[1,*]{Thiago A. Rodrigues}
+\author[2]{Jay Patrikar}
+\author[1]{Arnav Choudhry}
+\author[3]{Jacob Feldgoise}
+\author[4]{Vaibhav Arcot}
+\author[1]{Aradhana Gahlaut}
+\author[5]{Sophia Lau}
+\author[2]{Brady Moon}
+\author[6]{Bastian Wagner}
+\author[1]{H. Scott Matthews}
+\author[2]{Sebastian Scherer}
+\author[1,*]{Constantine Samaras}
+\affil[1]{卡内基梅隆大学土木与环境工程系，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213}
+\affil[2]{卡内基梅隆大学机器人研究所，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213}
+\affil[3]{卡内基梅隆大学 Dietrich 人文与社会科学学院，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213}
+\affil[4]{宾夕法尼亚大学通用机器人、自动化、感知与知觉实验室，美国宾夕法尼亚州费城，邮编 19104}
+\affil[5]{卡内基梅隆大学电气与计算机工程系，美国宾夕法尼亚州匹兹堡 Forbes Avenue 5000 号，邮编 15213}
+\affil[6]{巴登-符腾堡州双元制应用科学大学（DHBW），德国拉芬斯堡}
+
+\affil[*]{通讯作者：Thiago A. Rodrigues（tarodrig@andrew.cmu.edu），Constantine Samaras（csamaras@cmu.edu）}
+
+\begin{abstract}
+我们自主控制一架用于小包裹配送的小型四旋翼无人机（UAV），也就是常说的“无人机”，在改变一组运行参数的条件下完成起飞、沿指定路线飞行和降落，总计进行了 209 架次飞行。该飞行器搭载了机载传感器，包括 GPS、IMU、电压与电流传感器，以及超声风速计，用于采集高分辨率的惯性状态、风速和功耗数据。对于每一架次飞行，都会调整指令地速、载荷和巡航高度等运行参数。该大型数据集的总飞行时长为 10 小时 45 分钟，采集时间覆盖 2019 年 4 月至 10 月，总飞行距离约为 65 公里。我们通过比较运行参数相近的飞行任务对采集数据进行了验证。我们认为，这些数据将对科研界和工业界都具有很高价值，可用于改进无人机设计、安全性和能效，并推进对包裹配送无人机飞行过程物理机理的理解。
+
+\end{abstract}
+\begin{document}
+\flushbottom
+\maketitle
+
+\thispagestyle{empty}
+
+\section*{背景与摘要}
+过去十年里，利用无人驾驶飞行器（UAV）或“无人机”\cite{stolaroff2018energy} 提升末端包裹配送效率、速度和可达性的研究取得了显著进展。除了承担载货任务外，这类 UAV 大多还具备垂直起降能力，可减少运行占地并提高投送精度。常见方案是采用多旋翼系统，通过一组无刷直流（BLDC）电机带动反向旋转螺旋桨向下推空气产生升力。与依靠固定翼上方气流产生升力的传统有翼飞行器相比，那些在整个任务期间或部分任务阶段完全依靠旋翼产生升力的 UAV，需要消耗显著更多的能量来提升包裹。这种更高的能量需求会明显影响多旋翼 UAV 的航程与续航能力。所需能量受环境因素（如主导风况、温度、湿度等）、UAV 设计参数（如动力系统规格、机体外形与结构）以及任务相关参数（如标称地速、运行高度和配送包裹规格）共同影响。开发能够以这些因素为输入、准确预测 UAV 能耗的能量模型，对于提升 UAV 的安全性与效率至关重要 \cite{zhang2020energy, liu2017power}。现有研究有的利用理论模型和物理参数估计能耗\cite{liu2017power,bezzo2016,troudi2018,abdilla2015,FIGLIOZZI2017251}，也有的采用数据驱动方法对参数进行回归并建立估计模型\cite{abeywickrama2018empirical,maekawa2017power,prasetia2019mission}。
+
+然而，最近一项关于多旋翼 UAV 能量建模研究现状的综述 \cite{zhang2020energy} 比较了多种模型，发现即便采用相同的一组常见参数，各模型给出的单位距离能耗率（J/m）仍可能相差 3 至 5 倍。该综述主张，应将模型结果与全面的无人机配送实地测试所得到的经验数据进行对比，以提高能耗预测精度。多数研究只开展了少量飞行试验，而且通常不公开原始飞行数据以供横向比较。考虑到 UAV 外场试验受到严格的法规要求且实施成本较高，据作者所知，公共领域中尚不存在标准化、全面的开放数据集。
+\par 在本研究中，我们开展了一系列实验，以经验方式测量具备自主飞行能力的多旋翼 UAV 在携带不同载荷执行多轮任务时的能量消耗。我们自主控制一架 DJI\textsuperscript{\textregistered} Matrice 100（M100）\cite{DJI} 无人机起飞，在三角形航线中运输不同重量的载荷并降落。我们为每架次飞行采集了高分辨率的惯性速度、高度、风和能量数据。飞行之间我们改变了指令地速、载荷质量和巡航高度等设定参数。整个实验共进行了 209 架次飞行，并同步记录了来自多种机载传感器的数据。
+
+我们制定了实验流程以确保采集数据的可靠性。飞行按照预设航线进行，改变的参数包括高度（25 m、50 m、75 m 和 100 m）、速度（4 m/s、6 m/s、8 m/s、10 m/s 和 12 m/s）以及载荷质量（无载荷、250 g 和 500 g）。每种组合至少重复三次，共计 195 架次飞行。此外，还在悬停和怠速模式下进行了 14 次记录，总计 209 架次。最后，对各传感器输出的数据以约 5 Hz 的频率进行了同步。与运行配置有关的信息，例如载荷质量、巡航高度与速度、飞行开始的日期和时间，以及预设航线，都以人工方式记录并附在数据集中。
+
+飞行在美国宾夕法尼亚州 Penn Hills 镇的一处场地完成，该场地距离宾夕法尼亚州匹兹堡约 16 公里。在测试前已获得联邦和地方主管部门的相应许可。我们还编制了检查清单，以确保飞行能够按预期安全、高效地进行。最后，对每次飞行采集的信息都进行了绘图和评估，以验证数据的一致性。
+
+
+
+\section*{方法}
+本节详细介绍了这些实验所使用的数据采集系统和安装在机体上的传感器套件，并讨论了飞行测试的实验流程。
+
+\subsection*{数据采集系统}
+本小节介绍用于获取数据的硬件与软件配置。完整示意图见图 \ref{fig:schematic}。
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure1.pdf}
+    \caption{完整系统配置下的机载传感器套件}
+    \label{fig:schematic}
+\end{figure}
+
+\subsubsection*{机体平台}
+多旋翼飞行器的特点在于使用多个旋翼产生升力。市面上大多数商用多旋翼系统通常采用 3 至 8 个旋翼来实现飞行。我们选用 DJI Matrice 100 四旋翼平台来代表多旋翼 UAV，如图 \ref{fig:dji_pics} 所示。Matrice 100 是一套可完全编程、可定制的无人机系统，其最大巡航速度（GPS 模式下）可达 17 m/s。机体配备 DJI 3510 电机（350 Kv）和 DJI E SERIES 620D 电调，螺旋桨则使用 DJI 1345s。系统带有机载自动驾驶仪，可提供自主飞行能力。其标准电池容量为 4500 mAh，在不挂载额外载荷时可提供 22 分钟飞行时间。
+
+机体质量为 1831 g，电池质量为 600 g，风速计及其支杆质量为 136 g，机载计算机连同小型传感器和线缆的质量为 1113 g，总计 3680 g。因此，总起飞质量分别为 3680 g（无载荷）、3930 g（挂载 250 g 载荷）和 4180 g（挂载 500 g 载荷）。不同质量的载荷外形尺寸均为 22 x 13.8 x 4.4 cm，并通过魔术贴绑带固定在机体底部。无人机总质量中包含了魔术贴绑带的质量。
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure2.pdf}
+    \caption{装载载荷、传感器和机载计算机后的 DJI Matrice 100：a）正视图，b）侧视图，c）俯视图。更多细节见 DJI 的三维 CAD 文件 \cite{djiCAD}}
+    \label{fig:dji_pics} 
+\end{figure}
+
+\subsubsection*{风测量传感器}
+本实验使用 FT Technologies 的 $FT205$ 机载超声风速计进行风测量 \cite{FTTechnologies}，如图 \ref{fig:airframe}a 所示。该传感器的精度可达 $\pm 0.1 m/s$，刷新率为 10 Hz，并已完成出厂校准。我们使用设备内置的滤波流程来获取可靠数据，并通过 UART 通信记录传感器输出。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure3.pdf}
+    \caption{数据采集硬件配置。a）安装了风速计和传感器盒的 DJI Matrice 100；b）平台与传感器盒的俯视图，可见 3DM-GX5-45 GNSS/INS 传感器组件}
+    \label{fig:airframe}
+\end{figure}
+   
+\subsubsection*{状态测量传感器}
+我们使用 3DM-GX5-45 GNSS/INS \cite{Lord2018} 记录系统状态（位置、速度和姿态），该传感器如图 \ref{fig:airframe}b 所示。这套传感器利用内置 Kalman 滤波系统融合 GPS 和 IMU 数据。实验中传感器输出频率设为 10 Hz。该传感器在以起飞点为原点固定的 N（北）-E（东）-D（下）坐标系中记录数据，并按照厂商说明完成校准。
+
+\subsubsection*{电流与电压测量传感器}
+无人机供电电流和电压使用 Mauch Electronics PL-200 传感器 \cite{MAUCH} 测量。该传感器基于 Allegra ACS758-200U 霍尔电流传感器，可记录最高 200 A 的电流和最高 33 V 的电压。传感器板仅串接在电池输出的“正极”（红色）主电线上，“负极”（黑色）线路保持不变，从而降低传感器板发生短路的风险。之所以选用霍尔传感器，是因为其相较传统分流电阻传感器具有更好的精度。该传感器同样按照厂商说明完成校准。传感器采集到的模拟量通过一块 8 通道、17 位模数转换器（ADC）转换为数字信号。该 ADC 基于 Microchip Technologies Inc 的 MCP3424 芯片，属于带低噪声差分输入的 Delta-Sigma A/D 转换器。
+
+\subsubsection*{同步与记录}
+
+数据同步与记录由运行在低功耗 Raspberry Pi Zero W 上的机器人操作系统（ROS）负责完成。数据记录在 Raspberry Pi 的 microSD 卡上。各传感器输出的数据通过 ROS 的 ApproximateTime \cite{Foundation2010} 消息过滤策略，被同步到约 5 Hz 的频率。同步后的输出频率大致跟随各传感器自身的当前频率。因此，同步输出中频率的波动，是我们选择“不进行插值、而是尽量保持传感器原始数据形态”的自然结果。所有数据均带有时间戳，因此用户可以按需要自行插值到任意频率。若要强制同步到固定频率，就必须引入插值算法，而我们认为应由最终使用者自行选择具体的插值方式。
+
+\subsection*{采集流程}
+本小节介绍用于数据采集的飞行流程。为确保安全并保证采集数据的可靠性，我们制定了飞行计划，并按照下述步骤执行飞行前、飞行中和飞行后的流程。
+\subsubsection*{飞行前}
+
+每个测试日都根据天气条件进行选择。我们会避开降水和大风等极端恶劣天气，但同时也注意避免数据集只覆盖“好天气”条件。测试地点 $(40.465690N,~ -79.788281W)$ 位于城市区域外的一处开阔场地。 
+
+控制变量包括巡航阶段的设定速度（4 m/s、6 m/s、8 m/s、10 m/s 和 12 m/s）、巡航阶段的设定高度（25 m、50 m、75 m 和 100 m），以及载荷质量（0、250 g、500 g）。我们执行了这些控制变量所有可能组合的飞行任务，以获取尽可能全面的数据集。 
+
+每次飞行前，我们都会确认飞行器具备适航状态，并检查机体和控制系统是否已完成本次实验所需的校准。我们还会依据当天飞行计划中的控制变量，确认飞行参数配置正确。随后执行飞行前检查清单（见补充材料）。 
+
+\subsubsection*{飞行过程}
+飞行前流程完成后，远程机长（PIC）会向团队成员发出飞行前通知，并通过自定义图形用户界面（GUI）启动健康监测脚本。程序首先检查所有机载传感器，确认全部子系统均工作正常。健康监测脚本给出允许起飞的结果后，系统便开始记录数据。在口头确认“允许起飞”之后，PIC 启动基于 DJI SDK 的飞控脚本，自主执行 GPS 航点导航。UAV 首先解锁，然后以约 2.5 m/s 的恒定上升速度垂直起飞，爬升到设定的巡航高度。到达目标高度后，UAV 调整朝向指向第一个航点，并加速到设定地速。到达第一个航点后，UAV 停止并转向下一个航点。之后飞行器沿一条三角形、风中性航线持续飞行并同步记录数据。该三角形航线及部分记录数据见图 \ref{fig:snippet}。当飞行器返回起飞点后，会停止前进，并以约 1.5 m/s 的速度下降。安全着陆后，UAV 自动上锁，数据记录随之停止，PIC 宣布飞行结束。整个飞行过程中，PIC 始终保持对 UAV 的目视视距，并可随时进行人工控制接管，以确保团队和飞行器的安全。  
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure4.pdf}
+    \caption{GPS 航线以及机载传感器阵列记录的示例数据输出。}
+    \label{fig:snippet}
+\end{figure}
+
+\subsubsection*{飞行后}
+飞行结束后，我们通过 GUI 下载原始 ROSBag 文件，并使用后处理脚本对各传感器数据进行同步，再将其转换为逗号分隔值（CSV）文件进行存储。原始文件同样被保留。与此同时，还会在飞行计划表中补全相关记录。随后执行飞行后检查清单（见补充材料），并将 UAV 重新配置，为下一次飞行做好准备。
+
+\subsubsection*{法规与安全}
+所有数据采集工作均遵循美国《Part 107》无人机运行规则与相关法规要求。这包括：始终保持与飞行器的目视视距、飞行器重量不超过 55 磅（24.95 kg）、仅在白天飞行、飞行高度不超过距地 400 英尺、执行飞行前检查，并在允许空域内飞行 \cite{part107}。同时，我们也确保起飞重量和飞行指令始终处于机体的安全规范范围内。整个实验严格遵守 FAA 及当地的无人机监管要求。
+
+在使用 LiPo DJI TB48D 电池时，我们采取了严格的安全措施。电池使用能够监测电压和温度的充电器进行充电；运输时则置于金属容器中，以防穿刺，并在发生燃烧时限制火势蔓延。 
+
+此外，在适当情况下实验人员会佩戴护目镜，并始终配备可随时使用的灭火器。
+
+\section*{数据记录}
+本节列出的所有原始和处理后数据记录均可在（\href{https://doi.org/10.1184/R1/12683453}{https://doi.org/10.1184/R1/12683453}）获取 \cite{Rodrigues}。各传感器记录的数据被整理为一个 `.zip` 文件，其中按飞行架次建立子文件夹，每个子文件夹内包含一个名为 $\textit{raw.bag}$ 的文件。名为 $\textit{parameters.csv}$ 的 CSV 文件给出了所有飞行任务及其飞行参数列表。另有一个名为 $\textit{flights.zip}$ 的文件，其中为每次飞行提供一个 csv 文件，记录飞行持续时间、风速与风向、系统电流与电压、飞行器位置、姿态、速度和加速度等信息。表 \ref{tab:variables} 对各个变量进行了说明。
+\begin{table}[H]
+\centering
+\caption{\label{tab:variables} 数据记录中各变量的说明}
+\begin{tabular}{|l|c|l|}
+\hline
+变量 & 单位/格式 & 描述 \\
+\hline
+flight &  & 表示对应飞行任务编号的整数。 \\
+\hline
+speed & $m/s$  & 巡航阶段设定的水平地速。 \\
+\hline
+payload & $g$ & 挂载在飞行器上的载荷质量。 \\
+\hline
+altitude & $m$ & 设定高度。 \\
+\hline
+date & \textit{YYYY-MM-DD} & 飞行执行日期。
+  \\
+\hline
+local\_time & \textit{24:00 h} &  飞行开始的当地时间。 \\
+\hline
+route &  & 飞行器遵循的预设航线。\\
+\hline
+time & $s$ & 飞行中已过去的时间。 \\
+\hline
+wind\_speed & $m/s$ & 风速计提供的空气速度。 \\
+\hline
+wind\_angle & $deg$ & 相对于正北方向（顺时针）的气流方向。
+ \\
+\hline
+battery\_voltage & $V$ & 在电池输出端紧邻位置测得的系统电压。 \\
+\hline
+battery\_current & $A$ & 在电池输出端紧邻位置测得的系统电流。 \\
+\hline
+position\_x & $deg$ & 飞行器经度。
+ \\
+\hline
+position\_y & $deg$ & 飞行器纬度。 \\
+\hline
+position\_z & $deg$ & 飞行器相对于海平面的高度。 \\
+\hline
+orientation\_x; \_y;\_z; \_w & $quaternion$ & 飞行器姿态四元数。 \\
+\hline
+velocity\_x; \_y; \_z & $m/s$ & 地速。 \\
+\hline
+angular\_x; \_y;\_z & $rad/s$ & 角速度。 \\
+\hline
+linear\_acceleration\_x; \_y; \_z & $m/s^2$ & 地面参考系下的线加速度。 \\
+\hline
+\end{tabular}
+
+\end{table}
+
+\section*{技术验证}
+我们对采集到的数据进行了评估，以确保所提供数据的可靠性。飞行任务按照高度、巡航速度和载荷进行分组。随后，我们通过比较具有相同配置（设定高度、设定速度和载荷质量）的飞行任务，评估了所采集的参数（位置参数、风速和功率）。图 \ref{fig:altitude}、\ref{fig:airspeed} 和 \ref{fig:euler} 展示了若干具有相近高度、载荷和速度的飞行分组示例。例如，18、135 和 202 号飞行在巡航阶段的高度（图 \ref{fig:altitude}a）和地速（图 \ref{fig:altitude}b）都围绕 25 m 和 4 m/s 这两个设定值波动。图 \ref{fig:airspeed}a 展示了风的影响，它自然会造成不同飞行之间空气速度读数的差异。相比之下，图 \ref{fig:airspeed}b 表明这三次飞行的功率需求保持一致。偏航角（图 \ref{fig:euler}a）在飞行开始阶段的变化表明，202 号飞行在起飞前的朝向与其他飞行不同。一旦起飞流程开始，飞行器会自动转向预设方向，与其他飞行保持一致。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure5.pdf}
+    \caption{三次单独飞行的 a）高度与 b）地速，三者的巡航设定速度均为 4 m/s、设定高度为 25 m、载荷为 250 g}
+    \label{fig:altitude} 
+    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure6.pdf}
+    \caption{三次单独飞行的 a）空气速度与 b）功率，三者的巡航设定速度均为 4 m/s、设定高度为 25 m、载荷为 250 g}
+    \label{fig:airspeed} 
+    
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure7.pdf}
+    \caption{三次单独飞行的欧拉角，三者的巡航设定速度均为 4 m/s、设定高度为 25 m、载荷为 250 g：a）偏航，b）俯仰，c）横滚}
+    \label{fig:euler} 
+
+\end{figure}
+
+
+图 \ref{fig:range} 的 a 和 b 展示了采集数据中所覆盖的高度和速度范围，而图 \ref{fig:payload} 则展示了载荷对功率需求的影响。
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure8.pdf}
+    \caption{控制变量设定值的变化：a）高度，b）地速}
+    \label{fig:range} 
+    
+\end{figure}
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure9.pdf}
+    \caption{三次具有相近设定高度和设定地速、但载荷不同的飞行功率读数。图中通过强调展示了功耗差异}
+    \label{fig:payload} 
+
+\end{figure}
+
+所评估参数的变化表明，在配置相近的飞行之间，仅存在较小幅度的差异。这些轻微差异符合预期，因为外部环境因素和测量过程本身都具有一定波动性。尽管如此，在所有评估中，结果都呈现出一致的模式，数据变化始终处于符合实验物理边界的合理范围内。 
+
+此外，我们还通过对功率（电流乘电压）随时间进行数值积分，计算了每次飞行的总能耗。随后，我们比较了配置相同（设定速度、设定高度和载荷质量相同）的飞行任务之间的总能耗。各飞行分组的平均相对能量幅值为 4.3\%，标准差为 2.6\%。并且，95\% 的分组其相对能量幅值低于 10\%，这反映了飞行之间的自然波动。最大能量幅值出现在 92、129 和 252 号飞行（约 3.5 Wh），相当于该分组平均能耗的 15.5\%。进一步分析表明，129 号飞行（24.8 Wh）的巡航持续时间长于 92 和 252 号飞行（分别为 21.8 Wh 和 21.3 Wh）。然而，129 号飞行在 100 s 之后经历的空气速度条件（图 \ref{fig:group_129}a）可能降低了无人机的实际地速（图 \ref{fig:group_129}b），从而拉长了总飞行时间，并造成整体能耗上的这一差异。 
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure10.pdf}
+    \caption{与配置相同的其他飞行相比，129 号飞行经历了更高的风速并以更低的速度飞行。图中给出三次巡航设定速度为 12 m/s、设定高度为 75 m、载荷为 500 g 的飞行任务的 a）空气速度和 b）地速}
+    \label{fig:group_129} 
+\end{figure}
+
+对另外两个相对能量幅值大于 10\% 的飞行分组进行类似分析后，并未发现各飞行记录之间存在显著差异。 
+
+我们还实现了一段脚本，用于自动处理和评估飞行中测得的数值，并将其与设定高度进行比较。在 194 次包含巡航段的飞行中，有 173 次在巡航阶段的高度读数没有超出厂商给出的 $\pm$ 5 m 公差范围。此外，仅有 1 次飞行的巡航平均高度（107.1 m）超出了设定高度及厂商公差范围（105.0 m）。不过，由于该次飞行的轨迹模式和能量消耗与同组其他飞行一致（组内相对能量幅值为 3\%），我们决定将其保留在数据集中。
+
+最后，我们根据各厂商提供的指标，在表 \ref{tab:tolerances} 中汇总了所用各传感器的固有测量不确定度。  
+
+\begin{longtable}{ll}
+\caption{各传感器的厂商标称精度}
+\label{tab:tolerances}\\
+\textbf{参数}             & \textbf{精度} \\ \hline
+\endfirsthead
+%
+\endhead
+%
+\hline
+\endfoot
+%
+\endlastfoot
+%
+垂直位置 {[}m{]}      & $\pm$ 5           \\
+水平位置 {[}m{]}    & $\pm$ 2           \\
+速度 {[}m/s{]}             & $\pm$ 0.1         \\
+横滚、俯仰、航向 {[}deg{]} & $\pm$ 2.0         \\
+风速 {[}m/s{]}           & $\pm$ 0.3         \\
+风向 {[}deg{]}       & $\pm$ 4           \\
+电流 {[}\%{]}               & $\pm$ 1.2       \\ \hline
+\end{longtable}
+
+\section*{使用说明}
+本数据可用于建立小型四旋翼无人机的能耗模型，对已有结果进行经验拟合，或验证理论模型。这些数据还可用于分析文中各变量之间的影响与相关性，并用于估计未直接测量的参数，例如阻力系数等。需要注意的是，这些数据不应被外推用于评估其他型号无人机，或运行参数超出本实验测试范围的无人机能耗。
+
+机载风速计的测量结果可用于计算空气速度分量（侧风和迎风分量）以及局部风场条件。风速计记录的是相对于运动中无人机的风向和风速大小。我们在数据集中提供了风速计的原始数据。然而，既有使用风速计进行机载风测量的研究 \cite{garibaldi2010uav,bruschi2016wind,thorpe2018measurement} 已指出：虽然风向测量在各种飞行条件下都较为准确，但风速大小测量往往存在偏差，表现为测得的风速大于预期值。我们发现，这种效应在 UAV 速度较低时更为明显。因此，未来仍需进一步研究并修正风速大小偏差，同时还需扣除 UAV 自身运动的影响。在补充材料中，我们提供了一种风速大小偏差与自运动修正的方法，但该方向的研究目前仍在持续推进。 
+
+\section*{代码可用性}
+用于实现 UAV 自主飞行、记录与同步数据，以及完成不同传感器之间接口交互的代码库，已在 BSD 许可证下向公众开放。代码库地址为 \href{https://bitbucket.org/castacks/workspace/projects/DOE}{https://bitbucket.org/castacks/workspace/projects/DOE}。 
+
+\bibliography{main}
+
+\section*{致谢} 
+本研究得到美国能源部车辆技术办公室资助，项目编号为 DE-EE0008463。本文工作还部分基于美国国家科学基金会研究生研究奖学金（Grant No. DGE1745016）的支持。同时，本研究也得到了 LORD MicroStrain Sensing Systems 的支持。
+
+\section*{作者贡献声明}
+本研究课题由 C.S、H.M. 和 S.S. 提出。实验方案由 J.P. 设计。实验由 T.R.、J.P.、A.C.、J.F.、V.A.、A.G. 和 B.M. 执行。结果由 T.R. 完成分析。所有作者均审阅了论文稿件。 
+
+\section*{竞争性利益声明}
+作者声明不存在竞争性利益。
+
+\newpage
+\appendix
+\input{appendix}
+
+\end{document}

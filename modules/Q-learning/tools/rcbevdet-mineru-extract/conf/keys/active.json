@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "provider": "mineru",
+  "created_at_utc": "2026-02-18T06:01:51+00:00",
+  "expires_at_utc": "2026-05-19T06:01:51+00:00",
+  "valid_days": 90,
+  "user_token": "9a6883b6-a554-44b9-9f7a-7ff6be90d579",
+  "bearer_jwt": "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJqdGkiOiI2NjAwMDc2NiIsInJvbCI6IlJPTEVfUkVHSVNURVIiLCJpc3MiOiJPcGVuWExhYiIsImlhdCI6MTc3OTE3ODY3MSwiY2xpZW50SWQiOiJsa3pkeDU3bnZ5MjJqa3BxOXgydyIsInBob25lIjoiMTM0MzkyMjUzNDUiLCJvcGVuSWQiOm51bGwsInV1aWQiOiJkY2I5NWQ1MC1mODNlLTRmZGMtYWNkYS05MjJkNjA1OGFjOTAiLCJlbWFpbCI6IiIsImV4cCI6MTc4Njk1NDY3MX0.6paB3hin1kFFgmm9u3FEXHrvSolxlOfeFN56zTG6lCMmv-G7j9mdYx68hWy_H5sdpZRiM8-CHoj1wHvo9Pw8FQ"
+}

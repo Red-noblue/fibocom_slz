@@ -1,0 +1,7 @@
+Vehicle Class,"Delivery intensity [packages/km] (lower, base, upper)"
+Medium duty diesel truck,"(np.float64(1.5), np.float64(2.0999999999999996), np.float64(5.0))"
+Small diesel vans,"(np.float64(1.5), np.float64(3.48), np.float64(5.0))"
+Medium duty e-truck,"(np.float64(1.5), np.float64(2.0999999999999996), np.float64(5.0))"
+Small electric van,"(np.float64(1.5), np.float64(3.48), np.float64(5.0))"
+Electric cargo bicycle,"(np.float64(0.25), np.float64(1.0), np.float64(3.0))"
+Quad-copter drone,"(np.float64(0.125), np.float64(0.25), np.float64(0.5))"

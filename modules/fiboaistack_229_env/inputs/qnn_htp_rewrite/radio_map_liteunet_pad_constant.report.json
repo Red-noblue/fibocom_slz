@@ -1,0 +1,178 @@
+{
+  "changed_pad_count": 14,
+  "changed_pad_nodes": [
+    {
+      "inputs": [
+        "input",
+        "/enc1/c1/_prepad/Cast_output_0"
+      ],
+      "name": "/enc1/c1/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/enc1/c1/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/enc1/c1/act/Relu_output_0",
+        "/enc1/c2/_prepad/Cast_output_0"
+      ],
+      "name": "/enc1/c2/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/enc1/c2/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/pool/AveragePool_output_0",
+        "/enc2/c1/_prepad/Cast_output_0"
+      ],
+      "name": "/enc2/c1/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/enc2/c1/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/enc2/c1/act/Relu_output_0",
+        "/enc2/c2/_prepad/Cast_output_0"
+      ],
+      "name": "/enc2/c2/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/enc2/c2/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/pool_1/AveragePool_output_0",
+        "/enc3/c1/_prepad/Cast_output_0"
+      ],
+      "name": "/enc3/c1/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/enc3/c1/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/enc3/c1/act/Relu_output_0",
+        "/enc3/c2/_prepad/Cast_output_0"
+      ],
+      "name": "/enc3/c2/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/enc3/c2/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/pool_2/AveragePool_output_0",
+        "/bottleneck/c1/_prepad/Cast_output_0"
+      ],
+      "name": "/bottleneck/c1/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/bottleneck/c1/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/bottleneck/c1/act/Relu_output_0",
+        "/bottleneck/c2/_prepad/Cast_output_0"
+      ],
+      "name": "/bottleneck/c2/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/bottleneck/c2/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/Concat_2_output_0",
+        "/dec3/c1/_prepad/Cast_output_0"
+      ],
+      "name": "/dec3/c1/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/dec3/c1/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/dec3/c1/act/Relu_output_0",
+        "/dec3/c2/_prepad/Cast_output_0"
+      ],
+      "name": "/dec3/c2/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/dec3/c2/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/Concat_5_output_0",
+        "/dec2/c1/_prepad/Cast_output_0"
+      ],
+      "name": "/dec2/c1/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/dec2/c1/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/dec2/c1/act/Relu_output_0",
+        "/dec2/c2/_prepad/Cast_output_0"
+      ],
+      "name": "/dec2/c2/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/dec2/c2/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/Concat_8_output_0",
+        "/dec1/c1/_prepad/Cast_output_0"
+      ],
+      "name": "/dec1/c1/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/dec1/c1/_prepad/Pad_output_0"
+      ]
+    },
+    {
+      "inputs": [
+        "/dec1/c1/act/Relu_output_0",
+        "/dec1/c2/_prepad/Cast_output_0"
+      ],
+      "name": "/dec1/c2/_prepad/Pad",
+      "new_mode": "constant",
+      "old_mode": "reflect",
+      "outputs": [
+        "/dec1/c2/_prepad/Pad_output_0"
+      ]
+    }
+  ],
+  "input_onnx": "modules/fiboaistack_229_env/inputs/radio_map_liteunet.onnx",
+  "output_onnx": "modules/fiboaistack_229_env/inputs/qnn_htp_rewrite/radio_map_liteunet_pad_constant.onnx",
+  "rewrite": "reflect Pad -> constant zero Pad",
+  "unchanged_pad_count": 0,
+  "unchanged_pad_nodes": []
+}

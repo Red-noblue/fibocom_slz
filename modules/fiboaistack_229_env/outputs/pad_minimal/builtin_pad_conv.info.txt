@@ -1,0 +1,39 @@
+DLC info of: /workspace/modules/fiboaistack_229_env/outputs/pad_minimal/builtin_pad_conv.dlc
+                                                                                                    
+Model Version: 
+Model Copyright:
+Converter command: snpe-onnx-to-dlc; unroll_gru_time_steps=True; quantization_overrides=; prepare_inputs_as_params=False; perform_axes_to_spatial_first_order=True; unroll_lstm_time_steps=True; packed_max_seq=1; validation_target=[]; packed_masked_softmax_inputs=[]; preserve_io=[]; debug=-1; dump_qairt_io_config_yaml=; multi_time_steps_lstm=False; multi_time_steps_gru=False; input_dtype=[]; keep_disconnected_nodes=False; input_encoding=[]; handle_gather_negative_indices=True; copyright_file=None; force_prune_cast_ops=False; perform_layout_transformation=False; keep_quant_nodes=False; package_name=None; input_type=[]; use_convert_quantization_nodes=False; defer_loading=False; dry_run=None; float_bw=32; out_names=['output']; float_bitwidth=32; model_version=None; float_bias_bitwidth=0; extract_color_transform=True; expand_sparse_op_structure=False; float_bias_bw=0; keep_int64_inputs=False; disable_batchnorm_folding=False; enable_strict_validation=False; op_package_lib=; enable_match_gathernd=False; enable_framework_trace=False; batch=None; custom_op_config_paths=None; preprocess_roi_pool_inputs=True; align_matmul_ranks=True; expand_gru_op_structure=True; input_layout=[]; dump_value_info=False; dump_custom_io_config_template=; no_simplification=False; dumpIR=False; custom_io=; match_caffe_ssd_to_tf=True; input_dim=None; apply_masked_softmax=uncompressed; dump_inferred_model=False; squash_box_decoder=True; define_symbol=None; inject_cast_for_gather=True; adjust_nms_features_dims=True; expand_lstm_op_structure=False; converter_op_package_lib=
+Quantizer command: N/A
+DLC created with converter version: 2.29.0.241129103708_105762
+===========================================================================================================================================================================================================================================================================
+Info of graph: builtin_pad_conv
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Id | Name       | Type            | Inputs                                                                                      | Outputs                                                                          | Out Dims | Runtimes | Parameters                   |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| 0  | /conv/Conv | DepthWiseConv2d | input (data type: Float_32; tensor dimension: [1,8,8,1]; tensor type: APP_WRITE) [NW Input] | output (data type: Float_32; tensor dimension: [1,8,8,1]; tensor type: APP_READ) | 1x8x8x1  | A D G C  | bias_op_name: conv.bias      |
+|    |            |                 | conv.weight (data type: Float_32; tensor dimension: [3,3,1,1]; tensor type: STATIC)         |                                                                                  |          |          | dilation: [1, 1]             |
+|    |            |                 | conv.bias (data type: Float_32; tensor dimension: [1]; tensor type: STATIC)                 |                                                                                  |          |          | packageName: qti.aisw        |
+|    |            |                 |                                                                                             |                                                                                  |          |          | pad_amount: [[1, 1], [1, 1]] |
+|    |            |                 |                                                                                             |                                                                                  |          |          | padding_size_strategy: 5     |
+|    |            |                 |                                                                                             |                                                                                  |          |          | stride: [1, 1]               |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: The supported runtimes column assumes a processor target of Snapdragon 855
+Key : A:AIP
+      D:DSP
+      G:GPU
+      C:CPU
+
+-----------------------------------------------------------------------------
+| Input Name  | Dimensions  | Type      | Encoding Info                     |
+-----------------------------------------------------------------------------
+| input       | 1,8,8,1     | Float_32  | No encoding info for this tensor  |
+-----------------------------------------------------------------------------
+------------------------------------------------------------------------------
+| Output Name  | Dimensions  | Type      | Encoding Info                     |
+------------------------------------------------------------------------------
+| output       | 1,8,8,1     | Float_32  | No encoding info for this tensor  |
+------------------------------------------------------------------------------
+Total parameters: 0 (0 MB assuming single precision float. This does not represent the actual memory requirement for the model. It provides a rough estimate of the contribution from the parameters 4xNo of Params in bytes)
+Total MACs per inference: 0 (0%)
+Ops used by Graph: DepthWiseConv2d
+Est. Steady-State Memory Needed to Run: 0 B

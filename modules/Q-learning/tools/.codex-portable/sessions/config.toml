@@ -1,0 +1,49 @@
+model_provider = "OpenAI"
+model = "gpt-5.5"
+model_reasoning_effort = "xhigh"
+disable_response_storage = true
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+personality = "pragmatic"
+web_search = "live"
+suppress_unstable_features_warning = true
+service_tier = "fast"
+
+[features]
+goals = true
+plan_tool = true
+apply_patch_freeform = true
+view_image_tool = true
+unified_exec = false
+streamable_shell = false
+rmcp_client = true
+
+[model_providers.OpenAI]
+name = "OpenAI"
+base_url = "https://api.hanbbq.top/v1"
+wire_api = "responses"
+requires_openai_auth = true
+
+[sandbox_workspace_write]
+network_access = true
+
+[memories] # 强烈建议用新模型来总结 memories
+consolidation_model = "gpt-5.5"
+extract_model = "gpt-5.5"
+
+[tui]
+status_line = [
+    "model-with-reasoning", 
+    "current-dir", 
+    "used-tokens", 
+    "fast-mode"  
+]
+
+[projects."/home/fibo/fibocom_slz"]
+trust_level = "trusted"
+
+[projects."/home/fibo/fibocom_slz/modules/Q-learning/tools/codex-project-portable"]
+trust_level = "trusted"
+
+[projects."/home/fibo/fibocom_slz/modules/Q-learning/tools/.codex-portable/sessions"]
+trust_level = "trusted"

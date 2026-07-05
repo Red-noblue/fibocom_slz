@@ -1,0 +1,124 @@
+[sudo] password for fibo: == qairt help head ==
+usage: qairt-quantizer --input_dlc INPUT_DLC [--output_dlc OUTPUT_DLC] [--input_list INPUT_LIST]
+                       [--float_fallback] [--algorithms ALGORITHMS [ALGORITHMS ...]]
+                       [--bias_bitwidth BIAS_BITWIDTH] [--act_bitwidth ACT_BITWIDTH]
+                       [--weights_bitwidth WEIGHTS_BITWIDTH] [--float_bitwidth FLOAT_BITWIDTH]
+                       [--float_bias_bitwidth FLOAT_BIAS_BITWIDTH] [--ignore_encodings]
+                       [--use_per_channel_quantization] [--use_per_row_quantization]
+                       [--enable_per_row_quantized_bias] [--preserve_io_datatype]
+                       [--use_native_input_files] [--use_native_output_files]
+                       [--restrict_quantization_steps ENCODING_MIN, ENCODING_MAX]
+                       [--keep_weights_quantized] [--adjust_bias_encoding]
+                       [--act_quantizer_calibration ACT_QUANTIZER_CALIBRATION]
+                       [--param_quantizer_calibration PARAM_QUANTIZER_CALIBRATION]
+                       [--act_quantizer_schema ACT_QUANTIZER_SCHEMA]
+                       [--param_quantizer_schema PARAM_QUANTIZER_SCHEMA]
+                       [--percentile_calibration_value PERCENTILE_CALIBRATION_VALUE]
+                       [--use_aimet_quantizer] [--op_package_lib OP_PACKAGE_LIB]
+                       [--dump_encoding_json] [--config_file CONFIG_FILE] [--export_stripped_dlc]
+                       [-h] [--backend BACKEND] [--soc_model SOC_MODEL] [--debug [DEBUG]]
+
+required arguments:
+  --input_dlc INPUT_DLC
+                        Path to the dlc container containing the model for which fixed-point
+                        encoding metadata should be generated. This argument is required
+
+optional arguments:
+  --output_dlc OUTPUT_DLC
+                        Path at which the metadata-included quantized model container should be
+                        written.If this argument is omitted, the quantized model will be written at
+                        <unquantized_model_name>_quantized.dlc
+  --input_list INPUT_LIST
+                        Path to a file specifying the input data. This file should be a plain text
+                        file, containing one or more absolute file paths per line. Each path is
+                        expected to point to a binary file containing one input in the "raw" format,
+                        ready to be consumed by the quantizer without any further preprocessing.
+                        Multiple files per line separated by spaces indicate multiple inputs to the
+                        network. See documentation for more details. Must be specified for
+                        quantization. All subsequent quantization options are ignored when this is
+                        not provided.
+  --float_fallback      Use this option to enable fallback to floating point (FP) instead of fixed
+                        point.
+                        This option can be paired with --float_bitwidth to indicate the bitwidth for
+                        FP (by default 32).
+                        If this option is enabled, then input list must not be provided and
+                        --ignore_encodings must not be provided.
+                        The external quantization encodings (encoding file/FakeQuant encodings)
+                        might be missing quantization parameters for some interim tensors.
+                        First it will try to fill the gaps by propagating across math-invariant
+                        functions. If the quantization params are still missing,
+                        then it will apply fallback to nodes to floating point.
+  --algorithms ALGORITHMS [ALGORITHMS ...]
+                        Use this option to enable new optimization algorithms. Usage is:
+                        --algorithms <algo_name1> ... The available optimization algorithms are:
+                        "cle" - Cross layer equalization includes a number of methods for equalizing
+                        weights and biases across layers in order to rectify imbalances that cause
+                        quantization errors.
+  --bias_bitwidth BIAS_BITWIDTH
+                        Use the --bias_bitwidth option to select the bitwidth to use when quantizing
+                        the biases, either 8 (default) or 32.
+  --act_bitwidth ACT_BITWIDTH
+                        Use the --act_bitwidth option to select the bitwidth to use when quantizing
+                        the activations, either 8 (default) or 16.
+  --weights_bitwidth WEIGHTS_BITWIDTH
+                        Use the --weights_bitwidth option to select the bitwidth to use when
+                        quantizing the weights, either 4, 8 (default) or 16.
+  --float_bitwidth FLOAT_BITWIDTH
+                        Use the --float_bitwidth option to select the bitwidth to use for float
+                        tensors,either 32 (default) or 16.
+  --float_bias_bitwidth FLOAT_BIAS_BITWIDTH
+                        Use the --float_bias_bitwidth option to select the bitwidth to use when
+                        biases are in float, either 32 or 16.
+  --ignore_encodings    Use only quantizer generated encodings, ignoring any user or model provided
+                        encodings.
+                        Note: Cannot use --ignore_encodings with --quantization_overrides
+  --use_per_channel_quantization
+                        Use this option to enable per-channel quantization for convolution-based op
+                        weights.
+                        Note: This will replace built-in model QAT encodings when used for a given
+                        weight.
+  --use_per_row_quantization
+                        Use this option to enable rowwise quantization of Matmul and FullyConnected
+== qairt quantize int8 dlc ==
+WARNING: Failed to set thread affinity for cpuset 10. errno = 0. Setting the thread affinity to cpuset f0 instead. 
+2026-07-05 12:08:13,535 - 235 - INFO - Quantization completed successfully: 
+2026-07-05 12:08:14,036 - 235 - INFO - Quantized Model saved at: /workspace/modules/fiboaistack_229_env/outputs/qairt_quant_qemu82_full_20260703_080039/radio_map_liteunet_qairt_quantized.dlc 
+     7.1ms [  INFO ] Inferences will run in sync mode
+    15.5ms [  INFO ] Initializing logging in the backend. Callback: [0x7f5bb3ad10], Log Level: [3]
+    17.6ms [  INFO ] No BackendExtensions lib provided;initializing NetRunBackend Interface
+    37.2ms [  INFO ] [QNN_CPU] CpuBackend creation start
+    37.6ms [  INFO ] [QNN_CPU] CpuBackend creation end
+    56.5ms [WARNING] Unable to find a device with NetRunDeviceKeyDefault in Library NetRunBackendLibKeyDefault
+    56.8ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+    43.6ms [  INFO ] [QNN_CPU] QnnContext create start
+    44.7ms [  INFO ] [QNN_CPU] QnnContext create end
+    73.9ms [  INFO ] Entering QuantizeRuntimeApp flow
+    75.4ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+    62.9ms [  INFO ] [QNN_CPU] CpuGraph creation start
+    63.1ms [  INFO ] [QNN_CPU] CpuGraph creation end
+    64.3ms [  INFO ] [QNN_CPU] QnnGraph create end
+   271.7ms [  INFO ] [QNN_CPU] QnnGraph finalize start
+   318.1ms [  INFO ] [QNN_CPU] QnnGraph finalize end
+   370.4ms [  INFO ] [QNN_CPU] QnnGraph execute start
+ 48695.5ms [  INFO ] [QNN_CPU] QnnGraph execute end
+ 48656.6ms [  INFO ] cleaning up resources for input tensors
+ 48658.6ms [  INFO ] cleaning up resources for output tensors
+ 48780.0ms [  INFO ] [QNN_CPU] QnnGraph execute start
+ 98787.0ms [  INFO ] [QNN_CPU] QnnGraph execute end
+ 98734.9ms [  INFO ] cleaning up resources for input tensors
+ 98735.1ms [  INFO ] cleaning up resources for output tensors
+ 98853.2ms [  INFO ] [QNN_CPU] QnnGraph execute start
+150375.1ms [  INFO ] [QNN_CPU] QnnGraph execute end
+150321.5ms [  INFO ] cleaning up resources for input tensors
+150321.6ms [  INFO ] cleaning up resources for output tensors
+150437.9ms [  INFO ] [QNN_CPU] QnnGraph execute start
+201974.6ms [  INFO ] [QNN_CPU] QnnGraph execute end
+201918.4ms [  INFO ] cleaning up resources for input tensors
+201918.5ms [  INFO ] cleaning up resources for output tensors
+203543.2ms [  INFO ] Freeing graphsInfo
+203544.3ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+203607.3ms [  INFO ] [QNN_CPU] QnnContext Free start
+203815.8ms [  INFO ] [QNN_CPU] QnnContext Free end
+203763.2ms [WARNING] Profile Logger with name = defaultKey doesn't exist!
+203824.2ms [  INFO ] [QNN_CPU] QnnBackend Free start
+203824.9ms [  INFO ] [QNN_CPU] QnnBackend Free end

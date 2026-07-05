@@ -1,0 +1,10 @@
+2026-07-03 11:10:37,894 - 235 - INFO - Input shape info 
+WARNING: The argument `input_shapes` is deprecated. Please use 
+`overwrite_input_shapes` and/or `test_input_shapes` instead. An error will be 
+raised in the future.
+2026-07-03 11:11:23,416 - 235 - INFO - user_provided_output is same as graph_output..skipping update_output_names call
+2026-07-03 11:11:23,678 - 235 - INFO - Skipping quantization, no input_list provided
+2026-07-03 11:11:23,679 - 235 - INFO - Saving QNN Model...
+2026-07-03 11:11:23,719 - 235 - INFO - Model CPP saved at: /workspace/modules/fiboaistack_229_env/outputs/pad_minimal_qnn/constant_pad_conv/constant_pad_conv_qnn.cpp 
+2026-07-03 11:11:23,720 - 235 - INFO - Model BIN saved at: /workspace/modules/fiboaistack_229_env/outputs/pad_minimal_qnn/constant_pad_conv/constant_pad_conv_qnn.bin 
+2026-07-03 11:11:23,743 - 235 - INFO - Conversion complete!

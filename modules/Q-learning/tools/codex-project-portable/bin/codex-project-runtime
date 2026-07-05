@@ -1,0 +1,399 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+TOOLKIT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd -P)"
+RUNTIME_ROOT="${TOOLKIT_ROOT}/runtime"
+RUNTIME_BIN_DIR="${RUNTIME_ROOT}/bin"
+RUNTIME_META_PATH="${RUNTIME_ROOT}/portable-runtime.json"
+NODE_BIN="${RUNTIME_BIN_DIR}/node"
+CODEX_WRAPPER_BIN="${RUNTIME_BIN_DIR}/codex"
+CODEX_JS="${RUNTIME_ROOT}/lib/node_modules/@openai/codex/bin/codex.js"
+TMP_DIR="${RUNTIME_ROOT}/tmp"
+
+die() {
+  printf '错误: %s\n' "$*" >&2
+  exit 1
+}
+
+have_cmd() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+normalize_host_arch() {
+  case "$1" in
+    x86_64|amd64|x64) printf 'x86_64\n' ;;
+    aarch64|arm64) printf 'arm64\n' ;;
+    *) printf '%s\n' "$1" ;;
+  esac
+}
+
+host_platform_arch() {
+  local platform arch
+
+  platform="$(uname -s)"
+  arch="$(normalize_host_arch "$(uname -m)")"
+  printf '%s/%s\n' "${platform}" "${arch}"
+}
+
+extract_archive() {
+  local archive_path="$1"
+  local destination_dir="$2"
+
+  mkdir -p "${destination_dir}"
+
+  case "${archive_path}" in
+    *.tar.xz)
+      if have_cmd tar && tar -xJf "${archive_path}" -C "${destination_dir}" >/dev/null 2>&1; then
+        return 0
+      fi
+      ;;
+    *.tar.gz|*.tgz)
+      if have_cmd tar && tar -xzf "${archive_path}" -C "${destination_dir}" >/dev/null 2>&1; then
+        return 0
+      fi
+      ;;
+    *)
+      if have_cmd tar && tar -xf "${archive_path}" -C "${destination_dir}" >/dev/null 2>&1; then
+        return 0
+      fi
+      ;;
+  esac
+
+  have_cmd python3 || die "需要 python3 作为压缩包解压兜底"
+  python3 - "${archive_path}" "${destination_dir}" <<'PY'
+import sys
+import tarfile
+
+archive_path = sys.argv[1]
+destination_dir = sys.argv[2]
+
+with tarfile.open(archive_path, "r:*") as archive:
+    archive.extractall(destination_dir)
+PY
+}
+
+detect_glibc_version() {
+  local detected=""
+  local candidate=""
+
+  if have_cmd getconf; then
+    detected="$(getconf GNU_LIBC_VERSION 2>/dev/null | awk '{print $2}')"
+  fi
+
+  if [[ -z "${detected}" ]] && have_cmd ldd; then
+    detected="$(ldd --version 2>&1 | sed -n '1s/.* \([0-9][0-9.]*\)$/\1/p' | head -n 1)"
+  fi
+
+  if [[ -z "${detected}" ]]; then
+    for candidate in \
+      /lib/x86_64-linux-gnu/libc.so.6 \
+      /lib/aarch64-linux-gnu/libc.so.6 \
+      /lib64/libc.so.6 \
+      /lib/libc.so.6
+    do
+      [[ -x "${candidate}" ]] || continue
+      detected="$("${candidate}" 2>/dev/null | sed -n '1s/.*version \([0-9][0-9.]*\).*/\1/p' | head -n 1)"
+      [[ -n "${detected}" ]] && break
+    done
+  fi
+
+  printf '%s\n' "${detected}"
+}
+
+version_lt() {
+  python3 - "$1" "$2" <<'PY'
+import sys
+
+def parse(value):
+    return tuple(int(part) for part in value.split(".") if part)
+
+left = parse(sys.argv[1])
+right = parse(sys.argv[2])
+print("yes" if left < right else "no")
+PY
+}
+
+recommended_node_version() {
+  local platform_arch glibc_version
+
+  platform_arch="$(host_platform_arch)"
+
+  case "${platform_arch}" in
+    Linux/x86_64|Linux/arm64)
+      glibc_version="$(detect_glibc_version)"
+      if [[ -n "${glibc_version}" ]] && [[ "$(version_lt "${glibc_version}" "2.28")" == "yes" ]]; then
+        printf 'v16.20.2\n'
+        return 0
+      fi
+      ;;
+  esac
+
+  printf 'v18.20.8\n'
+}
+
+node_filename_for_host() {
+  local node_version="$1"
+  local platform_arch
+
+  platform_arch="$(host_platform_arch)"
+
+  case "${platform_arch}" in
+    Linux/x86_64) printf 'node-%s-linux-x64.tar.xz\n' "${node_version}" ;;
+    Linux/arm64) printf 'node-%s-linux-arm64.tar.xz\n' "${node_version}" ;;
+    Darwin/x86_64) printf 'node-%s-darwin-x64.tar.gz\n' "${node_version}" ;;
+    Darwin/arm64) printf 'node-%s-darwin-arm64.tar.gz\n' "${node_version}" ;;
+    *)
+      die "当前平台暂不支持自动下载: ${platform_arch}"
+      ;;
+  esac
+}
+
+extract_node_archive() {
+  local node_version="$1"
+  local work_dir="$2"
+  local node_filename node_url node_dir_name
+
+  node_filename="$(node_filename_for_host "${node_version}")"
+  node_url="https://nodejs.org/dist/${node_version}/${node_filename}"
+  node_dir_name="${node_filename%.tar.xz}"
+  node_dir_name="${node_dir_name%.tar.gz}"
+
+  rm -rf "${work_dir}"
+  mkdir -p "${work_dir}" "${TMP_DIR}"
+
+  printf '下载 Node: %s\n' "${node_url}" >&2
+  curl -fL "${node_url}" -o "${work_dir}/${node_filename}"
+  extract_archive "${work_dir}/${node_filename}" "${work_dir}"
+
+  printf '%s\n' "${work_dir}/${node_dir_name}"
+}
+
+assert_node_is_runnable() {
+  local node_bin="$1"
+  local requested_node_version="$2"
+  local output="" recommended_version=""
+
+  if output="$("${node_bin}" -v 2>&1)"; then
+    return 0
+  fi
+
+  recommended_version="$(recommended_node_version)"
+  if [[ "${recommended_version}" != "${requested_node_version}" ]]; then
+    die "Node ${requested_node_version} 在当前主机上不可用：${output}；建议改用 ${recommended_version}"
+  fi
+
+  die "Node ${requested_node_version} 在当前主机上不可用：${output}"
+}
+
+overlay_node_distribution_into_runtime() {
+  local node_root="$1"
+
+  mkdir -p "${RUNTIME_ROOT}"
+  rm -f \
+    "${RUNTIME_ROOT}/bin/node" \
+    "${RUNTIME_ROOT}/bin/npm" \
+    "${RUNTIME_ROOT}/bin/npx" \
+    "${RUNTIME_ROOT}/bin/corepack"
+  cp -R "${node_root}/." "${RUNTIME_ROOT}/"
+}
+
+ensure_runtime_npm() {
+  local runtime_node_version="" work_dir="" temp_node_root=""
+
+  if [[ -x "${RUNTIME_ROOT}/bin/npm" ]]; then
+    return 0
+  fi
+
+  [[ -x "${NODE_BIN}" ]] || die "当前 runtime 缺少 node，请先执行 install"
+  runtime_node_version="$("${NODE_BIN}" -v 2>/dev/null || true)"
+  [[ -n "${runtime_node_version}" ]] || die "无法读取当前 runtime 的 Node 版本"
+
+  have_cmd curl || die "需要 curl 下载官方 Node 包"
+
+  printf '当前 runtime 缺少 npm，正在补齐 Node 官方发行包: %s\n' "${runtime_node_version}"
+  work_dir="${TMP_DIR}/restore-npm.$$"
+  temp_node_root="$(extract_node_archive "${runtime_node_version}" "${work_dir}")"
+  assert_node_is_runnable "${temp_node_root}/bin/node" "${runtime_node_version}"
+  overlay_node_distribution_into_runtime "${temp_node_root}"
+  rm -rf "${work_dir}"
+
+  [[ -x "${RUNTIME_ROOT}/bin/npm" ]] || die "补齐 Node 发行包后仍未发现 npm"
+}
+
+runtime_status() {
+  local detected_node_version="" detected_codex_version=""
+  if [[ -x "${NODE_BIN}" ]]; then
+    detected_node_version="$("${NODE_BIN}" -v 2>/dev/null || true)"
+  fi
+  if [[ -x "${CODEX_WRAPPER_BIN}" ]]; then
+    detected_codex_version="$("${CODEX_WRAPPER_BIN}" --version 2>/dev/null || true)"
+  fi
+
+  python3 - "${RUNTIME_META_PATH}" "${NODE_BIN}" "${RUNTIME_ROOT}/bin/npm" "${CODEX_WRAPPER_BIN}" "${CODEX_JS}" "${detected_node_version}" "${detected_codex_version}" "$(detect_glibc_version)" "$(recommended_node_version)" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+meta_path = Path(sys.argv[1])
+node_bin = Path(sys.argv[2])
+npm_bin = Path(sys.argv[3])
+codex_wrapper = Path(sys.argv[4])
+codex_js = Path(sys.argv[5])
+detected_node_version = sys.argv[6]
+detected_codex_version = sys.argv[7]
+host_glibc_version = sys.argv[8]
+recommended_node_version = sys.argv[9]
+
+meta = {}
+if meta_path.exists():
+    try:
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    except Exception:
+        meta = {}
+
+print(f"runtime_root: {meta_path.parent}")
+print(f"node_exists: {'yes' if node_bin.is_file() else 'no'}")
+print(f"npm_exists: {'yes' if npm_bin.is_file() else 'no'}")
+print(f"codex_wrapper_exists: {'yes' if codex_wrapper.is_file() else 'no'}")
+print(f"codex_js_exists: {'yes' if codex_js.is_file() else 'no'}")
+print(f"node_version: {detected_node_version or meta.get('node_version', '')}")
+print(f"codex_version: {detected_codex_version or meta.get('codex_version', '')}")
+print(f"target_triple: {meta.get('target_triple', '')}")
+print(f"platform_package: {meta.get('platform_package', '')}")
+print(f"install_source: {meta.get('install_source', '')}")
+print(f"host_glibc: {host_glibc_version}")
+print(f"recommended_node_version: {recommended_node_version}")
+print(f"updated_at: {meta.get('updated_at', '')}")
+PY
+}
+
+download_node_and_install_codex() {
+  local node_version="${1:-}"
+  local codex_version="${2:-latest}"
+  local work_dir
+  local temp_node_root temp_node_bin temp_npm_bin codex_spec
+
+  have_cmd curl || die "需要 curl 下载官方 Node 包"
+  have_cmd python3 || die "需要 python3 处理版本元数据"
+
+  node_version="${node_version:-$(recommended_node_version)}"
+  work_dir="${TMP_DIR}/install.$$"
+  temp_node_root="$(extract_node_archive "${node_version}" "${work_dir}")"
+  temp_node_bin="${temp_node_root}/bin/node"
+  temp_npm_bin="${temp_node_root}/bin/npm"
+  [[ -x "${temp_node_bin}" ]] || die "解压后缺少 node: ${temp_node_bin}"
+  [[ -x "${temp_npm_bin}" ]] || die "解压后缺少 npm: ${temp_npm_bin}"
+  assert_node_is_runnable "${temp_node_bin}" "${node_version}"
+
+  codex_spec='@openai/codex@latest'
+  if [[ "${codex_version}" != "latest" ]]; then
+    codex_spec="@openai/codex@${codex_version}"
+  fi
+
+  printf '安装 Codex CLI: %s\n' "${codex_spec}"
+  PATH="${temp_node_root}/bin:${PATH}" "${temp_npm_bin}" install -g --prefix "${temp_node_root}" "${codex_spec}"
+
+  mkdir -p "${RUNTIME_ROOT}"
+  rm -rf "${RUNTIME_ROOT}/bin" "${RUNTIME_ROOT}/include" "${RUNTIME_ROOT}/lib" "${RUNTIME_ROOT}/share"
+  cp -R "${temp_node_root}/." "${RUNTIME_ROOT}/"
+
+  CODEX_PORTABLE_RUNTIME_SOURCE="official-download" \
+    "${SCRIPT_DIR}/codex-project" sync-runtime --from-node "${RUNTIME_ROOT}/bin/node" --from-codex "${RUNTIME_ROOT}/bin/codex"
+
+  rm -rf "${work_dir}"
+}
+
+update_existing_codex() {
+  local codex_version="${1:-latest}"
+  local codex_spec
+
+  [[ -x "${NODE_BIN}" ]] || die "当前 runtime 缺少 node，请先执行 install"
+  ensure_runtime_npm
+
+  codex_spec='@openai/codex@latest'
+  if [[ "${codex_version}" != "latest" ]]; then
+    codex_spec="@openai/codex@${codex_version}"
+  fi
+
+  printf '更新 Codex CLI: %s\n' "${codex_spec}"
+  PATH="${RUNTIME_ROOT}/bin:${PATH}" "${RUNTIME_ROOT}/bin/npm" install -g --prefix "${RUNTIME_ROOT}" "${codex_spec}"
+
+  CODEX_PORTABLE_RUNTIME_SOURCE="official-update" \
+    "${SCRIPT_DIR}/codex-project" sync-runtime --from-node "${RUNTIME_ROOT}/bin/node" --from-codex "${RUNTIME_ROOT}/bin/codex"
+}
+
+prompt_install_runtime() {
+  local default_node_version
+  local node_version codex_version
+
+  default_node_version="$(recommended_node_version)"
+  printf '将从官方源安装 Node，并用 npm 安装 Codex CLI。\n'
+  printf '推荐 Node 版本 [%s]: ' "${default_node_version}"
+  read -r node_version || true
+  node_version="${node_version:-${default_node_version}}"
+
+  printf 'Codex 版本 [latest]: '
+  read -r codex_version || true
+  codex_version="${codex_version:-latest}"
+
+  download_node_and_install_codex "${node_version}" "${codex_version}"
+}
+
+prompt_update_codex() {
+  local codex_version
+
+  printf '将使用当前 runtime 内置的 npm 更新 Codex CLI。\n'
+  printf 'Codex 版本 [latest]: '
+  read -r codex_version || true
+  codex_version="${codex_version:-latest}"
+
+  update_existing_codex "${codex_version}"
+}
+
+menu() {
+  while true; do
+    printf '\nCodex Portable Runtime Manager\n'
+    printf '1. 查看当前 runtime 状态\n'
+    printf '2. 从官方源下载 Node 并安装 Codex CLI\n'
+    printf '3. 使用工具内 npm 更新 Codex CLI\n'
+    printf '4. 退出\n'
+    printf '选择 [1-4]: '
+
+    local answer
+    if ! read -r answer; then
+      exit 0
+    fi
+
+    case "${answer}" in
+      1) runtime_status ;;
+      2) prompt_install_runtime ;;
+      3) prompt_update_codex ;;
+      4) exit 0 ;;
+      *) printf '输入无效，请重试。\n' ;;
+    esac
+  done
+}
+
+subcommand="${1:-interactive}"
+if [[ $# -gt 0 ]]; then
+  shift
+fi
+
+case "${subcommand}" in
+  interactive|menu)
+    menu
+    ;;
+  status)
+    runtime_status
+    ;;
+  install)
+    download_node_and_install_codex "${1:-}" "${2:-latest}"
+    ;;
+  update)
+    update_existing_codex "${1:-latest}"
+    ;;
+  *)
+    die "未知子命令: ${subcommand}"
+    ;;
+esac

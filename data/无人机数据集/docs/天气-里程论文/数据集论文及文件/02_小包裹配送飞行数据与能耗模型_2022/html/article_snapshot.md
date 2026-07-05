@@ -1,0 +1,4105 @@
+- generic [ref=e1]:
+  - text: ⚠
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip to main content":
+        - /url: "#screen-reader-main-content"
+        - generic [ref=e7] [cursor=pointer]: Skip to main content
+      - link "Skip to article":
+        - /url: "#screen-reader-main-title"
+        - generic [ref=e8] [cursor=pointer]: Skip to article
+      - banner [ref=e9]:
+        - generic [ref=e10]:
+          - link "ScienceDirect home page" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier logo" [ref=e12]
+            - img [ref=e13]
+          - generic [ref=e21]:
+            - navigation "links" [ref=e22]:
+              - list [ref=e23]:
+                - listitem [ref=e24]:
+                  - link "Journals & Books" [ref=e25] [cursor=pointer]:
+                    - /url: /browse/journals-and-books
+                    - generic [ref=e26]: Journals & Books
+            - navigation "utilities" [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - button "Help" [ref=e33] [cursor=pointer]:
+                    - img [ref=e34]
+                    - generic [ref=e5689]: Help
+                - listitem [ref=e37]:
+                  - button "Search" [ref=e39] [cursor=pointer]:
+                    - img [ref=e40]
+                    - generic [ref=e5690]: Search
+          - link "My account" [ref=e44] [cursor=pointer]:
+            - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS2666389922001805&from=globalheader
+            - img [ref=e45]
+            - generic [ref=e5691]: My account
+          - button "Beijing University of Posts and Telecommunications Institutional Access" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+            - generic [ref=e5692]: Beijing University of Posts and Telecommunications
+      - main [ref=e55]:
+        - region "Download options and search" [ref=e57]:
+          - list "PDF Options" [ref=e59]:
+            - listitem [ref=e60]:
+              - link "View PDF. Opens in a new window." [ref=e61] [cursor=pointer]:
+                - /url: /science/article/pii/S2666389922001805/pdfft?md5=b59dd65542325a76c137dd48541fa0f7&pid=1-s2.0-S2666389922001805-main.pdf
+                - img [ref=e62]
+                - generic [ref=e69]:
+                  - text: View
+                  - strong [ref=e70]: PDF
+            - listitem [ref=e71]:
+              - button "Download full issue" [ref=e72] [cursor=pointer]:
+                - generic [ref=e74]: Download full issue
+            - listitem [ref=e75]
+            - listitem [ref=e77]:
+              - link "View Open Manuscript" [ref=e78] [cursor=pointer]:
+                - /url: /science/article/am/pii/S2666389922001805
+                - generic [ref=e80]: View Open Manuscript
+        - generic [ref=e81]:
+          - navigation "Table of contents" [ref=e82]:
+            - generic [ref=e353]:
+              - button "Expand Reading Assistant" [ref=e356] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Reading Assistant
+                  - generic:
+                    - button [disabled]:
+                      - img
+              - generic [ref=e357]:
+                - heading "Outline" [level=2] [ref=e358]
+                - list [ref=e359]:
+                  - listitem [ref=e360]:
+                    - link "Highlights" [ref=e361] [cursor=pointer]:
+                      - /url: "#abs0020"
+                      - generic [ref=e362]: Highlights
+                  - listitem [ref=e363]:
+                    - link "The bigger picture" [ref=e364] [cursor=pointer]:
+                      - /url: "#abs0025"
+                      - generic [ref=e365]: The bigger picture
+                  - listitem [ref=e366]:
+                    - link "Summary" [ref=e367] [cursor=pointer]:
+                      - /url: "#abs0010"
+                      - generic [ref=e368]: Summary
+                  - listitem [ref=e369]:
+                    - link "Graphical abstract" [ref=e370] [cursor=pointer]:
+                      - /url: "#abs0015"
+                      - generic [ref=e371]: Graphical abstract
+                  - listitem [ref=e372]:
+                    - link "Keywords" [ref=e373] [cursor=pointer]:
+                      - /url: "#kwrds0010"
+                      - generic [ref=e374]: Keywords
+                  - listitem [ref=e375]:
+                    - link "Data science maturity" [ref=e376] [cursor=pointer]:
+                      - /url: "#kwrds0015"
+                      - generic [ref=e377]: Data science maturity
+                  - listitem [ref=e378]:
+                    - link "Introduction" [ref=e379] [cursor=pointer]:
+                      - /url: "#sec1"
+                      - generic [ref=e380]: Introduction
+                  - listitem [ref=e381]:
+                    - link "Results" [ref=e382] [cursor=pointer]:
+                      - /url: "#sec2"
+                      - generic [ref=e383]: Results
+                  - listitem [ref=e384]:
+                    - link "Discussion" [ref=e385] [cursor=pointer]:
+                      - /url: "#sec3"
+                      - generic [ref=e386]: Discussion
+                  - listitem [ref=e387]:
+                    - link "Experimental procedures" [ref=e388] [cursor=pointer]:
+                      - /url: "#sec4"
+                      - generic [ref=e389]: Experimental procedures
+                  - listitem [ref=e390]:
+                    - link "Acknowledgments" [ref=e391] [cursor=pointer]:
+                      - /url: "#ack0010"
+                      - generic [ref=e392]: Acknowledgments
+                  - listitem [ref=e393]:
+                    - link "Supplemental information" [ref=e394] [cursor=pointer]:
+                      - /url: "#appsec2"
+                      - generic [ref=e395]: Supplemental information
+                  - listitem [ref=e396]:
+                    - link "Data and code availability" [ref=e397] [cursor=pointer]:
+                      - /url: "#da0010"
+                      - generic [ref=e398]: Data and code availability
+                  - listitem [ref=e399]:
+                    - link "References" [ref=e400] [cursor=pointer]:
+                      - /url: "#cebib0010"
+                      - generic [ref=e401]: References
+                - button "Show full outline" [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403]: Show full outline
+                  - img [ref=e404]
+              - heading "Cited by (72)" [level=2] [ref=e408]:
+                - link "Cited by (72)" [ref=e409] [cursor=pointer]:
+                  - /url: "#section-cited-by"
+                  - generic [ref=e410]: Cited by (72)
+              - generic [ref=e412]:
+                - heading "Figures (8)" [level=2] [ref=e413]
+                - list [ref=e414]:
+                  - listitem [ref=e415]:
+                    - link "Unlabelled figure" [ref=e416] [cursor=pointer]:
+                      - /url: "#undfig1"
+                      - img "Unlabelled figure" [ref=e417]
+                  - listitem [ref=e418]:
+                    - link "Figure1. Our data show that for the range of cruise speeds tested, there is no practical…" [ref=e419] [cursor=pointer]:
+                      - /url: "#fig1"
+                      - img "Figure1. Our data show that for the range of cruise speeds tested, there is no practical…" [ref=e420]
+                  - listitem [ref=e421]:
+                    - link "Figure2. Small drone total energy consumption and greenhouse gas emissions by distance" [ref=e422] [cursor=pointer]:
+                      - /url: "#fig2"
+                      - img "Figure2. Small drone total energy consumption and greenhouse gas emissions by distance" [ref=e423]
+                  - listitem [ref=e424]:
+                    - link "Figure3. GHG emissions per km from a drone package delivery with a 0" [ref=e425] [cursor=pointer]:
+                      - /url: "#fig3"
+                      - img "Figure3. GHG emissions per km from a drone package delivery with a 0" [ref=e426]
+                  - listitem [ref=e427]:
+                    - link "Figure4. Energy consumption per distance and per package delivered for different…" [ref=e428] [cursor=pointer]:
+                      - /url: "#fig4"
+                      - img "Figure4. Energy consumption per distance and per package delivered for different…" [ref=e429]
+                  - listitem [ref=e430]:
+                    - link "Figure5. GHG emissions per distance and per package delivered for different…" [ref=e431] [cursor=pointer]:
+                      - /url: "#fig5"
+                      - img "Figure5. GHG emissions per distance and per package delivered for different…" [ref=e432]
+                - button "Show 2 more figures" [ref=e433] [cursor=pointer]:
+                  - generic [ref=e434]: Show 2 more figures
+                  - img [ref=e435]
+              - generic [ref=e438]:
+                - heading "Tables (3)" [level=2] [ref=e439]
+                - list [ref=e440]:
+                  - listitem [ref=e441]:
+                    - link "Table 1" [ref=e442] [cursor=pointer]:
+                      - /url: "#tbl1"
+                      - img [ref=e443]
+                      - generic [ref=e445]: Table 1
+                  - listitem [ref=e446]:
+                    - link "Table 2" [ref=e447] [cursor=pointer]:
+                      - /url: "#tbl2"
+                      - img [ref=e448]
+                      - generic [ref=e450]: Table 2
+                  - listitem [ref=e451]:
+                    - link "Table 3" [ref=e452] [cursor=pointer]:
+                      - /url: "#tbl3"
+                      - img [ref=e453]
+                      - generic [ref=e455]: Table 3
+              - generic [ref=e457]:
+                - heading "Extras (2)" [level=2] [ref=e458]
+                - list [ref=e459]:
+                  - listitem [ref=e460]:
+                    - button "Download all" [ref=e464] [cursor=pointer]:
+                      - img [ref=e465]
+                      - generic [ref=e468]: Download all
+                  - listitem [ref=e469]:
+                    - link "Document S1. Supplemental experimental procedures, Figures S1–S13, and Tables S1–S4" [ref=e470] [cursor=pointer]:
+                      - /url: "#mmc1"
+                      - img [ref=e471]
+                      - generic [ref=e473]: Document S1. Supplemental experimental procedures, Figures S1–S13, and Tables S1–S4
+                  - listitem [ref=e474]:
+                    - link "Document S2. Article plus supplemental information" [ref=e475] [cursor=pointer]:
+                      - /url: "#mmc2"
+                      - img [ref=e476]
+                      - generic [ref=e478]: Document S2. Article plus supplemental information
+          - article [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - link "Patterns" [ref=e86] [cursor=pointer]:
+                  - /url: /journal/patterns
+                  - img "Patterns" [ref=e89]
+                - generic [ref=e90]:
+                  - link "Volume 3, Issue 8" [ref=e91] [cursor=pointer]:
+                    - /url: /journal/patterns/vol/3/issue/8
+                    - generic [ref=e92]: Volume 3, Issue 8
+                  - text: ", 12 August 2022, 100569"
+              - link "Homepage for Patterns" [ref=e94] [cursor=pointer]:
+                - /url: /journal/patterns/vol/3/issue/8
+                - img "Society Logo" [ref=e97]
+            - heading "Article Drone flight data reveal energy and greenhouse gas emissions savings for very small package delivery" [level=1] [ref=e98]:
+              - generic [ref=e99]: Article
+              - text: Drone flight data reveal energy and greenhouse gas emissions savings for very small package delivery
+            - generic [ref=e100]:
+              - generic [ref=e103]:
+                - generic [ref=e104]: Author links open overlay panel
+                - button "Thiago A. Rodrigues 1Correspondence author iconAuthor email or social media contact details icon" [ref=e105] [cursor=pointer]:
+                  - generic [ref=e107]:
+                    - generic [ref=e108]: Thiago A. Rodrigues
+                    - superscript [ref=e110]: "1"
+                    - img "Correspondence author icon" [ref=e111]
+                    - img "Author email or social media contact details icon" [ref=e113]
+                - text: ","
+                - button "Jay Patrikar 2" [ref=e115] [cursor=pointer]:
+                  - generic [ref=e117]:
+                    - generic [ref=e118]: Jay Patrikar
+                    - superscript [ref=e120]: "2"
+                - text: ","
+                - button "Natalia L. Oliveira 3 4" [ref=e121] [cursor=pointer]:
+                  - generic [ref=e123]:
+                    - generic [ref=e124]: Natalia L. Oliveira
+                    - superscript [ref=e126]: "3"
+                    - superscript [ref=e128]: "4"
+                - text: ","
+                - link "H. Scott Matthews 1" [ref=e480] [cursor=pointer]:
+                  - /url: /author/7202534265/h-scott-matthews
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: H. Scott Matthews
+                    - superscript [ref=e485]: "1"
+                - text: ","
+                - link "Sebastian Scherer 2" [ref=e486] [cursor=pointer]:
+                  - /url: /author/15846506300/sebastian-scherer
+                  - generic [ref=e488]:
+                    - generic [ref=e489]: Sebastian Scherer
+                    - superscript [ref=e491]: "2"
+                - text: ","
+                - link "Constantine Samaras 1 5" [ref=e492] [cursor=pointer]:
+                  - /url: /author/24341721700/constantine-samaras
+                  - generic [ref=e494]:
+                    - generic [ref=e495]: Constantine Samaras
+                    - superscript [ref=e497]: "1"
+                    - superscript [ref=e499]: "5"
+                - button "Correspondence author iconAuthor email or social media contact details icon" [ref=e500] [cursor=pointer]:
+                  - generic [ref=e502]:
+                    - img "Correspondence author icon" [ref=e503]
+                    - img "Author email or social media contact details icon" [ref=e505]
+              - button "Show more" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]: Show more
+                - img [ref=e155]
+              - generic [ref=e157]:
+                - button "Add to Mendeley" [ref=e158] [cursor=pointer]:
+                  - img [ref=e159]
+                  - generic [ref=e161]: Add to Mendeley
+                - button "Share" [ref=e165] [cursor=pointer]:
+                  - img [ref=e166]
+                  - generic [ref=e168]: Share
+                - button "Cite" [ref=e172] [cursor=pointer]:
+                  - img [ref=e173]
+                  - generic [ref=e175]: Cite
+            - generic [ref=e176]:
+              - link "Persistent link using digital object identifier" [ref=e177] [cursor=pointer]:
+                - /url: https://doi.org/10.1016/j.patter.2022.100569
+                - generic [ref=e178]:
+                  - text: https://doi.org/10.1016/j.patter.2022.100569
+                  - img "Opens in new window" [ref=e179]
+              - link "Get rights and contentOpens in new window" [ref=e181] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S2666389922001805&orderBeanReset=true
+                - generic [ref=e182]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=e183]
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - text: Under a Creative Commons
+                - link "licenseOpens in new window" [ref=e187] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by/4.0/
+                  - generic [ref=e188]:
+                    - text: license
+                    - img "Opens in new window" [ref=e189]
+              - generic [ref=e191]: Open access
+            - generic [ref=e507]:
+              - generic [ref=e508]: Referred to by
+              - generic [ref=e510]:
+                - link "Will drones revolutionize home delivery? Let’s get real…" [ref=e512] [cursor=pointer]:
+                  - /url: /science/article/pii/S2666389922001751
+                  - generic [ref=e514]: Will drones revolutionize home delivery? Let’s get real…
+                - generic [ref=e515]: Patterns, Volume 3, Issue 8, 12 August 2022, Pages 100564
+                - generic [ref=e516]: James F. Campbell
+                - link "View PDF" [ref=e517] [cursor=pointer]:
+                  - /url: /science/article/pii/S2666389922001751/pdfft?md5=3317b45a520501432d8b5be0587947fd&pid=1-s2.0-S2666389922001751-main.pdf
+                  - img [ref=e518]
+                  - generic [ref=e523]: View PDF
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - heading "Highlights" [level=2] [ref=e196]
+                - list [ref=e199]:
+                  - listitem [ref=e200]:
+                    - generic [ref=e201]: •
+                    - generic [ref=e203]: Drones can have up to 94% lower energy consumption per package than other vehicles
+                  - listitem [ref=e204]:
+                    - generic [ref=e205]: •
+                    - generic [ref=e207]:
+                      - text: Small quadcopter drones consume approximately 0.08 MJ/km and emit 70 gCO
+                      - subscript [ref=e208]: "2"
+                      - text: e/package
+                  - listitem [ref=e209]:
+                    - generic [ref=e210]: •
+                    - generic [ref=e212]: Total energy consumption can be reduced by 34% by reducing vertical takeoff
+                  - listitem [ref=e213]:
+                    - generic [ref=e214]: •
+                    - generic [ref=e216]: GHG emissions are up to 93% higher in regions with a more carbon-intensive grid mix
+              - generic [ref=e217]:
+                - heading "The bigger picture" [level=2] [ref=e218]
+                - generic [ref=e220]: The growing demand for fast, contactless deliveries has been driving firms to experiment with automated package-delivery vehicles that can avoid urban traffic and rapidly reach customers. Widespread adoption of uncrewed aerial vehicles (UAVs) to replace a portion of first/last-mile truck pickups and deliveries could reshape transportation energy by changing demand patterns and shifting fuel use from fossil fuels to electricity. There is a need to optimize drones and systems to maximize energy productivity. Here, we help stakeholders and researchers understand the energy use of package-delivery drones and provide an open model based on 188 delivery-drone flights with a range of payloads, speeds, and altitudes. We show the impact of the cruise speed and payload mass on the drone’s range, provide generalizable coefficients for others to estimate drone energy use, and show that the energy per package delivered by drones can be up to 94% lower than conventional transportation modes.
+              - generic [ref=e221]:
+                - heading "Summary" [level=2] [ref=e222]
+                - generic [ref=e224]:
+                  - text: Uncrewed aerial vehicles (UAVs) for last-mile deliveries will affect the energy productivity of delivery and require new methods to understand energy consumption and greenhouse gas (GHG) emissions. We combine empirical testing of 188 quadcopter flights across a range of speeds with a first-principles analysis to develop a usable energy model and a machine-learning algorithm to assess energy across takeoff, cruise, and landing. Our model shows that an electric quadcopter drone with a very small package (0.5 kg) would consume approximately 0.08 MJ/km and result in 70 g of CO
+                  - subscript [ref=e225]: "2"
+                  - generic [ref=e524]:
+                    - generic [ref=e525]:
+                      - text: e per package in the United States. We compare
+                      - link "drone delivery" [ref=e526] [cursor=pointer]:
+                        - /url: /topics/engineering/drone-delivery
+                      - text: with other vehicles and show that energy per package delivered by drones (0.33 MJ/package) can be up to 94% lower than conventional
+                    - link "transportation modes" [ref=e527] [cursor=pointer]:
+                      - /url: /topics/physics-and-astronomy/transportation-mode
+                    - generic [ref=e528]:
+                      - text: ", with only electric cargo bicycles providing lower GHGs/package. Our open model and coefficients can assist stakeholders in understanding and improving the"
+                      - link "sustainability" [ref=e529] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/environmental-impact-assessment
+                      - text: of small package delivery.
+              - generic [ref=e226]:
+                - heading "Graphical abstract" [level=2] [ref=e227]
+                - figure [ref=e231]:
+                  - list [ref=e233]:
+                    - listitem [ref=e234]:
+                      - 'link "Download: Download high-res image (110KB)" [ref=e235] [cursor=pointer]':
+                        - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-fx1_lrg.jpg
+                        - generic [ref=e237]: "Download: Download high-res image (110KB)"
+                    - listitem [ref=e238]:
+                      - 'link "Download: Download full-size image" [ref=e239] [cursor=pointer]':
+                        - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-fx1.jpg
+                        - generic [ref=e241]: "Download: Download full-size image"
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - link "Previous article in issue" [ref=e530] [cursor=pointer]:
+                  - /url: /science/article/pii/S266638992200160X
+                  - img [ref=e531]
+                  - generic [ref=e534]: Previous article in issue
+              - listitem [ref=e249]:
+                - link "Next article in issue" [ref=e535] [cursor=pointer]:
+                  - /url: /science/article/pii/S2666389922001830
+                  - generic [ref=e537]: Next article in issue
+                  - img [ref=e538]
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - heading "Keywords" [level=2] [ref=e257]
+                - generic [ref=e258]: quadcopter drone;
+                - generic [ref=e259]: last-mile delivery;
+                - generic [ref=e260]: energy consumption;
+                - generic [ref=e261]: greenhouse gas emissions;
+                - generic [ref=e262]: robot delivery;
+                - generic [ref=e263]: autonomous delivery
+              - generic [ref=e264]:
+                - heading "Data science maturity" [level=2] [ref=e265]
+                - generic [ref=e266]: "DSML 2: Proof-of-concept: Data science output has been formulated, implemented, and tested for one domain/problem"
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - heading "Introduction" [level=2] [ref=e543]
+                  - generic [ref=e544]:
+                    - generic [ref=e545]:
+                      - text: Achieving large improvements in the energy productivity of
+                      - link "freight transportation" [ref=e546] [cursor=pointer]:
+                        - /url: /topics/engineering/freight-transportation
+                      - generic [ref=e547]:
+                        - generic [ref=e548]:
+                          - text: is challenging, especially in the overwhelmingly petroleum-powered transport sector where medium and heavy trucks in the United States comprise 24% of
+                          - link "transportation energy" [ref=e549] [cursor=pointer]:
+                            - /url: /topics/engineering/energy-transportation
+                          - text: use. This sector is responsible for 37% of transportation-related greenhouse gas (GHG) emissions, while light-duty vehicles comprise 57% of transportation GHG emissions and 64% of transportation energy use. In addition, transportation remains a large source of
+                        - link "nitrogen oxides" [ref=e550] [cursor=pointer]:
+                          - /url: /topics/physics-and-astronomy/nitrogen-oxide
+                        - generic [ref=e551]:
+                          - text: (NOxs) and other
+                          - link "air pollutants" [ref=e552] [cursor=pointer]:
+                            - /url: /topics/earth-and-planetary-sciences/air-pollutant
+                          - text: .
+                    - link "1" [ref=e553] [cursor=pointer]:
+                      - /url: "#bib1"
+                      - superscript [ref=e556]: "1"
+                    - text: However, the way that consumers are obtaining goods in the United States is changing rapidly.
+                    - link "2" [ref=e557] [cursor=pointer]:
+                      - /url: "#bib2"
+                      - superscript [ref=e560]: "2"
+                  - generic [ref=e561]:
+                    - text: Even before COVID-19, the growing demand
+                    - link "3" [ref=e562] [cursor=pointer]:
+                      - /url: "#bib3"
+                      - superscript [ref=e565]: "3"
+                    - text: for fast, contactless deliveries has been driving firms to experiment with automated package-delivery vehicles, such as uncrewed aerial vehicles (UAVs), that can avoid traffic in urban centers.
+                    - link "4" [ref=e566] [cursor=pointer]:
+                      - /url: "#bib4"
+                      - superscript [ref=e569]: "4"
+                    - superscript [ref=e570]: ","
+                    - link "5" [ref=e571] [cursor=pointer]:
+                      - /url: "#bib5"
+                      - superscript [ref=e574]: "5"
+                    - text: Initial survey data of 483 customers in Portland, Oregon by Pani et al.
+                    - link "6" [ref=e575] [cursor=pointer]:
+                      - /url: "#bib6"
+                      - superscript [ref=e578]: "6"
+                    - text: show that COVID-19 is contributing to an environment where more than 60% of online customers are willing to pay extra to receive their packages using autonomous delivery robots. Nevertheless, along with technology and policy challenges, increased shipping costs is a limitation for the adoption of autonomous delivery vehicles.
+                    - link "7" [ref=e579] [cursor=pointer]:
+                      - /url: "#bib7"
+                      - superscript [ref=e582]: "7"
+                  - generic [ref=e583]:
+                    - text: The appeal of delivery robots also reflects new physical distancing demands to avoid the spread of coronavirus in product deliveries,
+                    - link "8" [ref=e584] [cursor=pointer]:
+                      - /url: "#bib8"
+                      - superscript [ref=e587]: "8"
+                    - text: and as autonomous delivery technologies advance, new companies emerge to compete for this market niche.
+                    - link "9" [ref=e588] [cursor=pointer]:
+                      - /url: "#bib9"
+                      - superscript [ref=e591]: "9"
+                    - text: At the same time, alternative transport modes, such as electric cargo bicycles, are becoming cost-effective alternatives to delivery trucks for short-distance deliveries,
+                    - link "10" [ref=e592] [cursor=pointer]:
+                      - /url: "#bib10"
+                      - superscript [ref=e595]: "10"
+                    - text: drastically reducing the CO
+                    - subscript [ref=e596]: "2"
+                    - text: emissions of last-mile delivery in dense metropolitan areas.
+                    - link "11" [ref=e597] [cursor=pointer]:
+                      - /url: "#bib11"
+                      - superscript [ref=e600]: "11"
+                    - text: With the increased electrification of delivery vehicles, the energy consumption and environmental impacts of the transportation sector are expected to change drastically over the coming years,
+                    - link "12" [ref=e601] [cursor=pointer]:
+                      - /url: "#bib12"
+                      - superscript [ref=e604]: "12"
+                    - superscript [ref=e605]: ","
+                    - link "13" [ref=e606] [cursor=pointer]:
+                      - /url: "#bib13"
+                      - superscript [ref=e609]: "13"
+                    - generic [ref=e610]:
+                      - text: and technology, policy, and demand are primary drivers. Widespread adoption of UAVs to replace a portion of first/last-mile truck pickups and deliveries could reshape this sector by changing demand patterns and shifting fuel demands from
+                      - link "fossil fuels" [ref=e611] [cursor=pointer]:
+                        - /url: /topics/physics-and-astronomy/fossil-fuel
+                      - text: to electricity. Autonomous delivery robots are coming to the transportation sector, but how these vehicles and systems could be designed to maximize energy productivity is less clear.
+                  - generic [ref=e612]:
+                    - text: So far, a few studies have estimated the energy consumption of quadcopter vehicles, and the energy estimations vary considerably among the different methods used.
+                    - link "14" [ref=e613] [cursor=pointer]:
+                      - /url: "#bib14"
+                      - superscript [ref=e616]: "14"
+                    - text: Some studies have created models based on theoretical principles,
+                    - link "15" [ref=e617] [cursor=pointer]:
+                      - /url: "#bib15"
+                      - generic [ref=e618]: "15"
+                    - text: ","
+                    - link "16" [ref=e619] [cursor=pointer]:
+                      - /url: "#bib16"
+                      - generic [ref=e620]: "16"
+                    - text: ","
+                    - link "17" [ref=e621] [cursor=pointer]:
+                      - /url: "#bib17"
+                      - generic [ref=e622]: "17"
+                    - text: ","
+                    - link "18" [ref=e623] [cursor=pointer]:
+                      - /url: "#bib18"
+                      - generic [ref=e624]: "18"
+                    - text: ","
+                    - link "19" [ref=e625] [cursor=pointer]:
+                      - /url: "#bib19"
+                      - generic [ref=e626]: "19"
+                    - text: ","
+                    - link "20" [ref=e627] [cursor=pointer]:
+                      - /url: "#bib20"
+                      - generic [ref=e628]: "20"
+                    - text: ","
+                    - link "21" [ref=e629] [cursor=pointer]:
+                      - /url: "#bib21"
+                      - generic [ref=e630]: "21"
+                    - text: ","
+                    - link "22" [ref=e631] [cursor=pointer]:
+                      - /url: "#bib22"
+                      - generic [ref=e632]: "22"
+                    - text: ","
+                    - link "23" [ref=e633] [cursor=pointer]:
+                      - /url: "#bib23"
+                      - generic [ref=e634]: "23"
+                    - text: while others have developed models based on regression models built on small flight samples.
+                    - link "17" [ref=e635] [cursor=pointer]:
+                      - /url: "#bib17"
+                      - superscript [ref=e638]: "17"
+                    - superscript [ref=e639]: ","
+                    - link "21" [ref=e640] [cursor=pointer]:
+                      - /url: "#bib21"
+                      - superscript [ref=e643]: "21"
+                    - superscript [ref=e644]: ","
+                    - link "24" [ref=e645] [cursor=pointer]:
+                      - /url: "#bib24"
+                      - superscript [ref=e648]: "24"
+                    - generic [ref=e649]:
+                      - text: Finally, a comparison of the energy consumption and GHG emissions between package-delivery UAVs and different
+                      - link "transportation modes" [ref=e650] [cursor=pointer]:
+                        - /url: /topics/physics-and-astronomy/transportation-mode
+                      - text: have been estimated by a few studies,
+                    - link "20" [ref=e651] [cursor=pointer]:
+                      - /url: "#bib20"
+                      - superscript [ref=e654]: "20"
+                    - superscript [ref=e655]: ","
+                    - link "25" [ref=e656] [cursor=pointer]:
+                      - /url: "#bib25"
+                      - generic [ref=e657]: "25"
+                    - text: ","
+                    - link "26" [ref=e658] [cursor=pointer]:
+                      - /url: "#bib26"
+                      - generic [ref=e659]: "26"
+                    - text: ","
+                    - link "27" [ref=e660] [cursor=pointer]:
+                      - /url: "#bib27"
+                      - generic [ref=e661]: "27"
+                    - generic [ref=e662]:
+                      - text: but alternative emerging delivery modes, such as electric cargo bicycles, are not included. Our study builds a model based on a much larger empirical test sample of a drone operating at altitudes between 25 and 100 m and with drone
+                      - link "ground speeds" [ref=e663] [cursor=pointer]:
+                        - /url: /topics/engineering/ground-speed
+                      - text: that vary from 4 to 12 m/s in flights operating under wind conditions varying from 2 to 16 knots. We show that, within these limits, the ground speed and the wind condition impact little on the average energy consumption of the quadcopter drone and that the induced power at a hover and no-wind condition can be used as a good estimator of the average power experienced by the aircraft throughout the flight.
+                  - generic [ref=e664]:
+                    - generic [ref=e665]:
+                      - text: The adoption of a multirotor UAV was motivated by the commercial use of similar aircraft by last-mile delivery companies. For example, the company SpeedBird Aero has used a multirotor with a capacity of 2 kg to deliver food in
+                      - link "Latin America" [ref=e666] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/latin-america
+                      - text: .
+                    - link "28" [ref=e667] [cursor=pointer]:
+                      - /url: "#bib28"
+                      - superscript [ref=e670]: "28"
+                    - text: The Irish drone startup Manna
+                    - link "29" [ref=e671] [cursor=pointer]:
+                      - /url: "#bib29"
+                      - superscript [ref=e674]: "29"
+                    - text: uses a quadcopter drone to carry payloads varying between 2 and 4 kg.
+                    - link "30" [ref=e675] [cursor=pointer]:
+                      - /url: "#bib30"
+                      - superscript [ref=e678]: "30"
+                    - generic [ref=e679]:
+                      - text: The DJI Matrice 100 (M100) used in this study is a smaller quadcopter drone and was tested with a maximum payload of 0.5 kg. The M100 carrying a very small payload is likely smaller than purpose-built package-delivery drones for larger packages, which require future work to understand
+                      - link "specific energy" [ref=e680] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/specific-energy
+                      - text: characteristics. However, we believe that the results using the M100 can provide important information to researchers and industry professionals working with UAVs for last-mile deliveries for very small packages such as medical deliveries, critical parts, or other time-sensitive payloads. Here, we help stakeholders and researchers understand the energy use of uncrewed aerial package-delivery drones. We provide an energy model based on extensive empirical data from 188 flights of a quadcopter drone M100, from which we developed a high-resolution dataset of package-delivery-drone energy use.
+                    - link "31" [ref=e681] [cursor=pointer]:
+                      - /url: "#bib31"
+                      - superscript [ref=e684]: "31"
+                    - generic [ref=e685]:
+                      - text: In addition, we develop an algorithm that automatically identifies the flight regime across takeoff, cruise, and landing. We show the impact of the cruise speed and
+                      - link "payload mass" [ref=e686] [cursor=pointer]:
+                        - /url: /topics/engineering/payload-mass
+                      - text: on the drone’s range and provide energy-use coefficients. We use our energy model to compare the energy consumption and GHG emissions of the drone with delivery trucks, delivery vans, and electric cargo bicycles on a distance and package basis. We show how the drone’s emissions differ regionally in the US according to the electricity mix. We perform a sensitivity analysis on the energy consumption on a distance basis (MJ/km) and show the minimum drone energy consumption required to match different vehicles, which can help inform drone designers for future efficient UAVs. Finally, we show the delivery intensity required to match the GHG emissions of the drone for each region of the US.
+                - generic [ref=e687]:
+                  - heading "Results" [level=2] [ref=e688]
+                  - generic [ref=e689]:
+                    - text: We conducted a first-principles analysis and developed a model to estimate the energy required to power a quadcopter. Each of the flight regimes (takeoff, cruise, and landing) were modeled separately, so each energy model was treated as a model class and three different optimal models from that class were selected, one per regime. In order to fairly compare the model classes’ performance and avoid overfitting, we split the data into train and test folds following a
+                    - link "stratification strategy" [ref=e690] [cursor=pointer]:
+                      - /url: /topics/engineering/stratification-strategy
+                    - text: by flight ID number. With 120 flights, the training fold was used to estimate the parameters of each model, which were then applied to the remaining 68 flights from the test fold in order to evaluate the performance of the energy models on unseen data.
+                  - generic [ref=e691]:
+                    - heading "Energy model derived from flights" [level=3] [ref=e692]
+                    - generic [ref=e693]:
+                      - text: Our energy (E) model uses the induced power
+                      - generic [ref=e695]:
+                        - img [ref=e696]
+                        - math [ref=e706]:
+                          - generic [ref=e707]:
+                            - generic [ref=e708]: (
+                            - generic [ref=e709]:
+                              - generic [ref=e710]: P
+                              - generic [ref=e711]: i
+                      - text: ), which is the power required to overcome gravity in a hover-no-wind situation, as a parameter estimator of the average power observed throughout the flight.
+                      - generic [ref=e713]:
+                        - generic [ref=e714]: (Equation 1)
+                        - generic [ref=e716]:
+                          - img [ref=e717]
+                          - math [ref=e751]:
+                            - generic [ref=e752]:
+                              - generic [ref=e753]: E
+                              - generic [ref=e754]: =
+                              - generic [ref=e755]:
+                                - generic [ref=e756]: (
+                                - generic [ref=e757]:
+                                  - generic [ref=e758]:
+                                    - generic [ref=e759]: b
+                                    - generic [ref=e760]: "1"
+                                    - generic [ref=e761]: ′
+                                  - generic [ref=e762]:
+                                    - generic [ref=e763]: P
+                                    - generic [ref=e764]: i
+                                  - generic [ref=e765]: +
+                                  - generic [ref=e766]:
+                                    - generic [ref=e767]: b
+                                    - generic [ref=e768]: "0"
+                                - generic [ref=e769]: )
+                              - generic [ref=e770]: t
+                              - generic [ref=e771]: ","
+                      - text: where
+                      - generic [ref=e773]:
+                        - img [ref=e774]
+                        - math [ref=e779]:
+                          - generic [ref=e781]: t
+                      - text: is the flight duration, and
+                      - generic [ref=e783]:
+                        - img [ref=e784]
+                        - math [ref=e794]:
+                          - generic [ref=e796]:
+                            - generic [ref=e797]: b
+                            - generic [ref=e798]: "1"
+                            - generic [ref=e799]: ′
+                      - text: and
+                      - generic [ref=e801]:
+                        - img [ref=e802]
+                        - math [ref=e810]:
+                          - generic [ref=e812]:
+                            - generic [ref=e813]: b
+                            - generic [ref=e814]: "0"
+                      - text: are coefficients that linearly correlate
+                      - generic [ref=e816]:
+                        - img [ref=e817]
+                        - math [ref=e825]:
+                          - generic [ref=e827]:
+                            - generic [ref=e828]: P
+                            - generic [ref=e829]: i
+                      - text: and the average power throughout the flight.
+                    - generic [ref=e830]:
+                      - text: The
+                      - emphasis [ref=e831]: P
+                      - subscript [ref=e832]:
+                        - emphasis [ref=e833]: i
+                      - text: ", used in"
+                      - link "Equation 1" [ref=e834] [cursor=pointer]:
+                        - /url: "#fd1"
+                        - generic [ref=e835]: Equation 1
+                      - text: ", is calculated as"
+                      - generic [ref=e837]:
+                        - generic [ref=e838]: (Equation 2)
+                        - generic [ref=e840]:
+                          - img [ref=e841]
+                          - math [ref=e882]:
+                            - generic [ref=e883]:
+                              - generic [ref=e884]:
+                                - generic [ref=e885]: P
+                                - generic [ref=e886]: i
+                              - generic [ref=e887]: =
+                              - generic [ref=e888]:
+                                - generic [ref=e889]:
+                                  - generic [ref=e890]:
+                                    - generic [ref=e891]: (
+                                    - generic [ref=e892]:
+                                      - generic [ref=e893]: m
+                                      - generic [ref=e894]: g
+                                    - generic [ref=e895]: )
+                                  - generic [ref=e896]: "1.5"
+                                - generic [ref=e898]:
+                                  - generic [ref=e899]: "2"
+                                  - generic [ref=e900]: ρ
+                                  - generic [ref=e901]: A
+                              - generic [ref=e902]: ","
+                      - text: where
+                      - generic [ref=e904]:
+                        - img [ref=e905]
+                        - math [ref=e910]:
+                          - generic [ref=e912]: m
+                      - text: is the total mass of the drone (including the payload),
+                      - generic [ref=e914]:
+                        - img [ref=e915]
+                        - math [ref=e920]:
+                          - generic [ref=e922]: g
+                      - text: is the acceleration of gravity,
+                      - generic [ref=e924]:
+                        - img [ref=e925]
+                        - math [ref=e930]:
+                          - generic [ref=e932]: ρ
+                      - generic [ref=e933]:
+                        - text: is the air density that we obtained from the closest
+                        - link "airport" [ref=e934] [cursor=pointer]:
+                          - /url: /topics/engineering/airfield
+                        - text: station (KAGC), and
+                      - generic [ref=e936]:
+                        - img [ref=e937]
+                        - math [ref=e942]:
+                          - generic [ref=e944]: A
+                      - generic [ref=e945]:
+                        - text: is the total area under the
+                        - link "propellers" [ref=e946] [cursor=pointer]:
+                          - /url: /topics/materials-science/propeller
+                        - text: . Our experiment focused on one type of quadcopter drone; hence, A is constant here.
+                    - generic [ref=e947]:
+                      - generic [ref=e948]:
+                        - text: Combining
+                        - link "Equation 2" [ref=e949] [cursor=pointer]:
+                          - /url: "#fd2"
+                          - generic [ref=e950]: Equation 2
+                        - text: and
+                        - link "Equation 1" [ref=e951] [cursor=pointer]:
+                          - /url: "#fd1"
+                          - generic [ref=e952]: Equation 1
+                        - text: ","
+                        - generic [ref=e954]:
+                          - generic [ref=e955]: (Equation 3)
+                          - generic [ref=e957]:
+                            - img [ref=e958]
+                            - math [ref=e1001]:
+                              - generic [ref=e1002]:
+                                - generic [ref=e1003]: E
+                                - generic [ref=e1004]: =
+                                - generic [ref=e1005]:
+                                  - generic [ref=e1006]: (
+                                  - generic [ref=e1007]:
+                                    - generic [ref=e1008]:
+                                      - generic [ref=e1009]: b
+                                      - generic [ref=e1010]: "1"
+                                    - generic [ref=e1011]:
+                                      - generic [ref=e1012]:
+                                        - generic [ref=e1013]: m
+                                        - generic [ref=e1014]: "1.5"
+                                      - generic [ref=e1016]: ρ
+                                    - generic [ref=e1017]: +
+                                    - generic [ref=e1018]:
+                                      - generic [ref=e1019]: b
+                                      - generic [ref=e1020]: "0"
+                                  - generic [ref=e1021]: )
+                                - generic [ref=e1022]: t
+                                - generic [ref=e1023]: ","
+                        - text: where
+                        - generic [ref=e1025]:
+                          - img [ref=e1026]
+                          - math [ref=e1034]:
+                            - generic [ref=e1036]:
+                              - generic [ref=e1037]: b
+                              - generic [ref=e1038]: "1"
+                        - generic [ref=e1039]:
+                          - text: includes the constants A and g. The
+                          - link "estimated coefficients" [ref=e1040] [cursor=pointer]:
+                            - /url: /topics/engineering/estimated-coefficient
+                          - text: and their standard errors are shown in
+                        - link "Table 1" [ref=e1041] [cursor=pointer]:
+                          - /url: "#tbl1"
+                          - generic [ref=e1042]: Table 1
+                        - text: .
+                      - generic [ref=e1043]:
+                        - paragraph [ref=e1046]:
+                          - text: Table 1.
+                          - link "Model coefficient" [ref=e1047] [cursor=pointer]:
+                            - /url: /topics/engineering/model-coefficient
+                          - text: ± bootstrap standard error
+                        - table [ref=e1049]:
+                          - rowgroup [ref=e1050]:
+                            - row "Coef. Takeoff Cruise Landing" [ref=e1051]:
+                              - columnheader "Coef." [ref=e1052]
+                              - columnheader "Takeoff" [ref=e1053]
+                              - columnheader "Cruise" [ref=e1054]
+                              - columnheader "Landing" [ref=e1055]
+                          - rowgroup [ref=e1056]:
+                            - row "b1 80.4 ± 2.6 68.9 ± 2.0 71.5 ± 1.7" [ref=e1057]:
+                              - cell "b1" [ref=e1058]:
+                                - text: b
+                                - subscript [ref=e1059]: "1"
+                              - cell "80.4 ± 2.6" [ref=e1060]
+                              - cell "68.9 ± 2.0" [ref=e1061]
+                              - cell "71.5 ± 1.7" [ref=e1062]
+                            - row "b0 13.8 ± 18.9 16.8 ± 15.0 −24.3 ± 12.5" [ref=e1063]:
+                              - cell "b0" [ref=e1064]:
+                                - text: b
+                                - subscript [ref=e1065]: "0"
+                              - cell "13.8 ± 18.9" [ref=e1066]
+                              - cell "16.8 ± 15.0" [ref=e1067]
+                              - cell "−24.3 ± 12.5" [ref=e1068]
+                            - row "R2 0.84 0.85 0.90" [ref=e1069]:
+                              - cell "R2" [ref=e1070]:
+                                - text: R
+                                - link "2" [ref=e1071] [cursor=pointer]:
+                                  - /url: "#bib2"
+                                  - superscript [ref=e1074]: "2"
+                              - cell "0.84" [ref=e1075]
+                              - cell "0.85" [ref=e1076]
+                              - cell "0.90" [ref=e1077]
+                    - generic [ref=e1078]:
+                      - text: The coefficients shown in
+                      - link "Table 1" [ref=e1079] [cursor=pointer]:
+                        - /url: "#tbl1"
+                        - generic [ref=e1080]: Table 1
+                      - text: were obtained by performing a linear regression between
+                      - generic [ref=e1082]:
+                        - img [ref=e1083]
+                        - math [ref=e1091]:
+                          - generic [ref=e1093]:
+                            - generic [ref=e1094]: P
+                            - generic [ref=e1095]: i
+                      - generic [ref=e1096]:
+                        - text: and the average power observed throughout each of the 120 flights. The results were then applied to the remaining flights, and the absolute
+                        - link "relative error" [ref=e1097] [cursor=pointer]:
+                          - /url: /topics/engineering/relative-error
+                        - text: was 2.1% on average, proving the accuracy of the energy model in terms of estimation of energy consumption.
+                    - generic [ref=e1098]:
+                      - generic [ref=e1099]:
+                        - generic [ref=e1100]:
+                          - text: With the energy model validated, we estimated the energy consumption of a package delivered by a small quadcopter drone. Our energy model suggests that within the speed range tested, the average
+                          - link "power consumption" [ref=e1101] [cursor=pointer]:
+                            - /url: /topics/engineering/electric-power-utilization
+                          - text: of a quadcopter does not vary considerably with the speed during cruise, which has also been observed with our dataset (
+                        - link "Figure 1" [ref=e1102] [cursor=pointer]:
+                          - /url: "#fig1"
+                          - generic [ref=e1103]: Figure 1
+                        - text: ). The speed does affect total flight time, and hence for the drone and range of speeds we tested, total power consumption of each delivery will be higher when flight speeds are lower.
+                      - figure [ref=e1104]:
+                        - generic [ref=e1105]:
+                          - img [ref=e1106]
+                          - list [ref=e1107]:
+                            - listitem [ref=e1108]:
+                              - 'link "Download: Download high-res image (116KB)" [ref=e1109] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr1_lrg.jpg
+                                - generic [ref=e1111]: "Download: Download high-res image (116KB)"
+                            - listitem [ref=e1112]:
+                              - 'link "Download: Download full-size image" [ref=e1113] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr1.jpg
+                                - generic [ref=e1115]: "Download: Download full-size image"
+                        - paragraph [ref=e1118]: Figure 1. Our data show that for the range of cruise speeds tested, there is no practical variation in the drone’s average power consumption (approximately 5% variation between the median of flights at 4 and 12 m/s)
+                  - generic [ref=e1119]:
+                    - heading "Drone energy use and GHG emissions" [level=3] [ref=e1120]
+                    - generic [ref=e1121]:
+                      - generic [ref=e1122]:
+                        - generic [ref=e1123]:
+                          - text: The
+                          - link "GHG emissions" [ref=e1124] [cursor=pointer]:
+                            - /url: /topics/physics-and-astronomy/greenhouse-gas-emission
+                          - text: of a package delivery by drone will depend on the total electricity needed for the delivery and the emissions intensity of the regional electricity grid.
+                        - link "20" [ref=e1125] [cursor=pointer]:
+                          - /url: "#bib20"
+                          - superscript [ref=e1128]: "20"
+                        - generic [ref=e1129]:
+                          - text: Our analysis shows that variations in the cruise speed have a large impact on the total energy consumption per trip and, consequently, the range of the drone. Because the total
+                          - link "time of flight" [ref=e1130] [cursor=pointer]:
+                            - /url: /topics/engineering/time-of-flight
+                          - text: is reduced as the speed increases, a faster speed (with normal operating parameters) for a quadcopter generally enables longer delivery distances for the same amount of energy. We show the influence of speed, payload, and delivery distance on total energy consumption in
+                        - link "Figure 2" [ref=e1131] [cursor=pointer]:
+                          - /url: "#fig2"
+                          - generic [ref=e1132]: Figure 2
+                        - text: A.
+                      - figure [ref=e1133]:
+                        - generic [ref=e1134]:
+                          - img [ref=e1135]
+                          - list [ref=e1136]:
+                            - listitem [ref=e1137]:
+                              - 'link "Download: Download high-res image (299KB)" [ref=e1138] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr2_lrg.jpg
+                                - generic [ref=e1140]: "Download: Download high-res image (299KB)"
+                            - listitem [ref=e1141]:
+                              - 'link "Download: Download full-size image" [ref=e1142] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr2.jpg
+                                - generic [ref=e1144]: "Download: Download full-size image"
+                        - generic [ref=e1146]:
+                          - paragraph [ref=e1147]: Figure 2. Small drone total energy consumption and greenhouse gas emissions by distance
+                          - generic [ref=e1148]: (A) Total energy consumption by distance of delivery varying payload mass and cruise speed. Total trip energy is higher at lower speeds for a fixed distance.
+                          - generic [ref=e1149]:
+                            - text: (B) CO
+                            - subscript [ref=e1150]: "2"
+                            - text: e emissions of delivering a payload of 0.5 kg at a cruise speed of 12 m/s, the fastest speed evaluated, based on the delivery distance. The uncertainty area corresponds to US regional grid emissions factors. The total energy and CO
+                            - subscript [ref=e1151]: "2"
+                            - text: e correspond to takeoff, cruise from the origin to destination, and landing loaded and takeoff, cruise from destination to origin, and landing empty. As an energy limitation, the nominal capacity of an LiPO TB48D battery is 130 Wh. Results shown here have an altitude during cruise of 100 m, takeoff speed of 2.5 m/s, and landing speed of 2 m/s.
+                    - generic [ref=e1152]:
+                      - generic [ref=e1153]:
+                        - text: We then calculated the
+                        - link "GHG emissions" [ref=e1154] [cursor=pointer]:
+                          - /url: /topics/earth-and-planetary-sciences/greenhouse-gas-emission
+                        - text: per package delivered based on the US regional non-baseload electricity GHG emissions from the US Environmental Protection Agency,
+                      - link "32" [ref=e1155] [cursor=pointer]:
+                        - /url: "#bib32"
+                        - superscript [ref=e1158]: "32"
+                      - generic [ref=e1159]:
+                        - text: upstream
+                        - link "electricity generation" [ref=e1160] [cursor=pointer]:
+                          - /url: /topics/engineering/power-generation
+                        - text: emissions, and battery life cycle emissions. In
+                      - link "Figure 2" [ref=e1161] [cursor=pointer]:
+                        - /url: "#fig2"
+                        - generic [ref=e1162]: Figure 2
+                      - text: B, we show the GHG emissions per package delivery as a function of the delivery distance. We show the results for the fastest speed evaluated, 12 m/s; however, the model enables evaluation across the full range of speeds, altitudes, and payloads.
+                    - generic [ref=e1163]:
+                      - generic [ref=e1164]:
+                        - text: We illustrate the impacts of the GHG intensity of a regional electricity grid on drone package delivery GHGs in
+                        - link "Figure 3" [ref=e1165] [cursor=pointer]:
+                          - /url: "#fig3"
+                          - generic [ref=e1166]: Figure 3
+                        - text: . Using regional non-baseload emissions factors, we show that a drone package delivery in the carbon-intensive central Midwest would emit up to 93% more CO
+                        - subscript [ref=e1167]: "2"
+                        - text: e per km traveled (23.5 g CO
+                        - subscript [ref=e1168]: "2"
+                        - text: e/km) compared with regions with cleaner grid mixes such as New York, which would result in drone emissions of 12.1 g CO
+                        - subscript [ref=e1169]: "2"
+                        - text: e/km.
+                      - figure [ref=e1170]:
+                        - generic [ref=e1171]:
+                          - img [ref=e1172]
+                          - list [ref=e1173]:
+                            - listitem [ref=e1174]:
+                              - 'link "Download: Download high-res image (276KB)" [ref=e1175] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr3_lrg.jpg
+                                - generic [ref=e1177]: "Download: Download high-res image (276KB)"
+                            - listitem [ref=e1178]:
+                              - 'link "Download: Download full-size image" [ref=e1179] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr3.jpg
+                                - generic [ref=e1181]: "Download: Download full-size image"
+                        - paragraph [ref=e1184]: Figure 3. GHG emissions per km from a drone package delivery with a 0.5-kg payload and 2-km one-way delivery distance (4-km round trip), according to the sub-region’s non-baseload electricity grid carbon intensity
+                  - generic [ref=e1185]:
+                    - heading "Comparison between different transportation modes" [level=3] [ref=e1186]
+                    - generic [ref=e1187]:
+                      - text: We compared the energy consumption of quadcopter drones against
+                      - link "diesel" [ref=e1188] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/diesel
+                      - text: and electric medium-duty trucks and small vans and electric cargo bicycles.
+                    - generic [ref=e1189]:
+                      - generic [ref=e1190]:
+                        - generic [ref=e1191]:
+                          - generic [ref=e1192]:
+                            - text: The total energy consumption per distance of small quadcopter drones is among the lowest across
+                            - link "transportation modes" [ref=e1193] [cursor=pointer]:
+                              - /url: /topics/physics-and-astronomy/transportation-mode
+                            - text: ", as the vehicle is small, light, and has lower"
+                          - link "payload capacity" [ref=e1194] [cursor=pointer]:
+                            - /url: /topics/engineering/payload-capacity
+                          - text: (
+                        - link "Figure 4" [ref=e1195] [cursor=pointer]:
+                          - /url: "#fig4"
+                          - generic [ref=e1196]: Figure 4
+                        - text: A).
+                        - link "Figure 4" [ref=e1197] [cursor=pointer]:
+                          - /url: "#fig4"
+                          - generic [ref=e1198]: Figure 4
+                        - text: B shows the energy consumption per package of drone-equivalent deliveries, i.e., assuming that all packages delivered by the other modes are within the payload and space capacity of a small quadcopter drone. On an energy consumption per package basis, small quadcopter drones and electric cargo bicycles are among the most energy-efficient modes for small package delivery. The number of stops per kilometer and the number of packages delivered per stop varies according to the transportation mode and delivery density (highly dense areas are more likely to have more stops and packages delivered per kilometer).
+                      - figure [ref=e1199]:
+                        - generic [ref=e1200]:
+                          - img [ref=e1201]
+                          - list [ref=e1202]:
+                            - listitem [ref=e1203]:
+                              - 'link "Download: Download high-res image (206KB)" [ref=e1204] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr4_lrg.jpg
+                                - generic [ref=e1206]: "Download: Download high-res image (206KB)"
+                            - listitem [ref=e1207]:
+                              - 'link "Download: Download full-size image" [ref=e1208] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr4.jpg
+                                - generic [ref=e1210]: "Download: Download full-size image"
+                        - generic [ref=e1212]:
+                          - paragraph [ref=e1213]: Figure 4. Energy consumption per distance and per package delivered for different transportation modes
+                          - generic [ref=e1214]: Error bars represent variations in (A) driving styles and vehicle characteristics and (B) number of packages delivered per distance.
+                    - generic [ref=e1215]:
+                      - generic [ref=e1216]:
+                        - text: Similarly, an analysis of the GHG emissions of the fuel of each transportation mode shows that quadcopter drones and electric cargo bicycles are among the most efficient vehicles in g of CO
+                        - subscript [ref=e1217]: "2"
+                        - text: e per km (
+                        - link "Figure 5" [ref=e1218] [cursor=pointer]:
+                          - /url: "#fig5"
+                          - generic [ref=e1219]: Figure 5
+                        - text: A) and a competitive alternative in terms of GHG emissions per package (
+                        - link "Figure 5" [ref=e1220] [cursor=pointer]:
+                          - /url: "#fig5"
+                          - generic [ref=e1221]: Figure 5
+                        - text: B). On the other hand, it is important to note that small drones are considerably limited in terms of weight and volume of the packages transported. Therefore, an analysis of the energy consumption and GHG emissions on a per metric ton-km basis in
+                        - link "Figure S1" [ref=e1222] [cursor=pointer]:
+                          - /url: "#mmc1"
+                          - generic [ref=e1223]: Figure S1
+                        - generic [ref=e1224]:
+                          - text: shows that small drones are the most energy-intensive vehicles. Also, local
+                          - link "airspace" [ref=e1225] [cursor=pointer]:
+                            - /url: /topics/earth-and-planetary-sciences/airspace
+                          - text: regulations, such as not flying over people and/or motor vehicles,
+                        - link "33" [ref=e1226] [cursor=pointer]:
+                          - /url: "#bib33"
+                          - superscript [ref=e1229]: "33"
+                        - text: could impose longer delivery routes, were not considered in this study, and could potentially increase the drone’s energy consumption and GHG emissions per package delivered.
+                        - link "34" [ref=e1230] [cursor=pointer]:
+                          - /url: "#bib34"
+                          - superscript [ref=e1233]: "34"
+                      - figure [ref=e1234]:
+                        - generic [ref=e1235]:
+                          - img [ref=e1236]
+                          - list [ref=e1237]:
+                            - listitem [ref=e1238]:
+                              - 'link "Download: Download high-res image (271KB)" [ref=e1239] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr5_lrg.jpg
+                                - generic [ref=e1241]: "Download: Download high-res image (271KB)"
+                            - listitem [ref=e1242]:
+                              - 'link "Download: Download full-size image" [ref=e1243] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr5.jpg
+                                - generic [ref=e1245]: "Download: Download full-size image"
+                        - generic [ref=e1247]:
+                          - paragraph [ref=e1248]: Figure 5. GHG emissions per distance and per package delivered for different transportation modes
+                          - generic [ref=e1249]: Error bars (A and B) represent uncertainties due to variations on fuel carbon intensity, battery life cycle emissions, and number of packages delivered per distance.
+                    - generic [ref=e1250]:
+                      - text: We compared our results with values provided by the United Parcel Service (UPS). In 2019, UPS reported the energy intensity for US Domestic Package operations was 28 MJ/package, from which ground vehicles represented approximately 9.5 MJ/package or 34% (airline fuel, facility heating fuel, and indirect energy correspond to 60%, 3%, and 3%, respectively), with GHG emissions (CO
+                      - subscript [ref=e1251]: "2"
+                      - text: e) intensity of 1 kg/package.
+                      - link "35" [ref=e1252] [cursor=pointer]:
+                        - /url: "#bib35"
+                        - superscript [ref=e1255]: "35"
+                      - text: It is important to note that these values encompass the entire ground fleet rather than only last-mile delivery.
+                    - generic [ref=e1256]:
+                      - generic [ref=e1257]:
+                        - text: Finally, assuming a base case where the drone delivers an average of 0.25 packages per km (one-way delivery distance of 2 km) and consumes 0.08 MJ/km, we calculated the minimum number of packages per km required by each vehicle to match the drone’s energy consumption and CO
+                        - subscript [ref=e1258]: "2"
+                        - text: e per package.
+                        - link "Table 2" [ref=e1259] [cursor=pointer]:
+                          - /url: "#tbl2"
+                          - generic [ref=e1260]: Table 2
+                        - text: shows that a medium-duty diesel truck would require approximately 34 packages per km to meet the drone’s performance, which would correspond to having 200 packages delivered in a route of less than 6 km. On the other hand, a small electric van would require a delivery intensity of approximately five packages per km, or a 39-km route to deliver 200 packages, which could potentially be achieved in dense urban centers.
+                      - generic [ref=e1261]:
+                        - paragraph [ref=e1264]: Table 2. Delivery density of each mode to match the drone’s energy consumption per package, and the minimum drone energy consumption to match the vehicle’s energy consumption per package
+                        - table [ref=e1266]:
+                          - rowgroup [ref=e1267]:
+                            - row "Vehicle Delivery density required to match drone energy consumption (package/km) (multiplier from base case) Minimum energy consumption required for the drone (MJ/km)" [ref=e1268]:
+                              - columnheader "Vehicle" [ref=e1269]
+                              - columnheader "Delivery density required to match drone energy consumption (package/km) (multiplier from base case)" [ref=e1270]
+                              - columnheader "Minimum energy consumption required for the drone (MJ/km)" [ref=e1271]
+                          - rowgroup [ref=e1272]:
+                            - row "Medium-duty diesel truck 33.8 (16.1×) 1.31" [ref=e1273]:
+                              - cell "Medium-duty diesel truck" [ref=e1274]
+                              - cell "33.8 (16.1×)" [ref=e1275]
+                              - cell "1.31" [ref=e1276]
+                            - row "Small diesel van 15.0 (4.3×) 0.35" [ref=e1277]:
+                              - cell "Small diesel van" [ref=e1278]
+                              - cell "15.0 (4.3×)" [ref=e1279]
+                              - cell "0.35" [ref=e1280]
+                            - row "Medium-duty electric truck 11.7 (5.6×) 0.45" [ref=e1281]:
+                              - cell "Medium-duty electric truck" [ref=e1282]
+                              - cell "11.7 (5.6×)" [ref=e1283]
+                              - cell "0.45" [ref=e1284]
+                            - row "Small electric van 5.1 (1.5×) 0.12" [ref=e1285]:
+                              - cell "Small electric van" [ref=e1286]
+                              - cell "5.1 (1.5×)" [ref=e1287]
+                              - cell "0.12" [ref=e1288]
+                            - row "Electric cargo bicycle 0.3 (0.3×) 0.03" [ref=e1289]:
+                              - cell "Electric cargo bicycle" [ref=e1290]
+                              - cell "0.3 (0.3×)" [ref=e1291]
+                              - cell "0.03" [ref=e1292]
+                            - row "Small quadcopter drone (base case) 0.25 0.07" [ref=e1293]:
+                              - cell "Small quadcopter drone (base case)" [ref=e1294]
+                              - cell "0.25" [ref=e1295]
+                              - cell "0.07" [ref=e1296]
+                    - generic [ref=e1297]:
+                      - text: Moreover,
+                      - link "Table 2" [ref=e1298] [cursor=pointer]:
+                        - /url: "#tbl2"
+                        - generic [ref=e1299]: Table 2
+                      - text: also shows the minimum energy consumption required for the drone to match each vehicle’s energy consumption per package. To have a similar energy consumption per package delivered by a medium-duty diesel truck, a small quadcopter drone would need to consume 1.31 MJ/km (approximately 19 times more than our base-case estimate).
+                      - link "Figure S2" [ref=e1300] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e1301]: Figure S2
+                      - generic [ref=e1302]:
+                        - text: provides a similar analysis considering that the GHG emissions showing that a diesel truck would need to deliver between 10 and 19 packages per km depending on the region of operation. Future work could estimate of the density of deliveries that would support operations with similar delivery density on a per-area basis to understand which communities are likely to have energy and GHG savings with
+                        - link "drone deliveries" [ref=e1303] [cursor=pointer]:
+                          - /url: /topics/engineering/drone-delivery
+                        - text: .
+                - generic [ref=e1304]:
+                  - heading "Discussion" [level=2] [ref=e1305]
+                  - generic [ref=e1306]:
+                    - text: A small quadcopter drone, with a payload of 0.5 kg operating at a cruise speed of 12 m/s and a cruise altitude of 100 m, consumes approximately 0.08 MJ/km and generates 70.1 g of CO
+                    - subscript [ref=e1307]: "2"
+                    - text: e per package when charged on average non-baseload US electricity, with a range of 48.5 g per package in New York (the cleanest US electricity region) to 93.8 g per package in the most carbon-intensive region in the central Midwest. Only electric cargo bicycles had a lower carbon footprint per package, from 16.8 g per package in New York, 23.4 g per package for the average US, and 30.8 g per package in the central Midwest. As the electricity grid gets cleaner over time, the carbon intensity of delivery with electricity-powered vehicles, whether drone, cargo bicycle, van, or truck, will continue to improve.
+                  - generic [ref=e1308]: Our energy model has simple and accurate coefficients that can provide stakeholders and researchers with a drone-energy-consumption estimation for speeds below 12 m/s for similar small drones. However, at greater speeds or using drones with more surface area or mass, a more comprehensive energy-profile method could provide more accurate predictions.
+                  - generic [ref=e1309]:
+                    - text: The energy consumption of a very small, commercially available quadcopter drone with payload of 0.5 kg is comparable to the most energy-efficient modes of last-mile delivery when the total mass of delivery is not the main feature considered. For example, in delivery situations where small and light items with high added value, such as medical deliveries, critical packages, and small electronics, very small drones might become a competitive tool to reduce transportation emissions in large urban centers.
+                    - link "36" [ref=e1310] [cursor=pointer]:
+                      - /url: "#bib36"
+                      - superscript [ref=e1313]: "36"
+                    - generic [ref=e1314]:
+                      - text: In these scenarios, we found that drones can reduce the energy consumption by 94% and 31% and GHG emissions by 84% and 29% per package delivered by replacing
+                      - link "diesel" [ref=e1315] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/diesel
+                      - text: trucks and electric vans, respectively. We also found that electric cargo bicycles had similar or lower GHGs per package than drones. We also found that the delivery intensity, i.e., the number of packages delivered per km, and the fuel carbon intensity are the main factors contributing to the drone’s comparative energy and environmental performance.
+                  - generic [ref=e1316]:
+                    - text: Adding empirical tests to assess the impacts of varying the area of the
+                    - link "propeller" [ref=e1317] [cursor=pointer]:
+                      - /url: /topics/materials-science/propeller
+                    - text: ", the drone geometry and delivery intensity that were not included in this study could provide an important contribution to this field in future work. It is also important to note that the drone used to collect the data was not optimized to minimize energy consumption, which could further improve its efficiency. The drone used was designed for a very small package, and future studies should include heavier payloads. Given the potential for improved energy productivity of delivery and reduced GHGs per package, very small package delivery by drone and electric cargo bicycles can play an important role in reducing the energy and climate impacts of package delivery."
+                - generic [ref=e1318]:
+                  - heading "Experimental procedures" [level=2] [ref=e1319]
+                  - generic [ref=e1320]:
+                    - heading "Resource availability" [level=3] [ref=e1321]
+                    - generic [ref=e1322]:
+                      - heading "Lead contact" [level=4] [ref=e1323]
+                      - generic [ref=e1324]:
+                        - text: Further information should be directed to and will be fulfilled by the lead contact, Dr. Samaras (
+                        - link "csamaras@cmu.eduOpens in new window" [ref=e1325] [cursor=pointer]:
+                          - /url: mailto:csamaras@cmu.edu
+                          - generic [ref=e1326]:
+                            - text: csamaras@cmu.edu
+                            - img "Opens in new window" [ref=e1327]
+                        - text: ).
+                    - generic [ref=e1329]:
+                      - heading "Materials availability" [level=4] [ref=e1330]
+                      - generic [ref=e1331]: This study did not generate new unique reagents.
+                  - generic [ref=e1332]:
+                    - heading "Empirical data collection from drone flight" [level=3] [ref=e1333]
+                    - generic [ref=e1334]:
+                      - text: We performed a series of flights to empirically measure the energy consumption of a quadcopter UAV. An experimental protocol was created and followed to ensure a reliable approach for data acquisition.
+                      - link "31" [ref=e1335] [cursor=pointer]:
+                        - /url: "#bib31"
+                        - superscript [ref=e1338]: "31"
+                    - generic [ref=e1339]:
+                      - generic [ref=e1340]:
+                        - generic [ref=e1341]:
+                          - text: An M100 quadcopter was equipped with an anemometer, current and voltage monitor,
+                          - link "GPS" [ref=e1342] [cursor=pointer]:
+                            - /url: /topics/physics-and-astronomy/global-positioning-system
+                          - text: ", and"
+                        - link "accelerometer" [ref=e1343] [cursor=pointer]:
+                          - /url: /topics/materials-science/accelerometer
+                        - generic [ref=e1344]:
+                          - text: collecting data on
+                          - link "wind speed" [ref=e1345] [cursor=pointer]:
+                            - /url: /topics/earth-and-planetary-sciences/wind-velocity
+                          - generic [ref=e1346]:
+                            - generic [ref=e1347]:
+                              - text: and direction,
+                              - link "battery" [ref=e1348] [cursor=pointer]:
+                                - /url: /topics/engineering/battery-electrochemical-energy-engineering
+                              - text: current and voltage demand, and position, orientation, velocity, and acceleration. The flights were performed in a pre-established route with varying altitudes (25, 50, 75, and 100 m), speeds (4, 6, 8, 10, and 12 m/s), and
+                            - link "payload mass" [ref=e1349] [cursor=pointer]:
+                              - /url: /topics/engineering/payload-mass
+                            - text: (no payload, 250 g, and 500 g). The sensors and computer box attached to the drone weighed approximately 1,200 g. Each combination was repeated at least three times, totaling 188 flights. The data provided by each sensor were synchronized to a frequency of approximately 5 Hz using the ApproximateTime
+                      - link "38" [ref=e1350] [cursor=pointer]:
+                        - /url: "#bib38"
+                        - superscript [ref=e1353]: "38"
+                      - text: message filter policy of Robot Operating System (ROS).
+                    - generic [ref=e1354]:
+                      - text: "For a better understanding of the energy-consumption profile of each flight, we created an algorithm to automatically divide the data into three different flight regimes: takeoff, cruise, and landing ("
+                      - link "Figures S3–S6" [ref=e1355] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e1356]: Figures S3–S6
+                      - text: ). The data available in Rodrigues et al.
+                      - link "37" [ref=e1357] [cursor=pointer]:
+                        - /url: "#bib37"
+                        - superscript [ref=e1360]: "37"
+                      - text: were processed using this algorithm before the analysis described in the next sections.
+                  - generic [ref=e1361]:
+                    - heading "First-principles analysis" [level=3] [ref=e1362]
+                    - generic [ref=e1363]:
+                      - text: The energy required to power a UAV can be estimated using a first-principles analysis based on helicopter aerodynamics.
+                      - link "39" [ref=e1364] [cursor=pointer]:
+                        - /url: "#bib39"
+                        - superscript [ref=e1367]: "39"
+                      - text: First, we defined the working coordinate frames for a quadcopter drone (
+                      - link "Figures S7–S9" [ref=e1368] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e1369]: Figures S7–S9
+                      - text: ). Then, we assessed the power required to maintain the drone at a steady hover condition. Finally, we expanded the power analysis to include other power demands.
+                    - generic [ref=e1370]:
+                      - generic [ref=e1371]:
+                        - text: The main power demand of a drone is in the form of
+                        - generic [ref=e1373]:
+                          - img [ref=e1374]
+                          - math [ref=e1382]:
+                            - generic [ref=e1384]:
+                              - generic [ref=e1385]: P
+                              - generic [ref=e1386]: i
+                        - text: . The
+                        - emphasis [ref=e1387]: P
+                        - subscript [ref=e1388]:
+                          - emphasis [ref=e1389]: i
+                        - generic [ref=e1390]:
+                          - text: represents the power required to overcome the
+                          - link "force of gravity" [ref=e1391] [cursor=pointer]:
+                            - /url: /topics/physics-and-astronomy/gravitation
+                          - text: in order to keep the aircraft in the air, and it can vary according to the flight maneuver.
+                        - link "39" [ref=e1392] [cursor=pointer]:
+                          - /url: "#bib39"
+                          - superscript [ref=e1395]: "39"
+                        - text: The most basic way to estimate
+                        - generic [ref=e1397]:
+                          - img [ref=e1398]
+                          - math [ref=e1406]:
+                            - generic [ref=e1408]:
+                              - generic [ref=e1409]: P
+                              - generic [ref=e1410]: i
+                        - text: is considering a hover condition without wind (
+                        - link "Figure 6" [ref=e1411] [cursor=pointer]:
+                          - /url: "#fig6"
+                          - generic [ref=e1412]: Figure 6
+                        - text: ).
+                      - figure [ref=e1413]:
+                        - generic [ref=e1414]:
+                          - img [ref=e1415]
+                          - list [ref=e1416]:
+                            - listitem [ref=e1417]:
+                              - 'link "Download: Download high-res image (140KB)" [ref=e1418] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr6_lrg.jpg
+                                - generic [ref=e1420]: "Download: Download high-res image (140KB)"
+                            - listitem [ref=e1421]:
+                              - 'link "Download: Download full-size image" [ref=e1422] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr6.jpg
+                                - generic [ref=e1424]: "Download: Download full-size image"
+                        - paragraph [ref=e1427]: Figure 6. Drone flying at a hover and no-wind condition
+                    - generic [ref=e1428]:
+                      - text: In that case, the thrust (
+                      - generic [ref=e1430]:
+                        - img [ref=e1431]
+                        - math [ref=e1436]:
+                          - generic [ref=e1438]: T
+                      - text: ") equals the only force acting on the drone: its weight ("
+                      - emphasis [ref=e1439]: W
+                      - text: =
+                      - emphasis [ref=e1440]: mg
+                      - text: ),
+                      - link "39" [ref=e1441] [cursor=pointer]:
+                        - /url: "#bib39"
+                        - superscript [ref=e1444]: "39"
+                      - text: and
+                      - generic [ref=e1446]:
+                        - img [ref=e1447]
+                        - math [ref=e1455]:
+                          - generic [ref=e1457]:
+                            - generic [ref=e1458]: P
+                            - generic [ref=e1459]: i
+                      - text: can be estimated as
+                      - generic [ref=e1461]:
+                        - generic [ref=e1462]: (Equation 4)
+                        - generic [ref=e1464]:
+                          - img [ref=e1465]
+                          - math [ref=e1484]:
+                            - generic [ref=e1485]:
+                              - generic [ref=e1486]:
+                                - generic [ref=e1487]: P
+                                - generic [ref=e1488]: i
+                              - generic [ref=e1489]: =
+                              - generic [ref=e1490]: T
+                              - generic [ref=e1491]:
+                                - generic [ref=e1492]: v
+                                - generic [ref=e1493]: i
+                              - generic [ref=e1494]: ","
+                      - text: where
+                      - generic [ref=e1496]:
+                        - img [ref=e1497]
+                        - math [ref=e1505]:
+                          - generic [ref=e1507]:
+                            - generic [ref=e1508]: v
+                            - generic [ref=e1509]: i
+                      - generic [ref=e1510]:
+                        - text: is the
+                        - link "induced velocity" [ref=e1511] [cursor=pointer]:
+                          - /url: /topics/engineering/induced-velocity
+                        - text: .
+                    - generic [ref=e1512]:
+                      - text: During hover,
+                      - generic [ref=e1514]:
+                        - img [ref=e1515]
+                        - math [ref=e1523]:
+                          - generic [ref=e1525]:
+                            - generic [ref=e1526]: v
+                            - generic [ref=e1527]: i
+                      - text: can be simplified as
+                      - generic [ref=e1529]:
+                        - generic [ref=e1530]: (Equation 5)
+                        - generic [ref=e1532]:
+                          - img [ref=e1533]
+                          - math [ref=e1561]:
+                            - generic [ref=e1562]:
+                              - generic [ref=e1563]:
+                                - generic [ref=e1564]: v
+                                - generic [ref=e1565]: i
+                              - generic [ref=e1566]: =
+                              - generic [ref=e1568]:
+                                - generic [ref=e1569]: T
+                                - generic [ref=e1570]:
+                                  - generic [ref=e1571]: "2"
+                                  - generic [ref=e1572]: ρ
+                                  - generic [ref=e1573]: A
+                              - generic [ref=e1574]: ","
+                      - text: where
+                      - generic [ref=e1576]:
+                        - img [ref=e1577]
+                        - math [ref=e1582]:
+                          - generic [ref=e1584]: ρ
+                      - text: is the air density and
+                      - generic [ref=e1586]:
+                        - img [ref=e1587]
+                        - math [ref=e1592]:
+                          - generic [ref=e1594]: A
+                      - text: is the total area covered by all four propellers.
+                    - generic [ref=e1595]:
+                      - text: Combining
+                      - link "Equations 5" [ref=e1596] [cursor=pointer]:
+                        - /url: "#fd5"
+                        - generic [ref=e1597]: Equations 5
+                      - text: and
+                      - link "4" [ref=e1598] [cursor=pointer]:
+                        - /url: "#fd4"
+                        - generic [ref=e1599]: "4"
+                      - generic [ref=e1601]:
+                        - generic [ref=e1602]: (Equation 6)
+                        - generic [ref=e1604]:
+                          - img [ref=e1605]
+                          - math [ref=e1677]:
+                            - generic [ref=e1678]:
+                              - generic [ref=e1679]:
+                                - generic [ref=e1680]: P
+                                - generic [ref=e1681]: i
+                              - generic [ref=e1682]: =
+                              - generic [ref=e1683]:
+                                - generic [ref=e1684]:
+                                  - generic [ref=e1685]:
+                                    - generic [ref=e1686]: (
+                                    - generic [ref=e1687]: T
+                                    - generic [ref=e1688]: )
+                                  - generic [ref=e1689]:
+                                    - generic [ref=e1690]: "3"
+                                    - generic [ref=e1691]: /
+                                    - generic [ref=e1692]: "2"
+                                - generic [ref=e1694]:
+                                  - generic [ref=e1695]: "2"
+                                  - generic [ref=e1696]: ρ
+                                  - generic [ref=e1697]: A
+                              - generic [ref=e1698]: =
+                              - generic [ref=e1699]:
+                                - generic [ref=e1700]:
+                                  - generic [ref=e1701]:
+                                    - generic [ref=e1702]: (
+                                    - generic [ref=e1703]:
+                                      - generic [ref=e1704]: m
+                                      - generic [ref=e1705]: g
+                                    - generic [ref=e1706]: )
+                                  - generic [ref=e1707]: "1.5"
+                                - generic [ref=e1709]:
+                                  - generic [ref=e1710]: "2"
+                                  - generic [ref=e1711]: ρ
+                                  - generic [ref=e1712]: A
+                              - generic [ref=e1713]: ","
+                      - text: where
+                      - generic [ref=e1715]:
+                        - img [ref=e1716]
+                        - math [ref=e1721]:
+                          - generic [ref=e1723]: m
+                      - text: is the total mass of the drone and
+                      - generic [ref=e1725]:
+                        - img [ref=e1726]
+                        - math [ref=e1731]:
+                          - generic [ref=e1733]: g
+                      - generic [ref=e1734]:
+                        - text: is the
+                        - link "gravitational acceleration" [ref=e1735] [cursor=pointer]:
+                          - /url: /topics/engineering/gravitational-acceleration
+                        - text: .
+                    - generic [ref=e1736]:
+                      - text: More details of the first-principles analysis and an expanded first-principles energy model are available in the
+                      - link "supplemental information" [ref=e1737] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e1738]: supplemental information
+                      - text: (
+                      - link "Figures S10" [ref=e1739] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e1740]: Figures S10
+                      - text: and
+                      - link "S11" [ref=e1741] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e1742]: S11
+                      - text: ).
+                  - generic [ref=e1743]:
+                    - heading "Regression-based energy model" [level=3] [ref=e1744]
+                    - generic [ref=e1745]:
+                      - text: Our energy model inquires how effectively
+                      - generic [ref=e1747]:
+                        - img [ref=e1748]
+                        - math [ref=e1756]:
+                          - generic [ref=e1758]:
+                            - generic [ref=e1759]: P
+                            - generic [ref=e1760]: i
+                      - text: can be used as an estimator for the energy consumed during a package-delivery flight. In such a case, the average power (
+                      - generic [ref=e1762]:
+                        - img [ref=e1763]
+                        - math [ref=e1774]:
+                          - generic [ref=e1776]:
+                            - generic [ref=e1777]: P
+                            - generic [ref=e1778]: ¯
+                      - text: ) throughout the flight is modeled as a linear regression of the
+                      - emphasis [ref=e1779]: P
+                      - subscript [ref=e1780]:
+                        - emphasis [ref=e1781]: i
+                      - generic [ref=e1783]:
+                        - generic [ref=e1784]: (Equation 7)
+                        - generic [ref=e1786]:
+                          - img [ref=e1787]
+                          - math [ref=e1821]:
+                            - generic [ref=e1822]:
+                              - generic [ref=e1823]:
+                                - generic [ref=e1824]: P
+                                - generic [ref=e1825]: ¯
+                              - generic [ref=e1826]: =
+                              - generic [ref=e1827]:
+                                - generic [ref=e1828]: b
+                                - generic [ref=e1829]: "1"
+                                - generic [ref=e1830]: ′
+                              - generic [ref=e1831]:
+                                - generic [ref=e1832]: P
+                                - generic [ref=e1833]: i
+                              - generic [ref=e1834]: +
+                              - generic [ref=e1835]:
+                                - generic [ref=e1836]: b
+                                - generic [ref=e1837]: "0"
+                              - generic [ref=e1838]: ","
+                      - text: where
+                      - generic [ref=e1840]:
+                        - img [ref=e1841]
+                        - math [ref=e1849]:
+                          - generic [ref=e1851]:
+                            - generic [ref=e1852]: b
+                            - generic [ref=e1853]: "1"
+                      - text: and
+                      - generic [ref=e1855]:
+                        - img [ref=e1856]
+                        - math [ref=e1864]:
+                          - generic [ref=e1866]:
+                            - generic [ref=e1867]: b
+                            - generic [ref=e1868]: "0"
+                      - text: are the slope and intercept of the linear regression, respectively.
+                    - generic [ref=e1869]:
+                      - generic [ref=e1870]:
+                        - text: We can expand
+                        - link "Equation 7" [ref=e1871] [cursor=pointer]:
+                          - /url: "#fd7"
+                          - generic [ref=e1872]: Equation 7
+                        - text: to account for the sum of the three flight regimes (
+                        - link "Figure 7" [ref=e1873] [cursor=pointer]:
+                          - /url: "#fig7"
+                          - generic [ref=e1874]: Figure 7
+                        - text: ) and combine the area of the propeller (
+                        - generic [ref=e1876]:
+                          - img [ref=e1877]
+                          - math [ref=e1882]:
+                            - generic [ref=e1884]: A
+                        - text: ) and gravity acceleration (
+                        - emphasis [ref=e1885]: g
+                        - text: ) from
+                        - link "Equation 2" [ref=e1886] [cursor=pointer]:
+                          - /url: "#fd2"
+                          - generic [ref=e1887]: Equation 2
+                        - text: with coefficient
+                        - generic [ref=e1889]:
+                          - img [ref=e1890]
+                          - math [ref=e1898]:
+                            - generic [ref=e1900]:
+                              - generic [ref=e1901]: b
+                              - generic [ref=e1902]: "1"
+                        - text: . Thus, the total energy consumption (
+                        - generic [ref=e1904]:
+                          - img [ref=e1905]
+                          - math [ref=e1910]:
+                            - generic [ref=e1912]: E
+                        - text: ) is estimated as
+                        - generic [ref=e1914]:
+                          - generic [ref=e1915]: (Equation 8)
+                          - generic [ref=e1917]:
+                            - img [ref=e1918]
+                            - math [ref=e2023]:
+                              - generic [ref=e2024]:
+                                - generic [ref=e2025]: E
+                                - generic [ref=e2026]: =
+                                - generic [ref=e2027]:
+                                  - generic [ref=e2029]: ∑
+                                  - generic [ref=e2030]:
+                                    - generic [ref=e2031]: r
+                                    - generic [ref=e2032]: ∈
+                                    - generic [ref=e2033]: R
+                                    - generic [ref=e2034]: ","
+                                    - generic [ref=e2035]: l
+                                    - generic [ref=e2036]: ∈
+                                    - generic [ref=e2037]: L
+                                - generic [ref=e2038]:
+                                  - generic [ref=e2039]: (
+                                  - generic [ref=e2040]:
+                                    - generic [ref=e2041]:
+                                      - generic [ref=e2042]: b
+                                      - generic [ref=e2043]: "1"
+                                      - generic [ref=e2044]:
+                                        - generic [ref=e2045]: (
+                                        - generic [ref=e2046]:
+                                          - generic [ref=e2047]: r
+                                          - generic [ref=e2048]: ","
+                                          - generic [ref=e2049]: l
+                                        - generic [ref=e2050]: )
+                                    - generic [ref=e2051]:
+                                      - generic [ref=e2052]:
+                                        - generic [ref=e2053]:
+                                          - generic [ref=e2054]: m
+                                          - generic [ref=e2055]: "1.5"
+                                        - generic [ref=e2057]: ρ
+                                      - generic [ref=e2058]:
+                                        - generic [ref=e2059]: (
+                                        - generic [ref=e2060]: l
+                                        - generic [ref=e2061]: )
+                                    - generic [ref=e2062]: +
+                                    - generic [ref=e2063]:
+                                      - generic [ref=e2064]: b
+                                      - generic [ref=e2065]: "0"
+                                      - generic [ref=e2066]:
+                                        - generic [ref=e2067]: (
+                                        - generic [ref=e2068]:
+                                          - generic [ref=e2069]: r
+                                          - generic [ref=e2070]: ","
+                                          - generic [ref=e2071]: l
+                                        - generic [ref=e2072]: )
+                                  - generic [ref=e2073]: )
+                                - generic [ref=e2074]:
+                                  - generic [ref=e2075]: t
+                                  - generic [ref=e2076]:
+                                    - generic [ref=e2077]: (
+                                    - generic [ref=e2078]:
+                                      - generic [ref=e2079]: r
+                                      - generic [ref=e2080]: ","
+                                      - generic [ref=e2081]: l
+                                    - generic [ref=e2082]: )
+                        - text: for
+                        - generic [ref=e2084]:
+                          - img [ref=e2085]
+                          - math [ref=e2141]:
+                            - generic [ref=e2142]:
+                              - generic [ref=e2143]: R
+                              - generic [ref=e2144]: =
+                              - generic [ref=e2145]:
+                                - generic [ref=e2146]: "{"
+                                - generic [ref=e2147]: t
+                                - generic [ref=e2148]: a
+                                - generic [ref=e2149]: k
+                                - generic [ref=e2150]: e
+                                - generic [ref=e2151]: o
+                                - generic [ref=e2152]: f
+                                - generic [ref=e2153]: f
+                                - generic [ref=e2154]: ","
+                                - generic [ref=e2155]: c
+                                - generic [ref=e2156]: r
+                                - generic [ref=e2157]: u
+                                - generic [ref=e2158]: i
+                                - generic [ref=e2159]: s
+                                - generic [ref=e2160]: e
+                                - generic [ref=e2161]: ","
+                                - generic [ref=e2162]: l
+                                - generic [ref=e2163]: a
+                                - generic [ref=e2164]: "n"
+                                - generic [ref=e2165]: d
+                                - generic [ref=e2166]: i
+                                - generic [ref=e2167]: "n"
+                                - generic [ref=e2168]: g
+                                - generic [ref=e2169]: "}"
+                        - text: and
+                        - generic [ref=e2171]:
+                          - img [ref=e2172]
+                          - math [ref=e2214]:
+                            - generic [ref=e2215]:
+                              - generic [ref=e2216]: L
+                              - generic [ref=e2217]: =
+                              - generic [ref=e2218]:
+                                - generic [ref=e2219]: "{"
+                                - generic [ref=e2220]: l
+                                - generic [ref=e2221]: o
+                                - generic [ref=e2222]: a
+                                - generic [ref=e2223]: d
+                                - generic [ref=e2224]: e
+                                - generic [ref=e2225]: d
+                                - generic [ref=e2226]: ","
+                                - generic [ref=e2227]: u
+                                - generic [ref=e2228]: "n"
+                                - generic [ref=e2229]: l
+                                - generic [ref=e2230]: o
+                                - generic [ref=e2231]: a
+                                - generic [ref=e2232]: d
+                                - generic [ref=e2233]: e
+                                - generic [ref=e2234]: d
+                                - generic [ref=e2235]: "}"
+                        - text: .
+                      - figure [ref=e2236]:
+                        - generic [ref=e2237]:
+                          - img [ref=e2238]
+                          - list [ref=e2239]:
+                            - listitem [ref=e2240]:
+                              - 'link "Download: Download high-res image (232KB)" [ref=e2241] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr7_lrg.jpg
+                                - generic [ref=e2243]: "Download: Download high-res image (232KB)"
+                            - listitem [ref=e2244]:
+                              - 'link "Download: Download full-size image" [ref=e2245] [cursor=pointer]':
+                                - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-gr7.jpg
+                                - generic [ref=e2247]: "Download: Download full-size image"
+                        - generic [ref=e2249]:
+                          - paragraph [ref=e2250]: Figure 7. Relationship of induced power to drone average power of flights separated by flight regime
+                          - generic [ref=e2251]:
+                            - text: Payloads of 0 (left), 250 (center), and 500 g (right).
+                            - generic [ref=e2253]:
+                              - img [ref=e2254]
+                              - math [ref=e2262]:
+                                - generic [ref=e2264]:
+                                  - generic [ref=e2265]: R
+                                  - generic [ref=e2266]: "2"
+                            - text: are 0.84, 0.85, and 0.90 for takeoff, cruise, and landing, respectively.
+                    - generic [ref=e2267]:
+                      - text: The step-by-step calculation used to compute
+                      - generic [ref=e2269]:
+                        - img [ref=e2270]
+                        - math [ref=e2278]:
+                          - generic [ref=e2280]:
+                            - generic [ref=e2281]: b
+                            - generic [ref=e2282]: "0"
+                      - text: ","
+                      - generic [ref=e2284]:
+                        - img [ref=e2285]
+                        - math [ref=e2293]:
+                          - generic [ref=e2295]:
+                            - generic [ref=e2296]: b
+                            - generic [ref=e2297]: "1"
+                      - text: ", and"
+                      - generic [ref=e2299]:
+                        - img [ref=e2300]
+                        - math [ref=e2308]:
+                          - generic [ref=e2310]:
+                            - generic [ref=e2311]: R
+                            - generic [ref=e2312]: "2"
+                      - text: can be found in the
+                      - link "supplemental information" [ref=e2313] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e2314]: supplemental information
+                      - text: under the section linear regression.
+                  - generic [ref=e2315]:
+                    - heading "Machine learning for comparison" [level=3] [ref=e2316]
+                    - generic [ref=e2317]:
+                      - text: Evaluating whether the model’s performance is good given the available measurements cannot be inferred from its performance alone. Therefore, we compare the predictive power of the energy model with a flexible nonlinear algorithm,
+                      - link "40" [ref=e2318] [cursor=pointer]:
+                        - /url: "#bib40"
+                        - superscript [ref=e2321]: "40"
+                      - text: XGBoost, available in the programming environment R. This boosted tree algorithm prioritizes predictive power against interpretability, and it is appropriate for predictive performance given the available features. If our energy model presents similar accuracy to XGBoost, it indicates that the parametric and functional restrictions we have made for the energy model development are suitable.
+                    - generic [ref=e2322]:
+                      - text: We fitted a gradient boosted tree algorithm, XGBoost.
+                      - link "40" [ref=e2323] [cursor=pointer]:
+                        - /url: "#bib40"
+                        - superscript [ref=e2326]: "40"
+                      - generic [ref=e2327]:
+                        - text: The algorithm was separately trained for each flight regime with a quadratic loss function, and for all regimes, we used 80% as a subsample ratio of both features and observations for each tree. For hyperparameter tuning, we varied learning rate, maximum tree depth, and
+                        - link "regularization parameter" [ref=e2328] [cursor=pointer]:
+                          - /url: /topics/engineering/regularization-parameter
+                      - generic [ref=e2330]:
+                        - img [ref=e2331]
+                        - math [ref=e2336]:
+                          - generic [ref=e2338]: γ
+                      - generic [ref=e2339]:
+                        - text: in a grid search approach. 5-fold cross-validation (CV) was used for error estimation; for tuning only, we compared the absolute
+                        - link "relative error" [ref=e2340] [cursor=pointer]:
+                          - /url: /topics/engineering/relative-error
+                        - text: (ARE;
+                      - link "Equation 9" [ref=e2341] [cursor=pointer]:
+                        - /url: "#fd9"
+                        - generic [ref=e2342]: Equation 9
+                      - generic [ref=e2343]:
+                        - text: ") instead of the quadratic error. We fixed a regime and a set of hyperparameter values to be tuned then varied the following hyperparameters: learning rate (0.01, 0.05, 0.1), maximum depth of each weak learner (3, 5, 8), and minimum loss reduction required to make another partition (0, 1, 5). Then, we ran XGBoost on the training data using squared loss as the objective function. Our response variable and features were the same used in the first-principles energy model. We used the"
+                        - link "stochastic approach" [ref=e2344] [cursor=pointer]:
+                          - /url: /topics/engineering/stochastic-approach
+                        - generic [ref=e2345]:
+                          - text: by
+                          - link "subsampling" [ref=e2346] [cursor=pointer]:
+                            - /url: /topics/engineering/subsamplings
+                          - text: 80% of the data at each tree fitting. Our algorithm used up to 1,000 trees; however, if there was no significant increase in performance after 50 trees, the algorithm stopped. Then, we plotted the number of trees (up to 1,000) versus training error and estimated test error via 5-fold cross validation.
+                    - generic [ref=e2347]:
+                      - text: After tuning, the model was trained with the optimal hyperparameters on the entire training set, and AREs were computed for the flights on the test set. We selected the hyperparameter combination to be used for each regime (number of trees, learning rate, maximum depth, minimum loss reduction) by choosing a low test error, low generalization error, and low standard errors. The selected hyperparameter values are in
+                      - link "Table S1" [ref=e2348] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e2349]: Table S1
+                      - text: .
+                  - generic [ref=e2350]:
+                    - heading "Estimation of the standard errors for the coefficients" [level=3] [ref=e2351]
+                    - generic [ref=e2352]:
+                      - generic [ref=e2353]:
+                        - text: To obtain standard errors of the
+                        - link "estimated coefficients" [ref=e2354] [cursor=pointer]:
+                          - /url: /topics/engineering/estimated-coefficient
+                        - text: ", we used a nonparametric bootstrap approach."
+                      - link "41" [ref=e2355] [cursor=pointer]:
+                        - /url: "#bib41"
+                        - superscript [ref=e2358]: "41"
+                      - generic [ref=e2359]:
+                        - text: 1,000 bootstrap replications were used to resample with replacement the 120 training flights, and the energy models for the three flight regimes were refitted for each
+                        - link "bootstrap sample" [ref=e2360] [cursor=pointer]:
+                          - /url: /topics/engineering/bootstrap-sample
+                        - text: . At the end, the standard errors (SEs) of the coefficients were obtained from their sampling distribution.
+                  - generic [ref=e2361]:
+                    - heading "Model predictive power" [level=3] [ref=e2362]
+                    - generic [ref=e2363]:
+                      - text: To evaluate the model’s predictive power, the regime-specific fitted models were then applied to the testing flights of the test set and were compared by ARE, computed at flight resolution. That is, for each flight from the test set, we computed their
+                      - generic [ref=e2365]:
+                        - img [ref=e2366]
+                        - math [ref=e2389]:
+                          - generic [ref=e2391]:
+                            - generic [ref=e2392]: E
+                            - generic [ref=e2393]:
+                              - generic [ref=e2394]: m
+                              - generic [ref=e2395]: e
+                              - generic [ref=e2396]: a
+                              - generic [ref=e2397]: s
+                              - generic [ref=e2398]: u
+                              - generic [ref=e2399]: r
+                              - generic [ref=e2400]: e
+                              - generic [ref=e2401]: d
+                      - text: integrating power over time and the
+                      - generic [ref=e2403]:
+                        - img [ref=e2404]
+                        - math [ref=e2431]:
+                          - generic [ref=e2433]:
+                            - generic [ref=e2434]: E
+                            - generic [ref=e2435]:
+                              - generic [ref=e2436]: e
+                              - generic [ref=e2437]: s
+                              - generic [ref=e2438]: t
+                              - generic [ref=e2439]: i
+                              - generic [ref=e2440]: m
+                              - generic [ref=e2441]: a
+                              - generic [ref=e2442]: t
+                              - generic [ref=e2443]: e
+                              - generic [ref=e2444]: d
+                            - generic [ref=e2445]: m
+                      - text: as the sum of the integral of the estimated power over time for the three flight regimes via method
+                      - generic [ref=e2447]:
+                        - img [ref=e2448]
+                        - math [ref=e2453]:
+                          - generic [ref=e2455]: m
+                      - text: ":"
+                      - generic [ref=e2457]:
+                        - generic [ref=e2458]: (Equation 9)
+                        - generic [ref=e2460]:
+                          - img [ref=e2461]
+                          - math [ref=e2556]:
+                            - generic [ref=e2557]:
+                              - generic [ref=e2558]: A
+                              - generic [ref=e2559]: R
+                              - generic [ref=e2560]: E
+                              - generic [ref=e2561]:
+                                - generic [ref=e2562]: (
+                                - generic [ref=e2563]: m
+                                - generic [ref=e2564]: )
+                              - generic [ref=e2565]: =
+                              - generic [ref=e2566]:
+                                - generic [ref=e2567]: "|"
+                                - generic [ref=e2568]:
+                                  - generic [ref=e2569]:
+                                    - generic [ref=e2570]:
+                                      - generic [ref=e2571]: E
+                                      - generic [ref=e2572]:
+                                        - generic [ref=e2573]: m
+                                        - generic [ref=e2574]: e
+                                        - generic [ref=e2575]: a
+                                        - generic [ref=e2576]: s
+                                        - generic [ref=e2577]: u
+                                        - generic [ref=e2578]: r
+                                        - generic [ref=e2579]: e
+                                        - generic [ref=e2580]: d
+                                    - generic [ref=e2581]: −
+                                    - generic [ref=e2582]:
+                                      - generic [ref=e2583]: E
+                                      - generic [ref=e2584]:
+                                        - generic [ref=e2585]: e
+                                        - generic [ref=e2586]: s
+                                        - generic [ref=e2587]: t
+                                        - generic [ref=e2588]: i
+                                        - generic [ref=e2589]: m
+                                        - generic [ref=e2590]: a
+                                        - generic [ref=e2591]: t
+                                        - generic [ref=e2592]: e
+                                        - generic [ref=e2593]: d
+                                      - generic [ref=e2594]: m
+                                  - generic [ref=e2595]:
+                                    - generic [ref=e2596]: E
+                                    - generic [ref=e2597]:
+                                      - generic [ref=e2598]: m
+                                      - generic [ref=e2599]: e
+                                      - generic [ref=e2600]: a
+                                      - generic [ref=e2601]: s
+                                      - generic [ref=e2602]: u
+                                      - generic [ref=e2603]: r
+                                      - generic [ref=e2604]: e
+                                      - generic [ref=e2605]: d
+                                - generic [ref=e2606]: "|"
+                      - text: for
+                      - generic [ref=e2608]:
+                        - img [ref=e2609]
+                        - math [ref=e2659]:
+                          - generic [ref=e2660]:
+                            - generic [ref=e2661]: m
+                            - generic [ref=e2662]: ∈
+                            - generic [ref=e2663]:
+                              - generic [ref=e2664]: "{"
+                              - generic [ref=e2665]: E
+                              - generic [ref=e2666]: "n"
+                              - generic [ref=e2667]: e
+                              - generic [ref=e2668]: r
+                              - generic [ref=e2669]: g
+                              - generic [ref=e2670]: "y"
+                              - generic [ref=e2671]: M
+                              - generic [ref=e2672]: o
+                              - generic [ref=e2673]: d
+                              - generic [ref=e2674]: e
+                              - generic [ref=e2675]: l
+                              - generic [ref=e2676]: ","
+                              - generic [ref=e2677]: X
+                              - generic [ref=e2678]: G
+                              - generic [ref=e2679]: B
+                              - generic [ref=e2680]: o
+                              - generic [ref=e2681]: o
+                              - generic [ref=e2682]: s
+                              - generic [ref=e2683]: t
+                              - generic [ref=e2684]: "}"
+                      - text: .
+                    - generic [ref=e2685]:
+                      - link "Figure S12" [ref=e2686] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e2687]: Figure S12
+                      - text: shows the AREs on the test set for the energy models developed in this study.
+                  - generic [ref=e2688]:
+                    - heading "Estimation of drone range" [level=3] [ref=e2689]
+                    - generic [ref=e2690]:
+                      - text: Our analysis also shows the impact of varying operational parameters (speed, altitude, and payload) on the range of the drone. The two-way drone range (
+                      - emphasis [ref=e2691]: d
+                      - text: ) can be calculated considering the cruise speed
+                      - generic [ref=e2693]:
+                        - generic [ref=e2694]: (Equation 10)
+                        - generic [ref=e2696]:
+                          - img [ref=e2697]
+                          - math [ref=e2835]:
+                            - generic [ref=e2836]:
+                              - generic [ref=e2837]: E
+                              - generic [ref=e2838]: =
+                              - generic [ref=e2839]: ∑
+                              - generic [ref=e2840]:
+                                - generic [ref=e2841]: (
+                                - generic [ref=e2842]:
+                                  - generic [ref=e2843]:
+                                    - generic [ref=e2844]: b
+                                    - generic [ref=e2845]: "1"
+                                  - generic [ref=e2846]:
+                                    - generic [ref=e2847]:
+                                      - generic [ref=e2848]: m
+                                      - generic [ref=e2849]: "1.5"
+                                    - generic [ref=e2851]: ρ
+                                  - generic [ref=e2852]: +
+                                  - generic [ref=e2853]:
+                                    - generic [ref=e2854]: b
+                                    - generic [ref=e2855]: "0"
+                                - generic [ref=e2856]: )
+                              - generic [ref=e2857]: t
+                              - generic [ref=e2858]: =
+                              - generic [ref=e2859]: ∑
+                              - generic [ref=e2860]:
+                                - generic [ref=e2861]: E
+                                - generic [ref=e2862]:
+                                  - generic [ref=e2863]: t
+                                  - generic [ref=e2864]: a
+                                  - generic [ref=e2865]: k
+                                  - generic [ref=e2866]: e
+                                  - generic [ref=e2867]: o
+                                  - generic [ref=e2868]: f
+                                  - generic [ref=e2869]: f
+                              - generic [ref=e2870]: +
+                              - generic [ref=e2871]: ∑
+                              - generic [ref=e2872]:
+                                - generic [ref=e2873]: E
+                                - generic [ref=e2874]:
+                                  - generic [ref=e2875]: l
+                                  - generic [ref=e2876]: a
+                                  - generic [ref=e2877]: "n"
+                                  - generic [ref=e2878]: d
+                                  - generic [ref=e2879]: i
+                                  - generic [ref=e2880]: "n"
+                                  - generic [ref=e2881]: g
+                              - generic [ref=e2882]: +
+                              - generic [ref=e2883]: ∑
+                              - generic [ref=e2884]:
+                                - generic [ref=e2885]: (
+                                - generic [ref=e2886]:
+                                  - generic [ref=e2887]:
+                                    - generic [ref=e2888]: b
+                                    - generic [ref=e2889]: "1"
+                                  - generic [ref=e2890]:
+                                    - generic [ref=e2891]:
+                                      - generic [ref=e2892]: m
+                                      - generic [ref=e2893]: "1.5"
+                                    - generic [ref=e2895]: ρ
+                                  - generic [ref=e2896]: +
+                                  - generic [ref=e2897]:
+                                    - generic [ref=e2898]: b
+                                    - generic [ref=e2899]: "0"
+                                - generic [ref=e2900]: )
+                              - generic [ref=e2901]:
+                                - generic [ref=e2902]: d
+                                - generic [ref=e2903]:
+                                  - generic [ref=e2904]: V
+                                  - generic [ref=e2905]:
+                                    - generic [ref=e2906]: c
+                                    - generic [ref=e2907]: r
+                              - generic [ref=e2908]: .
+                    - generic [ref=e2909]:
+                      - text: Expanding for a two-way trip and solving for d
+                      - generic [ref=e2911]:
+                        - generic [ref=e2912]: (Equation 11)
+                        - generic [ref=e2914]:
+                          - img [ref=e2915]
+                          - math [ref=e3107]:
+                            - generic [ref=e3108]:
+                              - generic [ref=e3109]: d
+                              - generic [ref=e3110]: =
+                              - generic [ref=e3111]:
+                                - generic [ref=e3112]:
+                                  - generic [ref=e3113]:
+                                    - generic [ref=e3114]: "["
+                                    - generic [ref=e3115]:
+                                      - generic [ref=e3116]:
+                                        - generic [ref=e3117]: E
+                                        - generic [ref=e3118]:
+                                          - generic [ref=e3119]: m
+                                          - generic [ref=e3120]: a
+                                          - generic [ref=e3121]: x
+                                      - generic [ref=e3122]: −
+                                      - generic [ref=e3123]:
+                                        - generic [ref=e3124]: (
+                                        - generic [ref=e3125]:
+                                          - generic [ref=e3126]:
+                                            - generic [ref=e3127]: E
+                                            - generic [ref=e3128]:
+                                              - generic [ref=e3129]: t
+                                              - generic [ref=e3130]: a
+                                              - generic [ref=e3131]: k
+                                              - generic [ref=e3132]: e
+                                              - generic [ref=e3133]: o
+                                              - generic [ref=e3134]: f
+                                              - generic [ref=e3135]: f
+                                            - generic [ref=e3137]: l
+                                          - generic [ref=e3138]: +
+                                          - generic [ref=e3139]:
+                                            - generic [ref=e3140]: E
+                                            - generic [ref=e3141]:
+                                              - generic [ref=e3142]: t
+                                              - generic [ref=e3143]: a
+                                              - generic [ref=e3144]: k
+                                              - generic [ref=e3145]: e
+                                              - generic [ref=e3146]: o
+                                              - generic [ref=e3147]: f
+                                              - generic [ref=e3148]: f
+                                            - generic [ref=e3150]: u
+                                          - generic [ref=e3151]: +
+                                          - generic [ref=e3152]:
+                                            - generic [ref=e3153]: E
+                                            - generic [ref=e3154]:
+                                              - generic [ref=e3155]: l
+                                              - generic [ref=e3156]: a
+                                              - generic [ref=e3157]: "n"
+                                              - generic [ref=e3158]: d
+                                              - generic [ref=e3159]: i
+                                              - generic [ref=e3160]: "n"
+                                              - generic [ref=e3161]: g
+                                            - generic [ref=e3163]: l
+                                          - generic [ref=e3164]: +
+                                          - generic [ref=e3165]:
+                                            - generic [ref=e3166]: E
+                                            - generic [ref=e3167]:
+                                              - generic [ref=e3168]: l
+                                              - generic [ref=e3169]: a
+                                              - generic [ref=e3170]: "n"
+                                              - generic [ref=e3171]: d
+                                              - generic [ref=e3172]: i
+                                              - generic [ref=e3173]: "n"
+                                              - generic [ref=e3174]: g
+                                            - generic [ref=e3176]: u
+                                        - generic [ref=e3177]: )
+                                    - generic [ref=e3178]: "]"
+                                  - generic [ref=e3179]:
+                                    - generic [ref=e3180]: V
+                                    - generic [ref=e3181]:
+                                      - generic [ref=e3182]: c
+                                      - generic [ref=e3183]: r
+                                - generic [ref=e3184]:
+                                  - generic [ref=e3185]:
+                                    - generic [ref=e3186]: b
+                                    - generic [ref=e3187]: "1"
+                                  - generic [ref=e3188]:
+                                    - generic [ref=e3189]: (
+                                    - generic [ref=e3190]:
+                                      - generic [ref=e3191]:
+                                        - generic [ref=e3192]:
+                                          - generic [ref=e3193]:
+                                            - generic [ref=e3194]: m
+                                            - generic [ref=e3195]: "1.5"
+                                          - generic [ref=e3197]: ρ
+                                        - generic [ref=e3199]: l
+                                      - generic [ref=e3200]: +
+                                      - generic [ref=e3201]:
+                                        - generic [ref=e3202]:
+                                          - generic [ref=e3203]:
+                                            - generic [ref=e3204]: m
+                                            - generic [ref=e3205]: "1.5"
+                                          - generic [ref=e3207]: ρ
+                                        - generic [ref=e3209]: u
+                                    - generic [ref=e3210]: )
+                                  - generic [ref=e3211]: +
+                                  - generic [ref=e3212]: "2"
+                                  - generic [ref=e3213]:
+                                    - generic [ref=e3214]: b
+                                    - generic [ref=e3215]: "0"
+                              - generic [ref=e3216]: ","
+                      - text: where
+                      - generic [ref=e3218]:
+                        - img [ref=e3219]
+                        - math [ref=e3232]:
+                          - generic [ref=e3234]:
+                            - generic [ref=e3235]: E
+                            - generic [ref=e3236]:
+                              - generic [ref=e3237]: m
+                              - generic [ref=e3238]: a
+                              - generic [ref=e3239]: x
+                      - text: is the energy available in the battery;
+                      - generic [ref=e3241]:
+                        - img [ref=e3242]
+                        - math [ref=e3263]:
+                          - generic [ref=e3265]:
+                            - generic [ref=e3266]: E
+                            - generic [ref=e3267]:
+                              - generic [ref=e3268]: t
+                              - generic [ref=e3269]: a
+                              - generic [ref=e3270]: k
+                              - generic [ref=e3271]: e
+                              - generic [ref=e3272]: o
+                              - generic [ref=e3273]: f
+                              - generic [ref=e3274]: f
+                      - text: and
+                      - generic [ref=e3276]:
+                        - img [ref=e3277]
+                        - math [ref=e3298]:
+                          - generic [ref=e3300]:
+                            - generic [ref=e3301]: E
+                            - generic [ref=e3302]:
+                              - generic [ref=e3303]: l
+                              - generic [ref=e3304]: a
+                              - generic [ref=e3305]: "n"
+                              - generic [ref=e3306]: d
+                              - generic [ref=e3307]: i
+                              - generic [ref=e3308]: "n"
+                              - generic [ref=e3309]: g
+                      - text: are the energy consumed during takeoff and landing for delivery (loaded =
+                      - generic [ref=e3311]:
+                        - img [ref=e3312]
+                        - math [ref=e3317]:
+                          - generic [ref=e3319]: l
+                      - text: ) and returning (unloaded =
+                      - generic [ref=e3321]:
+                        - img [ref=e3322]
+                        - math [ref=e3327]:
+                          - generic [ref=e3329]: u
+                      - text: ), respectively;
+                      - generic [ref=e3331]:
+                        - img [ref=e3332]
+                        - math [ref=e3340]:
+                          - generic [ref=e3342]:
+                            - generic [ref=e3343]: b
+                            - generic [ref=e3344]: "1"
+                      - text: and
+                      - generic [ref=e3346]:
+                        - img [ref=e3347]
+                        - math [ref=e3355]:
+                          - generic [ref=e3357]:
+                            - generic [ref=e3358]: b
+                            - generic [ref=e3359]: "0"
+                      - text: the coefficients from
+                      - link "Table 1" [ref=e3360] [cursor=pointer]:
+                        - /url: "#tbl1"
+                        - generic [ref=e3361]: Table 1
+                      - text: for cruise; and
+                      - generic [ref=e3363]:
+                        - img [ref=e3364]
+                        - math [ref=e3375]:
+                          - generic [ref=e3377]:
+                            - generic [ref=e3378]: V
+                            - generic [ref=e3379]:
+                              - generic [ref=e3380]: c
+                              - generic [ref=e3381]: r
+                      - text: is the average inertial cruise speed.
+                    - generic [ref=e3382]:
+                      - text: The energy during takeoff and landing can be calculated as
+                      - generic [ref=e3384]:
+                        - generic [ref=e3385]: (Equation 12)
+                        - generic [ref=e3387]:
+                          - img [ref=e3388]
+                          - math [ref=e3436]:
+                            - generic [ref=e3437]:
+                              - generic [ref=e3438]: E
+                              - generic [ref=e3439]: =
+                              - generic [ref=e3440]:
+                                - generic [ref=e3441]: (
+                                - generic [ref=e3442]:
+                                  - generic [ref=e3443]:
+                                    - generic [ref=e3444]: b
+                                    - generic [ref=e3445]: "1"
+                                  - generic [ref=e3446]:
+                                    - generic [ref=e3447]:
+                                      - generic [ref=e3448]: m
+                                      - generic [ref=e3449]: "1.5"
+                                    - generic [ref=e3451]: ρ
+                                  - generic [ref=e3452]: +
+                                  - generic [ref=e3453]:
+                                    - generic [ref=e3454]: b
+                                    - generic [ref=e3455]: "0"
+                                - generic [ref=e3456]: )
+                              - generic [ref=e3457]:
+                                - generic [ref=e3458]: h
+                                - generic [ref=e3459]: V
+                              - generic [ref=e3460]: ","
+                      - text: where
+                      - generic [ref=e3462]:
+                        - img [ref=e3463]
+                        - math [ref=e3468]:
+                          - generic [ref=e3470]: h
+                      - text: is the cruise altitude and
+                      - generic [ref=e3472]:
+                        - img [ref=e3473]
+                        - math [ref=e3478]:
+                          - generic [ref=e3480]: V
+                      - text: is the average speed during takeoff and landing.
+                    - generic [ref=e3481]:
+                      - text: For instance, a small quadcopter operating at
+                      - generic [ref=e3483]:
+                        - img [ref=e3484]
+                        - math [ref=e3495]:
+                          - generic [ref=e3497]:
+                            - generic [ref=e3498]: V
+                            - generic [ref=e3499]:
+                              - generic [ref=e3500]: c
+                              - generic [ref=e3501]: r
+                      - text: = 12 m/s, payload = 500 g, h = 100 m, takeoff average speed (
+                      - generic [ref=e3503]:
+                        - img [ref=e3504]
+                        - math [ref=e3515]:
+                          - generic [ref=e3517]:
+                            - generic [ref=e3518]: V
+                            - generic [ref=e3519]:
+                              - generic [ref=e3520]: t
+                              - generic [ref=e3521]: k
+                      - text: ) = 2.5 m/s, and landing average speed
+                      - generic [ref=e3523]:
+                        - img [ref=e3524]
+                        - math [ref=e3535]:
+                          - generic [ref=e3537]:
+                            - generic [ref=e3538]: V
+                            - generic [ref=e3539]:
+                              - generic [ref=e3540]: l
+                              - generic [ref=e3541]: d
+                      - text: = 2.0 m/s has a range of approximately 4 km (2 km of one-way delivery range), consuming approximately 74.5 Wh (per round-trip delivery).
+                    - generic [ref=e3542]: Therefore, a quadcopter drone flying under these conditions would consume approximately 0.067 MJ/km, not considering charging and transmission losses. The energy consumption during takeoff and landing for this trip corresponds to approximately 36% of the total energy consumption (26.8 Wh per trip). This share of energy could be reduced by 95% in a 5-m takeoff (to 1.34 Wh per trip), which could be achieved, for instance, if the drone would depart from the top of a building, provided sufficient space for safe operation. This would reduce total trip energy by 34% (74.5–48.95 Wh) or increase the range from 2 to 3 km (4–6 km two-way distance), consuming the same amount of energy. Further analysis of system-wide energy benefits of building-to-building drone travel is an important topic for future research.
+                  - generic [ref=e3543]:
+                    - heading "Transport mode comparison" [level=3] [ref=e3544]
+                    - generic [ref=e3545]:
+                      - text: We develop a model comparing the small quadcopter drone with different transportation modes in terms of energy consumption and CO
+                      - subscript [ref=e3546]: "2"
+                      - generic [ref=e3547]:
+                        - text: e emissions and validate it against top-down
+                        - link "sustainability" [ref=e3548] [cursor=pointer]:
+                          - /url: /topics/earth-and-planetary-sciences/environmental-impact-assessment
+                        - text: reports from UPS in 2019. The energy consumption of a medium-duty diesel truck is considered as 11 MJ/km
+                      - superscript [ref=e3549]: "43"
+                      - text: . Whereas a medium-duty electric truck has an energy consumption of 1.4 kWh/mile,
+                      - link "42" [ref=e3550] [cursor=pointer]:
+                        - /url: "#bib42"
+                        - superscript [ref=e3553]: "42"
+                      - text: or 3.13 MJ/km, diesel vans operate at 18.4 MPG on average,
+                      - link "43" [ref=e3554] [cursor=pointer]:
+                        - /url: "#bib43"
+                        - superscript [ref=e3557]: "43"
+                      - text: "or 4.9 MJ/km (conversion factors: one gallon of diesel = 137,381 Btu,"
+                      - link "44" [ref=e3558] [cursor=pointer]:
+                        - /url: "#bib44"
+                        - superscript [ref=e3561]: "44"
+                      - text: 1 MJ = 947.817 Btu, one mile = 1.60934 km). On the other hand, electric vans operate with an energy consumption of 0.38 kWh/km,
+                      - link "45" [ref=e3562] [cursor=pointer]:
+                        - /url: "#bib45"
+                        - superscript [ref=e3565]: "45"
+                      - text: or 1.36 MJ/km. Finally, an electric cargo bicycle operates at 0.023 kWh/km,
+                      - link "46" [ref=e3566] [cursor=pointer]:
+                        - /url: "#bib46"
+                        - superscript [ref=e3569]: "46"
+                      - text: "or 0.08 MJ/km (conversion factors: 1 kWh = 3.6 MJ). In addition, variations in driving style can vary energy consumption by 40%."
+                      - link "47" [ref=e3570] [cursor=pointer]:
+                        - /url: "#bib47"
+                        - superscript [ref=e3573]: "47"
+                    - generic [ref=e3574]:
+                      - generic [ref=e3575]:
+                        - text: Based on our energy model, a small quadcopter drone consumes approximately 74 Wh in a 2-km delivery distance (4-km total distance), or 0.067 MJ/km, when delivering at maximum capacity (0.5-kg payload with unloaded return) and a cruise speed of 12 m/s. Transmission losses of 6.5% and a charging efficiency of 88%
+                        - link "32" [ref=e3576] [cursor=pointer]:
+                          - /url: "#bib32"
+                          - superscript [ref=e3579]: "32"
+                        - superscript [ref=e3580]: ","
+                        - link "48" [ref=e3581] [cursor=pointer]:
+                          - /url: "#bib48"
+                          - generic [ref=e3582]: "48"
+                        - text: ","
+                        - link "49" [ref=e3583] [cursor=pointer]:
+                          - /url: "#bib49"
+                          - generic [ref=e3584]: "49"
+                        - text: ","
+                        - link "50" [ref=e3585] [cursor=pointer]:
+                          - /url: "#bib50"
+                          - generic [ref=e3586]: "50"
+                        - text: were included with the energy consumption of the electric vehicles (
+                        - link "Table 3" [ref=e3587] [cursor=pointer]:
+                          - /url: "#tbl3"
+                          - generic [ref=e3588]: Table 3
+                        - text: ).
+                        - link "Table S1" [ref=e3589] [cursor=pointer]:
+                          - /url: "#mmc1"
+                          - generic [ref=e3590]: Table S1
+                        - generic [ref=e3591]:
+                          - text: summarizes the nominal energy consumption and also provides the
+                          - link "payload capacity" [ref=e3592] [cursor=pointer]:
+                            - /url: /topics/engineering/payload-capacity
+                          - text: of each mode.
+                      - generic [ref=e3593]:
+                        - paragraph [ref=e3596]: Table 3. Base-case energy consumption and GHG emissions for different vehicles
+                        - table [ref=e3598]:
+                          - rowgroup [ref=e3599]:
+                            - row "Vehicle class Energy consumption (MJ/km) Fuel GHG emissions (g/km) Upstream GHG emissions (g/km) Battery GHG emissions (g/km) Energy consumption (MJ/package) GHG emission (g/package)" [ref=e3600]:
+                              - columnheader "Vehicle class" [ref=e3601]
+                              - columnheader "Energy consumption (MJ/km)" [ref=e3602]
+                              - columnheader "Fuel GHG emissions (g/km)" [ref=e3603]
+                              - columnheader "Upstream GHG emissions (g/km)" [ref=e3604]
+                              - columnheader "Battery GHG emissions (g/km)" [ref=e3605]
+                              - columnheader "Energy consumption (MJ/package)" [ref=e3606]
+                              - columnheader "GHG emission (g/package)" [ref=e3607]
+                          - rowgroup [ref=e3608]:
+                            - row "Medium-duty diesel truck 11.00 762.8 168.7 – 5.24 443.6" [ref=e3609]:
+                              - cell "Medium-duty diesel truck" [ref=e3610]
+                              - cell "11.00" [ref=e3611]
+                              - cell "762.8" [ref=e3612]
+                              - cell "168.7" [ref=e3613]
+                              - cell "–" [ref=e3614]
+                              - cell "5.24" [ref=e3615]
+                              - cell "443.6" [ref=e3616]
+                            - row "Small diesel van 4.90 339.8 75.2 – 1.41 119.2" [ref=e3617]:
+                              - cell "Small diesel van" [ref=e3618]
+                              - cell "4.90" [ref=e3619]
+                              - cell "339.8" [ref=e3620]
+                              - cell "75.2" [ref=e3621]
+                              - cell "–" [ref=e3622]
+                              - cell "1.41" [ref=e3623]
+                              - cell "119.2" [ref=e3624]
+                            - row "Medium-duty electric truck 3.80 674.3 83.7 24.5 1.81 372.6" [ref=e3625]:
+                              - cell "Medium-duty electric truck" [ref=e3626]
+                              - cell "3.80" [ref=e3627]
+                              - cell "674.3" [ref=e3628]
+                              - cell "83.7" [ref=e3629]
+                              - cell "24.5" [ref=e3630]
+                              - cell "1.81" [ref=e3631]
+                              - cell "372.6" [ref=e3632]
+                            - row "Small electric van 1.65 293.0 36.4 14.1 0.47 98.7" [ref=e3633]:
+                              - cell "Small electric van" [ref=e3634]
+                              - cell "1.65" [ref=e3635]
+                              - cell "293.0" [ref=e3636]
+                              - cell "36.4" [ref=e3637]
+                              - cell "14.1" [ref=e3638]
+                              - cell "0.47" [ref=e3639]
+                              - cell "98.7" [ref=e3640]
+                            - row "Electric cargo bicycle 0.10 17.9 2.2 3.3 0.10 23.4" [ref=e3641]:
+                              - cell "Electric cargo bicycle" [ref=e3642]
+                              - cell "0.10" [ref=e3643]
+                              - cell "17.9" [ref=e3644]
+                              - cell "2.2" [ref=e3645]
+                              - cell "3.3" [ref=e3646]
+                              - cell "0.10" [ref=e3647]
+                              - cell "23.4" [ref=e3648]
+                            - row "Small quadcopter drone 0.08 14.4 1.8 1.3 0.33 70.1" [ref=e3649]:
+                              - cell "Small quadcopter drone" [ref=e3650]
+                              - cell "0.08" [ref=e3651]
+                              - cell "14.4" [ref=e3652]
+                              - cell "1.8" [ref=e3653]
+                              - cell "1.3" [ref=e3654]
+                              - cell "0.33" [ref=e3655]
+                              - cell "70.1" [ref=e3656]
+                    - generic [ref=e3657]:
+                      - text: The electricity CO
+                      - subscript [ref=e3658]: "2"
+                      - generic [ref=e3659]:
+                        - text: e emissions were considered to be the 2020 American non-baseload average of 177 g/MJ (638 g/kWh), with the lower bound being 111 g/MJ (399 g/kWh) from New England and the
+                        - link "upper limit" [ref=e3660] [cursor=pointer]:
+                          - /url: /topics/engineering/upper-limit
+                        - text: being 250 g/MJ (900 g/kWh), reflecting non-baseload emissions from the central Midwest.
+                      - link "32" [ref=e3661] [cursor=pointer]:
+                        - /url: "#bib32"
+                        - superscript [ref=e3664]: "32"
+                      - text: CO
+                      - subscript [ref=e3665]: "2"
+                      - text: e emissions for diesel combustion was considered as 1.61 × 10
+                      - superscript [ref=e3666]: −4
+                      - text: lb/Btu,
+                      - link "51" [ref=e3667] [cursor=pointer]:
+                        - /url: "#bib51"
+                        - superscript [ref=e3670]: "51"
+                      - generic [ref=e3671]:
+                        - text: or 69.35 g/MJ. Upstream GHG emissions for average diesel and
+                        - link "electricity generation" [ref=e3672] [cursor=pointer]:
+                          - /url: /topics/engineering/power-generation
+                        - text: are 15 g/MJ and 22 g/MJ
+                      - superscript [ref=e3673]: "53"
+                      - text: ", respectively. The battery life cycle emissions for the drone (assumed to be similar to Li-iron phosphate) were calculated as 0.76 (base case), 0.23 (low case), and 1.52 g/km (high case). Similarly, the electric cargo bicycle has battery life cycle emissions of 1.3 g/km, considering a Li-ion NMC811 battery. For the electric van and electric medium-duty truck, we assumed a battery of Li-ion NMC811, resulting in 14.1 g/km for the van and 24.5 g/km for the truck."
+                      - link "52" [ref=e3674] [cursor=pointer]:
+                        - /url: "#bib52"
+                        - superscript [ref=e3677]: "52"
+                      - text: Energy and emissions associated with system changes beyond the vehicle (such as in warehousing
+                      - link "20" [ref=e3678] [cursor=pointer]:
+                        - /url: "#bib20"
+                        - superscript [ref=e3681]: "20"
+                      - text: ) are not included and are important areas for future work.
+                    - generic [ref=e3682]:
+                      - text: The energy consumption per package (
+                      - generic [ref=e3684]:
+                        - img [ref=e3685]
+                        - math [ref=e3700]:
+                          - generic [ref=e3702]:
+                            - generic [ref=e3703]: E
+                            - generic [ref=e3704]:
+                              - generic [ref=e3705]: p
+                              - generic [ref=e3706]: a
+                              - generic [ref=e3707]: c
+                              - generic [ref=e3708]: k
+                      - text: ) was calculated as
+                      - generic [ref=e3710]:
+                        - generic [ref=e3711]: (Equation 13)
+                        - generic [ref=e3713]:
+                          - img [ref=e3714]
+                          - math [ref=e3775]:
+                            - generic [ref=e3776]:
+                              - generic [ref=e3777]:
+                                - generic [ref=e3778]: E
+                                - generic [ref=e3779]:
+                                  - generic [ref=e3780]: p
+                                  - generic [ref=e3781]: a
+                                  - generic [ref=e3782]: c
+                                  - generic [ref=e3783]: k
+                              - generic [ref=e3784]: =
+                              - generic [ref=e3785]:
+                                - generic [ref=e3786]:
+                                  - generic [ref=e3787]: E
+                                  - generic [ref=e3788]:
+                                    - generic [ref=e3789]: d
+                                    - generic [ref=e3790]: i
+                                    - generic [ref=e3791]: s
+                                    - generic [ref=e3792]: t
+                                - generic [ref=e3793]:
+                                  - generic [ref=e3794]:
+                                    - generic [ref=e3795]: S
+                                    - generic [ref=e3796]:
+                                      - generic [ref=e3797]: f
+                                      - generic [ref=e3798]: r
+                                      - generic [ref=e3799]: e
+                                      - generic [ref=e3800]: q
+                                  - generic [ref=e3801]: ⋅
+                                  - generic [ref=e3802]:
+                                    - generic [ref=e3803]: P
+                                    - generic [ref=e3804]:
+                                      - generic [ref=e3805]: f
+                                      - generic [ref=e3806]: r
+                                      - generic [ref=e3807]: e
+                                      - generic [ref=e3808]: q
+                              - generic [ref=e3809]: ","
+                      - text: where
+                      - generic [ref=e3811]:
+                        - img [ref=e3812]
+                        - math [ref=e3827]:
+                          - generic [ref=e3829]:
+                            - generic [ref=e3830]: E
+                            - generic [ref=e3831]:
+                              - generic [ref=e3832]: d
+                              - generic [ref=e3833]: i
+                              - generic [ref=e3834]: s
+                              - generic [ref=e3835]: t
+                      - text: is the energy consumption per distance unit,
+                      - generic [ref=e3837]:
+                        - img [ref=e3838]
+                        - math [ref=e3853]:
+                          - generic [ref=e3855]:
+                            - generic [ref=e3856]: S
+                            - generic [ref=e3857]:
+                              - generic [ref=e3858]: f
+                              - generic [ref=e3859]: r
+                              - generic [ref=e3860]: e
+                              - generic [ref=e3861]: q
+                      - text: is the number of stops to deliver packages per distance unit, and
+                      - generic [ref=e3863]:
+                        - img [ref=e3864]
+                        - math [ref=e3879]:
+                          - generic [ref=e3881]:
+                            - generic [ref=e3882]: P
+                            - generic [ref=e3883]:
+                              - generic [ref=e3884]: f
+                              - generic [ref=e3885]: r
+                              - generic [ref=e3886]: e
+                              - generic [ref=e3887]: q
+                      - text: is number of packages delivered per stop on average.
+                    - generic [ref=e3888]:
+                      - text: Similarly, the GHG emissions per package (
+                      - generic [ref=e3890]:
+                        - img [ref=e3891]
+                        - math [ref=e3910]:
+                          - generic [ref=e3911]:
+                            - generic [ref=e3912]: G
+                            - generic [ref=e3913]: H
+                            - generic [ref=e3914]:
+                              - generic [ref=e3915]: G
+                              - generic [ref=e3916]:
+                                - generic [ref=e3917]: p
+                                - generic [ref=e3918]: a
+                                - generic [ref=e3919]: c
+                                - generic [ref=e3920]: k
+                      - text: ) is calculated as
+                      - generic [ref=e3922]:
+                        - generic [ref=e3923]: (Equation 14)
+                        - generic [ref=e3925]:
+                          - img [ref=e3926]
+                          - math [ref=e4014]:
+                            - generic [ref=e4015]:
+                              - generic [ref=e4016]: G
+                              - generic [ref=e4017]: H
+                              - generic [ref=e4018]:
+                                - generic [ref=e4019]: G
+                                - generic [ref=e4020]:
+                                  - generic [ref=e4021]: p
+                                  - generic [ref=e4022]: a
+                                  - generic [ref=e4023]: c
+                                  - generic [ref=e4024]: k
+                              - generic [ref=e4025]: =
+                              - generic [ref=e4026]:
+                                - generic [ref=e4027]:
+                                  - generic [ref=e4028]:
+                                    - generic [ref=e4029]: E
+                                    - generic [ref=e4030]:
+                                      - generic [ref=e4031]: d
+                                      - generic [ref=e4032]: i
+                                      - generic [ref=e4033]: s
+                                      - generic [ref=e4034]: t
+                                  - generic [ref=e4035]: ⋅
+                                  - generic [ref=e4036]: G
+                                  - generic [ref=e4037]: H
+                                  - generic [ref=e4038]:
+                                    - generic [ref=e4039]: G
+                                    - generic [ref=e4040]:
+                                      - generic [ref=e4041]: e
+                                      - generic [ref=e4042]: "n"
+                                      - generic [ref=e4043]: e
+                                      - generic [ref=e4044]: r
+                                      - generic [ref=e4045]: g
+                                      - generic [ref=e4046]: "y"
+                                - generic [ref=e4047]:
+                                  - generic [ref=e4048]:
+                                    - generic [ref=e4049]: S
+                                    - generic [ref=e4050]:
+                                      - generic [ref=e4051]: f
+                                      - generic [ref=e4052]: r
+                                      - generic [ref=e4053]: e
+                                      - generic [ref=e4054]: q
+                                  - generic [ref=e4055]: ⋅
+                                  - generic [ref=e4056]:
+                                    - generic [ref=e4057]: P
+                                    - generic [ref=e4058]:
+                                      - generic [ref=e4059]: f
+                                      - generic [ref=e4060]: r
+                                      - generic [ref=e4061]: e
+                                      - generic [ref=e4062]: q
+                              - generic [ref=e4063]: ","
+                      - text: where
+                      - generic [ref=e4065]:
+                        - img [ref=e4066]
+                        - math [ref=e4089]:
+                          - generic [ref=e4090]:
+                            - generic [ref=e4091]: G
+                            - generic [ref=e4092]: H
+                            - generic [ref=e4093]:
+                              - generic [ref=e4094]: G
+                              - generic [ref=e4095]:
+                                - generic [ref=e4096]: e
+                                - generic [ref=e4097]: "n"
+                                - generic [ref=e4098]: e
+                                - generic [ref=e4099]: r
+                                - generic [ref=e4100]: g
+                                - generic [ref=e4101]: "y"
+                      - text: is the mass of CO
+                      - subscript [ref=e4102]: "2"
+                      - text: e per energy unit.
+                    - generic [ref=e4103]:
+                      - generic [ref=e4104]:
+                        - text: For this study, we used the US National
+                        - link "Renewable Energy" [ref=e4105] [cursor=pointer]:
+                          - /url: /topics/physics-and-astronomy/renewable-energy
+                        - text: "Laboratory’s Fleet DNA: Commercial Fleet Operating Data"
+                      - link "53" [ref=e4106] [cursor=pointer]:
+                        - /url: "#bib53"
+                        - superscript [ref=e4109]: "53"
+                      - text: to estimate the number of stops per km of delivery trucks and vans. Therefore, we assumed that trucks and vans have an average of 0.7 and 1.74 stops/km, respectively. In addition, we assumed that trucks and vans would deliver an average of three and two packages per stop, respectively. Similarly, we assumed that an electric cargo bicycle and a small quadcopter drone would experience 1 and 0.25 stops/km, respectively, and deliver one package per stop on average. We also varied these parameters in order to assess their sensitivity in the final outcome.
+                      - link "Table S2" [ref=e4110] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e4111]: Table S2
+                      - text: provides additional details on the values assumed for delivery intensity.
+                      - link "Tables S3" [ref=e4112] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e4113]: Tables S3
+                      - text: and
+                      - link "S4" [ref=e4114] [cursor=pointer]:
+                        - /url: "#mmc1"
+                        - generic [ref=e4115]: S4
+                      - text: provide life cycle GHG emissions for vehicle per km and package, respectively, for each US Environmental Protection Agency (EPA) sub-region.
+                      - link "Table 3" [ref=e4116] [cursor=pointer]:
+                        - /url: "#tbl3"
+                        - generic [ref=e4117]: Table 3
+                      - text: summarizes the values calculated per vehicle.
+              - generic [ref=e4118]:
+                - heading "Acknowledgments" [level=2] [ref=e4119]
+                - generic [ref=e4120]:
+                  - text: This work was supported by the US Department of Energy’s Vehicle Technologies Office, award number
+                  - link "DE-EE0008463" [ref=e4121] [cursor=pointer]:
+                    - /url: "#gs1"
+                    - generic [ref=e4122]: DE-EE0008463
+                  - text: . This article was prepared while C.S. and H.M. were with Carnegie Mellon University. The opinions expressed in this article are the authors’ own and do not reflect the view of the United States government or any other organization. We are very grateful to the reviewers whose comments have substantially improving the manuscript.
+                - generic [ref=e4123]:
+                  - heading "Author contributions" [level=3] [ref=e4124]
+                  - generic [ref=e4125]: The research project was conceived by C.S., H.S.M., and S.S. The drone data collection experiment was designed by J.P. The energy model was developed by T.A.R. The results were analyzed by T.A.R. and N.L.O. The GHG emissions analysis was performed by T.A.R. and C.S. All authors contributed to the writing of the manuscript.
+                - generic [ref=e4126]:
+                  - heading "Declaration of interests" [level=3] [ref=e4127]
+                  - generic [ref=e4128]: The authors declare no competing interests. C.S. has a patent for a system, method, and computer program product for transporting an unmanned vehicle, US patent 11300978B1, 2022. The patent’s methods were not used this study.
+                - generic [ref=e4129]:
+                  - heading "Inclusion and diversity" [level=3] [ref=e4130]
+                  - generic [ref=e4131]: One or more of the authors of this paper self-identifies as an underrepresented ethnic minority in science. One or more of the authors of this paper self-identifies as a member of the LGBTQ+ community.
+              - generic [ref=e4133]:
+                - heading "Supplemental information" [level=2] [ref=e4134]
+                - generic [ref=e4136]:
+                  - button "Download all supplementary files included with this article" [ref=e4138] [cursor=pointer]:
+                    - img [ref=e4139]
+                    - generic [ref=e4142]: Download all supplementary files included with this article
+                  - link "What’s this?Opens in new window" [ref=e4143] [cursor=pointer]:
+                    - /url: https://service.elsevier.com/app/answers/detail/a_id/19286/supporthub/sciencedirect/
+                    - img [ref=e4144]
+                    - generic [ref=e4146]:
+                      - text: What’s this?
+                      - img "Opens in new window" [ref=e4147]
+                - generic [ref=e4149]:
+                  - generic [ref=e4151]:
+                    - 'link "Download: Download Acrobat PDF file (14MB)" [ref=e4153] [cursor=pointer]':
+                      - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-mmc1.pdf
+                      - img [ref=e4154]
+                      - generic [ref=e4157]: "Download: Download Acrobat PDF file (14MB)"
+                    - paragraph [ref=e4160]: Document S1. Supplemental experimental procedures, Figures S1–S13, and Tables S1–S4.
+                  - generic [ref=e4162]:
+                    - 'link "Download: Download Acrobat PDF file (17MB)" [ref=e4164] [cursor=pointer]':
+                      - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2666389922001805-mmc2.pdf
+                      - img [ref=e4165]
+                      - generic [ref=e4168]: "Download: Download Acrobat PDF file (17MB)"
+                    - paragraph [ref=e4171]: Document S2. Article plus supplemental information.
+            - generic [ref=e269]:
+              - heading "Data and code availability" [level=2] [ref=e270]
+              - generic [ref=e271]:
+                - text: "All drone data are available at Figshare:"
+                - link "https://doi.org/10.1184/R1/12683453Opens in new window" [ref=e272] [cursor=pointer]:
+                  - /url: https://doi.org/10.1184/R1/12683453
+                  - generic [ref=e273]:
+                    - text: https://doi.org/10.1184/R1/12683453
+                    - img "Opens in new window" [ref=e274]
+                - text: ", and all modeling codes are available at Zenodo:"
+                - link "https://doi.org/10.5281/zenodo.6726991Opens in new window" [ref=e276] [cursor=pointer]:
+                  - /url: https://doi.org/10.5281/zenodo.6726991
+                  - generic [ref=e277]:
+                    - text: https://doi.org/10.5281/zenodo.6726991
+                    - img "Opens in new window" [ref=e278]
+                - text: .
+              - generic [ref=e280]:
+                - text: We collected data on 188 flights to assess the power profile of a package-delivery drone given a set of operational parameters (payload, altitude, and speed during cruise). The data, available at Rodrigues et al.,
+                - link "37" [ref=e281] [cursor=pointer]:
+                  - /url: "#bib37"
+                  - superscript [ref=e284]: "37"
+                - text: and a data descriptor
+                - link "31" [ref=e285] [cursor=pointer]:
+                  - /url: "#bib31"
+                  - superscript [ref=e288]: "31"
+                - text: "provide the details of the experiment. In addition, we have developed an algorithm that separates the data into three different flight regimes: takeoff, cruise, and landing, in order to better understand the energy consumption profile during flight. We then perform a first-principles analysis to develop an energy model to estimate the drone’s energy consumption. Finally, we use the energy model to compare the drone with different transportation models from an energy consumption and GHG emissions basis."
+            - generic [ref=e4173]:
+              - heading "References" [level=2] [ref=e4174]
+              - list [ref=e4176]:
+                - listitem [ref=e4177]:
+                  - link "1" [ref=e4179] [cursor=pointer]:
+                    - /url: "#bbib1"
+                    - generic [ref=e4180]: "1"
+                  - generic [ref=e4181]:
+                    - generic [ref=e4183]: S. Davis, R. Boundy
+                    - generic [ref=e4184]:
+                      - text: (Edition 39), Transportation Energy Data Book (2021),
+                      - link "10.2172/1767864Opens in new window" [ref=e4185] [cursor=pointer]:
+                        - /url: https://doi.org/10.2172/1767864
+                        - generic [ref=e4186]:
+                          - text: 10.2172/1767864
+                          - img "Opens in new window" [ref=e4187]
+                    - link "Google ScholarOpens in new window" [ref=e4190] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Davis%2C%20S.%2C%20and%20Boundy%2C%20R.%20(2021).%20Transportation%20Energy%20Data%20Book%3A%20Edition%2039.%20doi%3A10.2172%2F1767864
+                      - generic [ref=e4191]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4192]
+                - listitem [ref=e4194]:
+                  - link "2" [ref=e4196] [cursor=pointer]:
+                    - /url: "#bbib2"
+                    - generic [ref=e4197]: "2"
+                  - generic [ref=e4198]:
+                    - generic [ref=e4199]:
+                      - generic [ref=e4200]: F. Dost, E. Maier
+                      - generic [ref=e4201]: "E-commerce effects on energy consumption: a multi-year ecosystem-level assessment"
+                    - generic [ref=e4202]:
+                      - text: J. Ind. Ecol., 22 (2018), pp. 799-812,
+                      - link "10.1111/jiec.12639Opens in new window" [ref=e4203] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111/jiec.12639
+                        - generic [ref=e4204]:
+                          - text: 10.1111/jiec.12639
+                          - img "Opens in new window" [ref=e4205]
+                    - generic [ref=e4207]:
+                      - link "View in ScopusOpens in new window" [ref=e4208] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85055127078&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4209]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4210]
+                      - link "Google ScholarOpens in new window" [ref=e4212] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=E-commerce%20effects%20on%20energy%20consumption%3A%20a%20multi-year%20ecosystem-level%20assessment&publication_year=2018&author=F.%20Dost&author=E.%20Maier
+                        - generic [ref=e4213]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4214]
+                - listitem [ref=e4216]:
+                  - link "3" [ref=e4218] [cursor=pointer]:
+                    - /url: "#bbib3"
+                    - generic [ref=e4219]: "3"
+                  - generic [ref=e4220]:
+                    - generic [ref=e4221]:
+                      - generic [ref=e4222]: M. Doole, J. Ellerbroek, J. Hoekstra
+                      - generic [ref=e4223]: Estimation of traffic density from drone-based delivery in very low level urban airspace
+                    - generic [ref=e4224]:
+                      - text: J. Air Transport. Manag., 88 (2020), p. 101862,
+                      - link "10.1016/J.JAIRTRAMAN.2020.101862Opens in new window" [ref=e4225] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/J.JAIRTRAMAN.2020.101862
+                        - generic [ref=e4226]:
+                          - text: 10.1016/J.JAIRTRAMAN.2020.101862
+                          - img "Opens in new window" [ref=e4227]
+                    - generic [ref=e4229]:
+                      - link "View PDF" [ref=e4230] [cursor=pointer]:
+                        - /url: /science/article/pii/S0969699719304004/pdfft?md5=f6e19bf47938bb1621fc968c01cbd173&pid=1-s2.0-S0969699719304004-main.pdf
+                        - img [ref=e4231]
+                        - generic [ref=e4236]: View PDF
+                      - link "View article" [ref=e4237] [cursor=pointer]:
+                        - /url: /science/article/pii/S0969699719304004
+                        - generic [ref=e4238]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4239] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85089012288&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4240]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4241]
+                      - link "Google ScholarOpens in new window" [ref=e4243] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Estimation%20of%20traffic%20density%20from%20drone-based%20delivery%20in%20very%20low%20level%20urban%20airspace&publication_year=2020&author=M.%20Doole&author=J.%20Ellerbroek&author=J.%20Hoekstra
+                        - generic [ref=e4244]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4245]
+                - listitem [ref=e4247]:
+                  - link "4" [ref=e4249] [cursor=pointer]:
+                    - /url: "#bbib4"
+                    - generic [ref=e4250]: "4"
+                  - generic [ref=e4251]:
+                    - generic [ref=e4252]:
+                      - generic [ref=e4253]: C. Mims
+                      - generic [ref=e4254]: The scramble for delivery robots is on and startups can barely keep up
+                    - generic [ref=e4255]: Wall Street Journal (2020)
+                    - link "https://www.wsj.com/articles/the-scramble-for-delivery-robots-is-on-and-startups-can-barely-keep-up-11587787199Opens in new window" [ref=e4257] [cursor=pointer]:
+                      - /url: https://www.wsj.com/articles/the-scramble-for-delivery-robots-is-on-and-startups-can-barely-keep-up-11587787199
+                      - generic [ref=e4258]:
+                        - text: https://www.wsj.com/articles/the-scramble-for-delivery-robots-is-on-and-startups-can-barely-keep-up-11587787199
+                        - img "Opens in new window" [ref=e4259]
+                    - link "Google ScholarOpens in new window" [ref=e4262] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=The%20scramble%20for%20delivery%20robots%20is%20on%20and%20startups%20can%20barely%20keep%20up&publication_year=2020&author=C.%20Mims
+                      - generic [ref=e4263]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4264]
+                - listitem [ref=e4266]:
+                  - link "5" [ref=e4268] [cursor=pointer]:
+                    - /url: "#bbib5"
+                    - generic [ref=e4269]: "5"
+                  - generic [ref=e4270]:
+                    - generic [ref=e4271]:
+                      - generic [ref=e4272]: T.B. Lee
+                      - generic [ref=e4273]: The pandemic is bringing us closer to our robot takeout future
+                    - generic [ref=e4274]: ARS Tech (2020)
+                    - link "https://arstechnica.com/tech-policy/2020/04/the-pandemic-is-bringing-us-closer-to-our-robot-takeout-future/Opens in new window" [ref=e4276] [cursor=pointer]:
+                      - /url: https://arstechnica.com/tech-policy/2020/04/the-pandemic-is-bringing-us-closer-to-our-robot-takeout-future/
+                      - generic [ref=e4277]:
+                        - text: https://arstechnica.com/tech-policy/2020/04/the-pandemic-is-bringing-us-closer-to-our-robot-takeout-future/
+                        - img "Opens in new window" [ref=e4278]
+                    - link "Google ScholarOpens in new window" [ref=e4281] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=The%20pandemic%20is%20bringing%20us%20closer%20to%20our%20robot%20takeout%20future&publication_year=2020&author=T.B.%20Lee
+                      - generic [ref=e4282]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4283]
+                - listitem [ref=e4285]:
+                  - link "6" [ref=e4287] [cursor=pointer]:
+                    - /url: "#bbib6"
+                    - generic [ref=e4288]: "6"
+                  - generic [ref=e4289]:
+                    - generic [ref=e4290]:
+                      - generic [ref=e4291]: A. Pani, S. Mishra, M. Golias, M. Figliozzi
+                      - generic [ref=e4292]: Evaluating public acceptance of autonomous delivery robots during COVID-19 pandemic
+                    - generic [ref=e4293]:
+                      - text: Transport. Res. Transport Environ., 89 (2020), p. 102600,
+                      - link "10.1016/j.trd.2020.102600Opens in new window" [ref=e4294] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2020.102600
+                        - generic [ref=e4295]:
+                          - text: 10.1016/j.trd.2020.102600
+                          - img "Opens in new window" [ref=e4296]
+                    - generic [ref=e4298]:
+                      - link "View PDF" [ref=e4299] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920307860/pdfft?md5=5edfc608de08979e18137f99053aa41e&pid=1-s2.0-S1361920920307860-main.pdf
+                        - img [ref=e4300]
+                        - generic [ref=e4305]: View PDF
+                      - link "View article" [ref=e4306] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920307860
+                        - generic [ref=e4307]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4308] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85094882110&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4309]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4310]
+                      - link "Google ScholarOpens in new window" [ref=e4312] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Evaluating%20public%20acceptance%20of%20autonomous%20delivery%20robots%20during%20COVID-19%20pandemic&publication_year=2020&author=A.%20Pani&author=S.%20Mishra&author=M.%20Golias&author=M.%20Figliozzi
+                        - generic [ref=e4313]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4314]
+                - listitem [ref=e4316]:
+                  - link "7" [ref=e4318] [cursor=pointer]:
+                    - /url: "#bbib7"
+                    - generic [ref=e4319]: "7"
+                  - generic [ref=e4320]:
+                    - generic [ref=e4321]:
+                      - generic [ref=e4322]: S. Kapser, M. Abdelrahman
+                      - generic [ref=e4323]: Acceptance of autonomous delivery vehicles for last-mile delivery in Germany – extending UTAUT2 with risk perceptions
+                    - generic [ref=e4324]:
+                      - text: Transport. Res. C Emerg. Technol., 111 (2020), pp. 210-225,
+                      - link "10.1016/j.trc.2019.12.016Opens in new window" [ref=e4325] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trc.2019.12.016
+                        - generic [ref=e4326]:
+                          - text: 10.1016/j.trc.2019.12.016
+                          - img "Opens in new window" [ref=e4327]
+                    - generic [ref=e4329]:
+                      - link "View PDF" [ref=e4330] [cursor=pointer]:
+                        - /url: /science/article/pii/S0968090X19309258/pdfft?md5=aa68a9122517452ca49b649a3a1f5985&pid=1-s2.0-S0968090X19309258-main.pdf
+                        - img [ref=e4331]
+                        - generic [ref=e4336]: View PDF
+                      - link "View article" [ref=e4337] [cursor=pointer]:
+                        - /url: /science/article/pii/S0968090X19309258
+                        - generic [ref=e4338]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4339] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85077047606&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4340]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4341]
+                      - link "Google ScholarOpens in new window" [ref=e4343] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Acceptance%20of%20autonomous%20delivery%20vehicles%20for%20last-mile%20delivery%20in%20Germany%20%20extending%20UTAUT2%20with%20risk%20perceptions&publication_year=2020&author=S.%20Kapser&author=M.%20Abdelrahman
+                        - generic [ref=e4344]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4345]
+                - listitem [ref=e4347]:
+                  - link "8" [ref=e4349] [cursor=pointer]:
+                    - /url: "#bbib8"
+                    - generic [ref=e4350]: "8"
+                  - generic [ref=e4351]:
+                    - generic [ref=e4352]:
+                      - generic [ref=e4353]: M.M. Abrar, R. Islam, M.A.H. Shanto
+                      - generic [ref=e4354]: An autonomous delivery robot to prevent the spread of coronavirus in product delivery system
+                    - generic [ref=e4355]:
+                      - text: 2020 11th IEEE Annual Ubiquitous Computing, Electronics and Mobile Communication Conference, UEMCON 2020, Institute of Electrical and Electronics Engineers Inc. (2020), pp. 0461-0466,
+                      - link "10.1109/UEMCON51285.2020.9298108Opens in new window" [ref=e4356] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/UEMCON51285.2020.9298108
+                        - generic [ref=e4357]:
+                          - text: 10.1109/UEMCON51285.2020.9298108
+                          - img "Opens in new window" [ref=e4358]
+                    - generic [ref=e4360]:
+                      - link "View in ScopusOpens in new window" [ref=e4361] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85099773428&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4362]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4363]
+                      - link "Google ScholarOpens in new window" [ref=e4365] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=An%20autonomous%20delivery%20robot%20to%20prevent%20the%20spread%20of%20coronavirus%20in%20product%20delivery%20system&publication_year=2020&author=M.M.%20Abrar&author=R.%20Islam&author=M.A.H.%20Shanto
+                        - generic [ref=e4366]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4367]
+                - listitem [ref=e4369]:
+                  - link "9" [ref=e4371] [cursor=pointer]:
+                    - /url: "#bbib9"
+                    - generic [ref=e4372]: "9"
+                  - generic [ref=e4373]:
+                    - generic [ref=e4374]:
+                      - generic [ref=e4375]: S. Carter, T. Johnston, S. Lidel, R. Riedel, L. Tusch
+                      - generic [ref=e4376]: "Drone Delivery: More Lift than You Think"
+                    - generic [ref=e4377]: McKinsey Co (2022)
+                    - link "https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/future-air-mobility-blog/drone-delivery-more-lift-than-you-thinkOpens in new window" [ref=e4379] [cursor=pointer]:
+                      - /url: https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/future-air-mobility-blog/drone-delivery-more-lift-than-you-think
+                      - generic [ref=e4380]:
+                        - text: https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/future-air-mobility-blog/drone-delivery-more-lift-than-you-think
+                        - img "Opens in new window" [ref=e4381]
+                    - link "Google ScholarOpens in new window" [ref=e4384] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Drone%20Delivery%3A%20More%20Lift%20than%20You%20Think&publication_year=2022&author=S.%20Carter&author=T.%20Johnston&author=S.%20Lidel&author=R.%20Riedel&author=L.%20Tusch
+                      - generic [ref=e4385]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4386]
+                - listitem [ref=e4388]:
+                  - link "10" [ref=e4390] [cursor=pointer]:
+                    - /url: "#bbib10"
+                    - generic [ref=e4391]: "10"
+                  - generic [ref=e4392]:
+                    - generic [ref=e4393]:
+                      - generic [ref=e4394]: M. Sheth, P. Butrina, A. Goodchild, E. McCormack
+                      - generic [ref=e4395]: Measuring delivery route cost trade-offs between electric-assist cargo bicycles and delivery trucks in dense urban areas
+                    - generic [ref=e4396]:
+                      - text: Eur. Transp. Res. Rev., 11 (2019), pp. 11-12,
+                      - link "10.1186/s12544-019-0349-5Opens in new window" [ref=e4397] [cursor=pointer]:
+                        - /url: https://doi.org/10.1186/s12544-019-0349-5
+                        - generic [ref=e4398]:
+                          - text: 10.1186/s12544-019-0349-5
+                          - img "Opens in new window" [ref=e4399]
+                    - generic [ref=e4401]:
+                      - link "View in ScopusOpens in new window" [ref=e4402] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85061485814&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4403]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4404]
+                      - link "Google ScholarOpens in new window" [ref=e4406] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Measuring%20delivery%20route%20cost%20trade-offs%20between%20electric-assist%20cargo%20bicycles%20and%20delivery%20trucks%20in%20dense%20urban%20areas&publication_year=2019&author=M.%20Sheth&author=P.%20Butrina&author=A.%20Goodchild&author=E.%20McCormack
+                        - generic [ref=e4407]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4408]
+                - listitem [ref=e4410]:
+                  - link "11" [ref=e4412] [cursor=pointer]:
+                    - /url: "#bbib11"
+                    - generic [ref=e4413]: "11"
+                  - generic [ref=e4414]:
+                    - generic [ref=e4415]:
+                      - generic [ref=e4416]: F.N. McLeod, T.J. Cherrett, T. Bektas, J. Allen, A. Martinez-Sykora, C. Lamas-Fernandez, O. Bates, K. Cheliotis, A. Friday, M. Piecyk, S. Wise
+                      - generic [ref=e4417]: Quantifying environmental and financial benefits of using porters and cycle couriers for last-mile parcel delivery
+                    - generic [ref=e4418]:
+                      - text: Transport. Res. Transport Environ., 82 (2020), p. 102311,
+                      - link "10.1016/j.trd.2020.102311Opens in new window" [ref=e4419] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2020.102311
+                        - generic [ref=e4420]:
+                          - text: 10.1016/j.trd.2020.102311
+                          - img "Opens in new window" [ref=e4421]
+                    - generic [ref=e4423]:
+                      - link "View PDF" [ref=e4424] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920919309277/pdfft?md5=e4262a34325cf2c88764d6494b087e54&pid=1-s2.0-S1361920919309277-main.pdf
+                        - img [ref=e4425]
+                        - generic [ref=e4430]: View PDF
+                      - link "View article" [ref=e4431] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920919309277
+                        - generic [ref=e4432]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4433] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85081610478&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4434]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4435]
+                      - link "Google ScholarOpens in new window" [ref=e4437] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Quantifying%20environmental%20and%20financial%20benefits%20of%20using%20porters%20and%20cycle%20couriers%20for%20last-mile%20parcel%20delivery&publication_year=2020&author=F.N.%20McLeod&author=T.J.%20Cherrett&author=T.%20Bektas&author=J.%20Allen&author=A.%20Martinez-Sykora&author=C.%20Lamas-Fernandez&author=O.%20Bates&author=K.%20Cheliotis&author=A.%20Friday&author=M.%20Piecyk&author=S.%20Wise
+                        - generic [ref=e4438]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4439]
+                - listitem [ref=e4441]:
+                  - link "12" [ref=e4443] [cursor=pointer]:
+                    - /url: "#bbib12"
+                    - generic [ref=e4444]: "12"
+                  - generic [ref=e4445]:
+                    - generic [ref=e4446]:
+                      - generic [ref=e4447]: D. Wagoner
+                      - generic [ref=e4448]: Five Trends Changing the Way Customers Shop in 2022
+                    - generic [ref=e4449]: Forbes (2022)
+                    - link "https://www.forbes.com/sites/forbesbusinesscouncil/2022/01/31/five-trends-changing-the-way-customers-shop-in-2022/?sh=2da296854021Opens in new window" [ref=e4451] [cursor=pointer]:
+                      - /url: https://www.forbes.com/sites/forbesbusinesscouncil/2022/01/31/five-trends-changing-the-way-customers-shop-in-2022/?sh=2da296854021
+                      - generic [ref=e4452]:
+                        - text: https://www.forbes.com/sites/forbesbusinesscouncil/2022/01/31/five-trends-changing-the-way-customers-shop-in-2022/?sh=2da296854021
+                        - img "Opens in new window" [ref=e4453]
+                    - link "Google ScholarOpens in new window" [ref=e4456] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Five%20Trends%20Changing%20the%20Way%20Customers%20Shop%20in%C2%A02022&publication_year=2022&author=D.%20Wagoner
+                      - generic [ref=e4457]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4458]
+                - listitem [ref=e4460]:
+                  - link "13" [ref=e4462] [cursor=pointer]:
+                    - /url: "#bbib13"
+                    - generic [ref=e4463]: "13"
+                  - generic [ref=e4464]:
+                    - generic [ref=e4465]:
+                      - generic [ref=e4466]: M. Muratori, T. Mai
+                      - generic [ref=e4467]: The shape of electrified transportation
+                    - generic [ref=e4468]:
+                      - text: Environ. Res. Lett., 16 (2020), pp. 011003-019326,
+                      - link "10.1088/1748-9326/ABCB38Opens in new window" [ref=e4469] [cursor=pointer]:
+                        - /url: https://doi.org/10.1088/1748-9326/ABCB38
+                        - generic [ref=e4470]:
+                          - text: 10.1088/1748-9326/ABCB38
+                          - img "Opens in new window" [ref=e4471]
+                    - link "Google ScholarOpens in new window" [ref=e4474] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=The%20shape%20of%20electrified%20transportation&publication_year=2020&author=M.%20Muratori&author=T.%20Mai
+                      - generic [ref=e4475]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4476]
+                - listitem [ref=e4478]:
+                  - link "14" [ref=e4480] [cursor=pointer]:
+                    - /url: "#bbib14"
+                    - generic [ref=e4481]: "14"
+                  - generic [ref=e4482]:
+                    - generic [ref=e4483]:
+                      - generic [ref=e4484]: J. Zhang, J.F. Campbell, D.C. Sweeney II, A.C. Hupman
+                      - generic [ref=e4485]: "Energy consumption models for delivery drones: a comparison and assessment"
+                    - generic [ref=e4486]:
+                      - text: Transport. Res. Transport Environ., 90 (2021), p. 102668,
+                      - link "10.1016/j.trd.2020.102668Opens in new window" [ref=e4487] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2020.102668
+                        - generic [ref=e4488]:
+                          - text: 10.1016/j.trd.2020.102668
+                          - img "Opens in new window" [ref=e4489]
+                    - generic [ref=e4491]:
+                      - link "View PDF" [ref=e4492] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920308531/pdfft?md5=3a3b04b07c479c8226e9967473e08c0e&pid=1-s2.0-S1361920920308531-mainext.pdf
+                        - img [ref=e4493]
+                        - generic [ref=e4498]: View PDF
+                      - link "View article" [ref=e4499] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920308531
+                        - generic [ref=e4500]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4501] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85098474575&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4502]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4503]
+                      - link "Google ScholarOpens in new window" [ref=e4505] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Energy%20consumption%20models%20for%20delivery%20drones%3A%20a%20comparison%20and%20assessment&publication_year=2021&author=J.%20Zhang&author=J.F.%20Campbell&author=D.C.%20Sweeney%20II&author=A.C.%20Hupman
+                        - generic [ref=e4506]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4507]
+                - listitem [ref=e4509]:
+                  - link "15" [ref=e4511] [cursor=pointer]:
+                    - /url: "#bbib15"
+                    - generic [ref=e4512]: "15"
+                  - generic [ref=e4513]:
+                    - generic [ref=e4514]:
+                      - generic [ref=e4515]: R. D’Andrea
+                      - generic [ref=e4516]: Guest editorial can drones deliver?
+                    - generic [ref=e4517]:
+                      - text: IEEE Trans. Autom. Sci. Eng., 11 (2014), pp. 647-648,
+                      - link "10.1109/TASE.2014.2326952Opens in new window" [ref=e4518] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/TASE.2014.2326952
+                        - generic [ref=e4519]:
+                          - text: 10.1109/TASE.2014.2326952
+                          - img "Opens in new window" [ref=e4520]
+                    - generic [ref=e4522]:
+                      - link "View in ScopusOpens in new window" [ref=e4523] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84904393350&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4524]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4525]
+                      - link "Google ScholarOpens in new window" [ref=e4527] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Guest%20editorial%20can%20drones%20deliver&publication_year=2014&author=R.%20D%E2%80%99Andrea
+                        - generic [ref=e4528]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4529]
+                - listitem [ref=e4531]:
+                  - link "16" [ref=e4533] [cursor=pointer]:
+                    - /url: "#bbib16"
+                    - generic [ref=e4534]: "16"
+                  - generic [ref=e4535]:
+                    - generic [ref=e4536]:
+                      - generic [ref=e4537]: M.A. Figliozzi
+                      - generic [ref=e4538]: Lifecycle modeling and assessment of unmanned aerial vehicles (Drones) CO2e emissions
+                    - generic [ref=e4539]:
+                      - text: Transport. Res. Transport Environ., 57 (2017), pp. 251-261,
+                      - link "10.1016/j.trd.2017.09.011Opens in new window" [ref=e4540] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2017.09.011
+                        - generic [ref=e4541]:
+                          - text: 10.1016/j.trd.2017.09.011
+                          - img "Opens in new window" [ref=e4542]
+                    - generic [ref=e4544]:
+                      - link "View PDF" [ref=e4545] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920917304844/pdfft?md5=c854167d390c32dbc248cff2cbc2aaaa&pid=1-s2.0-S1361920917304844-main.pdf
+                        - img [ref=e4546]
+                        - generic [ref=e4551]: View PDF
+                      - link "View article" [ref=e4552] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920917304844
+                        - generic [ref=e4553]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4554] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85042186560&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4555]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4556]
+                      - link "Google ScholarOpens in new window" [ref=e4558] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Lifecycle%20modeling%20and%20assessment%20of%20unmanned%20aerial%20vehicles%20%20CO2e%20emissions&publication_year=2017&author=M.A.%20Figliozzi
+                        - generic [ref=e4559]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4560]
+                - listitem [ref=e4562]:
+                  - link "17" [ref=e4564] [cursor=pointer]:
+                    - /url: "#bbib17"
+                    - generic [ref=e4565]: "17"
+                  - generic [ref=e4566]:
+                    - generic [ref=e4567]:
+                      - generic [ref=e4568]: K. Dorling, J. Heinrichs, G.G. Messier, S. Magierowski
+                      - generic [ref=e4569]: Vehicle routing problems for drone delivery
+                    - generic [ref=e4570]:
+                      - text: IEEE Trans. Syst. Man, Cybern. Syst., 47 (2017), pp. 70-85,
+                      - link "10.1109/TSMC.2016.2582745Opens in new window" [ref=e4571] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/TSMC.2016.2582745
+                        - generic [ref=e4572]:
+                          - text: 10.1109/TSMC.2016.2582745
+                          - img "Opens in new window" [ref=e4573]
+                    - generic [ref=e4575]:
+                      - link "View in ScopusOpens in new window" [ref=e4576] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85007470663&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4577]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4578]
+                      - link "Google ScholarOpens in new window" [ref=e4580] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Vehicle%20routing%20problems%20for%20drone%20delivery&publication_year=2017&author=K.%20Dorling&author=J.%20Heinrichs&author=G.G.%20Messier&author=S.%20Magierowski
+                        - generic [ref=e4581]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4582]
+                - listitem [ref=e4584]:
+                  - link "18" [ref=e4586] [cursor=pointer]:
+                    - /url: "#bbib18"
+                    - generic [ref=e4587]: "18"
+                  - generic [ref=e4588]:
+                    - generic [ref=e4589]:
+                      - generic [ref=e4590]: Z. Liu, R. Sengupta, A. Kurzhanskiy
+                      - generic [ref=e4591]: A power consumption model for multi-rotor small unmanned aircraft systems
+                    - generic [ref=e4592]:
+                      - text: 2017 International Conference on Unmanned Aircraft Systems (ICUAS) (IEEE) (2017), pp. 310-315,
+                      - link "10.1109/ICUAS.2017.7991310Opens in new window" [ref=e4593] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/ICUAS.2017.7991310
+                        - generic [ref=e4594]:
+                          - text: 10.1109/ICUAS.2017.7991310
+                          - img "Opens in new window" [ref=e4595]
+                    - generic [ref=e4597]:
+                      - link "View in ScopusOpens in new window" [ref=e4598] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85034040223&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4599]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4600]
+                      - link "Google ScholarOpens in new window" [ref=e4602] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=A%20power%20consumption%20model%20for%20multi-rotor%20small%20unmanned%20aircraft%20systems&publication_year=2017&author=Z.%20Liu&author=R.%20Sengupta&author=A.%20Kurzhanskiy
+                        - generic [ref=e4603]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4604]
+                - listitem [ref=e4606]:
+                  - link "19" [ref=e4608] [cursor=pointer]:
+                    - /url: "#bbib19"
+                    - generic [ref=e4609]: "19"
+                  - generic [ref=e4610]:
+                    - generic [ref=e4611]:
+                      - generic [ref=e4612]: A.J. Lohn, T. Gulden, J. Xu, T. Jones, K. Kuhn, W.I. Welser
+                      - generic [ref=e4613]: What the Buzz? The Drones Are Here
+                    - generic [ref=e4614]: Rand Corporation (2018)
+                    - link "https://www.rand.org/pubs/research_briefs/RB9995.htmlOpens in new window" [ref=e4616] [cursor=pointer]:
+                      - /url: https://www.rand.org/pubs/research_briefs/RB9995.html
+                      - generic [ref=e4617]:
+                        - text: https://www.rand.org/pubs/research_briefs/RB9995.html
+                        - img "Opens in new window" [ref=e4618]
+                    - link "Google ScholarOpens in new window" [ref=e4621] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=What%20the%20Buzz%20The%20Drones%20Are%20Here&publication_year=2018&author=A.J.%20Lohn&author=T.%20Gulden&author=J.%20Xu&author=T.%20Jones&author=K.%20Kuhn&author=W.I.%20Welser
+                      - generic [ref=e4622]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4623]
+                - listitem [ref=e4625]:
+                  - link "20" [ref=e4627] [cursor=pointer]:
+                    - /url: "#bbib20"
+                    - generic [ref=e4628]: "20"
+                  - generic [ref=e4629]:
+                    - generic [ref=e4630]:
+                      - generic [ref=e4631]: J.K. Stolaroff, C. Samaras, E.R. O’Neill, A. Lubers, A.S. Mitchell, D. Ceperley
+                      - generic [ref=e4632]: Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery
+                    - generic [ref=e4633]:
+                      - text: Nat. Commun., 9 (2018), p. 409,
+                      - link "10.1038/s41467-017-02411-5Opens in new window" [ref=e4634] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038/s41467-017-02411-5
+                        - generic [ref=e4635]:
+                          - text: 10.1038/s41467-017-02411-5
+                          - img "Opens in new window" [ref=e4636]
+                    - generic [ref=e4638]:
+                      - link "View in ScopusOpens in new window" [ref=e4639] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85042001638&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4640]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4641]
+                      - link "Google ScholarOpens in new window" [ref=e4643] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Energy%20use%20and%20life%20cycle%20greenhouse%20gas%20emissions%20of%20drones%20for%20commercial%20package%20delivery&publication_year=2018&author=J.K.%20Stolaroff&author=C.%20Samaras&author=E.R.%20O%E2%80%99Neill&author=A.%20Lubers&author=A.S.%20Mitchell&author=D.%20Ceperley
+                        - generic [ref=e4644]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4645]
+                - listitem [ref=e4647]:
+                  - link "21" [ref=e4649] [cursor=pointer]:
+                    - /url: "#bbib21"
+                    - generic [ref=e4650]: "21"
+                  - generic [ref=e4651]:
+                    - generic [ref=e4652]:
+                      - generic [ref=e4653]: H.Y. Jeong, B.D. Song, S. Lee
+                      - generic [ref=e4654]: "Truck-drone hybrid delivery routing: payload-energy dependency and No-Fly zones"
+                    - generic [ref=e4655]: Int. J. Prod. Econ., 214 (2019), pp. 220-233
+                    - generic [ref=e4656]:
+                      - link "View PDF" [ref=e4657] [cursor=pointer]:
+                        - /url: /science/article/pii/S0925527319300106/pdfft?md5=748af606966c2d7f8b6a9d7bd3e6e642&pid=1-s2.0-S0925527319300106-main.pdf
+                        - img [ref=e4658]
+                        - generic [ref=e4663]: View PDF
+                      - link "View article" [ref=e4664] [cursor=pointer]:
+                        - /url: /science/article/pii/S0925527319300106
+                        - generic [ref=e4665]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4666] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85063460359&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4667]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4668]
+                      - link "Google ScholarOpens in new window" [ref=e4670] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Truck-drone%20hybrid%20delivery%20routing%3A%20payload-energy%20dependency%20and%20No-Fly%20zones&publication_year=2019&author=H.Y.%20Jeong&author=B.D.%20Song&author=S.%20Lee
+                        - generic [ref=e4671]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4672]
+                - listitem [ref=e4674]:
+                  - link "22" [ref=e4676] [cursor=pointer]:
+                    - /url: "#bbib22"
+                    - generic [ref=e4677]: "22"
+                  - generic [ref=e4678]:
+                    - generic [ref=e4679]:
+                      - generic [ref=e4680]: M. Torabbeigi, G.J. Lim, S.J. Kim
+                      - generic [ref=e4681]: Drone delivery scheduling optimization considering payload-induced battery consumption rates
+                    - generic [ref=e4682]:
+                      - text: J. Intell. Rob. Syst., 97 (2019), pp. 471-487,
+                      - link "10.1007/s10846-019-01034-wOpens in new window" [ref=e4683] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s10846-019-01034-w
+                        - generic [ref=e4684]:
+                          - text: 10.1007/s10846-019-01034-w
+                          - img "Opens in new window" [ref=e4685]
+                    - link "Google ScholarOpens in new window" [ref=e4688] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Drone%20delivery%20scheduling%20optimization%20considering%20payload-induced%20battery%20consumption%20rates&publication_year=2019&author=M.%20Torabbeigi&author=G.J.%20Lim&author=S.J.%20Kim
+                      - generic [ref=e4689]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4690]
+                - listitem [ref=e4692]:
+                  - link "23" [ref=e4694] [cursor=pointer]:
+                    - /url: "#bbib23"
+                    - generic [ref=e4695]: "23"
+                  - generic [ref=e4696]:
+                    - generic [ref=e4697]:
+                      - generic [ref=e4698]: T. Kirschstein
+                      - generic [ref=e4699]: Comparison of energy demands of drone-based and ground-based parcel delivery services
+                    - generic [ref=e4700]:
+                      - text: Transport. Res. Transport Environ., 78 (2020), p. 102209,
+                      - link "10.1016/j.trd.2019.102209Opens in new window" [ref=e4701] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2019.102209
+                        - generic [ref=e4702]:
+                          - text: 10.1016/j.trd.2019.102209
+                          - img "Opens in new window" [ref=e4703]
+                    - generic [ref=e4705]:
+                      - link "View PDF" [ref=e4706] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920919309575/pdfft?md5=07c784ee9a07b59f815d0f14f02b6e89&pid=1-s2.0-S1361920919309575-mainext.pdf
+                        - img [ref=e4707]
+                        - generic [ref=e4712]: View PDF
+                      - link "View article" [ref=e4713] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920919309575
+                        - generic [ref=e4714]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4715] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85077124509&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4716]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4717]
+                      - link "Google ScholarOpens in new window" [ref=e4719] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Comparison%20of%20energy%20demands%20of%20drone-based%20and%20ground-based%20parcel%20delivery%20services&publication_year=2020&author=T.%20Kirschstein
+                        - generic [ref=e4720]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4721]
+                - listitem [ref=e4723]:
+                  - link "24" [ref=e4725] [cursor=pointer]:
+                    - /url: "#bbib24"
+                    - generic [ref=e4726]: "24"
+                  - generic [ref=e4727]:
+                    - generic [ref=e4728]:
+                      - generic [ref=e4729]: R. Alyassi, M. Khonji, A. Karapetyan, C.-K. Chau, K. Elbassioni, C.-M. Tseng
+                      - generic [ref=e4730]: Autonomous Recharging and Flight Mission Planning for Battery-Operated Autonomous Drones
+                    - generic [ref=e4731]:
+                      - text: IEEE Transactions on Automation Science and Engineering (IEEE) (2017),
+                      - link "10.1109/TASE.2022.3175565Opens in new window" [ref=e4732] [cursor=pointer]:
+                        - /url: https://doi.org/10.1109/TASE.2022.3175565
+                        - generic [ref=e4733]:
+                          - text: 10.1109/TASE.2022.3175565
+                          - img "Opens in new window" [ref=e4734]
+                    - link "Google ScholarOpens in new window" [ref=e4737] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Autonomous%20Recharging%20and%20Flight%20Mission%20Planning%20for%20Battery-Operated%20Autonomous%20Drones&publication_year=2017&author=R.%20Alyassi&author=M.%20Khonji&author=A.%20Karapetyan&author=C.-K.%20Chau&author=K.%20Elbassioni&author=C.-M.%20Tseng
+                      - generic [ref=e4738]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4739]
+                - listitem [ref=e4741]:
+                  - link "25" [ref=e4743] [cursor=pointer]:
+                    - /url: "#bbib25"
+                    - generic [ref=e4744]: "25"
+                  - generic [ref=e4745]:
+                    - generic [ref=e4746]:
+                      - generic [ref=e4747]: M.A. Figliozzi
+                      - generic [ref=e4748]: Carbon emissions reductions in last mile and grocery deliveries utilizing air and ground autonomous vehicles
+                    - generic [ref=e4749]:
+                      - text: Transp. Res. D Transp. Environ., 85 (2020), p. 102443,
+                      - link "10.1016/j.trd.2020.102443Opens in new window" [ref=e4750] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2020.102443
+                        - generic [ref=e4751]:
+                          - text: 10.1016/j.trd.2020.102443
+                          - img "Opens in new window" [ref=e4752]
+                    - generic [ref=e4754]:
+                      - link "View PDF" [ref=e4755] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920306301/pdfft?md5=f15cb6d829251c04052979834311fcc9&pid=1-s2.0-S1361920920306301-main.pdf
+                        - img [ref=e4756]
+                        - generic [ref=e4761]: View PDF
+                      - link "View article" [ref=e4762] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920306301
+                        - generic [ref=e4763]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4764] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85087506193&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4765]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4766]
+                      - link "Google ScholarOpens in new window" [ref=e4768] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Carbon%20emissions%20reductions%20in%20last%20mile%20and%20grocery%20deliveries%20utilizing%20air%20and%20ground%20autonomous%20vehicles&publication_year=2020&author=M.A.%20Figliozzi
+                        - generic [ref=e4769]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4770]
+                - listitem [ref=e4772]:
+                  - link "26" [ref=e4774] [cursor=pointer]:
+                    - /url: "#bbib26"
+                    - generic [ref=e4775]: "26"
+                  - generic [ref=e4776]:
+                    - generic [ref=e4777]:
+                      - generic [ref=e4778]: A. Goodchild, J. Toy
+                      - generic [ref=e4779]: "Delivery by drone: an evaluation of unmanned aerial vehicle technology in reducing CO2 emissions in the delivery service industry"
+                    - generic [ref=e4780]:
+                      - text: Transport. Res. Transport Environ., 61 (2018), pp. 58-67,
+                      - link "10.1016/j.trd.2017.02.017Opens in new window" [ref=e4781] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2017.02.017
+                        - generic [ref=e4782]:
+                          - text: 10.1016/j.trd.2017.02.017
+                          - img "Opens in new window" [ref=e4783]
+                    - generic [ref=e4785]:
+                      - link "View PDF" [ref=e4786] [cursor=pointer]:
+                        - /url: /science/article/pii/S136192091630133X/pdfft?md5=6948f454603a92528495b09caa4b80de&pid=1-s2.0-S136192091630133X-main.pdf
+                        - img [ref=e4787]
+                        - generic [ref=e4792]: View PDF
+                      - link "View article" [ref=e4793] [cursor=pointer]:
+                        - /url: /science/article/pii/S136192091630133X
+                        - generic [ref=e4794]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4795] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85019651961&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4796]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4797]
+                      - link "Google ScholarOpens in new window" [ref=e4799] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Delivery%20by%20drone%3A%20an%20evaluation%20of%20unmanned%20aerial%20vehicle%20technology%20in%20reducing%20CO2%20emissions%20in%20the%20delivery%20service%20industry&publication_year=2018&author=A.%20Goodchild&author=J.%20Toy
+                        - generic [ref=e4800]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4801]
+                - listitem [ref=e4803]:
+                  - link "27" [ref=e4805] [cursor=pointer]:
+                    - /url: "#bbib27"
+                    - generic [ref=e4806]: "27"
+                  - generic [ref=e4807]:
+                    - generic [ref=e4808]:
+                      - generic [ref=e4809]: B. Borlaug, M. Muratori, M. Gilleran, D. Woody, W. Muston, T. Canada, A. Ingram, H. Gresham, C. McQueen
+                      - generic [ref=e4810]: Heavy-duty truck electrification and the impacts of depot charging on electricity distribution systems
+                    - generic [ref=e4811]:
+                      - text: Nat. Energy, 6 (2021), pp. 673-682,
+                      - link "10.1038/s41560-021-00855-0Opens in new window" [ref=e4812] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038/s41560-021-00855-0
+                        - generic [ref=e4813]:
+                          - text: 10.1038/s41560-021-00855-0
+                          - img "Opens in new window" [ref=e4814]
+                    - generic [ref=e4816]:
+                      - link "View in ScopusOpens in new window" [ref=e4817] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85108336519&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4818]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4819]
+                      - link "Google ScholarOpens in new window" [ref=e4821] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Heavy-duty%20truck%20electrification%20and%20the%20impacts%20of%20depot%20charging%20on%20electricity%20distribution%20systems&publication_year=2021&author=B.%20Borlaug&author=M.%20Muratori&author=M.%20Gilleran&author=D.%20Woody&author=W.%20Muston&author=T.%20Canada&author=A.%20Ingram&author=H.%20Gresham&author=C.%20McQueen
+                        - generic [ref=e4822]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4823]
+                - listitem [ref=e4825]:
+                  - link "28" [ref=e4827] [cursor=pointer]:
+                    - /url: "#bbib28"
+                    - generic [ref=e4828]: "28"
+                  - generic [ref=e4829]:
+                    - generic [ref=e4830]:
+                      - generic [ref=e4831]: Speedbird Aero
+                      - generic [ref=e4832]: Meet our aircraft
+                    - link "https://www.speedbird.aero/index-en.html#aircraftOpens in new window" [ref=e4834] [cursor=pointer]:
+                      - /url: https://www.speedbird.aero/index-en.html#aircraft
+                      - generic [ref=e4835]:
+                        - text: https://www.speedbird.aero/index-en.html#aircraft
+                        - img "Opens in new window" [ref=e4836]
+                    - link "Google ScholarOpens in new window" [ref=e4839] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Speedbird%20Aero.%20Meet%20our%20aircraft%20https%3A%2F%2Fwww.speedbird.aero%2Findex-en.html%23aircraft.
+                      - generic [ref=e4840]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4841]
+                - listitem [ref=e4843]:
+                  - link "29" [ref=e4845] [cursor=pointer]:
+                    - /url: "#bbib29"
+                    - generic [ref=e4846]: "29"
+                  - generic [ref=e4847]:
+                    - generic [ref=e4848]:
+                      - generic [ref=e4849]: Manna Drone Delivery
+                      - generic [ref=e4850]: Introducing Manna. Drone delievery made simple
+                    - link "https://www.manna.aero/Opens in new window" [ref=e4852] [cursor=pointer]:
+                      - /url: https://www.manna.aero/
+                      - generic [ref=e4853]:
+                        - text: https://www.manna.aero/
+                        - img "Opens in new window" [ref=e4854]
+                    - link "Google ScholarOpens in new window" [ref=e4857] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Manna%20Drone%20Delivery.%20Introducing%20Manna.%20Drone%20delievery%20made%20simple%20https%3A%2F%2Fwww.manna.aero%2F.
+                      - generic [ref=e4858]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4859]
+                - listitem [ref=e4861]:
+                  - link "30" [ref=e4863] [cursor=pointer]:
+                    - /url: "#bbib30"
+                    - generic [ref=e4864]: "30"
+                  - generic [ref=e4865]:
+                    - generic [ref=e4866]:
+                      - generic [ref=e4867]: I.A. Hamilton
+                      - generic [ref=e4868]: A tiny Irish drone startup is delivering emergency cake, pizza, and medical supplies to Moneygall, the ancestral home of Barack Obama
+                    - generic [ref=e4869]: Business Insider (2020)
+                    - link "https://www.businessinsider.com/drone-delivery-startup-manna-adapted-to-coronavirus-pandemic-2020-5Opens in new window" [ref=e4871] [cursor=pointer]:
+                      - /url: https://www.businessinsider.com/drone-delivery-startup-manna-adapted-to-coronavirus-pandemic-2020-5
+                      - generic [ref=e4872]:
+                        - text: https://www.businessinsider.com/drone-delivery-startup-manna-adapted-to-coronavirus-pandemic-2020-5
+                        - img "Opens in new window" [ref=e4873]
+                    - link "Google ScholarOpens in new window" [ref=e4876] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=A%20tiny%20Irish%20drone%20startup%20is%20delivering%20emergency%20cake%2C%C2%A0pizza%2C%20and%20medical%20supplies%20to%20Moneygall%2C%20the%20ancestral%20home%20of%C2%A0Barack%20Obama&publication_year=2020&author=I.A.%20Hamilton
+                      - generic [ref=e4877]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4878]
+                - listitem [ref=e4880]:
+                  - link "31" [ref=e4882] [cursor=pointer]:
+                    - /url: "#bbib31"
+                    - generic [ref=e4883]: "31"
+                  - generic [ref=e4884]:
+                    - generic [ref=e4885]:
+                      - generic [ref=e4886]:
+                        - text: T.A. Rodrigues, J. Patrikar, A. Choudhry, J. Feldgoise, A. Gahlaut, V. Arcot, S. Lau, B. Moon, B. Wagner, H.S. Matthews,
+                        - emphasis [ref=e4887]: et al.
+                      - generic [ref=e4888]: In-flight positional and energy use data set of a DJI Matrice 100 quadcopter for small package delivery
+                    - generic [ref=e4889]:
+                      - text: Sci. Data, 8 (2021), pp. 1-8,
+                      - link "10.1038/s41597- 430 021-00930-xOpens in new window" [ref=e4890] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038/s41597- 430 021-00930-x
+                        - generic [ref=e4891]:
+                          - text: 10.1038/s41597- 430 021-00930-x
+                          - img "Opens in new window" [ref=e4892]
+                    - link "Google ScholarOpens in new window" [ref=e4895] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=In-flight%20positional%20and%20energy%20use%20data%20set%20of%20a%20DJI%20Matrice%20100%20quadcopter%20for%20small%20package%20delivery&publication_year=2021&author=T.A.%20Rodrigues&author=J.%20Patrikar&author=A.%20Choudhry&author=J.%20Feldgoise&author=A.%20Gahlaut&author=V.%20Arcot&author=S.%20Lau&author=B.%20Moon&author=B.%20Wagner&author=H.S.%20Matthews
+                      - generic [ref=e4896]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4897]
+                - listitem [ref=e4899]:
+                  - link "32" [ref=e4901] [cursor=pointer]:
+                    - /url: "#bbib32"
+                    - generic [ref=e4902]: "32"
+                  - generic [ref=e4903]:
+                    - generic [ref=e4904]:
+                      - generic [ref=e4905]: United States Environmental Protection Agency
+                      - generic [ref=e4906]: Emissions & Generation Resource Integrated Database (eGRID)
+                    - generic [ref=e4907]:
+                      - link "https://www.epa.gov/egridOpens in new window" [ref=e4908] [cursor=pointer]:
+                        - /url: https://www.epa.gov/egrid
+                        - generic [ref=e4909]:
+                          - text: https://www.epa.gov/egrid
+                          - img "Opens in new window" [ref=e4910]
+                      - text: (2015)
+                    - link "Google ScholarOpens in new window" [ref=e4913] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Emissions%20%20Generation%20Resource%20Integrated%20Database%20&publication_year=2015&author=United%20States%20Environmental%20Protection%20Agency
+                      - generic [ref=e4914]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4915]
+                - listitem [ref=e4917]:
+                  - link "33" [ref=e4919] [cursor=pointer]:
+                    - /url: "#bbib33"
+                    - generic [ref=e4920]: "33"
+                  - generic [ref=e4921]:
+                    - generic [ref=e4922]:
+                      - generic [ref=e4923]: Federal Aviation Administration
+                      - generic [ref=e4924]: Small Unmanned Aircraft Systems (UAS) Regulations (Part 107)
+                    - generic [ref=e4925]:
+                      - link "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107Opens in new window" [ref=e4926] [cursor=pointer]:
+                        - /url: https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107
+                        - generic [ref=e4927]:
+                          - text: https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107
+                          - img "Opens in new window" [ref=e4928]
+                      - text: (2020)
+                    - link "Google ScholarOpens in new window" [ref=e4931] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Small%20Unmanned%20Aircraft%20Systems%20%20Regulations%20&publication_year=2020&author=Federal%20Aviation%20Administration
+                      - generic [ref=e4932]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4933]
+                - listitem [ref=e4935]:
+                  - link "34" [ref=e4937] [cursor=pointer]:
+                    - /url: "#bbib34"
+                    - generic [ref=e4938]: "34"
+                  - generic [ref=e4939]:
+                    - generic [ref=e4940]:
+                      - generic [ref=e4941]: M. Elsayed, M. Mohamed
+                      - generic [ref=e4942]: The impact of airspace regulations on unmanned aerial vehicles in last-mile operation
+                    - generic [ref=e4943]:
+                      - text: Transport. Res. Transport Environ., 87 (2020), p. 102480,
+                      - link "10.1016/j.trd.2020.102480Opens in new window" [ref=e4944] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2020.102480
+                        - generic [ref=e4945]:
+                          - text: 10.1016/j.trd.2020.102480
+                          - img "Opens in new window" [ref=e4946]
+                    - generic [ref=e4948]:
+                      - link "View PDF" [ref=e4949] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920306672/pdfft?md5=936a276d818a084cb0b86e1dbb3d15bf&pid=1-s2.0-S1361920920306672-main.pdf
+                        - img [ref=e4950]
+                        - generic [ref=e4955]: View PDF
+                      - link "View article" [ref=e4956] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920920306672
+                        - generic [ref=e4957]: View article
+                      - link "View in ScopusOpens in new window" [ref=e4958] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85089222943&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4959]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e4960]
+                      - link "Google ScholarOpens in new window" [ref=e4962] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=The%20impact%20of%20airspace%20regulations%20on%20unmanned%20aerial%20vehicles%20in%20last-mile%20operation&publication_year=2020&author=M.%20Elsayed&author=M.%20Mohamed
+                        - generic [ref=e4963]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e4964]
+                - listitem [ref=e4966]:
+                  - link "35" [ref=e4968] [cursor=pointer]:
+                    - /url: "#bbib35"
+                    - generic [ref=e4969]: "35"
+                  - generic [ref=e4970]:
+                    - generic [ref=e4971]:
+                      - generic [ref=e4972]: UPS
+                      - generic [ref=e4973]: 2019 GRI Content Index
+                    - link "https://about.ups.com/content/dam/upsstories/assets/reporting/2019-UPS-Corporate-Global-Reporting-Initiative-GRI-Content-Index.pdfOpens in new window" [ref=e4975] [cursor=pointer]:
+                      - /url: https://about.ups.com/content/dam/upsstories/assets/reporting/2019-UPS-Corporate-Global-Reporting-Initiative-GRI-Content-Index.pdf
+                      - generic [ref=e4976]:
+                        - text: https://about.ups.com/content/dam/upsstories/assets/reporting/2019-UPS-Corporate-Global-Reporting-Initiative-GRI-Content-Index.pdf
+                        - img "Opens in new window" [ref=e4977]
+                    - link "Google ScholarOpens in new window" [ref=e4980] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=UPS.%202019%20GRI%20Content%20Index%20https%3A%2F%2Fabout.ups.com%2Fcontent%2Fdam%2Fupsstories%2Fassets%2Freporting%2F2019-UPS-Corporate-Global-Reporting-Initiative-GRI-Content-Index.pdf.
+                      - generic [ref=e4981]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e4982]
+                - listitem [ref=e4984]:
+                  - link "36" [ref=e4986] [cursor=pointer]:
+                    - /url: "#bbib36"
+                    - generic [ref=e4987]: "36"
+                  - generic [ref=e4988]:
+                    - generic [ref=e4989]:
+                      - generic [ref=e4990]: M. Isik, R. Dodder, P.O. Kaplan
+                      - generic [ref=e4991]: Transportation emissions scenarios for New York City under different carbon intensities of electricity and electric vehicle adoption rates
+                    - generic [ref=e4992]:
+                      - text: Nat. Energy, 6 (2021), pp. 92-104,
+                      - link "10.1038/s41560-020-00740-2Opens in new window" [ref=e4993] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038/s41560-020-00740-2
+                        - generic [ref=e4994]:
+                          - text: 10.1038/s41560-020-00740-2
+                          - img "Opens in new window" [ref=e4995]
+                    - generic [ref=e4997]:
+                      - link "View in ScopusOpens in new window" [ref=e4998] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85098746564&partnerID=10&rel=R3.0.0
+                        - generic [ref=e4999]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e5000]
+                      - link "Google ScholarOpens in new window" [ref=e5002] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Transportation%20emissions%20scenarios%20for%20New%20York%20City%20under%20different%20carbon%20intensities%20of%20electricity%20and%20electric%20vehicle%20adoption%20rates&publication_year=2021&author=M.%20Isik&author=R.%20Dodder&author=P.O.%20Kaplan
+                        - generic [ref=e5003]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e5004]
+                - listitem [ref=e5006]:
+                  - link "37" [ref=e5008] [cursor=pointer]:
+                    - /url: "#bbib37"
+                    - generic [ref=e5009]: "37"
+                  - generic [ref=e5010]:
+                    - generic [ref=e5011]:
+                      - generic [ref=e5012]:
+                        - text: T.A. Rodrigues, J. Patrikar, A. Choudhry, J. Feldgoise, V. Arcot, A. Gahlaut, S. Lau, B. Moon, B. Wagner, H.S. Matthews,
+                        - emphasis [ref=e5013]: et al.
+                      - generic [ref=e5014]: Data collected with package delivery quadcopter drone
+                    - generic [ref=e5015]:
+                      - text: (2020),
+                      - link "10.1184/R1/12683453Opens in new window" [ref=e5016] [cursor=pointer]:
+                        - /url: https://doi.org/10.1184/R1/12683453
+                        - generic [ref=e5017]:
+                          - text: 10.1184/R1/12683453
+                          - img "Opens in new window" [ref=e5018]
+                    - generic [ref=e5020]: figshare
+                    - link "Google ScholarOpens in new window" [ref=e5022] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Data%20collected%20with%20package%20delivery%20quadcopter%20drone&publication_year=2020&author=T.A.%20Rodrigues&author=J.%20Patrikar&author=A.%20Choudhry&author=J.%20Feldgoise&author=V.%20Arcot&author=A.%20Gahlaut&author=S.%20Lau&author=B.%20Moon&author=B.%20Wagner&author=H.S.%20Matthews
+                      - generic [ref=e5023]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5024]
+                - listitem [ref=e5026]:
+                  - link "38" [ref=e5028] [cursor=pointer]:
+                    - /url: "#bbib38"
+                    - generic [ref=e5029]: "38"
+                  - generic [ref=e5030]:
+                    - generic [ref=e5031]:
+                      - generic [ref=e5032]: ROS
+                      - generic [ref=e5033]: message_filters::sync::ApproximateTime
+                    - generic [ref=e5034]: (2010)
+                    - link "http://wiki.ros.org/message_filters/ApproximateTimeOpens in new window" [ref=e5036] [cursor=pointer]:
+                      - /url: http://wiki.ros.org/message_filters/ApproximateTime
+                      - generic [ref=e5037]:
+                        - text: http://wiki.ros.org/message_filters/ApproximateTime
+                        - img "Opens in new window" [ref=e5038]
+                    - link "Google ScholarOpens in new window" [ref=e5041] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=message_filters%3A%3Async%3A%3AApproximateTime&publication_year=2010&author=ROS
+                      - generic [ref=e5042]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5043]
+                - listitem [ref=e5045]:
+                  - link "39" [ref=e5047] [cursor=pointer]:
+                    - /url: "#bbib39"
+                    - generic [ref=e5048]: "39"
+                  - generic [ref=e5049]:
+                    - generic [ref=e5050]:
+                      - generic [ref=e5051]: C. Rotaru, M. Todorov
+                      - generic [ref=e5052]: Helicopter flight physics
+                    - generic [ref=e5053]:
+                      - text: Flight Physics - Models, Techniques and Technologies, InTech (2017),
+                      - link "10.5772/intechopen.71516Opens in new window" [ref=e5054] [cursor=pointer]:
+                        - /url: https://doi.org/10.5772/intechopen.71516
+                        - generic [ref=e5055]:
+                          - text: 10.5772/intechopen.71516
+                          - img "Opens in new window" [ref=e5056]
+                    - link "Google ScholarOpens in new window" [ref=e5059] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Helicopter%20flight%20physics&publication_year=2017&author=C.%20Rotaru&author=M.%20Todorov
+                      - generic [ref=e5060]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5061]
+                - listitem [ref=e5063]:
+                  - link "40" [ref=e5065] [cursor=pointer]:
+                    - /url: "#bbib40"
+                    - generic [ref=e5066]: "40"
+                  - generic [ref=e5067]:
+                    - generic [ref=e5068]:
+                      - generic [ref=e5069]:
+                        - text: T. Chen, T. He, M. Benesty, V. Khotilovich, Y. Tang, H. Cho, K. Chen, R. Mitchell, I. Cano, T. Zhou,
+                        - emphasis [ref=e5070]: et al.
+                      - generic [ref=e5071]: "Xgboost: Extreme Gradient Boosting"
+                    - generic [ref=e5072]: (2020)
+                    - link "https://github.com/dmlc/xgboostOpens in new window" [ref=e5074] [cursor=pointer]:
+                      - /url: https://github.com/dmlc/xgboost
+                      - generic [ref=e5075]:
+                        - text: https://github.com/dmlc/xgboost
+                        - img "Opens in new window" [ref=e5076]
+                    - link "Google ScholarOpens in new window" [ref=e5079] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Xgboost%3A%20Extreme%20Gradient%20Boosting&publication_year=2020&author=T.%20Chen&author=T.%20He&author=M.%20Benesty&author=V.%20Khotilovich&author=Y.%20Tang&author=H.%20Cho&author=K.%20Chen&author=R.%20Mitchell&author=I.%20Cano&author=T.%20Zhou
+                      - generic [ref=e5080]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5081]
+                - listitem [ref=e5083]:
+                  - link "41" [ref=e5085] [cursor=pointer]:
+                    - /url: "#bbib41"
+                    - generic [ref=e5086]: "41"
+                  - generic [ref=e5087]:
+                    - generic [ref=e5088]:
+                      - generic [ref=e5089]: B. Efron, R.J. Tibshirani
+                      - generic [ref=e5090]: An Introduction to the Bootstrap
+                    - generic [ref=e5091]: Chapman & Hall/CRC (1993)
+                    - link "Google ScholarOpens in new window" [ref=e5093] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=An%20Introduction%20to%20the%20Bootstrap&publication_year=1993&author=B.%20Efron&author=R.J.%20Tibshirani
+                      - generic [ref=e5094]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5095]
+                - listitem [ref=e5097]:
+                  - link "42" [ref=e5099] [cursor=pointer]:
+                    - /url: "#bbib42"
+                    - generic [ref=e5100]: "42"
+                  - generic [ref=e5101]:
+                    - generic [ref=e5102]:
+                      - generic [ref=e5103]: R. Prohaska, M. Simpson, A. Ragatz, K. Kelly, K. Smith, K. Walkowicz
+                      - generic [ref=e5104]: Field Evaluation of Medium-Duty Plug-In Electric Delivery Trucks
+                    - generic [ref=e5105]:
+                      - text: US Department of Energy (2016),
+                      - link "10.2172/1337010Opens in new window" [ref=e5106] [cursor=pointer]:
+                        - /url: https://doi.org/10.2172/1337010
+                        - generic [ref=e5107]:
+                          - text: 10.2172/1337010
+                          - img "Opens in new window" [ref=e5108]
+                    - link "Google ScholarOpens in new window" [ref=e5111] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Field%20Evaluation%20of%20Medium-Duty%20Plug-In%20Electric%20Delivery%20Trucks&publication_year=2016&author=R.%20Prohaska&author=M.%20Simpson&author=A.%20Ragatz&author=K.%20Kelly&author=K.%20Smith&author=K.%20Walkowicz
+                      - generic [ref=e5112]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5113]
+                - listitem [ref=e5115]:
+                  - link "43" [ref=e5117] [cursor=pointer]:
+                    - /url: "#bbib43"
+                    - generic [ref=e5118]: "43"
+                  - generic [ref=e5119]:
+                    - generic [ref=e5120]:
+                      - generic [ref=e5121]: Advantage Outfitters
+                      - generic [ref=e5122]: "Best Cargo Vans for Small Businesses: Gas Mileage, Cargo Space and More"
+                    - link "https://www.commercialvanshelving.com/blog/best-cargo-van-small-businessesOpens in new window" [ref=e5124] [cursor=pointer]:
+                      - /url: https://www.commercialvanshelving.com/blog/best-cargo-van-small-businesses
+                      - generic [ref=e5125]:
+                        - text: https://www.commercialvanshelving.com/blog/best-cargo-van-small-businesses
+                        - img "Opens in new window" [ref=e5126]
+                    - link "Google ScholarOpens in new window" [ref=e5129] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=Advantage%20Outfitters.%20Best%20Cargo%20Vans%20for%20Small%20Businesses%3A%20Gas%20Mileage%2C%20Cargo%20Space%20and%20More%20https%3A%2F%2Fwww.commercialvanshelving.com%2Fblog%2Fbest-cargo-van-small-businesses.
+                      - generic [ref=e5130]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5131]
+                - listitem [ref=e5133]:
+                  - link "44" [ref=e5135] [cursor=pointer]:
+                    - /url: "#bbib44"
+                    - generic [ref=e5136]: "44"
+                  - generic [ref=e5137]:
+                    - generic [ref=e5138]:
+                      - generic [ref=e5139]: U.S. Energy Information Administration (EIA)
+                      - generic [ref=e5140]: Units and calculators explained
+                    - link "https://www.eia.gov/energyexplained/units-and-calculators/Opens in new window" [ref=e5142] [cursor=pointer]:
+                      - /url: https://www.eia.gov/energyexplained/units-and-calculators/
+                      - generic [ref=e5143]:
+                        - text: https://www.eia.gov/energyexplained/units-and-calculators/
+                        - img "Opens in new window" [ref=e5144]
+                    - link "Google ScholarOpens in new window" [ref=e5147] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=U.S.%20Energy%20Information%20Administration%20(EIA).%20Units%20and%20calculators%20explained.%20https%3A%2F%2Fwww.eia.gov%2Fenergyexplained%2Funits-and-calculators%2F.
+                      - generic [ref=e5148]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5149]
+                - listitem [ref=e5151]:
+                  - link "45" [ref=e5153] [cursor=pointer]:
+                    - /url: "#bbib45"
+                    - generic [ref=e5154]: "45"
+                  - generic [ref=e5155]:
+                    - generic [ref=e5156]:
+                      - generic [ref=e5157]: C. Fiori, V. Marzano
+                      - generic [ref=e5158]: "Modelling energy consumption of electric freight vehicles in urban pickup/delivery operations: analysis and estimation on a real-world dataset"
+                    - generic [ref=e5159]:
+                      - text: Transport. Res. Transport Environ., 65 (2018), pp. 658-673,
+                      - link "10.1016/j.trd.2018.09.020Opens in new window" [ref=e5160] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/j.trd.2018.09.020
+                        - generic [ref=e5161]:
+                          - text: 10.1016/j.trd.2018.09.020
+                          - img "Opens in new window" [ref=e5162]
+                    - generic [ref=e5164]:
+                      - link "View PDF" [ref=e5165] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920918303523/pdfft?md5=39c17b9fba24a050d61a5e95d277d718&pid=1-s2.0-S1361920918303523-main.pdf
+                        - img [ref=e5166]
+                        - generic [ref=e5171]: View PDF
+                      - link "View article" [ref=e5172] [cursor=pointer]:
+                        - /url: /science/article/pii/S1361920918303523
+                        - generic [ref=e5173]: View article
+                      - link "View in ScopusOpens in new window" [ref=e5174] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85054792771&partnerID=10&rel=R3.0.0
+                        - generic [ref=e5175]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e5176]
+                      - link "Google ScholarOpens in new window" [ref=e5178] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Modelling%20energy%20consumption%20of%20electric%20freight%20vehicles%20in%20urban%20pickupdelivery%20operations%3A%20analysis%20and%20estimation%20on%20a%20real-world%20dataset&publication_year=2018&author=C.%20Fiori&author=V.%20Marzano
+                        - generic [ref=e5179]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e5180]
+                - listitem [ref=e5182]:
+                  - link "46" [ref=e5184] [cursor=pointer]:
+                    - /url: "#bbib46"
+                    - generic [ref=e5185]: "46"
+                  - generic [ref=e5186]:
+                    - generic [ref=e5187]:
+                      - generic [ref=e5188]: J. Erlandsson
+                      - generic [ref=e5189]: The Armadillo Electric Cargo Bike Use 6 % of the Electricity of a Small Electric Van
+                    - generic [ref=e5190]: Velove (2017)
+                    - link "https://www.velove.se/news/armadillo-cargo-bike-use-6-electricity-small-electric-vanOpens in new window" [ref=e5192] [cursor=pointer]:
+                      - /url: https://www.velove.se/news/armadillo-cargo-bike-use-6-electricity-small-electric-van
+                      - generic [ref=e5193]:
+                        - text: https://www.velove.se/news/armadillo-cargo-bike-use-6-electricity-small-electric-van
+                        - img "Opens in new window" [ref=e5194]
+                    - link "Google ScholarOpens in new window" [ref=e5197] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=The%20Armadillo%20Electric%20Cargo%20Bike%20Use%206%20%20of%20the%20Electricity%20of%20a%20Small%20Electric%20Van&publication_year=2017&author=J.%20Erlandsson
+                      - generic [ref=e5198]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5199]
+                - listitem [ref=e5201]:
+                  - link "47" [ref=e5203] [cursor=pointer]:
+                    - /url: "#bbib47"
+                    - generic [ref=e5204]: "47"
+                  - generic [ref=e5205]:
+                    - generic [ref=e5206]:
+                      - generic [ref=e5207]: U.S. Department of Energy
+                      - generic [ref=e5208]: Many Factors Affect MPG
+                    - link "https://www.fueleconomy.gov/feg/factors.shtml#:∼:text=Aggressive%20driving%20(speeding%2C%20rapid%20acceleration,more%20idling%20will%20lower%20MPGOpens in new window" [ref=e5210] [cursor=pointer]:
+                      - /url: https://www.fueleconomy.gov/feg/factors.shtml
+                      - generic [ref=e5211]:
+                        - text: https://www.fueleconomy.gov/feg/factors.shtml#:∼:text=Aggressive%20driving%20(speeding%2C%20rapid%20acceleration,more%20idling%20will%20lower%20MPG
+                        - img "Opens in new window" [ref=e5212]
+                    - link "Google ScholarOpens in new window" [ref=e5215] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=U.S.%20Department%20of%20Energy.%20Many%20Factors%20Affect%20MPG%20https%3A%2F%2Fwww.fueleconomy.gov%2Ffeg%2Ffactors.shtml%23%3A%E2%88%BC%3Atext%3DAggressive%2520driving%2520(speeding%252C%2520rapid%2520acceleration%2Cmore%2520idling%2520will%2520lower%2520MPG.
+                      - generic [ref=e5216]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5217]
+                - listitem [ref=e5219]:
+                  - link "48" [ref=e5221] [cursor=pointer]:
+                    - /url: "#bbib48"
+                    - generic [ref=e5222]: "48"
+                  - generic [ref=e5223]:
+                    - generic [ref=e5224]:
+                      - generic [ref=e5225]:
+                        - text: A. Elgowainy, J. Han, J. Ward, F. Joseck, D. Gohlke, A. Lindauer, T. Ramsden, M. Biddy, M. Alexander, S. Barnhart,
+                        - emphasis [ref=e5226]: et al.
+                      - generic [ref=e5227]: "Cradle-to-Grave Lifecycle Analysis of U.S. Light-Duty Vehicle-Fuel Pathways: A Greenhouse Gas Emissions and Economic Assessment of Current (2015) and Future (2025-2030) Technologies"
+                    - generic [ref=e5228]: Argonne National Laboratory (2016)
+                    - link "Google ScholarOpens in new window" [ref=e5230] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Cradle-to-Grave%20Lifecycle%20Analysis%20of%20U.S.%20Light-Duty%20Vehicle-Fuel%20Pathways%3A%20A%20Greenhouse%20Gas%20Emissions%20and%20Economic%20Assessment%20of%20Current%20%20and%20Future%20%20Technologies&publication_year=2016&author=A.%20Elgowainy&author=J.%20Han&author=J.%20Ward&author=F.%20Joseck&author=D.%20Gohlke&author=A.%20Lindauer&author=T.%20Ramsden&author=M.%20Biddy&author=M.%20Alexander&author=S.%20Barnhart
+                      - generic [ref=e5231]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5232]
+                - listitem [ref=e5234]:
+                  - link "49" [ref=e5236] [cursor=pointer]:
+                    - /url: "#bbib49"
+                    - generic [ref=e5237]: "49"
+                  - generic [ref=e5238]:
+                    - generic [ref=e5239]:
+                      - generic [ref=e5240]: C.S.N. Shiau, C. Samaras, R. Hauffe, J.J. Michalek
+                      - generic [ref=e5241]: Impact of battery weight and charging patterns on the economic and environmental benefits of plug-in hybrid vehicles
+                    - generic [ref=e5242]: Energy Pol., 37 (2009), pp. 2653-2663
+                    - generic [ref=e5243]:
+                      - link "View PDF" [ref=e5244] [cursor=pointer]:
+                        - /url: /science/article/pii/S0301421509001402/pdfft?md5=1ae737004feb3e9bd6cf04629e2de49d&pid=1-s2.0-S0301421509001402-main.pdf
+                        - img [ref=e5245]
+                        - generic [ref=e5250]: View PDF
+                      - link "View article" [ref=e5251] [cursor=pointer]:
+                        - /url: /science/article/pii/S0301421509001402
+                        - generic [ref=e5252]: View article
+                      - link "View in ScopusOpens in new window" [ref=e5253] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-65549087164&partnerID=10&rel=R3.0.0
+                        - generic [ref=e5254]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e5255]
+                      - link "Google ScholarOpens in new window" [ref=e5257] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Impact%20of%20battery%20weight%20and%20charging%20patterns%20on%20the%20economic%20and%20environmental%20benefits%20of%20plug-in%20hybrid%20vehicles&publication_year=2009&author=C.S.N.%20Shiau&author=C.%20Samaras&author=R.%20Hauffe&author=J.J.%20Michalek
+                        - generic [ref=e5258]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e5259]
+                - listitem [ref=e5261]:
+                  - link "50" [ref=e5263] [cursor=pointer]:
+                    - /url: "#bbib50"
+                    - generic [ref=e5264]: "50"
+                  - generic [ref=e5265]:
+                    - generic [ref=e5266]:
+                      - generic [ref=e5267]: U.S. Energy Information Administration (EIA)
+                      - generic [ref=e5268]: How much carbon dioxide is produced per kilowatthour of U.S. electricity generation?
+                    - generic [ref=e5269]:
+                      - link "https://www.eia.gov/tools/faqs/faq.php?id=74&t=11Opens in new window" [ref=e5270] [cursor=pointer]:
+                        - /url: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
+                        - generic [ref=e5271]:
+                          - text: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
+                          - img "Opens in new window" [ref=e5272]
+                      - text: (2022)
+                    - link "Google ScholarOpens in new window" [ref=e5275] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=How%20much%20carbon%20dioxide%20is%20produced%20per%20kilowatthour%20of%20U.S.%20electricity%20generation&publication_year=2022&author=U.S.%20Energy%20Information%20Administration%20(EIA)
+                      - generic [ref=e5276]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5277]
+                - listitem [ref=e5279]:
+                  - link "51" [ref=e5281] [cursor=pointer]:
+                    - /url: "#bbib51"
+                    - generic [ref=e5282]: "51"
+                  - generic [ref=e5283]:
+                    - generic [ref=e5284]:
+                      - generic [ref=e5285]: U.S. Energy Information Administration (EIA)
+                      - generic [ref=e5286]: How much carbon dioxide is produced when different fuels are burned?
+                    - generic [ref=e5287]:
+                      - link "https://www.eia.gov/tools/faqs/faq.php?id=73&t=11Opens in new window" [ref=e5288] [cursor=pointer]:
+                        - /url: https://www.eia.gov/tools/faqs/faq.php?id=73&t=11
+                        - generic [ref=e5289]:
+                          - text: https://www.eia.gov/tools/faqs/faq.php?id=73&t=11
+                          - img "Opens in new window" [ref=e5290]
+                      - text: (2022)
+                    - link "Google ScholarOpens in new window" [ref=e5293] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=How%20much%20carbon%20dioxide%20is%20produced%20when%20different%20fuels%20are%20burned&publication_year=2022&author=U.S.%20Energy%20Information%20Administration%20(EIA)
+                      - generic [ref=e5294]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5295]
+                - listitem [ref=e5297]:
+                  - link "52" [ref=e5299] [cursor=pointer]:
+                    - /url: "#bbib52"
+                    - generic [ref=e5300]: "52"
+                  - generic [ref=e5301]:
+                    - generic [ref=e5302]:
+                      - generic [ref=e5303]: Argonne National Laboratory
+                      - generic [ref=e5304]: GREET
+                    - generic [ref=e5305]: (2020)
+                    - link "https://greet.es.anl.gov/Opens in new window" [ref=e5307] [cursor=pointer]:
+                      - /url: https://greet.es.anl.gov/
+                      - generic [ref=e5308]:
+                        - text: https://greet.es.anl.gov/
+                        - img "Opens in new window" [ref=e5309]
+                    - link "Google ScholarOpens in new window" [ref=e5312] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=GREET&publication_year=2020&author=Argonne%20National%20Laboratory
+                      - generic [ref=e5313]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5314]
+                - listitem [ref=e5316]:
+                  - link "53" [ref=e5318] [cursor=pointer]:
+                    - /url: "#bbib53"
+                    - generic [ref=e5319]: "53"
+                  - generic [ref=e5320]:
+                    - generic [ref=e5321]:
+                      - generic [ref=e5322]: National Renewable Energy Laboratory
+                      - generic [ref=e5323]: "Fleet DNA: Commercial Fleet Vehicle OperatinData"
+                    - link "https://www.nrel.gov/transportation/fleettest-fleet-dna.htmlOpens in new window" [ref=e5325] [cursor=pointer]:
+                      - /url: https://www.nrel.gov/transportation/fleettest-fleet-dna.html
+                      - generic [ref=e5326]:
+                        - text: https://www.nrel.gov/transportation/fleettest-fleet-dna.html
+                        - img "Opens in new window" [ref=e5327]
+                    - link "Google ScholarOpens in new window" [ref=e5330] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar?q=National%20Renewable%20Energy%20Laboratory.%20Fleet%20DNA%3A%20Commercial%20Fleet%20Vehicle%20OperatinData.%20https%3A%2F%2Fwww.nrel.gov%2Ftransportation%2Ffleettest-fleet-dna.html.
+                      - generic [ref=e5331]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=e5332]
+            - region "Cited by" [ref=e290]:
+              - heading "Cited by (72)" [level=2] [ref=e5334]
+              - generic [ref=e5336]:
+                - list [ref=e5337]:
+                  - listitem [ref=e5338]:
+                    - generic [ref=e5339]:
+                      - heading "Unmanned aerial vehicles based low-altitude economy with lifecycle techno-economic-environmental analysis for sustainable and smart cities" [level=3] [ref=e5340]:
+                        - link "Unmanned aerial vehicles based low-altitude economy with lifecycle techno-economic-environmental analysis for sustainable and smart cities" [ref=e5341] [cursor=pointer]:
+                          - /url: /science/article/pii/S0959652625004007
+                          - generic [ref=e5342]: Unmanned aerial vehicles based low-altitude economy with lifecycle techno-economic-environmental analysis for sustainable and smart cities
+                      - generic [ref=e5343]: 2025, Journal of Cleaner Production
+                    - button "Show abstract" [ref=e5345] [cursor=pointer]:
+                      - generic [ref=e5346]: Show abstract
+                      - img [ref=e5347]
+                  - listitem [ref=e5349]:
+                    - generic [ref=e5350]:
+                      - heading "An obstacle avoidance approach for UAV path planning" [level=3] [ref=e5351]:
+                        - link "An obstacle avoidance approach for UAV path planning" [ref=e5352] [cursor=pointer]:
+                          - /url: /science/article/pii/S1569190X23000928
+                          - generic [ref=e5353]: An obstacle avoidance approach for UAV path planning
+                      - generic [ref=e5354]: 2023, Simulation Modelling Practice and Theory
+                    - button "Show abstract" [ref=e5356] [cursor=pointer]:
+                      - generic [ref=e5357]: Show abstract
+                      - img [ref=e5358]
+                  - listitem [ref=e5360]:
+                    - generic [ref=e5361]:
+                      - heading "Sustainable last mile parcel delivery and return service using drones" [level=3] [ref=e5362]:
+                        - link "Sustainable last mile parcel delivery and return service using drones" [ref=e5363] [cursor=pointer]:
+                          - /url: /science/article/pii/S0952197623008151
+                          - generic [ref=e5364]: Sustainable last mile parcel delivery and return service using drones
+                      - generic [ref=e5365]: 2023, Engineering Applications of Artificial Intelligence
+                      - generic [ref=e5367]:
+                        - generic [ref=e5368]: "Citation Excerpt :"
+                        - paragraph [ref=e5369]: …Drones, in particular, have ignited much recent attention. According to Rodrigues et al. (2022), using drones to deliver small parcels is more efficient in terms of costs and total service time than the conventional method of trucks only. They also find that using drones are more environmentally friendly since they produce less carbon, up to 94 percent less compared to trucks.…
+                    - button "Show abstract" [ref=e5371] [cursor=pointer]:
+                      - generic [ref=e5372]: Show abstract
+                      - img [ref=e5373]
+                  - listitem [ref=e5375]:
+                    - generic [ref=e5376]:
+                      - 'heading "Artificial Intelligence Applied to Drone Control: A State of the ArtOpens in new window" [level=3] [ref=e5377]':
+                        - 'link "Artificial Intelligence Applied to Drone Control: A State of the ArtOpens in new window" [ref=e5378] [cursor=pointer]':
+                          - /url: https://doi.org/10.3390/drones8070296
+                          - generic [ref=e5379]:
+                            - text: "Artificial Intelligence Applied to Drone Control: A State of the Art"
+                            - img "Opens in new window" [ref=e5380]
+                      - generic [ref=e5382]: 2024, Drones
+                  - listitem [ref=e5383]:
+                    - generic [ref=e5384]:
+                      - heading "Critical assessment of emissions, costs, and time for last-mile goods delivery by drones versus trucksOpens in new window" [level=3] [ref=e5385]:
+                        - link "Critical assessment of emissions, costs, and time for last-mile goods delivery by drones versus trucksOpens in new window" [ref=e5386] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/s41598-023-38922-z
+                          - generic [ref=e5387]:
+                            - text: Critical assessment of emissions, costs, and time for last-mile goods delivery by drones versus trucks
+                            - img "Opens in new window" [ref=e5388]
+                      - generic [ref=e5390]: 2023, Scientific Reports
+                  - listitem [ref=e5391]:
+                    - generic [ref=e5392]:
+                      - 'heading "Last-Mile Drone Delivery: Past, Present, and FutureOpens in new window" [level=3] [ref=e5393]':
+                        - 'link "Last-Mile Drone Delivery: Past, Present, and FutureOpens in new window" [ref=e5394] [cursor=pointer]':
+                          - /url: https://doi.org/10.3390/drones7020077
+                          - generic [ref=e5395]:
+                            - text: "Last-Mile Drone Delivery: Past, Present, and Future"
+                            - img "Opens in new window" [ref=e5396]
+                      - generic [ref=e5398]: 2023, Drones
+                - link "View all citing articles on Scopus Opens in new window" [ref=e5399] [cursor=pointer]:
+                  - /url: http://www.scopus.com/scopus/inward/citedby.url?partnerID=10&rel=3.0.0&eid=2-s2.0-85135876739&md5=cab0e7d092cac22466d86513885d01d
+                  - img [ref=e5400]
+                  - generic [ref=e5402]: View all citing articles on Scopus
+                  - img "Opens in new window" [ref=e5403]
+            - generic [ref=e295]:
+              - term [ref=e296]:
+                - link "5" [ref=e297] [cursor=pointer]:
+                  - /url: "#bfn1"
+                  - superscript [ref=e300]: "5"
+              - definition [ref=e301]:
+                - generic [ref=e302]: Lead contact
+            - generic [ref=e303]: © 2022 The Author(s).
+          - complementary "Related content" [ref=e305]:
+            - generic [ref=e306]:
+              - button "Recommended articles" [expanded] [ref=e308] [cursor=pointer]:
+                - heading "Recommended articles" [level=2] [ref=e311]
+                - img [ref=e312]
+              - generic [ref=e314]:
+                - list [ref=e5406]:
+                  - listitem [ref=e5407]:
+                    - generic [ref=e5408]:
+                      - 'heading "Evaluating Emissions of Nitrous Oxide from Cropland Soils Under Different Rotations in Mato Grosso, Brazil: A Scenario Simulation Study" [level=3] [ref=e5409]':
+                        - 'link "Evaluating Emissions of Nitrous Oxide from Cropland Soils Under Different Rotations in Mato Grosso, Brazil: A Scenario Simulation Study" [ref=e5410] [cursor=pointer]':
+                          - /url: /science/article/pii/S100201601960812X
+                          - generic [ref=e5412]: "Evaluating Emissions of Nitrous Oxide from Cropland Soils Under Different Rotations in Mato Grosso, Brazil: A Scenario Simulation Study"
+                      - generic [ref=e5414]: Pedosphere, Volume 29, Issue 4, 2019, pp. 432-443
+                      - generic [ref=e5415]: Katharina H.E. MEURER, …, Uwe FRANKO
+                  - listitem [ref=e5416]:
+                    - generic [ref=e5417]:
+                      - heading "5G Integrated Spectrum Selection and Spectrum Access using AI-based Frame work for IoT based Sensor Networks" [level=3] [ref=e5418]:
+                        - link "5G Integrated Spectrum Selection and Spectrum Access using AI-based Frame work for IoT based Sensor Networks" [ref=e5419] [cursor=pointer]:
+                          - /url: /science/article/pii/S1389128620312676
+                          - generic [ref=e5421]: 5G Integrated Spectrum Selection and Spectrum Access using AI-based Frame work for IoT based Sensor Networks
+                      - generic [ref=e5423]: Computer Networks, Volume 186, 2021, Article 107649
+                      - generic [ref=e5424]: Ramesh Sekaran, …, Deepak Gupta
+                    - link "View PDF" [ref=e5426] [cursor=pointer]:
+                      - /url: /science/article/pii/S1389128620312676/pdfft?md5=e8df4b6e1b2348f8e213308e3fc6d0c9&pid=1-s2.0-S1389128620312676-main.pdf
+                      - img [ref=e5427]
+                      - generic [ref=e5432]: View PDF
+                  - listitem [ref=e5433]:
+                    - generic [ref=e5434]:
+                      - heading "Carbon estimation in an integrated crop-livestock system with imaging sensors aboard unmanned aerial platforms" [level=3] [ref=e5435]:
+                        - link "Carbon estimation in an integrated crop-livestock system with imaging sensors aboard unmanned aerial platforms" [ref=e5436] [cursor=pointer]:
+                          - /url: /science/article/pii/S2352938522001756
+                          - generic [ref=e5438]: Carbon estimation in an integrated crop-livestock system with imaging sensors aboard unmanned aerial platforms
+                      - generic [ref=e5440]: "Remote Sensing Applications: Society and Environment, Volume 28, 2022, Article 100867"
+                      - generic [ref=e5441]: Gabriella Santos Arruda de Lima, …, Márcia Thaís de Melo Carvalho
+                - button "Show 3 more articles" [ref=e5442] [cursor=pointer]:
+                  - generic [ref=e5443]: Show 3 more articles
+                  - img [ref=e5444]
+            - generic [ref=e5446]:
+              - button "Article Metrics" [expanded] [ref=e5448] [cursor=pointer]:
+                - heading "Article Metrics" [level=2] [ref=e5451]
+                - img [ref=e5452]
+              - generic [ref=e5455]:
+                - heading "Citations" [level=3] [ref=e5456]
+                - list [ref=e5457]:
+                  - listitem [ref=e5458]:
+                    - generic [ref=e5459]: Citation Indexes
+                    - generic [ref=e5460]: "72"
+                  - listitem [ref=e5461]:
+                    - generic [ref=e5462]: Policy Citations
+                    - generic [ref=e5463]: "8"
+                - heading "Captures" [level=3] [ref=e5464]
+                - list [ref=e5465]:
+                  - listitem [ref=e5466]:
+                    - generic [ref=e5467]: Mendeley Readers
+                    - generic [ref=e5468]: "196"
+                - heading "Mentions" [level=3] [ref=e5469]
+                - list [ref=e5470]:
+                  - listitem [ref=e5471]:
+                    - generic [ref=e5472]: Blog Mentions
+                    - generic [ref=e5473]: "1"
+                  - listitem [ref=e5474]:
+                    - generic [ref=e5475]: News Mentions
+                    - generic [ref=e5476]: "11"
+                - heading "Social Media" [level=3] [ref=e5477]
+                - list [ref=e5478]:
+                  - listitem [ref=e5479]:
+                    - generic [ref=e5480]: Shares, Likes & Comments
+                    - generic [ref=e5481]: "7"
+                - generic [ref=e5482]:
+                  - img "PlumX Metrics Logo" [ref=e5483]
+                  - link "View detailsOpens in new window" [ref=e5484] [cursor=pointer]:
+                    - /url: https://plu.mx/plum/a/?doi=10.1016%2Fj.patter.2022.100569&theme=plum-sciencedirect-theme&hideUsage=true
+                    - generic [ref=e5485]:
+                      - text: View details
+                      - img "Opens in new window" [ref=e5486]
+    - contentinfo [ref=e316]:
+      - link "Elsevier home page (opens in a new tab)" [ref=e318] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=e319]
+      - generic [ref=e320]:
+        - list [ref=e322]:
+          - listitem [ref=e323]:
+            - link "About ScienceDirectOpens in new window" [ref=e324] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=e325]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=e326]
+          - listitem [ref=e328]:
+            - link "Remote access" [ref=e329] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS2666389922001805
+              - generic [ref=e330]: Remote access
+          - listitem [ref=e331]:
+            - link "Contact and supportOpens in new window" [ref=e332] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=e333]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=e334]
+          - listitem [ref=e336]:
+            - link "Terms and conditionsOpens in new window" [ref=e337] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=e338]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=e339]
+          - listitem [ref=e341]:
+            - link "Privacy policyOpens in new window" [ref=e342] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=e343]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=e344]
+          - listitem [ref=e346]:
+            - button "Cookie settings" [ref=e347] [cursor=pointer]:
+              - generic [ref=e348]: Cookie settings
+        - paragraph [ref=e349]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=e351] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=e352]
+  - generic "Entitled recommendations dialog" [active] [ref=e5591]:
+    - generic [ref=e5592]:
+      - button "close window" [ref=e5593] [cursor=pointer]:
+        - img [ref=e5594]
+      - generic [ref=e5596]:
+        - iframe [ref=e5599]:
+          - link "Learn more and submit" [ref=f15e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjst8TivlkkVQ5VUNdkUUMp3vg6w3QrqbrbEIhrV-J2mJzqrJftvKAE56LmZ2lHvx_jajjt2UkOqbvlBf93Cqmw6KPJOzHS0unarBFZwGdKQXaUNHJV6Uf2dmZgMCl3ly9iicLzNmvOVqclj1yUTUJK5R42haKa1PiqL5IyhrNoDkGdV04uBE8ieDPYSN8cdPfNsTQG8A4YSHGvCHli2dZRxuxWA9jth97zDRpE9aK11EbfbHe_2frIabYbDRizoTsqcLqwh3oYmFYjVbq_YIcM0gRPDwt6R27YjV2W1p1bYsI2INRm2dZUsJtFJ-MnwfEhVfp-eo380xrKUb6GpvPy3GHbePBfCWrAyL3j-W1a0ao0vrcple4TXBMFUBKuvoHmNLuKb3prY_QBBS0Q&sai=AMfl-YR28-AgFDCgF6oW_aeZdtkSx0PGhH4BQILyb9akxCBq_lfb-xLLHBzg7qc2IaRpWHFHupvUPSEM4PizX7x53kVTlWGhdw87O_2I0CgX68ZK3TJgegdKXDn6e7usJ4EoD6g1gEAtd65820bLYarK-bg_vk-Qy9BVBht7b7d99YEP5C0HT07g3WURRtLUTFOTXWAIHkMiBfqN7Olj6T9QGioEr5_upQB6gTScvf1o3tXYkMcYZ9WbEdX9nwURwEIC3oB3QOCyigXvuBE1u0UAv2u60OMmXPBajZvTqdd2swdlNyWiayLRBPVD1rcVZepy_Tf_aozd&sig=Cg0ArKJSzCncMl7AhQ8j&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://nexusforum.org/nexus2026%3Futm_campaign%3DSTMJ_1764152324270_CALLP_OA%26utm_medium%3DBAN%26utm_source%3DWEB%26dgcid%3DSTMJ_1764152324270_CALLP_OA
+            - img "Learn more and submit" [ref=f15e3]
+        - generic [ref=e5600]: Advertisement
+      - banner [ref=e5601]:
+        - heading "Other users also viewed these articles" [level=1] [ref=e5602]
+      - generic [ref=e5603]:
+        - button "Download (6) PDFs" [ref=e5605] [cursor=pointer]:
+          - img [ref=e5606]
+          - generic [ref=e5611]: Download (6) PDFs
+        - list [ref=e5612]:
+          - listitem [ref=e5613]:
+            - generic [ref=e5616] [cursor=pointer]:
+              - checkbox "Select result number 1" [checked] [ref=e5617]
+              - generic [ref=e5619]: Select result number 1
+            - generic [ref=e5620]:
+              - link "5G Integrated Spectrum Selection and Spectrum Access using AI-based Frame work for IoT based Sensor Networks" [ref=e5621] [cursor=pointer]:
+                - /url: /science/article/pii/S1389128620312676
+                - generic [ref=e5623]: 5G Integrated Spectrum Selection and Spectrum Access using AI-based Frame work for IoT based Sensor Networks
+              - generic [ref=e5625]: Computer Networks, Volume 186, 2021, Article 107649
+              - generic [ref=e5627]: Ramesh Sekaran, Surya Narayana Goddumarri, Suresh Kallam, Manikandan Ramachandran, Rizwan Patan, Deepak Gupta
+              - link "View PDF" [ref=e5628] [cursor=pointer]:
+                - /url: /science/article/pii/S1389128620312676/pdfft?md5=e8df4b6e1b2348f8e213308e3fc6d0c9&pid=1-s2.0-S1389128620312676-main.pdf
+                - img [ref=e5629]
+                - generic [ref=e5634]: View PDF
+          - listitem [ref=e5635]:
+            - generic [ref=e5638] [cursor=pointer]:
+              - checkbox "Select result number 2" [checked] [ref=e5639]
+              - generic [ref=e5641]: Select result number 2
+            - generic [ref=e5642]:
+              - generic [ref=e5644]: open access
+              - 'link "Progress in monitoring methane emissions from landfills using drones: an overview of the last ten years" [ref=e5646] [cursor=pointer]':
+                - /url: /science/article/pii/S0048969724041299
+                - generic [ref=e5648]: "Progress in monitoring methane emissions from landfills using drones: an overview of the last ten years"
+              - generic [ref=e5650]: Science of The Total Environment, Volume 945, 2024, Article 173981
+              - generic [ref=e5652]: D. Fosco, M. De Molfetta, P. Renzulli, B. Notarnicola
+              - link "View PDF" [ref=e5653] [cursor=pointer]:
+                - /url: /science/article/pii/S0048969724041299/pdfft?md5=c19ef7af39a14fa4f291a0d138538092&pid=1-s2.0-S0048969724041299-main.pdf
+                - img [ref=e5654]
+                - generic [ref=e5659]: View PDF
+          - listitem [ref=e5660]:
+            - generic [ref=e5663] [cursor=pointer]:
+              - checkbox "Select result number 3" [checked] [ref=e5664]
+              - generic [ref=e5666]: Select result number 3
+            - generic [ref=e5667]:
+              - link "Spatial patterns and influencing factors of takeaway consumption in 56 cities in China" [ref=e5668] [cursor=pointer]:
+                - /url: /science/article/pii/S0959652624021607
+                - generic [ref=e5670]: Spatial patterns and influencing factors of takeaway consumption in 56 cities in China
+              - generic [ref=e5672]: Journal of Cleaner Production, Volume 465, 2024, Article 142712
+              - generic [ref=e5674]: Yin Zhang, Shenghui Cui, Yiqiang Zhong, Wei Huang
+              - link "View PDF" [ref=e5675] [cursor=pointer]:
+                - /url: /science/article/pii/S0959652624021607/pdfft?md5=7376cc60e2399f10d42d0478ac20c6d4&pid=1-s2.0-S0959652624021607-main.pdf
+                - img [ref=e5676]
+                - generic [ref=e5681]: View PDF
+        - button "Show 3 more articles" [ref=e5682] [cursor=pointer]:
+          - generic [ref=e5683]: Show 3 more articles
+          - img [ref=e5684]
+      - contentinfo [ref=e5686]:
+        - button "Don’t show again" [ref=e5687] [cursor=pointer]:
+          - generic [ref=e5688]: Don’t show again
+  - alert [ref=e5488]
+  - button "Feedback" [ref=e5489] [cursor=pointer]:
+    - img "Feedback" [ref=e5490]

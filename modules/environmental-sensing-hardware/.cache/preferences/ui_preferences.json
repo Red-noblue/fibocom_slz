@@ -1,0 +1,5 @@
+{
+  "polling_interval_seconds": 30,
+  "history_range_key": "3d",
+  "chart_columns": 3
+}

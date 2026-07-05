@@ -1,0 +1,71 @@
+[sudo] password for fibo: == convert fp32 dlc ==
+2026-07-05 11:53:18,549 - 235 - INFO - Input shape info 
+2026-07-05 11:54:34,584 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:34,844 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:35,144 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:35,399 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:35,700 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:35,956 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:36,256 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:36,516 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:36,555 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:36,600 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:36,639 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:36,679 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:36,737 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:37,053 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:37,310 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:37,627 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:37,887 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:38,206 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:38,472 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2026-07-05 11:54:48,532 - 235 - INFO - INFO_INITIALIZATION_SUCCESS: 
+2026-07-05 11:54:50,185 - 235 - INFO - INFO_CONVERSION_SUCCESS: Conversion completed successfully
+2026-07-05 11:54:50,261 - 235 - INFO - INFO_WRITE_SUCCESS: 
+== quantize int8 dlc ==
+[INFO] InitializeStderr: DebugLog initialized.
+[INFO] Processed command-line arguments
+[INFO] Quantized parameters
+[INFO] Generated activations
+[USER_INFO] Successfully saved DLC to /workspace/modules/fiboaistack_229_env/outputs/snpe_quant_qemu82_full_20260703_075537/radio_map_liteunet_quantized.dlc
+[INFO] Saved quantized dlc to: /workspace/modules/fiboaistack_229_env/outputs/snpe_quant_qemu82_full_20260703_075537/radio_map_liteunet_quantized.dlc
+[INFO] DebugLog shutting down.
+     7.5ms [  INFO ] Inferences will run in sync mode
+    18.2ms [  INFO ] Initializing logging in the backend. Callback: [0x7f7fb1f840], Log Level: [3]
+    20.6ms [  INFO ] No BackendExtensions lib provided;initializing NetRunBackend Interface
+    34.8ms [  INFO ] [QNN_CPU] CpuBackend creation start
+    35.1ms [  INFO ] [QNN_CPU] CpuBackend creation end
+    56.8ms [WARNING] Unable to find a device with NetRunDeviceKeyDefault in Library NetRunBackendLibKeyDefault
+    57.1ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+    39.6ms [  INFO ] [QNN_CPU] QnnContext create start
+    40.7ms [  INFO ] [QNN_CPU] QnnContext create end
+    80.5ms [  INFO ] Entering QuantizeRuntimeApp flow
+    82.1ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+    65.3ms [  INFO ] [QNN_CPU] CpuGraph creation start
+    65.5ms [  INFO ] [QNN_CPU] CpuGraph creation end
+    67.0ms [  INFO ] [QNN_CPU] QnnGraph create end
+   277.4ms [  INFO ] [QNN_CPU] QnnGraph finalize start
+   338.2ms [  INFO ] [QNN_CPU] QnnGraph finalize end
+   394.9ms [  INFO ] [QNN_CPU] QnnGraph execute start
+ 50667.3ms [  INFO ] [QNN_CPU] QnnGraph execute end
+ 50611.3ms [  INFO ] cleaning up resources for input tensors
+ 50612.8ms [  INFO ] cleaning up resources for output tensors
+ 50732.4ms [  INFO ] [QNN_CPU] QnnGraph execute start
+ 97727.0ms [  INFO ] [QNN_CPU] QnnGraph execute end
+ 97676.9ms [  INFO ] cleaning up resources for input tensors
+ 97677.1ms [  INFO ] cleaning up resources for output tensors
+ 97799.7ms [  INFO ] [QNN_CPU] QnnGraph execute start
+148680.3ms [  INFO ] [QNN_CPU] QnnGraph execute end
+148629.6ms [  INFO ] cleaning up resources for input tensors
+148629.7ms [  INFO ] cleaning up resources for output tensors
+148750.5ms [  INFO ] [QNN_CPU] QnnGraph execute start
+194953.0ms [  INFO ] [QNN_CPU] QnnGraph execute end
+194892.5ms [  INFO ] cleaning up resources for input tensors
+194892.6ms [  INFO ] cleaning up resources for output tensors
+196280.3ms [  INFO ] Freeing graphsInfo
+196280.9ms [WARNING] Profile Logger with name = defaultKey doesn't exist! Returning nullptr
+196345.4ms [  INFO ] [QNN_CPU] QnnContext Free start
+196491.6ms [  INFO ] [QNN_CPU] QnnContext Free end
+196434.3ms [WARNING] Profile Logger with name = defaultKey doesn't exist!
+196500.0ms [  INFO ] [QNN_CPU] QnnBackend Free start
+196500.8ms [  INFO ] [QNN_CPU] QnnBackend Free end

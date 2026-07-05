@@ -1,0 +1,5 @@
+Logging started for program DebugLog on host qcs6490-odk at Sun Jul 05 2026 04:55:43.160968 (this log file is /home/fibo/fibocom_slz/Log/DebugLog.06.txt)
+04:55:43.444279101 [USER_ERROR:DNN_RUNTIME] DEFAULT:0  <E> No Device and Core not registered for power config id 0
+04:55:43.444280351 [USER_ERROR:DNN_RUNTIME] DEFAULT:1  <E> Failed to find power config id 0
+04:55:43.444281184 [USER_ERROR:DNN_RUNTIME] DEFAULT:2  <E> Failed to destroy powerConfigId with error 0x32c9
+Logging stopped at Sun Jul 05 2026 04:55:44.688725

@@ -1,0 +1,20 @@
+# `state/` 只保留兼容迁移用途；其中内容都是本机生成状态，不应进入 Git。
+state/*
+
+# 打包命令生成的压缩包输出目录。
+dist/
+
+# `runtime/` 是本机安装出来的运行时目录，可通过
+# `./bin/codex-project runtime install` 重新生成，默认不进入 Git。
+runtime/
+
+# `mycodex/` 只保留给显式 internal-state 兼容模式；
+# 默认状态根已经迁到工具同级 `.codex-portable/`。
+mycodex/
+
+# 工具运行和调试时产生的临时目录。
+temp/
+
+# 常见系统噪音文件。
+.DS_Store
+Thumbs.db

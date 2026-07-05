@@ -1,0 +1,4538 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: 
+  - generic [ref=e5]: 
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e10]:
+          - link "MDPI Open Access Journals" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "MDPI Open Access Journals" [ref=e13]
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Journals" [ref=e17] [cursor=pointer]:
+                - /url: /about/journals
+            - listitem [ref=e18]:
+              - link "Topics" [ref=e19] [cursor=pointer]:
+                - /url: /topics
+            - listitem [ref=e20]:
+              - link "Information" [ref=e21] [cursor=pointer]:
+                - /url: /authors
+            - listitem [ref=e22]:
+              - link "Author Services" [ref=e23] [cursor=pointer]:
+                - /url: /authors/english
+            - listitem [ref=e24]:
+              - link "Initiatives" [ref=e25] [cursor=pointer]:
+                - /url: /about/initiatives
+            - listitem [ref=e26]:
+              - link "About" [ref=e27] [cursor=pointer]:
+                - /url: /about
+          - generic [ref=e29]:
+            - link "Sign In / Sign Up" [ref=e30] [cursor=pointer]:
+              - /url: /user/login
+            - link "Submit" [ref=e31] [cursor=pointer]:
+              - /url: "            https://susy.mdpi.com/user/manuscripts/upload?journal=atmosphere\n    "
+        - generic [ref=e33]:
+          - generic [ref=e34]: error_outline
+          - text: You can access
+          - link "the new MDPI.com website here" [ref=e35] [cursor=pointer]:
+            - /url: https://www.mdpi.com/redirect/new_site?return=/2073-4433/13/4/551
+          - text: . Explore and share your feedback with us.
+          - link "close":
+            - /url: "#"
+            - generic [ref=e36] [cursor=pointer]: close
+        - generic [ref=e40]:
+          - generic [ref=e42]: "Search for Articles:"
+          - generic:
+            - textbox "Title / Keyword" [ref=e44]
+            - textbox "Author / Affiliation / Email" [ref=e46]
+            - generic [ref=e48]:
+              - generic [ref=e50] [cursor=pointer]: Atmosphere
+              - generic [ref=e53]:
+                - textbox [ref=e55]
+                - list
+            - generic [ref=e57]:
+              - generic [ref=e59] [cursor=pointer]: All Article Types
+              - generic [ref=e62]:
+                - textbox [ref=e64]
+                - list
+            - button "Search" [ref=e66] [cursor=pointer]
+            - link "Advanced" [ref=e68] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - link "Journals" [ref=e72] [cursor=pointer]:
+              - /url: /about/journals
+            - text: /
+          - generic [ref=e73]:
+            - link "Atmosphere" [ref=e74] [cursor=pointer]:
+              - /url: /journal/atmosphere
+            - text: /
+          - generic [ref=e75]:
+            - link "Volume 13" [ref=e76] [cursor=pointer]:
+              - /url: /2073-4433/13
+            - text: /
+          - generic [ref=e77]:
+            - link "Issue 4" [ref=e78] [cursor=pointer]:
+              - /url: /2073-4433/13/4
+            - text: /
+          - generic [ref=e79]:
+            - link "10.3390/atmos13040551" [ref=e80] [cursor=pointer]:
+              - /url: "#"
+            - text: /
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - link "atmosphere-logo" [ref=e85] [cursor=pointer]:
+              - /url: /journal/atmosphere
+              - img "atmosphere-logo" [ref=e86]
+            - generic [ref=e87]:
+              - link "Submit to this Journal" [ref=e88] [cursor=pointer]:
+                - /url: https://susy.mdpi.com/user/manuscripts/upload?form%5Bjournal_id%5D%3D35
+              - link "Review for this Journal" [ref=e89] [cursor=pointer]:
+                - /url: https://susy.mdpi.com/volunteer/journals/review
+              - link "Propose a Special Issue" [ref=e90] [cursor=pointer]:
+                - /url: /journalproposal/sendproposalspecialissue/atmosphere
+            - generic [ref=e91]:
+              - heading "Article Menu" [level=2] [ref=e93]
+              - list [ref=e94]:
+                - listitem [ref=e95]:
+                  - link "Academic Editor keyboard_arrow_up" [expanded] [ref=e96] [cursor=pointer]:
+                    - /url: "#academic_editors"
+                  - generic [ref=e100]:
+                    - img [ref=e101]
+                    - generic [ref=e102]: James Cizdziel
+                - listitem [ref=e103]:
+                  - link "Recommended Articles" [ref=e104] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e105]:
+                  - link "Related Info Link keyboard_arrow_down" [ref=e106] [cursor=pointer]:
+                    - /url: "#related"
+                  - text: insert_link
+                - listitem [ref=e107]:
+                  - link "More by Authors Links keyboard_arrow_down" [ref=e108] [cursor=pointer]:
+                    - /url: "#authors"
+                  - text: lens insert_link lens insert_link lens insert_link lens insert_link lens lens insert_link lens insert_link lens insert_link lens insert_link lens lens insert_link lens insert_link lens insert_link lens insert_link lens
+          - generic [ref=e110]:
+            - link "Article Views 10560" [ref=e112] [cursor=pointer]:
+              - /url: "#metrics"
+              - generic [ref=e113]:
+                - generic [ref=e114]: Article Views
+                - generic [ref=e115]: "10560"
+            - link "Citations 48" [ref=e117] [cursor=pointer]:
+              - /url: "#metrics"
+              - generic [ref=e118]:
+                - generic [ref=e119]: Citations
+                - generic [ref=e120]: "48"
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - link "Table of Contents keyboard_arrow_up" [expanded] [ref=e125] [cursor=pointer]:
+                - /url: "#table_of_contents"
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - text: lens
+                  - link "Abstract" [ref=e129] [cursor=pointer]:
+                    - /url: "#html-abstract"
+                - listitem [ref=e130]:
+                  - text: lens
+                  - link "Introduction" [ref=e131] [cursor=pointer]:
+                    - /url: "#sec1-atmosphere-13-00551"
+                - listitem [ref=e132]:
+                  - text: lens
+                  - link "Methods and Materials" [ref=e133] [cursor=pointer]:
+                    - /url: "#sec2-atmosphere-13-00551"
+                - listitem [ref=e134]:
+                  - text: lens
+                  - link "Model Parameters" [ref=e135] [cursor=pointer]:
+                    - /url: "#sec3-atmosphere-13-00551"
+                - listitem [ref=e136]:
+                  - text: lens
+                  - link "Results" [ref=e137] [cursor=pointer]:
+                    - /url: "#sec4-atmosphere-13-00551"
+                - listitem [ref=e138]:
+                  - text: lens
+                  - link "Discussion" [ref=e139] [cursor=pointer]:
+                    - /url: "#sec5-atmosphere-13-00551"
+                - listitem [ref=e140]:
+                  - text: lens
+                  - link "Conclusions" [ref=e141] [cursor=pointer]:
+                    - /url: "#sec6-atmosphere-13-00551"
+                - listitem [ref=e142]:
+                  - text: lens
+                  - link "Author Contributions" [ref=e143] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e144]:
+                  - text: lens
+                  - link "Funding" [ref=e145] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e146]:
+                  - text: lens
+                  - link "Data Availability Statement" [ref=e147] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e148]:
+                  - text: lens
+                  - link "Acknowledgments" [ref=e149] [cursor=pointer]:
+                    - /url: "#html-ack"
+                - listitem [ref=e150]:
+                  - text: lens
+                  - link "Conflicts of Interest" [ref=e151] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e152]:
+                  - text: lens
+                  - link "Abbreviations" [ref=e153] [cursor=pointer]:
+                    - /url: "#html-glossary"
+                - listitem [ref=e154]:
+                  - text: lens
+                  - link "Appendix A. Notations" [ref=e155] [cursor=pointer]:
+                    - /url: "#app1-atmosphere-13-00551"
+                - listitem [ref=e156]:
+                  - text: lens
+                  - link "References" [ref=e157] [cursor=pointer]:
+                    - /url: "#html-references_list"
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - link "Article has an altmetric score of 4" [ref=e162] [cursor=pointer]:
+                - /url: https://www.altmetric.com/details.php?domain=www.mdpi.com&citation_id=152214018
+                - img "Article has an altmetric score of 4" [ref=e163]
+              - generic [ref=e164]: Altmetric
+            - link "share Share" [ref=e165] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e166]: share
+              - generic [ref=e167]: Share
+            - link "announcement Help" [ref=e168] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e169]: announcement
+              - generic [ref=e170]: Help
+            - link "format_quote Cite" [ref=e171] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e172]: format_quote
+              - generic [ref=e173]: Cite
+            - link "question_answer Discuss in SciProfiles" [ref=e174] [cursor=pointer]:
+              - /url: https://sciprofiles.com/discussion-groups/public/10.3390/atmos13040551?utm_source=mpdi.com&utm_medium=publication&utm_campaign=discuss_in_sciprofiles
+              - generic [ref=e175]: question_answer
+              - generic [ref=e176]: Discuss in SciProfiles
+          - generic [ref=e180]:
+            - generic:
+              - generic [ref=e181]:
+                - generic [ref=e183] [cursor=pointer]: first_page
+                - generic [ref=e185] [cursor=pointer]: settings
+                - link "Order Article Reprints" [ref=e186] [cursor=pointer]:
+                  - /url: /2073-4433/13/4/551/reprints
+              - text:   
+            - article [ref=e187]:
+              - generic [ref=e188]:
+                - generic [ref=e189]:
+                  - generic [ref=e190] [cursor=pointer]: Open Access
+                  - generic [ref=e191]: Article
+                - heading "Wind Estimation with Multirotor UAVs" [level=1] [ref=e192]
+                - generic [ref=e193]:
+                  - text: by
+                  - generic [ref=e194]:
+                    - text: Kilian Meier
+                    - superscript [ref=e195]: 1,*
+                    - link "" [ref=e196] [cursor=pointer]:
+                      - /url: mailto:kilian.meier@alumni.epfl.ch
+                      - superscript [ref=e197]:
+                        - generic [ref=e198]: 
+                    - link "ORCID" [ref=e199] [cursor=pointer]:
+                      - /url: https://orcid.org/0000-0002-6044-9040
+                      - img "ORCID" [ref=e200]
+                    - text: ","
+                  - generic [ref=e201]:
+                    - text: Richard Hann
+                    - superscript [ref=e202]: 2,*
+                    - link "" [ref=e203] [cursor=pointer]:
+                      - /url: mailto:richard.hann@ntnu.no
+                      - superscript [ref=e204]:
+                        - generic [ref=e205]: 
+                    - link "ORCID" [ref=e206] [cursor=pointer]:
+                      - /url: https://orcid.org/0000-0002-0577-5812
+                      - img "ORCID" [ref=e207]
+                    - text: ","
+                  - generic [ref=e208]:
+                    - text: Jan Skaloud
+                    - superscript [ref=e209]: "1"
+                    - link "" [ref=e210] [cursor=pointer]:
+                      - /url: mailto:jan.skaloud@epfl.ch
+                      - superscript [ref=e211]:
+                        - generic [ref=e212]: 
+                    - link "ORCID" [ref=e213] [cursor=pointer]:
+                      - /url: https://orcid.org/0000-0002-8285-1823
+                      - img "ORCID" [ref=e214]
+                    - text: and
+                  - generic [ref=e215]:
+                    - text: Arthur Garreau
+                    - superscript [ref=e216]: "3"
+                    - link "" [ref=e217] [cursor=pointer]:
+                      - /url: mailto:arthurg@unis.no
+                      - superscript [ref=e218]:
+                        - generic [ref=e219]: 
+                    - link "ORCID" [ref=e220] [cursor=pointer]:
+                      - /url: https://orcid.org/0000-0001-9509-1061
+                      - img "ORCID" [ref=e221]
+                - generic [ref=e224]:
+                  - generic [ref=e225]:
+                    - superscript [ref=e227]: "1"
+                    - generic [ref=e228]: Geodetic Engineering Laboratory, École Polytechnique Fédérale de Lausanne (EPFL), Station 18, CH-1015 Lausanne, Switzerland
+                  - generic [ref=e229]:
+                    - superscript [ref=e231]: "2"
+                    - generic [ref=e232]: Centre for Autonomous Marine Operations and System (AMOS), Department of Engineering Cybernetics, Norwegian University of Science and Technology (NTNU), NO-7491 Trondheim, Norway
+                  - generic [ref=e233]:
+                    - superscript [ref=e235]: "3"
+                    - generic [ref=e236]: Department of Arctic Technology, University Centre of Svalbard (UNIS), NO-9171 Longyearbyen, Norway
+                  - generic [ref=e237]:
+                    - superscript [ref=e239]: "*"
+                    - generic [ref=e240]: Authors to whom correspondence should be addressed.
+                - generic [ref=e241]:
+                  - emphasis [ref=e242]: Atmosphere
+                  - text: 2022,
+                  - emphasis [ref=e243]: "13"
+                  - text: (4), 551;
+                  - link "https://doi.org/10.3390/atmos13040551" [ref=e244] [cursor=pointer]:
+                    - /url: https://doi.org/10.3390/atmos13040551
+                - generic [ref=e245]:
+                  - generic [ref=e246]: "Submission received: 18 February 2022"
+                  - text: /
+                  - generic [ref=e247]: "Revised: 17 March 2022"
+                  - text: /
+                  - generic [ref=e248]: "Accepted: 25 March 2022"
+                  - text: /
+                  - generic [ref=e249]: "Published: 29 March 2022"
+                - generic [ref=e250]:
+                  - text: (This article belongs to the Special Issue
+                  - link "Atmospheric Measurements Using Unmanned Systems" [ref=e251] [cursor=pointer]:
+                    - /url: "        \n    /journal/atmosphere/special_issues/atmos_USs\n"
+                  - text: )
+                - generic [ref=e253]:
+                  - generic [ref=e254] [cursor=pointer]:
+                    - text: Download
+                    - generic [ref=e255]: keyboard_arrow_down
+                  - link "Browse Figures" [ref=e257] [cursor=pointer]:
+                    - /url: "#"
+                  - generic:
+                    - link "<strong>Figure 1</strong><br/> <p>Forces acting on a hovering drone in the wind. Where <math display=\"inline\"><semantics> <msub> <mi>F</mi> <mi>G</mi> </msub> </semantics></math> is the gravitational force, <math display=\"inline\"><semantics> <msub> <mi>F</mi> <mi>T</mi> </msub> </semantics></math> is thrust, and <math display=\"inline\"><semantics> <msub> <mi>F</mi> <mi>D</mi> </msub> </semantics></math> is drag. <math display=\"inline\"><semantics> <mi>γ</mi> </semantics></math> is the incidence angle and <math display=\"inline\"><semantics> <mi>α</mi> </semantics></math> is the tilt angle. Note that in case airflow is horizontal, <math display=\"inline\"><semantics> <mrow> <mi>γ</mi> <mo>=</mo> <mi>α</mi> </mrow> </semantics></math>.</p>":
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g001.png?1648654026
+                    - 'link "<strong>Figure 2</strong><br/> <p>Drone hovering next to the UNISAWS in Adventadlen. The flight zone is at 78°12<math display=\"inline\"><semantics> <msup> <mrow/> <mo>′</mo> </msup> </semantics></math>10.0<math display=\"inline\"><semantics> <msup> <mrow/> <mrow> <mo>′</mo> <mo>′</mo> </mrow> </msup> </semantics></math> N 15°49<math display=\"inline\"><semantics> <msup> <mrow/> <mo>′</mo> </msup> </semantics></math>41.0<math display=\"inline\"><semantics> <msup> <mrow/> <mrow> <mo>′</mo> <mo>′</mo> </mrow> </msup> </semantics></math> E. Photo: Richard Hann.</p>"':
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g002.png?1648654026
+                    - 'link "<strong>Figure 3</strong><br/> <p>(<b>a</b>) EPFL’s flight zone (white rectangle) overview (Switzerland). The center of the zone is at 46°31<math display=\"inline\"><semantics> <msup> <mrow/> <mo>′</mo> </msup> </semantics></math>17.0<math display=\"inline\"><semantics> <msup> <mrow/> <mrow> <mo>′</mo> <mo>′</mo> </mrow> </msup> </semantics></math> N 6°34<math display=\"inline\"><semantics> <msup> <mrow/> <mo>′</mo> </msup> </semantics></math>02.5<math display=\"inline\"><semantics> <msup> <mrow/> <mrow> <mo>′</mo> <mo>′</mo> </mrow> </msup> </semantics></math> E. Copyright swisstopo. (<b>b</b>) Picture of the TOPOAWS weather station (left) and the MoTUS weather mast (right). Photo: Kilian Meier.</p>"':
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g003.png?1648654026
+                    - link "<strong>Figure 4</strong><br/> <p>Flight types. Plots on the upper row show a typical flight as seen from above (see <a href=\"#atmosphere-13-00551-f003\" class=\"html-fig\">Figure 3</a>). Plots on the lower row show the drone’s altitude over time. From left to right, plotted flights are hover, square, cstSpeed2ms, and Vertical2ms.</p>":
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g004.png?1648654026
+                    - 'link "<strong>Figure 5</strong><br/> <p>Tilt model: tilt to wind correlation for a DJI Phantom 4 Pro.</p>"':
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g005.png?1648654026
+                    - 'link "<strong>Figure 6</strong><br/> <p>Model parameters: (<b>a</b>) The thrust model is fitted on data from [<a href=\"#B28-atmosphere-13-00551\" class=\"html-bibr\">28</a>]. Note <math display=\"inline\"><semantics> <mrow> <msub> <mi>η</mi> <mrow> <mi>b</mi> <mi>a</mi> <mi>r</mi> </mrow> </msub> <mo>=</mo> <mover accent=\"true\"> <mi>η</mi> <mo>¯</mo> </mover> </mrow> </semantics></math>. (<b>b</b>) Drag model. The wind tunnel drag force model is from [<a href=\"#B28-atmosphere-13-00551\" class=\"html-bibr\">28</a>]. Note <math display=\"inline\"><semantics> <mrow> <msub> <mi>η</mi> <mrow> <mi>b</mi> <mi>a</mi> <mi>r</mi> </mrow> </msub> <mo>=</mo> <mover accent=\"true\"> <mi>η</mi> <mo>¯</mo> </mover> </mrow> </semantics></math>.</p>"':
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g006.png?1648654026
+                    - link "<strong>Figure 7</strong><br/> <p>Wind estimation for sample hovering flight. The thick blue line represents the ground truth and the other lines represent the estimation methods tested. Shaded areas show two examples of wind gusts (see discussion in <a href=\"#sec4dot1dot1-atmosphere-13-00551\" class=\"html-sec\">Section 4.1.1</a>).</p>":
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g007.png?1648654026
+                    - link "<strong>Figure 8</strong><br/> <p>Wind estimation for sample square flight. Thick blue line represents the ground truth and the remaining lines represent the estimation methods tested. The blue highlight shows one occurrence of the <span class=\"html-italic\">tilt</span> estimation failing during an acceleration phase. The red and yellow highlights show two occurrences of non successful estimation of wind (see discussion in <a href=\"#sec4dot2-atmosphere-13-00551\" class=\"html-sec\">Section 4.2</a>).</p>":
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g008.png?1648654026
+                    - link "<strong>Figure 9</strong><br/> <p>Wind estimation for sample vertical flight. Thick blue line represents the ground truth and remaining lines represent estimation methods tested. Blue and red highlights correspond to time intervals in which the drone is ascending and descending, respectively (see discussion in <a href=\"#sec4dot3-atmosphere-13-00551\" class=\"html-sec\">Section 4.3</a>).</p>":
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g009.png?1648654026
+                    - link "<strong>Figure 10</strong><br/> <p>Reference data for sample hovering flight. Thick blue line represents the instantaneous mean of all three reference sensors and the other lines represent each individual sensor. All three highlights show occurrences of high ground truth error (see discussion in <a href=\"#sec5dot2dot3-atmosphere-13-00551\" class=\"html-sec\">Section 5.2.3</a>).</p>":
+                      - /url: https://pub.mdpi-res.com/atmosphere/atmosphere-13-00551/article_deploy/html/images/atmosphere-13-00551-g010.png?1648654026
+                  - link "Versions Notes" [ref=e258] [cursor=pointer]:
+                    - /url: /2073-4433/13/4/551/notes
+                - generic [ref=e261]:
+                  - paragraph
+                  - generic [ref=e262]:
+                    - generic [ref=e263]:
+                      - heading "Abstract" [level=2] [ref=e264]
+                      - text: Unmanned Aerial Vehicles (UAVs) have benefited from a tremendous increase in popularity over the past decade, which has inspired their application toward many novel and unique use cases. One of them is the use of UAVs in meteorological research, in particular for wind measurement. Research in this field using quadcopter UAVs has shown promising results. However, most of the results in the literature suffer from three main drawbacks. First, experiments are performed as numerical simulations or in wind tunnels. Such results are limited in their validity in real-life conditions. Second, it is almost always assumed that the drone is stationary, which limits measurements spatially. Third, no attempts at estimating vertical wind are made. Overcoming these limitations offer an opportunity to gain significant value from using UAVs for meteorological measurements. We address these shortcomings by proposing a new dynamic model-based approach, that relies on the assumption that thrust can be measured or estimated, while drag can be related to air speed. Moreover, the proposed method is tested on empirical data gathered on a DJI Phantom 4 drone. During hovering, our method leads to precision and accuracy comparable to existing methods that use tilt to estimate the wind. At the same time, the method is able to estimate wind while the drone is moving. This paves the way for new uses of UAVs, such as the measurement of shear wind profiles, knowledge of which is relevant in Atmospheric Boundary Layer (ABL) meteorology. Additionally, since a commercial off-the-shelf drone is used, the methodology can be replicated by others without any need for custom hardware development or modifications.
+                    - generic [ref=e266]:
+                      - text: "Keywords:"
+                      - link "Unmanned Aerial Vehicles (UAV)" [ref=e267] [cursor=pointer]:
+                        - /url: /search?q=Unmanned+Aerial+Vehicles+%28UAV%29
+                      - text: ;
+                      - link "Unmanned Aircraft Systems (UAS)" [ref=e268] [cursor=pointer]:
+                        - /url: /search?q=Unmanned+Aircraft+Systems+%28UAS%29
+                      - text: ;
+                      - link "Atmospheric Boundary Layer (ABL) meteorology" [ref=e269] [cursor=pointer]:
+                        - /url: /search?q=Atmospheric+Boundary+Layer+%28ABL%29+meteorology
+                      - text: ;
+                      - link "wind estimation" [ref=e270] [cursor=pointer]:
+                        - /url: /search?q=wind+estimation
+                      - text: ;
+                      - link "shear wind profile" [ref=e271] [cursor=pointer]:
+                        - /url: /search?q=shear+wind+profile
+                      - text: ;
+                      - link "UAV motion model" [ref=e272] [cursor=pointer]:
+                        - /url: /search?q=UAV+motion+model
+                      - text: ;
+                      - link "drag model" [ref=e273] [cursor=pointer]:
+                        - /url: /search?q=drag+model
+                      - text: ;
+                      - link "Blade Element Momentum (BEM) theory" [ref=e274] [cursor=pointer]:
+                        - /url: /search?q=Blade+Element+Momentum+%28BEM%29+theory
+                  - paragraph
+                - generic [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - heading "1. Introduction" [level=2] [ref=e278]
+                      - generic [ref=e279]:
+                        - text: Boundary-layer meteorology studies atmospheric processes taking place in the air layer in contact with the Earth’s surface. One critical parameter required to understand those processes is wind speed and direction. However, wind observations with high spatial and temporal resolution are difficult to acquire due to limited mobility of ground-based sensors, logistical challenges, as well as environmental impact when deploying balloon-based sensors [
+                        - link "1" [ref=e280] [cursor=pointer]:
+                          - /url: "#B1-atmosphere-13-00551"
+                        - text: "]. Hence, Unmanned Aerial Vehicles (UAVs) (also known as Unmanned Aircraft Systems (UAS), Remotely Piloted Aircraft Systems (RPAS), or simply drones) for wind observation represents a flexible, cost-effective, and repeatable tool for observing the Atmospheric Boundary Layer (ABL) ["
+                        - link "2" [ref=e281] [cursor=pointer]:
+                          - /url: "#B2-atmosphere-13-00551"
+                        - text: ","
+                        - link "3" [ref=e282] [cursor=pointer]:
+                          - /url: "#B3-atmosphere-13-00551"
+                        - text: "]. For example, the use of UAVs in remote areas and in harsh environments, such as polar regions, has gained huge popularity ["
+                        - link "4" [ref=e283] [cursor=pointer]:
+                          - /url: "#B4-atmosphere-13-00551"
+                        - text: "]. Moreover, UAVs were already used in various successful missions to study the polar ABL ["
+                        - link "5" [ref=e284] [cursor=pointer]:
+                          - /url: "#B5-atmosphere-13-00551"
+                        - text: "]. Hence, further developing these platforms is of great interest to the research community to better understand atmospheric but also climatic processes. Additionally, UAV-based wind observations are also of great interest to the wind energy production sector, as it enables flexible observation of wake, e.g., ["
+                        - link "6" [ref=e285] [cursor=pointer]:
+                          - /url: "#B6-atmosphere-13-00551"
+                        - text: ","
+                        - link "7" [ref=e286] [cursor=pointer]:
+                          - /url: "#B7-atmosphere-13-00551"
+                        - text: ","
+                        - link "8" [ref=e287] [cursor=pointer]:
+                          - /url: "#B8-atmosphere-13-00551"
+                        - text: "]. The proposed methodology also addresses the wider community as educators since it is based on commercial hardware and its software is open-source, allowing for easy integration in courses and fieldwork."
+                      - generic [ref=e288]:
+                        - text: "UAVs can be grouped into two categories: fixed-wing and rotary-wing, both of which come with unique advantages when it comes to wind estimation ["
+                        - link "9" [ref=e289] [cursor=pointer]:
+                          - /url: "#B9-atmosphere-13-00551"
+                        - text: "]. This work will focus on Multirotor UAVs (MUAVs) (in this manuscript, the expressions UAV, MUAV, and drones are used interchangeably) due to their ease of operation, allowing for easy deployment, and due to their ability to follow vertical trajectories, which is interesting for observing shear wind profiles. (Nevertheless, fixed-wing UAVs should not be forgotten since they feature sensors for direct airflow observations, such as pitot tubes. Using these observations, shear wind profiles can be measured by following helical trajectories ["
+                        - link "10" [ref=e290] [cursor=pointer]:
+                          - /url: "#B10-atmosphere-13-00551"
+                        - text: "].)"
+                      - generic [ref=e291]:
+                        - text: "To estimate wind, the research community has taken approaches that can be classified into two categories: on-board flow sensor based and inertial plus power based ["
+                        - link "9" [ref=e292] [cursor=pointer]:
+                          - /url: "#B9-atmosphere-13-00551"
+                        - text: "]. In the first approach, a flow sensor is mounted directly on the UAV allowing for direct measurement of airflow, for example with a pitot tube or a sonic anemometer. However, MUAVs are not well suited for this approach since their propellers heavily impact the airflow around the drone ["
+                        - link "8" [ref=e293] [cursor=pointer]:
+                          - /url: "#B8-atmosphere-13-00551"
+                        - text: ","
+                        - link "9" [ref=e294] [cursor=pointer]:
+                          - /url: "#B9-atmosphere-13-00551"
+                        - text: "]. In the latter approach, which is the one taken in this article, only inertial and navigation data is used to infer wind speeds. The UAV is considered as a dynamic system with an input: the autopilot commands; an output: the drone’s position and attitude, and an external perturbation: the wind. Hence, provided that the drone’s aerodynamic model, the autopilot commands, the drone’s position, and the drone’s attitude are known or observed, then the wind can be estimated. This approach has the advantage that it does not rely on any additional hardware, thus greatly reducing implementation complexity and costs, while also improving reliability."
+                      - generic [ref=e295]:
+                        - text: The main publications describing multirotor and inertial-based estimations from 2018 onward are listed in
+                        - link "Table 1" [ref=e296] [cursor=pointer]:
+                          - /url: "#table_body_display_atmosphere-13-00551-t001"
+                        - text: . The publications in the table are classified by the employed method, type of data the method was tested with, required flight type, and whether vertical wind speed is also estimated. The publications listed below focus on methods explicitly developed for wind estimation. However, publications, such as [
+                        - link "11" [ref=e297] [cursor=pointer]:
+                          - /url: "#B11-atmosphere-13-00551"
+                        - text: ","
+                        - link "12" [ref=e298] [cursor=pointer]:
+                          - /url: "#B12-atmosphere-13-00551"
+                        - text: "], employing model-based/inertial integration that aims at improving UAV navigation with or without satellite positioning should not be omitted, because the wind-estimation is implicit without the system even in the absence of differential pressure sensor(s)."
+                      - generic [ref=e299]:
+                        - generic [ref=e300]: Table 1. Most relevant publications using multirotor UAVs to estimate wind (publications on wind estimation for navigation are not included).
+                        - generic [ref=e302] [cursor=pointer]:
+                          - img "Table" [ref=e303]
+                          - link [ref=e304]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t001"
+                      - generic [ref=e305]:
+                        - text: The tilt method correlates the drone’s attitude to wind speed during hovering. This method is described in
+                        - link "Section 2.2" [ref=e306] [cursor=pointer]:
+                          - /url: "#sec2dot2-atmosphere-13-00551"
+                        - text: . All other methods are model-based and thus define a more or less generic [
+                        - link "21" [ref=e307] [cursor=pointer]:
+                          - /url: "#B21-atmosphere-13-00551"
+                        - text: "] or complex ["
+                        - link "18" [ref=e308] [cursor=pointer]:
+                          - /url: "#B18-atmosphere-13-00551"
+                        - text: "] systems and estimate the model parameters using various methods such as machine learning, system identification, or filtering. Data used for parameter tuning may be produced by simulation, wind tunnel tests, or field tests. Most of the listed methods assume a stationary drone. Finally, all listed publications but one do not estimate vertical wind or may even assume it to be zero. Such an assumption is generally valid as vertical wind typically has a small effect on the drone relative to the horizontal wind, thus it can be removed as an unknown in model-based approaches without significant consequence."
+                      - generic [ref=e309]: We argue, first, that it is important to validate any given method on empirical data; second, that the need to hover to observe wind severely limits the usefulness of drones; finally, that vertical winds should be estimated as well. Hence, this paper presents two original wind estimation methods which address the above-mentioned issues. Additionally, the methodology is validated on empirical data generated with a DJI Phantom 4, a commercially available drone. Using an off-the-shelf drone has the advantage that the method can be easily replicated and with very low barriers. This is in contrast to the existing work in the literature which uses customized UAVs. The methods presented in this work can essentially be implemented on any DJI Phantom drone and thus have a very low barrier to implement in research or for teaching methods. This comes at the disadvantage that the UAV’s autopilot behavior is unknown (black box).
+                      - generic [ref=e310]: The generated data as well as the software used to process it are publicly available (see the Data Availability Statement) so that experiments performed in this work can be verified and the general technique replicated.
+                      - generic [ref=e311]:
+                        - text: The first method is based on the tilt method (
+                        - link "Section 2.2" [ref=e312] [cursor=pointer]:
+                          - /url: "#sec2dot2-atmosphere-13-00551"
+                        - text: ) and the second is model-based (
+                        - link "Section 2.3" [ref=e313] [cursor=pointer]:
+                          - /url: "#sec2dot3-atmosphere-13-00551"
+                        - text: ). Note that
+                        - link "Appendix A" [ref=e314] [cursor=pointer]:
+                          - /url: "#app1-atmosphere-13-00551"
+                        - text: defines the notation conventions used throughout this work.
+                    - generic [ref=e315]:
+                      - heading "2. Methods and Materials" [level=2] [ref=e316]
+                      - generic [ref=e317]:
+                        - heading "2.1. Wind Triangle" [level=4] [ref=e318]
+                        - generic [ref=e319]:
+                          - text: In the methods described hereafter, the air speed vector with respect to the aircraft,
+                          - generic [ref=e320]:
+                            - generic [ref=e326]:
+                              - generic [ref=e327]: 𝐕
+                              - generic [ref=e328]: 𝐛
+                            - math [ref=e329]:
+                              - generic [ref=e331]:
+                                - generic [ref=e332]: V
+                                - generic [ref=e333]: b
+                          - text: ", is estimated. However, the air speed with respect to the local-level frame is needed, which is the physical (as opposed to geographical wind, the physical wind vector points in the same direction as the airflow) wind"
+                          - generic [ref=e334]:
+                            - generic [ref=e340]:
+                              - generic [ref=e341]: 𝐰
+                              - generic [ref=e342]: 𝐥
+                            - math [ref=e343]:
+                              - generic [ref=e345]:
+                                - generic [ref=e346]: w
+                                - generic [ref=e347]: l
+                          - text: . The relation between air speed and wind speed (known as the aviation triangle) depends on the platform speed
+                          - generic [ref=e348]:
+                            - generic [ref=e354]:
+                              - generic [ref=e356]:
+                                - generic [ref=e357]: 𝐫
+                                - generic [ref=e358]: ˙
+                              - generic [ref=e359]: 𝐥
+                            - math [ref=e360]:
+                              - generic [ref=e362]:
+                                - generic [ref=e363]:
+                                  - generic [ref=e364]: r
+                                  - generic [ref=e365]: ˙
+                                - generic [ref=e366]: l
+                          - text: and attitude
+                          - generic [ref=e367]:
+                            - generic [ref=e373]:
+                              - generic [ref=e374]: 𝐪
+                              - generic [ref=e375]: 𝐥
+                              - generic [ref=e376]: 𝐛
+                            - math [ref=e377]:
+                              - generic [ref=e379]:
+                                - generic [ref=e380]: q
+                                - generic [ref=e381]: b
+                                - generic [ref=e382]: l
+                          - text: ":"
+                          - generic [ref=e383]:
+                            - generic [ref=e386]:
+                              - generic [ref=e392]:
+                                - generic [ref=e393]:
+                                  - generic [ref=e394]: 𝐰
+                                  - generic [ref=e395]: 𝐥
+                                - text: =
+                                - generic [ref=e396]:
+                                  - generic [ref=e398]:
+                                    - generic [ref=e399]: 𝐫
+                                    - generic [ref=e400]: ˙
+                                  - generic [ref=e401]: 𝐥
+                                - text: +𝑟𝑜𝑡
+                                - generic [ref=e402]:
+                                  - generic [ref=e403]: (
+                                  - generic [ref=e404]:
+                                    - generic [ref=e405]: 𝐪
+                                    - generic [ref=e406]: 𝐥
+                                    - generic [ref=e407]: 𝐛
+                                  - text: ","
+                                  - generic [ref=e408]:
+                                    - generic [ref=e409]: 𝐕
+                                    - generic [ref=e410]: 𝐛
+                                  - generic [ref=e411]: )
+                              - math [ref=e412]:
+                                - generic [ref=e414]:
+                                  - generic [ref=e415]:
+                                    - generic [ref=e416]: w
+                                    - generic [ref=e417]: l
+                                  - generic [ref=e418]: =
+                                  - generic [ref=e419]:
+                                    - generic [ref=e420]:
+                                      - generic [ref=e421]: r
+                                      - generic [ref=e422]: ˙
+                                    - generic [ref=e423]: l
+                                  - generic [ref=e424]: +
+                                  - generic [ref=e425]: r
+                                  - generic [ref=e426]: o
+                                  - generic [ref=e427]: t
+                                  - generic [ref=e428]:
+                                    - generic [ref=e429]: (
+                                    - generic [ref=e430]:
+                                      - generic [ref=e431]: q
+                                      - generic [ref=e432]: b
+                                      - generic [ref=e433]: l
+                                    - generic [ref=e434]: ","
+                                    - generic [ref=e435]:
+                                      - generic [ref=e436]: V
+                                      - generic [ref=e437]: b
+                                    - generic [ref=e438]: )
+                            - generic [ref=e440]: (1)
+                          - text: where
+                          - generic [ref=e441]:
+                            - generic [ref=e447]: 𝑟𝑜𝑡()
+                            - math [ref=e448]:
+                              - generic [ref=e450]:
+                                - generic [ref=e451]: r
+                                - generic [ref=e452]: o
+                                - generic [ref=e453]: t
+                                - generic [ref=e454]: (
+                                - generic [ref=e455]: )
+                          - text: indicates the quaternion’s rotation operator.
+                      - generic [ref=e456]:
+                        - heading "2.2. Wind Estimation from Tilt (Stationary Drone)" [level=4] [ref=e457]
+                        - generic [ref=e458]:
+                          - heading "2.2.1. General Description" [level=4] [ref=e459]
+                          - generic [ref=e460]:
+                            - text: The idea behind this approach is very elegant in its simplicity. Assuming the drone is perfectly stationary, i.e., the drone has an autopilot capable of keeping the drone at the same position regardless of the wind conditions (see
+                            - link "Appendix A.3" [ref=e461] [cursor=pointer]:
+                              - /url: "#secAdot3-atmosphere-13-00551"
+                            - text: for a formal definition), then the tilt angle of the drone is correlated to the wind velocity. Indeed, to remain stationary under windy conditions, the autopilot has to tilt the drone such that part of the thrust force compensates for the forces generated by the wind.
+                            - link "Figure 1" [ref=e462] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f001"
+                            - text: shows a force diagram of such a situation. From this figure, it becomes clear that the larger the drag (
+                            - generic [ref=e463]:
+                              - generic [ref=e469]:
+                                - generic [ref=e470]: 𝐅
+                                - generic [ref=e471]: 𝐃
+                              - math [ref=e472]:
+                                - generic [ref=e474]:
+                                  - generic [ref=e475]: F
+                                  - generic [ref=e476]: D
+                            - text: ), the bigger the tilt angle (
+                            - generic [ref=e477]:
+                              - generic [ref=e482]: 𝛼
+                              - math [ref=e483]:
+                                - generic [ref=e485]: α
+                            - text: ).
+                          - generic [ref=e486]:
+                            - generic [ref=e488] [cursor=pointer]:
+                              - img "Atmosphere 13 00551 g001 550" [ref=e489]
+                              - link [ref=e490]:
+                                - /url: "#fig_body_display_atmosphere-13-00551-f001"
+                            - generic [ref=e491]:
+                              - text: Figure 1. Forces acting on a hovering drone in the wind. Where
+                              - generic [ref=e492]:
+                                - generic [ref=e498]:
+                                  - generic [ref=e499]: 𝐹
+                                  - generic [ref=e500]: 𝐺
+                                - math [ref=e501]:
+                                  - generic [ref=e503]:
+                                    - generic [ref=e504]: F
+                                    - generic [ref=e505]: G
+                              - text: is the gravitational force,
+                              - generic [ref=e506]:
+                                - generic [ref=e512]:
+                                  - generic [ref=e513]: 𝐹
+                                  - generic [ref=e515]: 𝑇
+                                - math [ref=e517]:
+                                  - generic [ref=e519]:
+                                    - generic [ref=e520]: F
+                                    - generic [ref=e521]: T
+                              - text: is thrust, and
+                              - generic [ref=e522]:
+                                - generic [ref=e528]:
+                                  - generic [ref=e529]: 𝐹
+                                  - generic [ref=e530]: 𝐷
+                                - math [ref=e531]:
+                                  - generic [ref=e533]:
+                                    - generic [ref=e534]: F
+                                    - generic [ref=e535]: D
+                              - text: is drag.
+                              - generic [ref=e536]:
+                                - generic [ref=e542]: 𝛾
+                                - math [ref=e544]:
+                                  - generic [ref=e546]: γ
+                              - text: is the incidence angle and
+                              - generic [ref=e547]:
+                                - generic [ref=e552]: 𝛼
+                                - math [ref=e553]:
+                                  - generic [ref=e555]: α
+                              - text: is the tilt angle. Note that in case airflow is horizontal,
+                              - generic [ref=e556]:
+                                - generic [ref=e562]:
+                                  - generic [ref=e563]: 𝛾
+                                  - text: =𝛼
+                                - math [ref=e565]:
+                                  - generic [ref=e567]:
+                                    - generic [ref=e568]: γ
+                                    - generic [ref=e569]: =
+                                    - generic [ref=e570]: α
+                              - text: .
+                        - generic [ref=e571]:
+                          - heading "2.2.2. Wind Speed" [level=4] [ref=e572]
+                          - generic [ref=e573]:
+                            - text: There is a correlation between the drone’s tilt angle and the wind speed it experiences. According to empirical findings (see
+                            - link "Section 3.1" [ref=e574] [cursor=pointer]:
+                              - /url: "#sec3dot1-atmosphere-13-00551"
+                            - text: "), this relation is best captured by a split regression of the form:"
+                            - generic [ref=e575]:
+                              - generic [ref=e578]:
+                                - generic [ref=e584]:
+                                  - generic [ref=e585]: "||"
+                                  - generic [ref=e586]:
+                                    - generic [ref=e587]: 𝐕
+                                    - generic [ref=e588]: 𝐥
+                                  - generic [ref=e589]:
+                                    - generic [ref=e591]: "||"
+                                    - generic [ref=e592]: "2"
+                                  - text: =
+                                  - generic [ref=e593]: "||"
+                                  - generic [ref=e594]:
+                                    - generic [ref=e595]: 𝐕
+                                    - generic [ref=e596]: 𝐛
+                                  - generic [ref=e597]:
+                                    - generic [ref=e599]: "||"
+                                    - generic [ref=e600]: "2"
+                                  - text: =
+                                  - generic [ref=e601]:
+                                    - generic [ref=e603]: 𝑉
+                                    - generic [ref=e605]: "2"
+                                  - text: =
+                                  - generic [ref=e606]:
+                                    - generic [ref=e607]: "{"
+                                    - generic [ref=e608]:
+                                      - generic [ref=e609]:
+                                        - generic [ref=e613]:
+                                          - generic [ref=e614]:
+                                            - generic [ref=e615]: 𝑎
+                                            - generic [ref=e616]: "0"
+                                          - generic [ref=e617]:
+                                            - generic [ref=e618]: tan
+                                            - generic [ref=e619]: "2"
+                                          - generic [ref=e620]: (𝛼)
+                                        - generic [ref=e624]:
+                                          - generic [ref=e625]:
+                                            - generic [ref=e626]: 𝑎
+                                            - generic [ref=e627]: "1"
+                                          - text: tan
+                                          - generic [ref=e628]: (𝛼)
+                                          - text: +
+                                          - generic [ref=e629]:
+                                            - generic [ref=e630]: 𝑎
+                                            - generic [ref=e631]: "2"
+                                      - generic [ref=e632]:
+                                        - generic [ref=e636]:
+                                          - text: for
+                                          - generic [ref=e637]:
+                                            - text: 𝛼<
+                                            - generic [ref=e638]:
+                                              - generic [ref=e639]: 𝛼
+                                              - generic [ref=e641]: 𝑐𝑟𝑖𝑡
+                                        - generic [ref=e645]:
+                                          - text: for
+                                          - generic [ref=e646]:
+                                            - text: 𝛼≥
+                                            - generic [ref=e647]:
+                                              - generic [ref=e648]: 𝛼
+                                              - generic [ref=e650]: 𝑐𝑟𝑖𝑡
+                                - math [ref=e651]:
+                                  - generic [ref=e653]:
+                                    - generic [ref=e654]:
+                                      - generic [ref=e655]: "|"
+                                      - generic [ref=e656]: "|"
+                                    - generic [ref=e657]:
+                                      - generic [ref=e658]: V
+                                      - generic [ref=e659]: l
+                                    - generic [ref=e660]:
+                                      - generic [ref=e661]:
+                                        - generic [ref=e662]: "|"
+                                        - generic [ref=e663]: "|"
+                                      - generic [ref=e664]: "2"
+                                    - generic [ref=e665]: =
+                                    - generic [ref=e666]:
+                                      - generic [ref=e667]: "|"
+                                      - generic [ref=e668]: "|"
+                                    - generic [ref=e669]:
+                                      - generic [ref=e670]: V
+                                      - generic [ref=e671]: b
+                                    - generic [ref=e672]:
+                                      - generic [ref=e673]:
+                                        - generic [ref=e674]: "|"
+                                        - generic [ref=e675]: "|"
+                                      - generic [ref=e676]: "2"
+                                    - generic [ref=e677]: =
+                                    - generic [ref=e678]:
+                                      - generic [ref=e679]: V
+                                      - generic [ref=e680]: "2"
+                                    - generic [ref=e681]: =
+                                    - generic [ref=e683]:
+                                      - generic [ref=e684]:
+                                        - generic [ref=e686]:
+                                          - generic [ref=e687]:
+                                            - generic [ref=e688]: a
+                                            - generic [ref=e689]: "0"
+                                          - generic [ref=e690]:
+                                            - generic [ref=e691]: tan
+                                            - generic [ref=e692]: "2"
+                                          - generic [ref=e693]:
+                                            - generic [ref=e694]: (
+                                            - generic [ref=e695]: α
+                                            - generic [ref=e696]: )
+                                        - generic [ref=e698]:
+                                          - generic [ref=e699]: for
+                                          - generic [ref=e700]:
+                                            - generic [ref=e701]: α
+                                            - generic [ref=e702]: <
+                                            - generic [ref=e703]:
+                                              - generic [ref=e704]: α
+                                              - generic [ref=e705]:
+                                                - generic [ref=e706]: c
+                                                - generic [ref=e707]: r
+                                                - generic [ref=e708]: i
+                                                - generic [ref=e709]: t
+                                      - generic [ref=e710]:
+                                        - generic [ref=e712]:
+                                          - generic [ref=e713]:
+                                            - generic [ref=e714]: a
+                                            - generic [ref=e715]: "1"
+                                          - generic [ref=e716]: tan
+                                          - generic [ref=e717]:
+                                            - generic [ref=e718]: (
+                                            - generic [ref=e719]: α
+                                            - generic [ref=e720]: )
+                                          - generic [ref=e721]: +
+                                          - generic [ref=e722]:
+                                            - generic [ref=e723]: a
+                                            - generic [ref=e724]: "2"
+                                        - generic [ref=e726]:
+                                          - generic [ref=e727]: for
+                                          - generic [ref=e728]:
+                                            - generic [ref=e729]: α
+                                            - generic [ref=e730]: ≥
+                                            - generic [ref=e731]:
+                                              - generic [ref=e732]: α
+                                              - generic [ref=e733]:
+                                                - generic [ref=e734]: c
+                                                - generic [ref=e735]: r
+                                                - generic [ref=e736]: i
+                                                - generic [ref=e737]: t
+                              - generic [ref=e739]: (2)
+                            - text: where
+                            - generic [ref=e740]:
+                              - generic [ref=e746]: "||.||"
+                              - math [ref=e747]:
+                                - generic [ref=e749]:
+                                  - generic [ref=e750]: "|"
+                                  - generic [ref=e751]: "|"
+                                  - generic [ref=e752]: .
+                                  - generic [ref=e753]: "|"
+                                  - generic [ref=e754]: "|"
+                            - text: represents the Euclidean norm,
+                            - generic [ref=e755]:
+                              - generic [ref=e760]: 𝛼
+                              - math [ref=e761]:
+                                - generic [ref=e763]: α
+                            - text: is the tilt angle and
+                            - generic [ref=e764]:
+                              - generic [ref=e770]:
+                                - generic [ref=e771]: 𝑎
+                                - generic [ref=e772]: "0"
+                              - math [ref=e773]:
+                                - generic [ref=e775]:
+                                  - generic [ref=e776]: a
+                                  - generic [ref=e777]: "0"
+                            - text: ","
+                            - generic [ref=e778]:
+                              - generic [ref=e784]:
+                                - generic [ref=e785]: 𝑎
+                                - generic [ref=e786]: "1"
+                              - math [ref=e787]:
+                                - generic [ref=e789]:
+                                  - generic [ref=e790]: a
+                                  - generic [ref=e791]: "1"
+                            - text: ","
+                            - generic [ref=e792]:
+                              - generic [ref=e798]:
+                                - generic [ref=e799]: 𝑎
+                                - generic [ref=e800]: "2"
+                              - math [ref=e801]:
+                                - generic [ref=e803]:
+                                  - generic [ref=e804]: a
+                                  - generic [ref=e805]: "2"
+                            - text: and
+                            - generic [ref=e806]:
+                              - generic [ref=e812]:
+                                - generic [ref=e813]: 𝛼
+                                - generic [ref=e815]: 𝑐𝑟𝑖𝑡
+                              - math [ref=e816]:
+                                - generic [ref=e818]:
+                                  - generic [ref=e819]: α
+                                  - generic [ref=e820]:
+                                    - generic [ref=e821]: c
+                                    - generic [ref=e822]: r
+                                    - generic [ref=e823]: i
+                                    - generic [ref=e824]: t
+                            - text: are parameters to be tuned. Their values are presented in
+                            - link "Section 3.1" [ref=e825] [cursor=pointer]:
+                              - /url: "#sec3dot1-atmosphere-13-00551"
+                            - text: .
+                        - generic [ref=e826]:
+                          - heading "2.2.3. Wind Direction" [level=4] [ref=e827]
+                          - generic [ref=e828]: The wind direction in the azimuthal plane is directly given by the tilt direction, i.e., the direction toward which the drone is facing when tilting.
+                      - generic [ref=e829]:
+                        - heading "2.3. Wind Estimation from Dynamic Model (Moving Drone)" [level=4] [ref=e830]
+                        - generic [ref=e831]:
+                          - heading "2.3.1. General Description" [level=4] [ref=e832]
+                          - generic [ref=e833]: "This methodology aims to estimate all wind components (including vertical) and in dynamic flights. To achieve this, the method establishes a Dynamical Model (DM) of the flying drone from which wind can be inferred as a difference between model-specified and observed forces. Two specific forces influencing the drone can be identified: drag and thrust. Hence, if the total specific force and the thrust are known (observed) then the drag can be computed (Newton’s second law). Fortunately, the total specific force is known thanks to the Inertial Measurement Unit (IMU) and thrust can be estimated from the rotor speed (which is measured). Drag is the product of airflow and the resistance response of the aircraft structure plus propeller. Hence, if the latter is known thanks to an appropriate model the former can be estimated. To sum up, in order to compute air velocity one needs:"
+                          - list [ref=e835]:
+                            - listitem [ref=e836]:
+                              - generic [ref=e837]:
+                                - text: a force model, which establishes the relation between forces in their reference frame (
+                                - link "Section 2.3.2" [ref=e838] [cursor=pointer]:
+                                  - /url: "#sec2dot3dot2-atmosphere-13-00551"
+                                - text: ),
+                            - listitem [ref=e839]:
+                              - generic [ref=e840]:
+                                - text: a thrust model, which relates rotor speed to thrust (
+                                - link "Section 2.3.4" [ref=e841] [cursor=pointer]:
+                                  - /url: "#sec2dot3dot4-atmosphere-13-00551"
+                                - text: ), and
+                            - listitem [ref=e842]:
+                              - generic [ref=e843]:
+                                - text: a drag model, which relates drag to air speed (
+                                - link "Section 2.3.5" [ref=e844] [cursor=pointer]:
+                                  - /url: "#sec2dot3dot5-atmosphere-13-00551"
+                                - text: and
+                                - link "Section 2.3.6" [ref=e845] [cursor=pointer]:
+                                  - /url: "#sec2dot3dot6-atmosphere-13-00551"
+                                - text: ).
+                          - generic [ref=e846]:
+                            - text: "The physical model proposed hereafter is inspired by the following publications about model-based navigation on small multirotor UAVs: ["
+                            - link "24" [ref=e847] [cursor=pointer]:
+                              - /url: "#B24-atmosphere-13-00551"
+                            - text: ","
+                            - link "25" [ref=e848] [cursor=pointer]:
+                              - /url: "#B25-atmosphere-13-00551"
+                            - text: ","
+                            - link "26" [ref=e849] [cursor=pointer]:
+                              - /url: "#B26-atmosphere-13-00551"
+                            - text: "]. In this work, two drag models are considered (linear and quadratic). Additionally, vertical drag is alternatively estimated or assumed to be zero (the latter removing the need for any thrust model). Hence, there are four different combinations resulting in four different estimation methods labeled as follows:"
+                          - list [ref=e851]:
+                            - listitem [ref=e852]:
+                              - generic [ref=e853]: DM, Linear and No Vertical Drag
+                            - listitem [ref=e854]:
+                              - generic [ref=e855]: DM, Linear and Vertical Drag
+                            - listitem [ref=e856]:
+                              - generic [ref=e857]: DM, Quadratic and No Vertical Drag
+                            - listitem [ref=e858]:
+                              - generic [ref=e859]: DM, Quadratic and Vertical Drag
+                        - generic [ref=e860]:
+                          - heading "2.3.2. Force Model" [level=4] [ref=e861]
+                          - generic [ref=e862]:
+                            - text: "Two specific forces are considered to act on the aircraft: thrust, which is generated by the propellers, and drag, which is generated by the flow of air around the drone. Note that lift, in the sense of deflection of air mass induced by the drone body, is not considered in this model since there are only very small lift-generating surfaces on the UAV used for testing (with the obvious exception of the propeller blades, but this is taken into account in the thrust force). Instead, the lift overcoming gravity is considered to come entirely from thrust. Hence, the expression of specific force holds:"
+                            - generic [ref=e863]:
+                              - generic [ref=e866]:
+                                - generic [ref=e872]:
+                                  - generic [ref=e873]:
+                                    - generic [ref=e874]: 𝐟
+                                    - generic [ref=e875]: 𝐛
+                                  - text: =
+                                  - generic [ref=e876]:
+                                    - generic [ref=e877]: 𝐟
+                                    - generic [ref=e878]: 𝐛
+                                    - generic [ref=e879]: 𝐓
+                                  - text: +
+                                  - generic [ref=e880]:
+                                    - generic [ref=e881]: 𝐟
+                                    - generic [ref=e882]: 𝐛
+                                    - generic [ref=e883]: 𝐃
+                                  - text: =
+                                  - generic [ref=e884]:
+                                    - generic [ref=e885]: "1"
+                                    - generic [ref=e886]: 𝑚
+                                  - generic [ref=e889]:
+                                    - generic [ref=e890]: 𝐅
+                                    - generic [ref=e891]: 𝐛
+                                    - generic [ref=e892]: 𝐓
+                                  - text: +
+                                  - generic [ref=e893]:
+                                    - generic [ref=e894]: "1"
+                                    - generic [ref=e895]: 𝑚
+                                  - generic [ref=e898]:
+                                    - generic [ref=e899]: 𝐅
+                                    - generic [ref=e900]: 𝐛
+                                    - generic [ref=e901]: 𝐃
+                                - math [ref=e902]:
+                                  - generic [ref=e904]:
+                                    - generic [ref=e905]:
+                                      - generic [ref=e906]: f
+                                      - generic [ref=e907]: b
+                                    - generic [ref=e908]: =
+                                    - generic [ref=e909]:
+                                      - generic [ref=e910]: f
+                                      - generic [ref=e911]: T
+                                      - generic [ref=e912]: b
+                                    - generic [ref=e913]: +
+                                    - generic [ref=e914]:
+                                      - generic [ref=e915]: f
+                                      - generic [ref=e916]: D
+                                      - generic [ref=e917]: b
+                                    - generic [ref=e918]: =
+                                    - generic [ref=e919]:
+                                      - generic [ref=e920]: "1"
+                                      - generic [ref=e921]: m
+                                    - generic [ref=e922]:
+                                      - generic [ref=e923]: F
+                                      - generic [ref=e924]: T
+                                      - generic [ref=e925]: b
+                                    - generic [ref=e926]: +
+                                    - generic [ref=e927]:
+                                      - generic [ref=e928]: "1"
+                                      - generic [ref=e929]: m
+                                    - generic [ref=e930]:
+                                      - generic [ref=e931]: F
+                                      - generic [ref=e932]: D
+                                      - generic [ref=e933]: b
+                              - generic [ref=e935]: (3)
+                            - text: where
+                            - generic [ref=e936]:
+                              - generic [ref=e942]:
+                                - generic [ref=e943]: 𝐟
+                                - generic [ref=e944]: 𝐛
+                              - math [ref=e945]:
+                                - generic [ref=e947]:
+                                  - generic [ref=e948]: f
+                                  - generic [ref=e949]: b
+                            - text: is the total specific force,
+                            - generic [ref=e950]:
+                              - generic [ref=e956]:
+                                - generic [ref=e957]: 𝐟
+                                - generic [ref=e958]: 𝐛
+                                - generic [ref=e959]: 𝐓
+                              - math [ref=e960]:
+                                - generic [ref=e962]:
+                                  - generic [ref=e963]: f
+                                  - generic [ref=e964]: T
+                                  - generic [ref=e965]: b
+                            - text: is the specific thrust in the body frame,
+                            - generic [ref=e966]:
+                              - generic [ref=e972]:
+                                - generic [ref=e973]: 𝐟
+                                - generic [ref=e974]: 𝐛
+                                - generic [ref=e975]: 𝐃
+                              - math [ref=e976]:
+                                - generic [ref=e978]:
+                                  - generic [ref=e979]: f
+                                  - generic [ref=e980]: D
+                                  - generic [ref=e981]: b
+                            - text: is the specific drag in the body frame,
+                            - generic [ref=e982]:
+                              - generic [ref=e988]:
+                                - generic [ref=e989]: 𝐅
+                                - generic [ref=e990]: 𝐛
+                                - generic [ref=e991]: 𝐓
+                              - math [ref=e992]:
+                                - generic [ref=e994]:
+                                  - generic [ref=e995]: F
+                                  - generic [ref=e996]: T
+                                  - generic [ref=e997]: b
+                            - text: is the thrust in the body frame acting on the mass m,
+                            - generic [ref=e998]:
+                              - generic [ref=e1004]:
+                                - generic [ref=e1005]: 𝐅
+                                - generic [ref=e1006]: 𝐛
+                                - generic [ref=e1007]: 𝐃
+                              - math [ref=e1008]:
+                                - generic [ref=e1010]:
+                                  - generic [ref=e1011]: F
+                                  - generic [ref=e1012]: D
+                                  - generic [ref=e1013]: b
+                            - text: is the drag in the body frame acting on the mass m, and where the mass of the Phantom 4 RTK UAV
+                            - generic [ref=e1014]:
+                              - generic [ref=e1020]: 𝑚=1.391
+                              - math [ref=e1021]:
+                                - generic [ref=e1023]:
+                                  - generic [ref=e1024]: m
+                                  - generic [ref=e1025]: =
+                                  - generic [ref=e1026]: "1.391"
+                            - text: kg. Note, that
+                            - generic [ref=e1027]:
+                              - generic [ref=e1033]:
+                                - generic [ref=e1034]: 𝐟
+                                - generic [ref=e1035]: 𝐛
+                              - math [ref=e1036]:
+                                - generic [ref=e1038]:
+                                  - generic [ref=e1039]: f
+                                  - generic [ref=e1040]: b
+                            - text: is observed directly by the IMU. Hence, using (
+                            - link "3" [ref=e1041] [cursor=pointer]:
+                              - /url: "#FD3-atmosphere-13-00551"
+                            - text: "), the drag force can be expressed as:"
+                            - generic [ref=e1042]:
+                              - generic [ref=e1045]:
+                                - generic [ref=e1051]:
+                                  - generic [ref=e1052]:
+                                    - generic [ref=e1053]: 𝐅
+                                    - generic [ref=e1054]: 𝐛
+                                    - generic [ref=e1055]: 𝐃
+                                  - text: =𝑚
+                                  - generic [ref=e1056]:
+                                    - generic [ref=e1057]: 𝐟
+                                    - generic [ref=e1058]: 𝐛
+                                  - text: −
+                                  - generic [ref=e1059]:
+                                    - generic [ref=e1060]: 𝐅
+                                    - generic [ref=e1061]: 𝐛
+                                    - generic [ref=e1062]: 𝐓
+                                - math [ref=e1063]:
+                                  - generic [ref=e1065]:
+                                    - generic [ref=e1066]:
+                                      - generic [ref=e1067]: F
+                                      - generic [ref=e1068]: D
+                                      - generic [ref=e1069]: b
+                                    - generic [ref=e1070]: =
+                                    - generic [ref=e1071]: m
+                                    - generic [ref=e1072]:
+                                      - generic [ref=e1073]: f
+                                      - generic [ref=e1074]: b
+                                    - generic [ref=e1075]: −
+                                    - generic [ref=e1076]:
+                                      - generic [ref=e1077]: F
+                                      - generic [ref=e1078]: T
+                                      - generic [ref=e1079]: b
+                              - generic [ref=e1081]: (4)
+                          - generic [ref=e1082]:
+                            - text: "Moving to the local-level frame:"
+                            - generic [ref=e1083]:
+                              - generic [ref=e1086]:
+                                - generic [ref=e1092]:
+                                  - generic [ref=e1093]:
+                                    - generic [ref=e1094]: 𝐅
+                                    - generic [ref=e1095]: 𝐥
+                                    - generic [ref=e1096]: 𝐃
+                                  - text: =𝑚
+                                  - generic [ref=e1097]:
+                                    - generic [ref=e1098]: 𝐂
+                                    - generic [ref=e1099]: 𝐥
+                                    - generic [ref=e1100]: 𝐛
+                                  - generic [ref=e1101]:
+                                    - generic [ref=e1102]: 𝐟
+                                    - generic [ref=e1103]: 𝐛
+                                  - text: −
+                                  - generic [ref=e1104]:
+                                    - generic [ref=e1105]: 𝐂
+                                    - generic [ref=e1106]: 𝐥
+                                    - generic [ref=e1107]: 𝐛
+                                  - generic [ref=e1108]:
+                                    - generic [ref=e1109]: 𝐅
+                                    - generic [ref=e1110]: 𝐛
+                                    - generic [ref=e1111]: 𝐓
+                                  - text: =𝑟𝑜𝑡
+                                  - generic [ref=e1112]:
+                                    - generic [ref=e1113]: (
+                                    - generic [ref=e1114]:
+                                      - generic [ref=e1115]: 𝐪
+                                      - generic [ref=e1116]: 𝐥
+                                      - generic [ref=e1117]: 𝐛
+                                    - text: ",𝑚"
+                                    - generic [ref=e1118]:
+                                      - generic [ref=e1119]: 𝐟
+                                      - generic [ref=e1120]: 𝐛
+                                    - generic [ref=e1121]: )
+                                  - text: −𝑟𝑜𝑡
+                                  - generic [ref=e1122]:
+                                    - generic [ref=e1123]: (
+                                    - generic [ref=e1124]:
+                                      - generic [ref=e1125]: 𝐪
+                                      - generic [ref=e1126]: 𝐥
+                                      - generic [ref=e1127]: 𝐛
+                                    - text: ","
+                                    - generic [ref=e1128]:
+                                      - generic [ref=e1129]: 𝐅
+                                      - generic [ref=e1130]: 𝐛
+                                      - generic [ref=e1131]: 𝐓
+                                    - generic [ref=e1132]: )
+                                - math [ref=e1133]:
+                                  - generic [ref=e1135]:
+                                    - generic [ref=e1136]:
+                                      - generic [ref=e1137]: F
+                                      - generic [ref=e1138]: D
+                                      - generic [ref=e1139]: l
+                                    - generic [ref=e1140]: =
+                                    - generic [ref=e1141]: m
+                                    - generic [ref=e1142]:
+                                      - generic [ref=e1143]: C
+                                      - generic [ref=e1144]: b
+                                      - generic [ref=e1145]: l
+                                    - generic [ref=e1146]:
+                                      - generic [ref=e1147]: f
+                                      - generic [ref=e1148]: b
+                                    - generic [ref=e1149]: −
+                                    - generic [ref=e1150]:
+                                      - generic [ref=e1151]: C
+                                      - generic [ref=e1152]: b
+                                      - generic [ref=e1153]: l
+                                    - generic [ref=e1154]:
+                                      - generic [ref=e1155]: F
+                                      - generic [ref=e1156]: T
+                                      - generic [ref=e1157]: b
+                                    - generic [ref=e1158]: =
+                                    - generic [ref=e1159]: r
+                                    - generic [ref=e1160]: o
+                                    - generic [ref=e1161]: t
+                                    - generic [ref=e1162]:
+                                      - generic [ref=e1163]: (
+                                      - generic [ref=e1164]:
+                                        - generic [ref=e1165]: q
+                                        - generic [ref=e1166]: b
+                                        - generic [ref=e1167]: l
+                                      - generic [ref=e1168]: ","
+                                      - generic [ref=e1169]: m
+                                      - generic [ref=e1170]:
+                                        - generic [ref=e1171]: f
+                                        - generic [ref=e1172]: b
+                                      - generic [ref=e1173]: )
+                                    - generic [ref=e1174]: −
+                                    - generic [ref=e1175]: r
+                                    - generic [ref=e1176]: o
+                                    - generic [ref=e1177]: t
+                                    - generic [ref=e1178]:
+                                      - generic [ref=e1179]: (
+                                      - generic [ref=e1180]:
+                                        - generic [ref=e1181]: q
+                                        - generic [ref=e1182]: b
+                                        - generic [ref=e1183]: l
+                                      - generic [ref=e1184]: ","
+                                      - generic [ref=e1185]:
+                                        - generic [ref=e1186]: F
+                                        - generic [ref=e1187]: T
+                                        - generic [ref=e1188]: b
+                                      - generic [ref=e1189]: )
+                              - generic [ref=e1191]: (5)
+                          - generic [ref=e1192]:
+                            - text: In this expression,
+                            - generic [ref=e1193]:
+                              - generic [ref=e1199]:
+                                - generic [ref=e1200]: 𝐪
+                                - generic [ref=e1201]: 𝐥
+                                - generic [ref=e1202]: 𝐛
+                              - math [ref=e1203]:
+                                - generic [ref=e1205]:
+                                  - generic [ref=e1206]: q
+                                  - generic [ref=e1207]: b
+                                  - generic [ref=e1208]: l
+                            - text: and
+                            - generic [ref=e1209]:
+                              - generic [ref=e1215]:
+                                - generic [ref=e1216]: 𝐟
+                                - generic [ref=e1217]: 𝐛
+                              - math [ref=e1218]:
+                                - generic [ref=e1220]:
+                                  - generic [ref=e1221]: f
+                                  - generic [ref=e1222]: b
+                            - text: are known through their observation
+                            - generic [ref=e1223]:
+                              - generic [ref=e1229]:
+                                - generic [ref=e1231]:
+                                  - generic [ref=e1232]: 𝐪
+                                  - generic [ref=e1234]: ̃
+                                - generic [ref=e1235]: 𝐥
+                                - generic [ref=e1236]: 𝐛
+                              - math [ref=e1237]:
+                                - generic [ref=e1239]:
+                                  - generic [ref=e1240]:
+                                    - generic [ref=e1241]: q
+                                    - generic [ref=e1242]: ˜
+                                  - generic [ref=e1243]: b
+                                  - generic [ref=e1244]: l
+                            - text: and
+                            - generic [ref=e1245]:
+                              - generic [ref=e1251]:
+                                - generic [ref=e1253]:
+                                  - generic [ref=e1254]: 𝐟
+                                  - generic [ref=e1256]: ̃
+                                - generic [ref=e1257]: 𝐛
+                              - math [ref=e1258]:
+                                - generic [ref=e1260]:
+                                  - generic [ref=e1261]:
+                                    - generic [ref=e1262]: f
+                                    - generic [ref=e1263]: ˜
+                                  - generic [ref=e1264]: b
+                            - text: within the Inertial Navigation System (INS). Thus only the thrust force remains to be determined, which can be done as described in
+                            - link "Section 2.3.4" [ref=e1265] [cursor=pointer]:
+                              - /url: "#sec2dot3dot4-atmosphere-13-00551"
+                            - text: .
+                        - generic [ref=e1266]:
+                          - heading "2.3.3. Force Model Assuming No Vertical Drag" [level=4] [ref=e1267]
+                          - generic [ref=e1268]:
+                            - text: With the thrust applied along the upward body axis (see
+                            - link "Section 2.3.4" [ref=e1269] [cursor=pointer]:
+                              - /url: "#sec2dot3dot4-atmosphere-13-00551"
+                            - text: ) and assuming no drag in the local vertical direction, the horizontal drag components can be estimated by rewriting (
+                            - link "5" [ref=e1270] [cursor=pointer]:
+                              - /url: "#FD5-atmosphere-13-00551"
+                            - text: ") as:"
+                            - generic [ref=e1271]:
+                              - generic [ref=e1274]:
+                                - generic [ref=e1280]:
+                                  - generic [ref=e1281]:
+                                    - generic [ref=e1282]:
+                                      - generic [ref=e1283]: ⎡
+                                      - generic [ref=e1284]: ⎣
+                                      - generic [ref=e1285]: ⎢
+                                      - generic [ref=e1286]: ⎢
+                                      - generic [ref=e1287]: ⎢
+                                    - generic [ref=e1289]:
+                                      - generic [ref=e1293]:
+                                        - generic [ref=e1294]: 𝐹
+                                        - generic [ref=e1296]: 𝐷,𝑛
+                                      - generic [ref=e1300]:
+                                        - generic [ref=e1301]: 𝐹
+                                        - generic [ref=e1303]: 𝐷,𝑒
+                                      - generic [ref=e1306]: "0"
+                                    - generic [ref=e1307]:
+                                      - generic [ref=e1308]: ⎤
+                                      - generic [ref=e1309]: ⎦
+                                      - generic [ref=e1310]: ⎥
+                                      - generic [ref=e1311]: ⎥
+                                      - generic [ref=e1312]: ⎥
+                                  - text: =𝑚
+                                  - generic [ref=e1313]:
+                                    - generic [ref=e1314]: 𝐂
+                                    - generic [ref=e1315]: 𝐥
+                                    - generic [ref=e1316]: 𝐛
+                                  - generic [ref=e1317]:
+                                    - generic [ref=e1318]: 𝐟
+                                    - generic [ref=e1319]: 𝐛
+                                  - text: −
+                                  - generic [ref=e1320]:
+                                    - generic [ref=e1321]: 𝐂
+                                    - generic [ref=e1322]: 𝐥
+                                    - generic [ref=e1323]: 𝐛
+                                  - generic [ref=e1324]:
+                                    - generic [ref=e1325]:
+                                      - generic [ref=e1326]: ⎡
+                                      - generic [ref=e1327]: ⎣
+                                      - generic [ref=e1328]: ⎢
+                                      - generic [ref=e1329]: ⎢
+                                      - generic [ref=e1330]: ⎢
+                                    - generic [ref=e1332]:
+                                      - generic [ref=e1335]: "0"
+                                      - generic [ref=e1338]: "0"
+                                      - generic [ref=e1342]:
+                                        - generic [ref=e1343]: 𝐹
+                                        - generic [ref=e1345]:
+                                          - generic [ref=e1346]: 𝑇
+                                          - text: ",𝑧"
+                                    - generic [ref=e1348]:
+                                      - generic [ref=e1349]: ⎤
+                                      - generic [ref=e1350]: ⎦
+                                      - generic [ref=e1351]: ⎥
+                                      - generic [ref=e1352]: ⎥
+                                      - generic [ref=e1353]: ⎥
+                                - math [ref=e1354]:
+                                  - generic [ref=e1356]:
+                                    - generic [ref=e1358]:
+                                      - generic [ref=e1361]:
+                                        - generic [ref=e1362]: F
+                                        - generic [ref=e1363]:
+                                          - generic [ref=e1364]: D
+                                          - generic [ref=e1365]: ","
+                                          - generic [ref=e1366]: "n"
+                                      - generic [ref=e1369]:
+                                        - generic [ref=e1370]: F
+                                        - generic [ref=e1371]:
+                                          - generic [ref=e1372]: D
+                                          - generic [ref=e1373]: ","
+                                          - generic [ref=e1374]: e
+                                      - generic [ref=e1377]: "0"
+                                    - generic [ref=e1378]: =
+                                    - generic [ref=e1379]: m
+                                    - generic [ref=e1380]:
+                                      - generic [ref=e1381]: C
+                                      - generic [ref=e1382]: b
+                                      - generic [ref=e1383]: l
+                                    - generic [ref=e1384]:
+                                      - generic [ref=e1385]: f
+                                      - generic [ref=e1386]: b
+                                    - generic [ref=e1387]: −
+                                    - generic [ref=e1388]:
+                                      - generic [ref=e1389]: C
+                                      - generic [ref=e1390]: b
+                                      - generic [ref=e1391]: l
+                                    - generic [ref=e1393]:
+                                      - generic [ref=e1396]: "0"
+                                      - generic [ref=e1399]: "0"
+                                      - generic [ref=e1402]:
+                                        - generic [ref=e1403]: F
+                                        - generic [ref=e1404]:
+                                          - generic [ref=e1405]: T
+                                          - generic [ref=e1406]: ","
+                                          - generic [ref=e1407]: z
+                              - generic [ref=e1409]: (6)
+                            - text: and grouping all three unknowns (
+                            - generic [ref=e1410]:
+                              - generic [ref=e1416]:
+                                - generic [ref=e1417]: 𝐹
+                                - generic [ref=e1419]: 𝐷,𝑛
+                              - math [ref=e1420]:
+                                - generic [ref=e1422]:
+                                  - generic [ref=e1423]: F
+                                  - generic [ref=e1424]:
+                                    - generic [ref=e1425]: D
+                                    - generic [ref=e1426]: ","
+                                    - generic [ref=e1427]: "n"
+                            - text: ","
+                            - generic [ref=e1428]:
+                              - generic [ref=e1434]:
+                                - generic [ref=e1435]: 𝐹
+                                - generic [ref=e1437]: 𝐷,𝑒
+                              - math [ref=e1438]:
+                                - generic [ref=e1440]:
+                                  - generic [ref=e1441]: F
+                                  - generic [ref=e1442]:
+                                    - generic [ref=e1443]: D
+                                    - generic [ref=e1444]: ","
+                                    - generic [ref=e1445]: e
+                            - text: and
+                            - generic [ref=e1446]:
+                              - generic [ref=e1452]:
+                                - generic [ref=e1453]: 𝐹
+                                - generic [ref=e1455]:
+                                  - generic [ref=e1456]: 𝑇
+                                  - text: ",𝑧"
+                              - math [ref=e1458]:
+                                - generic [ref=e1460]:
+                                  - generic [ref=e1461]: F
+                                  - generic [ref=e1462]:
+                                    - generic [ref=e1463]: T
+                                    - generic [ref=e1464]: ","
+                                    - generic [ref=e1465]: z
+                            - text: ) in a vector
+                            - generic [ref=e1466]:
+                              - generic [ref=e1471]: 𝐱
+                              - math [ref=e1472]:
+                                - generic [ref=e1474]: x
+                            - text: ", ("
+                            - link "6" [ref=e1475] [cursor=pointer]:
+                              - /url: "#FD6-atmosphere-13-00551"
+                            - text: ") can be rearranged as:"
+                            - generic [ref=e1476]:
+                              - generic [ref=e1479]:
+                                - generic [ref=e1485]:
+                                  - generic [ref=e1486]:
+                                    - generic [ref=e1487]:
+                                      - generic [ref=e1488]: ⎡
+                                      - generic [ref=e1489]: ⎣
+                                      - generic [ref=e1490]: ⎢
+                                      - generic [ref=e1491]: ⎢
+                                      - generic [ref=e1492]: ⎢
+                                    - generic [ref=e1494]:
+                                      - generic [ref=e1498]:
+                                        - generic [ref=e1499]: 𝐹
+                                        - generic [ref=e1501]: 𝐷,𝑛
+                                      - generic [ref=e1505]:
+                                        - generic [ref=e1506]: 𝐹
+                                        - generic [ref=e1508]: 𝐷,𝑒
+                                      - generic [ref=e1512]:
+                                        - generic [ref=e1513]: 𝐹
+                                        - generic [ref=e1515]:
+                                          - generic [ref=e1516]: 𝑇
+                                          - text: ",𝑧"
+                                    - generic [ref=e1518]:
+                                      - generic [ref=e1519]: ⎤
+                                      - generic [ref=e1520]: ⎦
+                                      - generic [ref=e1521]: ⎥
+                                      - generic [ref=e1522]: ⎥
+                                      - generic [ref=e1523]: ⎥
+                                  - text: =𝐱=
+                                  - generic [ref=e1524]:
+                                    - generic [ref=e1525]: 𝐀
+                                    - generic [ref=e1527]: −1
+                                  - text: 𝐛
+                                - math [ref=e1528]:
+                                  - generic [ref=e1530]:
+                                    - generic [ref=e1532]:
+                                      - generic [ref=e1535]:
+                                        - generic [ref=e1536]: F
+                                        - generic [ref=e1537]:
+                                          - generic [ref=e1538]: D
+                                          - generic [ref=e1539]: ","
+                                          - generic [ref=e1540]: "n"
+                                      - generic [ref=e1543]:
+                                        - generic [ref=e1544]: F
+                                        - generic [ref=e1545]:
+                                          - generic [ref=e1546]: D
+                                          - generic [ref=e1547]: ","
+                                          - generic [ref=e1548]: e
+                                      - generic [ref=e1551]:
+                                        - generic [ref=e1552]: F
+                                        - generic [ref=e1553]:
+                                          - generic [ref=e1554]: T
+                                          - generic [ref=e1555]: ","
+                                          - generic [ref=e1556]: z
+                                    - generic [ref=e1557]: =
+                                    - generic [ref=e1558]: x
+                                    - generic [ref=e1559]: =
+                                    - generic [ref=e1560]:
+                                      - generic [ref=e1561]: A
+                                      - generic [ref=e1562]:
+                                        - generic [ref=e1563]: −
+                                        - generic [ref=e1564]: "1"
+                                    - generic [ref=e1565]: b
+                              - generic [ref=e1567]: (7)
+                            - text: with
+                            - generic [ref=e1568]:
+                              - generic [ref=e1573]: 𝐀
+                              - math [ref=e1574]:
+                                - generic [ref=e1576]: A
+                            - text: "given by:"
+                            - generic [ref=e1577]:
+                              - generic [ref=e1580]:
+                                - generic [ref=e1586]:
+                                  - text: 𝐀=
+                                  - generic [ref=e1587]:
+                                    - generic [ref=e1588]:
+                                      - generic [ref=e1589]: ⎡
+                                      - generic [ref=e1590]: ⎣
+                                      - generic [ref=e1591]: ⎢
+                                      - generic [ref=e1592]: ⎢
+                                      - generic [ref=e1593]: ⎢
+                                    - generic [ref=e1594]:
+                                      - generic [ref=e1595]:
+                                        - generic [ref=e1598]: "1"
+                                        - generic [ref=e1601]: "0"
+                                        - generic [ref=e1604]: "0"
+                                      - generic [ref=e1605]:
+                                        - generic [ref=e1608]: "0"
+                                        - generic [ref=e1611]: "1"
+                                        - generic [ref=e1614]: "0"
+                                      - generic [ref=e1615]:
+                                        - generic [ref=e1619]:
+                                          - generic [ref=e1620]:
+                                            - generic [ref=e1621]: 𝐶
+                                            - generic [ref=e1622]: 𝑙
+                                            - generic [ref=e1623]: 𝑏
+                                          - generic [ref=e1624]:
+                                            - generic [ref=e1625]: (
+                                            - text: 1,3
+                                            - generic [ref=e1626]: )
+                                        - generic [ref=e1630]:
+                                          - generic [ref=e1631]:
+                                            - generic [ref=e1632]: 𝐶
+                                            - generic [ref=e1633]: 𝑙
+                                            - generic [ref=e1634]: 𝑏
+                                          - generic [ref=e1635]:
+                                            - generic [ref=e1636]: (
+                                            - text: 2,3
+                                            - generic [ref=e1637]: )
+                                        - generic [ref=e1641]:
+                                          - generic [ref=e1642]:
+                                            - generic [ref=e1643]: 𝐶
+                                            - generic [ref=e1644]: 𝑙
+                                            - generic [ref=e1645]: 𝑏
+                                          - generic [ref=e1646]:
+                                            - generic [ref=e1647]: (
+                                            - text: 3,3
+                                            - generic [ref=e1648]: )
+                                    - generic [ref=e1649]:
+                                      - generic [ref=e1650]: ⎤
+                                      - generic [ref=e1651]: ⎦
+                                      - generic [ref=e1652]: ⎥
+                                      - generic [ref=e1653]: ⎥
+                                      - generic [ref=e1654]: ⎥
+                                - math [ref=e1655]:
+                                  - generic [ref=e1657]:
+                                    - generic [ref=e1658]: A
+                                    - generic [ref=e1659]: =
+                                    - generic [ref=e1661]:
+                                      - generic [ref=e1662]:
+                                        - generic [ref=e1664]: "1"
+                                        - generic [ref=e1666]: "0"
+                                        - generic [ref=e1668]:
+                                          - generic [ref=e1669]:
+                                            - generic [ref=e1670]: C
+                                            - generic [ref=e1671]: b
+                                            - generic [ref=e1672]: l
+                                          - generic [ref=e1673]:
+                                            - generic [ref=e1674]: (
+                                            - generic [ref=e1675]: "1"
+                                            - generic [ref=e1676]: ","
+                                            - generic [ref=e1677]: "3"
+                                            - generic [ref=e1678]: )
+                                      - generic [ref=e1679]:
+                                        - generic [ref=e1681]: "0"
+                                        - generic [ref=e1683]: "1"
+                                        - generic [ref=e1685]:
+                                          - generic [ref=e1686]:
+                                            - generic [ref=e1687]: C
+                                            - generic [ref=e1688]: b
+                                            - generic [ref=e1689]: l
+                                          - generic [ref=e1690]:
+                                            - generic [ref=e1691]: (
+                                            - generic [ref=e1692]: "2"
+                                            - generic [ref=e1693]: ","
+                                            - generic [ref=e1694]: "3"
+                                            - generic [ref=e1695]: )
+                                      - generic [ref=e1696]:
+                                        - generic [ref=e1698]: "0"
+                                        - generic [ref=e1700]: "0"
+                                        - generic [ref=e1702]:
+                                          - generic [ref=e1703]:
+                                            - generic [ref=e1704]: C
+                                            - generic [ref=e1705]: b
+                                            - generic [ref=e1706]: l
+                                          - generic [ref=e1707]:
+                                            - generic [ref=e1708]: (
+                                            - generic [ref=e1709]: "3"
+                                            - generic [ref=e1710]: ","
+                                            - generic [ref=e1711]: "3"
+                                            - generic [ref=e1712]: )
+                              - generic [ref=e1714]: (8)
+                            - text: and
+                            - generic [ref=e1715]:
+                              - generic [ref=e1720]: 𝐛
+                              - math [ref=e1721]:
+                                - generic [ref=e1723]: b
+                            - text: "given by:"
+                            - generic [ref=e1724]:
+                              - generic [ref=e1727]:
+                                - generic [ref=e1733]:
+                                  - text: 𝐛=𝑚
+                                  - generic [ref=e1734]:
+                                    - generic [ref=e1735]: 𝐂
+                                    - generic [ref=e1736]: 𝐥
+                                    - generic [ref=e1737]: 𝐛
+                                  - generic [ref=e1738]:
+                                    - generic [ref=e1739]: 𝐟
+                                    - generic [ref=e1740]: 𝐛
+                                - math [ref=e1741]:
+                                  - generic [ref=e1743]:
+                                    - generic [ref=e1744]: b
+                                    - generic [ref=e1745]: =
+                                    - generic [ref=e1746]: m
+                                    - generic [ref=e1747]:
+                                      - generic [ref=e1748]: C
+                                      - generic [ref=e1749]: b
+                                      - generic [ref=e1750]: l
+                                    - generic [ref=e1751]:
+                                      - generic [ref=e1752]: f
+                                      - generic [ref=e1753]: b
+                              - generic [ref=e1755]: (9)
+                            - text: where
+                            - generic [ref=e1756]:
+                              - generic [ref=e1762]:
+                                - generic [ref=e1763]: 𝐀
+                                - generic [ref=e1765]: −1
+                              - math [ref=e1766]:
+                                - generic [ref=e1768]:
+                                  - generic [ref=e1769]: A
+                                  - generic [ref=e1770]:
+                                    - generic [ref=e1771]: −
+                                    - generic [ref=e1772]: "1"
+                            - text: indicates the inverse matrix of
+                            - generic [ref=e1773]:
+                              - generic [ref=e1778]: 𝐀
+                              - math [ref=e1779]:
+                                - generic [ref=e1781]: A
+                            - text: and
+                            - generic [ref=e1782]:
+                              - generic [ref=e1788]:
+                                - generic [ref=e1789]:
+                                  - generic [ref=e1790]: 𝐶
+                                  - generic [ref=e1791]: 𝑙
+                                  - generic [ref=e1792]: 𝑏
+                                - generic [ref=e1793]:
+                                  - generic [ref=e1794]: (
+                                  - text: 𝑖,𝑗
+                                  - generic [ref=e1795]: )
+                              - math [ref=e1796]:
+                                - generic [ref=e1798]:
+                                  - generic [ref=e1799]:
+                                    - generic [ref=e1800]: C
+                                    - generic [ref=e1801]: b
+                                    - generic [ref=e1802]: l
+                                  - generic [ref=e1803]:
+                                    - generic [ref=e1804]: (
+                                    - generic [ref=e1805]: i
+                                    - generic [ref=e1806]: ","
+                                    - generic [ref=e1807]: j
+                                    - generic [ref=e1808]: )
+                            - text: designates the component on the ith line and jth column of the
+                            - generic [ref=e1809]:
+                              - generic [ref=e1815]:
+                                - generic [ref=e1816]: 𝐶
+                                - generic [ref=e1817]: 𝑙
+                                - generic [ref=e1818]: 𝑏
+                              - math [ref=e1819]:
+                                - generic [ref=e1821]:
+                                  - generic [ref=e1822]: C
+                                  - generic [ref=e1823]: b
+                                  - generic [ref=e1824]: l
+                            - text: matrix.
+                        - generic [ref=e1825]:
+                          - heading "2.3.4. Thrust" [level=4] [ref=e1826]
+                          - generic [ref=e1827]:
+                            - text: A simple thrust model in the body frame is commonly described by [
+                            - link "27" [ref=e1828] [cursor=pointer]:
+                              - /url: "#B27-atmosphere-13-00551"
+                            - text: "]:"
+                            - generic [ref=e1829]:
+                              - generic [ref=e1832]:
+                                - generic [ref=e1843]:
+                                  - generic [ref=e1844]:
+                                    - generic [ref=e1845]: 𝐹
+                                    - generic [ref=e1846]: 𝑏
+                                    - generic [ref=e1848]: 𝑇
+                                  - text: =
+                                  - generic [ref=e1850]:
+                                    - generic [ref=e1851]:
+                                      - generic [ref=e1852]: ⎡
+                                      - generic [ref=e1853]: ⎣
+                                      - generic [ref=e1854]: ⎢
+                                      - generic [ref=e1855]: ⎢
+                                      - generic [ref=e1856]: ⎢
+                                    - generic [ref=e1858]:
+                                      - generic [ref=e1861]: "0"
+                                      - generic [ref=e1864]: "0"
+                                      - generic [ref=e1868]:
+                                        - text: −𝜌𝑏
+                                        - generic [ref=e1869]: (
+                                        - generic [ref=e1870]:
+                                          - generic [ref=e1873]:
+                                            - generic [ref=e1874]: 𝜂
+                                            - generic [ref=e1876]: 𝑅𝐹
+                                          - generic [ref=e1877]: "2"
+                                        - text: +
+                                        - generic [ref=e1878]:
+                                          - generic [ref=e1881]:
+                                            - generic [ref=e1882]: 𝜂
+                                            - generic [ref=e1884]: 𝐿𝐹
+                                          - generic [ref=e1885]: "2"
+                                        - text: +
+                                        - generic [ref=e1886]:
+                                          - generic [ref=e1889]:
+                                            - generic [ref=e1890]: 𝜂
+                                            - generic [ref=e1892]: 𝐿𝐵
+                                          - generic [ref=e1893]: "2"
+                                        - text: +
+                                        - generic [ref=e1894]:
+                                          - generic [ref=e1897]:
+                                            - generic [ref=e1898]: 𝜂
+                                            - generic [ref=e1900]: 𝑅𝐵
+                                          - generic [ref=e1901]: "2"
+                                        - generic [ref=e1902]: )
+                                    - generic [ref=e1903]:
+                                      - generic [ref=e1904]: ⎤
+                                      - generic [ref=e1905]: ⎦
+                                      - generic [ref=e1906]: ⎥
+                                      - generic [ref=e1907]: ⎥
+                                      - generic [ref=e1908]: ⎥
+                                - math [ref=e1909]:
+                                  - generic [ref=e1914]:
+                                    - generic [ref=e1915]:
+                                      - generic [ref=e1916]: F
+                                      - generic [ref=e1917]: T
+                                      - generic [ref=e1918]: b
+                                    - generic [ref=e1919]: =
+                                    - generic [ref=e1921]:
+                                      - generic [ref=e1924]: "0"
+                                      - generic [ref=e1927]: "0"
+                                      - generic [ref=e1930]:
+                                        - generic [ref=e1931]: −
+                                        - generic [ref=e1932]: ρ
+                                        - generic [ref=e1933]: b
+                                        - generic [ref=e1934]: (
+                                        - generic [ref=e1935]:
+                                          - generic [ref=e1937]:
+                                            - generic [ref=e1938]: η
+                                            - generic [ref=e1939]:
+                                              - generic [ref=e1940]: R
+                                              - generic [ref=e1941]: F
+                                          - generic [ref=e1942]: "2"
+                                        - generic [ref=e1943]: +
+                                        - generic [ref=e1944]:
+                                          - generic [ref=e1946]:
+                                            - generic [ref=e1947]: η
+                                            - generic [ref=e1948]:
+                                              - generic [ref=e1949]: L
+                                              - generic [ref=e1950]: F
+                                          - generic [ref=e1951]: "2"
+                                        - generic [ref=e1952]: +
+                                        - generic [ref=e1953]:
+                                          - generic [ref=e1955]:
+                                            - generic [ref=e1956]: η
+                                            - generic [ref=e1957]:
+                                              - generic [ref=e1958]: L
+                                              - generic [ref=e1959]: B
+                                          - generic [ref=e1960]: "2"
+                                        - generic [ref=e1961]: +
+                                        - generic [ref=e1962]:
+                                          - generic [ref=e1964]:
+                                            - generic [ref=e1965]: η
+                                            - generic [ref=e1966]:
+                                              - generic [ref=e1967]: R
+                                              - generic [ref=e1968]: B
+                                          - generic [ref=e1969]: "2"
+                                        - generic [ref=e1970]: )
+                              - generic [ref=e1972]: (10)
+                            - text: where
+                            - generic [ref=e1973]:
+                              - generic [ref=e1978]: 𝜌
+                              - math [ref=e1979]:
+                                - generic [ref=e1981]: ρ
+                            - text: is the air density, b is the thrust constant of a single motor, and
+                            - generic [ref=e1982]:
+                              - generic [ref=e1988]:
+                                - generic [ref=e1989]: 𝜂
+                                - generic [ref=e1990]: 𝑖
+                              - math [ref=e1991]:
+                                - generic [ref=e1993]:
+                                  - generic [ref=e1994]: η
+                                  - generic [ref=e1995]: i
+                            - text: is the rotation rate of the i-th motor. In the case of the considered UAV, the motor thrust constant can be inferred from data produced in [
+                            - link "28" [ref=e1996] [cursor=pointer]:
+                              - /url: "#B28-atmosphere-13-00551"
+                            - text: "]. (The thrust constant could also be measured by observing a hovering flight with no wind, since, in this situation, thrust corresponds to weight. However, outdoor flights usually are impacted by some wind and indoor flights prevent the use of Global Navigation Satellite Systems (GNSS) which is useful for the control of hovering.) These data contain total force measurements at a given rotor speed"
+                            - generic [ref=e1997]:
+                              - generic [ref=e2003]:
+                                - generic [ref=e2004]: 𝜂
+                                - generic [ref=e2006]:
+                                  - generic [ref=e2007]: 
+                                  - generic [ref=e2008]: 
+                                  - generic [ref=e2009]: 
+                                  - generic [ref=e2010]: 
+                                  - generic [ref=e2011]: 
+                              - math [ref=e2012]:
+                                - generic [ref=e2014]:
+                                  - generic [ref=e2015]: η
+                                  - generic [ref=e2016]: ¯
+                            - text: "(same for all four rotors) for a DJI Phantom 3 drone. In this case, the model can be expressed as follows:"
+                            - generic [ref=e2017]:
+                              - generic [ref=e2020]:
+                                - generic [ref=e2031]:
+                                  - generic [ref=e2032]:
+                                    - generic [ref=e2033]: 𝐹
+                                    - generic [ref=e2034]: 𝑏
+                                    - generic [ref=e2036]: 𝑇
+                                  - text: =
+                                  - generic [ref=e2038]:
+                                    - generic [ref=e2039]:
+                                      - generic [ref=e2040]: ⎡
+                                      - generic [ref=e2041]: ⎣
+                                      - generic [ref=e2042]: ⎢
+                                      - generic [ref=e2043]: ⎢
+                                      - generic [ref=e2044]: ⎢
+                                    - generic [ref=e2046]:
+                                      - generic [ref=e2049]: "0"
+                                      - generic [ref=e2052]: "0"
+                                      - generic [ref=e2056]:
+                                        - text: −𝜌
+                                        - generic [ref=e2057]:
+                                          - generic [ref=e2058]: 𝑏
+                                          - generic [ref=e2060]: ̲
+                                        - generic [ref=e2061]:
+                                          - generic [ref=e2063]:
+                                            - generic [ref=e2064]: 𝜂
+                                            - generic [ref=e2066]:
+                                              - generic [ref=e2067]: 
+                                              - generic [ref=e2068]: 
+                                              - generic [ref=e2069]: 
+                                              - generic [ref=e2070]: 
+                                              - generic [ref=e2071]: 
+                                          - generic [ref=e2072]: "2"
+                                    - generic [ref=e2073]:
+                                      - generic [ref=e2074]: ⎤
+                                      - generic [ref=e2075]: ⎦
+                                      - generic [ref=e2076]: ⎥
+                                      - generic [ref=e2077]: ⎥
+                                      - generic [ref=e2078]: ⎥
+                                - math [ref=e2079]:
+                                  - generic [ref=e2084]:
+                                    - generic [ref=e2085]:
+                                      - generic [ref=e2086]: F
+                                      - generic [ref=e2087]: T
+                                      - generic [ref=e2088]: b
+                                    - generic [ref=e2089]: =
+                                    - generic [ref=e2091]:
+                                      - generic [ref=e2094]: "0"
+                                      - generic [ref=e2097]: "0"
+                                      - generic [ref=e2100]:
+                                        - generic [ref=e2101]: −
+                                        - generic [ref=e2102]: ρ
+                                        - generic [ref=e2103]:
+                                          - generic [ref=e2104]: b
+                                          - generic [ref=e2105]: ¯
+                                        - generic [ref=e2106]:
+                                          - generic [ref=e2107]:
+                                            - generic [ref=e2108]: η
+                                            - generic [ref=e2109]: ¯
+                                          - generic [ref=e2110]: "2"
+                              - generic [ref=e2112]: (11)
+                            - text: where
+                            - generic [ref=e2113]:
+                              - generic [ref=e2119]:
+                                - generic [ref=e2120]:
+                                  - generic [ref=e2121]: 𝑏
+                                  - generic [ref=e2123]: ̲
+                                - text: =4𝑏
+                              - math [ref=e2124]:
+                                - generic [ref=e2126]:
+                                  - generic [ref=e2127]:
+                                    - generic [ref=e2128]: b
+                                    - generic [ref=e2129]: ¯
+                                  - generic [ref=e2130]: =
+                                  - generic [ref=e2131]: "4"
+                                  - generic [ref=e2132]: b
+                            - text: is the total thrust constant (since there are four identical motors) and thus
+                            - generic [ref=e2133]:
+                              - generic [ref=e2136]:
+                                - generic [ref=e2147]:
+                                  - generic [ref=e2148]:
+                                    - generic [ref=e2149]: 𝜂
+                                    - generic [ref=e2151]:
+                                      - generic [ref=e2152]: 
+                                      - generic [ref=e2153]: 
+                                      - generic [ref=e2154]: 
+                                      - generic [ref=e2155]: 
+                                      - generic [ref=e2156]: 
+                                  - text: =
+                                  - generic [ref=e2157]:
+                                    - generic [ref=e2158]: "1"
+                                    - generic [ref=e2159]: "2"
+                                  - generic [ref=e2162]:
+                                    - generic [ref=e2165]:
+                                      - generic [ref=e2166]:
+                                        - generic [ref=e2169]:
+                                          - generic [ref=e2170]: 𝜂
+                                          - generic [ref=e2172]: 𝑅𝐹
+                                        - generic [ref=e2173]: "2"
+                                      - text: +
+                                      - generic [ref=e2174]:
+                                        - generic [ref=e2177]:
+                                          - generic [ref=e2178]: 𝜂
+                                          - generic [ref=e2180]: 𝐿𝐹
+                                        - generic [ref=e2181]: "2"
+                                      - text: +
+                                      - generic [ref=e2182]:
+                                        - generic [ref=e2185]:
+                                          - generic [ref=e2186]: 𝜂
+                                          - generic [ref=e2188]: 𝐿𝐵
+                                        - generic [ref=e2189]: "2"
+                                      - text: +
+                                      - generic [ref=e2190]:
+                                        - generic [ref=e2193]:
+                                          - generic [ref=e2194]: 𝜂
+                                          - generic [ref=e2196]: 𝑅𝐵
+                                        - generic [ref=e2197]: "2"
+                                    - generic [ref=e2198]:
+                                      - generic [ref=e2199]: −
+                                      - generic [ref=e2200]: −
+                                      - generic [ref=e2201]: −
+                                      - generic [ref=e2202]: −
+                                      - generic [ref=e2203]: −
+                                      - generic [ref=e2204]: −
+                                      - generic [ref=e2205]: −
+                                      - generic [ref=e2206]: −
+                                      - generic [ref=e2207]: −
+                                      - generic [ref=e2208]: −
+                                      - generic [ref=e2209]: −
+                                      - generic [ref=e2210]: −
+                                      - generic [ref=e2211]: −
+                                      - generic [ref=e2212]: −
+                                      - generic [ref=e2213]: −
+                                      - generic [ref=e2214]: −
+                                      - generic [ref=e2215]: −
+                                      - generic [ref=e2216]: −
+                                      - generic [ref=e2217]: −
+                                      - generic [ref=e2218]: −
+                                      - generic [ref=e2219]: −
+                                    - generic [ref=e2220]: √
+                                - math [ref=e2221]:
+                                  - generic [ref=e2226]:
+                                    - generic [ref=e2227]:
+                                      - generic [ref=e2228]: η
+                                      - generic [ref=e2229]: ¯
+                                    - generic [ref=e2230]: =
+                                    - generic [ref=e2231]:
+                                      - generic [ref=e2232]: "1"
+                                      - generic [ref=e2233]: "2"
+                                    - generic [ref=e2235]:
+                                      - generic [ref=e2236]:
+                                        - generic [ref=e2238]:
+                                          - generic [ref=e2239]: η
+                                          - generic [ref=e2240]:
+                                            - generic [ref=e2241]: R
+                                            - generic [ref=e2242]: F
+                                        - generic [ref=e2243]: "2"
+                                      - generic [ref=e2244]: +
+                                      - generic [ref=e2245]:
+                                        - generic [ref=e2247]:
+                                          - generic [ref=e2248]: η
+                                          - generic [ref=e2249]:
+                                            - generic [ref=e2250]: L
+                                            - generic [ref=e2251]: F
+                                        - generic [ref=e2252]: "2"
+                                      - generic [ref=e2253]: +
+                                      - generic [ref=e2254]:
+                                        - generic [ref=e2256]:
+                                          - generic [ref=e2257]: η
+                                          - generic [ref=e2258]:
+                                            - generic [ref=e2259]: L
+                                            - generic [ref=e2260]: B
+                                        - generic [ref=e2261]: "2"
+                                      - generic [ref=e2262]: +
+                                      - generic [ref=e2263]:
+                                        - generic [ref=e2265]:
+                                          - generic [ref=e2266]: η
+                                          - generic [ref=e2267]:
+                                            - generic [ref=e2268]: R
+                                            - generic [ref=e2269]: B
+                                        - generic [ref=e2270]: "2"
+                              - generic [ref=e2272]: (12)
+                            - text: is the overall rotor speed (this relation can be found by equaling (
+                            - link "10" [ref=e2273] [cursor=pointer]:
+                              - /url: "#FD10-atmosphere-13-00551"
+                            - text: ) and (
+                            - link "11" [ref=e2274] [cursor=pointer]:
+                              - /url: "#FD11-atmosphere-13-00551"
+                            - text: ) and using the fact that
+                            - generic [ref=e2275]:
+                              - generic [ref=e2281]:
+                                - generic [ref=e2282]:
+                                  - generic [ref=e2283]: 𝑏
+                                  - generic [ref=e2285]: ̲
+                                - text: =4𝑏
+                              - math [ref=e2286]:
+                                - generic [ref=e2288]:
+                                  - generic [ref=e2289]:
+                                    - generic [ref=e2290]: b
+                                    - generic [ref=e2291]: ¯
+                                  - generic [ref=e2292]: =
+                                  - generic [ref=e2293]: "4"
+                                  - generic [ref=e2294]: b
+                            - text: ).
+                        - generic [ref=e2295]:
+                          - heading "2.3.5. Quadratic Drag Model" [level=4] [ref=e2296]
+                          - generic [ref=e2297]:
+                            - text: The drag model describes a relation between the force
+                            - generic [ref=e2298]:
+                              - generic [ref=e2304]:
+                                - generic [ref=e2305]: 𝐅
+                                - generic [ref=e2306]: 𝐃
+                              - math [ref=e2307]:
+                                - generic [ref=e2309]:
+                                  - generic [ref=e2310]: F
+                                  - generic [ref=e2311]: D
+                            - text: and air speed
+                            - generic [ref=e2312]:
+                              - generic [ref=e2317]: 𝐕
+                              - math [ref=e2318]:
+                                - generic [ref=e2320]: V
+                            - text: . Along the airflow axis, the magnitude of drag can be expressed using the classic Raleigh drag equation [
+                            - link "14" [ref=e2321] [cursor=pointer]:
+                              - /url: "#B14-atmosphere-13-00551"
+                            - text: "]:"
+                            - generic [ref=e2322]:
+                              - generic [ref=e2325]:
+                                - generic [ref=e2336]:
+                                  - generic [ref=e2337]:
+                                    - generic [ref=e2338]: 𝐹
+                                    - generic [ref=e2339]: 𝐷
+                                  - text: =𝜌
+                                  - generic [ref=e2340]: 𝐾
+                                  - generic [ref=e2342]:
+                                    - generic [ref=e2343]: (
+                                    - generic [ref=e2344]: 𝛾
+                                    - text: ","
+                                    - generic [ref=e2346]:
+                                      - generic [ref=e2347]: 𝜂
+                                      - generic [ref=e2349]:
+                                        - generic [ref=e2350]: 
+                                        - generic [ref=e2351]: 
+                                        - generic [ref=e2352]: 
+                                        - generic [ref=e2353]: 
+                                        - generic [ref=e2354]: 
+                                    - generic [ref=e2355]: )
+                                  - generic [ref=e2356]:
+                                    - generic [ref=e2359]: 𝑉
+                                    - generic [ref=e2361]: "2"
+                                - math [ref=e2362]:
+                                  - generic [ref=e2367]:
+                                    - generic [ref=e2368]:
+                                      - generic [ref=e2369]: F
+                                      - generic [ref=e2370]: D
+                                    - generic [ref=e2371]: =
+                                    - generic [ref=e2372]: ρ
+                                    - generic [ref=e2373]: K
+                                    - generic [ref=e2374]:
+                                      - generic [ref=e2375]: (
+                                      - generic [ref=e2376]: γ
+                                      - generic [ref=e2377]: ","
+                                      - generic [ref=e2378]:
+                                        - generic [ref=e2379]: η
+                                        - generic [ref=e2380]: ¯
+                                      - generic [ref=e2381]: )
+                                    - generic [ref=e2382]:
+                                      - generic [ref=e2384]: V
+                                      - generic [ref=e2385]: "2"
+                              - generic [ref=e2387]: (13)
+                            - text: where
+                            - generic [ref=e2388]:
+                              - generic [ref=e2393]: 𝜌
+                              - math [ref=e2394]:
+                                - generic [ref=e2396]: ρ
+                            - text: is the air density, K is the drag coefficient which is dependent on the incidence angle
+                            - generic [ref=e2397]:
+                              - generic [ref=e2403]: 𝛾
+                              - math [ref=e2405]:
+                                - generic [ref=e2407]: γ
+                            - text: (this assumes that the drone has a cylindrical symmetry, i.e., air flowing from the side or from the front has the same effect on the drone) (see
+                            - link "Figure 1" [ref=e2408] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f001"
+                            - text: ), and the overall rotor speed (
+                            - link "12" [ref=e2409] [cursor=pointer]:
+                              - /url: "#FD12-atmosphere-13-00551"
+                            - text: ), and finally V is the airflow magnitude. The air speed V is the quantity of interest. All other quantities are known, except for K which is determined by leveraging that data from [
+                            - link "28" [ref=e2410] [cursor=pointer]:
+                              - /url: "#B28-atmosphere-13-00551"
+                            - text: "]. Selecting an experimental run in ["
+                            - link "28" [ref=e2411] [cursor=pointer]:
+                              - /url: "#B28-atmosphere-13-00551"
+                            - text: "] with the same incidence angle and overall rotor speed, one can write:"
+                            - generic [ref=e2412]:
+                              - generic [ref=e2415]:
+                                - generic [ref=e2426]:
+                                  - generic [ref=e2427]:
+                                    - generic [ref=e2428]: 𝐹
+                                    - generic [ref=e2429]: ′
+                                    - generic [ref=e2431]: 𝐷
+                                  - text: =
+                                  - generic [ref=e2432]:
+                                    - generic [ref=e2433]: 𝜌
+                                    - generic [ref=e2434]: ′
+                                  - generic [ref=e2435]: 𝐾
+                                  - generic [ref=e2437]:
+                                    - generic [ref=e2438]: (
+                                    - generic [ref=e2439]: 𝛾
+                                    - text: ","
+                                    - generic [ref=e2441]:
+                                      - generic [ref=e2442]: 𝜂
+                                      - generic [ref=e2444]:
+                                        - generic [ref=e2445]: 
+                                        - generic [ref=e2446]: 
+                                        - generic [ref=e2447]: 
+                                        - generic [ref=e2448]: 
+                                        - generic [ref=e2449]: 
+                                    - generic [ref=e2450]: )
+                                  - generic [ref=e2451]:
+                                    - generic [ref=e2454]:
+                                      - generic [ref=e2456]: 𝑉
+                                      - generic [ref=e2458]: ′
+                                    - generic [ref=e2459]: "2"
+                                - math [ref=e2460]:
+                                  - generic [ref=e2465]:
+                                    - generic [ref=e2466]:
+                                      - generic [ref=e2467]: F
+                                      - generic [ref=e2469]: D
+                                      - generic [ref=e2470]: ′
+                                    - generic [ref=e2471]: =
+                                    - generic [ref=e2472]:
+                                      - generic [ref=e2473]: ρ
+                                      - generic [ref=e2474]: ′
+                                    - generic [ref=e2475]: K
+                                    - generic [ref=e2476]:
+                                      - generic [ref=e2477]: (
+                                      - generic [ref=e2478]: γ
+                                      - generic [ref=e2479]: ","
+                                      - generic [ref=e2480]:
+                                        - generic [ref=e2481]: η
+                                        - generic [ref=e2482]: ¯
+                                      - generic [ref=e2483]: )
+                                    - generic [ref=e2484]:
+                                      - generic [ref=e2486]:
+                                        - generic [ref=e2487]: V
+                                        - generic [ref=e2488]: ′
+                                      - generic [ref=e2489]: "2"
+                              - generic [ref=e2491]: (14)
+                            - text: where every quantity is known, except for K. The expression of
+                            - generic [ref=e2492]:
+                              - generic [ref=e2498]:
+                                - generic [ref=e2499]: 𝐹
+                                - generic [ref=e2500]: ′
+                                - generic [ref=e2501]: 𝐷
+                              - math [ref=e2502]:
+                                - generic [ref=e2504]:
+                                  - generic [ref=e2505]: F
+                                  - generic [ref=e2506]: D
+                                  - generic [ref=e2507]: ′
+                            - text: from data in [
+                            - link "28" [ref=e2508] [cursor=pointer]:
+                              - /url: "#B28-atmosphere-13-00551"
+                            - text: "] is described in"
+                            - link "Section 2.3.7" [ref=e2509] [cursor=pointer]:
+                              - /url: "#sec2dot3dot7-atmosphere-13-00551"
+                            - text: . V can be obtained by dividing Equation (
+                            - link "13" [ref=e2510] [cursor=pointer]:
+                              - /url: "#FD13-atmosphere-13-00551"
+                            - text: ) by (
+                            - link "14" [ref=e2511] [cursor=pointer]:
+                              - /url: "#FD14-atmosphere-13-00551"
+                            - text: "):"
+                            - generic [ref=e2512]:
+                              - generic [ref=e2515]:
+                                - generic [ref=e2526]:
+                                  - generic [ref=e2527]: 𝑉
+                                  - text: =
+                                  - generic [ref=e2529]:
+                                    - generic [ref=e2532]:
+                                      - generic [ref=e2533]:
+                                        - generic [ref=e2535]: 𝑉
+                                        - generic [ref=e2538]: ′2
+                                      - generic [ref=e2539]:
+                                        - generic [ref=e2541]:
+                                          - generic [ref=e2542]: 𝜌
+                                          - generic [ref=e2543]: ′
+                                        - generic [ref=e2544]: 𝜌
+                                      - generic [ref=e2547]:
+                                        - generic [ref=e2549]:
+                                          - generic [ref=e2550]: 𝐹
+                                          - generic [ref=e2551]: 𝐷
+                                        - generic [ref=e2553]:
+                                          - generic [ref=e2554]: 𝐹
+                                          - generic [ref=e2555]: ′
+                                          - generic [ref=e2556]: 𝐷
+                                    - generic [ref=e2559]:
+                                      - generic [ref=e2560]: −
+                                      - generic [ref=e2561]: −
+                                      - generic [ref=e2562]: −
+                                      - generic [ref=e2563]: −
+                                      - generic [ref=e2564]: −
+                                      - generic [ref=e2565]: −
+                                      - generic [ref=e2566]: −
+                                      - generic [ref=e2567]: −
+                                    - generic [ref=e2568]: √
+                                - math [ref=e2569]:
+                                  - generic [ref=e2574]:
+                                    - generic [ref=e2575]: V
+                                    - generic [ref=e2576]: =
+                                    - generic [ref=e2578]:
+                                      - generic [ref=e2579]:
+                                        - generic [ref=e2580]: V
+                                        - generic [ref=e2581]:
+                                          - generic [ref=e2582]: ′
+                                          - generic [ref=e2583]: "2"
+                                      - generic [ref=e2584]:
+                                        - generic [ref=e2585]:
+                                          - generic [ref=e2586]: ρ
+                                          - generic [ref=e2587]: ′
+                                        - generic [ref=e2588]: ρ
+                                      - generic [ref=e2589]:
+                                        - generic [ref=e2590]:
+                                          - generic [ref=e2591]: F
+                                          - generic [ref=e2592]: D
+                                        - generic [ref=e2593]:
+                                          - generic [ref=e2594]: F
+                                          - generic [ref=e2595]: D
+                                          - generic [ref=e2596]: ′
+                              - generic [ref=e2598]: (15)
+                        - generic [ref=e2599]:
+                          - heading "2.3.6. Linear Drag Model" [level=4] [ref=e2600]
+                          - generic [ref=e2601]:
+                            - text: Alternatively, another empirical drag model is tested where the drag force relates linearly to the air speed. In this case (
+                            - link "13" [ref=e2602] [cursor=pointer]:
+                              - /url: "#FD13-atmosphere-13-00551"
+                            - text: ") becomes:"
+                            - generic [ref=e2603]:
+                              - generic [ref=e2606]:
+                                - generic [ref=e2612]:
+                                  - generic [ref=e2613]:
+                                    - generic [ref=e2614]: 𝐹
+                                    - generic [ref=e2615]: 𝐷
+                                  - text: =𝜌
+                                  - generic [ref=e2616]: 𝐾
+                                  - generic [ref=e2618]:
+                                    - generic [ref=e2619]: (
+                                    - generic [ref=e2620]: 𝛾
+                                    - text: ","
+                                    - generic [ref=e2622]:
+                                      - generic [ref=e2623]: 𝜂
+                                      - generic [ref=e2625]:
+                                        - generic [ref=e2626]: 
+                                        - generic [ref=e2627]: 
+                                        - generic [ref=e2628]: 
+                                        - generic [ref=e2629]: 
+                                        - generic [ref=e2630]: 
+                                    - generic [ref=e2631]: )
+                                  - generic [ref=e2632]: 𝑉
+                                - math [ref=e2634]:
+                                  - generic [ref=e2636]:
+                                    - generic [ref=e2637]:
+                                      - generic [ref=e2638]: F
+                                      - generic [ref=e2639]: D
+                                    - generic [ref=e2640]: =
+                                    - generic [ref=e2641]: ρ
+                                    - generic [ref=e2642]: K
+                                    - generic [ref=e2643]:
+                                      - generic [ref=e2644]: (
+                                      - generic [ref=e2645]: γ
+                                      - generic [ref=e2646]: ","
+                                      - generic [ref=e2647]:
+                                        - generic [ref=e2648]: η
+                                        - generic [ref=e2649]: ¯
+                                      - generic [ref=e2650]: )
+                                    - generic [ref=e2651]: V
+                              - generic [ref=e2653]: (16)
+                          - generic [ref=e2654]:
+                            - text: Thus following the same reasoning as in
+                            - link "Section 2.3.5" [ref=e2655] [cursor=pointer]:
+                              - /url: "#sec2dot3dot5-atmosphere-13-00551"
+                            - text: ", air speed can be expressed as:"
+                            - generic [ref=e2656]:
+                              - generic [ref=e2659]:
+                                - generic [ref=e2670]:
+                                  - generic [ref=e2671]: 𝑉
+                                  - text: =
+                                  - generic [ref=e2673]:
+                                    - generic [ref=e2675]: 𝑉
+                                    - generic [ref=e2677]: ′
+                                  - generic [ref=e2678]:
+                                    - generic [ref=e2680]:
+                                      - generic [ref=e2681]: 𝜌
+                                      - generic [ref=e2682]: ′
+                                    - generic [ref=e2683]: 𝜌
+                                  - generic [ref=e2686]:
+                                    - generic [ref=e2688]:
+                                      - generic [ref=e2689]: 𝐹
+                                      - generic [ref=e2690]: 𝐷
+                                    - generic [ref=e2692]:
+                                      - generic [ref=e2693]: 𝐹
+                                      - generic [ref=e2694]: ′
+                                      - generic [ref=e2695]: 𝐷
+                                - math [ref=e2698]:
+                                  - generic [ref=e2703]:
+                                    - generic [ref=e2704]: V
+                                    - generic [ref=e2705]: =
+                                    - generic [ref=e2706]:
+                                      - generic [ref=e2707]: V
+                                      - generic [ref=e2708]: ′
+                                    - generic [ref=e2709]:
+                                      - generic [ref=e2710]:
+                                        - generic [ref=e2711]: ρ
+                                        - generic [ref=e2712]: ′
+                                      - generic [ref=e2713]: ρ
+                                    - generic [ref=e2714]:
+                                      - generic [ref=e2715]:
+                                        - generic [ref=e2716]: F
+                                        - generic [ref=e2717]: D
+                                      - generic [ref=e2718]:
+                                        - generic [ref=e2719]: F
+                                        - generic [ref=e2720]: D
+                                        - generic [ref=e2721]: ′
+                              - generic [ref=e2723]: (17)
+                        - generic [ref=e2724]:
+                          - heading "2.3.7. Drag from Force Data" [level=4] [ref=e2725]
+                          - generic [ref=e2726]:
+                            - text: In [
+                            - link "28" [ref=e2727] [cursor=pointer]:
+                              - /url: "#B28-atmosphere-13-00551"
+                            - text: "], the drag force was estimated indirectly, via the forces acting on the body that were measured. The detailed derivation of the relation between drag magnitude and measured force is presented in ["
+                            - link "29" [ref=e2728] [cursor=pointer]:
+                              - /url: "#B29-atmosphere-13-00551"
+                            - text: "]. For a given incidence angle"
+                            - generic [ref=e2729]:
+                              - generic [ref=e2735]: 𝛾
+                              - math [ref=e2737]:
+                                - generic [ref=e2739]: γ
+                            - text: and overall rotor speed
+                            - generic [ref=e2740]:
+                              - generic [ref=e2746]:
+                                - generic [ref=e2747]: 𝜂
+                                - generic [ref=e2749]:
+                                  - generic [ref=e2750]: 
+                                  - generic [ref=e2751]: 
+                                  - generic [ref=e2752]: 
+                                  - generic [ref=e2753]: 
+                                  - generic [ref=e2754]: 
+                              - math [ref=e2755]:
+                                - generic [ref=e2757]:
+                                  - generic [ref=e2758]: η
+                                  - generic [ref=e2759]: ¯
+                            - text: ", the final expression is:"
+                            - generic [ref=e2760]:
+                              - generic [ref=e2763]:
+                                - generic [ref=e2769]:
+                                  - generic [ref=e2770]:
+                                    - generic [ref=e2771]: 𝐹
+                                    - generic [ref=e2772]: ′
+                                    - generic [ref=e2773]: 𝐷
+                                  - text: =
+                                  - generic [ref=e2774]:
+                                    - generic [ref=e2775]: 𝐹
+                                    - generic [ref=e2776]: ′
+                                    - generic [ref=e2777]: 𝐷
+                                  - generic [ref=e2778]:
+                                    - generic [ref=e2779]: (
+                                    - generic [ref=e2780]: 𝛾
+                                    - text: ","
+                                    - generic [ref=e2782]:
+                                      - generic [ref=e2783]: 𝜂
+                                      - generic [ref=e2785]:
+                                        - generic [ref=e2786]: 
+                                        - generic [ref=e2787]: 
+                                        - generic [ref=e2788]: 
+                                        - generic [ref=e2789]: 
+                                        - generic [ref=e2790]: 
+                                    - generic [ref=e2791]: )
+                                  - text: =
+                                  - generic [ref=e2792]:
+                                    - generic [ref=e2794]:
+                                      - generic [ref=e2795]: 𝐹
+                                      - generic [ref=e2797]: ̃
+                                    - generic [ref=e2798]: 𝑥
+                                  - text: cos
+                                  - generic [ref=e2799]:
+                                    - generic [ref=e2800]: (
+                                    - generic [ref=e2801]: 𝛾
+                                    - generic [ref=e2803]: )
+                                  - text: −
+                                  - generic [ref=e2804]:
+                                    - generic [ref=e2805]: (
+                                    - generic [ref=e2806]:
+                                      - generic [ref=e2808]:
+                                        - generic [ref=e2809]: 𝐹
+                                        - generic [ref=e2811]: ̃
+                                      - generic [ref=e2812]: 𝑧
+                                    - text: +
+                                    - generic [ref=e2813]:
+                                      - generic [ref=e2814]: 𝐹
+                                      - generic [ref=e2816]:
+                                        - generic [ref=e2817]: 𝑇
+                                        - text: ",𝑧"
+                                    - generic [ref=e2819]:
+                                      - generic [ref=e2820]: (
+                                      - generic [ref=e2821]:
+                                        - generic [ref=e2822]: 𝜂
+                                        - generic [ref=e2824]:
+                                          - generic [ref=e2825]: 
+                                          - generic [ref=e2826]: 
+                                          - generic [ref=e2827]: 
+                                          - generic [ref=e2828]: 
+                                          - generic [ref=e2829]: 
+                                      - generic [ref=e2830]: )
+                                    - generic [ref=e2831]: )
+                                  - text: sin
+                                  - generic [ref=e2832]:
+                                    - generic [ref=e2833]: (
+                                    - generic [ref=e2834]: 𝛾
+                                    - generic [ref=e2836]: )
+                                - math [ref=e2837]:
+                                  - generic [ref=e2839]:
+                                    - generic [ref=e2840]:
+                                      - generic [ref=e2841]: F
+                                      - generic [ref=e2842]: D
+                                      - generic [ref=e2843]: ′
+                                    - generic [ref=e2844]: =
+                                    - generic [ref=e2845]:
+                                      - generic [ref=e2846]: F
+                                      - generic [ref=e2847]: D
+                                      - generic [ref=e2848]: ′
+                                    - generic [ref=e2849]:
+                                      - generic [ref=e2850]: (
+                                      - generic [ref=e2851]: γ
+                                      - generic [ref=e2852]: ","
+                                      - generic [ref=e2853]:
+                                        - generic [ref=e2854]: η
+                                        - generic [ref=e2855]: ¯
+                                      - generic [ref=e2856]: )
+                                    - generic [ref=e2857]: =
+                                    - generic [ref=e2858]:
+                                      - generic [ref=e2859]:
+                                        - generic [ref=e2860]: F
+                                        - generic [ref=e2861]: ˜
+                                      - generic [ref=e2862]: x
+                                    - generic [ref=e2863]: cos
+                                    - generic [ref=e2864]:
+                                      - generic [ref=e2865]: (
+                                      - generic [ref=e2866]: γ
+                                      - generic [ref=e2867]: )
+                                    - generic [ref=e2868]: −
+                                    - generic [ref=e2869]:
+                                      - generic [ref=e2870]: (
+                                      - generic [ref=e2871]:
+                                        - generic [ref=e2872]:
+                                          - generic [ref=e2873]: F
+                                          - generic [ref=e2874]: ˜
+                                        - generic [ref=e2875]: z
+                                      - generic [ref=e2876]: +
+                                      - generic [ref=e2877]:
+                                        - generic [ref=e2878]: F
+                                        - generic [ref=e2879]:
+                                          - generic [ref=e2880]: T
+                                          - generic [ref=e2881]: ","
+                                          - generic [ref=e2882]: z
+                                      - generic [ref=e2883]:
+                                        - generic [ref=e2884]: (
+                                        - generic [ref=e2885]:
+                                          - generic [ref=e2886]: η
+                                          - generic [ref=e2887]: ¯
+                                        - generic [ref=e2888]: )
+                                      - generic [ref=e2889]: )
+                                    - generic [ref=e2890]: sin
+                                    - generic [ref=e2891]:
+                                      - generic [ref=e2892]: (
+                                      - generic [ref=e2893]: γ
+                                      - generic [ref=e2894]: )
+                              - generic [ref=e2896]: (18)
+                            - text: where
+                            - generic [ref=e2897]:
+                              - generic [ref=e2903]: 𝛾
+                              - math [ref=e2905]:
+                                - generic [ref=e2907]: γ
+                            - text: is the incidence angle,
+                            - generic [ref=e2908]:
+                              - generic [ref=e2914]:
+                                - generic [ref=e2915]:
+                                  - generic [ref=e2917]:
+                                    - generic [ref=e2918]: 𝐅
+                                    - generic [ref=e2920]: ̃
+                                  - generic [ref=e2921]: 𝐛
+                                - text: =
+                                - generic [ref=e2922]:
+                                  - generic [ref=e2924]:
+                                    - generic [ref=e2925]: "["
+                                    - generic [ref=e2926]:
+                                      - generic [ref=e2928]:
+                                        - generic [ref=e2929]: 𝐹
+                                        - generic [ref=e2931]: ̃
+                                      - generic [ref=e2932]: 𝑥
+                                    - text: ","
+                                    - generic [ref=e2933]:
+                                      - generic [ref=e2935]:
+                                        - generic [ref=e2936]: 𝐹
+                                        - generic [ref=e2938]: ̃
+                                      - generic [ref=e2939]: 𝑦
+                                    - text: ","
+                                    - generic [ref=e2940]:
+                                      - generic [ref=e2942]:
+                                        - generic [ref=e2943]: 𝐹
+                                        - generic [ref=e2945]: ̃
+                                      - generic [ref=e2946]: 𝑧
+                                    - generic [ref=e2947]: "]"
+                                  - generic [ref=e2949]: 𝑇
+                              - math [ref=e2951]:
+                                - generic [ref=e2953]:
+                                  - generic [ref=e2954]:
+                                    - generic [ref=e2955]:
+                                      - generic [ref=e2956]: F
+                                      - generic [ref=e2957]: ˜
+                                    - generic [ref=e2958]: b
+                                  - generic [ref=e2959]: =
+                                  - generic [ref=e2960]:
+                                    - generic [ref=e2961]:
+                                      - generic [ref=e2962]: "["
+                                      - generic [ref=e2963]:
+                                        - generic [ref=e2964]:
+                                          - generic [ref=e2965]: F
+                                          - generic [ref=e2966]: ˜
+                                        - generic [ref=e2967]: x
+                                      - generic [ref=e2968]: ","
+                                      - generic [ref=e2969]:
+                                        - generic [ref=e2970]:
+                                          - generic [ref=e2971]: F
+                                          - generic [ref=e2972]: ˜
+                                        - generic [ref=e2973]: "y"
+                                      - generic [ref=e2974]: ","
+                                      - generic [ref=e2975]:
+                                        - generic [ref=e2976]:
+                                          - generic [ref=e2977]: F
+                                          - generic [ref=e2978]: ˜
+                                        - generic [ref=e2979]: z
+                                      - generic [ref=e2980]: "]"
+                                    - generic [ref=e2981]: T
+                            - text: is the measured force acting on the body and
+                            - generic [ref=e2982]:
+                              - generic [ref=e2988]:
+                                - generic [ref=e2989]:
+                                  - generic [ref=e2990]: 𝐅
+                                  - generic [ref=e2991]: 𝐓
+                                - generic [ref=e2992]:
+                                  - generic [ref=e2993]: (
+                                  - generic [ref=e2994]:
+                                    - generic [ref=e2995]: 𝜂
+                                    - generic [ref=e2997]:
+                                      - generic [ref=e2998]: 
+                                      - generic [ref=e2999]: 
+                                      - generic [ref=e3000]: 
+                                      - generic [ref=e3001]: 
+                                      - generic [ref=e3002]: 
+                                  - generic [ref=e3003]: )
+                              - math [ref=e3004]:
+                                - generic [ref=e3006]:
+                                  - generic [ref=e3007]:
+                                    - generic [ref=e3008]: F
+                                    - generic [ref=e3009]: T
+                                  - generic [ref=e3010]:
+                                    - generic [ref=e3011]: (
+                                    - generic [ref=e3012]:
+                                      - generic [ref=e3013]: η
+                                      - generic [ref=e3014]: ¯
+                                    - generic [ref=e3015]: )
+                            - text: is the thrust force which can be estimated as described in
+                            - link "Section 2.3.4" [ref=e3016] [cursor=pointer]:
+                              - /url: "#sec2dot3dot4-atmosphere-13-00551"
+                            - text: .
+                      - generic [ref=e3017]:
+                        - heading "2.4. Statistical Performance Metrics" [level=4] [ref=e3018]
+                        - generic [ref=e3019]:
+                          - heading "2.4.1. Error, Bias, and Standard Deviation" [level=4] [ref=e3020]
+                          - generic [ref=e3021]:
+                            - text: Performance will be defined as the Euclidean distance between the reference (
+                            - generic [ref=e3022]:
+                              - generic [ref=e3027]: 𝐚
+                              - math [ref=e3028]:
+                                - generic [ref=e3030]: a
+                            - text: ) and the estimated quantity (
+                            - generic [ref=e3031]:
+                              - generic [ref=e3037]:
+                                - generic [ref=e3038]: 𝐚
+                                - generic [ref=e3040]: ̂
+                              - math [ref=e3041]:
+                                - generic [ref=e3043]:
+                                  - generic [ref=e3044]: a
+                                  - generic [ref=e3045]: ^
+                            - text: "). However, since wind processes are different vertically and horizontally and since two of the estimation methods consider vertical wind to be zero, the results hereafter will separate the vertical direction (local down axis) from the horizontal directions (local north and east axes). Hence horizontal wind error is defined as:"
+                            - generic [ref=e3046]:
+                              - generic [ref=e3049]:
+                                - generic [ref=e3055]:
+                                  - generic [ref=e3056]:
+                                    - generic [ref=e3057]: 𝑒
+                                    - generic [ref=e3059]: 𝑤,ℎ
+                                  - text: =
+                                  - generic [ref=e3060]:
+                                    - generic [ref=e3061]: "|"
+                                    - generic [ref=e3062]:
+                                      - generic [ref=e3063]: "|"
+                                      - generic [ref=e3064]:
+                                        - generic [ref=e3065]: "["
+                                        - generic [ref=e3067]:
+                                          - generic [ref=e3071]:
+                                            - generic [ref=e3072]: 𝑤
+                                            - generic [ref=e3073]: 𝑛
+                                          - generic [ref=e3077]:
+                                            - generic [ref=e3078]: 𝑤
+                                            - generic [ref=e3079]: 𝑒
+                                        - generic [ref=e3080]: "]"
+                                      - text: −
+                                      - generic [ref=e3081]:
+                                        - generic [ref=e3082]: "["
+                                        - generic [ref=e3084]:
+                                          - generic [ref=e3088]:
+                                            - generic [ref=e3090]:
+                                              - generic [ref=e3091]: 𝑤
+                                              - generic [ref=e3093]: ̂
+                                            - generic [ref=e3094]: 𝑛
+                                          - generic [ref=e3098]:
+                                            - generic [ref=e3100]:
+                                              - generic [ref=e3101]: 𝑤
+                                              - generic [ref=e3103]: ̂
+                                            - generic [ref=e3104]: 𝑒
+                                        - generic [ref=e3105]: "]"
+                                      - generic [ref=e3106]: "|"
+                                    - generic [ref=e3107]: "|"
+                                - math [ref=e3108]:
+                                  - generic [ref=e3110]:
+                                    - generic [ref=e3111]:
+                                      - generic [ref=e3112]: e
+                                      - generic [ref=e3113]:
+                                        - generic [ref=e3114]: w
+                                        - generic [ref=e3115]: ","
+                                        - generic [ref=e3116]: h
+                                    - generic [ref=e3117]: =
+                                    - generic [ref=e3119]:
+                                      - generic [ref=e3121]:
+                                        - generic [ref=e3124]:
+                                          - generic [ref=e3125]: w
+                                          - generic [ref=e3126]: "n"
+                                        - generic [ref=e3129]:
+                                          - generic [ref=e3130]: w
+                                          - generic [ref=e3131]: e
+                                      - generic [ref=e3132]: −
+                                      - generic [ref=e3134]:
+                                        - generic [ref=e3137]:
+                                          - generic [ref=e3138]:
+                                            - generic [ref=e3139]: w
+                                            - generic [ref=e3140]: ^
+                                          - generic [ref=e3141]: "n"
+                                        - generic [ref=e3144]:
+                                          - generic [ref=e3145]:
+                                            - generic [ref=e3146]: w
+                                            - generic [ref=e3147]: ^
+                                          - generic [ref=e3148]: e
+                              - generic [ref=e3150]: (19)
+                            - text: "and the vertical wind error as:"
+                            - generic [ref=e3151]:
+                              - generic [ref=e3154]:
+                                - generic [ref=e3160]:
+                                  - generic [ref=e3161]:
+                                    - generic [ref=e3162]: 𝑒
+                                    - generic [ref=e3164]: 𝑤,𝑣
+                                  - text: =
+                                  - generic [ref=e3165]:
+                                    - generic [ref=e3166]: "|"
+                                    - generic [ref=e3167]:
+                                      - generic [ref=e3168]: 𝑤
+                                      - generic [ref=e3169]: 𝑑
+                                    - text: −
+                                    - generic [ref=e3170]:
+                                      - generic [ref=e3172]:
+                                        - generic [ref=e3173]: 𝑤
+                                        - generic [ref=e3175]: ̂
+                                      - generic [ref=e3176]: 𝑑
+                                    - generic [ref=e3177]: "|"
+                                - math [ref=e3178]:
+                                  - generic [ref=e3180]:
+                                    - generic [ref=e3181]:
+                                      - generic [ref=e3182]: e
+                                      - generic [ref=e3183]:
+                                        - generic [ref=e3184]: w
+                                        - generic [ref=e3185]: ","
+                                        - generic [ref=e3186]: v
+                                    - generic [ref=e3187]: =
+                                    - generic [ref=e3188]:
+                                      - generic [ref=e3189]: "|"
+                                      - generic [ref=e3190]:
+                                        - generic [ref=e3191]: w
+                                        - generic [ref=e3192]: d
+                                      - generic [ref=e3193]: −
+                                      - generic [ref=e3194]:
+                                        - generic [ref=e3195]:
+                                          - generic [ref=e3196]: w
+                                          - generic [ref=e3197]: ^
+                                        - generic [ref=e3198]: d
+                                      - generic [ref=e3199]: "|"
+                              - generic [ref=e3201]: (20)
+                          - generic [ref=e3202]: Based on this error definition, bias and standard deviation are defined as usual.
+                        - generic [ref=e3203]:
+                          - heading "2.4.2. Ground Truth" [level=4] [ref=e3204]
+                          - generic [ref=e3205]:
+                            - text: As will be discussed in
+                            - link "Section 5.2.1" [ref=e3206] [cursor=pointer]:
+                              - /url: "#sec5dot2dot1-atmosphere-13-00551"
+                            - text: ", the reference sensors do not measure the wind exactly at the drone’s position. Hence, to mitigate the impact of local effects the ground truth wind is defined as the instantaneous mean of the top three sensors on the mast:"
+                            - generic [ref=e3207]:
+                              - generic [ref=e3210]:
+                                - generic [ref=e3216]:
+                                  - generic [ref=e3217]:
+                                    - generic [ref=e3218]: 𝐰
+                                    - generic [ref=e3219]: 𝐥
+                                  - generic [ref=e3220]: (𝑡)
+                                  - text: =
+                                  - generic [ref=e3221]:
+                                    - generic [ref=e3222]: "1"
+                                    - generic [ref=e3223]: "3"
+                                  - generic [ref=e3226]:
+                                    - generic [ref=e3227]: (
+                                    - generic [ref=e3228]:
+                                      - generic [ref=e3230]:
+                                        - generic [ref=e3231]: 𝐰
+                                        - generic [ref=e3233]: ̃
+                                      - generic [ref=e3234]: 𝐥
+                                      - generic [ref=e3236]: 𝟏𝟒.𝟕𝐦
+                                    - generic [ref=e3237]: (𝑡)
+                                    - text: +
+                                    - generic [ref=e3238]:
+                                      - generic [ref=e3240]:
+                                        - generic [ref=e3241]: 𝐰
+                                        - generic [ref=e3243]: ̃
+                                      - generic [ref=e3244]: 𝐥
+                                      - generic [ref=e3246]: 𝟏𝟖𝐦
+                                    - generic [ref=e3247]: (𝑡)
+                                    - text: +
+                                    - generic [ref=e3248]:
+                                      - generic [ref=e3250]:
+                                        - generic [ref=e3251]: 𝐰
+                                        - generic [ref=e3253]: ̃
+                                      - generic [ref=e3254]: 𝐥
+                                      - generic [ref=e3256]: 𝟐𝟏.𝟑𝐦
+                                    - generic [ref=e3257]: (𝑡)
+                                    - generic [ref=e3258]: )
+                                - math [ref=e3259]:
+                                  - generic [ref=e3261]:
+                                    - generic [ref=e3262]:
+                                      - generic [ref=e3263]: w
+                                      - generic [ref=e3264]: l
+                                    - generic [ref=e3265]:
+                                      - generic [ref=e3266]: (
+                                      - generic [ref=e3267]: t
+                                      - generic [ref=e3268]: )
+                                    - generic [ref=e3269]: =
+                                    - generic [ref=e3270]:
+                                      - generic [ref=e3271]: "1"
+                                      - generic [ref=e3272]: "3"
+                                    - generic [ref=e3273]:
+                                      - generic [ref=e3274]:
+                                        - generic [ref=e3275]:
+                                          - generic [ref=e3276]: w
+                                          - generic [ref=e3277]: ˜
+                                        - generic [ref=e3278]:
+                                          - generic [ref=e3279]: "14"
+                                          - generic [ref=e3280]: .
+                                          - generic [ref=e3281]: "7"
+                                          - generic [ref=e3282]: m
+                                        - generic [ref=e3283]: l
+                                      - generic [ref=e3284]:
+                                        - generic [ref=e3285]: (
+                                        - generic [ref=e3286]: t
+                                        - generic [ref=e3287]: )
+                                      - generic [ref=e3288]: +
+                                      - generic [ref=e3289]:
+                                        - generic [ref=e3290]:
+                                          - generic [ref=e3291]: w
+                                          - generic [ref=e3292]: ˜
+                                        - generic [ref=e3293]:
+                                          - generic [ref=e3294]: "18"
+                                          - generic [ref=e3295]: m
+                                        - generic [ref=e3296]: l
+                                      - generic [ref=e3297]:
+                                        - generic [ref=e3298]: (
+                                        - generic [ref=e3299]: t
+                                        - generic [ref=e3300]: )
+                                      - generic [ref=e3301]: +
+                                      - generic [ref=e3302]:
+                                        - generic [ref=e3303]:
+                                          - generic [ref=e3304]: w
+                                          - generic [ref=e3305]: ˜
+                                        - generic [ref=e3306]:
+                                          - generic [ref=e3307]: "21"
+                                          - generic [ref=e3308]: .
+                                          - generic [ref=e3309]: "3"
+                                          - generic [ref=e3310]: m
+                                        - generic [ref=e3311]: l
+                                      - generic [ref=e3312]:
+                                        - generic [ref=e3313]: (
+                                        - generic [ref=e3314]: t
+                                        - generic [ref=e3315]: )
+                              - generic [ref=e3317]: (21)
+                            - text: where
+                            - generic [ref=e3318]:
+                              - generic [ref=e3324]:
+                                - generic [ref=e3325]:
+                                  - generic [ref=e3327]:
+                                    - generic [ref=e3328]: 𝐰
+                                    - generic [ref=e3330]: ̃
+                                  - generic [ref=e3331]: 𝐥
+                                  - generic [ref=e3332]: ℎ
+                                - generic [ref=e3333]: (𝑡)
+                              - math [ref=e3334]:
+                                - generic [ref=e3336]:
+                                  - generic [ref=e3337]:
+                                    - generic [ref=e3338]:
+                                      - generic [ref=e3339]: w
+                                      - generic [ref=e3340]: ˜
+                                    - generic [ref=e3341]: h
+                                    - generic [ref=e3342]: l
+                                  - generic [ref=e3343]:
+                                    - generic [ref=e3344]: (
+                                    - generic [ref=e3345]: t
+                                    - generic [ref=e3346]: )
+                            - text: is the wind vector as measured by the sensor placed at height h above the ground at time t.
+                        - generic [ref=e3347]:
+                          - heading "2.4.3. Filtering in Time" [level=4] [ref=e3348]
+                          - generic [ref=e3349]: The performance of filtered data will also be evaluated. The chosen filter is a low-pass finite impulse response filter with a cutoff frequency of 0.1 Hz and of order 50. This filter is applied twice on the data of interest, once in the forward direction and once in the backward direction to obtain a zero phase delay and a squared response magnitude.
+                      - generic [ref=e3350]:
+                        - heading "2.5. Sensors" [level=4] [ref=e3351]
+                        - generic [ref=e3352]: "Data can be classified into two categories: flight data and reference data. Flight data contains sensor output generated by an aircraft during flight. This is the data used to make the wind estimation. Reference data contain readings of stationary wind sensors (weather stations) and is used to validate and/or calibrate drone-based wind estimations. All data is time-stamped using Coordinated Universal Time (UTC) time and acquired at a frequency of 10 Hz."
+                        - generic [ref=e3353]:
+                          - heading "2.5.1. Flight Data" [level=4] [ref=e3354]
+                          - generic [ref=e3355]:
+                            - text: Flights were performed in Switzerland and in Norway (see
+                            - link "Section 2.6" [ref=e3356] [cursor=pointer]:
+                              - /url: "#sec2dot6-atmosphere-13-00551"
+                            - text: for flight details). In Switzerland, a DJI Phantom 4 RTK MUAV was used and, in Norway, a DJI Phantom 4 Pro MUAV was used. Both drones are the same except for the added Real-Time Kinematic (RTK) functionality of the Phantom 4. The RTK GNSS function provides the potential for positioning at centimeter-level accuracy. The RTK was set with respect to Virtual Reference Stations (VRS) provided by the Swiss Federal Office of Topography through AGNES [
+                            - link "30" [ref=e3357] [cursor=pointer]:
+                              - /url: "#B30-atmosphere-13-00551"
+                            - text: "]. In the rest of this work, it is assumed that both drones are the same and feature the same performance. Finally, this work uses the navigation solution (position, velocity, acceleration, and attitude) provided by the proprietary autopilot of the drone from its sensor inputs."
+                        - generic [ref=e3358]:
+                          - heading "2.5.2. Reference Data" [level=4] [ref=e3359]
+                          - generic [ref=e3360]: "Reference data were produced by three different sources:"
+                          - list [ref=e3362]:
+                            - listitem [ref=e3363]:
+                              - generic [ref=e3364]:
+                                - text: "UNISAWS: University of Svalbard (UNIS) Automatic Weather Station (AWS), situated in Adventdalen (Norway). The station measures wind at 2 and 10 m above ground together with several other atmospheric parameters. Its sensor characteristics can be found in"
+                                - link "Table 2" [ref=e3365] [cursor=pointer]:
+                                  - /url: "#table_body_display_atmosphere-13-00551-t002"
+                                - text: .
+                            - listitem [ref=e3366]:
+                              - generic [ref=e3367]:
+                                - text: "MoTUS: Urban microclimate measurement mast, situated on the campus of the École Polytechique Fédéral de Lausanne (EPFL) (Switzerland). The mast features seven sonic anemometers, spread vertically up to a height of approx. 22 m above ground."
+                                - link "Table 3" [ref=e3368] [cursor=pointer]:
+                                  - /url: "#table_body_display_atmosphere-13-00551-t003"
+                                - text: details its sensor characteristics.
+                            - listitem [ref=e3369]:
+                              - generic [ref=e3370]:
+                                - text: "TOPOAWS: TOPO Automatic Weather Station. This is a small portable weather station developed by the Geodetic Engineering Lab (TOPO) at EPFL. Wind is measured using a cup anemometer and an 8-direction wind vane."
+                                - link "Table 4" [ref=e3371] [cursor=pointer]:
+                                  - /url: "#table_body_display_atmosphere-13-00551-t004"
+                                - text: describes the sensor characteristics.
+                          - generic [ref=e3372]:
+                            - generic [ref=e3373]: Table 2. UNIS AWS sensor set.
+                            - generic [ref=e3375] [cursor=pointer]:
+                              - img "Table" [ref=e3376]
+                              - link [ref=e3377]:
+                                - /url: "#table_body_display_atmosphere-13-00551-t002"
+                          - generic [ref=e3378]:
+                            - generic [ref=e3379]: Table 3. MoTUS sensor set.
+                            - generic [ref=e3381] [cursor=pointer]:
+                              - img "Table" [ref=e3382]
+                              - link [ref=e3383]:
+                                - /url: "#table_body_display_atmosphere-13-00551-t003"
+                          - generic [ref=e3384]:
+                            - generic [ref=e3385]: Table 4. TOPO AWS Sensor set.
+                            - generic [ref=e3387] [cursor=pointer]:
+                              - img "Table" [ref=e3388]
+                              - link [ref=e3389]:
+                                - /url: "#table_body_display_atmosphere-13-00551-t004"
+                      - generic [ref=e3390]:
+                        - heading "2.6. Flight Campaign" [level=4] [ref=e3391]
+                        - generic [ref=e3392]:
+                          - text: "During this work, two flight campaigns were performed: one in Norway and one in Switzerland. A total of 75 flights were conducted, where a flight is defined as the time interval between take-off and landing. The drone used is a DJI Phantom 4 (see"
+                          - link "Section 2.5.1" [ref=e3393] [cursor=pointer]:
+                            - /url: "#sec2dot5dot1-atmosphere-13-00551"
+                          - text: for details).
+                        - generic [ref=e3394]:
+                          - text: In Norway, 19 flights spread over 12 different days were executed. Flights were performed in Adventdalen next to the UNISAWS which is the source of the reference measurements used for these flights. This flight campaign only features stationary flights at an altitude of 2 m and 10 m above ground and at a distance of 10 m from the weather station.
+                          - link "Figure 2" [ref=e3395] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f002"
+                          - text: shows the position of the weather station with respect to Longyearbyen.
+                        - generic [ref=e3396]:
+                          - generic [ref=e3398] [cursor=pointer]:
+                            - img "Atmosphere 13 00551 g002 550" [ref=e3399]
+                            - link [ref=e3400]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f002"
+                          - generic [ref=e3401]:
+                            - text: Figure 2. Drone hovering next to the UNISAWS in Adventadlen. The flight zone is at 78°12
+                            - generic [ref=e3402]:
+                              - generic [ref=e3409]: ′
+                              - math [ref=e3410]:
+                                - generic [ref=e3413]: ′
+                            - text: "10.0"
+                            - generic [ref=e3414]:
+                              - generic [ref=e3422]: ′′
+                              - math [ref=e3423]:
+                                - generic [ref=e3426]:
+                                  - generic [ref=e3427]: ′
+                                  - generic [ref=e3428]: ′
+                            - text: N 15°49
+                            - generic [ref=e3429]:
+                              - generic [ref=e3436]: ′
+                              - math [ref=e3437]:
+                                - generic [ref=e3440]: ′
+                            - text: "41.0"
+                            - generic [ref=e3441]:
+                              - generic [ref=e3449]: ′′
+                              - math [ref=e3450]:
+                                - generic [ref=e3453]:
+                                  - generic [ref=e3454]: ′
+                                  - generic [ref=e3455]: ′
+                            - text: "E. Photo: Richard Hann."
+                        - generic [ref=e3456]:
+                          - text: In Switzerland, 56 flights spread over 6 different days were executed. Flights were performed on EPFL’s campus in the flight zone shown in
+                          - link "Figure 3" [ref=e3457] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f003"
+                          - text: . This location was chosen because of the presence of the MoTUS weather mast from which wind reference measurements were obtained. All flights were performed above roof height, i.e., approximately 15 m above ground or higher, to mitigate the effect of turbulence generated by buildings.
+                        - generic [ref=e3458]:
+                          - generic [ref=e3460] [cursor=pointer]:
+                            - img "Atmosphere 13 00551 g003 550" [ref=e3461]
+                            - link [ref=e3462]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f003"
+                          - generic [ref=e3463]:
+                            - text: Figure 3. (a) EPFL’s flight zone (white rectangle) overview (Switzerland). The center of the zone is at 46°31
+                            - generic [ref=e3464]:
+                              - generic [ref=e3471]: ′
+                              - math [ref=e3472]:
+                                - generic [ref=e3475]: ′
+                            - text: "17.0"
+                            - generic [ref=e3476]:
+                              - generic [ref=e3484]: ′′
+                              - math [ref=e3485]:
+                                - generic [ref=e3488]:
+                                  - generic [ref=e3489]: ′
+                                  - generic [ref=e3490]: ′
+                            - text: N 6°34
+                            - generic [ref=e3491]:
+                              - generic [ref=e3498]: ′
+                              - math [ref=e3499]:
+                                - generic [ref=e3502]: ′
+                            - text: "02.5"
+                            - generic [ref=e3503]:
+                              - generic [ref=e3511]: ′′
+                              - math [ref=e3512]:
+                                - generic [ref=e3515]:
+                                  - generic [ref=e3516]: ′
+                                  - generic [ref=e3517]: ′
+                            - text: "E. Copyright swisstopo. (b) Picture of the TOPOAWS weather station (left) and the MoTUS weather mast (right). Photo: Kilian Meier."
+                        - generic [ref=e3518]:
+                          - text: The flights were performed using the Phantom’s autopilot in waypoint mode, which allows a set of waypoints to be defined over which the drone will fly as well as a maximal cruising speed. A waypoint is defined by its latitude, longitude, altitude, and heading. A set of waypoints and their cruising speed is stored as a flight plan in the drone’s remote control and will be called a flight type in this work. Ten different flight types were defined that can be grouped into four categories (see
+                          - link "Figure 4" [ref=e3519] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f004"
+                          - text: "):"
+                        - list [ref=e3521]:
+                          - listitem [ref=e3522]:
+                            - generic [ref=e3523]: "Hover: Using two waypoints (a flight plan with only one waypoint is not valid on the DJI Phantom 4 RTK), the drone moves to an altitude of approximately 20 m above ground and 10 m to the south of the weather mast. Once the final waypoint is reached the drone hovers (holds its position), its body x-axis pointing roughly toward the north. The pilot decides when the position hold ends, typically after 5 to 10 min."
+                          - listitem [ref=e3524]:
+                            - generic [ref=e3525]: "Square: The drone moves in an approximate square with a side length of 20 m. The square is centered on the weather mast. The drone’s attitude is such that the body x-axis is pointed toward the weather mast during the whole flight (i.e., the drone’s camera is always looking at the mast)."
+                          - listitem [ref=e3526]:
+                            - generic [ref=e3527]: "Constant speed (cstSpeedXms): The drone moves approximately from the northeast corner of the flight zone to its southwest corner then back and then to the southwest corner again (three segments in total). The heading is always in the travel direction. This flight plan is repeated four times at cruising speeds of 2, 6, 10, and 13 m/s, respectively (Thus the flights are named cstSpeed2ms, cstSpeed6ms, cstSpeed10ms, and cstSpeed13ms respectively)."
+                          - listitem [ref=e3528]:
+                            - generic [ref=e3529]: "Vertical (VerticalXms): The drone moves to the same horizontal position as during the hover flight, but at an altitude of 15 m above ground. Then it moves up and down three times to approximately 30 m above ground and back to 15 m. During the maneuver, the body x-axis is always pointing north. This flight plan is repeated four times at cruising speeds of 2, 3, 4 and 5 m/s, respectively (thus the flights are named Vertical2ms, Vertical3ms, Vertical4ms, and Vertical5ms respectively)."
+                        - generic [ref=e3530]:
+                          - generic [ref=e3532] [cursor=pointer]:
+                            - img "Atmosphere 13 00551 g004 550" [ref=e3533]
+                            - link [ref=e3534]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f004"
+                          - generic [ref=e3535]:
+                            - text: Figure 4. Flight types. Plots on the upper row show a typical flight as seen from above (see
+                            - link "Figure 3" [ref=e3536] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f003"
+                            - text: ). Plots on the lower row show the drone’s altitude over time. From left to right, plotted flights are hover, square, cstSpeed2ms, and Vertical2ms.
+                    - generic [ref=e3537]:
+                      - heading "3. Model Parameters" [level=2] [ref=e3538]
+                      - generic [ref=e3539]:
+                        - heading "3.1. Tilt Model" [level=4] [ref=e3540]
+                        - generic [ref=e3541]:
+                          - link "Figure 5" [ref=e3542] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f005"
+                          - text: shows the calibration dataset for a DJI Phantom 4 Pro. This dataset is composed of flights performed in Norway next to the UNISAWS sensors (see
+                          - link "Section 2.6" [ref=e3543] [cursor=pointer]:
+                            - /url: "#sec2dot6-atmosphere-13-00551"
+                          - text: ). The figure indicates the correlation between the tangent of the tilt angle,
+                          - generic [ref=e3544]:
+                            - generic [ref=e3550]: tan(𝛼)
+                            - math [ref=e3551]:
+                              - generic [ref=e3553]:
+                                - generic [ref=e3554]: tan
+                                - generic [ref=e3555]: (
+                                - generic [ref=e3556]: α
+                                - generic [ref=e3557]: )
+                          - text: ", and the air velocity squared"
+                          - generic [ref=e3558]:
+                            - generic [ref=e3564]:
+                              - generic [ref=e3565]: "||"
+                              - generic [ref=e3566]:
+                                - generic [ref=e3567]: 𝐕
+                                - generic [ref=e3568]: 𝐛
+                              - generic [ref=e3569]:
+                                - generic [ref=e3571]: "||"
+                                - generic [ref=e3572]: "2"
+                            - math [ref=e3573]:
+                              - generic [ref=e3575]:
+                                - generic [ref=e3576]:
+                                  - generic [ref=e3577]: "|"
+                                  - generic [ref=e3578]: "|"
+                                - generic [ref=e3579]:
+                                  - generic [ref=e3580]: V
+                                  - generic [ref=e3581]: b
+                                - generic [ref=e3582]:
+                                  - generic [ref=e3583]:
+                                    - generic [ref=e3584]: "|"
+                                    - generic [ref=e3585]: "|"
+                                  - generic [ref=e3586]: "2"
+                          - text: . The tuned parameters to be used in Equation (
+                          - link "2" [ref=e3587] [cursor=pointer]:
+                            - /url: "#FD2-atmosphere-13-00551"
+                          - text: ) for the Phantom 4 are listed in
+                          - link "Table 5" [ref=e3588] [cursor=pointer]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t005"
+                          - text: .
+                        - generic [ref=e3589]:
+                          - generic [ref=e3591] [cursor=pointer]:
+                            - img "Atmosphere 13 00551 g005 550" [ref=e3592]
+                            - link [ref=e3593]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f005"
+                          - generic [ref=e3594]: "Figure 5. Tilt model: tilt to wind correlation for a DJI Phantom 4 Pro."
+                        - generic [ref=e3595]:
+                          - generic [ref=e3596]:
+                            - text: Table 5. Tilt to air velocity model parameter (see Equation (
+                            - link "2" [ref=e3597] [cursor=pointer]:
+                              - /url: "#FD2-atmosphere-13-00551"
+                            - text: )).
+                          - generic [ref=e3599] [cursor=pointer]:
+                            - img "Table" [ref=e3600]
+                            - link [ref=e3601]:
+                              - /url: "#table_body_display_atmosphere-13-00551-t005"
+                      - generic [ref=e3602]:
+                        - heading "3.2. Thrust Model" [level=4] [ref=e3603]
+                        - generic [ref=e3604]:
+                          - text: Using a linear least-square regression on the hover data provided in [
+                          - link "28" [ref=e3605] [cursor=pointer]:
+                            - /url: "#B28-atmosphere-13-00551"
+                          - text: "] and shown in"
+                          - link "Figure 6" [ref=e3606] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f006"
+                          - text: a, one can estimate
+                          - generic [ref=e3607]:
+                            - generic [ref=e3613]:
+                              - generic [ref=e3614]: 𝑏
+                              - generic [ref=e3616]: ̲
+                            - math [ref=e3617]:
+                              - generic [ref=e3619]:
+                                - generic [ref=e3620]: b
+                                - generic [ref=e3621]: ¯
+                          - text: = 4.9 · 10
+                          - generic [ref=e3622]:
+                            - generic [ref=e3630]: −7
+                            - math [ref=e3631]:
+                              - generic [ref=e3634]:
+                                - generic [ref=e3635]: −
+                                - generic [ref=e3636]: "7"
+                          - text: N/RPM
+                          - generic [ref=e3637]:
+                            - generic [ref=e3644]: "2"
+                            - math [ref=e3645]:
+                              - generic [ref=e3648]: "2"
+                          - text: via Equation (
+                          - link "11" [ref=e3649] [cursor=pointer]:
+                            - /url: "#FD11-atmosphere-13-00551"
+                          - text: ).
+                        - generic [ref=e3650]:
+                          - generic [ref=e3652] [cursor=pointer]:
+                            - img "Atmosphere 13 00551 g006 550" [ref=e3653]
+                            - link [ref=e3654]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f006"
+                          - generic [ref=e3655]:
+                            - text: "Figure 6. Model parameters: (a) The thrust model is fitted on data from ["
+                            - link "28" [ref=e3656] [cursor=pointer]:
+                              - /url: "#B28-atmosphere-13-00551"
+                            - text: "]. Note"
+                            - generic [ref=e3657]:
+                              - generic [ref=e3663]:
+                                - generic [ref=e3664]:
+                                  - generic [ref=e3665]: 𝜂
+                                  - generic [ref=e3667]: 𝑏𝑎𝑟
+                                - text: =
+                                - generic [ref=e3668]:
+                                  - generic [ref=e3669]: 𝜂
+                                  - generic [ref=e3671]:
+                                    - generic [ref=e3672]: 
+                                    - generic [ref=e3673]: 
+                                    - generic [ref=e3674]: 
+                                    - generic [ref=e3675]: 
+                                    - generic [ref=e3676]: 
+                              - math [ref=e3677]:
+                                - generic [ref=e3679]:
+                                  - generic [ref=e3680]:
+                                    - generic [ref=e3681]: η
+                                    - generic [ref=e3682]:
+                                      - generic [ref=e3683]: b
+                                      - generic [ref=e3684]: a
+                                      - generic [ref=e3685]: r
+                                  - generic [ref=e3686]: =
+                                  - generic [ref=e3687]:
+                                    - generic [ref=e3688]: η
+                                    - generic [ref=e3689]: ¯
+                            - text: . (b) Drag model. The wind tunnel drag force model is from [
+                            - link "28" [ref=e3690] [cursor=pointer]:
+                              - /url: "#B28-atmosphere-13-00551"
+                            - text: "]. Note"
+                            - generic [ref=e3691]:
+                              - generic [ref=e3697]:
+                                - generic [ref=e3698]:
+                                  - generic [ref=e3699]: 𝜂
+                                  - generic [ref=e3701]: 𝑏𝑎𝑟
+                                - text: =
+                                - generic [ref=e3702]:
+                                  - generic [ref=e3703]: 𝜂
+                                  - generic [ref=e3705]:
+                                    - generic [ref=e3706]: 
+                                    - generic [ref=e3707]: 
+                                    - generic [ref=e3708]: 
+                                    - generic [ref=e3709]: 
+                                    - generic [ref=e3710]: 
+                              - math [ref=e3711]:
+                                - generic [ref=e3713]:
+                                  - generic [ref=e3714]:
+                                    - generic [ref=e3715]: η
+                                    - generic [ref=e3716]:
+                                      - generic [ref=e3717]: b
+                                      - generic [ref=e3718]: a
+                                      - generic [ref=e3719]: r
+                                  - generic [ref=e3720]: =
+                                  - generic [ref=e3721]:
+                                    - generic [ref=e3722]: η
+                                    - generic [ref=e3723]: ¯
+                            - text: .
+                      - generic [ref=e3724]:
+                        - heading "3.3. Drag Model" [level=4] [ref=e3725]
+                        - generic [ref=e3726]:
+                          - text: In each experimental run of [
+                          - link "28" [ref=e3727] [cursor=pointer]:
+                            - /url: "#B28-atmosphere-13-00551"
+                          - text: "] air density and wind speed are the same, hence these parameters in Equation ("
+                          - link "15" [ref=e3728] [cursor=pointer]:
+                            - /url: "#FD15-atmosphere-13-00551"
+                          - text: ) and (
+                          - link "17" [ref=e3729] [cursor=pointer]:
+                            - /url: "#FD17-atmosphere-13-00551"
+                          - text: ") are:"
+                          - generic [ref=e3730]:
+                            - generic [ref=e3736]:
+                              - generic [ref=e3738]: 𝑉
+                              - generic [ref=e3740]: ′
+                            - math [ref=e3741]:
+                              - generic [ref=e3743]:
+                                - generic [ref=e3744]: V
+                                - generic [ref=e3745]: ′
+                          - text: = 6 m/s and
+                          - generic [ref=e3746]:
+                            - generic [ref=e3752]:
+                              - generic [ref=e3753]: 𝜌
+                              - generic [ref=e3754]: ′
+                            - math [ref=e3755]:
+                              - generic [ref=e3757]:
+                                - generic [ref=e3758]: ρ
+                                - generic [ref=e3759]: ′
+                          - text: = 1.22 kg/m
+                          - generic [ref=e3760]:
+                            - generic [ref=e3767]: "3"
+                            - math [ref=e3768]:
+                              - generic [ref=e3771]: "3"
+                          - text: .
+                        - generic [ref=e3772]:
+                          - text: Concerning the function
+                          - generic [ref=e3773]:
+                            - generic [ref=e3779]:
+                              - generic [ref=e3780]:
+                                - generic [ref=e3781]: 𝐹
+                                - generic [ref=e3782]: ′
+                                - generic [ref=e3783]: 𝐷
+                              - generic [ref=e3784]:
+                                - generic [ref=e3785]: (
+                                - generic [ref=e3786]: 𝛾
+                                - text: ","
+                                - generic [ref=e3788]:
+                                  - generic [ref=e3789]: 𝜂
+                                  - generic [ref=e3791]:
+                                    - generic [ref=e3792]: 
+                                    - generic [ref=e3793]: 
+                                    - generic [ref=e3794]: 
+                                    - generic [ref=e3795]: 
+                                    - generic [ref=e3796]: 
+                                - generic [ref=e3797]: )
+                            - math [ref=e3798]:
+                              - generic [ref=e3800]:
+                                - generic [ref=e3801]:
+                                  - generic [ref=e3802]: F
+                                  - generic [ref=e3803]: D
+                                  - generic [ref=e3804]: ′
+                                - generic [ref=e3805]:
+                                  - generic [ref=e3806]: (
+                                  - generic [ref=e3807]: γ
+                                  - generic [ref=e3808]: ","
+                                  - generic [ref=e3809]:
+                                    - generic [ref=e3810]: η
+                                    - generic [ref=e3811]: ¯
+                                  - generic [ref=e3812]: )
+                          - text: described in Equation (
+                          - link "18" [ref=e3813] [cursor=pointer]:
+                            - /url: "#FD18-atmosphere-13-00551"
+                          - text: ), its shape, from wind tunnel experiments, is shown on
+                          - link "Figure 6" [ref=e3814] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f006"
+                          - text: b. Note, to make the model continuous, values between measured sample points are linearly interpolated.
+                    - generic [ref=e3815]:
+                      - heading "4. Results" [level=2] [ref=e3816]
+                      - generic [ref=e3817]: "This section will evaluate the wind estimation of three arbitrarily chosen flights from the EPFL campaign:"
+                      - list [ref=e3819]:
+                        - listitem [ref=e3820]:
+                          - generic [ref=e3821]:
+                            - text: "One hover flight:"
+                            - link "Figure 7" [ref=e3822] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                            - text: and
+                            - link "Table 6" [ref=e3823] [cursor=pointer]:
+                              - /url: "#table_body_display_atmosphere-13-00551-t006"
+                            - text: ;
+                        - listitem [ref=e3824]:
+                          - generic [ref=e3825]:
+                            - text: "One square flight:"
+                            - link "Figure 8" [ref=e3826] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f008"
+                            - text: and
+                            - link "Table 7" [ref=e3827] [cursor=pointer]:
+                              - /url: "#table_body_display_atmosphere-13-00551-t007"
+                            - text: ;
+                        - listitem [ref=e3828]:
+                          - generic [ref=e3829]:
+                            - text: "One vertical flight:"
+                            - link "Figure 9" [ref=e3830] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f009"
+                            - text: and
+                            - link "Table 8" [ref=e3831] [cursor=pointer]:
+                              - /url: "#table_body_display_atmosphere-13-00551-t008"
+                            - text: .
+                      - generic [ref=e3832]:
+                        - generic [ref=e3834] [cursor=pointer]:
+                          - img "Atmosphere 13 00551 g007 550" [ref=e3835]
+                          - link [ref=e3836]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                        - generic [ref=e3837]:
+                          - text: Figure 7. Wind estimation for sample hovering flight. The thick blue line represents the ground truth and the other lines represent the estimation methods tested. Shaded areas show two examples of wind gusts (see discussion in
+                          - link "Section 4.1.1" [ref=e3838] [cursor=pointer]:
+                            - /url: "#sec4dot1dot1-atmosphere-13-00551"
+                          - text: ).
+                      - generic [ref=e3839]:
+                        - generic [ref=e3841] [cursor=pointer]:
+                          - img "Atmosphere 13 00551 g008 550" [ref=e3842]
+                          - link [ref=e3843]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f008"
+                        - generic [ref=e3844]:
+                          - text: Figure 8. Wind estimation for sample square flight. Thick blue line represents the ground truth and the remaining lines represent the estimation methods tested. The blue highlight shows one occurrence of the tilt estimation failing during an acceleration phase. The red and yellow highlights show two occurrences of non successful estimation of wind (see discussion in
+                          - link "Section 4.2" [ref=e3845] [cursor=pointer]:
+                            - /url: "#sec4dot2-atmosphere-13-00551"
+                          - text: ).
+                      - generic [ref=e3846]:
+                        - generic [ref=e3848] [cursor=pointer]:
+                          - img "Atmosphere 13 00551 g009 550" [ref=e3849]
+                          - link [ref=e3850]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f009"
+                        - generic [ref=e3851]:
+                          - text: Figure 9. Wind estimation for sample vertical flight. Thick blue line represents the ground truth and remaining lines represent estimation methods tested. Blue and red highlights correspond to time intervals in which the drone is ascending and descending, respectively (see discussion in
+                          - link "Section 4.3" [ref=e3852] [cursor=pointer]:
+                            - /url: "#sec4dot3-atmosphere-13-00551"
+                          - text: ).
+                      - generic [ref=e3853]:
+                        - generic [ref=e3854]:
+                          - text: Table 6. Statistical evaluation of the hover flight shown in
+                          - link "Figure 7" [ref=e3855] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                          - text: . The lowpass filter cutoff frequency is 0.1 Hz (see
+                          - link "Section 2.4.3" [ref=e3856] [cursor=pointer]:
+                            - /url: "#sec2dot4dot3-atmosphere-13-00551"
+                          - text: ).
+                        - generic [ref=e3858] [cursor=pointer]:
+                          - img "Table" [ref=e3859]
+                          - link [ref=e3860]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t006"
+                      - generic [ref=e3861]:
+                        - generic [ref=e3862]:
+                          - text: Table 7. Statistical evaluation of the square flight shown in
+                          - link "Figure 8" [ref=e3863] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f008"
+                          - text: . The lowpass filter cutoff frequency is 0.1 Hz (see
+                          - link "Section 2.4.3" [ref=e3864] [cursor=pointer]:
+                            - /url: "#sec2dot4dot3-atmosphere-13-00551"
+                          - text: ).
+                        - generic [ref=e3866] [cursor=pointer]:
+                          - img "Table" [ref=e3867]
+                          - link [ref=e3868]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t007"
+                      - generic [ref=e3869]:
+                        - generic [ref=e3870]:
+                          - text: Table 8. Statistical evaluation of the vertical flight shown in
+                          - link "Figure 9" [ref=e3871] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f009"
+                          - text: . The statistics are evaluated only during the ascension phases of the flight. The lowpass filter cutoff frequency is 0.1 Hz (see
+                          - link "Section 2.4.3" [ref=e3872] [cursor=pointer]:
+                            - /url: "#sec2dot4dot3-atmosphere-13-00551"
+                          - text: ).
+                        - generic [ref=e3874] [cursor=pointer]:
+                          - img "Table" [ref=e3875]
+                          - link [ref=e3876]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t008"
+                      - generic [ref=e3877]:
+                        - text: Note that no flight of type cstSpeed is detailed here, as this scenario shows very similar performance to square flights at high flight speeds and to hover flights at low speed.
+                        - link "Figure 7" [ref=e3878] [cursor=pointer]:
+                          - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                        - text: shows the wind vector decomposed as horizontal wind speed (top plot), horizontal wind direction (center plot), and vertical wind (bottom plot). On each plot, the thick blue curve represents the ground-truth data acquired from the external anemometer and the other curves represent the data resulting from each estimation method.
+                        - link "Table 6" [ref=e3879] [cursor=pointer]:
+                          - /url: "#table_body_display_atmosphere-13-00551-t006"
+                        - text: shows the statistical performance of each method as defined in
+                        - link "Section 2.4" [ref=e3880] [cursor=pointer]:
+                          - /url: "#sec2dot4-atmosphere-13-00551"
+                        - text: . It is worth noting that for the horizontal wind, the norm of the bias is shown (not the bias vector). The three selected flights will be evaluated individually below.
+                      - generic [ref=e3881]:
+                        - heading "4.1. Hover" [level=4] [ref=e3882]
+                        - generic [ref=e3883]:
+                          - text: The hover flight type is important to consider as it is the only flight type where the assumptions underlying the Tilt estimation method (see
+                          - link "Section 2.2" [ref=e3884] [cursor=pointer]:
+                            - /url: "#sec2dot2-atmosphere-13-00551"
+                          - text: ) are respected. In other words, it is the only flight type where the tilt estimation method has a “fair” comparison. On the other hand, any estimation method should perform at least as well as the tilt method in this simple case. Note that the data plotted in
+                          - link "Figure 7" [ref=e3885] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                          - text: show only three min of the total flight in order to allow for detailed features of the measurements visible.
+                        - generic [ref=e3886]:
+                          - heading "4.1.1. Horizontal Wind Speed" [level=4] [ref=e3887]
+                          - generic [ref=e3888]:
+                            - text: Starting with the horizontal wind magnitude and looking at the tilt estimation (light blue curve), it can be seen that it produces a good approximation of the actual horizontal wind. Variations in the wind speed seem to be reflected in the estimation. An exception to this could be the small wind gust present around 09:33 (blue highlight in
+                            - link "Figure 7" [ref=e3889] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                            - text: "). In the reference data, this gust crosses the 2 m/s mark at 09:32:59, and in the tilt estimation at 09:32:54, this is a difference of 5 s. Knowing that the drone flies approximately 10 m to the south of the wind reference and that the wind is coming from the south, it seems reasonable to assume that the cause of this delay is due to the propagation time of this wind gust and not a data synchronization issue. Considering the proposed estimation methods, they can be grouped in pairs: the two methods using the linear drag model perform very similarly and are also a good estimation of the true wind speed (bias of 0.29 m/s and standard deviation of 0.82 m/s for the filtered DM with vertical drag); the two methods using the quadratic drag model perform also very similar but seem to feature an important bias (1.9 m/s for the DM with no vertical drag). This highlights two important observations. First, assuming that the vertical wind speed is zero has minimal impact on the estimation of horizontal wind speed. This will be further discussed in"
+                            - link "Section 5.1.1" [ref=e3890] [cursor=pointer]:
+                              - /url: "#sec5dot1dot1-atmosphere-13-00551"
+                            - text: . Second, the choice of drag model has a significant impact on the estimation. This will be further discussed in
+                            - link "Section 5.1.2" [ref=e3891] [cursor=pointer]:
+                              - /url: "#sec5dot1dot2-atmosphere-13-00551"
+                            - text: . Additionally, the filtered estimations show an improved performance of approximately 20 % on the standard deviation, as could be expected from filtering.
+                        - generic [ref=e3892]:
+                          - heading "4.1.2. Horizontal Wind Direction" [level=4] [ref=e3893]
+                          - generic [ref=e3894]:
+                            - text: Observing the wind direction on the middle plot, it can be seen that all five estimation methods perform very similarly and give a fairly good estimation of the wind direction. The only slight difference concerns the two methods using the quadratic drag model, which have higher variability. There seems to be a “directional wind gust” around 09:32 (red highlight in
+                            - link "Figure 7" [ref=e3895] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                            - text: ), which results in what appears to be a timing mismatch between estimation and measurement. However, as for wind speed, it seems fair to assume that this is due to wind gust propagation time between the respective position of the drone and its reference.
+                        - generic [ref=e3896]:
+                          - heading "4.1.3. Vertical Wind" [level=4] [ref=e3897]
+                          - generic [ref=e3898]: Finally, looking at the vertical wind speed, it can first be seen that even if the vertical wind speed is not zero, in the evaluated use case it remains close to 0 m/s. Thus, assuming that there is no vertical wind speed is a reasonable assumption. In this case, the methods estimating vertical wind have worse performance than the errors caused by the assumption of the vertical wind being null.
+                      - generic [ref=e3899]:
+                        - heading "4.2. Square" [level=4] [ref=e3900]
+                        - generic [ref=e3901]:
+                          - text: "The square flight is interesting due to its dynamics: accelerations are high when reaching or leaving the corner of the square thus inducing tilting of the UAV due to forward motion. The first obvious observation to be made about the estimations seen in"
+                          - link "Figure 8" [ref=e3902] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f008"
+                          - text: ", is that the tilt estimation is failing at estimating wind speed and direction in such a flight scenario, which is expected. The error peaks (as for example in the blue highlight in"
+                          - link "Figure 8" [ref=e3903] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f008"
+                          - text: ) can be traced back to the moments of drone acceleration or deceleration. On the other hand, the dynamic model-based methods, seem to be able to filter out the impact of the vehicle acceleration. Although this comes at the cost of some loss in accuracy, as can be seen by comparing
+                          - link "Table 6" [ref=e3904] [cursor=pointer]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t006"
+                          - text: and
+                          - link "Table 7" [ref=e3905] [cursor=pointer]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t007"
+                          - text: . Wind direction seems to be estimated correctly most of the time by the dynamic model-based methods, except for some occurrences where its estimation is completely wrong, such as around 09:38:30 (red highlight) or 09:38:40 (yellow highlight). It is unclear why this is happening. However, the low wind speed estimated (less than 1 m/s) during both time intervals may have reduced the reliability of this polar parameterization. Concerning vertical wind, the same observations can be made as those in the hover flight.
+                      - generic [ref=e3906]:
+                        - heading "4.3. Vertical" [level=4] [ref=e3907]
+                        - generic [ref=e3908]:
+                          - text: The vertical flight is interesting for its application in shear wind estimation. The most important observation to make in
+                          - link "Figure 9" [ref=e3909] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f009"
+                          - text: is that there are three phases where the estimation significantly deviates from the reference. These phases are highlighted in red and correspond to the moments where the drone is descending. Moving downward is notoriously difficult for a drone since it flies inside the downwash produced by its propellers. For this reason, the downward flight is very unstable, resulting in large and fast attitude variation, in turn leading to poor wind estimations. However, estimation during the ascending phase (highlighted in blue) seems to produce accurate results, in particular for tilt and linear drag dynamic model estimation methods.
+                    - generic [ref=e3910]:
+                      - heading "5. Discussion" [level=2] [ref=e3911]
+                      - generic [ref=e3912]:
+                        - heading "5.1. Outcomes" [level=4] [ref=e3913]
+                        - generic [ref=e3914]:
+                          - heading "5.1.1. Impact of Vertical Wind Estimation" [level=4] [ref=e3915]
+                          - generic [ref=e3916]:
+                            - text: As presented in
+                            - link "Section 1" [ref=e3917] [cursor=pointer]:
+                              - /url: "#sec1-atmosphere-13-00551"
+                            - text: ", vertical wind is rarely considered in the literature, either to reduce estimation complexity or to remove the need for rotor thrust estimations. It also removes the need to have a reference capable of measuring vertical wind, such as a through use of a sonic anemometer. Two important observations can be made based on the results presented in"
+                            - link "Section 4" [ref=e3918] [cursor=pointer]:
+                              - /url: "#sec4-atmosphere-13-00551"
+                            - text: . First, horizontal wind estimation performance for the methods assuming no vertical wind is not different from those which estimate vertical wind. This is likely due to the fact that the vertical wind was close to zero during all flights which were conducted at low altitudes. Thus estimating thrust using the wind tunnel data leads to similar results as computing it from Equation (
+                            - link "7" [ref=e3919] [cursor=pointer]:
+                              - /url: "#FD7-atmosphere-13-00551"
+                            - text: ). However, before choosing methods including vertical drag over methods assuming no vertical drag, it would be relevant to compare the performance of both approaches on data featuring significant vertical wind. Second, for methods estimating vertical wind, the estimation is rather poor. The error is smaller by assuming the value of vertical wind to be zero. This is somewhat surprising as air speed is computed in the body frame, and thus one should assume that the estimation accuracy of vertical and horizontal wind should be similar. The observed discrepancy may be due to the fact that the thrust is much larger than the drag in the vertical direction but not in the horizontal direction. Hence, even a small error in thrust estimation leads to a large error in vertical wind estimation.
+                        - generic [ref=e3920]:
+                          - heading "5.1.2. Linear or Quadratic Drag Model" [level=4] [ref=e3921]
+                          - generic [ref=e3922]:
+                            - text: "Two drag models were explored during this work: a quadratic model, presented in"
+                            - link "Section 2.3.5" [ref=e3923] [cursor=pointer]:
+                              - /url: "#sec2dot3dot5-atmosphere-13-00551"
+                            - text: and a linear model, presented in
+                            - link "Section 2.3.6" [ref=e3924] [cursor=pointer]:
+                              - /url: "#sec2dot3dot6-atmosphere-13-00551"
+                            - text: . The quadratic model is well tested for spherical objects and widely used to model drag forces on MUAVs [
+                            - link "39" [ref=e3925] [cursor=pointer]:
+                              - /url: "#B39-atmosphere-13-00551"
+                            - text: "]. However, in this work, for low wind speeds (less than 10 m/s), the linear drag model performs better in the estimation of wind speed. This is somewhat surprising given that all publications presented in"
+                            - link "Section 1" [ref=e3926] [cursor=pointer]:
+                              - /url: "#sec1-atmosphere-13-00551"
+                            - text: "which employ a physical model for drag, use a quadratic drag model. However, this observation is not new in MUAV modeling: for example ["
+                            - link "39" [ref=e3927] [cursor=pointer]:
+                              - /url: "#B39-atmosphere-13-00551"
+                            - text: "] analytically derives and experimentally validates a linear drag relation using Blade Element Momentum (BEM) theory. Plus, the well-known open-source Gazebo simulator also implements a linear drag model for MUAVs ["
+                            - link "40" [ref=e3928] [cursor=pointer]:
+                              - /url: "#B40-atmosphere-13-00551"
+                            - text: "]. According to this model the total drag force is dominated by drag generated by air passing through the rotors in the xy-body-plane, i.e., perpendicularly to the thrust direction. More explicitly, the drag model for a single rotor is given by:"
+                            - generic [ref=e3929]:
+                              - generic [ref=e3932]:
+                                - generic [ref=e3938]:
+                                  - generic [ref=e3939]:
+                                    - generic [ref=e3940]: 𝐅
+                                    - generic [ref=e3941]: 𝐛
+                                    - generic [ref=e3942]: 𝐃
+                                  - text: =𝜂
+                                  - generic [ref=e3943]:
+                                    - generic [ref=e3945]: 𝐾
+                                    - generic [ref=e3948]: 𝐵𝐸𝑀
+                                  - generic [ref=e3949]:
+                                    - generic [ref=e3950]:
+                                      - generic [ref=e3951]: ⎡
+                                      - generic [ref=e3952]: ⎣
+                                      - generic [ref=e3953]: ⎢
+                                      - generic [ref=e3954]: ⎢
+                                      - generic [ref=e3955]: ⎢
+                                    - generic [ref=e3957]:
+                                      - generic [ref=e3961]:
+                                        - generic [ref=e3963]: 𝑉
+                                        - generic [ref=e3965]: 𝑥
+                                      - generic [ref=e3969]:
+                                        - generic [ref=e3971]: 𝑉
+                                        - generic [ref=e3973]: 𝑦
+                                      - generic [ref=e3976]: "0"
+                                    - generic [ref=e3977]:
+                                      - generic [ref=e3978]: ⎤
+                                      - generic [ref=e3979]: ⎦
+                                      - generic [ref=e3980]: ⎥
+                                      - generic [ref=e3981]: ⎥
+                                      - generic [ref=e3982]: ⎥
+                                - math [ref=e3983]:
+                                  - generic [ref=e3985]:
+                                    - generic [ref=e3986]:
+                                      - generic [ref=e3987]: F
+                                      - generic [ref=e3988]: D
+                                      - generic [ref=e3989]: b
+                                    - generic [ref=e3990]: =
+                                    - generic [ref=e3991]: η
+                                    - generic [ref=e3992]:
+                                      - generic [ref=e3993]: K
+                                      - generic [ref=e3994]:
+                                        - generic [ref=e3995]: B
+                                        - generic [ref=e3996]: E
+                                        - generic [ref=e3997]: M
+                                    - generic [ref=e3999]:
+                                      - generic [ref=e4002]:
+                                        - generic [ref=e4003]: V
+                                        - generic [ref=e4004]: x
+                                      - generic [ref=e4007]:
+                                        - generic [ref=e4008]: V
+                                        - generic [ref=e4009]: "y"
+                                      - generic [ref=e4012]: "0"
+                              - generic [ref=e4014]: (22)
+                          - generic [ref=e4015]:
+                            - text: This is not the linear model implemented in this work, but both models are equivalent under the assumptions that the rotor angular rates are constant and the drone is not tilting. Note also that BEM-based approaches start to fail at high air speeds and other approaches are needed to correct drag modeling, see for example [
+                            - link "41" [ref=e4016] [cursor=pointer]:
+                              - /url: "#B41-atmosphere-13-00551"
+                            - text: "], where BEM is combined with a neural network trained to estimate drag residuals that BEM theory is not able to predict."
+                      - generic [ref=e4017]:
+                        - heading "5.2. Dataset Limitations" [level=4] [ref=e4018]
+                        - generic [ref=e4019]:
+                          - heading "5.2.1. Distance to Reference Sensors" [level=4] [ref=e4020]
+                          - generic [ref=e4021]: Reference measurements in UAV based wind measurements are always a challenge since there is a geometrical separation between the UAV’s position and the reference sensor. Additionally, the further the reference sensor is placed from the drone, the higher the chances that local wind gusts affect either only the drone or the reference sensor or affect both at different times. In an extreme case, when the flow is purely turbulent, it is not meaningful to compare wind speed from two sensors if they are not at the same position (if the experiment takes place in a wind tunnel providing good laminar flow, these problems can be avoided at the cost of a less realistic wind behavior). In this dataset, the drone was flying approximately 10 to 15 m away from the reference sensor. This separation ensured the safety of hardware and infrastructure but constitutes a significant distance to the reference sensors. For example, at a wind speed of 2 m/s, this can represent a propagation delay of 5 s.
+                        - generic [ref=e4022]:
+                          - heading "5.2.2. Environmental Variability" [level=4] [ref=e4023]
+                          - generic [ref=e4024]:
+                            - text: The validation dataset was acquired over one flight zone (
+                            - link "Figure 3" [ref=e4025] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f003"
+                            - text: ), which has its typical environmental conditions. It would be interesting to introduce more variability of environmental conditions to explore their effects. Interesting environments to explore could be for example open field (without buildings), high altitude above sea level and above ground, low temperature (close to freezing), high latitude, terrain with high convection current, etc. Obviously, the main challenge in such experiments is to obtain a reliable reference measurement that allows the evaluation of the estimation performance. Additionally, acquisitions in stronger winds would also improve the dataset.
+                        - generic [ref=e4026]:
+                          - heading "5.2.3. Ground Truth Quality" [level=4] [ref=e4027]
+                          - generic [ref=e4028]:
+                            - text: The quality of ground truth was assessed by computing the difference between each of the three reference sensors and their mean. In other words, the error (as defined in (
+                            - link "19" [ref=e4029] [cursor=pointer]:
+                              - /url: "#FD19-atmosphere-13-00551"
+                            - text: ) and (
+                            - link "20" [ref=e4030] [cursor=pointer]:
+                              - /url: "#FD20-atmosphere-13-00551"
+                            - text: )) for all the reference sensors. Let this error be the ground truth error. The reference sensor data is shown in
+                            - link "Figure 10" [ref=e4031] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f010"
+                            - text: and the ground truth error statistics are shown in
+                            - link "Table 9" [ref=e4032] [cursor=pointer]:
+                              - /url: "#table_body_display_atmosphere-13-00551-t009"
+                            - text: . The ground truth error is expected to be small if there is no turbulence and no local effects, which is a necessary assumption to compare the drone’s wind estimation to the reference. However, the ground truth error can get large. In this sample flight, the difference between the mean and a given sensor can be on the order of 1 m/s (yellow highlight in
+                            - link "Figure 10" [ref=e4033] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f010"
+                            - text: ). Note also that the wind gusts identified in
+                            - link "Figure 7" [ref=e4034] [cursor=pointer]:
+                              - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                            - text: also correspond to moments of high ground truth error (blue and red highlight in both figures). This leads to the conclusion that the impact of turbulence might have been underestimated in the test environment and that many cases are approaching the accuracy of the reference.
+                          - generic [ref=e4035]:
+                            - generic [ref=e4037] [cursor=pointer]:
+                              - img "Atmosphere 13 00551 g010 550" [ref=e4038]
+                              - link [ref=e4039]:
+                                - /url: "#fig_body_display_atmosphere-13-00551-f010"
+                            - generic [ref=e4040]:
+                              - text: Figure 10. Reference data for sample hovering flight. Thick blue line represents the instantaneous mean of all three reference sensors and the other lines represent each individual sensor. All three highlights show occurrences of high ground truth error (see discussion in
+                              - link "Section 5.2.3" [ref=e4041] [cursor=pointer]:
+                                - /url: "#sec5dot2dot3-atmosphere-13-00551"
+                              - text: ).
+                          - generic [ref=e4042]:
+                            - generic [ref=e4043]:
+                              - text: Table 9. Statistical evaluation of the reference data of the flight shown in
+                              - link "Figure 7" [ref=e4044] [cursor=pointer]:
+                                - /url: "#fig_body_display_atmosphere-13-00551-f007"
+                              - text: .
+                            - generic [ref=e4046] [cursor=pointer]:
+                              - img "Table" [ref=e4047]
+                              - link [ref=e4048]:
+                                - /url: "#table_body_display_atmosphere-13-00551-t009"
+                          - generic [ref=e4049]:
+                            - text: "The quality of the reference represents a hard limit to the development of new estimation methods because it prevents the evaluation of their performance beyond the reference accuracy. It is essential to find some alternative reference, that provides measurements that are closer to the aircraft body. This remains an open question, but two possible approaches can be explored here. First, consider only time-averaged data over longer periods (averaging time greater than one min): this approach is easy to implement and should remove most of the high-frequency variability, at the cost of reducing the estimation’s bandwidth. Second, perform indoor flights where there is no wind: in this scenario, the air speed is equal to the vehicle speed, thus the method can be validated by verifying how well it estimates vehicle speed for which a ground truth can be provided by a motion capture system. This approach is similar to what is done in ["
+                            - link "41" [ref=e4050] [cursor=pointer]:
+                              - /url: "#B41-atmosphere-13-00551"
+                            - text: "]. However, this solution assumes that the effect of traveling at a given speed in still air is the same as hovering in a wind of the same speed. Plus, the used drone must be able to navigate without access to GNSS positioning, since the reception of satellite signals is not available indoors."
+                      - generic [ref=e4051]:
+                        - heading "5.3. Method Trade-Off" [level=4] [ref=e4052]
+                        - generic [ref=e4053]: This section lists pros (+) and cons (−) of the tested estimation methods. The estimation methods using the quadratic drag model are not included since, within the conducted experiments, they are out-performed by the other methods. Still, these may be worth considering at higher wind speeds than those encountered in this work.
+                        - list [ref=e4054]:
+                          - listitem [ref=e4055]:
+                            - generic [ref=e4056]: DM, Linear without Vertical Drag
+                            - generic [ref=e4057]:
+                              - term [ref=e4058]: +
+                              - definition [ref=e4059]:
+                                - generic [ref=e4060]: Most precise and accurate during dynamic maneuvers, thus enabling continuous profiling.
+                              - term [ref=e4061]: +
+                              - definition [ref=e4062]:
+                                - generic [ref=e4063]: Does not need to estimate thrust.
+                              - term [ref=e4064]: +
+                              - definition [ref=e4065]:
+                                - generic [ref=e4066]: Relies only on pose estimation not on the drone’s control loop.
+                              - term [ref=e4067]: −
+                              - definition [ref=e4068]:
+                                - generic [ref=e4069]: Does not estimate vertical wind, which may impact estimation accuracy.
+                              - term [ref=e4070]: −
+                              - definition [ref=e4071]:
+                                - generic [ref=e4072]: Less precise than tilt method in hovering conditions.
+                              - term [ref=e4073]: −
+                              - definition [ref=e4074]:
+                                - generic [ref=e4075]: Needs wind tunnel data (for each UAV type) to compute drag coefficients.
+                          - listitem [ref=e4076]:
+                            - generic [ref=e4077]: DM, Linear with Vertical Drag
+                            - generic [ref=e4078]:
+                              - term [ref=e4079]: +
+                              - definition [ref=e4080]:
+                                - generic [ref=e4081]: Most precise and accurate during dynamic maneuvers, thus enabling continuous profiling.
+                              - term [ref=e4082]: +
+                              - definition [ref=e4083]:
+                                - generic [ref=e4084]: Relies only on pose estimation not on the drone’s control loop.
+                              - term [ref=e4085]: (+)
+                              - definition [ref=e4086]:
+                                - generic [ref=e4087]: Attempts to estimate vertical wind, but results are poor.
+                              - term [ref=e4088]: −
+                              - definition [ref=e4089]:
+                                - generic [ref=e4090]: Less precise than tilt in hovering conditions.
+                              - term [ref=e4091]: −
+                              - definition [ref=e4092]:
+                                - generic [ref=e4093]: Needs wind tunnel data (for each UAV type) to compute drag coefficients.
+                          - listitem [ref=e4094]:
+                            - generic [ref=e4095]: Tilt
+                            - generic [ref=e4096]:
+                              - term [ref=e4097]: +
+                              - definition [ref=e4098]:
+                                - generic [ref=e4099]: Most accurate and precise during hovering.
+                              - term [ref=e4100]: +
+                              - definition [ref=e4101]:
+                                - generic [ref=e4102]: Simple to describe and implement.
+                              - term [ref=e4103]: +
+                              - definition [ref=e4104]:
+                                - generic [ref=e4105]: Simple to extrapolate to other platforms, provided calibration flights are possible.
+                              - term [ref=e4106]: −
+                              - definition [ref=e4107]:
+                                - generic [ref=e4108]: Limited to hovering and slowly ascending flights.
+                              - term [ref=e4109]: −
+                              - definition [ref=e4110]:
+                                - generic [ref=e4111]: Does not estimate vertical wind, which may impact estimation accuracy.
+                              - term [ref=e4112]: −
+                              - definition [ref=e4113]:
+                                - generic [ref=e4114]: Depends on the performance of autopilot control.
+                      - generic [ref=e4115]:
+                        - heading "5.4. Comparison with On-Board Flow Sensor Approach" [level=4] [ref=e4116]
+                        - generic [ref=e4117]:
+                          - text: Here we relate the performance of the proposed methods to that presented in [
+                          - link "8" [ref=e4118] [cursor=pointer]:
+                            - /url: "#B8-atmosphere-13-00551"
+                          - text: "] that employs dedicated wind sensor (four-hole pressure probe, pitot tube) mounted far away from the rotor-blades on a MULTIROTOR G4 Eagle drone. The comparison with this work is especially relevant since the experiments took place at the same location on the campus (see"
+                          - link "Figure 3" [ref=e4119] [cursor=pointer]:
+                            - /url: "#fig_body_display_atmosphere-13-00551-f003"
+                          - text: ) and using the same sonic anemometers as a reference.
+                          - link "Table 10" [ref=e4120] [cursor=pointer]:
+                            - /url: "#table_body_display_atmosphere-13-00551-t010"
+                          - text: compares the statistical evaluation of the hover wind estimation within the flight presented in
+                          - link "Section 4.1" [ref=e4121] [cursor=pointer]:
+                            - /url: "#sec4dot1-atmosphere-13-00551"
+                          - text: with the performance obtained in [
+                          - link "8" [ref=e4122] [cursor=pointer]:
+                            - /url: "#B8-atmosphere-13-00551"
+                          - text: "] (only DM, Linear wind, No Vertical Drag is shown for clarity). Test 4, presented in Table 2 of ["
+                          - link "8" [ref=e4123] [cursor=pointer]:
+                            - /url: "#B8-atmosphere-13-00551"
+                          - text: "], was chosen for comparison since it featured the most similar wind conditions."
+                        - generic [ref=e4124]:
+                          - generic [ref=e4125]:
+                            - text: Table 10. Statistical evaluation of the hover flight presented in
+                            - link "Table 6" [ref=e4126] [cursor=pointer]:
+                              - /url: "#table_body_display_atmosphere-13-00551-t006"
+                            - text: compared with statistical evaluation of Test 4 described in Table 2 of [
+                            - link "8" [ref=e4127] [cursor=pointer]:
+                              - /url: "#B8-atmosphere-13-00551"
+                            - text: "]. Note, in the latter, sampling frequency is 20 Hz whereas this work uses 10 Hz."
+                          - generic [ref=e4129] [cursor=pointer]:
+                            - img "Table" [ref=e4130]
+                            - link [ref=e4131]:
+                              - /url: "#table_body_display_atmosphere-13-00551-t010"
+                        - generic [ref=e4132]: It is interesting to see that both approaches feature a similar bias, but the precise onboard flow sensor has a considerably lower standard deviation. Overall, the performance of the two approaches is very similar. However, the approach presented in this work does not require the additional integration of a custom-made special sensor on the UAV. This impacts the cost, size, and reliability of the instrumentation. Additionally, the necessity of the long arm on which the wind sensor needs to be mounted is likely to make the drone less stable. Additionally, the use of a single pressure probe makes the navigation more complex since the sensor must always point upstream. For all of the above-listed reasons, the authors believe that the presented inertial-based approach represents an interesting alternative that can be further developed.
+                    - generic [ref=e4133]:
+                      - heading "6. Conclusions" [level=2] [ref=e4134]
+                      - generic [ref=e4135]:
+                        - heading "6.1. Summary" [level=4] [ref=e4136]
+                        - generic [ref=e4137]: "The main contributions of this work are:"
+                        - list [ref=e4139]:
+                          - listitem [ref=e4140]:
+                            - generic [ref=e4141]: Validating the tilt method with empirical data using an off-the-shelf drone, making it easily implementable by others.
+                          - listitem [ref=e4142]:
+                            - generic [ref=e4143]: Proposing a novel and more general estimation scheme, usable on a commercial drone, which performs similarly to the tilt approach in hovering conditions while at the same time capable of producing wind estimations during dynamic flights.
+                          - listitem [ref=e4144]:
+                            - generic [ref=e4145]: Empirically assessing the impact of ignoring the vertical wind component on horizontal wind estimation.
+                      - generic [ref=e4146]:
+                        - heading "6.2. Perspectives" [level=4] [ref=e4147]
+                        - generic [ref=e4148]:
+                          - text: Future work should focus on three main aspects. First, further validate the quality of the proposed estimation methods. This can be achieved by addressing the ground truth quality issue discussed in
+                          - link "Section 2.4.2" [ref=e4149] [cursor=pointer]:
+                            - /url: "#sec2dot4dot2-atmosphere-13-00551"
+                          - text: . Additionally, increasing the test dataset size with new flights performed in different environmental conditions (e.g., in stronger wind, in presence of convection, at higher altitude, at lower temperatures, etc.) to confirm the method’s generality.
+                        - generic [ref=e4150]:
+                          - text: The second aspect which deserves further attention is the improvement of the drag model. As discussed in
+                          - link "Section 5.1.2" [ref=e4151] [cursor=pointer]:
+                            - /url: "#sec5dot1dot2-atmosphere-13-00551"
+                          - text: ", different theories may be more suitable to model the drag of small MUAV. Additionally, acquiring a dataset of varying wind in a wind tunnel may also help to identify a suitable drag model. A Computational Fluid Dynamics (CFD) simulation could also be performed to attempt to better understand the impact of drag on the UAV."
+                        - generic [ref=e4152]:
+                          - text: Following up on [
+                          - link "24" [ref=e4153] [cursor=pointer]:
+                            - /url: "#B24-atmosphere-13-00551"
+                          - text: ","
+                          - link "42" [ref=e4154] [cursor=pointer]:
+                            - /url: "#B42-atmosphere-13-00551"
+                          - text: "], the results of this work will be of use in the improvement of the model-based navigation developed by one of the co-authors. This development was so far based on simulations, but this study provides empirical data on which the navigation solution can be tested. Additionally, a dedicated (non-commercial) UAV platform was developed that is expected to overcome some limitations of the current hardware. Namely, this UAV features direct thrust sensors and an inertial sensor of better quality. An evaluation of the performance improvements due to improved sensor quality is planned in the near future."
+                        - generic [ref=e4155]: Finally, future work may aim at developing an application with a user-friendly interface, such that this estimation method can be easily shared within the research community.
+                        - generic [ref=e4156]:
+                          - text: The authors recommend continuing the development of this estimation scheme as it has demonstrated promising results and has the potential to be applied in various fields. As already discussed in
+                          - link "Section 1" [ref=e4157] [cursor=pointer]:
+                            - /url: "#sec1-atmosphere-13-00551"
+                          - text: ", such applications include boundary layer measurements, wind turbine wake measurements, weather observations, to name a few. The approach also can also serve as an alternative to disposable weather balloons."
+                  - generic [ref=e4158]:
+                    - generic [ref=e4159]:
+                      - heading "Author Contributions" [level=2] [ref=e4160]
+                      - generic [ref=e4161]: Conceptualization, K.M., R.H., J.S. and A.G.; methodology, K.M., R.H., J.S. and A.G.; software, K.M. and A.G.; validation, R.H. and J.S.; formal analysis, K.M. and A.G.; investigation, K.M., R.H. and A.G.; resources, R.H. and J.S.; data curation, K.M. and A.G.; writing—original draft preparation, K.M.; writing—review and editing, K.M., R.H., J.S. and A.G.; visualization, K.M.; supervision, R.H. and J.S.; project administration, R.H. and J.S.; funding acquisition, R.H. and J.S. All authors have read and agreed to the published version of the manuscript.
+                    - generic [ref=e4162]:
+                      - heading "Funding" [level=2] [ref=e4163]
+                      - generic [ref=e4164]: "The work is partially supported by the Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung (Swiss National Science Foundation, SNSF). Reference: 200021_182072. Fieldwork in Norway was funded by the Norges Forskningsråd (Research Council of Norway, RCN) through the Arctic Field Grant, provided by the Svalbard Science Forum (SSF). Reference: RiS ID, 11372. The work is also partly sponsored by the RCN through the Centre of Excellence funding scheme. Reference: 223254 (AMOS)."
+                    - generic [ref=e4165]:
+                      - heading "Data Availability Statement" [level=2] [ref=e4166]
+                      - generic [ref=e4167]:
+                        - text: All flight and weather data is available [
+                        - link "43" [ref=e4168] [cursor=pointer]:
+                          - /url: "#B43-atmosphere-13-00551"
+                        - text: "]. Source code is available on GitHub at"
+                        - link "https://github.com/meierkilian/WEMUAV" [ref=e4169] [cursor=pointer]:
+                          - /url: https://github.com/meierkilian/WEMUAV
+                        - text: (accessed on 17 February 2022).
+                    - generic [ref=e4170]:
+                      - heading "Acknowledgments" [level=2] [ref=e4171]
+                      - generic [ref=e4172]: The authors thank Marius Jonassen at the University Centre in Svalbard for his active support of the project.
+                    - generic [ref=e4173]:
+                      - heading "Conflicts of Interest" [level=2] [ref=e4174]
+                      - generic [ref=e4175]: The authors declare no conflict of interest.
+                    - generic [ref=e4176]:
+                      - heading "Abbreviations" [level=2] [ref=e4177]
+                      - generic [ref=e4178]:
+                        - text: "The following abbreviations are used in this manuscript:"
+                        - table [ref=e4179]:
+                          - rowgroup [ref=e4180]:
+                            - row "ABL Atmospheric Boundary Layer" [ref=e4181]:
+                              - cell "ABL" [ref=e4182]
+                              - cell "Atmospheric Boundary Layer" [ref=e4183]
+                            - row "BEM Blade Element Momentum" [ref=e4184]:
+                              - cell "BEM" [ref=e4185]
+                              - cell "Blade Element Momentum" [ref=e4186]
+                            - row "CFD Computational Fluid Dynamics" [ref=e4187]:
+                              - cell "CFD" [ref=e4188]
+                              - cell "Computational Fluid Dynamics" [ref=e4189]
+                            - row "DM Dynamic Model" [ref=e4190]:
+                              - cell "DM" [ref=e4191]
+                              - cell "Dynamic Model" [ref=e4192]
+                            - row "FRD Front-Right-Down" [ref=e4193]:
+                              - cell "FRD" [ref=e4194]
+                              - cell "Front-Right-Down" [ref=e4195]
+                            - row "GNSS Global Navigation Satellite System" [ref=e4196]:
+                              - cell "GNSS" [ref=e4197]
+                              - cell "Global Navigation Satellite System" [ref=e4198]
+                            - row "IMU Inertial Measurement Unit" [ref=e4199]:
+                              - cell "IMU" [ref=e4200]
+                              - cell "Inertial Measurement Unit" [ref=e4201]
+                            - row "INS Inertial Navigation System" [ref=e4202]:
+                              - cell "INS" [ref=e4203]
+                              - cell "Inertial Navigation System" [ref=e4204]
+                            - row "MoTUS Urban Microclimate Measurement Mast" [ref=e4205]:
+                              - cell "MoTUS" [ref=e4206]
+                              - cell "Urban Microclimate Measurement Mast" [ref=e4207]
+                            - row "MUAV Multirotor UAV" [ref=e4208]:
+                              - cell "MUAV" [ref=e4209]
+                              - cell "Multirotor UAV" [ref=e4210]
+                            - row "NED North-East-Down" [ref=e4211]:
+                              - cell "NED" [ref=e4212]
+                              - cell "North-East-Down" [ref=e4213]
+                            - row "RPAS Remotely Piloted Aircraft Systems" [ref=e4214]:
+                              - cell "RPAS" [ref=e4215]
+                              - cell "Remotely Piloted Aircraft Systems" [ref=e4216]
+                            - row "RTK Real-Time Kinematic" [ref=e4217]:
+                              - cell "RTK" [ref=e4218]
+                              - cell "Real-Time Kinematic" [ref=e4219]
+                            - row "TOPOAWS TOPO Automatic Weather Station" [ref=e4220]:
+                              - cell "TOPOAWS" [ref=e4221]
+                              - cell "TOPO Automatic Weather Station" [ref=e4222]
+                            - row "UAS Unmanned Aircraft Systems" [ref=e4223]:
+                              - cell "UAS" [ref=e4224]
+                              - cell "Unmanned Aircraft Systems" [ref=e4225]
+                            - row "UAV Unmanned Aerial Vehicles" [ref=e4226]:
+                              - cell "UAV" [ref=e4227]
+                              - cell "Unmanned Aerial Vehicles" [ref=e4228]
+                            - row "VRS Virtual Reference Station" [ref=e4229]:
+                              - cell "VRS" [ref=e4230]
+                              - cell "Virtual Reference Station" [ref=e4231]
+                    - generic [ref=e4233]:
+                      - heading "Appendix A. Notations" [level=2] [ref=e4234]
+                      - generic [ref=e4235]:
+                        - text: This appendix will briefly introduce the notation conventions used throughout this work. Detailed notation and definitions of reference frames can be found in [
+                        - link "44" [ref=e4236] [cursor=pointer]:
+                          - /url: "#B44-atmosphere-13-00551"
+                        - text: ","
+                        - link "45" [ref=e4237] [cursor=pointer]:
+                          - /url: "#B45-atmosphere-13-00551"
+                        - text: "]."
+                      - generic [ref=e4238]:
+                        - heading "Appendix A.1. Vectors" [level=4] [ref=e4239]
+                        - generic [ref=e4240]:
+                          - text: Vectors are noted using a single lowercase letter in bold. The letter may feature a superscript indicating the frame the vector is expressed in (
+                          - generic [ref=e4241]:
+                            - generic [ref=e4247]:
+                              - generic [ref=e4248]: 𝐫
+                              - generic [ref=e4249]: 𝐢
+                            - math [ref=e4250]:
+                              - generic [ref=e4252]:
+                                - generic [ref=e4253]: r
+                                - generic [ref=e4254]: i
+                          - text: ).
+                      - generic [ref=e4255]:
+                        - heading "Appendix A.2. Rotation Matrices and Quaternions" [level=4] [ref=e4256]
+                        - generic [ref=e4257]:
+                          - text: Rotation matrices are denoted using the uppercase
+                          - generic [ref=e4258]:
+                            - generic [ref=e4263]: 𝐂
+                            - math [ref=e4264]:
+                              - generic [ref=e4266]: C
+                          - text: character in bold. Quaternions are noted using a lowercase
+                          - generic [ref=e4267]:
+                            - generic [ref=e4272]: 𝐪
+                            - math [ref=e4273]:
+                              - generic [ref=e4275]: q
+                          - text: character written in bold. The respective superscript and subscript indicate the two frames the rotation is relating to. For example, a rotation matrix defining the rotation from frame i to j is written as
+                          - generic [ref=e4276]:
+                            - generic [ref=e4282]:
+                              - generic [ref=e4283]: 𝐂
+                              - generic [ref=e4284]: 𝐣
+                              - generic [ref=e4285]: 𝐢
+                            - math [ref=e4286]:
+                              - generic [ref=e4288]:
+                                - generic [ref=e4289]: C
+                                - generic [ref=e4290]: i
+                                - generic [ref=e4291]: j
+                          - text: and a quaternion as
+                          - generic [ref=e4292]:
+                            - generic [ref=e4298]:
+                              - generic [ref=e4299]: 𝐪
+                              - generic [ref=e4300]: 𝐣
+                              - generic [ref=e4301]: 𝐢
+                            - math [ref=e4302]:
+                              - generic [ref=e4304]:
+                                - generic [ref=e4305]: q
+                                - generic [ref=e4306]: i
+                                - generic [ref=e4307]: j
+                          - text: .
+                      - generic [ref=e4308]:
+                        - heading "Appendix A.3. Reference Frames and Hovering" [level=4] [ref=e4309]
+                        - generic [ref=e4310]: "Three main frames are used in this work:"
+                        - list [ref=e4312]:
+                          - listitem [ref=e4313]:
+                            - generic [ref=e4314]: "Inertial frame (i-frame): a non-accelerating and non-rotating frame in which Newtonian mechanics holds (up to the observation precision)."
+                          - listitem [ref=e4315]:
+                            - generic [ref=e4316]: "Local-level (l-frame): local-leveled geodetic frame such that its axes point respectively North, East, and Down (NED), with respect to the reference surface (e.g., ellipsoid)."
+                          - listitem [ref=e4317]:
+                            - generic [ref=e4318]: "Body frame (b-frame): frame fixed to the drone such that its axes point Forward, to the Right and Downward (FRD)."
+                        - generic [ref=e4319]:
+                          - text: Hovering is thus defined as a constant position in the local-level frame (
+                          - generic [ref=e4320]:
+                            - generic [ref=e4326]:
+                              - generic [ref=e4327]:
+                                - generic [ref=e4329]:
+                                  - generic [ref=e4330]: 𝐫
+                                  - generic [ref=e4331]: ˙
+                                - generic [ref=e4332]: 𝐥
+                              - text: =𝟎
+                            - math [ref=e4333]:
+                              - generic [ref=e4335]:
+                                - generic [ref=e4336]:
+                                  - generic [ref=e4337]:
+                                    - generic [ref=e4338]: r
+                                    - generic [ref=e4339]: ˙
+                                  - generic [ref=e4340]: l
+                                - generic [ref=e4341]: =
+                                - generic [ref=e4342]: "0"
+                          - text: ), i.e., stationary with respect to the ground. The expressions “hovering” and “stationary flight” are used interchangeably.
+                    - generic [ref=e4343]:
+                      - heading "References" [level=2] [ref=e4344]
+                      - list [ref=e4345]:
+                        - listitem [ref=e4346]:
+                          - text: "1.O’Shea, O.R.; Hamann, M.; Smith, W.; Taylor, H. Predictable pollution: An assessment of weather balloons and associated impacts on the marine environment—An example for the Great Barrier Reef, Australia. Mar. Pollut. Bull. 2014, 79, 61–68. ["
+                          - link "Google Scholar" [ref=e4347] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Predictable+pollution:+An+assessment+of+weather+balloons+and+associated+impacts+on+the+marine+environment%E2%80%94An+example+for+the+Great+Barrier+Reef,+Australia&author=O%E2%80%99Shea,+O.R.&author=Hamann,+M.&author=Smith,+W.&author=Taylor,+H.&publication_year=2014&journal=Mar.+Pollut.+Bull.&volume=79&pages=61%E2%80%9368&doi=10.1016/j.marpolbul.2013.12.047&pmid=24434000
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4348] [cursor=pointer]:
+                            - /url: http://doi.org/10.1016/j.marpolbul.2013.12.047
+                          - text: "] ["
+                          - link "PubMed" [ref=e4349] [cursor=pointer]:
+                            - /url: http://www.ncbi.nlm.nih.gov/pubmed/24434000
+                          - text: "]"
+                        - listitem [ref=e4350]:
+                          - text: 2.Anderson, K.; Gaston, K.J. Lightweight unmanned aerial vehicles will revolutionize spatial ecology. Front. Ecol. Environ. 2013, 11, 138–146. [
+                          - link "Google Scholar" [ref=e4351] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Lightweight+unmanned+aerial+vehicles+will+revolutionize+spatial+ecology&author=Anderson,+K.&author=Gaston,+K.J.&publication_year=2013&journal=Front.+Ecol.+Environ.&volume=11&pages=138%E2%80%93146&doi=10.1890/120150
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4352] [cursor=pointer]:
+                            - /url: http://doi.org/10.1890/120150
+                          - text: "] ["
+                          - link "Green Version" [ref=e4353] [cursor=pointer]:
+                            - /url: http://pdfs.semanticscholar.org/075c/3fe6bce134d72e08d5109abe2d96276fd52d.pdf
+                          - text: "]"
+                        - listitem [ref=e4354]:
+                          - text: "3.Reuder, J.; Brisset, P.; Jonassen, M.M.; Mayer, S. The Small Unmanned Meteorological Observer SUMO: A new tool for atmospheric boundary layer research. Meteorol. Z. 2009, 18, 141–147. ["
+                          - link "Google Scholar" [ref=e4355] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=The+Small+Unmanned+Meteorological+Observer+SUMO:+A+new+tool+for+atmospheric+boundary+layer+research&author=Reuder,+J.&author=Brisset,+P.&author=Jonassen,+M.M.&author=Mayer,+S.&publication_year=2009&journal=Meteorol.+Z.&volume=18&pages=141%E2%80%93147&doi=10.1127/0941-2948/2009/0363
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4356] [cursor=pointer]:
+                            - /url: http://doi.org/10.1127/0941-2948/2009/0363
+                          - text: "]"
+                        - listitem [ref=e4357]:
+                          - text: "4.Hann, R.; Altstädter, B.; Betlem, P.; Deja, K.; Dragańska-Deja, K.; Ewertowski, M.; Hartvich, F.; Jonassen, M.; Lampert, A.; Laska, M.; et al. Scientific Applications of Unmanned Vehicles in Svalbard; SESS Report 2020; Svalbard Integrated Arctic Earth Observing System: Longyearbyen, Norway, 2020. ["
+                          - link "Google Scholar" [ref=e4358] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Scientific+Applications+of+Unmanned+Vehicles+in+Svalbard&author=Hann,+R.&author=Altst%C3%A4dter,+B.&author=Betlem,+P.&author=Deja,+K.&author=Draga%C5%84ska-Deja,+K.&author=Ewertowski,+M.&author=Hartvich,+F.&author=Jonassen,+M.&author=Lampert,+A.&author=Laska,+M.&publication_year=2020
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4359] [cursor=pointer]:
+                            - /url: http://doi.org/10.5281/ZENODO.4293283
+                          - text: "]"
+                        - listitem [ref=e4360]:
+                          - text: 5.Lampert, A.; Altstädter, B.; Bärfuss, K.; Bretschneider, L.; Sandgaard, J.; Michaelis, J.; Lobitz, L.; Asmussen, M.; Damm, E.; Käthner, R.; et al. Unmanned Aerial Systems for Investigating the Polar Atmospheric Boundary Layer—Technical Challenges and Examples of Applications. Atmosphere 2020, 11, 416. [
+                          - link "Google Scholar" [ref=e4361] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Unmanned+Aerial+Systems+for+Investigating+the+Polar+Atmospheric+Boundary+Layer%E2%80%94Technical+Challenges+and+Examples+of+Applications&author=Lampert,+A.&author=Altst%C3%A4dter,+B.&author=B%C3%A4rfuss,+K.&author=Bretschneider,+L.&author=Sandgaard,+J.&author=Michaelis,+J.&author=Lobitz,+L.&author=Asmussen,+M.&author=Damm,+E.&author=K%C3%A4thner,+R.&publication_year=2020&journal=Atmosphere&volume=11&pages=416&doi=10.3390/atmos11040416
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4362] [cursor=pointer]:
+                            - /url: http://doi.org/10.3390/atmos11040416
+                          - text: "] ["
+                          - link "Green Version" [ref=e4363] [cursor=pointer]:
+                            - /url: https://www.mdpi.com/2073-4433/11/4/416/pdf
+                          - text: "]"
+                        - listitem [ref=e4364]:
+                          - text: 6.Subramanian, B.; Chokani, N.; Abhari, R.S. Drone-Based Experimental Investigation of Three-Dimensional Flow Structure of a Multi-Megawatt Wind Turbine in Complex Terrain. J. Sol. Energy Eng. 2015, 137, 051007. [
+                          - link "Google Scholar" [ref=e4365] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Drone-Based+Experimental+Investigation+of+Three-Dimensional+Flow+Structure+of+a+Multi-Megawatt+Wind+Turbine+in+Complex+Terrain&author=Subramanian,+B.&author=Chokani,+N.&author=Abhari,+R.S.&publication_year=2015&journal=J.+Sol.+Energy+Eng.&volume=137&pages=051007&doi=10.1115/1.4031038
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4366] [cursor=pointer]:
+                            - /url: http://doi.org/10.1115/1.4031038
+                          - text: "]"
+                        - listitem [ref=e4367]:
+                          - text: 7.Subramanian, B.; Chokani, N.; Abhari, R. Experimental analysis of wakes in a utility scale wind farm. J. Wind. Eng. Ind. Aerodyn. 2015, 138, 61–68. [
+                          - link "Google Scholar" [ref=e4368] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Experimental+analysis+of+wakes+in+a+utility+scale+wind+farm&author=Subramanian,+B.&author=Chokani,+N.&author=Abhari,+R.&publication_year=2015&journal=J.+Wind.+Eng.+Ind.+Aerodyn.&volume=138&pages=61%E2%80%9368&doi=10.1016/j.jweia.2014.12.009
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4369] [cursor=pointer]:
+                            - /url: http://doi.org/10.1016/j.jweia.2014.12.009
+                          - text: "]"
+                        - listitem [ref=e4370]:
+                          - text: "8.Fuertes, F.C.; Wilhelm, L.; Porté-Agel, F. Multirotor UAV-Based Platform for the Measurement of Atmospheric Turbulence: Validation and Signature Detection of Tip Vortices of Wind Turbine Blades. J. Atmos. Ocean. Technol. 2019, 36, 941–955. ["
+                          - link "Google Scholar" [ref=e4371] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Multirotor+UAV-Based+Platform+for+the+Measurement+of+Atmospheric+Turbulence:+Validation+and+Signature+Detection+of+Tip+Vortices+of+Wind+Turbine+Blades&author=Fuertes,+F.C.&author=Wilhelm,+L.&author=Port%C3%A9-Agel,+F.&publication_year=2019&journal=J.+Atmos.+Ocean.+Technol.&volume=36&pages=941%E2%80%93955&doi=10.1175/JTECH-D-17-0220.1
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4372] [cursor=pointer]:
+                            - /url: http://doi.org/10.1175/JTECH-D-17-0220.1
+                          - text: "]"
+                        - listitem [ref=e4373]:
+                          - text: 9.Prudden, S.; Fisher, A.; Marino, M.; Mohamed, A.; Watkins, S.; Wild, G. Measuring wind with Small Unmanned Aircraft Systems. J. Wind. Eng. Ind. Aerodyn. 2018, 176, 197–210. [
+                          - link "Google Scholar" [ref=e4374] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Measuring+wind+with+Small+Unmanned+Aircraft+Systems&author=Prudden,+S.&author=Fisher,+A.&author=Marino,+M.&author=Mohamed,+A.&author=Watkins,+S.&author=Wild,+G.&publication_year=2018&journal=J.+Wind.+Eng.+Ind.+Aerodyn.&volume=176&pages=197%E2%80%93210&doi=10.1016/j.jweia.2018.03.029
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4375] [cursor=pointer]:
+                            - /url: http://doi.org/10.1016/j.jweia.2018.03.029
+                          - text: "]"
+                        - listitem [ref=e4376]:
+                          - text: 10.Mayer, S.; Hattenberger, G.; Brisset, P.; Jonassen, M.O.; Reuder, J. A ‘No-Flow-Sensor’ Wind Estimation Algorithm for Unmanned Aerial Systems. Int. J. Micro Air Veh. 2012, 4, 15–29. [
+                          - link "Google Scholar" [ref=e4377] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=A+%E2%80%98No-Flow-Sensor%E2%80%99+Wind+Estimation+Algorithm+for+Unmanned+Aerial+Systems&author=Mayer,+S.&author=Hattenberger,+G.&author=Brisset,+P.&author=Jonassen,+M.O.&author=Reuder,+J.&publication_year=2012&journal=Int.+J.+Micro+Air+Veh.&volume=4&pages=15%E2%80%9329&doi=10.1260/1756-8293.4.1.15
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4378] [cursor=pointer]:
+                            - /url: http://doi.org/10.1260/1756-8293.4.1.15
+                          - text: "] ["
+                          - link "Green Version" [ref=e4379] [cursor=pointer]:
+                            - /url: http://journals.sagepub.com/doi/pdf/10.1260/1756-8293.4.1.15
+                          - text: "]"
+                        - listitem [ref=e4380]:
+                          - text: 11.Khaghani, M.; Skaloud, J. Assessment of VDM-based autonomous navigation of a UAV under operational conditions. Robot. Auton. Syst. 2018, 106, 152–164. [
+                          - link "Google Scholar" [ref=e4381] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Assessment+of+VDM-based+autonomous+navigation+of+a+UAV+under+operational+conditions&author=Khaghani,+M.&author=Skaloud,+J.&publication_year=2018&journal=Robot.+Auton.+Syst.&volume=106&pages=152%E2%80%93164&doi=10.1016/j.robot.2018.05.007
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4382] [cursor=pointer]:
+                            - /url: http://doi.org/10.1016/j.robot.2018.05.007
+                          - text: "]"
+                        - listitem [ref=e4383]:
+                          - text: 12.Khaghani, M.; Skaloud, J. Evaluation of Wind Effects on UAV Autonomous Navigation Based on Vehicle Dynamic Model. In Proceedings of the 29th International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS+ 2016), Portland, OR, USA, 12–16 September 2016; pp. 1432–1440. [
+                          - link "Google Scholar" [ref=e4384] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Evaluation+of+Wind+Effects+on+UAV+Autonomous+Navigation+Based+on+Vehicle+Dynamic+Model&conference=Proceedings+of+the+29th+International+Technical+Meeting+of+The+Satellite+Division+of+the+Institute+of+Navigation+(ION+GNSS++2016)&author=Khaghani,+M.&author=Skaloud,+J.&publication_year=2016&pages=1432%E2%80%931440&doi=10.33012/2016.14618
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4385] [cursor=pointer]:
+                            - /url: http://doi.org/10.33012/2016.14618
+                          - text: "]"
+                        - listitem [ref=e4386]:
+                          - text: 13.Neumann, P.P.; Bartholmai, M. Real-time wind estimation on a micro unmanned aerial vehicle using its inertial measurement unit. Sens. Actuators A Phys. 2015, 235, 300–310. [
+                          - link "Google Scholar" [ref=e4387] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Real-time+wind+estimation+on+a+micro+unmanned+aerial+vehicle+using+its+inertial+measurement+unit&author=Neumann,+P.P.&author=Bartholmai,+M.&publication_year=2015&journal=Sens.+Actuators+A+Phys.&volume=235&pages=300%E2%80%93310&doi=10.1016/j.sna.2015.09.036
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4388] [cursor=pointer]:
+                            - /url: http://doi.org/10.1016/j.sna.2015.09.036
+                          - text: "]"
+                        - listitem [ref=e4389]:
+                          - text: 14.Palomaki, R.T.; Rose, N.T.; van den Bossche, M.; Sherman, T.J.; De Wekker, S.F.J. Wind Estimation in the Lower Atmosphere Using Multirotor Aircraft. J. Atmos. Ocean. Technol. 2017, 34, 1183–1191. [
+                          - link "Google Scholar" [ref=e4390] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Wind+Estimation+in+the+Lower+Atmosphere+Using+Multirotor+Aircraft&author=Palomaki,+R.T.&author=Rose,+N.T.&author=van+den+Bossche,+M.&author=Sherman,+T.J.&author=De+Wekker,+S.F.J.&publication_year=2017&journal=J.+Atmos.+Ocean.+Technol.&volume=34&pages=1183%E2%80%931191&doi=10.1175/JTECH-D-16-0177.1
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4391] [cursor=pointer]:
+                            - /url: http://doi.org/10.1175/JTECH-D-16-0177.1
+                          - text: "]"
+                        - listitem [ref=e4392]:
+                          - text: 15.Song, Y.; Luo, B.; Meng, Q.H. A rotor-aerodynamics-based wind estimation method using a quadrotor. Meas. Sci. Technol. 2018, 29, 025801. [
+                          - link "Google Scholar" [ref=e4393] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=A+rotor-aerodynamics-based+wind+estimation+method+using+a+quadrotor&author=Song,+Y.&author=Luo,+B.&author=Meng,+Q.H.&publication_year=2018&journal=Meas.+Sci.+Technol.&volume=29&pages=025801&doi=10.1088/1361-6501/aa8a9d
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4394] [cursor=pointer]:
+                            - /url: http://doi.org/10.1088/1361-6501/aa8a9d
+                          - text: "] ["
+                          - link "Green Version" [ref=e4395] [cursor=pointer]:
+                            - /url: http://iopscience.iop.org/article/10.1088/1361-6501/aa8a9d/ampdf
+                          - text: "]"
+                        - listitem [ref=e4396]:
+                          - text: 16.Xing, Z.; Zhang, Y.; Su, C.Y.; Qu, Y.; Yu, Z. Kalman Filter-based Wind Estimation for Forest Fire Monitoring with a Quadrotor UAV. In Proceedings of the 2019 IEEE Conference on Control Technology and Applications (CCTA), Hong Kong, China, 19–21 August 2019; pp. 783–788. [
+                          - link "Google Scholar" [ref=e4397] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Kalman+Filter-based+Wind+Estimation+for+Forest+Fire+Monitoring+with+a+Quadrotor+UAV&conference=Proceedings+of+the+2019+IEEE+Conference+on+Control+Technology+and+Applications+(CCTA)&author=Xing,+Z.&author=Zhang,+Y.&author=Su,+C.Y.&author=Qu,+Y.&author=Yu,+Z.&publication_year=2019&pages=783%E2%80%93788&doi=10.1109/CCTA.2019.8920637
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4398] [cursor=pointer]:
+                            - /url: http://doi.org/10.1109/CCTA.2019.8920637
+                          - text: "]"
+                        - listitem [ref=e4399]:
+                          - text: 17.Wang, L.; Misra, G.; Bai, X. A K Nearest Neighborhood-Based Wind Estimation for Rotary-Wing VTOL UAVs. Drones 2019, 3, 31. [
+                          - link "Google Scholar" [ref=e4400] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=A+K+Nearest+Neighborhood-Based+Wind+Estimation+for+Rotary-Wing+VTOL+UAVs&author=Wang,+L.&author=Misra,+G.&author=Bai,+X.&publication_year=2019&journal=Drones&volume=3&pages=31&doi=10.3390/drones3020031
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4401] [cursor=pointer]:
+                            - /url: http://doi.org/10.3390/drones3020031
+                          - text: "] ["
+                          - link "Green Version" [ref=e4402] [cursor=pointer]:
+                            - /url: https://www.mdpi.com/2504-446X/3/2/31/pdf
+                          - text: "]"
+                        - listitem [ref=e4403]:
+                          - text: "18.Perozzi, G.; Efimov, D.; Biannic, J.M.; Planckaert, L. Using a quadrotor as wind sensor: Time-varying parameter estimation algorithms. Int. J. Control. 2020, 95, 126–137. ["
+                          - link "Google Scholar" [ref=e4404] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Using+a+quadrotor+as+wind+sensor:+Time-varying+parameter+estimation+algorithms&author=Perozzi,+G.&author=Efimov,+D.&author=Biannic,+J.M.&author=Planckaert,+L.&publication_year=2020&journal=Int.+J.+Control.&volume=95&pages=126%E2%80%93137&doi=10.1080/00207179.2020.1780324
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4405] [cursor=pointer]:
+                            - /url: http://doi.org/10.1080/00207179.2020.1780324
+                          - text: "]"
+                        - listitem [ref=e4406]:
+                          - text: 19.Qu, Y.; Wang, K.; Wu, X. Wind Estimation with UAVs Using Improved Adaptive Kalman Filter. In Proceedings of the 2019 Chinese Control And Decision Conference (CCDC), Nanchang, China, 3–5 June 2019; pp. 3660–3665. [
+                          - link "Google Scholar" [ref=e4407] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Wind+Estimation+with+UAVs+Using+Improved+Adaptive+Kalman+Filter&conference=Proceedings+of+the+2019+Chinese+Control+And+Decision+Conference+(CCDC)&author=Qu,+Y.&author=Wang,+K.&author=Wu,+X.&publication_year=2019&pages=3660%E2%80%933665
+                          - text: "]"
+                        - listitem [ref=e4408]:
+                          - text: 20.Abichandani, P.; Lobo, D.; Ford, G.; Bucci, D.; Kam, M. Wind Measurement and Simulation Techniques in Multi-Rotor Small Unmanned Aerial Vehicles. IEEE Access 2020, 8, 54910–54927. [
+                          - link "Google Scholar" [ref=e4409] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Wind+Measurement+and+Simulation+Techniques+in+Multi-Rotor+Small+Unmanned+Aerial+Vehicles&author=Abichandani,+P.&author=Lobo,+D.&author=Ford,+G.&author=Bucci,+D.&author=Kam,+M.&publication_year=2020&journal=IEEE+Access&volume=8&pages=54910%E2%80%9354927&doi=10.1109/ACCESS.2020.2977693
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4410] [cursor=pointer]:
+                            - /url: http://doi.org/10.1109/ACCESS.2020.2977693
+                          - text: "]"
+                        - listitem [ref=e4411]:
+                          - text: 21.González-Rocha, J.; De Wekker, S.F.J.; Ross, S.D.; Woolsey, C.A. Wind Profiling in the Lower Atmosphere from Wind-Induced Perturbations to Multirotor UAS. Sensors 2020, 20, 1341. [
+                          - link "Google Scholar" [ref=e4412] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Wind+Profiling+in+the+Lower+Atmosphere+from+Wind-Induced+Perturbations+to+Multirotor+UAS&author=Gonz%C3%A1lez-Rocha,+J.&author=De+Wekker,+S.F.J.&author=Ross,+S.D.&author=Woolsey,+C.A.&publication_year=2020&journal=Sensors&volume=20&pages=1341&doi=10.3390/s20051341
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4413] [cursor=pointer]:
+                            - /url: http://doi.org/10.3390/s20051341
+                          - text: "] ["
+                          - link "Green Version" [ref=e4414] [cursor=pointer]:
+                            - /url: https://www.mdpi.com/1424-8220/20/5/1341/pdf
+                          - text: "]"
+                        - listitem [ref=e4415]:
+                          - text: "22.Allison, S.; Bai, H.; Jayaraman, B. Wind estimation using quadcopter motion: A machine learning approach. Aerosp. Sci. Technol. 2020, 98, 105699. ["
+                          - link "Google Scholar" [ref=e4416] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Wind+estimation+using+quadcopter+motion:+A+machine+learning+approach&author=Allison,+S.&author=Bai,+H.&author=Jayaraman,+B.&publication_year=2020&journal=Aerosp.+Sci.+Technol.&volume=98&pages=105699&doi=10.1016/j.ast.2020.105699
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4417] [cursor=pointer]:
+                            - /url: http://doi.org/10.1016/j.ast.2020.105699
+                          - text: "] ["
+                          - link "Green Version" [ref=e4418] [cursor=pointer]:
+                            - /url: http://arxiv.org/pdf/1907.05720
+                          - text: "]"
+                        - listitem [ref=e4419]:
+                          - text: "23.Loubimov, G.; Kinzel, M.P.; Bhattacharya, S. Measuring Atmospheric Boundary Layer Profiles Using UAV Control Data; AIAA Scitech 2020 Forum; American Institute of Aeronautics and Astronautics: Orlando, FL, USA, 2020. ["
+                          - link "Google Scholar" [ref=e4420] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Measuring+Atmospheric+Boundary+Layer+Profiles+Using+UAV+Control+Data&author=Loubimov,+G.&author=Kinzel,+M.P.&author=Bhattacharya,+S.&publication_year=2020
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4421] [cursor=pointer]:
+                            - /url: http://doi.org/10.2514/6.2020-1978
+                          - text: "]"
+                        - listitem [ref=e4422]:
+                          - text: "24.Crocoll, P.; Seibold, J.; Scholz, G.; Trommer, G.F. Model-Aided Navigation for a Quadrotor Helicopter: A Novel Navigation System and First Experimental Results: Model-Aided navigation for a quadrotor helicopter. Navigation 2014, 61, 253–271. ["
+                          - link "Google Scholar" [ref=e4423] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Model-Aided+Navigation+for+a+Quadrotor+Helicopter:+A+Novel+Navigation+System+and+First+Experimental+Results:+Model-Aided+navigation+for+a+quadrotor+helicopter&author=Crocoll,+P.&author=Seibold,+J.&author=Scholz,+G.&author=Trommer,+G.F.&publication_year=2014&journal=Navigation&volume=61&pages=253%E2%80%93271&doi=10.1002/navi.68
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4424] [cursor=pointer]:
+                            - /url: http://doi.org/10.1002/navi.68
+                          - text: "]"
+                        - listitem [ref=e4425]:
+                          - text: 25.Crocoll, P.; Trommer, G.F. Quadrotor inertial navigation aided by a vehicle dynamics model with in-flight parameter estimation. In Proceedings of the 27th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2014), Tampa, FL, USA, 8–12 September 2014; pp. 1784–1795. [
+                          - link "Google Scholar" [ref=e4426] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Quadrotor+inertial+navigation+aided+by+a+vehicle+dynamics+model+with+in-flight+parameter+estimation&conference=Proceedings+of+the+27th+International+Technical+Meeting+of+the+Satellite+Division+of+The+Institute+of+Navigation+(ION+GNSS++2014)&author=Crocoll,+P.&author=Trommer,+G.F.&publication_year=2014&pages=1784%E2%80%931795
+                          - text: "]"
+                        - listitem [ref=e4427]:
+                          - text: 26.Heidari, H.; Saska, M. Collision-free trajectory planning of multi-rotor UAVs in a wind condition based on modified potential field. Mech. Mach. Theory 2021, 156, 104140. [
+                          - link "Google Scholar" [ref=e4428] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Collision-free+trajectory+planning+of+multi-rotor+UAVs+in+a+wind+condition+based+on+modified+potential+field&author=Heidari,+H.&author=Saska,+M.&publication_year=2021&journal=Mech.+Mach.+Theory&volume=156&pages=104140&doi=10.1016/j.mechmachtheory.2020.104140
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4429] [cursor=pointer]:
+                            - /url: http://doi.org/10.1016/j.mechmachtheory.2020.104140
+                          - text: "]"
+                        - listitem [ref=e4430]:
+                          - text: 27.Bouabdallah, S. Design and Control of Quadrotors with Application to Autonomous Flying. Ph.D. Thesis, EPFL, Lausanne, Switzerland, 2007. [
+                          - link "Google Scholar" [ref=e4431] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Design+and+Control+of+Quadrotors+with+Application+to+Autonomous+Flying&author=Bouabdallah,+S.&publication_year=2007
+                          - text: "]"
+                        - listitem [ref=e4432]: "28.Russell, C.; Jung, J.; Willink, G.; Glasner, B. Wind Tunnel and Hover Performance Test Results for Multicopter UAS Vehicles; Technical Memorandum NASA/TM–2018–219758; NASA Ames Research Center: Mountain View, CA, USA, 2018."
+                        - listitem [ref=e4433]:
+                          - text: "29.Schiano, F.; Alonso-Mora, J.; Rudin, K.; Beardsley, P.; Siegwart, R.; Sicilianok, B. Towards estimation and correction of wind effects on a quadrotor UAV. In Proceedings of the IMAV 2014: International Micro Air Vehicle Conference and Competition, Delft, The Netherlands, 12–15 August 2014; pp. 134–141. ["
+                          - link "Google Scholar" [ref=e4434] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Towards+estimation+and+correction+of+wind+effects+on+a+quadrotor+UAV&conference=Proceedings+of+the+IMAV+2014:+International+Micro+Air+Vehicle+Conference+and+Competition&author=Schiano,+F.&author=Alonso-Mora,+J.&author=Rudin,+K.&author=Beardsley,+P.&author=Siegwart,+R.&author=Sicilianok,+B.&publication_year=2014&pages=134%E2%80%93141
+                          - text: "]"
+                        - listitem [ref=e4435]:
+                          - text: "30.Brockmann, E.; Wild, U.; Ineichen, D.; Grünig, S. Automated GPS Network in Switzerland (AGNES); Activity Report; International Foundation HFSJG: Bern, Switzerland, 2004. ["
+                          - link "Google Scholar" [ref=e4436] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Automated+GPS+Network+in+Switzerland+(AGNES)&author=Brockmann,+E.&author=Wild,+U.&author=Ineichen,+D.&author=Gr%C3%BCnig,+S.&publication_year=2004
+                          - text: "]"
+                        - listitem [ref=e4437]:
+                          - text: "31.Datasheet Young 05103. Available online:"
+                          - link "https://web.archive.org/web/20220317140353/https://www.youngusa.com/product/wind-monitor/" [ref=e4438] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20220317140353/https://www.youngusa.com/product/wind-monitor/
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4439]:
+                          - text: "32.Datasheet PT1000. Available online:"
+                          - link "https://web.archive.org/web/20220317141946/https://www.tme.eu/Document/67cf717905f835bc5efcdcd56ca3a8e2/Pt1000-550_EN.pdf" [ref=e4440] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20220317141946/https://www.tme.eu/Document/67cf717905f835bc5efcdcd56ca3a8e2/Pt1000-550_EN.pdf
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4441]:
+                          - text: "33.Datasheet Youg 61302L. Available online:"
+                          - link "https://web.archive.org/web/20220317142020/https://s.campbellsci.com/documents/ca/manuals/61302l_man.pdf" [ref=e4442] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20220317142020/https://s.campbellsci.com/documents/ca/manuals/61302l_man.pdf
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4443]:
+                          - text: "34.Datasheet Rotronic HygroClip. Available online:"
+                          - link "https://web.archive.org/web/20220317141955/https://www.rotronic.com/fr-ch/humidity-measurement-feuchtemessung-temperaturmessungs/humidit/capteurs-et-filtres" [ref=e4444] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20220317141955/https://www.rotronic.com/fr-ch/humidity-measurement-feuchtemessung-temperaturmessungs/humidit/capteurs-et-filtres
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4445]:
+                          - text: "35.Datasheet Gill WindMaster. Available online:"
+                          - link "https://web.archive.org/web/20220305164051/http://gillinstruments.com/data/datasheets/WindMaster%20iss6.pdf" [ref=e4446] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20220305164051/http://gillinstruments.com/data/datasheets/WindMaster%20iss6.pdf
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4447]:
+                          - text: "36.Datasheet SparkFun SEN-08942. Available online:"
+                          - link "https://web.archive.org/web/20211127101757/https://cdn.sparkfun.com/assets/d/1/e/0/6/DS-15901-Weather_Meter.pdf" [ref=e4448] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20211127101757/https://cdn.sparkfun.com/assets/d/1/e/0/6/DS-15901-Weather_Meter.pdf
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4449]:
+                          - text: "37.Datasheet Sensirion SHT85. Available online:"
+                          - link "https://web.archive.org/web/20220317142105/https://developer.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT85_Datasheet.pdf" [ref=e4450] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20220317142105/https://developer.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT85_Datasheet.pdf
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4451]:
+                          - text: "38.Datasheet MS5837-02BA. Available online:"
+                          - link "https://web.archive.org/web/20220317142123/https://www.farnell.com/datasheets/2646146.pdf" [ref=e4452] [cursor=pointer]:
+                            - /url: https://web.archive.org/web/20220317142123/https://www.farnell.com/datasheets/2646146.pdf
+                          - text: (accessed on 17 February 2022).
+                        - listitem [ref=e4453]:
+                          - text: 39.Martin, P.; Salaun, E. The true role of accelerometer feedback in quadrotor control. In Proceedings of the 2010 IEEE International Conference on Robotics and Automation, Anchorage, AK, USA, 3–8 May 2010; pp. 1623–1629. [
+                          - link "Google Scholar" [ref=e4454] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=The+true+role+of+accelerometer+feedback+in+quadrotor+control&conference=Proceedings+of+the+2010+IEEE+International+Conference+on+Robotics+and+Automation&author=Martin,+P.&author=Salaun,+E.&publication_year=2010&pages=1623%E2%80%931629&doi=10.1109/ROBOT.2010.5509980
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4455] [cursor=pointer]:
+                            - /url: http://doi.org/10.1109/ROBOT.2010.5509980
+                          - text: "] ["
+                          - link "Green Version" [ref=e4456] [cursor=pointer]:
+                            - /url: http://hal.archives-ouvertes.fr/docs/00/42/24/23/PDF/quadri_accelero_feedback.pdf
+                          - text: "]"
+                        - listitem [ref=e4457]:
+                          - text: "40.Furrer, F.; Burri, M.; Achtelik, M.; Siegwart, R. RotorS—A Modular Gazebo MAV Simulator Framework. In Robot Operating System (ROS); Koubaa, A., Ed.; Series Title: Studies in Computational Intelligence; Springer International Publishing: Cham, Switzerland, 2016; Volume 625, pp. 595–625. ["
+                          - link "Google Scholar" [ref=e4458] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=RotorS%E2%80%94A+Modular+Gazebo+MAV+Simulator+Framework&author=Furrer,+F.&author=Burri,+M.&author=Achtelik,+M.&author=Siegwart,+R.&publication_year=2016&pages=595%E2%80%93625
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4459] [cursor=pointer]:
+                            - /url: http://doi.org/10.1007/978-3-319-26054-9_23
+                          - text: "]"
+                        - listitem [ref=e4460]:
+                          - text: "41.Bauersfeld, L.; Kaufmann, E.; Foehn, P.; Sun, S.; Scaramuzza, D. NeuroBEM: Hybrid Aerodynamic Quadrotor Model. arXiv 2021, arXiv:2106.08015. ["
+                          - link "Google Scholar" [ref=e4461] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=NeuroBEM:+Hybrid+Aerodynamic+Quadrotor+Model&author=Bauersfeld,+L.&author=Kaufmann,+E.&author=Foehn,+P.&author=Sun,+S.&author=Scaramuzza,+D.&publication_year=2021&journal=arXiv
+                          - text: "]"
+                        - listitem [ref=e4462]:
+                          - text: 42.Joseph Paul, K. Introducing Vehicle Dynamic Models in Dynamic Networks for Navigation in UAVs. Master’s Thesis, EPFL, Lausanne, Switzerland, 2019. [
+                          - link "Google Scholar" [ref=e4463] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Introducing+Vehicle+Dynamic+Models+in+Dynamic+Networks+for+Navigation+in+UAVs&author=Joseph+Paul,+K.&publication_year=2019
+                          - text: "]"
+                        - listitem [ref=e4464]:
+                          - text: 43.Khaghani, M. Vehicle Dynamic Model Based Navigation for Small UAVs. Ph.D. Thesis, EPFL, Lausanne, Switzerland, 2018. [
+                          - link "Google Scholar" [ref=e4465] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Vehicle+Dynamic+Model+Based+Navigation+for+Small+UAVs&author=Khaghani,+M.&publication_year=2018
+                          - text: "]"
+                        - listitem [ref=e4466]:
+                          - text: 44.Stebler, Y. Modeling and Processing Approaches for Integrated Inertial Navigation. Ph.D. Thesis, EPFL, Lausanne, Switzerland, 2013. [
+                          - link "Google Scholar" [ref=e4467] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Modeling+and+Processing+Approaches+for+Integrated+Inertial+Navigation&author=Stebler,+Y.&publication_year=2013
+                          - text: "]"
+                        - listitem [ref=e4468]:
+                          - text: 45.Richard, H.; Kilian, M.; Arthur, G. Validation data for wind speed and wind direction measurements with quadcopter drones. DataverseNO 2022. accepted for publication. [
+                          - link "Google Scholar" [ref=e4469] [cursor=pointer]:
+                            - /url: http://scholar.google.com/scholar_lookup?title=Validation+data+for+wind+speed+and+wind+direction+measurements+with+quadcopter+drones&author=Richard,+H.&author=Kilian,+M.&author=Arthur,+G.&publication_year=2022&journal=DataverseNO&doi=10.18710/AFDYLS
+                          - text: "] ["
+                          - link "CrossRef" [ref=e4470] [cursor=pointer]:
+                            - /url: http://doi.org/10.18710/AFDYLS
+                          - text: "]"
+                    - table [ref=e4472]:
+                      - rowgroup [ref=e4473]:
+                        - 'row "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations." [ref=e4474]':
+                          - cell [ref=e4475]
+                          - 'cell "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations." [ref=e4476]':
+                            - generic [ref=e4477]: "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+                    - generic [ref=e4478]:
+                      - text: © 2022 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+                      - link "https://creativecommons.org/licenses/by/4.0/" [ref=e4479] [cursor=pointer]:
+                        - /url: https://creativecommons.org/licenses/by/4.0/
+                      - text: ).
+                - generic [ref=e4480]:
+                  - heading "Share and Cite" [level=2] [ref=e4481]: Share and Cite
+                  - generic [ref=e4482]:
+                    - link "" [ref=e4483] [cursor=pointer]:
+                      - /url: mailto:?&subject=From%20MDPI%3A%20%22Wind%20Estimation%20with%20Multirotor%20UAVs"&body=https://www.mdpi.com/1565516%3A%0A%0AWind%20Estimation%20with%20Multirotor%20UAVs%0A%0AAbstract%3A%20Unmanned%20Aerial%20Vehicles%20%28UAVs%29%20have%20benefited%20from%20a%20tremendous%20increase%20in%20popularity%20over%20the%20past%20decade%2C%20which%20has%20inspired%20their%20application%20toward%20many%20novel%20and%20unique%20use%20cases.%20One%20of%20them%20is%20the%20use%20of%20UAVs%20in%20meteorological%20research%2C%20in%20particular%20for%20wind%20measurement.%20Research%20in%20this%20field%20using%20quadcopter%20UAVs%20has%20shown%20promising%20results.%20However%2C%20most%20of%20the%20results%20in%20the%20literature%20suffer%20from%20three%20main%20drawbacks.%20First%2C%20experiments%20are%20performed%20as%20numerical%20simulations%20or%20in%20wind%20tunnels.%20Such%20results%20are%20limited%20in%20their%20validity%20in%20real-life%20conditions.%20Second%2C%20it%20is%20almost%20always%20assumed%20that%20the%20drone%20is%20stationary%2C%20which%20limits%20measurements%20spatially.%20Third%2C%20no%20attempts%20at%20estimating%20vertical%20wind%20are%20made.%20Overcoming%20these%20limitations%20offer%20an%20opportunity%20to%20gain%20significant%20value%20from%20using%20UAVs%20for%20meteorological%20measurements.%20We%20address%20these%20shortcomings%20by%20proposing%20a%20new%20dynamic%20model-based%20approach%2C%20that%20relies%20on%20the%20assumption%20that%20thrust%20can%20be%20measured%20or%20estimated%2C%20while%20drag%20can%20be%20related%20to%20air%20speed.%20Moreover%2C%20the%20proposed%20method%20is%20tested%20on%20empirical%20data%20gathered%20on%20a%20DJI%20Phantom%204%20drone.%20During%20hovering%2C%20our%20method%20leads%20to%20precision%20and%20accuracy%20comparable%20to%20existing%20methods%20that%20use%20tilt%20to%20estimate%20the%20wind.%20At%20the%20same%20time%2C%20the%20method%20is%20able[...]
+                      - generic [ref=e4484]: 
+                    - link [ref=e4485] [cursor=pointer]:
+                      - /url: https://x.com/intent/tweet?text=Wind+Estimation+with+Multirotor+UAVs&hashtags=mdpiatmosphere&url=https%3A%2F%2Fwww.mdpi.com%2F1565516&via=Atmosphere_MDPI
+                    - link "" [ref=e4487] [cursor=pointer]:
+                      - /url: "\t                    http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mdpi.com%2F1565516&title=Wind%20Estimation%20with%20Multirotor%20UAVs%26source%3Dhttps%3A%2F%2Fwww.mdpi.com%26summary%3DUnmanned%20Aerial%20Vehicles%20%28UAVs%29%20have%20benefited%20from%20a%20tremendous%20increase%20in%20popularity%20over%20the%20past%20decade%2C%20which%20has%20inspired%20their%20application%20toward%20many%20novel%20and%20unique%20use%20cases.%20One%20of%20them%20is%20the%20use%20of%20UAVs%20in%20meteorological%20research%2C%20in%20%5B...%5D"
+                      - generic [ref=e4488]: 
+                    - link "" [ref=e4489] [cursor=pointer]:
+                      - /url: http://www.facebook.com/sharer.php?u=https://www.mdpi.com/1565516
+                      - generic [ref=e4490]: 
+                    - link "Wechat" [ref=e4491] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                    - link "" [ref=e4493] [cursor=pointer]:
+                      - /url: http://www.reddit.com/submit?url=https://www.mdpi.com/1565516
+                      - generic [ref=e4494]: 
+                    - link "Mendeley" [ref=e4495] [cursor=pointer]:
+                      - /url: http://www.mendeley.com/import/?url=https://www.mdpi.com/1565516
+                  - generic [ref=e4497]:
+                    - generic [ref=e4498]: MDPI and ACS Style
+                    - paragraph [ref=e4499]:
+                      - text: Meier, K.; Hann, R.; Skaloud, J.; Garreau, A. Wind Estimation with Multirotor UAVs.
+                      - emphasis [ref=e4500]: Atmosphere
+                      - text: 2022,
+                      - emphasis [ref=e4501]: "13"
+                      - text: ", 551. https://doi.org/10.3390/atmos13040551"
+                    - generic [ref=e4502]:
+                      - text: AMA Style
+                      - paragraph [ref=e4503]:
+                        - text: Meier K, Hann R, Skaloud J, Garreau A. Wind Estimation with Multirotor UAVs.
+                        - emphasis [ref=e4504]: Atmosphere
+                        - text: . 2022; 13(4):551. https://doi.org/10.3390/atmos13040551
+                      - text: Chicago/Turabian Style
+                      - paragraph [ref=e4505]:
+                        - text: Meier, Kilian, Richard Hann, Jan Skaloud, and Arthur Garreau. 2022. "Wind Estimation with Multirotor UAVs"
+                        - emphasis [ref=e4506]: Atmosphere
+                        - text: "13, no. 4: 551. https://doi.org/10.3390/atmos13040551"
+                      - text: APA Style
+                      - paragraph [ref=e4507]:
+                        - text: Meier, K., Hann, R., Skaloud, J., & Garreau, A. (2022). Wind Estimation with Multirotor UAVs.
+                        - emphasis [ref=e4508]: Atmosphere
+                        - text: ","
+                        - emphasis [ref=e4509]: "13"
+                        - text: (4), 551. https://doi.org/10.3390/atmos13040551
+                  - generic [ref=e4510]:
+                    - text: error_outline Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details
+                    - link "here" [ref=e4511] [cursor=pointer]:
+                      - /url: https://www.mdpi.com/about/announcements/784
+                    - text: .
+                  - heading "Article Metrics" [level=2] [ref=e4512]: Article Metrics
+                  - generic [ref=e4513]:
+                    - generic [ref=e4515]:
+                      - heading "Citations" [level=3] [ref=e4516]
+                      - generic [ref=e4518]:
+                        - generic [ref=e4519]: Crossref
+                        - link "47" [ref=e4523] [cursor=pointer]:
+                          - /url: "#"
+                      - generic [ref=e4525]:
+                        - generic [ref=e4526]: Scopus
+                        - link "48" [ref=e4530] [cursor=pointer]:
+                          - /url: https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85128340193&origin=inward
+                      - generic [ref=e4532]:
+                        - generic [ref=e4533]: Web of Science
+                        - link "43" [ref=e4537] [cursor=pointer]:
+                          - /url: https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000787435300001&DestLinkType=FullRecord&DestApp=ALL_WOS&UsrCustomerID=7e717b028bc90856e7c55c7029afc773
+                      - generic [ref=e4539]:
+                        - generic [ref=e4540]: ads
+                        - link "22" [ref=e4544] [cursor=pointer]:
+                          - /url: https://ui.adsabs.harvard.edu/#abs/2022Atmos..13..551M/citations
+                      - generic [ref=e4546]:
+                        - generic [ref=e4547]: Google Scholar
+                        - link "[click to view]" [ref=e4550] [cursor=pointer]:
+                          - /url: https://scholar.google.com/scholar_lookup?title=Wind+Estimation+with+Multirotor+UAVs&volume=13&doi=10.3390%2Fatmos13040551&journal=Atmosphere&publication_year=2022&author=Kilian+Meier&author=Richard+Hann&author=Jan+Skaloud&author=Arthur+Garreau
+                    - generic [ref=e4552]:
+                      - heading "Article Access Statistics" [level=3] [ref=e4553]
+                      - img [ref=e4556]:
+                        - generic "Chart context menu" [ref=e4558]
+                        - generic [ref=e4567]: Article access statistics
+                        - generic [ref=e4573] [cursor=pointer]: Article Views
+                        - generic [ref=e4574]:
+                          - generic [ref=e4575]: 12. Dec
+                          - generic [ref=e4576]: 13. Dec
+                          - generic [ref=e4577]: 14. Dec
+                          - generic [ref=e4578]: 15. Dec
+                          - generic [ref=e4579]: 16. Dec
+                          - generic [ref=e4580]: 17. Dec
+                          - generic [ref=e4581]: 18. Dec
+                          - generic [ref=e4582]: 19. Dec
+                          - generic [ref=e4583]: 20. Dec
+                          - generic [ref=e4584]: 21. Dec
+                          - generic [ref=e4585]: 22. Dec
+                          - generic [ref=e4586]: 23. Dec
+                          - generic [ref=e4587]: 24. Dec
+                          - generic [ref=e4588]: 25. Dec
+                          - generic [ref=e4589]: 26. Dec
+                          - generic [ref=e4590]: 27. Dec
+                          - generic [ref=e4591]: 28. Dec
+                          - generic [ref=e4592]: 29. Dec
+                          - generic [ref=e4593]: 30. Dec
+                          - generic [ref=e4594]: 31. Dec
+                          - generic [ref=e4595]: 1. Jan
+                          - generic [ref=e4596]: 2. Jan
+                          - generic [ref=e4597]: 3. Jan
+                          - generic [ref=e4598]: 4. Jan
+                          - generic [ref=e4599]: 5. Jan
+                          - generic [ref=e4600]: 6. Jan
+                          - generic [ref=e4601]: 7. Jan
+                          - generic [ref=e4602]: 8. Jan
+                          - generic [ref=e4603]: 9. Jan
+                          - generic [ref=e4604]: 10. Jan
+                          - generic [ref=e4605]: 11. Jan
+                          - generic [ref=e4606]: 12. Jan
+                          - generic [ref=e4607]: 13. Jan
+                          - generic [ref=e4608]: 14. Jan
+                          - generic [ref=e4609]: 15. Jan
+                          - generic [ref=e4610]: 16. Jan
+                          - generic [ref=e4611]: 17. Jan
+                          - generic [ref=e4612]: 18. Jan
+                          - generic [ref=e4613]: 19. Jan
+                          - generic [ref=e4614]: 20. Jan
+                          - generic [ref=e4615]: 21. Jan
+                          - generic [ref=e4616]: 22. Jan
+                          - generic [ref=e4617]: 23. Jan
+                          - generic [ref=e4618]: 24. Jan
+                          - generic [ref=e4619]: 25. Jan
+                          - generic [ref=e4620]: 26. Jan
+                          - generic [ref=e4621]: 27. Jan
+                          - generic [ref=e4622]: 28. Jan
+                          - generic [ref=e4623]: 29. Jan
+                          - generic [ref=e4624]: 30. Jan
+                          - generic [ref=e4625]: 31. Jan
+                          - generic [ref=e4626]: 1. Feb
+                          - generic [ref=e4627]: 2. Feb
+                          - generic [ref=e4628]: 3. Feb
+                          - generic [ref=e4629]: 4. Feb
+                          - generic [ref=e4630]: 5. Feb
+                          - generic [ref=e4631]: 6. Feb
+                          - generic [ref=e4632]: 7. Feb
+                          - generic [ref=e4633]: 8. Feb
+                          - generic [ref=e4634]: 9. Feb
+                          - generic [ref=e4635]: 10. Feb
+                          - generic [ref=e4636]: 11. Feb
+                          - generic [ref=e4637]: 12. Feb
+                          - generic [ref=e4638]: 13. Feb
+                          - generic [ref=e4639]: 14. Feb
+                          - generic [ref=e4640]: 15. Feb
+                          - generic [ref=e4641]: 16. Feb
+                          - generic [ref=e4642]: 17. Feb
+                          - generic [ref=e4643]: 18. Feb
+                          - generic [ref=e4644]: 19. Feb
+                          - generic [ref=e4645]: 20. Feb
+                          - generic [ref=e4646]: 21. Feb
+                          - generic [ref=e4647]: 22. Feb
+                          - generic [ref=e4648]: 23. Feb
+                          - generic [ref=e4649]: 24. Feb
+                          - generic [ref=e4650]: 25. Feb
+                          - generic [ref=e4651]: 26. Feb
+                          - generic [ref=e4652]: 27. Feb
+                          - generic [ref=e4653]: 28. Feb
+                          - generic [ref=e4654]: 1. Mar
+                          - generic [ref=e4655]: 2. Mar
+                          - generic [ref=e4656]: 3. Mar
+                          - generic [ref=e4657]: 4. Mar
+                          - generic [ref=e4658]: 5. Mar
+                          - generic [ref=e4659]: 6. Mar
+                          - generic [ref=e4660]: 7. Mar
+                          - generic [ref=e4661]: 8. Mar
+                          - generic [ref=e4662]: 9. Mar
+                          - generic [ref=e4663]: 10. Mar
+                          - generic [ref=e4664]: 11. Mar
+                        - generic [ref=e4665]:
+                          - generic [ref=e4666]: 0k
+                          - generic [ref=e4667]: 10k
+                          - generic [ref=e4668]: 2.5k
+                          - generic [ref=e4669]: 5k
+                          - generic [ref=e4670]: 7.5k
+                          - generic [ref=e4671]: 12.5k
+                      - text: For more information on the journal statistics, click
+                      - link "here" [ref=e4677] [cursor=pointer]:
+                        - /url: /journal/atmosphere/stats
+                      - text: .
+                      - generic [ref=e4678]: error_outline Multiple requests from the same IP address are counted as one view.
+    - generic [ref=e4679]:
+      - generic [ref=e4680]:
+        - generic [ref=e4681]:
+          - emphasis [ref=e4682]:
+            - link "Atmosphere" [ref=e4683] [cursor=pointer]:
+              - /url: /journal/atmosphere
+          - text: ", EISSN 2073-4433, Published by MDPI"
+        - generic [ref=e4684]:
+          - link "RSS" [ref=e4686] [cursor=pointer]:
+            - /url: /rss/journal/atmosphere
+          - link "Content Alert" [ref=e4688] [cursor=pointer]:
+            - /url: /journal/atmosphere/toc-alert
+      - generic [ref=e4689]:
+        - generic [ref=e4690]:
+          - heading "Further Information" [level=3] [ref=e4691]
+          - link "Article Processing Charges" [ref=e4692] [cursor=pointer]:
+            - /url: /apc
+          - link "Pay an Invoice" [ref=e4693] [cursor=pointer]:
+            - /url: /about/payment
+          - link "Open Access Policy" [ref=e4694] [cursor=pointer]:
+            - /url: /openaccess
+          - link "Contact MDPI" [ref=e4695] [cursor=pointer]:
+            - /url: /about/contact
+          - link "Jobs at MDPI" [ref=e4696] [cursor=pointer]:
+            - /url: https://careers.mdpi.com
+        - generic [ref=e4697]:
+          - heading "Guidelines" [level=3] [ref=e4698]
+          - link "For Authors" [ref=e4699] [cursor=pointer]:
+            - /url: /authors
+          - link "For Reviewers" [ref=e4700] [cursor=pointer]:
+            - /url: /reviewers
+          - link "For Editors" [ref=e4701] [cursor=pointer]:
+            - /url: /editors
+          - link "For Librarians" [ref=e4702] [cursor=pointer]:
+            - /url: /librarians
+          - link "For Publishers" [ref=e4703] [cursor=pointer]:
+            - /url: /publishing_services
+          - link "For Societies" [ref=e4704] [cursor=pointer]:
+            - /url: /societies
+          - link "For Conference Organizers" [ref=e4705] [cursor=pointer]:
+            - /url: /conference_organizers
+        - generic [ref=e4706]:
+          - heading "MDPI Initiatives" [level=3] [ref=e4707]
+          - link "Sciforum" [ref=e4708] [cursor=pointer]:
+            - /url: https://sciforum.net
+          - link "MDPI Books" [ref=e4709] [cursor=pointer]:
+            - /url: https://www.mdpi.com/books
+          - link "Preprints.org" [ref=e4710] [cursor=pointer]:
+            - /url: https://www.preprints.org
+          - link "Scilit" [ref=e4711] [cursor=pointer]:
+            - /url: https://www.scilit.com
+          - link "SciProfiles" [ref=e4712] [cursor=pointer]:
+            - /url: https://sciprofiles.com?utm_source=mpdi.com&utm_medium=bottom_menu&utm_campaign=initiative
+          - link "Encyclopedia" [ref=e4713] [cursor=pointer]:
+            - /url: https://encyclopedia.pub
+          - link "JAMS" [ref=e4714] [cursor=pointer]:
+            - /url: https://jams.pub
+          - link "Proceedings Series" [ref=e4715] [cursor=pointer]:
+            - /url: /about/proceedings
+        - generic [ref=e4716]:
+          - heading "Follow MDPI" [level=3] [ref=e4717]
+          - link "LinkedIn" [ref=e4718] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/mdpi
+          - link "Facebook" [ref=e4719] [cursor=pointer]:
+            - /url: https://www.facebook.com/MDPIOpenAccessPublishing
+          - link "X" [ref=e4720] [cursor=pointer]:
+            - /url: https://x.com/MDPIOpenAccess
+        - generic [ref=e4722]:
+          - img "MDPI" [ref=e4723]
+          - generic [ref=e4724]:
+            - paragraph [ref=e4725]: Subscribe to receive issue release notifications and newsletters from MDPI journals
+            - button "Select options" [ref=e4727] [cursor=pointer]
+            - textbox "Enter your email address..." [ref=e4728]
+            - button "Subscribe" [ref=e4729] [cursor=pointer]
+      - generic [ref=e4731]:
+        - generic [ref=e4732]: © 1996-2026 MDPI (Basel, Switzerland) unless otherwise stated
+        - generic [ref=e4733]:
+          - generic [ref=e4734]: Disclaimer
+          - link "Terms and Conditions" [ref=e4735] [cursor=pointer]:
+            - /url: /about/terms-and-conditions
+          - link "Privacy Policy" [ref=e4736] [cursor=pointer]:
+            - /url: /about/privacy
+  - log [ref=e4737]
+  - log [ref=e4738]
+  - log [ref=e4739]
+  - log [ref=e4740]
+  - log [ref=e4741]
+  - log [ref=e4742]
+  - log [ref=e4743]
+  - log [ref=e4744]
+  - log [ref=e4745]
+  - log [ref=e4746]
+  - log [ref=e4747]
+  - log [ref=e4748]
+  - log [ref=e4749]
+  - log [ref=e4750]
+  - log [ref=e4751]
+  - log [ref=e4752]
+  - log [ref=e4753]
+  - log [ref=e4754]
+  - log [ref=e4755]
+  - log [ref=e4756]
+  - log [ref=e4757]
+  - log [ref=e4758]
+  - log [ref=e4759]
+  - log [ref=e4760]
+  - log [ref=e4761]
+  - log [ref=e4762]
+  - log [ref=e4763]
+  - log [ref=e4764]
+  - log [ref=e4765]
+  - log [ref=e4766]
+  - log [ref=e4767]
+  - log [ref=e4768]
+  - log [ref=e4769]
+  - log [ref=e4770]
+  - log [ref=e4771]
+  - log [ref=e4772]
+  - log [ref=e4773]
+  - log [ref=e4774]
+  - log [ref=e4775]
+  - log [ref=e4776]
+  - log [ref=e4777]
+  - log [ref=e4778]
+  - log [ref=e4779]
+  - log [ref=e4780]
+  - log [ref=e4781]
+  - log [ref=e4782]
+  - log [ref=e4783]
+  - log [ref=e4784]
+  - log [ref=e4785]
+  - log [ref=e4786]
+  - log [ref=e4787]
+  - log [ref=e4788]
+  - log [ref=e4789]
+  - log [ref=e4790]
+  - log [ref=e4791]
+  - log [ref=e4792]
+  - log [ref=e4793]
+  - log [ref=e4794]
+  - log [ref=e4795]
+  - log [ref=e4796]
+  - log [ref=e4797]
+  - log [ref=e4798]
+  - log [ref=e4799]
+  - log [ref=e4800]
+  - log [ref=e4801]
+  - log [ref=e4802]
+  - log [ref=e4803]
+  - log [ref=e4804]
+  - log [ref=e4805]
+  - log [ref=e4806]
+  - log [ref=e4807]
+  - log [ref=e4808]
+  - log [ref=e4809]
+  - log [ref=e4810]
+  - complementary:
+    - dialog "Privacy Settings" [ref=e4833]:
+      - button "Privacy Settings" [ref=e4834] [cursor=pointer]

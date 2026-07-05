@@ -1,0 +1,20 @@
+[sudo] password for fibo: 2026-07-02 23:20:28,410 -    INFO - qnn-model-lib-generator: Model cpp file path  : /workspace/modules/fiboaistack_229_env/outputs/qnn_model/radio_map_liteunet_qnn.cpp
+2026-07-02 23:20:28,415 -    INFO - qnn-model-lib-generator: Model bin file path  : /workspace/modules/fiboaistack_229_env/outputs/qnn_model/radio_map_liteunet_qnn.bin
+2026-07-02 23:20:28,416 -    INFO - qnn-model-lib-generator: Library target       : [['aarch64-ubuntu-gcc9.4']]
+2026-07-02 23:20:28,417 -    INFO - qnn-model-lib-generator: Library name         : radio_map_liteunet_qnn
+2026-07-02 23:20:28,418 -    INFO - qnn-model-lib-generator: Output directory     : /workspace/modules/fiboaistack_229_env/outputs/qnn_model/lib
+2026-07-02 23:20:28,419 -    INFO - qnn-model-lib-generator: Output library name  : radio_map_liteunet_qnn
+Traceback (most recent call last):
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-model-lib-generator", line 497, in <module>
+    main()
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-model-lib-generator", line 491, in main
+    result = generator.build_targets(config)
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-model-lib-generator", line 403, in build_targets
+    target_lib_map[t] = self._alias_target_map[t].build_target(self._build_dir, config)
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-model-lib-generator", line 134, in build_target
+    exec_subprocess_cmd([f'cd {build_dir} && export QNN_MODEL_LIB_NAME={config.lib_name} && {self._build_cmd()}'])
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-model-lib-generator", line 177, in _build_cmd
+    raise RuntimeError(f'Could not build target: {self.alias}' + build_tools_error)
+RuntimeError: Could not build target: aarch64-ubuntu-gcc9.4
+Could not find compiler: ${QNN_AARCH64_UBUNTU_GCC_94}/usr/bin/aarch64-linux-gnu-g++
+Could not find sys root directory: ${QNN_AARCH64_UBUNTU_GCC_94}

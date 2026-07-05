@@ -1,0 +1,1315 @@
+{
+  "schema_version": "qlearning_policy.dashboard.v1",
+  "generated_at": "2026-05-31T15:40:07.979380+00:00",
+  "module": {
+    "name": "Q-learning 低空策略决策模块",
+    "role": "端-边-云计算卸载策略决策层",
+    "frontend_scope": "本前端仅展示本模块策略实验与接口试算，不接管 uav_virtual_validation 前端。"
+  },
+  "interface_contract": {
+    "schema_version": "qlearning_policy.interface.v1",
+    "module_role": "低空无人机端-边-云计算卸载策略决策层",
+    "state_fields": [
+      {
+        "name": "queue",
+        "type": "int",
+        "range": [
+          0,
+          16
+        ],
+        "source_hint": "任务队列长度，可由任务调度或虚拟验证模块给出"
+      },
+      {
+        "name": "link",
+        "type": "int",
+        "range": [
+          0,
+          2
+        ],
+        "source_hint": "链路质量等级，可由无线地图/网络覆盖模块离散化得到"
+      },
+      {
+        "name": "battery",
+        "type": "int",
+        "range": [
+          0,
+          4
+        ],
+        "source_hint": "电量等级，可由天气能耗模块或仿真状态给出"
+      },
+      {
+        "name": "edge_load",
+        "type": "int",
+        "range": [
+          0,
+          2
+        ],
+        "source_hint": "边缘节点负载等级，可由 MEC/基站侧状态给出"
+      },
+      {
+        "name": "cloud_load",
+        "type": "int",
+        "range": [
+          0,
+          2
+        ],
+        "source_hint": "云端负载等级，可由云侧状态或实验场景给出"
+      },
+      {
+        "name": "task_urgency",
+        "type": "int",
+        "range": [
+          0,
+          2
+        ],
+        "source_hint": "任务紧急度，越高越看重 deadline 惩罚"
+      },
+      {
+        "name": "data_sensitivity",
+        "type": "int",
+        "range": [
+          0,
+          2
+        ],
+        "source_hint": "数据敏感等级，越高越抑制远端尤其云端卸载"
+      },
+      {
+        "name": "area_risk",
+        "type": "int",
+        "range": [
+          0,
+          2
+        ],
+        "source_hint": "区域风险等级，越高越抑制云端卸载"
+      }
+    ],
+    "action_fields": [
+      {
+        "name": "local_tasks",
+        "type": "int",
+        "meaning": "本机处理任务数"
+      },
+      {
+        "name": "edge_tasks",
+        "type": "int",
+        "meaning": "边缘侧处理任务数"
+      },
+      {
+        "name": "cloud_tasks",
+        "type": "int",
+        "meaning": "云端处理任务数"
+      }
+    ],
+    "decision_modes": [
+      {
+        "name": "policy_table",
+        "meaning": "读取训练后的 policy_table.csv 进行精确状态查表"
+      },
+      {
+        "name": "rule_based",
+        "meaning": "无训练表时使用可解释规则基线"
+      }
+    ],
+    "integration_boundary": {
+      "input_side": [
+        "无线地图/网络覆盖",
+        "天气能耗",
+        "虚拟验证",
+        "任务调度"
+      ],
+      "output_side": [
+        "本地计算",
+        "边缘卸载",
+        "云端卸载",
+        "延迟/降级处理"
+      ],
+      "current_scope": "本接口只定义策略决策输入输出，不直接修改外部模块或运行环境。"
+    }
+  },
+  "coverage_scenarios": [
+    {
+      "name": "balanced",
+      "description": "默认混合覆盖场景，链路和边缘负载均处于中等波动。",
+      "link_probs": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "edge_load_probs": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "cloud_load_probs": [
+        0.35,
+        0.45,
+        0.2
+      ]
+    },
+    {
+      "name": "good_coverage",
+      "description": "良好覆盖场景，高速链路更常见，边缘节点较少拥塞。",
+      "link_probs": [
+        0.05,
+        0.25,
+        0.7
+      ],
+      "edge_load_probs": [
+        0.45,
+        0.4,
+        0.15
+      ],
+      "cloud_load_probs": [
+        0.45,
+        0.4,
+        0.15
+      ]
+    },
+    {
+      "name": "weak_coverage",
+      "description": "弱覆盖场景，低速链路更常见，适合观察策略是否减少卸载。",
+      "link_probs": [
+        0.7,
+        0.25,
+        0.05
+      ],
+      "edge_load_probs": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "cloud_load_probs": [
+        0.35,
+        0.45,
+        0.2
+      ]
+    },
+    {
+      "name": "intermittent_coverage",
+      "description": "间歇覆盖场景，低速和高速链路频繁切换，中等链路较少。",
+      "link_probs": [
+        0.45,
+        0.1,
+        0.45
+      ],
+      "edge_load_probs": [
+        0.25,
+        0.45,
+        0.3
+      ],
+      "cloud_load_probs": [
+        0.3,
+        0.45,
+        0.25
+      ]
+    },
+    {
+      "name": "congested_edge",
+      "description": "边缘拥塞场景，链路不一定差，但边缘节点高负载更常见。",
+      "link_probs": [
+        0.2,
+        0.45,
+        0.35
+      ],
+      "edge_load_probs": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "cloud_load_probs": [
+        0.55,
+        0.35,
+        0.1
+      ]
+    }
+  ],
+  "simulator_config": {
+    "queue_capacity": 16,
+    "max_local_tasks": 2,
+    "max_edge_tasks": 2,
+    "max_cloud_tasks": 2,
+    "link_rates_bps": [
+      20000000.0,
+      100000000.0,
+      150000000.0
+    ],
+    "edge_load_levels": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "cloud_load_levels": [
+      0.2,
+      0.55,
+      0.85
+    ],
+    "battery_level_count": 5,
+    "arrival_values": [
+      0,
+      4,
+      8
+    ],
+    "avg_arrival_rate": 4.0,
+    "task_size_bits": 30000000.0,
+    "cycles_per_task": 1300000000.0,
+    "local_cpu_hz": 1000000000.0,
+    "beta": 8e-27,
+    "tx_power_watts": 10.0,
+    "theta": 30.0,
+    "delay_weight": 1.0,
+    "energy_weight": 0.12,
+    "queue_weight": 0.2,
+    "illegal_action_penalty": 8.0,
+    "low_link_offload_penalty": 0.0,
+    "low_link_penalty_threshold": 0,
+    "urgency_delay_weight": 0.6,
+    "task_deadlines": [
+      8.0,
+      6.0,
+      4.5
+    ],
+    "deadline_miss_penalty": 12.0,
+    "data_sensitivity_offload_penalty": 3.0,
+    "area_risk_offload_penalty": 2.0,
+    "edge_delay_scale": 1.5,
+    "cloud_backhaul_delay_per_task": 0.8,
+    "cloud_compute_delay_per_task": 0.35,
+    "cloud_delay_scale": 0.8,
+    "cloud_usage_penalty_per_task": 0.6,
+    "low_link_cloud_penalty_per_task": 8.0,
+    "low_link_cloud_penalty_threshold": 0,
+    "edge_congestion_penalty_per_task": 6.0,
+    "edge_congestion_threshold": 2,
+    "cloud_congestion_relief_bonus_per_task": 10.0,
+    "cloud_data_sensitivity_multiplier": 2.5,
+    "cloud_area_risk_multiplier": 5.0,
+    "battery_energy_per_level_j": 35.0,
+    "scenario_defaults": {
+      "balanced": {
+        "link_probs": [
+          0.25,
+          0.5,
+          0.25
+        ],
+        "edge_load_probs": [
+          0.3,
+          0.5,
+          0.2
+        ],
+        "cloud_load_probs": [
+          0.35,
+          0.45,
+          0.2
+        ]
+      },
+      "good_coverage": {
+        "link_probs": [
+          0.05,
+          0.25,
+          0.7
+        ],
+        "edge_load_probs": [
+          0.45,
+          0.4,
+          0.15
+        ],
+        "cloud_load_probs": [
+          0.45,
+          0.4,
+          0.15
+        ]
+      },
+      "weak_coverage": {
+        "link_probs": [
+          0.7,
+          0.25,
+          0.05
+        ],
+        "edge_load_probs": [
+          0.3,
+          0.5,
+          0.2
+        ],
+        "cloud_load_probs": [
+          0.35,
+          0.45,
+          0.2
+        ]
+      },
+      "intermittent_coverage": {
+        "link_probs": [
+          0.45,
+          0.1,
+          0.45
+        ],
+        "edge_load_probs": [
+          0.25,
+          0.45,
+          0.3
+        ],
+        "cloud_load_probs": [
+          0.3,
+          0.45,
+          0.25
+        ]
+      },
+      "congested_edge": {
+        "link_probs": [
+          0.2,
+          0.45,
+          0.35
+        ],
+        "edge_load_probs": [
+          0.1,
+          0.3,
+          0.6
+        ],
+        "cloud_load_probs": [
+          0.55,
+          0.35,
+          0.1
+        ]
+      }
+    }
+  },
+  "sample_decision": {
+    "schema_version": "qlearning_policy.interface.v1",
+    "scenario_name": "congested_edge",
+    "decision_source": "rule_based",
+    "state": {
+      "queue": 10,
+      "link": 2,
+      "battery": 4,
+      "edge_load": 2,
+      "cloud_load": 0,
+      "task_urgency": 1,
+      "data_sensitivity": 0,
+      "area_risk": 0
+    },
+    "action": {
+      "local_tasks": 0,
+      "edge_tasks": 0,
+      "cloud_tasks": 2,
+      "processed_tasks": 2,
+      "remote_tasks": 2
+    },
+    "action_class": "cloud_only",
+    "estimated_reward": 43.02876866004328,
+    "estimated_delay": 3.906,
+    "estimated_energy": 4.0,
+    "q_value": null,
+    "notes": []
+  },
+  "stability": {
+    "source_dir": "outputs/qlearning_policy/three_tier_stability_reward_v5",
+    "rows": [
+      {
+        "hypothesis": "weak_coverage_少云",
+        "source": "trace",
+        "semantic_field": "",
+        "run_count": 3,
+        "stable_count": 3,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": -0.02879024416049003,
+        "min_delta": -0.030134787843920763,
+        "max_delta": -0.02676213891903112,
+        "mean_primary_metric": 0.280447186572456,
+        "mean_threshold": 0.309237430732946,
+        "mean_aux_metric": 0.0
+      },
+      {
+        "hypothesis": "congested_edge_转云",
+        "source": "trace",
+        "semantic_field": "",
+        "run_count": 3,
+        "stable_count": 3,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": 0.013375639992119806,
+        "min_delta": 0.009744398488410133,
+        "max_delta": 0.018282282855151988,
+        "mean_primary_metric": 0.31841554664068644,
+        "mean_threshold": 0.3050399066485667,
+        "mean_aux_metric": 0.49041121684434125
+      },
+      {
+        "hypothesis": "weak_coverage_少云",
+        "source": "greedy_eval",
+        "semantic_field": "",
+        "run_count": 3,
+        "stable_count": 3,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": -0.046401841426713976,
+        "min_delta": -0.05125901684631659,
+        "max_delta": -0.04109378473346578,
+        "mean_primary_metric": 0.23441749312659996,
+        "mean_threshold": 0.2808193345533139,
+        "mean_aux_metric": 0.0
+      },
+      {
+        "hypothesis": "congested_edge_转云",
+        "source": "greedy_eval",
+        "semantic_field": "",
+        "run_count": 3,
+        "stable_count": 3,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": 0.02244373137640628,
+        "min_delta": 0.020777530741564187,
+        "max_delta": 0.023541331507351326,
+        "mean_primary_metric": 0.297576774294333,
+        "mean_threshold": 0.2751330429179267,
+        "mean_aux_metric": 0.4742110361715732
+      },
+      {
+        "hypothesis": "data_sensitivity_抑制云端卸载",
+        "source": "trace",
+        "semantic_field": "data_sensitivity",
+        "run_count": 15,
+        "stable_count": 12,
+        "stable_ratio": 0.8,
+        "passed": 1,
+        "mean_delta": -0.011267082777950395,
+        "min_delta": -0.0448105445998237,
+        "max_delta": 0.014023102164058665,
+        "mean_primary_metric": -0.011267082777950395,
+        "mean_threshold": 0.0,
+        "mean_aux_metric": 0.0
+      },
+      {
+        "hypothesis": "area_risk_抑制云端卸载",
+        "source": "trace",
+        "semantic_field": "area_risk",
+        "run_count": 15,
+        "stable_count": 15,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": -0.02254111635636622,
+        "min_delta": -0.06287709571538391,
+        "max_delta": -0.002689076518654243,
+        "mean_primary_metric": -0.02254111635636622,
+        "mean_threshold": 0.0,
+        "mean_aux_metric": 0.0
+      },
+      {
+        "hypothesis": "data_sensitivity_抑制云端卸载",
+        "source": "greedy_trace",
+        "semantic_field": "data_sensitivity",
+        "run_count": 15,
+        "stable_count": 15,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": -0.05227726336393063,
+        "min_delta": -0.0939343309000645,
+        "max_delta": -0.03454880682035205,
+        "mean_primary_metric": -0.05227726336393063,
+        "mean_threshold": 0.0,
+        "mean_aux_metric": 0.0
+      },
+      {
+        "hypothesis": "area_risk_抑制云端卸载",
+        "source": "greedy_trace",
+        "semantic_field": "area_risk",
+        "run_count": 15,
+        "stable_count": 15,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": -0.07184044778969012,
+        "min_delta": -0.1147382010352401,
+        "max_delta": -0.03593002282877089,
+        "mean_primary_metric": -0.07184044778969012,
+        "mean_threshold": 0.0,
+        "mean_aux_metric": 0.0
+      },
+      {
+        "hypothesis": "data_sensitivity_抑制云端卸载",
+        "source": "policy",
+        "semantic_field": "data_sensitivity",
+        "run_count": 15,
+        "stable_count": 15,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": -0.04080045186798999,
+        "min_delta": -0.04725248123940934,
+        "max_delta": -0.03345436940208182,
+        "mean_primary_metric": -0.04080045186798999,
+        "mean_threshold": 0.0,
+        "mean_aux_metric": 0.0
+      },
+      {
+        "hypothesis": "area_risk_抑制云端卸载",
+        "source": "policy",
+        "semantic_field": "area_risk",
+        "run_count": 15,
+        "stable_count": 15,
+        "stable_ratio": 1.0,
+        "passed": 1,
+        "mean_delta": -0.05005083514887436,
+        "min_delta": -0.0588719438392641,
+        "max_delta": -0.04168482207697894,
+        "mean_primary_metric": -0.05005083514887436,
+        "mean_threshold": 0.0,
+        "mean_aux_metric": 0.0
+      }
+    ],
+    "summary": {
+      "total_checks": 10,
+      "passed_checks": 10,
+      "pass_ratio": 1.0,
+      "scheme3_ready": true,
+      "critical_checks": {
+        "weak_coverage_少云": true,
+        "congested_edge_转云": true,
+        "area_risk_抑制云端卸载": true
+      }
+    }
+  },
+  "scenario_metrics": {
+    "source_dir": "outputs/qlearning_policy/scenario_sweep",
+    "rows": [
+      {
+        "coverage_scenario": "balanced",
+        "strategy": "q_learning",
+        "average_reward": 20.47138465148393,
+        "average_delay": 4.763533333333333,
+        "average_energy": 18.224,
+        "average_queue": 14.42,
+        "processed_tasks": 2345,
+        "offload_ratio": 0.5245202558635395
+      },
+      {
+        "coverage_scenario": "balanced",
+        "strategy": "local_only",
+        "average_reward": 18.427506291383242,
+        "average_delay": 5.035199999999999,
+        "average_energy": 20.779200000000003,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 0.0
+      },
+      {
+        "coverage_scenario": "balanced",
+        "strategy": "offload_only",
+        "average_reward": 19.782540291383246,
+        "average_delay": 4.7531099999999995,
+        "average_energy": 11.838,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 1.0
+      },
+      {
+        "coverage_scenario": "balanced",
+        "strategy": "rule_based",
+        "average_reward": -1.840952560571907,
+        "average_delay": 4.0137675,
+        "average_energy": 0.79,
+        "average_queue": 15.818,
+        "processed_tasks": 374,
+        "offload_ratio": 0.9866310160427807
+      },
+      {
+        "coverage_scenario": "good_coverage",
+        "strategy": "q_learning",
+        "average_reward": 20.781005667669437,
+        "average_delay": 4.5440499999999995,
+        "average_energy": 15.6384,
+        "average_queue": 14.542,
+        "processed_tasks": 2243,
+        "offload_ratio": 0.4690147124386982
+      },
+      {
+        "coverage_scenario": "good_coverage",
+        "strategy": "local_only",
+        "average_reward": 18.427506291383242,
+        "average_delay": 5.035199999999999,
+        "average_energy": 20.779200000000003,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 0.0
+      },
+      {
+        "coverage_scenario": "good_coverage",
+        "strategy": "offload_only",
+        "average_reward": 21.06695029138324,
+        "average_delay": 4.197100000000001,
+        "average_energy": 5.768,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 1.0
+      },
+      {
+        "coverage_scenario": "good_coverage",
+        "strategy": "rule_based",
+        "average_reward": 9.64367977210545,
+        "average_delay": 4.030385,
+        "average_energy": 2.3688000000000002,
+        "average_queue": 15.426,
+        "processed_tasks": 1176,
+        "offload_ratio": 0.9982993197278912
+      },
+      {
+        "coverage_scenario": "weak_coverage",
+        "strategy": "q_learning",
+        "average_reward": 18.617457115638462,
+        "average_delay": 5.3235866666666665,
+        "average_energy": 26.8086,
+        "average_queue": 14.405,
+        "processed_tasks": 2314,
+        "offload_ratio": 0.5207433016421781
+      },
+      {
+        "coverage_scenario": "weak_coverage",
+        "strategy": "local_only",
+        "average_reward": 18.427506291383242,
+        "average_delay": 5.035199999999999,
+        "average_energy": 20.779200000000003,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 0.0
+      },
+      {
+        "coverage_scenario": "weak_coverage",
+        "strategy": "offload_only",
+        "average_reward": 17.425235291383245,
+        "average_delay": 5.737135,
+        "average_energy": 23.282,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 1.0
+      },
+      {
+        "coverage_scenario": "weak_coverage",
+        "strategy": "rule_based",
+        "average_reward": -6.181204596898486,
+        "average_delay": 3.9997075,
+        "average_energy": 0.182,
+        "average_queue": 15.946,
+        "processed_tasks": 70,
+        "offload_ratio": 0.9285714285714286
+      },
+      {
+        "coverage_scenario": "intermittent_coverage",
+        "strategy": "q_learning",
+        "average_reward": 18.595113451026194,
+        "average_delay": 4.948193750000001,
+        "average_energy": 18.8928,
+        "average_queue": 14.499,
+        "processed_tasks": 2169,
+        "offload_ratio": 0.5195942830797603
+      },
+      {
+        "coverage_scenario": "intermittent_coverage",
+        "strategy": "local_only",
+        "average_reward": 18.427506291383242,
+        "average_delay": 5.035199999999999,
+        "average_energy": 20.779200000000003,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 0.0
+      },
+      {
+        "coverage_scenario": "intermittent_coverage",
+        "strategy": "offload_only",
+        "average_reward": 18.88521779138324,
+        "average_delay": 5.1586725,
+        "average_energy": 15.936,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 1.0
+      },
+      {
+        "coverage_scenario": "intermittent_coverage",
+        "strategy": "rule_based",
+        "average_reward": 1.4687682039931143,
+        "average_delay": 4.0271375,
+        "average_energy": 1.254,
+        "average_queue": 15.72,
+        "processed_tasks": 606,
+        "offload_ratio": 0.9917491749174917
+      },
+      {
+        "coverage_scenario": "congested_edge",
+        "strategy": "q_learning",
+        "average_reward": 21.87525807405542,
+        "average_delay": 4.717802083333332,
+        "average_energy": 18.756400000000003,
+        "average_queue": 14.079,
+        "processed_tasks": 2464,
+        "offload_ratio": 0.5227272727272727
+      },
+      {
+        "coverage_scenario": "congested_edge",
+        "strategy": "local_only",
+        "average_reward": 18.427506291383242,
+        "average_delay": 5.035199999999999,
+        "average_energy": 20.779200000000003,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 0.0
+      },
+      {
+        "coverage_scenario": "congested_edge",
+        "strategy": "offload_only",
+        "average_reward": 19.933902791383243,
+        "average_delay": 4.7779074999999995,
+        "average_energy": 10.37,
+        "average_queue": 14.946,
+        "processed_tasks": 1998,
+        "offload_ratio": 1.0
+      },
+      {
+        "coverage_scenario": "congested_edge",
+        "strategy": "rule_based",
+        "average_reward": -3.041253544293725,
+        "average_delay": 4.012185000000001,
+        "average_energy": 0.6136,
+        "average_queue": 15.852,
+        "processed_tasks": 290,
+        "offload_ratio": 0.9862068965517241
+      }
+    ],
+    "qlearning_rows": [
+      {
+        "coverage_scenario": "balanced",
+        "strategy": "q_learning",
+        "average_reward": 20.47138465148393,
+        "average_delay": 4.763533333333333,
+        "average_energy": 18.224,
+        "average_queue": 14.42,
+        "processed_tasks": 2345,
+        "offload_ratio": 0.5245202558635395
+      },
+      {
+        "coverage_scenario": "good_coverage",
+        "strategy": "q_learning",
+        "average_reward": 20.781005667669437,
+        "average_delay": 4.5440499999999995,
+        "average_energy": 15.6384,
+        "average_queue": 14.542,
+        "processed_tasks": 2243,
+        "offload_ratio": 0.4690147124386982
+      },
+      {
+        "coverage_scenario": "weak_coverage",
+        "strategy": "q_learning",
+        "average_reward": 18.617457115638462,
+        "average_delay": 5.3235866666666665,
+        "average_energy": 26.8086,
+        "average_queue": 14.405,
+        "processed_tasks": 2314,
+        "offload_ratio": 0.5207433016421781
+      },
+      {
+        "coverage_scenario": "intermittent_coverage",
+        "strategy": "q_learning",
+        "average_reward": 18.595113451026194,
+        "average_delay": 4.948193750000001,
+        "average_energy": 18.8928,
+        "average_queue": 14.499,
+        "processed_tasks": 2169,
+        "offload_ratio": 0.5195942830797603
+      },
+      {
+        "coverage_scenario": "congested_edge",
+        "strategy": "q_learning",
+        "average_reward": 21.87525807405542,
+        "average_delay": 4.717802083333332,
+        "average_energy": 18.756400000000003,
+        "average_queue": 14.079,
+        "processed_tasks": 2464,
+        "offload_ratio": 0.5227272727272727
+      }
+    ]
+  },
+  "seed_metrics": {
+    "source_dir": "outputs/qlearning_policy/three_tier_stability_reward_v5",
+    "rows": [
+      {
+        "seed": 1,
+        "coverage_scenario": "balanced",
+        "metric_source": "trace",
+        "average_reward": 8.237482305832474,
+        "average_delay": 4.476100357291667,
+        "average_energy": 22.008850000000002,
+        "average_queue": 12.6925,
+        "processed_tasks": 24148,
+        "offload_ratio": 0.6429517972502898,
+        "edge_offload_ratio": 0.33625973165479545,
+        "cloud_offload_ratio": 0.30669206559549445,
+        "cloud_share_of_remote": 0.4770063119927863,
+        "cloud_minus_edge_ratio": -0.029567666059301
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "balanced",
+        "metric_source": "greedy_eval",
+        "average_reward": 10.645182104920405,
+        "average_delay": 4.433094457291667,
+        "average_energy": 22.240675,
+        "average_queue": 12.589875,
+        "processed_tasks": 24440,
+        "offload_ratio": 0.6257774140752864,
+        "edge_offload_ratio": 0.34476268412438626,
+        "cloud_offload_ratio": 0.28101472995090016,
+        "cloud_share_of_remote": 0.44906499280763695,
+        "cloud_minus_edge_ratio": -0.06374795417348611
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "good_coverage",
+        "metric_source": "trace",
+        "average_reward": 11.03948525970894,
+        "average_delay": 4.255390148958333,
+        "average_energy": 16.56595,
+        "average_queue": 12.819375,
+        "processed_tasks": 24074,
+        "offload_ratio": 0.6519481598404918,
+        "edge_offload_ratio": 0.3466810667109745,
+        "cloud_offload_ratio": 0.30526709312951733,
+        "cloud_share_of_remote": 0.4682382924498248,
+        "cloud_minus_edge_ratio": -0.04141397358145715
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "good_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 13.315308254643055,
+        "average_delay": 4.212403610416666,
+        "average_energy": 17.110850000000003,
+        "average_queue": 12.68125,
+        "processed_tasks": 24357,
+        "offload_ratio": 0.6361620889272078,
+        "edge_offload_ratio": 0.3557909430553845,
+        "cloud_offload_ratio": 0.28037114587182327,
+        "cloud_share_of_remote": 0.44072281381090667,
+        "cloud_minus_edge_ratio": -0.07541979718356123
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "weak_coverage",
+        "metric_source": "trace",
+        "average_reward": 2.358752684070989,
+        "average_delay": 4.9619932625,
+        "average_energy": 31.698475,
+        "average_queue": 12.92325,
+        "processed_tasks": 23395,
+        "offload_ratio": 0.6244069245565291,
+        "edge_offload_ratio": 0.3438768967728147,
+        "cloud_offload_ratio": 0.28053002778371444,
+        "cloud_share_of_remote": 0.4492743702081051,
+        "cloud_minus_edge_ratio": -0.06334686898910025
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "weak_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 6.168421544124673,
+        "average_delay": 4.936992173958333,
+        "average_energy": 31.234125,
+        "average_queue": 13.046375,
+        "processed_tasks": 23412,
+        "offload_ratio": 0.5884589099607039,
+        "edge_offload_ratio": 0.3565692807107466,
+        "cloud_offload_ratio": 0.2318896292499573,
+        "cloud_share_of_remote": 0.3940625680481963,
+        "cloud_minus_edge_ratio": -0.12467965146078933
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "intermittent_coverage",
+        "metric_source": "trace",
+        "average_reward": 4.999390096629911,
+        "average_delay": 4.705410849999999,
+        "average_energy": 25.403299999999998,
+        "average_queue": 12.837625,
+        "processed_tasks": 23665,
+        "offload_ratio": 0.6352841749418973,
+        "edge_offload_ratio": 0.3295584196070146,
+        "cloud_offload_ratio": 0.3057257553348827,
+        "cloud_share_of_remote": 0.48124251696155385,
+        "cloud_minus_edge_ratio": -0.023832664272131876
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "intermittent_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 8.054207860980869,
+        "average_delay": 4.684520146875,
+        "average_energy": 25.100274999999996,
+        "average_queue": 12.886125,
+        "processed_tasks": 23614,
+        "offload_ratio": 0.6117557381214533,
+        "edge_offload_ratio": 0.3423392902515457,
+        "cloud_offload_ratio": 0.2694164478699077,
+        "cloud_share_of_remote": 0.4403987262910149,
+        "cloud_minus_edge_ratio": -0.07292284238163799
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "congested_edge",
+        "metric_source": "trace",
+        "average_reward": 9.31629696281044,
+        "average_delay": 4.470367845833334,
+        "average_energy": 20.58725,
+        "average_queue": 12.706125,
+        "processed_tasks": 24365,
+        "offload_ratio": 0.6525754155550996,
+        "edge_offload_ratio": 0.32760106710445314,
+        "cloud_offload_ratio": 0.32497434845064643,
+        "cloud_share_of_remote": 0.49798742138364777,
+        "cloud_minus_edge_ratio": -0.0026267186538067033
+      },
+      {
+        "seed": 1,
+        "coverage_scenario": "congested_edge",
+        "metric_source": "greedy_eval",
+        "average_reward": 11.549297912734092,
+        "average_delay": 4.437341792708334,
+        "average_energy": 20.80785,
+        "average_queue": 12.63375,
+        "processed_tasks": 24550,
+        "offload_ratio": 0.629653767820774,
+        "edge_offload_ratio": 0.3278615071283096,
+        "cloud_offload_ratio": 0.30179226069246434,
+        "cloud_share_of_remote": 0.4792987449864147,
+        "cloud_minus_edge_ratio": -0.02606924643584524
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "balanced",
+        "metric_source": "trace",
+        "average_reward": 7.677274523661292,
+        "average_delay": 4.484222260416667,
+        "average_energy": 21.98665,
+        "average_queue": 12.766875,
+        "processed_tasks": 24145,
+        "offload_ratio": 0.6447297577138124,
+        "edge_offload_ratio": 0.3391592462207496,
+        "cloud_offload_ratio": 0.30557051149306275,
+        "cloud_share_of_remote": 0.4739513072525214,
+        "cloud_minus_edge_ratio": -0.033588734727686864
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "balanced",
+        "metric_source": "greedy_eval",
+        "average_reward": 10.35760640399372,
+        "average_delay": 4.451241792708333,
+        "average_energy": 21.9035,
+        "average_queue": 12.750625,
+        "processed_tasks": 24135,
+        "offload_ratio": 0.6231613838823286,
+        "edge_offload_ratio": 0.34949243836751603,
+        "cloud_offload_ratio": 0.2736689455148125,
+        "cloud_share_of_remote": 0.4391622340425532,
+        "cloud_minus_edge_ratio": -0.07582349285270351
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "good_coverage",
+        "metric_source": "trace",
+        "average_reward": 11.115228266090096,
+        "average_delay": 4.25106438125,
+        "average_energy": 16.966125,
+        "average_queue": 12.76475,
+        "processed_tasks": 24339,
+        "offload_ratio": 0.6437815851103168,
+        "edge_offload_ratio": 0.3308270676691729,
+        "cloud_offload_ratio": 0.31295451744114383,
+        "cloud_share_of_remote": 0.48611908864637177,
+        "cloud_minus_edge_ratio": -0.017872550228029083
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "good_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 13.273486826314311,
+        "average_delay": 4.225199891666666,
+        "average_energy": 17.478975000000002,
+        "average_queue": 12.700125,
+        "processed_tasks": 24538,
+        "offload_ratio": 0.6251935773086641,
+        "edge_offload_ratio": 0.3383731355448692,
+        "cloud_offload_ratio": 0.28682044176379495,
+        "cloud_share_of_remote": 0.45877061469265373,
+        "cloud_minus_edge_ratio": -0.051552693781074244
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "weak_coverage",
+        "metric_source": "trace",
+        "average_reward": 2.108610709368399,
+        "average_delay": 4.953371147916666,
+        "average_energy": 31.453525000000003,
+        "average_queue": 12.985375,
+        "processed_tasks": 23269,
+        "offload_ratio": 0.6203962353345653,
+        "edge_offload_ratio": 0.3397653530448236,
+        "cloud_offload_ratio": 0.2806308822897417,
+        "cloud_share_of_remote": 0.45234136880022163,
+        "cloud_minus_edge_ratio": -0.05913447075508188
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "weak_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 5.447123409971176,
+        "average_delay": 4.911362808333333,
+        "average_energy": 30.8051,
+        "average_queue": 13.025,
+        "processed_tasks": 23096,
+        "offload_ratio": 0.5866383789400762,
+        "edge_offload_ratio": 0.34677000346380327,
+        "cloud_offload_ratio": 0.23986837547627296,
+        "cloud_share_of_remote": 0.40888626466897926,
+        "cloud_minus_edge_ratio": -0.1069016279875303
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "intermittent_coverage",
+        "metric_source": "trace",
+        "average_reward": 4.753215310266135,
+        "average_delay": 4.717704151041666,
+        "average_energy": 25.85755,
+        "average_queue": 12.90025,
+        "processed_tasks": 23680,
+        "offload_ratio": 0.6382601351351351,
+        "edge_offload_ratio": 0.33403716216216217,
+        "cloud_offload_ratio": 0.30422297297297296,
+        "cloud_share_of_remote": 0.47664417096731504,
+        "cloud_minus_edge_ratio": -0.02981418918918921
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "intermittent_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 7.5421700256676525,
+        "average_delay": 4.6834355812499995,
+        "average_energy": 25.50715,
+        "average_queue": 12.873125,
+        "processed_tasks": 23579,
+        "offload_ratio": 0.6092709614487468,
+        "edge_offload_ratio": 0.342592985283515,
+        "cloud_offload_ratio": 0.26667797616523176,
+        "cloud_share_of_remote": 0.43770012529583735,
+        "cloud_minus_edge_ratio": -0.07591500911828325
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "congested_edge",
+        "metric_source": "trace",
+        "average_reward": 8.921613305899635,
+        "average_delay": 4.481470946875,
+        "average_energy": 20.482075000000002,
+        "average_queue": 12.785625,
+        "processed_tasks": 23836,
+        "offload_ratio": 0.6493119650948146,
+        "edge_offload_ratio": 0.33164121496895455,
+        "cloud_offload_ratio": 0.31767075012586005,
+        "cloud_share_of_remote": 0.4892421011823997,
+        "cloud_minus_edge_ratio": -0.013970464843094499
+      },
+      {
+        "seed": 2,
+        "coverage_scenario": "congested_edge",
+        "metric_source": "greedy_eval",
+        "average_reward": 11.239388037300436,
+        "average_delay": 4.457288177083334,
+        "average_energy": 20.551025000000003,
+        "average_queue": 12.750875,
+        "processed_tasks": 23955,
+        "offload_ratio": 0.6245877687330411,
+        "edge_offload_ratio": 0.32790649133792527,
+        "cloud_offload_ratio": 0.29668127739511585,
+        "cloud_share_of_remote": 0.4750033417992247,
+        "cloud_minus_edge_ratio": -0.031225213942809416
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "balanced",
+        "metric_source": "trace",
+        "average_reward": 7.70792642099123,
+        "average_delay": 4.438492766666666,
+        "average_energy": 21.6232,
+        "average_queue": 12.68775,
+        "processed_tasks": 23800,
+        "offload_ratio": 0.6548739495798319,
+        "edge_offload_ratio": 0.3520168067226891,
+        "cloud_offload_ratio": 0.3028571428571429,
+        "cloud_share_of_remote": 0.46246631592454773,
+        "cloud_minus_edge_ratio": -0.04915966386554621
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "balanced",
+        "metric_source": "greedy_eval",
+        "average_reward": 10.335355326555149,
+        "average_delay": 4.4021787281249996,
+        "average_energy": 21.737299999999998,
+        "average_queue": 12.608125,
+        "processed_tasks": 23859,
+        "offload_ratio": 0.631334087765623,
+        "edge_offload_ratio": 0.36061863447755566,
+        "cloud_offload_ratio": 0.2707154532880674,
+        "cloud_share_of_remote": 0.4287990440151364,
+        "cloud_minus_edge_ratio": -0.08990318118948826
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "good_coverage",
+        "metric_source": "trace",
+        "average_reward": 10.859574436223056,
+        "average_delay": 4.2703413020833345,
+        "average_energy": 16.256575,
+        "average_queue": 12.875875,
+        "processed_tasks": 23665,
+        "offload_ratio": 0.6533276991337418,
+        "edge_offload_ratio": 0.33784069300654973,
+        "cloud_offload_ratio": 0.31548700612719205,
+        "cloud_share_of_remote": 0.4828924390401656,
+        "cloud_minus_edge_ratio": -0.02235368687935768
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "good_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 13.068813979849379,
+        "average_delay": 4.232427315625,
+        "average_energy": 16.751225,
+        "average_queue": 12.779375,
+        "processed_tasks": 23884,
+        "offload_ratio": 0.6352369787305309,
+        "edge_offload_ratio": 0.348559705242003,
+        "cloud_offload_ratio": 0.2866772734885279,
+        "cloud_share_of_remote": 0.45129185341418404,
+        "cloud_minus_edge_ratio": -0.06188243175347513
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "weak_coverage",
+        "metric_source": "trace",
+        "average_reward": 1.9071183879267086,
+        "average_delay": 4.9377249406249994,
+        "average_energy": 30.898299999999995,
+        "average_queue": 12.89325,
+        "processed_tasks": 23028,
+        "offload_ratio": 0.6314920965780788,
+        "edge_offload_ratio": 0.3513114469341671,
+        "cloud_offload_ratio": 0.28018064964391176,
+        "cloud_share_of_remote": 0.44368037408884614,
+        "cloud_minus_edge_ratio": -0.07113079729025534
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "weak_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 5.573143160609227,
+        "average_delay": 4.901282308333333,
+        "average_energy": 30.202325,
+        "average_queue": 12.9525,
+        "processed_tasks": 22804,
+        "offload_ratio": 0.5944132608314331,
+        "edge_offload_ratio": 0.36291878617786355,
+        "cloud_offload_ratio": 0.23149447465356954,
+        "cloud_share_of_remote": 0.3894503873109553,
+        "cloud_minus_edge_ratio": -0.131424311524294
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "intermittent_coverage",
+        "metric_source": "trace",
+        "average_reward": 5.217123497236285,
+        "average_delay": 4.666673558333334,
+        "average_energy": 25.3361,
+        "average_queue": 12.80225,
+        "processed_tasks": 23657,
+        "offload_ratio": 0.6378661706894365,
+        "edge_offload_ratio": 0.34104070676755294,
+        "cloud_offload_ratio": 0.2968254639218836,
+        "cloud_share_of_remote": 0.46534128561961563,
+        "cloud_minus_edge_ratio": -0.044215242845669356
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "intermittent_coverage",
+        "metric_source": "greedy_eval",
+        "average_reward": 8.225409706146861,
+        "average_delay": 4.639265117708334,
+        "average_energy": 25.0334,
+        "average_queue": 12.82175,
+        "processed_tasks": 23596,
+        "offload_ratio": 0.6089167655534836,
+        "edge_offload_ratio": 0.3471774877097813,
+        "cloud_offload_ratio": 0.2617392778437023,
+        "cloud_share_of_remote": 0.4298440979955457,
+        "cloud_minus_edge_ratio": -0.08543820986607897
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "congested_edge",
+        "metric_source": "trace",
+        "average_reward": 9.123573115575516,
+        "average_delay": 4.478173813541667,
+        "average_energy": 20.451675,
+        "average_queue": 12.80175,
+        "processed_tasks": 24005,
+        "offload_ratio": 0.6458654446990211,
+        "edge_offload_ratio": 0.333263903353468,
+        "cloud_offload_ratio": 0.312601541345553,
+        "cloud_share_of_remote": 0.4840041279669762,
+        "cloud_minus_edge_ratio": -0.02066236200791499
+      },
+      {
+        "seed": 3,
+        "coverage_scenario": "congested_edge",
+        "metric_source": "greedy_eval",
+        "average_reward": 11.27815025186721,
+        "average_delay": 4.445727536458333,
+        "average_energy": 20.446225000000002,
+        "average_queue": 12.70775,
+        "processed_tasks": 24098,
+        "offload_ratio": 0.6283094032699809,
+        "edge_offload_ratio": 0.3340526184745622,
+        "cloud_offload_ratio": 0.2942567847954187,
+        "cloud_share_of_remote": 0.46833102172908003,
+        "cloud_minus_edge_ratio": -0.039795833679143466
+      }
+    ]
+  },
+  "key_findings": [
+    {
+      "hypothesis": "weak_coverage_少云",
+      "source": "trace",
+      "passed": true,
+      "stable_ratio": 1.0,
+      "mean_delta": -0.02879024416049003,
+      "summary": "通过，稳定比例 1.00，均值差异 -0.0288。"
+    },
+    {
+      "hypothesis": "congested_edge_转云",
+      "source": "trace",
+      "passed": true,
+      "stable_ratio": 1.0,
+      "mean_delta": 0.013375639992119806,
+      "summary": "通过，稳定比例 1.00，均值差异 0.0134。"
+    },
+    {
+      "hypothesis": "area_risk_抑制云端卸载",
+      "source": "trace",
+      "passed": true,
+      "stable_ratio": 1.0,
+      "mean_delta": -0.02254111635636622,
+      "summary": "通过，稳定比例 1.00，均值差异 -0.0225。"
+    },
+    {
+      "hypothesis": "data_sensitivity_抑制云端卸载",
+      "source": "greedy_trace",
+      "passed": true,
+      "stable_ratio": 1.0,
+      "mean_delta": -0.05227726336393063,
+      "summary": "通过，稳定比例 1.00，均值差异 -0.0523。"
+    }
+  ]
+}

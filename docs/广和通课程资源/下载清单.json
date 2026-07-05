@@ -1,0 +1,662 @@
+{
+  "records": [
+    {
+      "category": "01_平台介绍及基本使用",
+      "course": "01_边缘AIoT开发套件V3",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 537950,
+      "path": "01_平台介绍及基本使用/01_边缘AIoT开发套件V3/课件/边缘AIoT开发套件V3（2026版）--20260113.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/79/wKgZPGlopEeAIkcLAAg1XsksvUs294.pdf"
+    },
+    {
+      "category": "01_平台介绍及基本使用",
+      "course": "02_开箱指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "01_平台介绍及基本使用/02_开箱指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27898.html"
+    },
+    {
+      "category": "01_平台介绍及基本使用",
+      "course": "03_Fibocom_EVB-SOC-U-开发板使用指南_V1.2",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 2152183,
+      "path": "01_平台介绍及基本使用/03_Fibocom_EVB-SOC-U-开发板使用指南_V1.2/课件/Fibocom_EVB-SOC-U-开发板使用指南_V1.2（SC171开发套件V3）.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/1A/C7/wKgZPGgqp8qAKn9KACDW9zLfWqA406.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "01_WIFI连接指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "02_软件平台的使用/01_WIFI连接指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27881.html"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "01_WIFI连接指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1123681,
+      "path": "02_软件平台的使用/01_WIFI连接指南/课件/WIFI连接指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/0F/C5/wKgZPGfzMTyAHkwxABElYcGlWhs584.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "02_电脑远程桌面投屏操作指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "02_软件平台的使用/02_电脑远程桌面投屏操作指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27882.html"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "02_电脑远程桌面投屏操作指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 944920,
+      "path": "02_软件平台的使用/02_电脑远程桌面投屏操作指南/课件/电脑远程桌面投屏操作指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/0F/DC/wKgZO2fzMjKAFJyxAA5rGMl5PnQ110.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "03_终端操作及程序启动指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "02_软件平台的使用/03_终端操作及程序启动指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27883.html"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "03_终端操作及程序启动指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1125284,
+      "path": "02_软件平台的使用/03_终端操作及程序启动指南/课件/终端操作及程序启动指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/36/wKgZPGf_dReAHyH-ABErpBXM9Ac408.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "03_终端操作及程序启动指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 154,
+      "path": "02_软件平台的使用/03_终端操作及程序启动指南/工程源码/工程源码.rar",
+      "url": "https://file1.elecfans.com/web3/M00/12/36/wKgZPGf_dMGAKO2VAAAAmnW1Clw479.rar"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "04_VS_Code远程连接指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "02_软件平台的使用/04_VS_Code远程连接指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27884.html"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "04_VS_Code远程连接指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1643390,
+      "path": "02_软件平台的使用/04_VS_Code远程连接指南/课件/VS Code远程连接指南_2025.2.25.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/4C/wKgZO2f_dQiAGMGdABkTfkQgxYw050.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "05_Xshell远程连接指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "02_软件平台的使用/05_Xshell远程连接指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27886.html"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "05_Xshell远程连接指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1319305,
+      "path": "02_软件平台的使用/05_Xshell远程连接指南/课件/Xshell远程连接指南_2025.2.25.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/4C/wKgZO2f_dUaATgevABQhie0AqjY009.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "06_文件传输指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "02_软件平台的使用/06_文件传输指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27885.html"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "06_文件传输指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1665593,
+      "path": "02_软件平台的使用/06_文件传输指南/课件/文件传输指南_2025.1.14.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/37/wKgZPGf_dYiALBWoABlqOWc6Qf8903.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "07_同一局域网下VNC投屏操作指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "02_软件平台的使用/07_同一局域网下VNC投屏操作指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27888.html"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "07_同一局域网下VNC投屏操作指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1589842,
+      "path": "02_软件平台的使用/07_同一局域网下VNC投屏操作指南/课件/同一局域网下VNC投屏操作指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/37/wKgZPGf_ddyAL0h4ABhCUvEWXZM365.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "08_中文输入法配置指南-基于Fcitx框架",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 723664,
+      "path": "02_软件平台的使用/08_中文输入法配置指南-基于Fcitx框架/课件/中文输入法配置指南------基于Fcitx框架.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/2D/02/wKgZPGi1a7OACG9ZAAsK0FTgLFc263.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "09_QT功能使用",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 672948,
+      "path": "02_软件平台的使用/09_QT功能使用/课件/QT功能测试（SC171开发套件V3）_V1.1_20240715.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/26/BF/wKgZPGiIbOiARWS2AApEtAoM9fs553.pdf"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "09_QT功能使用",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 311,
+      "path": "02_软件平台的使用/09_QT功能使用/工程源码/qt_test.rar",
+      "url": "https://file1.elecfans.com/web3/M00/17/F2/wKgZO2gO2k2AEQP6AAABNyFfXyg726.rar"
+    },
+    {
+      "category": "02_软件平台的使用",
+      "course": "10_ROS2功能使用",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 720427,
+      "path": "02_软件平台的使用/10_ROS2功能使用/课件/ROS2功能测试（SC171开发套件V3）_V1.1_20240529.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/18/0E/wKgZPGgQL-aADRsrAAr-K8UNfEo792.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "01_软件及硬件工具准备",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 551717,
+      "path": "03_硬件配件测试与使用/01_软件及硬件工具准备/工程源码/软件工具.zip",
+      "url": "https://file1.elecfans.com/web3/M00/12/46/wKgZPGf_hJ6AS99RAAhrJRJzMQA287.zip"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "02_硬件配件清单指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 10076,
+      "path": "03_硬件配件测试与使用/02_硬件配件清单指南/课件/01--硬件配件清单指南.xlsx",
+      "url": "https://file1.elecfans.com/web3/M00/12/51/wKgZO2f_eumAQT8wAAAnXOCQ8Wo99.xlsx"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "03_摄像头测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 786730,
+      "path": "03_硬件配件测试与使用/03_摄像头测试指南/课件/摄像头测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/3B/wKgZPGf_ex2AaUvyAAwBKjO9TI4682.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "03_摄像头测试指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 641,
+      "path": "03_硬件配件测试与使用/03_摄像头测试指南/工程源码/工程源码.zip",
+      "url": "https://file1.elecfans.com/web3/M00/12/3C/wKgZPGf_ezuATIgNAAACga2qdGc032.zip"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "04_麦克风测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 733198,
+      "path": "03_硬件配件测试与使用/04_麦克风测试指南/课件/麦克风测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/52/wKgZO2f_e8qARsY5AAswDvtnQac160.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "04_麦克风测试指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 600,
+      "path": "03_硬件配件测试与使用/04_麦克风测试指南/工程源码/工程源码.zip",
+      "url": "https://file1.elecfans.com/web3/M00/12/3C/wKgZPGf_e9iAfOWuAAACWOE4TBE034.zip"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "05_喇叭测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 733160,
+      "path": "03_硬件配件测试与使用/05_喇叭测试指南/课件/喇叭测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/52/wKgZO2f_e7WAFtXMAAsv6CuLCww611.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "05_喇叭测试指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 1348,
+      "path": "03_硬件配件测试与使用/05_喇叭测试指南/工程源码/工程源码.zip",
+      "url": "https://file1.elecfans.com/web3/M00/1D/4F/wKgZO2hBQQKAQuNsAAAFRME-J40567.zip"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "06_HDMI测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 745941,
+      "path": "03_硬件配件测试与使用/06_HDMI测试指南/课件/HDMI测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/16/BE/wKgZPGgHEgSAfwFlAAth1XN9rOQ216.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "07_串口测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 725695,
+      "path": "03_硬件配件测试与使用/07_串口测试指南/课件/串口测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/52/wKgZO2f_fEKAECsHAAsSv6kNimQ192.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "08_CAN口测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 730805,
+      "path": "03_硬件配件测试与使用/08_CAN口测试指南/课件/CAN口测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/52/wKgZO2f_fFqAHTGIAAsmtd9xPCQ480.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "09_GPIO测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1010326,
+      "path": "03_硬件配件测试与使用/09_GPIO测试指南/课件/GPIO调试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/28/78/wKgZO2iUHtaAdC4yAA9qljcG6cA421.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "10_ADC测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 661356,
+      "path": "03_硬件配件测试与使用/10_ADC测试指南/课件/ADC测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/3D/wKgZPGf_fJmARWbeAAoXbEA7l90190.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "11_RS232测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 609471,
+      "path": "03_硬件配件测试与使用/11_RS232测试指南/课件/RS232测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/1A/DB/wKgZO2gqqDWAWumfAAlMv1TNNuo790.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "12_RS485测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 814460,
+      "path": "03_硬件配件测试与使用/12_RS485测试指南/课件/RS485测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/1A/C7/wKgZPGgqqD6Ae82dAAxtfBiIwgI672.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "13_PWM测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 591070,
+      "path": "03_硬件配件测试与使用/13_PWM测试指南/课件/PWM测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/5A/wKgZO2f_g2mAcZguAAkE3lQraxg636.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "14_CH340驱动测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 538656,
+      "path": "03_硬件配件测试与使用/14_CH340驱动测试指南/课件/CH340驱动测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/29/CF/wKgZO2ieiKuAIYhtAAg4IKqeK0g068.pdf"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "14_CH340驱动测试指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 136733,
+      "path": "03_硬件配件测试与使用/14_CH340驱动测试指南/工程源码/ch341.ko文件包.zip",
+      "url": "https://file1.elecfans.com/web3/M00/29/BC/wKgZO2idsXyAKABzAAIWHbDY0hE478.zip"
+    },
+    {
+      "category": "03_硬件配件测试与使用",
+      "course": "15_LAN口测试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 495479,
+      "path": "03_硬件配件测试与使用/15_LAN口测试指南/课件/LAN口测试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/4A/3D/wKgZPGmAAQeAIpfKAAePd-QEHkY342.pdf"
+    },
+    {
+      "category": "04_AI端侧部署开发",
+      "course": "01_Fibo_AI_Stack模型转化指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "04_AI端侧部署开发/01_Fibo_AI_Stack模型转化指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28525.html"
+    },
+    {
+      "category": "04_AI端侧部署开发",
+      "course": "01_Fibo_AI_Stack模型转化指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1412835,
+      "path": "04_AI端侧部署开发/01_Fibo_AI_Stack模型转化指南/课件/Fibo AI Stack模型转化指南------Docker Desktop环境操作_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/4D/7F/wKgZO2mqfxaAXI52ABWO44eaLIY717.pdf"
+    },
+    {
+      "category": "04_AI端侧部署开发",
+      "course": "02_Fibo_AI_Stack模型推理指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "04_AI端侧部署开发/02_Fibo_AI_Stack模型推理指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28526.html"
+    },
+    {
+      "category": "04_AI端侧部署开发",
+      "course": "02_Fibo_AI_Stack模型推理指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 764336,
+      "path": "04_AI端侧部署开发/02_Fibo_AI_Stack模型推理指南/课件/Fibo AI Stack模型推理指南_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/65/wKgZO2loURaASbf3AAupsB5yLZ4123.pdf"
+    },
+    {
+      "category": "04_AI端侧部署开发",
+      "course": "02_Fibo_AI_Stack模型推理指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 4347,
+      "path": "04_AI端侧部署开发/02_Fibo_AI_Stack模型推理指南/工程源码/模型推理指南_V2.0.zip",
+      "url": "https://file1.elecfans.com/web3/M00/47/0C/wKgZPGll_Q-AJr-AAAAQ-xlx3y8900.zip"
+    },
+    {
+      "category": "05_AI端侧部署案例",
+      "course": "01_初学者入门手写数字识别案例",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "05_AI端侧部署案例/01_初学者入门手写数字识别案例/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28527.html"
+    },
+    {
+      "category": "05_AI端侧部署案例",
+      "course": "01_初学者入门手写数字识别案例",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1442158,
+      "path": "05_AI端侧部署案例/01_初学者入门手写数字识别案例/课件/初学者入门手写数字识别案例_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/61/wKgZPGloU5WAIP26ABYBbupE8yY282.pdf"
+    },
+    {
+      "category": "05_AI端侧部署案例",
+      "course": "01_初学者入门手写数字识别案例",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 1758299,
+      "path": "05_AI端侧部署案例/01_初学者入门手写数字识别案例/工程源码/初学者入门手写数字识别案例_V2.0.7z",
+      "url": "https://file1.elecfans.com/web3/M00/47/61/wKgZPGloU6CAerveABrUW4hGStg5526.7z"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "01_人体目标检测_Yolov5案例",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "06_AI功能/01_人体目标检测_Yolov5案例/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28528.html"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "01_人体目标检测_Yolov5案例",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 748264,
+      "path": "06_AI功能/01_人体目标检测_Yolov5案例/课件/人体目标检测（Yolov5）案例_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/61/wKgZPGloVpmADw0MAAtq6FEkvag389.pdf"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "01_人体目标检测_Yolov5案例",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 4589992,
+      "path": "06_AI功能/01_人体目标检测_Yolov5案例/工程源码/人体目标检测案例_V2.0.zip",
+      "url": "https://file1.elecfans.com/web3/M00/47/66/wKgZO2loVqSAdKYoAEYJqLs-Vjo224.zip"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "02_图像语义分割_deeplabv3案例",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "06_AI功能/02_图像语义分割_deeplabv3案例/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28529.html"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "02_图像语义分割_deeplabv3案例",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 622027,
+      "path": "06_AI功能/02_图像语义分割_deeplabv3案例/课件/图像语义分割（deeplabv3）案例_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/67/wKgZO2loWaqAFUlrAAl9y09eB7E536.pdf"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "03_图像超分辨率_real_esrgan_x4plus案例",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "06_AI功能/03_图像超分辨率_real_esrgan_x4plus案例/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28530.html"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "03_图像超分辨率_real_esrgan_x4plus案例",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 562584,
+      "path": "06_AI功能/03_图像超分辨率_real_esrgan_x4plus案例/课件/图像超分辨率（real esrgan x4plus）案例_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/63/wKgZPGloWoiAMr6aAAiVmFKr_xw121.pdf"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "04_语音识别案例_广和通自研模型",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "06_AI功能/04_语音识别案例_广和通自研模型/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28531.html"
+    },
+    {
+      "category": "06_AI功能",
+      "course": "04_语音识别案例_广和通自研模型",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 672704,
+      "path": "06_AI功能/04_语音识别案例_广和通自研模型/课件/语音识别案例----基于广和通自研语音识别模型_V1.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/51/1B/wKgZO2nGSe2AdJBiAApDwBO2hTQ604.pdf"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "01_火山引擎大模型调试指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "07_大模型实战/01_火山引擎大模型调试指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28535.html"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "01_火山引擎大模型调试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1454322,
+      "path": "07_大模型实战/01_火山引擎大模型调试指南/课件/火山引擎大模型调试指南----基于SC171开发套件V3_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/65/wKgZPGloYliAUGl5ABYw8udVhOs320.pdf"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "01_火山引擎大模型调试指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 7124,
+      "path": "07_大模型实战/01_火山引擎大模型调试指南/工程源码/火山引擎_V2.0.zip",
+      "url": "https://file1.elecfans.com/web3/M00/47/6A/wKgZO2loYmKAP1TXAAAb1D6BUSE502.zip"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "02_DeepSeek大模型调试指南",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "07_大模型实战/02_DeepSeek大模型调试指南/视频链接.txt",
+      "url": "https://t.elecfans.com/v/27887.html"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "02_DeepSeek大模型调试指南",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 1331041,
+      "path": "07_大模型实战/02_DeepSeek大模型调试指南/课件/DeepSeek大模型调试指南.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/12/63/wKgZO2f_i7WAdjHsABRPYeDozzw842.pdf"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "02_DeepSeek大模型调试指南",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 1085,
+      "path": "07_大模型实战/02_DeepSeek大模型调试指南/工程源码/DeepSeek大模型.zip",
+      "url": "https://file1.elecfans.com/web3/M00/12/4E/wKgZPGf_i8WALrgbAAAEPeKROdo803.zip"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "03_智能体测项目案例_引体向上测试",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "07_大模型实战/03_智能体测项目案例_引体向上测试/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28532.html"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "03_智能体测项目案例_引体向上测试",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 774392,
+      "path": "07_大模型实战/03_智能体测项目案例_引体向上测试/课件/智能体测项目案例（引体向上测试）_V1.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/68/wKgZO2loXg-AUWlkAAvQ-Cr_g_k703.pdf"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "04_自研模型部署案例_FiboSeg语义分割模型",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "07_大模型实战/04_自研模型部署案例_FiboSeg语义分割模型/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28533.html"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "04_自研模型部署案例_FiboSeg语义分割模型",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 561415,
+      "path": "07_大模型实战/04_自研模型部署案例_FiboSeg语义分割模型/课件/自研模型部署案例----基于广和通自研FiboSeg语义分割模型_V1.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/64/wKgZPGloXlqAL91kAAiRBweIBGk856.pdf"
+    },
+    {
+      "category": "07_大模型实战",
+      "course": "04_自研模型部署案例_FiboSeg语义分割模型",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 16856461,
+      "path": "07_大模型实战/04_自研模型部署案例_FiboSeg语义分割模型/工程源码/自研大模型部署案例_V1.0.zip",
+      "url": "https://file1.elecfans.com/web3/M00/47/68/wKgZO2loXk2AfafQAQE1jSZhghM865.zip"
+    },
+    {
+      "category": "08_云平台连接",
+      "course": "01_SC171连接华为云案例",
+      "kind": "视频链接",
+      "status": "saved_link",
+      "size": 0,
+      "path": "08_云平台连接/01_SC171连接华为云案例/视频链接.txt",
+      "url": "https://t.elecfans.com/v/28534.html"
+    },
+    {
+      "category": "08_云平台连接",
+      "course": "01_SC171连接华为云案例",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 2552289,
+      "path": "08_云平台连接/01_SC171连接华为云案例/课件/华为云连接指南_V2.0.pdf",
+      "url": "https://file1.elecfans.com/web3/M00/47/6A/wKgZO2loY-OATjQ3ACbx4bDL5GE674.pdf"
+    },
+    {
+      "category": "08_云平台连接",
+      "course": "01_SC171连接华为云案例",
+      "kind": "工程源码",
+      "status": "downloaded",
+      "size": 53336,
+      "path": "08_云平台连接/01_SC171连接华为云案例/工程源码/华为云连接.zip",
+      "url": "https://file1.elecfans.com/web3/M00/47/65/wKgZPGloZYmANINUAADQWPS7aeM732.zip"
+    },
+    {
+      "category": "课程序目录树",
+      "course": "课程序目录树",
+      "kind": "课件",
+      "status": "downloaded",
+      "size": 13253,
+      "path": "课程序目录树/SC171开发套件V3（2026版）课程目录树--20260202.xlsx",
+      "url": "https://file1.elecfans.com/web3/M00/4A/3D/wKgZPGmAAhmATWZtAAAzxVP8tsI52.xlsx"
+    }
+  ],
+  "errors": []
+}

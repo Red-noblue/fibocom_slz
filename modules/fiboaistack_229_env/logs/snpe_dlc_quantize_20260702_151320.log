@@ -1,0 +1,5 @@
+[sudo] password for fibo: [INFO] InitializeStderr: DebugLog initialized.
+[INFO] Processed command-line arguments
+[INFO] Quantized parameters
+qemu: uncaught target signal 4 (Illegal instruction) - core dumped
+/opt/2.29.0.241129/bin/x86_64-linux-clang/snpe-dlc-quantize: line 619:  4785 Illegal instruction     $cmd

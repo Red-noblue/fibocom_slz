@@ -1,0 +1,180 @@
+\begin{thebibliography}{10}
+\urlstyle{rm}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname doiprefix\endcsname\relax\def\doiprefix{DOI: }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{stolaroff2018energy}
+\bibinfo{author}{Stolaroff, J.~K.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Energy use and life cycle
+  greenhouse gas emissions of drones for commercial package delivery}}.
+\newblock {\emph{\JournalTitle{Nature communications}}}
+  \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{409} (\bibinfo{year}{2018}).
+
+\bibitem{zhang2020energy}
+\bibinfo{author}{Zhang, J.}, \bibinfo{author}{Campbell, J.~F.},
+  \bibinfo{author}{II, D. C.~S.} \& \bibinfo{author}{Hupman, A.~C.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Energy consumption models for
+  delivery drones: A comparison and assessment}}.
+\newblock {\emph{\JournalTitle{Preprint}}}  (\bibinfo{year}{2020}).
+
+\bibitem{liu2017power}
+\bibinfo{author}{Liu, Z.}, \bibinfo{author}{Sengupta, R.} \&
+  \bibinfo{author}{Kurzhanskiy, A.}
+\newblock \bibinfo{title}{A power consumption model for multi-rotor small
+  unmanned aircraft systems}.
+\newblock In \emph{\bibinfo{booktitle}{2017 International Conference on
+  Unmanned Aircraft Systems (ICUAS)}}, \bibinfo{pages}{310--315}
+  (\bibinfo{organization}{IEEE}, \bibinfo{year}{2017}).
+
+\bibitem{bezzo2016}
+\bibinfo{author}{{Bezzo}, N.} \emph{et~al.}
+\newblock \bibinfo{title}{Online planning for energy-efficient and
+  disturbance-aware uav operations}.
+\newblock In \emph{\bibinfo{booktitle}{2016 IEEE/RSJ International Conference
+  on Intelligent Robots and Systems (IROS)}}, \bibinfo{pages}{5027--5033}
+  (\bibinfo{year}{2016}).
+
+\bibitem{troudi2018}
+\bibinfo{author}{Troudi, A.}, \bibinfo{author}{Addouche, S.-A.},
+  \bibinfo{author}{Dellagi, S.} \& \bibinfo{author}{El~Mhamedi, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Sizing of the drone delivery fleet
+  considering energy autonomy}}.
+\newblock {\emph{\JournalTitle{Sustainability}}} \textbf{\bibinfo{volume}{10}},
+  \bibinfo{pages}{3344}, \url{https://doi.org/10.3390/su10093344}
+  (\bibinfo{year}{2018}).
+
+\bibitem{abdilla2015}
+\bibinfo{author}{{Abdilla}, A.}, \bibinfo{author}{{Richards}, A.} \&
+  \bibinfo{author}{{Burrow}, S.}
+\newblock \bibinfo{title}{Power and endurance modelling of battery-powered
+  rotorcraft}.
+\newblock In \emph{\bibinfo{booktitle}{2015 IEEE/RSJ International Conference
+  on Intelligent Robots and Systems (IROS)}}, \bibinfo{pages}{675--680}
+  (\bibinfo{year}{2015}).
+
+\bibitem{FIGLIOZZI2017251}
+\bibinfo{author}{Figliozzi, M.~A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Lifecycle modeling and assessment
+  of unmanned aerial vehicles (Drones) CO2e emissions}}}.
+\newblock {\emph{\JournalTitle{Transportation Research Part D: Transport and
+  Environment}}} \textbf{\bibinfo{volume}{57}}, \bibinfo{pages}{251 -- 261},
+  \url{https://doi.org/10.1016/j.trd.2017.09.011} (\bibinfo{year}{2017}).
+
+\bibitem{abeywickrama2018empirical}
+\bibinfo{author}{Abeywickrama, H.~V.}, \bibinfo{author}{Jayawickrama, B.~A.},
+  \bibinfo{author}{He, Y.} \& \bibinfo{author}{Dutkiewicz, E.}
+\newblock \bibinfo{title}{Empirical power consumption model for uavs}.
+\newblock In \emph{\bibinfo{booktitle}{2018 IEEE 88th Vehicular Technology
+  Conference (VTC-Fall)}}, \bibinfo{pages}{1--5} (\bibinfo{organization}{IEEE},
+  \bibinfo{year}{2018}).
+
+\bibitem{maekawa2017power}
+\bibinfo{author}{Maekawa, K.}, \bibinfo{author}{Negoro, S.},
+  \bibinfo{author}{Taniguchi, I.} \& \bibinfo{author}{Tomiyama, H.}
+\newblock \bibinfo{title}{Power measurement and modeling of quadcopters on
+  horizontal flight}.
+\newblock In \emph{\bibinfo{booktitle}{2017 Fifth International Symposium on
+  Computing and Networking (CANDAR)}}, \bibinfo{pages}{326--329}
+  (\bibinfo{organization}{IEEE}, \bibinfo{year}{2017}).
+
+\bibitem{prasetia2019mission}
+\bibinfo{author}{Prasetia, A.~S.}, \bibinfo{author}{Wai, R.-J.},
+  \bibinfo{author}{Wen, Y.-L.} \& \bibinfo{author}{Wang, Y.-K.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Mission-based energy consumption
+  prediction of multirotor uav}}.
+\newblock {\emph{\JournalTitle{IEEE Access}}} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{33055--33063} (\bibinfo{year}{2019}).
+
+\bibitem{DJI}
+\bibinfo{author}{{DJI}}.
+\newblock \bibinfo{title}{{Matrice 100 }}.
+\newblock \bibinfo{howpublished}{\url{https://www.dji.com/matrice100/info}}
+  (\bibinfo{year}{2020}).
+
+\bibitem{djiCAD}
+\bibinfo{title}{Matrice 100 - airframe cad}.
+\newblock
+  \bibinfo{howpublished}{\url{https://download.dji-innovations.com/downloads/dev/Matrice/M100_Airframe__CAD.STEP}}.
+
+\bibitem{FTTechnologies}
+\bibinfo{author}{FTTechnologies}.
+\newblock \bibinfo{title}{{FT205 Light Weight: Acoustic Resonance Wind
+  Sensor}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://fttechnologies.com/wp-content/uploads/2019/04/FT205-Datasheet.pdf}}.
+
+\bibitem{Lord2018}
+\bibinfo{author}{Lord}.
+\newblock \bibinfo{title}{{3DM {\textregistered}-GX5-45 GNSS-Aided Inertial
+  Navigation System (GNSS/INS)}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.microstrain.com/inertial/3dm-gx5-45}}
+  (\bibinfo{year}{2018}).
+
+\bibitem{MAUCH}
+\bibinfo{author}{MAUCH}.
+\newblock \bibinfo{title}{{100A / 200A Hall Sensor PM for Pixhawk / APM -
+  PL-xxx Sensor Boards}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.mauch-electronic.com/pl-xxx-sensor-boards?{\_}{\_}cf{\_}chl{\_}jschl{\_}tk{\_}{\_}=12212558db3b9add2522211c95fc5f937130b75b-1597429562-0-AU3AqR6UC9s8esr64DqEcoZ8NX2y6Nicn1bRS6mx9dvODUwJaNtE0Rd7mXbTUCUmfa-8NGeWvQGY9oeZO5J1CjqVCnEr0Sk6Fyey7DgfA3wWnl1OgQFqkYOcqg36S23}}.
+
+\bibitem{Foundation2010}
+\bibinfo{author}{ROS.org, O. S. R.~F.}
+\newblock \bibinfo{title}{{ApproximateTime}}.
+\newblock
+  \bibinfo{howpublished}{\url{http://wiki.ros.org/message_filters/ApproximateTime}}
+  (\bibinfo{year}{2010}).
+
+\bibitem{part107}
+\bibinfo{author}{{Federal Aviation Administration}}.
+\newblock \bibinfo{title}{{14 CFR Parts 21, 43, 61, 91, 101, 107, 119, 133, and
+  183}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.faa.gov/uas/media/RIN_2120-AJ60_Clean_Signed.pdf}}
+  (\bibinfo{year}{2016}).
+
+\bibitem{Rodrigues}
+\bibinfo{author}{Rodrigues, T.~A.} \emph{et~al.}
+\newblock \bibinfo{title}{Data collected with package delivery quadcopter
+  drone. \textit{figshare}}, \url{https://doi.org/10.1184/R1/12683453}
+  (\bibinfo{year}{2020}).
+
+\bibitem{garibaldi2010uav}
+\bibinfo{author}{Garibaldi~Castillo, O.} \& \bibinfo{author}{Londner, E.}
+\newblock \bibinfo{title}{Uav flight testing with an airborne sonic anemometer,
+  imu and gps}.
+\newblock In \emph{\bibinfo{booktitle}{28th AIAA Applied Aerodynamics
+  Conference}}, \bibinfo{pages}{4572} (\bibinfo{year}{2010}).
+
+\bibitem{bruschi2016wind}
+\bibinfo{author}{Bruschi, P.}, \bibinfo{author}{Piotto, M.},
+  \bibinfo{author}{Dell’Agnello, F.}, \bibinfo{author}{Ware, J.} \&
+  \bibinfo{author}{Roy, N.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Wind speed and direction detection
+  by means of solid-state anemometers embedded on small quadcopters}}.
+\newblock {\emph{\JournalTitle{Procedia Engineering}}}
+  \textbf{\bibinfo{volume}{168}}, \bibinfo{pages}{802--805}
+  (\bibinfo{year}{2016}).
+
+\bibitem{thorpe2018measurement}
+\bibinfo{author}{Thorpe, R.~L.}, \bibinfo{author}{McCrink, M.} \&
+  \bibinfo{author}{Gregory, J.~W.}
+\newblock \bibinfo{title}{Measurement of unsteady gusts in an urban wind field
+  using a uav-based anemometer}.
+\newblock In \emph{\bibinfo{booktitle}{2018 Applied Aerodynamics Conference}},
+  \bibinfo{pages}{4218} (\bibinfo{year}{2018}).
+
+\bibitem{Patrikar-2020-125335}
+\bibinfo{author}{Patrikar, J.}, \bibinfo{author}{Moon, B.} \&
+  \bibinfo{author}{Scherer, S.}
+\newblock \bibinfo{title}{Wind and the city: Utilizing uav-based in-situ
+  measurements for estimating urban wind fields}.
+\newblock In \emph{\bibinfo{booktitle}{Proceedings of (IROS) IEEE/RSJ
+  International Conference on Intelligent Robots and Systems}}
+  (\bibinfo{publisher}{IEEE/RSJ}, \bibinfo{year}{2020}).
+
+\end{thebibliography}

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-onnx-converter", line 108, in <module>
+    main()
+  File "/opt/2.29.0.241129/bin/x86_64-linux-clang/qnn-onnx-converter", line 45, in main
+    args = parser.parse_args()
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/common/utils/argparser_util.py", line 120, in parse_args
+    cmd_args = self.parser.parse_args(args, namespace)
+  File "/usr/lib/python3.10/argparse.py", line 1845, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/usr/lib/python3.10/argparse.py", line 1878, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/usr/lib/python3.10/argparse.py", line 2091, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/usr/lib/python3.10/argparse.py", line 2031, in consume_optional
+    take_action(action, args, option_string)
+  File "/usr/lib/python3.10/argparse.py", line 1955, in take_action
+    action(self, namespace, argument_values, option_string)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/common/utils/validation_utils.py", line 41, in __call__
+    io_utils.check_validity(value, create_missing_directory=create_missing_directory, must_exist=must_exist)
+  File "/opt/2.29.0.241129/lib/python/qti/aisw/converters/common/utils/io_utils.py", line 31, in check_validity
+    raise IOError('{} does not exist'.format(str(resource)))
+OSError: /workspace/modules/fiboaistack_229_env/inputs/htp_cdsp_minimal_calib/depthwise_conv/input_list.container.txt does not exist
